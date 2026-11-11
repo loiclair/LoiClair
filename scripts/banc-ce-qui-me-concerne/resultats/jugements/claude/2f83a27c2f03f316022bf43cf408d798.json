@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "locataire",
+    "raison": "La modification change, pour un logement loué en copropriété, la condition à laquelle l’obligation de décence énergétique est réputée satisfaite, ce qui touche directement les droits du locataire.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "proprietaire_bailleur",
+    "raison": "La modification change la condition permettant de considérer que le bailleur satisfait à l’obligation de décence énergétique pour un logement loué en copropriété.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00045565,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

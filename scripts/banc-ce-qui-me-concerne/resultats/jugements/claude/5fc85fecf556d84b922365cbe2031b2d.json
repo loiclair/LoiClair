@@ -1,0 +1,41 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "mineur",
+    "raison": "La condition d'âge exclut les mineurs d'un droit nouveau, ce qui ne change rien pour eux (règle 10).",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "jeune",
+    "raison": "La majorité de 18 ans est un seuil général, pas une mesure visant les 18-25 ans. La condition de maladie grave et incurable s'applique à tous.",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "etranger_hors_ue",
+    "raison": "Pour les non-Français, la résidence stable et régulière est la seule voie d'accès. La condition vise donc directement les étrangers vivant en France avec un statut régulier, par exemple titulaires d'un titre de séjour.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "etranger_ue",
+    "raison": "Même logique pour les ressortissants de l'UE qui résident en France : ils ne sont pas Français et doivent établir une résidence stable et régulière.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "malade_chronique",
+    "raison": "La condition vise une affection grave et incurable en phase avancée ou terminale. La définition de malade_chronique (maladie de longue durée demandant des soins réguliers) ne couvre pas cette situation (règle 8).",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.001677485,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

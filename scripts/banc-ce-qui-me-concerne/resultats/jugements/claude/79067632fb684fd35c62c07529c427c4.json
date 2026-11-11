@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "proprietaire_occupant",
+    "raison": "Le guichet 2 vise « le propriétaire » de toute construction située en zone d'exposition moyenne ou forte au retrait-gonflement des argiles, sous réserve d'une assurance multirisque habitation. Un propriétaire qui habite son bien en est directement bénéficiaire pour les travaux de stabilisation ou de réparation. Le texte n'est pas encore adopté, donc il se juge comme s'il s'appliquait.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000948885,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

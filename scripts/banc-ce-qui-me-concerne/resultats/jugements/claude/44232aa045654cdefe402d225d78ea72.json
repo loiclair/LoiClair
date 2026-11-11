@@ -1,0 +1,20 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "salarie_prive",
+    "raison": "L'article crée une circonstance aggravante du harcèlement moral au travail quand les comportements sont imposés par une politique d'entreprise. Cela protège les salariés, surtout du privé, qui en seraient victimes, et change leurs droits.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "chef_entreprise",
+   "dirigeant_grande_entreprise"
+  ]
+ },
+ "cout_usd": 0.0019587,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

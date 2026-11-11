@@ -1,0 +1,12 @@
+{
+ "impacts": [
+  {
+   "profil": "demandeur_emploi",
+   "phrase_fr": "Des personnes sans emploi pourraient être accompagnées par une entreprise d’insertion pour développer une activité indépendante ou trouver un emploi salarié.",
+   "phrase_en": "Unemployed people would be able to receive support from an insertion company to build an independent activity or find a salaried job.",
+   "passage": "Les entreprises d’insertion par le travail indépendant accompagnent, dans le cadre d’une activité exercée à titre indépendant, des personnes sans emploi rencontrant des difficultés sociales et professionnelles particulières",
+   "certitude": "probable"
+  }
+ ],
+ "cout_usd": 0.00162128
+}

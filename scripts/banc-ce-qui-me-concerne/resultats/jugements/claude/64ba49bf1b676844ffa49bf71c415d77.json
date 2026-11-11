@@ -1,0 +1,29 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_transport",
+    "raison": "L'article autorise les opérateurs de transports guidés urbains à installer des caméras frontales sur leurs matériels roulants et fixe finalités, durée de conservation et information du public : cela change leurs règles d'exploitation et leurs obligations professionnelles.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "salarie_prive",
+    "raison": "Le texte ne vise pas les salariés du privé en tant que tels : il s'adresse aux opérateurs de transport. Les conducteurs ne sont mentionnés qu'au titre de la formation du personnel de conduite, sans précision de statut privé ou public, et le statut serait prêté.",
+    "concerne": false,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "usager_transports",
+    "raison": "Le public voyageant dans ces transports est informé par une signalétique, et ses images peuvent être captées sur la voie publique : l'article crée une règle d'information qui touche les usagers.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0039307,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

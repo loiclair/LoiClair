@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "montagne",
+    "raison": "Le texte vise les communes situées en zone de montagne ; leurs habitants relèvent du profil montagne. Mais l'effet sur l'habitant passe par la commune et la communauté de communes (organisation des compétences), donc indirect.",
+    "concerne": false,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "elu_local",
+    "raison": "Le texte permet aux communes de montagne de décider par délibération, donc par leurs élus municipaux, de reprendre les compétences eau et assainissement, après avis de la communauté de communes. Cela change leurs prérogatives d'élus.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0031807,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

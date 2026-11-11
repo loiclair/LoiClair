@@ -1,0 +1,12 @@
+{
+ "resume_fr": "Porterait de 80 % à 100 % le taux du crédit d'impôt couvrant les dépenses de remplacement des agriculteurs en cas de maladie, d'accident du travail ou de formation.",
+ "resume_en": "Would raise from 80% to 100% the tax credit rate covering replacement costs for farmers during illness, workplace accident or training.",
+ "impacts": [
+  {
+   "profil": "secteur_agriculture",
+   "passage": "substituer au taux : « 80 % » le taux : « 100 % ».",
+   "certitude": "probable"
+  }
+ ],
+ "cout_usd": 0.00162467
+}

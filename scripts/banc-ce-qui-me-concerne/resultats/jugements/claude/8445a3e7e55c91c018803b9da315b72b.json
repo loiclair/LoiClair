@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_culture",
+    "raison": "Le texte présume certaines publications de presse qualifiées au sens du code de la propriété intellectuelle et prévoit une saisine de l’Arcom. Il vise les publications et leurs éditeurs, pas directement les règles du métier des personnes travaillant dans la presse.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000304275,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

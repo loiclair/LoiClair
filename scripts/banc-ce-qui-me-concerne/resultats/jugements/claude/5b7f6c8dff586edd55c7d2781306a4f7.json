@@ -1,0 +1,20 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "proprietaire_occupant",
+    "raison": "Le texte prévoit une aide du fonds pour les travaux concernant une construction en zone d’exposition moyenne ou forte, sous réserve que le propriétaire ait souscrit une assurance multirisque habitation. Un propriétaire occupant peut donc être directement visé si ces conditions sont réunies.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "proprietaire_bailleur",
+   "coproprietaire",
+   "residence_secondaire"
+  ]
+ },
+ "cout_usd": 0.000816775,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

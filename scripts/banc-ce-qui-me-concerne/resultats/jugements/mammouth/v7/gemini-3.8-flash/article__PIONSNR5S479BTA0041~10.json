@@ -1,0 +1,14 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "heritier_donateur",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "La réduction de 30 à 15 ans du délai d'acquisition des biens sans maître dans le cadre de successions ouvertes et non partagées a un impact direct sur les héritiers n'ayant pas encore fait valoir leurs droits."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00596325
+}

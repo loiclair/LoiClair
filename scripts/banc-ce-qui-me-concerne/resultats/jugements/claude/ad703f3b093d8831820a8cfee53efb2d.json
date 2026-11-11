@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_sante",
+    "raison": "L'article fixe le financement des soins palliatifs (hôpital de jour, unités de soins palliatifs, hospitalisation à domicile, équipes mobiles) : le financement des soins hospitaliers concerne le secteur de la santé.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "independant",
+    "raison": "Le point 10° mentionne les actes des professionnels de santé libéraux parmi les dépenses couvertes par l'enveloppe, ce qui vise les libéraux (infirmiers, médecins, kinés en libéral), même si le financement se fait via l'assurance maladie.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0030927,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

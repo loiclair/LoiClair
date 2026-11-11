@@ -1,0 +1,35 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "parent",
+    "raison": "Le texte accorde une demi-part aux contribuables qui assument la charge exclusive ou principale d'au moins deux enfants, ce qui vise directement les parents d'enfants à charge.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "imposable",
+    "raison": "La demi-part modifie directement le nombre de parts du quotient familial, donc le calcul de l'impôt sur le revenu des contribuables qui le paient. Le déclencheur reste le nombre d'enfants à charge.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "parent_isole",
+    "raison": "La condition est le nombre d'enfants à charge (charge exclusive ou principale), non le fait d'élever seul. Le texte vise tout contribuable qui remplit cette condition, couple compris ; le profil parent isolé n'est donc pas ciblé en tant que tel.",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "separe_divorce",
+    "raison": "Le texte ne mentionne ni séparation ni divorce. Il parle d'enfants réputés à charge égale de leurs parents, sans lien avec la situation de couple. La phrase de l'assistant ajoute une situation absente du texte.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.001161835,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

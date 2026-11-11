@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_sante",
+    "raison": "Le texte vise les professionnels de santé qui interviennent dans un établissement ou un lieu de soins avec contact avec des usagers, et prévoit une suspension notamment en cas de mise en examen liée à l’exercice de leur profession.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "etudiant",
+    "raison": "Le texte inclut explicitement les élèves et étudiants préparant aux professions de santé parmi les personnes concernées par la mesure de suspension.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000633275,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

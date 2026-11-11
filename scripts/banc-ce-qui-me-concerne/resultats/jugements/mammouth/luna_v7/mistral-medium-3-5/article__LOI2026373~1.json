@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_sante",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article modifie directement les conditions d'exercice des médecins, y compris ceux formés au Royaume-Uni avant le Brexit, ce qui concerne spécifiquement les professionnels du secteur santé."
+   },
+   {
+    "profil": "etranger_hors_ue",
+    "concerne": false,
+    "phrase_fidele": false,
+    "raison": "Le passage cité inclut explicitement les ressortissants du Royaume-Uni, mais ceux-ci ne sont pas classés comme 'étrangers hors UE' dans le catalogue. Le Royaume-Uni est un pays tiers à l'UE, mais le profil 'etranger_hors_ue' vise des personnes non-UE vivant en France, alors que l'article concerne les médecins britanniques (ressortissants du Royaume-Uni) souhaitant exercer en France. La phrase proposée est donc infidèle car elle suggère à tort que les médecins britanniques sont des 'étrangers hors UE' au sens du catalogue."
+   }
+  ],
+  "oublis": [
+   "etranger_ue"
+  ]
+ },
+ "cout_usd": 0.0080295
+}

@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "salarie_prive",
+    "raison": "L'article supprime le délai de carence des indemnités journalières maladie, et donc, pour un salarié du privé en arrêt après une IVG, l'indemnisation commence dès le premier jour. Le texte vise les salariés via l'arrêt de travail, et l'IVG désigne le sous-groupe concerné.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000449135,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

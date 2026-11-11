@@ -1,0 +1,34 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "outre_mer",
+    "raison": "Le texte vise explicitement les personnels qui résident effectivement en Nouvelle-Calédonie, à Wallis-et-Futuna ou en Polynésie française et remplissent les conditions prévues.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "fonctionnaire",
+    "raison": "Le calcul de pension des personnels visés par le code et le décret cité est modifié, ce qui concerne les fonctionnaires de l’État concernés, sous les conditions prévues.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "forces_ordre",
+    "raison": "Les militaires sont expressément mentionnés parmi les personnels concernés. Toutefois, l’accès au dispositif peut aussi reposer sur les critères d’éligibilité aux congés bonifiés, et dépend d’autres conditions que la résidence et la durée de services.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "retraite",
+    "raison": "La disposition fixe le calcul de pensions prenant effet pour des personnels concernés ; le critère d’une pension non minorée ne vise pas les personnes déjà retraitées en tant que telles.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.001183275,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

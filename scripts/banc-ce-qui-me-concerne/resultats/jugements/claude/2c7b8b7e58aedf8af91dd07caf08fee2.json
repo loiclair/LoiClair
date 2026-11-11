@@ -1,0 +1,13 @@
+{
+ "jugement": {
+  "profils": [],
+  "oublis": [
+   "chasseur_pecheur",
+   "secteur_agriculture"
+  ]
+ },
+ "cout_usd": 0.00027008500000000004,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

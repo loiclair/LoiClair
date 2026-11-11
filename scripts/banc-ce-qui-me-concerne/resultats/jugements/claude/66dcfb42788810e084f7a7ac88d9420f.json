@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "epargnant",
+    "raison": "L'article 150 VH bis du CGI porte sur l'imposition des cessions d'actifs numériques. Le texte précise que le régime ne s'applique pas à certains crypto-actifs (jetons de monnaie électronique et jetons se référant à un actif, art. 2 3 et 4 MiCA). Un détenteur de cryptoactifs est directement visé par cette délimitation, et le profil épargnant inclut les cryptoactifs.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "chef_entreprise",
+    "raison": "L'article 39 decies C du CGI (amortissement exceptionnel) vise les entreprises qui acquièrent des équipements. Le nouvel alinéa conditionne l'avantage à la contribution à la durabilité et à la résilience pour les technologies « zéro net ». Le texte ne désigne pas la taille de l'entreprise ni le dirigeant de PME. L'effet porte sur l'entreprise comme personne morale, et une PME comme une grande entreprise peut être concernée, donc le profil n'est pas visé de façon spécifique. Le texte cité parle de l'équipement, pas du dirigeant.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0072477,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

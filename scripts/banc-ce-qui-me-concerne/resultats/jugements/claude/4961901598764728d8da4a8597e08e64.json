@@ -1,0 +1,29 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "residence_secondaire",
+    "raison": "Le 3° du I permet aux communes en tension de majorer de 5 % à 60 % la taxe d'habitation sur les résidences secondaires. Le texte désigne directement ce logement, et le propriétaire le paie si la commune délibère.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "meuble_tourisme",
+    "raison": "Le 2° b) considère comme vacant un logement occupé moins de 90 jours sur la période de référence, ce qui vise directement les locations courtes durées. La taxe sur les logements vacants s'applique au-delà d'un an de vacance, et l'assistant le formule au conditionnel sans l'affirmer.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "grande_ville",
+    "raison": "Le texte cible les communes où il existe un déséquilibre marqué entre l'offre et la demande de logements, pas les communes de plus de 50 000 habitants. Le critère de déclenchement n'est donc pas la taille de la ville, et la mesure ne touche que les propriétaires de résidences secondaires, non les habitants en général.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.001355785,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

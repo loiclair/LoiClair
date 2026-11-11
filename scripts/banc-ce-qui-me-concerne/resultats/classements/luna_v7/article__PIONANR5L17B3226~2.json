@@ -1,0 +1,12 @@
+{
+ "impacts": [
+  {
+   "profil": "projet_achat",
+   "phrase_fr": "Vous paieriez une taxe supplémentaire de 0,10 % en achetant un logement situé dans une commune littorale concernée.",
+   "phrase_en": "You would pay an additional 0.10% tax when buying a home in a qualifying coastal municipality.",
+   "passage": "Son taux est fixé à 0,10 %. Elle est due par la personne tenue au paiement de ces droits ou de cette taxe.",
+   "certitude": "probable"
+  }
+ ],
+ "cout_usd": 0.00030135
+}

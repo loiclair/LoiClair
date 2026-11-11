@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "imposable",
+    "raison": "La mesure vise les personnes qui se prévalent à tort d'une domiciliation fiscale à l'étranger, pas les foyers qui paient l'impôt sur le revenu en tant que tels. Le critère déclencheur est la fausse domiciliation, non le statut d'imposable.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00029083500000000003,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

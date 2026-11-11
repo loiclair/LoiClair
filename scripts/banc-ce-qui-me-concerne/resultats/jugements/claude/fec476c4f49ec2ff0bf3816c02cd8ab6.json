@@ -1,0 +1,12 @@
+{
+ "jugement": {
+  "profils": [],
+  "oublis": [
+   "secteur_sante"
+  ]
+ },
+ "cout_usd": 0.000369435,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

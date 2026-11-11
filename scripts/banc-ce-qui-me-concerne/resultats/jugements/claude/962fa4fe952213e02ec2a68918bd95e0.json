@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "heritier_donateur",
+    "raison": "L’amendement prolonge la période d’application de l’allègement fiscal pour des donations : il vise directement les donateurs et les bénéficiaires de transmissions patrimoniales.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000603275,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

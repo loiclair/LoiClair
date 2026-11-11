@@ -1,0 +1,29 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "imposable",
+    "concerne": false,
+    "phrase_fidele": false,
+    "raison": "L'article modifie les territoires éligibles à une réduction d'impôt pour les investissements, mais ne concerne pas directement les foyers imposables en général. Seuls les investisseurs dans ces territoires spécifiques sont concernés. La phrase proposée est infidèle car elle suggère que tous les imposables sont concernés, alors que seuls ceux investissant dans ces territoires le sont."
+   },
+   {
+    "profil": "outre_mer",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article étend explicitement la réduction d'impôt aux investissements réalisés à Wallis-et-Futuna, en Nouvelle-Calédonie et dans les Terres australes et antarctiques françaises, qui sont des territoires d'outre-mer. Passage cité : « à Wallis-et-Futuna et en Nouvelle-Calédonie. [...] et dans les Terres australes et antarctiques françaises. »"
+   },
+   {
+    "profil": "epargnant",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "Les investisseurs (qui peuvent être des épargnants) dans ces territoires d'outre-mer bénéficient de la réduction d'impôt. Passage cité : « Le seizième alinéa du I de l'article 199 undecies B du code général des impôts est ainsi modifié [...] aux investissements réalisés à compter du 1er janvier 2025. »"
+   }
+  ],
+  "oublis": [
+   "outre_mer",
+   "epargnant"
+  ]
+ },
+ "cout_usd": 0.0079755
+}

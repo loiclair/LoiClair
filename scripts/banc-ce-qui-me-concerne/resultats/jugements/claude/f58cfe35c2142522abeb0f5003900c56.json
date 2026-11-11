@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etranger_hors_ue",
+    "raison": "L'AME et les soins urgents visent les étrangers en situation irrégulière, hors UE ; leur nationalité et leurs pathologies seraient enregistrées dans un fichier. Un lecteur de ce profil est visé. Mais le catalogue définit le profil par titre de séjour, asile ou réfugié, et la phrase est approximative.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "secteur_sante",
+    "raison": "Le texte prévoit que, lorsque les données sont collectées par un professionnel de santé, le secret médical n'est pas opposable : cela change directement les obligations professionnelles des soignants.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0037776999999999997,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

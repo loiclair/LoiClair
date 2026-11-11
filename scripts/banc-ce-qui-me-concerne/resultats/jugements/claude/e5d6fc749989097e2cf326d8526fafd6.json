@@ -1,0 +1,19 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "chef_entreprise",
+    "raison": "Le texte punit d'emprisonnement et d'amende « le même employeur » qui viole les dispositions visées à l'alinéa précédent envers plusieurs personnes. Le dirigeant ou employeur d'une TPE, PME ou entreprise moyenne est directement visé par cette sanction pénale, qui vaut pour tout employeur.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "dirigeant_grande_entreprise"
+  ]
+ },
+ "cout_usd": 0.000596285,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

@@ -1,0 +1,14 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etranger_hors_ue",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article relève directement les taxes dues par les ressortissants étrangers pour la première délivrance et le renouvellement de leurs titres et autorisations de séjour en France."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.010218
+}

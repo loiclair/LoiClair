@@ -1,0 +1,31 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "fonctionnaire",
+    "raison": "Le III vise les personnels relevant du code des pensions civiles et militaires visés au décret 67-600 et prévoit un nouveau mode de calcul de leur pension (coefficient de majoration territorial appliqué au traitement). Le statut de fonctionnaire déclenche la mesure et change directement le montant de leur pension.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "outre_mer",
+    "raison": "Le IV rend le dispositif applicable aux personnels justifiant d'une résidence effective en Nouvelle-Calédonie, à Wallis-et-Futuna ou en Polynésie française, collectivités d'outre-mer. La résidence dans ces territoires est le critère qui déclenche la majoration, et la phrase de l'assistant reflète bien ce critère.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "retraite",
+    "raison": "La mesure s'applique au calcul de la pension à sa liquidation, donc à des personnes qui ne sont pas encore retraitées. Le profil retraite désigne les personnes déjà pensionnées, pas le calcul de la pension des actifs (règle 8). La phrase parle à juste titre de « futurs retraités », ce qui montre que le profil ne correspond pas.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "forces_ordre"
+  ]
+ },
+ "cout_usd": 0.001481685,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

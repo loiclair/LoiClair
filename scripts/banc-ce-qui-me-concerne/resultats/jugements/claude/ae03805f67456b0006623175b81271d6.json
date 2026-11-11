@@ -1,0 +1,40 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "salarie_prive",
+    "raison": "Le code du travail ajouterait le fait d’allaiter aux motifs de discrimination interdits dans l’emploi.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "fonctionnaire",
+    "raison": "Le code général de la fonction publique ajouterait l’allaitement aux motifs de discrimination interdits pour les agents publics.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "parent",
+    "raison": "Le texte vise les personnes qui allaitent, pas les parents du fait de leur statut parental ; être parent ne suffit pas à déclencher la mesure.",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "chef_entreprise",
+    "raison": "Les ajouts au code du travail encadreraient les motifs de discrimination interdits par l’employeur, notamment dans les règles intérieures de l’entreprise.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "dirigeant_grande_entreprise",
+    "raison": "Les ajouts au code du travail encadreraient les motifs de discrimination interdits par l’employeur, notamment dans les règles intérieures de l’entreprise.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000889775,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

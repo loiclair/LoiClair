@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_agriculture",
+    "raison": "L’article réforme l’indemnisation des dégâts de grand gibier et les demandes des réclamants, ce qui vise les exploitants agricoles touchés par ces dégâts.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0006169,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

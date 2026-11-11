@@ -1,0 +1,20 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_agriculture",
+    "raison": "Le dispositif vise les associés exploitants d'une société agricole bénéficiaires des aides à l'installation des jeunes agriculteurs, ce qui change l'appréciation de leurs plus-values professionnelles : le secteur agriculture est directement visé.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "jeune",
+   "chef_entreprise"
+  ]
+ },
+ "cout_usd": 0.0030486999999999997,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

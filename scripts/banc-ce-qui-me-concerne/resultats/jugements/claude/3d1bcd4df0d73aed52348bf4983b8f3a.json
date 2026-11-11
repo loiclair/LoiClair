@@ -1,0 +1,71 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "benevole",
+    "raison": "Le texte vise nommément les bénévoles : l'obligation (L.133-6-1) vaut pour toute activité auprès de mineurs, à titre professionnel ou non, et le V (sport, « y compris bénévole ») et le II (« bénévolement ») les désignent directement. La phrase de l'assistant est fidèle et au conditionnel.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "etudiant",
+    "raison": "Le III de l'article IV vise directement les étudiants intervenant auprès de mineurs dans les structures de santé, qui doivent détenir le certificat. La phrase de l'assistant est fidèle.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "apprenti_alternant",
+    "raison": "La définition du catalogue inclut les stagiaires, et le III de l'article IV vise les stagiaires intervenant auprès de mineurs dans les structures de santé. La phrase de l'assistant est fidèle.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "salarie_particulier",
+    "raison": "Le 2° de l'article 1er subordonne l'obtention et le maintien de l'agrément d'assistant maternel, qui relève de ce profil, à la détention du certificat. La phrase de l'assistant est fidèle et au conditionnel.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "particulier_employeur",
+    "raison": "L'article L.1221-8 impose la vérification à l'employeur, y compris lorsque le salarié est employé par un particulier employeur : la mesure le vise directement. La phrase de l'assistant est inexacte : elle parle de « leurs salariés à domicile » en général, alors que la vérification ne vaut que pour les salariés qui exercent une activité auprès de mineurs.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "chef_entreprise",
+    "raison": "L'article L.1221-8 impose à tout employeur de vérifier le certificat avant l'embauche ou l'affectation de salariés intervenant auprès de mineurs. Une obligation imposée à tout employeur concerne les dirigeants de TPE et PME. La phrase de l'assistant est fidèle.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "dirigeant_grande_entreprise",
+    "raison": "Même obligation de vérification imposée à tout employeur par l'article L.1221-8, qui vise les dirigeants d'entreprises de 250 salariés ou plus. La phrase de l'assistant est fidèle.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "salarie_prive",
+    "raison": "L'obligation de détenir le certificat (article 1er, I, « nul ne peut exercer une activité auprès de mineurs ») et la vérification par l'employeur (L.1221-8) visent les salariés qui interviennent auprès de mineurs. La phrase de l'assistant est fidèle.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "secteur_sante",
+    "raison": "Le IV de l'article 1er impose le certificat aux professionnels de santé et à toute personne intervenant dans les établissements, centres et structures de santé auprès de mineurs. Ce secteur voit donc ses obligations professionnelles changer. La phrase de l'assistant est fidèle.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "independant",
+    "raison": "Le IV de l'article 1er vise explicitement l'exercice « à titre libéral » d'une activité de soins auprès de mineurs, donc les professionnels de santé libéraux, qui relèvent de ce profil. La phrase de l'assistant est fidèle.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0018667850000000001,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etudiant",
+    "raison": "L'article fixe les règles d'attribution de l'aide aux étudiants (L. 821-1) avec une priorité selon la nationalité : cela vise directement les étudiants de l'enseignement supérieur.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "etranger_hors_ue",
+    "raison": "Le texte place les étudiants hors UE/EEE en second rang, après les Français et Européens, et seulement ceux dont l'État a un accord d'accueil ; la nationalité est le critère qui déclenche la mesure. Mais la phrase ajoute « sauf accord d'accueil » comme exception alors que le texte donne à ces pays un second rang de priorité, pas une égalité avec les Français et Européens, ce qui rend la formulation inexacte.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0030056999999999996,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

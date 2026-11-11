@@ -1,0 +1,15 @@
+{
+ "impacts": [
+  {
+   "profil": "secteur_industrie",
+   "passage": "des procédés technologiques complexes, notamment l’extrusion, l’hydrogénation ou le fractionnement, impliquant l’utilisation d’ingrédients non couramment employés en cuisine domestique ou d’additifs à visée fonctionnelle ou sensorielle",
+   "certitude": "probable"
+  },
+  {
+   "profil": "chef_entreprise",
+   "passage": "des procédés technologiques complexes, notamment l’extrusion, l’hydrogénation ou le fractionnement, impliquant l’utilisation d’ingrédients non couramment employés en cuisine domestique ou d’additifs à visée fonctionnelle ou sensorielle",
+   "certitude": "possible"
+  }
+ ],
+ "resume_fr": "Redéfinirait les aliments ultra-transformés par leurs procédés complexes et leurs additifs, la liste étant fixée par arrêté après avis de l'ANSES."
+}

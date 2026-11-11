@@ -1,0 +1,33 @@
+{
+ "impacts": [
+  {
+   "profil": "futur_parent",
+   "passage": "peut être proposée à la femme ou aux deux membres du couple engagés dans une tentative de fécondation in vitro, aux seules fins d’identifier, en vue de leur transfert prioritaire, les embryons ne présentant pas une telle anomalie",
+   "certitude": "certain",
+   "phrase_en": "People undergoing in vitro fertilisation would be offered a chromosome test on embryos, to transfer first those without an anomaly.",
+   "phrase_fr": "Les personnes qui tentent une fécondation in vitro pourraient se voir proposer un examen des chromosomes des embryons, pour transférer en priorité ceux qui n'ont pas d'anomalie."
+  },
+  {
+   "profil": "marie_pacse",
+   "passage": "peut être proposée à la femme ou aux deux membres du couple engagés dans une tentative de fécondation in vitro",
+   "certitude": "certain",
+   "phrase_en": "Married or civil-partnered couples would could request a chromosome test on embryos during in vitro fertilisation, in certain medical situations listed by law.",
+   "phrase_fr": "Les couples mariés ou pacsés pourraient demander un examen des chromosomes des embryons lors d'une fécondation in vitro, dans certaines situations médicales listées par la loi."
+  },
+  {
+   "profil": "concubin",
+   "passage": "peut être proposée à la femme ou aux deux membres du couple engagés dans une tentative de fécondation in vitro",
+   "certitude": "certain",
+   "phrase_en": "Unmarried couples living together would could request a chromosome test on embryos during in vitro fertilisation, in certain medical situations listed by law.",
+   "phrase_fr": "Les couples non mariés vivant ensemble pourraient demander un examen des chromosomes des embryons lors d'une fécondation in vitro, dans certaines situations médicales listées par la loi."
+  },
+  {
+   "profil": "celibataire",
+   "passage": "peut être proposée à la femme ou aux deux membres du couple engagés dans une tentative de fécondation in vitro",
+   "certitude": "probable",
+   "phrase_en": "A single woman undergoing in vitro fertilisation could be offered a chromosome test on embryos, in certain medical situations listed by law.",
+   "phrase_fr": "Une femme seule engagée dans une fécondation in vitro pourrait se voir proposer un examen des chromosomes des embryons, dans certaines situations médicales listées par la loi."
+  }
+ ],
+ "resume_fr": null
+}

@@ -1,0 +1,24 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_btp",
+    "raison": "Le texte impose une obligation aux entrepreneurs qui sous-traitent, sans limiter la mesure au bâtiment. Le secteur n’est donc pas le critère qui déclenche la règle.",
+    "concerne": false,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "chef_entreprise",
+    "raison": "L’obligation vise directement l’entrepreneur principal qui recourt à des sous-traitants ; elle peut donc concerner un dirigeant de PME dans cette situation.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "dirigeant_grande_entreprise"
+  ]
+ },
+ "cout_usd": 0.00097565,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

@@ -1,0 +1,20 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etudiant",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article modifie directement les critères et priorités d'attribution des aides financières accordées aux étudiants."
+   },
+   {
+    "profil": "etranger_hors_ue",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "Les étudiants étrangers non ressortissants de l'UE/EEE sont directement relégués à un rang secondaire ou conditionné à des accords bilatéraux pour l'octroi des aides."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00662925
+}

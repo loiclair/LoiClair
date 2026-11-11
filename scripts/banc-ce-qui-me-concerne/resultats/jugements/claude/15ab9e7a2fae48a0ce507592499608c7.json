@@ -1,0 +1,28 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "proprietaire_bailleur",
+    "raison": "La déduction vise le contribuable qui acquiert le logement puis doit le louer nu à titre de résidence principale : cela concerne directement les bailleurs.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "imposable",
+    "raison": "Le texte crée une déduction fiscale sur le prix d’acquisition amorti, qui peut réduire les revenus imposables des contribuables remplissant les conditions.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "projet_achat",
+    "raison": "Le dispositif vise l’achat d’un bien destiné à la location, pas l’achat du logement que la personne cherche à habiter, comme le définit ce profil.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.001128275,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "salarie_prive",
+    "raison": "Le texte vise directement les salariés : il rend négociables ou exigibles, avant leur terme, les droits de participation et d'intéressement affectés à un plan d'épargne salariale. Le passage « antérieurement au 1er janvier 2027 » devient « 2026 », ce qui restreint aux sommes affectées avant 2026 le déblocage ouvert aux salariés.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00046628500000000004,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

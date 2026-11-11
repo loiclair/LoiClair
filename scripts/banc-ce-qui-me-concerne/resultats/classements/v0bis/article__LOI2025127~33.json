@@ -1,0 +1,33 @@
+{
+ "impacts": [
+  {
+   "profil": "proprietaire_occupant",
+   "phrase_fr": "Les travaux de rénovation énergétique qui installent une chaudière aux énergies fossiles ne bénéficient plus du taux réduit de TVA, mais du taux normal.",
+   "phrase_en": "Energy renovation work that installs a fossil-fuel boiler no longer gets the reduced VAT rate and is taxed at the standard rate instead.",
+   "passage": "III bis.-Par dérogation au I du présent article, le taux prévu à l'article 278 s'applique aux prestations de rénovation énergétique comprenant la fourniture ou l'installation d'une chaudière susceptible d'utiliser des combustibles fossiles.",
+   "certitude": "certain"
+  },
+  {
+   "profil": "secteur_btp",
+   "phrase_fr": "Les travaux de nettoyage, d'entretien des espaces verts et d'installation de chaudières fossiles passent au taux normal de TVA, et non plus au taux réduit.",
+   "phrase_en": "Cleaning, garden maintenance and fossil-boiler installation work moves to the standard VAT rate instead of the reduced rate.",
+   "passage": "2 bis. Par dérogation au 1 du présent article, le taux prévu à l'article 278 s'applique aux travaux suivants :",
+   "certitude": "certain"
+  },
+  {
+   "profil": "auto_entrepreneur",
+   "phrase_fr": "Le plafond de la franchise de TVA est fixé à 25 000 euros l'année précédente et 27 500 euros l'année en cours ; la franchise cesse dès qu'il est dépassé.",
+   "phrase_en": "The VAT franchise ceiling is set at €25,000 for the previous year and €27,500 for the current year; the exemption ends as soon as it is exceeded.",
+   "passage": "II.-Lorsque le plafond de chiffre d'affaires prévu pour les opérations de l'année en cours est dépassé, la franchise mentionnée au I cesse de s'appliquer aux opérations intervenant à compter de la date du dépassement.",
+   "certitude": "certain"
+  },
+  {
+   "profil": "secteur_culture",
+   "phrase_fr": "La règle fiscale sur les droits d'auteur des créateurs d'œuvres de l'esprit est reformulée ; l'effet pratique n'est pas précisé dans le texte.",
+   "phrase_en": "The tax rule on authors' copyright income is reworded; the practical effect is not specified in the text.",
+   "passage": "Au 1 de l'article 285 bis, les mots : « mentionnés au 2° du B du II de l'article 293 B » sont remplacés par les mots : « patrimoniaux reconnus par la loi aux auteurs d'œuvres de l'esprit »",
+   "certitude": "possible"
+  }
+ ],
+ "cout_usd": 0.00276925
+}

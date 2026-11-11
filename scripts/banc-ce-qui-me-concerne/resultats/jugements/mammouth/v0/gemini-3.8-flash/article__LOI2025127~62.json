@@ -1,0 +1,14 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "imposable",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article allonge le délai de prescription (droit de reprise) de l'administration fiscale à dix ans pour les contribuables qui prétendent faussement être domiciliés à l'étranger."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0061665
+}

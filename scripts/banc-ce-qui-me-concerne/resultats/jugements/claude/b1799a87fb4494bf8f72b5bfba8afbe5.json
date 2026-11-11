@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etranger_hors_ue",
+    "raison": "Le texte fixe une taxe de 300 euros pour la première délivrance d'un titre de séjour et de 200 euros pour son renouvellement, avec des montants réduits pour certaines cartes. Ces taxes visent directement les personnes titulaires d'un titre de séjour, donc les ressortissants hors UE qui vivent en France.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "automobiliste",
+    "raison": "Le tarif du duplicata d'un permis de conduire passe à 25 euros et celui de l'échange d'un permis étranger à 40 euros. Ces montants touchent directement le titulaire qui demande un remplacement ou un échange de permis, donc une personne qui conduit une voiture ou une moto. La phrase traduit « n'a pas été présenté » par « perdu », ce qui reste une lecture raisonnable.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0007447850000000001,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

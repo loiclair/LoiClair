@@ -1,0 +1,14 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "epargnant",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article modifie les obligations déclaratives et les sanctions pour les actifs numériques dans les portefeuilles, ce qui concerne directement les épargnants détenant ces actifs. Le passage cité est exact et justifie le profil."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0066975
+}

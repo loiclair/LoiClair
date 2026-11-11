@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "heritier_donateur",
+    "raison": "La modification de l’article 784 supprime l’exception des donations datant de plus de quinze ans pour le calcul des droits de succession ou de donation.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "epargnant",
+    "raison": "La modification de l’article 757 B porte sur la taxation due par les bénéficiaires au titre d’une succession, pas sur le fait d’épargner ou d’investir. De plus, la suppression de la limite liée aux primes versées après 70 ans ne supprime pas la taxation selon le lien de parenté : elle étend la disposition au-delà de ces seules primes.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0009634,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

@@ -1,0 +1,19 @@
+{
+ "impacts": [
+  {
+   "profil": "secteur_finance",
+   "passage": "Les entreprises d’assurance proposant des contrats de prévoyance ou de complémentaire santé couvrant des salariés relevant d’une branche professionnelle ayant institué un dispositif conventionnel de financement de l’activité physique",
+   "certitude": "certain",
+   "phrase_en": "Insurers would be allowed to contribute to a branch fund financing employees' physical activity, without passing this cost on to premiums or guarantees.",
+   "phrase_fr": "Les assureurs pourraient abonder un fonds de branche finançant l'activité physique des salariés, sans répercuter ce coût sur les cotisations ni les garanties."
+  },
+  {
+   "profil": "salarie_prive",
+   "passage": "Cette contribution est facultative pour chaque salarié couvert par un contrat souscrit dans le champ de la branche concernée.",
+   "certitude": "certain",
+   "phrase_en": "Employees covered by their branch's insurance could benefit from optional funding for physical activity outside working hours.",
+   "phrase_fr": "Les salariés couverts par une prévoyance ou une complémentaire de leur branche pourraient bénéficier d'un financement facultatif de leur activité physique hors temps de travail."
+  }
+ ],
+ "resume_fr": null
+}

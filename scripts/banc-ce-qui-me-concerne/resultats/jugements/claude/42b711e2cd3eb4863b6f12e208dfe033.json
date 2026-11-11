@@ -1,0 +1,19 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "benevole",
+    "raison": "Le texte modifie l'article L. 325-8 du code général de la fonction publique pour y ajouter le temps effectif du service civique. Les volontaires en service civique relèvent du profil benevole, car la définition inclut les volontaires en service civique. La mesure les vise donc directement : leur temps de service serait pris en compte, sans doute pour l'avancement ou l'ancienneté dans la fonction publique.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": [
+   "fonctionnaire"
+  ]
+ },
+ "cout_usd": 0.0020916999999999997,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

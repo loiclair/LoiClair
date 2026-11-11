@@ -1,0 +1,26 @@
+{
+ "impacts": [
+  {
+   "profil": "handicap",
+   "phrase_fr": "Une personne handicapée pourrait demander une évaluation limitée à son éligibilité à la carte mobilité inclusion ou à la reconnaissance de travailleur handicapé, sans plan de compensation.",
+   "phrase_en": "A disabled person could request an assessment limited to eligibility for the mobility inclusion card or disabled worker status, without a compensation plan.",
+   "passage": "La personne handicapée ou son représentant légal peut, par dérogation à l’article L. 146‑8, solliciter l’évaluation par l’équipe pluridisciplinaire de sa seule éligibilité à la reconnaissance de la qualité de travailleur handicapé",
+   "certitude": "certain"
+  },
+  {
+   "profil": "age_dependant",
+   "phrase_fr": "Les personnes âgées en perte d'autonomie qui reçoivent l'aide à l'autonomie pourraient obtenir la carte mobilité inclusion à titre définitif, sans nouvel examen.",
+   "phrase_en": "Elderly people losing autonomy who receive the autonomy allowance could obtain the mobility inclusion card permanently, without a new review.",
+   "passage": "Par dérogation au I, est délivrée à titre définitif aux bénéficiaires de l’allocation prévue à l’article L. 232‑1, au vu de la seule décision d’attribution de l’allocation",
+   "certitude": "possible"
+  },
+  {
+   "profil": "parent",
+   "phrase_fr": "Les parents d'un enfant malade ou handicapé pourraient obtenir pour lui la carte mobilité inclusion sans que la condition de gravité de l'accident ou de la maladie soit exigée.",
+   "phrase_en": "Parents of a sick or disabled child could obtain the mobility inclusion card for them without the severity condition for illness or accident being required.",
+   "passage": "À la première phrase du IV bis, les mots : « destinée à un mineur atteint d’une maladie ou d’un handicap ou victime d’un accident d’une particulière gravité » sont supprimés.",
+   "certitude": "probable"
+  }
+ ],
+ "cout_usd": 0.00180971
+}

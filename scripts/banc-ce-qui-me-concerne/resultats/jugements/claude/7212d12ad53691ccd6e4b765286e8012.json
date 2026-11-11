@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "pompier_volontaire",
+    "raison": "Le texte vise nommément « chaque sapeur-pompier professionnel ou volontaire exposé » : la fiche d'exposition après intervention à risque s'applique directement aux sapeurs-pompiers volontaires, catégorie que le profil désigne.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "fonctionnaire",
+    "raison": "Le texte vise les sapeurs-pompiers professionnels, qui relèvent de la fonction publique territoriale (l'article est inséré dans le code général de la fonction publique). Ils ne sont ni forces de l'ordre ni militaires au sens du catalogue, donc le profil fonctionnaire s'applique directement.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00048158500000000003,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

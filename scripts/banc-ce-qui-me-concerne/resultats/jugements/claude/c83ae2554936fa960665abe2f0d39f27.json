@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "mineur",
+    "raison": "Le texte vise explicitement les victimes qui étaient mineures au moment des faits ; cette qualité déclenche directement le régime de prescription.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00041715,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

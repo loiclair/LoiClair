@@ -1,0 +1,12 @@
+{
+ "jugement": {
+  "profils": [],
+  "oublis": [
+   "alsace_moselle"
+  ]
+ },
+ "cout_usd": 0.000440285,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

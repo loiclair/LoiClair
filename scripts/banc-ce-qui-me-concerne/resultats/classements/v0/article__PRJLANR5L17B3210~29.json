@@ -1,0 +1,19 @@
+{
+ "impacts": [
+  {
+   "profil": "epargnant",
+   "passage": "Le premier alinéa n’est pas applicable aux crypto-actifs mentionnés aux 3 et 4 de l’article 2 du règlement (UE) 2023/1114 du Parlement européen et du Conseil du 31 mai 2023.",
+   "certitude": "probable",
+   "phrase_en": "Certain crypto-assets would be excluded from the tax set out in the first paragraph, under the criteria of the EU MiCA regulation.",
+   "phrase_fr": "Certains crypto-actifs seraient exclus de l'imposition prévue au premier alinéa, selon les critères du règlement européen MiCA."
+  },
+  {
+   "profil": "chef_entreprise",
+   "passage": "les 1°, 2°, 4° et 5° du présent I s’appliquent sous réserve d’assurer la contribution à la durabilité et à la résilience prévue à l’article 28 de ce règlement.",
+   "certitude": "probable",
+   "phrase_en": "For zero-net technology equipment, the tax benefit would depend on contributing to sustainability and resilience.",
+   "phrase_fr": "Pour un équipement de technologie « zéro net », l'avantage fiscal serait subordonné à une contribution à la durabilité et à la résilience."
+  }
+ ],
+ "resume_fr": null
+}

@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etudiant",
+    "raison": "L’article vise directement les étudiants en fixant la priorité d’attribution de l’aide selon leur nationalité.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "etranger_hors_ue",
+    "raison": "Les étudiants ressortissants d’un pays hors UE sont concernés par l’ordre de priorité selon la nationalité, même si le profil inclut aussi des personnes qui ne sont pas étudiantes.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000649275,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

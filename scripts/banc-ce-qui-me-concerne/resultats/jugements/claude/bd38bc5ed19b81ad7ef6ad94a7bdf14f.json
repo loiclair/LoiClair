@@ -1,0 +1,21 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "projet_achat",
+    "raison": "La taxe additionnelle de 0,10 % est due par la personne tenue au paiement des droits de mutation sur les ventes d'immeubles en commune littorale ; l'acheteur d'un logement y est directement visé. La phrase est au conditionnel, fidèle au texte.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "littoral",
+   "proprietaire_bailleur",
+   "residence_secondaire"
+  ]
+ },
+ "cout_usd": 0.0025567,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

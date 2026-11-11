@@ -1,0 +1,20 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "salarie_prive",
+    "raison": "L'amendement oblige l'employeur à informer les salariés des frais, pénalités et coûts de transaction du déblocage de la participation et de l'intéressement ; les salariés d'entreprise privée titulaires de ces sommes sont directement visés par ce droit à l'information.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "chef_entreprise",
+   "dirigeant_grande_entreprise"
+  ]
+ },
+ "cout_usd": 0.0042756999999999995,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

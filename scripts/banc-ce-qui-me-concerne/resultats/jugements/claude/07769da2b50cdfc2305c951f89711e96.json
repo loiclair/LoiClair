@@ -1,0 +1,35 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "salarie_prive",
+    "raison": "Le texte vise directement les salariés atteints d'algie vasculaire de la face, avec un droit de trente jours d'arrêt par an, sans préavis ni condition d'ancienneté.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "malade_chronique",
+    "raison": "La mesure est déclenchée par l'algie vasculaire de la face elle-même, maladie chronique à crises répétées qui demande un suivi médical régulier.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "chef_entreprise",
+    "raison": "L'article impose à tout employeur d'accepter les arrêts sur simple notification, sans préavis ni ancienneté. Les dirigeants de TPE, PME et artisans sont donc visés.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "dirigeant_grande_entreprise",
+    "raison": "La même obligation pèse sur tout employeur, donc sur les dirigeants d'entreprises de 250 salariés ou plus.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0009136849999999999,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

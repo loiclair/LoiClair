@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_education",
+    "raison": "L’article 4 vise les personnels de l’éducation victimes de violences, menaces ou outrages dans l’exercice de leurs fonctions. L’amendement supprimerait la possibilité de leur retirer la protection fonctionnelle pour faute personnelle.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "fonctionnaire",
+    "raison": "La disposition concerne les agents de l’éducation bénéficiant de la protection fonctionnelle, notamment les fonctionnaires et contractuels de l’enseignement public. L’amendement supprimerait la possibilité de leur retirer cette protection pour faute personnelle.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00058865,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

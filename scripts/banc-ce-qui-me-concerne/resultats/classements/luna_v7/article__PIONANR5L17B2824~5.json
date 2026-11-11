@@ -1,0 +1,19 @@
+{
+ "impacts": [
+  {
+   "profil": "mineur",
+   "phrase_fr": "L’embauche d’un mineur de moins de treize ans dans une entreprise de cinéma serait soumise à plusieurs avis conformes, et l’un de ses représentants légaux devrait être présent à différents moments.",
+   "phrase_en": "Hiring a child under thirteen in a film company would require several binding opinions, and one of the child’s legal representatives would have to be present at various times.",
+   "passage": "l’embauche d’un mineur de moins de treize ans dans une entreprise de cinéma est soumise à l’avis conforme d’un médecin de l’organisme Thalie Santé, d’un psychologue agréé par ce même organisme et du comité compétent en matière de santé, de sécurité et de conditions de travail dans le secteur de la production cinématographique et audiovisuelle.",
+   "certitude": "certain"
+  },
+  {
+   "profil": "parent",
+   "phrase_fr": "Vous devriez être présent lors de l’embauche de votre enfant de moins de treize ans dans une entreprise de cinéma, pendant son contrat et, parfois, lors d’évènements liés à celui-ci après sa fin.",
+   "phrase_en": "You would have to be present when your child under thirteen is hired by a film company, during their contract and, in some cases, at related events after it ends.",
+   "passage": "L’emploi d’un mineur de moins de treize ans est subordonné à la présence de l’un de ses représentants légaux lors de son embauche, durant l’exécution de son contrat de travail et, le cas échéant, lors de la participation à des évènements en lien avec ce contrat après son exécution.",
+   "certitude": "certain"
+  }
+ ],
+ "cout_usd": 0.0004526
+}

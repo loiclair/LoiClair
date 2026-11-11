@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "jeune",
+    "raison": "Le remplacement de 21 par 25 étend jusqu’à 25 ans la limite d’âge de l’accompagnement prévu pour les jeunes sortant de l’ASE.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0005294,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

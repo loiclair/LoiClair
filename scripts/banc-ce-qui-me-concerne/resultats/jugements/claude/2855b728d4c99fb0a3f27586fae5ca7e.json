@@ -1,0 +1,29 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "fonctionnaire",
+    "raison": "Le III vise la liquidation de la pension des « fonctionnaire[s], magistrat[s] ou militaire[s] » relevant du code des pensions civiles et militaires. Un fonctionnaire de l'État résidant dans ces collectivités est donc directement visé.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "forces_ordre",
+    "raison": "Le texte cite expressément la « solde » et les « militaires » parmi les personnels dont la pension est calculée avec le coefficient de majoration. Les militaires relèvent du profil forces_ordre.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "outre_mer",
+    "raison": "Le IV réserve le dispositif aux personnels justifiant d'une résidence effective en Nouvelle-Calédonie, à Wallis-et-Futuna ou en Polynésie française. Le lieu de vie déclenche la mesure.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.007176699999999999,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

@@ -1,0 +1,19 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "outre_mer",
+    "raison": "L'article vise expressément les collectivités de l'article 73 de la Constitution (DROM) pour définir les zones de la taxe sur les logements vacants : le lieu de vie est le critère qui déclenche la mesure.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "proprietaire_bailleur"
+  ]
+ },
+ "cout_usd": 0.0022377,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

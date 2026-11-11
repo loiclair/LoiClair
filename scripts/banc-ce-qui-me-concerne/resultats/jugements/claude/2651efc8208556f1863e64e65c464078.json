@@ -1,0 +1,37 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "locataire",
+    "raison": "Le texte encadre le loyer de base des logements loués, avec un loyer de référence et une action en diminution ouverte au locataire : effet direct sur son loyer.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "proprietaire_bailleur",
+    "raison": "Le loyer fixé par le bailleur est plafonné par le loyer de référence (ou majoré) et il s'expose à une action en diminution de loyer.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "meuble_tourisme",
+    "raison": "Le texte étend expressément l'encadrement des loyers aux logements meublés touristiques, dans les zones tendues comme sur le reste du territoire.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "etudiant",
+    "raison": "Le texte soumet les loyers des résidences étudiantes privées aux mêmes règles d'encadrement, ce qui vise les étudiants qui y logent.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "grande_ville"
+  ]
+ },
+ "cout_usd": 0.0055007,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

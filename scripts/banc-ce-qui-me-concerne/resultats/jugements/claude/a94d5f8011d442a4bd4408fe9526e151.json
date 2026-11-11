@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "parent",
+    "raison": "L'amendement qualifie de violences intrafamiliales le non-versement de pension alimentaire (art. 227-3) et l'entrave à son versement (art. 227-4), qui visent le parent débiteur ; l'enfant mineur est aussi cité en 4°. Le parent est donc directement visé par ces infractions, mais le texte ne vise pas le parent comme tel, la qualification s'applique à tout auteur dans le cercle familial.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0039517,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

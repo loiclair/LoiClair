@@ -1,0 +1,35 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "fonctionnaire",
+    "raison": "L'article étend la protection fonctionnelle aux proches d'un agent public ; l'agent est visé par le texte et bénéficie de cette protection pour ses proches.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "marie_pacse",
+    "raison": "Le conjoint et le partenaire de PACS d'un agent public sont expressément cités comme bénéficiaires de la protection.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "concubin",
+    "raison": "Le concubin d'un agent public est expressément cité comme bénéficiaire de la protection.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "parent",
+    "raison": "Les enfants de l'agent public sont cités comme bénéficiaires, donc l'agent parent est visé ; la protection ne vaut toutefois pas seulement pour des enfants mineurs.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0033927,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

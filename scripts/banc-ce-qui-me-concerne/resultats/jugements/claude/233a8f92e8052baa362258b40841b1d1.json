@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "salarie_prive",
+    "raison": "L’ajout vise le harcèlement moral commis dans le cadre d’une politique d’entreprise et prévoit une circonstance aggravante, qui renforce la protection pénale des personnes dont les conditions de travail sont touchées.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000582525,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

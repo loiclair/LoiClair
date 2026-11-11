@@ -1,0 +1,20 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "epargnant",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article 150 VH bis du code général des impôts régit le régime d'imposition des plus-values sur actifs numériques réalisées par les particuliers. L'exclusion de certains crypto-actifs au sens du règlement MiCA modifie directement leur fiscalité."
+   },
+   {
+    "profil": "chef_entreprise",
+    "concerne": false,
+    "phrase_fidele": true,
+    "raison": "Le suramortissement de l'article 39 decies C du code général des impôts s'applique à toute entreprise soumise à l'impôt sur les sociétés ou au régime réel, sans viser spécifiquement les dirigeants de TPE ou PME."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.02761875
+}

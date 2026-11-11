@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "automobiliste",
+    "raison": "Le texte modifie les restrictions de circulation des véhicules dans les ZFE selon l'évaluation des temps de trajet, ce qui touche directement les automobilistes. La phrase de l'assistant inverse toutefois la règle.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "grande_ville",
+    "raison": "Les ZFE concernent les grandes agglomérations, et le texte prévoit d'y redéfinir les zones où s'appliquent les restrictions (« zones à faibles émissions en devenir »). La phrase reste fidèle et au conditionnel.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0051677,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

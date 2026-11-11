@@ -1,0 +1,19 @@
+{
+ "impacts": [
+  {
+   "profil": "montagne",
+   "passage": "« 7° Eau dans les communes situées en zone de montagne au sens de l’article 3 de la loi n° 85‑30 du 9 janvier 1985 relative au développement et à la protection de la montagne ; »",
+   "certitude": "certain",
+   "phrase_en": "Mountain-zone communes would keep water and sanitation as optional powers of their communauté de communes.",
+   "phrase_fr": "Les communes de montagne garderaient l'eau et l'assainissement comme compétences facultatives de leur communauté de communes."
+  },
+  {
+   "profil": "elu_local",
+   "passage": "peuvent décider, par délibération et après avis de l’organe délibérant de la communauté de communes, de retrouver l’exercice des compétences visées aux 6° et 7° du présent I.",
+   "certitude": "probable",
+   "phrase_en": "Mountain-zone council members could take back water and sanitation management from their communauté de communes, after its opinion.",
+   "phrase_fr": "Les élus des communes de montagne pourraient reprendre la gestion de l'eau et de l'assainissement, après avis de la communauté de communes."
+  }
+ ],
+ "resume_fr": null
+}

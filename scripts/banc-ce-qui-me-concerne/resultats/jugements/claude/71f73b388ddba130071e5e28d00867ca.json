@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "fumeur",
+    "raison": "L'article vise les conditionnements, leurs dimensions et leur étiquetage, fixés par décret, et s'adresse aux fabricants et à la présentation des produits. Il ne désigne ni les fumeurs ni n'impose une obligation ou un droit à la personne qui fume ; le fumeur n'en subit l'effet que par ricochet, si les paquets changent.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00041823500000000004,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

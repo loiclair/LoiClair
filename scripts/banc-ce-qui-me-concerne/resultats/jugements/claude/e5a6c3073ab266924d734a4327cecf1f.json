@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "chasseur_pecheur",
+    "raison": "Le texte interdit à toute personne d'attirer les poissons par appâts concentrés (2°), dispositifs lumineux (3°) ou déversements de débris de poisson (1°). Il vise directement la pêche de loisir, qui emploie ces procédés, et la phrase de l'assistant en donne une juste lecture.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "secteur_agriculture",
+    "raison": "Le secteur de la pêche est inclus dans la définition du profil. Le texte vise directement les pratiques d'attraction « en vue de leur capture » et mentionne les « engins de pêche » : il change la façon d'exercer la pêche professionnelle, sans passer par un tiers. La phrase de l'assistant est fidèle.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0007562350000000001,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

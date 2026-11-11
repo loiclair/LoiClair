@@ -1,0 +1,25 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "handicap",
+    "raison": "Le texte vise explicitement la personne handicapée et simplifie l’évaluation de son éligibilité à la RQTH ou à certaines mentions de la carte mobilité inclusion, sans plan personnalisé de compensation.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "parent",
+    "raison": "La disposition concerne une carte destinée à un mineur, mais ne vise pas les parents en tant que tels : le profil parent n’est pas le critère déclenchant la mesure.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": [
+   "age_dependant",
+   "senior"
+  ]
+ },
+ "cout_usd": 0.00135565,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

@@ -1,0 +1,19 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "pompier_volontaire",
+    "raison": "Le texte vise directement « chaque sapeur-pompier professionnel ou volontaire exposé » : l'autorité territoriale doit établir une fiche d'exposition à son nom après une intervention à risque. C'est une obligation qui le désigne par son statut.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "fonctionnaire"
+  ]
+ },
+ "cout_usd": 0.00039078500000000005,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

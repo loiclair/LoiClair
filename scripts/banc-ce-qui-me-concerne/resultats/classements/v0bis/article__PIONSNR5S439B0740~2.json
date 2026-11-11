@@ -1,0 +1,47 @@
+{
+ "impacts": [
+  {
+   "profil": "handicap",
+   "phrase_fr": "Les personnes en situation de handicap ou d'invalidité aux faibles revenus seraient dispensées de cette contribution audiovisuelle.",
+   "phrase_en": "People with disabilities or invalidity on low incomes would be exempt from this audiovisual contribution.",
+   "passage": "3° Les contribuables atteints d’une infirmité ou d’une invalidité les empêchant de subvenir par leur travail aux nécessités de l’existence, lorsque le montant de leurs revenus de l’année précédente n’excède pas la limite prévue au 2° du présent II ;",
+   "certitude": "certain"
+  },
+  {
+   "profil": "senior",
+   "phrase_fr": "Les personnes de plus de 60 ans aux faibles revenus seraient dispensées de cette contribution, sauf si elles paient l'impôt sur la fortune immobilière.",
+   "phrase_en": "People over 60 on low incomes would be exempt from this contribution, unless they pay the real estate wealth tax.",
+   "passage": "Les contribuables âgés de plus de 60 ans, les veuves et veufs dont le montant des revenus de l’année précédente n’excède pas la limite prévue au 2° du présent II",
+   "certitude": "certain"
+  },
+  {
+   "profil": "veuf",
+   "phrase_fr": "Les veufs et veuves aux faibles revenus seraient dispensés de cette contribution, sauf s'ils paient l'impôt sur la fortune immobilière.",
+   "phrase_en": "Widows and widowers on low incomes would be exempt from this contribution, unless they pay the real estate wealth tax.",
+   "passage": "Les contribuables âgés de plus de 60 ans, les veuves et veufs dont le montant des revenus de l’année précédente n’excède pas la limite prévue au 2° du présent II",
+   "certitude": "certain"
+  },
+  {
+   "profil": "outre_mer",
+   "phrase_fr": "Les foyers de Martinique, Guadeloupe, La Réunion, Guyane et Mayotte auraient des seuils de revenus propres pour obtenir le dégrèvement.",
+   "phrase_en": "Households in Martinique, Guadeloupe, La Réunion, French Guiana and Mayotte would have their own income thresholds for the relief.",
+   "passage": "Pour la Martinique, la Guadeloupe et la Réunion, les montants des revenus mentionnés au premier alinéa du présent 2° sont fixés à 13 343 € pour la première part",
+   "certitude": "certain"
+  },
+  {
+   "profil": "age_dependant",
+   "phrase_fr": "Les personnes hébergées durablement en établissement de soins de longue durée pourraient être dégrevées si elles gardent leur ancien logement principal.",
+   "phrase_en": "People housed long-term in a long-term care facility could be relieved of the contribution if they keep their former main home.",
+   "passage": "Les personnes qui conservent la jouissance exclusive de l’habitation qui constituait leur résidence principale avant qu’elles soient hébergées durablement dans un établissement",
+   "certitude": "probable"
+  },
+  {
+   "profil": "parent",
+   "phrase_fr": "Les parents vivant avec leurs enfants majeurs inscrits comme demandeurs d'emploi pourraient bénéficier d'un dégrèvement sous conditions de ressources.",
+   "phrase_en": "Parents living with adult children registered as jobseekers could get a relief subject to income conditions.",
+   "passage": "Les contribuables mentionnés au 4° du présent II lorsqu’ils occupent leur habitation principale avec leurs enfants majeurs et que ceux-ci sont inscrits comme demandeurs d’emploi",
+   "certitude": "possible"
+  }
+ ],
+ "cout_usd": 0.00249435
+}

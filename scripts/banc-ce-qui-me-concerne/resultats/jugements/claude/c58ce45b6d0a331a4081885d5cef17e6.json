@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "salarie_prive",
+    "raison": "L'article L. 323-1-2 du code de la sécurité sociale s'applique aux assurés en arrêt maladie, en pratique surtout aux salariés du privé. La mesure supprime le délai de carence pour un arrêt consécutif à une IVG, ce qui change directement leur indemnisation. Le texte ne nomme pas le salarié du privé, mais il appartient clairement à la catégorie visée.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0021527,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

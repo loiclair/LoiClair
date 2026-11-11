@@ -1,0 +1,26 @@
+{
+ "impacts": [
+  {
+   "profil": "chef_entreprise",
+   "phrase_fr": "Un crédit d’impôt de 50 % des droits de mutation pourrait être accordé lors de la cession de votre entreprise, plafonné à 100 000 euros par cession.",
+   "phrase_en": "A tax credit of 50% of transfer duties could be granted when selling or buying your business, capped at 100,000 euros per sale.",
+   "passage": "Les cessions d’entreprises, réalisées à titre gratuit ou onéreux, ouvrent droit à un crédit d’impôt égal à 50 % des droits de mutation à titre gratuit ou onéreux dus, dans la limite d’un plafond de 100 000 euros par cession.",
+   "certitude": "probable"
+  },
+  {
+   "profil": "heritier_donateur",
+   "phrase_fr": "Transmettre votre entreprise par donation pourrait donner droit à un crédit d’impôt couvrant la moitié des droits de mutation, plafonné à 100 000 euros.",
+   "phrase_en": "Transferring your business by gift could entitle you to a tax credit covering half the transfer duties, capped at 100,000 euros.",
+   "passage": "Les cessions d’entreprises, réalisées à titre gratuit ou onéreux, ouvrent droit à un crédit d’impôt égal à 50 % des droits de mutation à titre gratuit ou onéreux dus, dans la limite d’un plafond de 100 000 euros par cession.",
+   "certitude": "probable"
+  },
+  {
+   "profil": "auto_entrepreneur",
+   "phrase_fr": "Céder une micro-entreprise exercée depuis au moins cinq ans pourrait ouvrir un crédit d’impôt au repreneur, sous conditions de maintien de l’activité.",
+   "phrase_en": "Selling a micro-enterprise run for at least five years could give the buyer a tax credit, if the activity is maintained.",
+   "passage": "La cession doit porter sur des entreprises individuelles, des sociétés de personnes, ou des sociétés de capitaux, sous réserve que le cédant ait exercé son activité pendant au moins cinq ans ;",
+   "certitude": "possible"
+  }
+ ],
+ "cout_usd": 0.00133581
+}

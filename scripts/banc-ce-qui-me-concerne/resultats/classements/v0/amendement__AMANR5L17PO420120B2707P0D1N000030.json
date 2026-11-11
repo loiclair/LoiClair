@@ -1,0 +1,20 @@
+{
+ "impacts": [
+  {
+   "profil": "chef_entreprise",
+   "passage": "l’inspecteur de travail peut autoriser une entreprise concernée par le présent alinéa à conclure une convention de stage lorsque celle-ci présente les garanties suffisantes",
+   "certitude": "probable"
+  },
+  {
+   "profil": "dirigeant_grande_entreprise",
+   "passage": "l’inspecteur de travail peut autoriser une entreprise concernée par le présent alinéa à conclure une convention de stage lorsque celle-ci présente les garanties suffisantes",
+   "certitude": "possible"
+  },
+  {
+   "profil": "apprenti_alternant",
+   "passage": "l’inspecteur de travail peut autoriser une entreprise concernée par le présent alinéa à conclure un contrat d'apprentissage lorsque celle-ci présente les garanties suffisantes",
+   "certitude": "possible"
+  }
+ ],
+ "resume_fr": "Permettrait à l'inspecteur du travail d'autoriser une entreprise exclue à reprendre stagiaires et apprentis après un délai fixé par décret, si elle offre des garanties suffisantes de sécurité."
+}

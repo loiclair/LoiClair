@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "mineur",
+    "raison": "Le texte vise directement les victimes mineures au moment des faits : pour elles, le délai de prescription court à partir de la révélation, avec 20 ans pour les délits et 30 ans pour les crimes. Un mineur victime de ces infractions est donc touché personnellement par la règle.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000534785,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

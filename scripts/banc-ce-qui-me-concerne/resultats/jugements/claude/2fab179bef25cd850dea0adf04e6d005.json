@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "elu_local",
+    "raison": "Le texte permet aux communes de montagne de reprendre ces compétences par délibération, après avis de l’organe délibérant de la communauté de communes : cela modifie directement les décisions que peuvent prendre les élus locaux.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000443275,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

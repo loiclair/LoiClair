@@ -1,0 +1,19 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "salarie_prive",
+    "raison": "Le dispositif vise directement les salariés : l’employeur doit les informer des frais et coûts applicables au déblocage de leurs sommes.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "chef_entreprise",
+   "dirigeant_grande_entreprise"
+  ]
+ },
+ "cout_usd": 0.000758275,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

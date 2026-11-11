@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "fonctionnaire",
+    "raison": "L'article étend la protection fonctionnelle de la collectivité aux proches d'un agent public (conjoint, enfants, ascendants) en cas de risque lié à ses fonctions : le texte vise directement les agents publics et leurs droits.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0019617000000000002,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

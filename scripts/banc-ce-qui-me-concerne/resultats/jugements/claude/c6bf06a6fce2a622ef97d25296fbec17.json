@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "futur_parent",
+    "raison": "Le texte vise les femmes et couples engagés dans une tentative de FIV, soit des personnes qui ont un projet d'enfant, ce que couvre la définition de futur_parent. Le dépistage des aneuploïdies change directement leurs droits et leurs démarches.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0026587,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

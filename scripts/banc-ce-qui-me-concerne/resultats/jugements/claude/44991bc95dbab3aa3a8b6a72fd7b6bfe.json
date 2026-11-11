@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_sante",
+    "raison": "Le texte modifie les conditions d'accès à la profession de médecin (code de la santé publique, articles L. 4111-1 et L. 4131-1) pour les titulaires de diplômes britanniques, ce qui change directement les règles du métier médical.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000794385,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

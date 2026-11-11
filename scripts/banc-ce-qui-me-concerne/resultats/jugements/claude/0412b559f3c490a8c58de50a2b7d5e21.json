@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "heritier_donateur",
+    "raison": "L'article raccourcit de 30 à 15 ans le délai après lequel un immeuble de succession ouverte et non partagée devient bien sans maître, acquis par la commune. Il s'applique aux successions ouvertes depuis 2007 non partagées, donc les héritiers qui n'ont pas réglé la succession risquent de perdre le bien. Ils sont directement visés comme personnes qui reçoivent un patrimoine par succession.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0028626999999999997,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

@@ -1,0 +1,35 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "outre_mer",
+    "raison": "L'article vise les assurés résidant à Mayotte, dont les droits et prestations sociales sont maintenus jusqu'au 30 juin 2025.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "allocataire",
+    "raison": "L'article autorise le versement ou le maintien des aides personnelles au logement par la caisse de Mayotte, même si le local est sous-loué en partie à des tiers.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "handicap",
+    "raison": "Le II prolonge de douze mois au maximum les droits liés au handicap (PCH, carte mobilité inclusion, AEEH) dont l'accord expire.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "age_dependant",
+    "raison": "L'allocation personnalisée d'autonomie figure expressément parmi les prestations prolongées au 2 du A du II.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0077597,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

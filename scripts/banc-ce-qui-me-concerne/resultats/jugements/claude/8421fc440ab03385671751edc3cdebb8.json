@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "salarie_prive",
+    "raison": "L'amendement avance de 2027 à 2026 la date limite d'affectation des sommes éligibles au déblocage de la participation et de l'intéressement ; les salariés d'entreprises privées qui détiennent ces sommes voient donc leur droit au déblocage réduit, ce qui les vise directement.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0039356999999999994,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

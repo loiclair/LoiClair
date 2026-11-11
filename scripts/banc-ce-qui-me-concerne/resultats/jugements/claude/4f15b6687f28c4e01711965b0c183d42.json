@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_artisanat_commerce",
+    "raison": "L'obligation de publier les commissions pèse sur les organismes émetteurs de titres-restaurant, pas sur les commerçants. Ceux-ci reçoivent seulement une information et voient leurs obligations et leurs commissions inchangées. L'effet est indirect et relève d'une obligation commerciale des émetteurs, donc pas concerné.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00041908500000000003,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

@@ -1,0 +1,19 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "outre_mer",
+    "raison": "Le dispositif impose un plan territorial dans chaque collectivité des articles 73 et 74 et en Nouvelle-Calédonie : il vise explicitement le lieu de vie outre-mer, avec mise à l'abri et accompagnement des mineurs victimes sur ces territoires.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "mineur"
+  ]
+ },
+ "cout_usd": 0.0023686999999999996,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

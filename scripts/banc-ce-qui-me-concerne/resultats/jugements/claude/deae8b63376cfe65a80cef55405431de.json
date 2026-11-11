@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_industrie",
+    "raison": "Le texte impose une obligation technique et commerciale aux installations de production (mise à disposition de la puissance sur le mécanisme d'ajustement). La règle 12 exclut ce cas : il s'agit d'une obligation de l'entreprise productrice, qui touche le secteur par ricochet, et non d'une règle d'exercice du métier des personnes qui y travaillent.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0021956999999999996,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

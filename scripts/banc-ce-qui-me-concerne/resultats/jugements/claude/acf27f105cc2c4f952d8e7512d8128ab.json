@@ -1,0 +1,19 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_sante",
+    "raison": "Le texte modifie directement les conditions permettant aux médecins d’exercer leur profession en France.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": [
+   "etranger_ue",
+   "etranger_hors_ue"
+  ]
+ },
+ "cout_usd": 0.000632525,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "parent",
+    "raison": "La suppression de dispositions des articles L. 521-1 et L. 755-12 vise les règles de modulation des allocations familiales selon les ressources des familles ayant des enfants à charge.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000399525,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

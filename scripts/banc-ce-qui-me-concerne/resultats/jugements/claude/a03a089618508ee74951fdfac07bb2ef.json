@@ -1,0 +1,35 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "parent",
+    "raison": "Le texte vise le contribuable qui assume la charge exclusive ou principale d'au moins deux enfants : c'est un parent d'enfants à charge, qui gagnerait une demi-part.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "imposable",
+    "raison": "La demi-part de quotient familial change directement le calcul de l'impôt sur le revenu des foyers imposables ayant au moins deux enfants à charge.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "parent_isole",
+    "raison": "Le texte vise la charge exclusive ou principale, ce qui recouvre le parent qui élève seul ses enfants ; la mesure ne se limite pas à ce profil mais il en fait clairement partie.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "separe_divorce",
+    "raison": "Le texte parle de parents ayant la charge égale des enfants (résidence alternée), donc de parents séparés, mais ne mentionne ni séparation ni divorce ; le critère est la charge des enfants, pas la situation de couple. Statut prêté.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0037067,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

@@ -1,0 +1,12 @@
+{
+ "resume_fr": "Prévoirait qu’en l’absence de réponse de l’administration pendant deux mois, la demande serait rejetée plutôt qu’acceptée.",
+ "resume_en": "Would provide that if the administration did not reply within two months, the application would be rejected rather than accepted.",
+ "impacts": [
+  {
+   "profil": "mineur",
+   "passage": "Par dérogation à l’article L. 231‑1 du code des relations entre le public et l’administration, le silence gardé par l’administration pendant deux mois vaut décision de rejet.",
+   "certitude": "possible"
+  }
+ ],
+ "cout_usd": 0.0003021
+}

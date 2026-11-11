@@ -1,0 +1,14 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "epargnant",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "Le profil « epargnant » inclut explicitement les personnes qui investissent dans des cryptoactifs. L'article renforce les sanctions fiscales et le contrôle en cas de non-déclaration des portefeuilles d'actifs numériques."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00566175
+}

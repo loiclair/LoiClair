@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_finance",
+    "raison": "L'article 5 interdit à une personne condamnée pour certains délits douaniers d'exercer les fonctions d'agent de change, un métier de la finance. La mesure vise directement ce métier, et le texte est au conditionnel comme il convient à un projet de loi.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "chef_entreprise",
+    "raison": "Le texte prive la personne condamnée du droit de voter et d'être élue aux chambres de commerce, aux tribunaux de commerce et aux conseils de prud'hommes. Ces instances sont composées pour l'essentiel de chefs d'entreprise et de commerçants, ce qui vise directement cette catégorie. La phrase de l'assistant reprend fidèlement le texte, au conditionnel.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0011745850000000001,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

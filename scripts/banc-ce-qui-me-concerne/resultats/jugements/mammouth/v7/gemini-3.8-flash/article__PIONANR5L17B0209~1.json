@@ -1,0 +1,14 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "jeune",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article relève de 21 à 25 ans la limite d'âge pour la prise en charge/l'accompagnement des jeunes majeurs issus de l'aide sociale à l'enfance, ce qui concerne directement les personnes de 18 à 25 ans."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.005397
+}

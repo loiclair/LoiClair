@@ -1,0 +1,25 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etudiant",
+    "raison": "Le texte vise le « co-contractant » du professionnel, sans dire « étudiant » ; le dossier porte sur l'enseignement supérieur privé, et la nullité du contrat avec remboursement du double protège directement celui qui s'inscrit. Le co-contractant peut cependant être un autre public (formation professionnelle).",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "secteur_education",
+    "raison": "Les organismes de formation privés encourent une amende administrative et une interdiction d'exercer la direction d'un organisme de formation professionnelle : ce sont des obligations professionnelles du secteur de la formation.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "chef_entreprise"
+  ]
+ },
+ "cout_usd": 0.0031417,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

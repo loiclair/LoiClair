@@ -1,0 +1,18 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "heritier_donateur",
+    "raison": "Le dispositif étend la période des dons de sommes d’argent bénéficiant d’un régime fiscal allégé : il vise directement les personnes qui transmettent ou reçoivent un patrimoine par donation.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "jeune"
+  ]
+ },
+ "cout_usd": 0.00052915,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

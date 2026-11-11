@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_sante",
+    "raison": "L'article étend aux « tout professionnel de santé » la suspension après mise en examen liée à l'exercice, et prévoit une interdiction d'exercer pour ceux qui ne relèvent pas d'un ordre. La règle change directement l'exercice du métier.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "etudiant",
+    "raison": "Le IV, 3°, désigne explicitement les élèves et étudiants des établissements préparant aux professions de santé comme concernés par la mesure de suspension. Les étudiants en santé sont visés par leur statut.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000621385,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

@@ -1,0 +1,14 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etranger_hors_ue",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'amendement prévoit expressément la délivrance d'une autorisation provisoire de séjour d'un an, renouvelable et autorisant à travailler, pour les étrangers victimes de violences graves qui apportent des éléments sérieux sans avoir déposé plainte."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00648675
+}

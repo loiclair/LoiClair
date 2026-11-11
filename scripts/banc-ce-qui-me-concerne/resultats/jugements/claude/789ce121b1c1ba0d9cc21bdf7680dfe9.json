@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_industrie",
+    "raison": "Le texte impose une obligation technique et commerciale aux producteurs d'électricité (mise à disposition de la puissance dans les offres du mécanisme d'ajustement). La règle 12 exclut ce cas, car c'est une obligation de l'entreprise productrice et non un changement dans la façon d'exercer le métier. Le profil est donc touché par ricochet.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0022467,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

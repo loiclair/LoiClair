@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_transport",
+    "raison": "L'article prévoit un amortissement exceptionnel pour les équipements de propulsion vélique des navires de transport de marchandises ou de passagers : cela touche directement les obligations fiscales et l'investissement des entreprises du transport maritime.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "chef_entreprise",
+    "raison": "Le texte majore le taux pour les petites et moyennes entreprises (« moyennes entreprises », « petites entreprises » au sens de l'annexe I du règlement européen). Leurs dirigeants sont visés directement par ce régime fiscal.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0032746999999999997,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

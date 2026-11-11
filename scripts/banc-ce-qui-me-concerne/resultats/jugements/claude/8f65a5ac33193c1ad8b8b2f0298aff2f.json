@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "salarie_prive",
+    "raison": "Le texte vise l’incapacité de travail faisant suite à une IVG, pas le statut de salarié du privé. Ce statut seul ne suffit donc pas à être concerné.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000763025,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

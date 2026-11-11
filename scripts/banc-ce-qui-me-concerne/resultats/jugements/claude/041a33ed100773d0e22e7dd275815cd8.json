@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "locataire",
+    "raison": "L'article modifie la loi de 1989 sur les rapports locatifs : le bailleur doit fournir un logement avec un confort thermique minimal en été et installer des protections à la demande du locataire. Le locataire est directement visé.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "proprietaire_bailleur",
+    "raison": "Le texte impose directement au bailleur de fournir un logement avec un confort thermique estival et d'installer, sur demande, des protections solaires et un brasseur d'air, ou à défaut une occultation et un ventilateur.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0027037,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

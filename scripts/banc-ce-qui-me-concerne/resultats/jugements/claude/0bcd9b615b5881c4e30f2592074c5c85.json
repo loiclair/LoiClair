@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etudiant",
+    "raison": "L'article L. 632-5 du code de l'éducation porte sur la formation pratique des étudiants en médecine. Ajouter les maisons de santé aux lieux prévus change directement l'organisation de leurs stages, et ils sont étudiants de l'enseignement supérieur.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0048787,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

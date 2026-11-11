@@ -1,0 +1,1 @@
+ALTER TABLE public.user_feedback ENABLE ROW LEVEL SECURITY;

@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "parent",
+    "raison": "Le texte vise nommément le non-versement de la pension alimentaire (art. 227-3) et les actions qui bloquent son versement (art. 227-4), infractions qui concernent les parents d'un enfant. Commises par un conjoint, un ascendant ou un enfant, elles deviendraient des violences intrafamiliales, ce qui touche directement le parent débiteur comme le parent créancier.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000937835,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

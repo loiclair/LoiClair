@@ -1,0 +1,35 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "heritier_donateur",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "Le profil est directement visé : la modification du délai de rappel fiscal des donations (article 784) change concrètement la manière dont se calculent les droits de succession ou de donation pour celui qui transmet ou reçoit un patrimoine. La phrase proposée décrit correctement ce changement sans inventer de fait, et utilise le conditionnel ('seraient') exigé puisque le texte n'est pas adopté."
+   },
+   {
+    "profil": "epargnant",
+    "concerne": false,
+    "phrase_fidele": false,
+    "raison": "Ce profil n'est pas directement concerné par cet amendement. L'article modifié est l'article 757 B du CGI, qui traite de la fiscalité des contrats d'assurance-vie dans le cadre d'une succession. Le bénéficiaire visé n'est donc pas un simple 'épargnant' (profil défini comme celui qui épargne ou investit de son vivant), mais un héritier ou un donataire, ce qui entre déjà dans le profil 'heritier_donateur'. De plus, la phrase de l'assistant est infidèle au texte car elle tire une conclusion erronée : la suppression d'un prélèvement basé sur le degré de parenté ne signifie pas une exonération de taxation ; elle entraînerait au contraire l'application d'un régime probablement moins favorable (celui des successions ordinaires)."
+   },
+   {
+    "profil": "senior",
+    "concerne": false,
+    "phrase_fidele": false,
+    "raison": "Profil omis par l'assistant. La modification de l'article 757 B du CGI change le régime fiscal de l'assurance-vie pour les primes versées après l'âge de soixante-dix ans. La condition d'âge est fixée par l'article lui-même : 'après l'âge de soixante-dix ans', ce qui vise directement le profil 'senior' ('Personne de 55 ans ou plus'). Ce profil est donc bien concerné."
+   },
+   {
+    "profil": "imposable",
+    "concerne": true,
+    "phrase_fidele": false,
+    "raison": "Profil omis par l'assistant. L'article modifie en profondeur le barème et les abattements des droits de mutation à titre gratuit (successions et donations). Cela change directement l'impôt dû par les foyers qui paient des droits de succession ou de donation. Le profil 'imposable' ('Foyer qui paie l'impôt sur le revenu') est un bon indicateur de la population potentiellement soumise à ces droits, et la modification des seuils et des taux dans le tableau du quatrième alinéa de l'article 777 (ex: remplacement de '8 072 €' par '25 000 €') aura un effet direct sur le montant à payer."
+   }
+  ],
+  "oublis": [
+   "senior",
+   "imposable"
+  ]
+ },
+ "cout_usd": 0.0044603
+}

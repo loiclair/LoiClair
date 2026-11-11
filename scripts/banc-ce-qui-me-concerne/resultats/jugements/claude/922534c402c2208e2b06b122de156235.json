@@ -1,0 +1,20 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "montagne",
+    "raison": "L'article porte sur les unités touristiques nouvelles en zone de montagne, mais il règle une procédure d'autorisation entre le préfet et les porteurs de projets d'hébergement touristique. L'habitant d'une commune de montagne n'est pas visé en tant que tel : l'effet sur lui est indirect.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "meuble_tourisme",
+   "secteur_hotellerie"
+  ]
+ },
+ "cout_usd": 0.01143325,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

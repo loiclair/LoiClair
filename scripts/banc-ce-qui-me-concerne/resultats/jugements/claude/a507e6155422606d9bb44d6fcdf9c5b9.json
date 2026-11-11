@@ -1,0 +1,29 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "mineur",
+    "raison": "L'art. L. 431-3 fixe un âge minimal de quatorze ans pour conduire une trottinette électrique : les mineurs de moins de 14 ans sont directement visés, ils perdraient un usage qu'ils avaient.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "cycliste",
+    "raison": "Le profil cycliste inclut ceux qui se déplacent en trottinette ; la limite de 20 km/h et l'âge minimal visent directement les conducteurs de trottinette à assistance électrique.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "parent",
+    "raison": "Le texte ne s'adresse qu'au conducteur et ne crée aucune obligation pour les parents ; l'effet sur eux passe par l'enfant, donc indirect. La phrase prête aussi aux parents une interdiction que le texte ne formule pas.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0031457,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

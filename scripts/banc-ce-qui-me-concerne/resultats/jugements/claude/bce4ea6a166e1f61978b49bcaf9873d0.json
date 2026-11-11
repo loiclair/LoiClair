@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "mineur",
+    "raison": "L'article fixe un âge minimal de quatorze ans pour conduire une trottinette à assistance électrique. Il vise directement les mineurs de moins de quatorze ans, par leur âge, et leur interdirait cette conduite.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "cycliste",
+    "raison": "Le texte encadre directement la trottinette à assistance électrique, avec une vitesse maximale de 20 km/h et un âge minimal de conduite. Le profil cycliste couvre expressément les personnes qui se déplacent en trottinette, et ces règles changent leur pratique au quotidien.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00041358500000000006,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

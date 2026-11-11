@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "elu_local",
+    "raison": "Le texte impose aux établissements d'informer au préalable le maire de la commune d'implantation de tout projet de fermeture d'agence. Le maire, élu local, est directement visé par ce droit à l'information.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0018627000000000001,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

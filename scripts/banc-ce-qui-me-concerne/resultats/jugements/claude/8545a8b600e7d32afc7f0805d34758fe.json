@@ -1,0 +1,34 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etranger_hors_ue",
+    "raison": "Concerné : le texte impose des taxes sur la première délivrance et le renouvellement de titres de séjour délivrés aux étrangers. Toutefois, ces dispositions entrent en vigueur le premier jour du troisième mois suivant la publication.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "automobiliste",
+    "raison": "Concerné : le texte prévoit une taxe pour remplacer un permis non présenté ou détérioré, ainsi que pour échanger un permis étranger. La mesure entre toutefois en vigueur le premier jour du troisième mois suivant la publication ; « désormais » est donc prématuré. Le texte ne mentionne pas expressément la perte du permis, mais vise son absence de présentation.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "salarie_prive",
+    "raison": "Non concerné en tant que salarié : la contribution vise la partie qui introduit une instance, quel que soit son statut professionnel. De plus, son application est différée et le texte prévoit d’autres exemptions que l’aide juridictionnelle.",
+    "concerne": false,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "independant",
+    "raison": "Concerné : les avocats, explicitement cités dans la définition du profil, sont les bénéficiaires du produit affecté au paiement des missions d’aide juridique. La contribution dont provient ce produit ne s’applique toutefois qu’à une date fixée par décret, au plus tard le 1er mars 2026 ; « désormais » est prématuré.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.001740775,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

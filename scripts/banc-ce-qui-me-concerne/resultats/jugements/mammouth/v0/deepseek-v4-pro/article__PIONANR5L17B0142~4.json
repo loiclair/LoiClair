@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "benevole",
+    "concerne": false,
+    "phrase_fidele": false,
+    "raison": "L'élément ne vise pas le profil 'benevole'. Le service civique n'est pas du bénévolat. De plus, la mesure modifie le Code général de la fonction publique, elle ne concerne donc que des fonctionnaires ou contractuels. Un bénévole ou un ancien volontaire en service civique n'est pas directement concerné par les règles de titularisation ou d'avancement dans la fonction publique."
+   }
+  ],
+  "oublis": [
+   "fonctionnaire"
+  ]
+ },
+ "cout_usd": 0.0013936
+}

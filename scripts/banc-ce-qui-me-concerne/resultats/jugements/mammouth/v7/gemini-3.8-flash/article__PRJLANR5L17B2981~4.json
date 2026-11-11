@@ -1,0 +1,20 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "proprietaire_bailleur",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article réforme le dispositif de déduction fiscale au titre de l'amortissement pour les propriétaires qui achètent des logements réhabilités ou transformés et les mettent en location nue à titre de résidence principale."
+   },
+   {
+    "profil": "imposable",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "Le mécanisme prévoit une déduction fiscale de la base imposable des revenus fonciers pour les contribuables réalisant ce type d'investissement locatif."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.006861
+}

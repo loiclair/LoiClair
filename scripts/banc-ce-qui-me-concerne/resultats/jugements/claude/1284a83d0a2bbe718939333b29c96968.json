@@ -1,0 +1,29 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "proprietaire_bailleur",
+    "raison": "Le texte crée une déduction d'amortissement (dispositif Jeanbrun) pour le contribuable qui acquiert un logement avec travaux et s'engage à le louer nu en résidence principale : cela vise directement le propriétaire bailleur.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "imposable",
+    "raison": "La déduction d'amortissement s'impute sur les revenus fonciers et réduit l'impôt sur le revenu du contribuable investisseur. Mais le texte vise les bailleurs, pas les foyers imposables en général, et l'effet sur l'impôt découle de la qualité de bailleur.",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "projet_achat",
+    "raison": "Le profil désigne une personne qui achète son propre logement ou monte un prêt pour cela. Ici l'achat est destiné à la location nue, donc c'est un investisseur locatif et non un acquéreur de résidence.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0047367,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

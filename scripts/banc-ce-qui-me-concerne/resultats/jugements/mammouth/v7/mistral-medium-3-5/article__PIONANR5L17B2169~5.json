@@ -1,0 +1,25 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "mineur",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "Le texte vise explicitement les mineurs victimes de violences de la part d'un ascendant (Art. L. 256-4, 2°). La phrase est fidèle et au conditionnel, conformément à l'étape du texte (proposition de loi non adoptée)."
+   },
+   {
+    "profil": "parent",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "Le texte mentionne explicitement que le juge des violences sexistes et sexuelles connaît des modalités d’exercice de l’autorité parentale en cas de violences au sein du couple (Art. L. 256-4, 1°). La phrase est fidèle et au conditionnel."
+   }
+  ],
+  "oublis": [
+   "marie_pacse",
+   "concubin",
+   "separe_divorce",
+   "veuf"
+  ]
+ },
+ "cout_usd": 0.00924
+}

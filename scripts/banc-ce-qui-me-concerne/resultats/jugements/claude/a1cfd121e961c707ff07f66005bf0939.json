@@ -1,0 +1,28 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "handicap",
+    "raison": "La personne handicapée est expressément visée : elle peut demander une évaluation limitée à son éligibilité à la RQTH ou à certaines mentions de la carte mobilité inclusion.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "age_dependant",
+    "raison": "Le texte vise les bénéficiaires de l’allocation prévue à l’article L. 232-1 (l’APA), qui constituent un sous-groupe des personnes âgées en perte d’autonomie. La délivrance définitive de la carte dépend toutefois du groupe de classement.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "senior",
+    "raison": "L’évaluation pour certaines mentions de la carte est réservée aux demandeurs ayant dépassé un âge fixé par arrêté, qui ne peut être inférieur à 60 ans : les seniors remplissant ce seuil sont directement visés.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00089915,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

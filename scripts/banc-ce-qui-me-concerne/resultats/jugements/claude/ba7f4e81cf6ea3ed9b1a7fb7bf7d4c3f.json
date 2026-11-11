@@ -1,0 +1,18 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "chef_entreprise",
+    "raison": "L’amendement vise directement une entreprise concernée par l’interdiction et permet à l’inspecteur du travail de l’autoriser à accueillir de nouveau stagiaires ou apprentis. Cela concerne le dirigeant d’une PME ou TPE qui la dirige.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "dirigeant_grande_entreprise"
+  ]
+ },
+ "cout_usd": 0.000484775,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

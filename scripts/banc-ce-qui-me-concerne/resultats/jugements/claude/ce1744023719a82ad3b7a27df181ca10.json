@@ -1,0 +1,74 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "benevole",
+    "raison": "Le texte exige le certificat des bénévoles qui encadrent une activité sportive auprès de mineurs et de ceux qui interviennent auprès d’élèves.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "etudiant",
+    "raison": "Les étudiants intervenant auprès de mineurs dans les structures de santé énumérées sont explicitement soumis à l’obligation.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "apprenti_alternant",
+    "raison": "Le profil inclut les stagiaires, expressément soumis à l’obligation lorsqu’ils interviennent auprès de mineurs dans ces structures de santé.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "salarie_particulier",
+    "raison": "L’obtention et le maintien de l’agrément d’assistant maternel sont explicitement subordonnés au certificat.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "particulier_employeur",
+    "raison": "Le texte impose à l’employeur de vérifier le certificat, y compris pour les salariés employés par un particulier employeur, lorsqu’ils exercent une activité auprès de mineurs.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "chef_entreprise",
+    "raison": "L’employeur doit vérifier le certificat avant l’embauche ou l’affectation des salariés exerçant une activité auprès de mineurs ; cette obligation vise aussi les employeurs de PME et de petites entreprises.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "dirigeant_grande_entreprise",
+    "raison": "L’obligation de vérification est imposée à l’employeur pour les salariés concernés, sans exception pour les grandes entreprises.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "salarie_prive",
+    "raison": "Toute personne exerçant une activité auprès de mineurs doit détenir le certificat ; l’employeur vérifie cette détention avant l’embauche ou l’affectation.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "secteur_sante",
+    "raison": "Le texte soumet à l’obligation les activités de soins et autres activités sanitaires auprès de mineurs, ainsi que les intervenants dans des structures de santé.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "independant",
+    "raison": "Le texte vise explicitement l’exercice à titre libéral d’activités de santé auprès de mineurs.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "secteur_education",
+   "secteur_culture",
+   "secteur_transport"
+  ]
+ },
+ "cout_usd": 0.001625025,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

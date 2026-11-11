@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "locataire",
+    "raison": "L'article 6 de la loi de 1989 est modifié pour imposer au bailleur de fournir un logement offrant un confort thermique minimal en été, et d'installer à la demande du locataire des protections solaires et un brasseur d'air. Le texte vise directement le locataire, qui en bénéficie.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "proprietaire_bailleur",
+    "raison": "Le texte impose directement au bailleur, qui loue à l'année, les obligations de confort thermique estival et d'installation de protections solaires et d'un brasseur d'air sur demande, avec un repli en cas d'impossibilité. La phrase de l'assistant omet la condition d'impossibilité technique, juridique ou patrimoniale, mais reste une paraphrase fidèle.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00035658500000000003,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

@@ -1,0 +1,26 @@
+{
+ "impacts": [
+  {
+   "profil": "demandeur_emploi",
+   "phrase_fr": "Des structures pourraient accompagner les personnes sans emploi vers une activité indépendante, avec un suivi socioprofessionnel et une mise en relation avec des clients.",
+   "phrase_en": "Structures could support jobseekers toward self-employment, with social and professional follow-up and introductions to clients.",
+   "passage": "Les entreprises d’insertion par le travail indépendant accompagnent, dans le cadre d’une activité exercée à titre indépendant, des personnes sans emploi rencontrant des difficultés sociales et professionnelles particulières",
+   "certitude": "certain"
+  },
+  {
+   "profil": "chef_entreprise",
+   "phrase_fr": "Les dirigeants pourraient créer une entreprise d’insertion par le travail indépendant, conventionnée par l’État et recevant une aide financière de l’État.",
+   "phrase_en": "Business leaders could set up an independent-work insertion company, approved by the State and receiving a State financial aid.",
+   "passage": "Les entreprises d’insertion par le travail indépendant sont conventionnées par l’autorité administrative dans des conditions fixées par décret en Conseil d’État.",
+   "certitude": "probable"
+  },
+  {
+   "profil": "independant",
+   "phrase_fr": "Les personnes accompagnées pourraient lancer une activité indépendante, avec l’appui d’une structure d’insertion et une aide financière de l’État.",
+   "phrase_en": "People supported could start an independent activity, with help from an insertion structure and a State financial aid.",
+   "passage": "accompagnent, dans le cadre d’une activité exercée à titre indépendant, des personnes sans emploi rencontrant des difficultés sociales et professionnelles particulières",
+   "certitude": "possible"
+  }
+ ],
+ "cout_usd": 0.00170528
+}

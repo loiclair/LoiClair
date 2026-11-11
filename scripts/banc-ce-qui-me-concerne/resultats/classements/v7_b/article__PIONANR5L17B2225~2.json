@@ -1,0 +1,33 @@
+{
+ "impacts": [
+  {
+   "profil": "locataire",
+   "phrase_fr": "Le loyer de votre logement pourrait être plafonné par un loyer de référence fixé par arrêté préfectoral, avec une action en diminution possible.",
+   "phrase_en": "Your rent could be capped by a reference rent set by prefectoral order, with a possible claim for reduction if it exceeds that level.",
+   "passage": "Le loyer de base des logements mis en location dans le territoire concerné est fixé librement entre les parties lors de la conclusion du contrat de bail dans la limite du loyer de référence.",
+   "certitude": "certain"
+  },
+  {
+   "profil": "proprietaire_bailleur",
+   "phrase_fr": "Le loyer que vous fixerez pour un logement loué à l’année serait limité par un loyer de référence, avec une action en diminution possible.",
+   "phrase_en": "The rent you set for a year-round rental would be capped by a reference rent, with a possible claim for reduction.",
+   "passage": "Le loyer de base des logements mis en location dans le territoire concerné est fixé librement entre les parties lors de la conclusion du contrat de bail dans la limite du loyer de référence.",
+   "certitude": "certain"
+  },
+  {
+   "profil": "meuble_tourisme",
+   "phrase_fr": "Les loyers de vos logements meublés touristiques seraient soumis aux mêmes règles d’encadrement que les logements d’habitation principale, y compris hors zones tendues.",
+   "phrase_en": "Rents for your furnished tourist rentals would be subject to the same rent controls as main homes, including outside tense areas.",
+   "passage": "Les loyers des logements meublés utilisés à des fins touristiques et ceux des résidences étudiantes privées sont soumis aux mêmes règles d’encadrement des loyers que les logements à usage d’habitation principale, dans les zones tendues comme sur le reste du territoire.",
+   "certitude": "certain"
+  },
+  {
+   "profil": "etudiant",
+   "phrase_fr": "Le loyer de votre chambre en résidence étudiante privée serait encadré comme un logement classique, dans les zones tendues comme ailleurs.",
+   "phrase_en": "Rent for your room in a private student residence would be capped like a standard home, in tense areas and elsewhere.",
+   "passage": "Les loyers des logements meublés utilisés à des fins touristiques et ceux des résidences étudiantes privées sont soumis aux mêmes règles d’encadrement des loyers que les logements à usage d’habitation principale, dans les zones tendues comme sur le reste du territoire.",
+   "certitude": "probable"
+  }
+ ],
+ "cout_usd": 0.00165961
+}

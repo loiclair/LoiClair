@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "benevole",
+    "raison": "Non concerné : la disposition vise la liquidation et la dévolution des biens d’une association dissoute, ainsi que la procédure suivie par le curateur. Elle ne vise pas les bénévoles en raison de leur bénévolat.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000416775,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

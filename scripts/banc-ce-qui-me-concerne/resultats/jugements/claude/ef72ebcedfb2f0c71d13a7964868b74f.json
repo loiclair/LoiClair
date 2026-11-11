@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "cycliste",
+    "raison": "Le profil cycliste inclut les utilisateurs de trottinette ; l'article fixe un âge minimum de 14 ans et une vitesse maximale de 20 km/h pour les trottinettes à assistance électrique, ce qui les vise directement.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "mineur",
+    "raison": "L'article impose un âge minimal de quatorze ans pour conduire une trottinette électrique : les mineurs de moins de 14 ans sont directement visés, c'est leur âge qui déclenche la mesure.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0024286999999999998,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

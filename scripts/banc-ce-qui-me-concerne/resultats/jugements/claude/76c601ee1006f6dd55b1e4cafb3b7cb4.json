@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "epargnant",
+    "raison": "Le B du II modifie l'article 150 VH bis sur la taxation des cessions de crypto-actifs par les particuliers. Il redéfinit le champ des actifs concernés par renvoi au règlement MiCA et en exclut certains crypto-actifs (ceux visés aux 3 et 4 de l'article 2). Cela change la règle fiscale pour qui détient des cryptoactifs, ce que couvre le profil épargnant.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0097897,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

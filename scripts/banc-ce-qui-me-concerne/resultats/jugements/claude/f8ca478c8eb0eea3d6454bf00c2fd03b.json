@@ -1,0 +1,75 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_sante",
+    "raison": "L'art. L. 4113-13-1 impose le certificat à tous les professionnels de santé et aux intervenants des établissements de santé : cela change les obligations professionnelles du secteur.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "secteur_education",
+    "raison": "Le IV de l'art. L. 911-5 du code de l'éducation impose le certificat à toute personne intervenant auprès des élèves, y compris ponctuellement : c'est une règle d'exercice dans l'enseignement.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "salarie_prive",
+    "raison": "Le texte vise les salariés exerçant une activité auprès de mineurs, qui doivent détenir le certificat (obligation de l'art. L. 133-6-1). Le passage cité porte toutefois sur la vérification par l'employeur, mais les salariés sont directement visés.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "apprenti_alternant",
+    "raison": "Le texte cite expressément les stagiaires intervenant auprès de mineurs dans les structures de santé, et le catalogue inclut les stagiaires dans ce profil.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "etudiant",
+    "raison": "Le texte cite expressément les étudiants intervenant auprès de mineurs dans les structures de santé : ils doivent détenir le certificat.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "benevole",
+    "raison": "Le texte vise explicitement les bénévoles (encadrement sportif, structures de santé, intervenants occasionnels) : ils doivent détenir le certificat.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "salarie_particulier",
+    "raison": "L'art. L. 421-3-1 subordonne l'agrément des assistants maternels au certificat, et l'art. L. 1221-8 vise les salariés employés par un particulier employeur ou en CESU.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "particulier_employeur",
+    "raison": "L'art. L. 1221-8 mentionne expressément les salariés employés par un particulier employeur ou en CESU : l'employeur doit vérifier le certificat avant l'embauche ou l'affectation.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "chef_entreprise",
+    "raison": "Le texte impose à tout employeur de vérifier le certificat avant embauche ou affectation à une activité auprès de mineurs, ce qui vise les dirigeants de PME.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "dirigeant_grande_entreprise",
+    "raison": "L'obligation de vérification vaut pour tout employeur, grandes entreprises comprises.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "independant",
+   "fonctionnaire",
+   "secteur_culture"
+  ]
+ },
+ "cout_usd": 0.0102327,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

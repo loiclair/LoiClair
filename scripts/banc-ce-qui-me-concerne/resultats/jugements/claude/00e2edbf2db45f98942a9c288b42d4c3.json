@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_education",
+    "raison": "L’obligation vise les établissements d’enseignement, pas directement les personnes qui y travaillent ni leurs obligations professionnelles. L’effet sur elles passe par l’établissement.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00045915,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

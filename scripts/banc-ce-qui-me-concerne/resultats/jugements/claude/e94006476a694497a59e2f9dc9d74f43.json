@@ -1,0 +1,19 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "heritier_donateur",
+    "raison": "L'article change directement les droits de succession et de donation des héritiers et donateurs : abattement de 100 000 à 200 000 euros sur la part des ascendants et enfants (779 I) et nouveau barème du tableau de l'article 777.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "epargnant"
+  ]
+ },
+ "cout_usd": 0.000647235,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

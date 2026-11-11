@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "travailleur_plateforme",
+    "raison": "L'article vise directement les travailleurs de plateforme : il interdit qu'une suspension, une désactivation, un déréférencement ou une réduction d'accès aux missions soit décidé uniquement par un traitement algorithmique, et impose une motivation, une notification et une procédure contradictoire. Ces règles changent concrètement la situation de la personne qui reçoit ses missions par une plateforme.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00018403500000000004,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

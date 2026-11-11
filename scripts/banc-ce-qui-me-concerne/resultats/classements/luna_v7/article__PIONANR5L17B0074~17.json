@@ -1,0 +1,12 @@
+{
+ "impacts": [
+  {
+   "profil": "expat",
+   "phrase_fr": "Vous pourriez consulter sur le site de votre ambassade ou de votre poste consulaire des informations mises à jour au moins une fois par semaine.",
+   "phrase_en": "You would be able to consult information on your embassy or consular post’s website, updated at least once a week.",
+   "passage": "et est publiée sur le site internet des ambassades et des postes consulaires",
+   "certitude": "certain"
+  }
+ ],
+ "cout_usd": 0.00022985
+}

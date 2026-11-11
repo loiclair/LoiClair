@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "chef_entreprise",
+    "raison": "Le texte crée une peine aggravée pour « le même employeur » qui viole les règles à l'égard de plusieurs personnes : obligation et sanction pesant sur tout employeur, donc sur les dirigeants de PME.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "dirigeant_grande_entreprise",
+    "raison": "La sanction vise tout employeur, y compris les dirigeants d'entreprises de 250 salariés ou plus (règle 11 : obligation imposée à tout employeur).",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0026626999999999996,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

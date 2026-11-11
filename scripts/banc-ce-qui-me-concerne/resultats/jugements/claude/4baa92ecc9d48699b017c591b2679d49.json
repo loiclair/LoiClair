@@ -1,0 +1,34 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "locataire",
+    "raison": "Concerné : le texte encadre directement le loyer des logements loués et prévoit une action en diminution. La phrase n’est pas entièrement fidèle : dans les autres communes, le plafond est le loyer de référence majoré, et non le loyer de référence.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "proprietaire_bailleur",
+    "raison": "Concerné : le texte limite directement les loyers des logements mis en location et permet une action en diminution. La phrase n’est pas entièrement fidèle : dans les autres communes, le plafond est le loyer de référence majoré, et non le loyer de référence.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "meuble_tourisme",
+    "raison": "Concerné : le texte étend expressément l’encadrement aux logements meublés touristiques et précise qu’il vaut aussi hors zones tendues. La phrase respecte le conditionnel de la proposition de loi.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "etudiant",
+    "raison": "Le texte vise les résidences étudiantes privées, pas les étudiants en raison de leur statut. La phrase décrit toutefois correctement, au conditionnel, le cas d’une personne logée dans une telle résidence.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00073765,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

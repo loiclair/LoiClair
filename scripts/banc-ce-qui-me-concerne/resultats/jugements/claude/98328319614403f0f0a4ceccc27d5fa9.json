@@ -1,0 +1,40 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "outre_mer",
+    "raison": "L’article vise explicitement les assurés résidant à Mayotte et leurs ayants droit, mais seulement pour les droits arrivant à expiration à partir du 14 décembre 2024.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "handicap",
+    "raison": "La prolongation concerne notamment la carte mobilité inclusion, la PCH et l’allocation d’éducation de l’enfant handicapé, pour les bénéficiaires répondant aux conditions prévues.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "age_dependant",
+    "raison": "L’allocation personnalisée d’autonomie, destinée aux personnes âgées en perte d’autonomie, figure expressément parmi les prestations prolongées sous conditions.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "parent",
+    "raison": "Le texte vise l’allocation d’éducation de l’enfant handicapé selon la situation de l’enfant et l’accord sur la prestation, pas le statut de parent en lui-même.",
+    "concerne": false,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "allocataire",
+    "raison": "Les aides personnelles au logement sont explicitement visées : elles peuvent être accordées ou maintenues malgré une location ou sous-location partielle à des tiers.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00125715,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

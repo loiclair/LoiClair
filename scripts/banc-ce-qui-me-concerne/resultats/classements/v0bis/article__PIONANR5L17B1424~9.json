@@ -1,0 +1,19 @@
+{
+ "impacts": [
+  {
+   "profil": "secteur_sante",
+   "phrase_fr": "Les médecins demandant un remplacement pour exercer dans un territoire sous-doté ne pourraient être refusés que pour un motif impérieux de sécurité des soins ou une faute déontologique.",
+   "phrase_en": "Doctors requesting a replacement to work in an under-served area would be refused only for a compelling safety reason or a professional ethics breach.",
+   "passage": "Lorsque le médecin qui sollicite le remplacement s’absente pour concourir à l’amélioration de l’accès aux soins dans des territoires caractérisés par une offre de soins insuffisante",
+   "certitude": "certain"
+  },
+  {
+   "profil": "independant",
+   "phrase_fr": "Les médecins, dentistes et sages-femmes libéraux demandant un remplacement pour soigner en zone sous-dotée ne pourraient être refusés que pour des motifs précis.",
+   "phrase_en": "Self-employed doctors, dentists and midwives requesting a replacement to treat in under-served areas would be refused only on specific grounds.",
+   "passage": "Lorsque le médecin qui sollicite le remplacement s’absente pour concourir à l’amélioration de l’accès aux soins dans des territoires caractérisés par une offre de soins insuffisante",
+   "certitude": "probable"
+  }
+ ],
+ "cout_usd": 0.00123025
+}

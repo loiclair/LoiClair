@@ -1,0 +1,26 @@
+{
+ "impacts": [
+  {
+   "profil": "animal",
+   "passage": "Les livraisons d’équidés vivants et les prestations de service relatives à leur exploitation, à savoir la préparation et l’entraînement, la location et la prise en pension",
+   "certitude": "certain",
+   "phrase_en": "Sales of live horses and services for their care, training, rental or boarding would be subject to a changed VAT rate.",
+   "phrase_fr": "Les ventes de chevaux et les services liés à leur entretien, entraînement, location ou pension seraient soumis à un taux de TVA modifié."
+  },
+  {
+   "profil": "secteur_agriculture",
+   "passage": "Les livraisons d’équidés vivants et les prestations de service relatives à leur exploitation, à savoir la préparation et l’entraînement, la location et la prise en pension",
+   "certitude": "probable",
+   "phrase_en": "Horse breeders and businesses linked to horse operations would be subject to a changed VAT rate on their sales and services.",
+   "phrase_fr": "Les éleveurs de chevaux et les activités liées à leur exploitation seraient soumis à un taux de TVA modifié sur leurs ventes et prestations."
+  },
+  {
+   "profil": "chef_entreprise",
+   "passage": "Les livraisons d’équidés vivants et les prestations de service relatives à leur exploitation, à savoir la préparation et l’entraînement, la location et la prise en pension",
+   "certitude": "probable",
+   "phrase_en": "Professionals who sell horses or offer horse training, boarding or rental would be subject to a changed VAT rate.",
+   "phrase_fr": "Les professionnels qui vendent des chevaux ou proposent entraînement, pension ou location de chevaux seraient soumis à un taux de TVA modifié."
+  }
+ ],
+ "resume_fr": null
+}

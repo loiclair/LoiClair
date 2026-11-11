@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etranger_hors_ue",
+    "raison": "L’article 1018 A du CGI fixe des droits de procédure pénale, dont les montants sont relevés. Il ne vise pas les étrangers hors UE ni les titres de séjour.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00020365,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "epargnant",
+    "raison": "Le texte crée un livret d'épargne ouvert aux personnes ayant leur domicile fiscal en France. Il vise directement ceux qui épargnent et pourraient le souscrire.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "marie_pacse",
+    "raison": "Le texte nomme expressément les époux et partenaires de PACS soumis à une imposition commune et leur permet d'ouvrir chacun un livret. La règle vise donc directement cette situation de couple.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000487185,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

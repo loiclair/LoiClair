@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "elu_local",
+    "raison": "Le texte fixe les règles de désignation des adjoints parmi les conseillers municipaux, donc directement le mandat des élus municipaux. Dans les communes de moins de 1 000 habitants, la désignation en cas de vacance se fait sans tenir compte du sexe. La phrase de l'assistant est inexacte : elle dit que ces élus « ne sont plus tenus » de respecter la parité, alors que la suppression du seuil de 1 000 habitants étend la parité à toutes les communes et que l'exception ne s'applique qu'aux vacances dans les petites communes.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "rural",
+    "raison": "La mesure vise une taille de commune (moins de 1 000 habitants), non le caractère rural au sens du catalogue (commune rurale hors agglomérations). Ce recoupement n'est pas ce qui déclenche la mesure, donc pas concerné. La phrase reprend fidèlement la règle, mais elle ne suffit pas à rattacher le profil.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0011817350000000002,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

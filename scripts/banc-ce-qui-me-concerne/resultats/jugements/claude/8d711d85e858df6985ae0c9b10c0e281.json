@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "fonctionnaire",
+    "raison": "L'article complète L. 134-7 du code général de la fonction publique, qui régit la protection de l'agent public. La protection de sa famille est déclenchée par ses fonctions, donc la mesure touche directement le statut des fonctionnaires et contractuels. La phrase de l'assistant est fidèle dans l'ensemble, avec un conditionnel correct, mais « en cas de risque grave » omet que le risque doit être manifeste et lié aux fonctions de l'agent.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.001444585,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

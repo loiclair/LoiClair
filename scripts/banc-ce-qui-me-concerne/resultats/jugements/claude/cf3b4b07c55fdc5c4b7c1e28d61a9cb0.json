@@ -1,0 +1,29 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "salarie_prive",
+    "raison": "Le texte vise nommément les salariés couverts par un contrat de prévoyance ou de complémentaire santé dans une branche ayant un dispositif d'activité physique. Il protège directement leurs cotisations ou primes et leurs garanties, ce qui touche leur contrat.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "chef_entreprise",
+    "raison": "Le texte cite les employeurs, mais il s'adresse aux entreprises d'assurance et n'impose aucune obligation ni démarche à l'employeur. Sa protection ne joue que si l'assureur contribue puis tente de répercuter le coût, donc l'effet est indirect.",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "dirigeant_grande_entreprise",
+    "raison": "Même mécanisme que pour chef_entreprise : le texte ne crée aucune obligation pour l'employeur et n'agit sur ses primes que par la conduite éventuelle de l'assureur. L'effet est indirect, donc pas concerné.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0011404850000000001,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "demandeur_emploi",
+    "raison": "Le texte prévoit un accompagnement pour des personnes sans emploi rencontrant des difficultés particulières, sous réserve de critères d’éligibilité fixés par décret. Cela vise une partie des demandeurs d’emploi.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "chef_entreprise",
+    "raison": "Les entreprises d’insertion par le travail indépendant sont directement concernées par les règles de conventionnement et d’aide qui leur sont applicables. En revanche, le texte ne dit pas que leurs dirigeants pourraient les créer, ni que chaque entreprise recevra une aide.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00084065,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

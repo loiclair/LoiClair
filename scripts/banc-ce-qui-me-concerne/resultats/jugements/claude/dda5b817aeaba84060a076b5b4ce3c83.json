@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "heritier_donateur",
+    "raison": "Le dispositif repousse du 30 juin au 31 décembre 2027 la fin de la fenêtre où les dons d'argent aux descendants de moins de 50 ans sont taxés à 6 %. Cela concerne directement ceux qui donnent ou reçoivent un patrimoine par donation.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0030337,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

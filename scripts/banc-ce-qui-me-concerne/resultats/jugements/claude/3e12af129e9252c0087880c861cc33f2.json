@@ -1,0 +1,29 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_education",
+    "raison": "L'article change les règles disciplinaires (sections, récusation, suspension ministérielle) des enseignants-chercheurs et personnels de l'enseignement supérieur agricole public : règles de leur métier.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "fonctionnaire",
+    "raison": "Le texte vise les membres du personnel de l'enseignement supérieur agricole public, des agents publics, dont la suspension par le ministre et la procédure disciplinaire changent.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "etudiant",
+    "raison": "Le retrait des « usagers » de la composition de la section disciplinaire change qui siège, mais la procédure disciplinaire vise les personnels et enseignants ; la phrase déforme aussi le texte. Les étudiants ne sont pas visés directement : leur participation est supprimée, ce qui est un changement de droit, mais le texte ne mentionne pas les étudiants ni leur situation, et la phrase affirme des faits inexacts.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0052847,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

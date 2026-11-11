@@ -1,0 +1,19 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_transport",
+    "raison": "L'article crée un amortissement exceptionnel de 100 % (avec majorations) pour les équipements de propulsion vélique des navires de transport de marchandises ou de passagers : cela change directement la fiscalité des armateurs du transport maritime.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "chef_entreprise"
+  ]
+ },
+ "cout_usd": 0.0025537,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

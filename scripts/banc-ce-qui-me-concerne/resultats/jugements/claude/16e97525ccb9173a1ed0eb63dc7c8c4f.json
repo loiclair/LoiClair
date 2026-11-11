@@ -1,0 +1,29 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "salarie_prive",
+    "raison": "L'amendement oblige l'employeur à informer les salariés des frais et coûts de transaction du déblocage de la participation et de l'intéressement : le salarié du privé est directement visé et bénéficie de cette information.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "chef_entreprise",
+    "raison": "L'obligation d'information pèse sur « l'employeur » ; elle s'impose à tout employeur, donc aux dirigeants de PME.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "dirigeant_grande_entreprise",
+    "raison": "L'obligation d'information pèse sur « l'employeur » ; elle s'impose à tout employeur, donc aussi aux dirigeants de grandes entreprises.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0052157,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

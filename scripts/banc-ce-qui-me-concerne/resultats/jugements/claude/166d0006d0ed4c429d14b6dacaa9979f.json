@@ -1,0 +1,20 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "parent",
+    "raison": "L’alinéa 4° visé par le renvoi mentionne les infractions commises sur « son enfant » : un parent peut donc être directement concerné lorsque l’une des infractions listées est commise dans cette relation.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "marie_pacse",
+   "concubin",
+   "separe_divorce"
+  ]
+ },
+ "cout_usd": 0.00130065,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

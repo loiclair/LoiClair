@@ -1,0 +1,14 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "jeune",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article prolonge expressément l'accompagnement des anciens mineurs protégés jusqu'à l'âge de 25 ans (au lieu de 21 ans), visant ainsi directement la tranche d'âge du profil jeune."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00469275
+}

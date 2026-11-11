@@ -1,0 +1,29 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "veuf",
+    "raison": "Le dispositif étend la demi-part fiscale de l'article 195 CGI aux veuves dont le mari était titulaire du titre de reconnaissance de la Nation : ce sont des personnes veuves, directement visées.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "ancien_combattant",
+    "raison": "Le profil inclut les anciens combattants et les membres de leur famille ; les veuves de titulaires du titre de reconnaissance de la Nation sont directement visées par l'extension de la demi-part. La phrase est fidèle, même si le passage cité est vide.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "imposable",
+    "raison": "La demi-part fiscale modifie directement le calcul de l'impôt sur le revenu des veuves bénéficiaires, donc des foyers imposables ; la mesure porte sur l'article 195 CGI relatif au quotient familial.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0039626999999999996,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

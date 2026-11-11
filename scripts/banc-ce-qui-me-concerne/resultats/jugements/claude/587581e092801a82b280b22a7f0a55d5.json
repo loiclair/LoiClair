@@ -1,0 +1,41 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etudiant",
+    "raison": "Le texte nomme les personnes qui suivent des études supérieures comme locataires éligibles de la résidence à vocation d'emploi, avec un bail mobilité d'une semaine à dix-huit mois.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "apprenti_alternant",
+    "raison": "Le texte vise explicitement les personnes en contrat d'apprentissage, en stage et en formation professionnelle, qui peuvent être locataires de ces logements. La formation en alternance relève de cette formation professionnelle.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "benevole",
+    "raison": "Le texte vise les personnes en engagement volontaire dans le cadre d'un service civique, que la définition du profil bénévole inclut expressément.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "locataire",
+    "raison": "Le bail mobilité ne s'applique qu'aux locataires de résidences à vocation d'emploi, qui sont définis par leur statut (études, formation, mutation, mission). Un locataire d'un logement ordinaire n'est pas visé, donc le profil locataire n'est pas ce qui déclenche la mesure.",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "salarie_prive",
+    "raison": "Le texte vise les personnes en mutation professionnelle ou en mission temporaire, sans dire qu'il s'agit de salariés du privé. Ces situations peuvent concerner des fonctionnaires ou des indépendants, donc le statut n'est pas prêté par le texte.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.001224885,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

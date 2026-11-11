@@ -1,0 +1,19 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "pompier_volontaire",
+    "raison": "Le texte vise expressément « chaque sapeur-pompier professionnel ou volontaire exposé » : une fiche d'exposition est établie pour les volontaires, ce qui touche directement leur suivi et leurs droits.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "fonctionnaire"
+  ]
+ },
+ "cout_usd": 0.0019907,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

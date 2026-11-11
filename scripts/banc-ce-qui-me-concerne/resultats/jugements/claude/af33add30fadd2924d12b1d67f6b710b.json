@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_culture",
+    "raison": "L'article porte sur la prescription des délits de presse visant un public mineur et sur le point de départ des poursuites pour les publications destinées à la jeunesse (dépôt à la commission de contrôle). Cela change les obligations et l'exposition juridique des éditeurs et de la presse.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0021626999999999996,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

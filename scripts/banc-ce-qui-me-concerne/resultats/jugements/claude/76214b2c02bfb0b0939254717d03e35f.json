@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "outre_mer",
+    "raison": "Le texte vise nommément les résidents de Wallis-et-Futuna, collectivité d'outre-mer. Il rend applicable à ces résidents le moyen d'identification électronique pour leurs séjours en France et confie la prise en charge des soins à l'agence de santé locale.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000541785,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

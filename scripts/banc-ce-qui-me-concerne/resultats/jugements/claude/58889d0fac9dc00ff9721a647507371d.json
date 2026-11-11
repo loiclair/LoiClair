@@ -1,0 +1,29 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "mineur",
+    "raison": "Le texte vise les jeunes confiés à l'ASE « avant l'âge de dix-huit ans », ce qui inclut les mineurs placés aujourd'hui. La carte est délivrée sans limite d'âge, donc l'effet concret est futur pour eux.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "etranger_hors_ue",
+    "raison": "Le texte modifie l'article L. 423-22 du CESEDA, qui vise les ressortissants étrangers, et écarte la condition d'entrée régulière (L. 412-1). Il désigne donc directement les personnes hors UE vivant en France.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "jeune",
+    "raison": "Le critère déclencheur est un placement à l'ASE avant 18 ans, pas un âge entre 18 et 25 ans. La carte n'a pas de limite d'âge, donc la tranche 18-25 ans n'est pas le critère.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.001134435,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

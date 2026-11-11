@@ -1,0 +1,26 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etudiant",
+    "concerne": true,
+    "phrase_fidele": false,
+    "raison": "Le texte place les étudiants de nationalité française et ceux d'un État membre de l'UE ou de l'EEE au même niveau de priorité (« nationalité française, ou d’un État membre... »), et non les Français avant les ressortissants de l'UE/EEE."
+   },
+   {
+    "profil": "etranger_ue",
+    "concerne": true,
+    "phrase_fidele": false,
+    "raison": "La phrase affirme qu'ils seraient servis après les Français, or le texte les place au premier rang de priorité conjointement avec les Français (« nationalité française, ou d’un État membre de l’Union européenne »)."
+   },
+   {
+    "profil": "etranger_hors_ue",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article reporte en second rang de priorité les étudiants issus d'États hors UE/EEE disposant d'un accord ou d'une convention d'accueil avec la France."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.007308
+}

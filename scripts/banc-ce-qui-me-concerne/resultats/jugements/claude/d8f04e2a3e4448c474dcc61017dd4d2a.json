@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "projet_achat",
+    "raison": "La taxe additionnelle de 0,10 % frappe chaque acquisition à titre onéreux d'un immeuble situé dans une commune littorale, payée par l'acquéreur. Une personne qui achète son logement dans ces communes serait donc directement visée, par son projet d'achat.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "littoral",
+    "raison": "La mesure vise les achats d'immeubles situés dans une commune littorale, pas les habitants. Un résident qui n'achète rien n'est pas touché, et un acquéreur non résident le serait. C'est l'acquisition, non le lieu de vie, qui déclenche la taxe.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0006023350000000001,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

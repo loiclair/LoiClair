@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "age_dependant",
+    "raison": "L'article ajoute la « perte d'autonomie » à la liste des critères de discrimination interdits. C'est la condition même du profil, et la protection nouvelle vise directement les personnes concernées. Le texte ne limite toutefois pas ce critère aux personnes âgées.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000912685,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

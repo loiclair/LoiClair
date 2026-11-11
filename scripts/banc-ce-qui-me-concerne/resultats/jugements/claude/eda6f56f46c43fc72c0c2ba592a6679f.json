@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_sante",
+    "raison": "Le texte vise directement les médecins, chirurgiens-dentistes et sages-femmes dans les règles de remplacement liées à leur activité de soin.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "independant",
+    "raison": "Le texte vise les professionnels selon leur métier, sans préciser qu’ils exercent à leur compte ; le statut d’indépendant ne déclenche pas la mesure.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000464275,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

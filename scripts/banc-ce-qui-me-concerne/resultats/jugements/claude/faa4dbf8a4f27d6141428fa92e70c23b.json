@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_agriculture",
+    "raison": "Le texte vise les réclamants de dégâts de grand gibier, groupe défini par le dommage subi et non par un métier. Il ne nomme ni agriculteurs ni secteur agricole, et ne change pas les règles d'exercice du métier.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000494035,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

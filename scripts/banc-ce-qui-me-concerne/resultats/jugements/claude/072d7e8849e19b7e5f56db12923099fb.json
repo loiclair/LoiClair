@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "parent",
+    "raison": "La suppression des alinéas de l'article L. 521-1 (modulation selon les ressources) change directement le montant des allocations familiales pour les parents d'enfants à charge. Cela vise bien les parents.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "famille_nombreuse",
+    "raison": "Les allocations familiales sont versées à partir de deux enfants, et la mesure vaut pour tous les allocataires. Elle ne vise pas spécifiquement les familles de trois enfants ou plus. La phrase restreint à tort la mesure à ce groupe, et le texte ne parle pas du nombre d'enfants.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0025857,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

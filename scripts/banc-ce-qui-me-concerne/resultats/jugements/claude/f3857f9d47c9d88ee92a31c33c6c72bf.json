@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "proprietaire_bailleur",
+    "raison": "Le texte subordonne la déduction liée à l’acquisition du logement à sa location nue comme résidence principale : cette règle vise directement les bailleurs concernés.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "imposable",
+    "raison": "La déduction relève de l’impôt sur le revenu, mais le texte vise les contribuables qui acquièrent un logement répondant aux critères et le louent ; être imposable, à lui seul, ne déclenche pas la mesure.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000930775,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

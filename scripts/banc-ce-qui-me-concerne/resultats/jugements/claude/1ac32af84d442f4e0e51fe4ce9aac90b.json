@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_agriculture",
+    "raison": "Les installations d’élevage soumises à enregistrement ou autorisation sont directement visées par des prescriptions qui peuvent modifier les obligations liées à l’activité d’élevage.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "chef_entreprise",
+    "raison": "Le texte vise les installations d’élevage selon leur régime, pas les dirigeants de petites ou moyennes entreprises en raison de leur statut. Le fait qu’un dirigeant puisse exploiter une telle installation ne suffit pas à viser ce profil.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000877025,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

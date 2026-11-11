@@ -1,0 +1,73 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_sante",
+    "raison": "Le texte (IV, art. L. 4113-13-1 CSP) impose le certificat à l'exercice de toute activité de soin ou de prévention auprès de mineurs, et à l'ensemble des professionnels de santé, ce qui change directement leurs obligations professionnelles.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "secteur_education",
+    "raison": "Le II de l'article impose le certificat à toute personne intervenant auprès des élèves, y compris ponctuellement, ce qui vise directement le personnel de l'enseignement.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "salarie_prive",
+    "raison": "L'obligation générale de l'article L. 133-6-1 (« nul ne peut exercer une activité auprès de mineurs sans certificat ») et la vérification par l'employeur (VI) visent directement les salariés qui exercent une activité auprès de mineurs.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "apprenti_alternant",
+    "raison": "Le III vise nommément les stagiaires intervenant auprès de mineurs dans les structures de santé, ce qui correspond à la définition du profil (stagiaire).",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "etudiant",
+    "raison": "Le III vise nommément les étudiants intervenant auprès de mineurs dans les structures de santé visées.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "benevole",
+    "raison": "Le texte vise explicitement les bénévoles : dans les structures de santé (III), auprès des élèves (II), et les encadrants sportifs bénévoles (V). L'obligation générale vaut aussi pour les activités non professionnelles.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "salarie_particulier",
+    "raison": "Le texte (2°, art. L. 421-3-1 CASF) conditionne l'obtention et le maintien de l'agrément d'assistant maternel à la détention du certificat, ce qui vise directement les assistants maternels, salariés de particuliers.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "particulier_employeur",
+    "raison": "Le VI (art. L. 1221-8 du code du travail) oblige l'employeur à vérifier le certificat, et mentionne expressément les salariés employés par un particulier employeur. Le particulier employeur est donc directement visé par cette obligation de vérification.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "chef_entreprise",
+    "raison": "Le VI impose à tout employeur de vérifier le certificat avant embauche ou affectation, sans seuil de taille. Cette obligation vise les dirigeants de TPE, PME et moyennes entreprises. La phrase restreint le profil aux entreprises de moins de 250 salariés, ce qui correspond à la définition du catalogue.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "dirigeant_grande_entreprise",
+    "raison": "Le VI impose à tout employeur de vérifier le certificat avant embauche ou affectation, sans seuil de taille. Cette obligation vise donc aussi les dirigeants d'entreprises de 250 salariés ou plus.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "independant"
+  ]
+ },
+ "cout_usd": 0.002276385,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

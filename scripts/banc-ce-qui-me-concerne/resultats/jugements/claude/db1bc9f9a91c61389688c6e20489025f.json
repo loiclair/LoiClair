@@ -1,0 +1,50 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "imposable",
+    "raison": "La taxe est à la charge des contribuables, calculée selon le revenu fiscal de référence et recouvrée comme l'impôt sur le revenu. Le texte vise directement les foyers fiscaux, même si le profil « imposable » est un peu large (la tranche à 10 € couvre aussi des foyers non imposables).",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "outre_mer",
+    "raison": "Le texte fixe des seuils de dégrèvement propres à la Martinique, la Guadeloupe, la Réunion, la Guyane et Mayotte, ce qui vise directement leurs habitants.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "handicap",
+    "raison": "Dégrèvement pour les titulaires de l'AAH, pour les personnes atteintes d'une infirmité ou invalidité les empêchant de subvenir à leurs besoins par leur travail, et pour les personnes handicapées sous condition de revenus.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "retraite",
+    "raison": "Le dégrèvement vise les titulaires de l'ASPA (minimum vieillesse), versée à des personnes âgées retraitées. Le profil retraité est un rattachement raisonnable.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "senior",
+    "raison": "Le dégrèvement vise les contribuables de plus de 60 ans sous conditions de revenus et de non-assujettissement à l'IFI, ce qui recoupe les 55 ans et plus. La phrase est fidèle.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "veuf",
+    "raison": "Le texte cite expressément les veuves et veufs aux revenus limités comme bénéficiaires du dégrèvement.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "age_dependant",
+   "allocataire"
+  ]
+ },
+ "cout_usd": 0.0077017,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

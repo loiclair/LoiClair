@@ -1,0 +1,12 @@
+{
+ "jugement": {
+  "profils": [],
+  "oublis": [
+   "secteur_btp"
+  ]
+ },
+ "cout_usd": 0.000335685,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

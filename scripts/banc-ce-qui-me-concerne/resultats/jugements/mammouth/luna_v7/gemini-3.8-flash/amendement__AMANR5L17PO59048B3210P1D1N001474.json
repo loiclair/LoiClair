@@ -1,0 +1,14 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_agriculture",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'amendement modifie directement les règles d'imposition des plus-values professionnelles pour les associés exploitants d'une société agricole bénéficiant des aides à l'installation."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00681975
+}

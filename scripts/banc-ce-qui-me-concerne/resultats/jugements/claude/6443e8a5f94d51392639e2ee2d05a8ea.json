@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "benevole",
+    "raison": "L'article prévoit un accueil, une information et un accompagnement spécifiques pour les associations déclarées dans les maisons de services au public. Le bénévole ou dirigeant bénévole qui gère une association est directement visé, car cet accompagnement concerne ses démarches administratives. La phrase est fidèle et au conditionnel. Elle dit « dirigez ou aidez », ce qui élargit légèrement, mais reste acceptable.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0021866999999999998,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

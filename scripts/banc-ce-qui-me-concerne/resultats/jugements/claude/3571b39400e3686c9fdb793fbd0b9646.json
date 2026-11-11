@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_sante",
+    "raison": "La mesure modifie les conditions permettant aux médecins d’exercer en France : elle vise directement ceux qui travaillent dans le secteur de la santé.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0003789,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

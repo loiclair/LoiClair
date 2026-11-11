@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "mineur",
+    "raison": "Le texte vise expressément les mineurs victimes de prostitution ou d'exploitation sexuelle : repérage, orientation et accès garanti à un hébergement adapté. Un mineur dans cette situation est directement visé, c'est un sous-groupe du profil.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0020087,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

@@ -1,0 +1,26 @@
+{
+ "impacts": [
+  {
+   "profil": "etudiant",
+   "phrase_fr": "Les aides étudiantes seraient attribuées en priorité selon la nationalité, puis les ressources, avec une priorité aux étudiants français, européens et à certaines autres nationalités.",
+   "phrase_en": "Student aid would be prioritized according to nationality, then resources, with priority for French and European students and certain other nationalities.",
+   "passage": "Elle privilégie l’aide servie aux étudiants sous conditions de nationalité et de ressources.",
+   "certitude": "certain"
+  },
+  {
+   "profil": "etranger_ue",
+   "phrase_fr": "Les étudiants ayant la nationalité d’un autre pays de l’Union européenne bénéficieraient d’une priorité pour l’attribution de l’aide.",
+   "phrase_en": "Students who are nationals of another European Union country would receive priority when student aid is awarded.",
+   "passage": "L’aide servie est attribuée par priorité aux étudiants possédant la nationalité française, ou d’un État membre de l’Union européenne, ou d’un État partie à l’accord sur l’Espace économique européen, puis d’un État avec lequel un accord ou une convention en matière d’accueil des étudiants est en vigueur.",
+   "certitude": "certain"
+  },
+  {
+   "profil": "etranger_hors_ue",
+   "phrase_fr": "Les étudiants de pays hors de l’Union européenne bénéficieraient d’une priorité seulement si leur pays a conclu un accord ou une convention applicable avec la France.",
+   "phrase_en": "Students from countries outside the European Union would receive priority only if their country has an applicable agreement or convention with France.",
+   "passage": "puis d’un État avec lequel un accord ou une convention en matière d’accueil des étudiants est en vigueur.",
+   "certitude": "possible"
+  }
+ ],
+ "cout_usd": 0.000388975
+}

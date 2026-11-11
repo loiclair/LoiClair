@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "heritier_donateur",
+    "raison": "Le texte fixe le régime fiscal des dons d'argent entre vifs, qui vise directement la personne qui transmet (donateur) et celle qui reçoit (donataire) par donation.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "jeune",
+    "raison": "Le texte vise les donataires âgés de 18 ans révolus et de moins de 50 ans, tranche qui englobe les 18-25 ans recevant un don de leurs descendants ou de leurs neveux et nièces.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0010854850000000002,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

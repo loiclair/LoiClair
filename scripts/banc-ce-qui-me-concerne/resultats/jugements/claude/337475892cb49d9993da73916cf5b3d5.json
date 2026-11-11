@@ -1,0 +1,24 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_sante",
+    "raison": "Le texte modifie directement les conditions permettant aux médecins titulaires de certains diplômes britanniques d’exercer en France ; il vise donc les règles de leur métier.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "etranger_hors_ue",
+    "raison": "Le texte mentionne explicitement les ressortissants du Royaume-Uni, pays hors UE, parmi les personnes auxquelles la mesure s’applique.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "etranger_ue"
+  ]
+ },
+ "cout_usd": 0.00065015,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

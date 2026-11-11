@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "imposable",
+    "raison": "L'article modifie l'article 199 undecies B du CGI, une réduction d'impôt sur le revenu pour investissements outre-mer, pour les investissements réalisés à compter de 2025. Les foyers qui paient l'impôt sur le revenu et investissent sont donc visés.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0066627,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

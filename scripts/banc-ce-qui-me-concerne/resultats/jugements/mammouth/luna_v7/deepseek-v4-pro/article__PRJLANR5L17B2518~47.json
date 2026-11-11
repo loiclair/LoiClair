@@ -1,0 +1,29 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "forces_ordre",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "Le I, 1° modifie le code de procédure pénale et concerne directement les agents habilités aux contrôles d'identité (police, gendarmerie) en leur conférant un nouveau pouvoir. Le passage cité est exact et la phrase décrit correctement ce nouveau pouvoir."
+   },
+   {
+    "profil": "etranger_ue",
+    "concerne": false,
+    "phrase_fidele": false,
+    "raison": "La phrase est infidèle car elle attribue la retenue prévue à l'article L. 813-1 à un étranger en général, alors que selon le passage cité par l'assistant (qui vient de la partie II du texte), cette retenue s'applique à 'l'étranger' visé par les contrôles. Cependant, le texte ne fait pas de distinction entre les ressortissants de l'UE et les ressortissants hors UE. Il s'applique à tout étranger. La phrase attribue l'effet au profil 'etranger_ue', ce qui est techniquement vrai car ce profil est un sous-ensemble du groupe concerné, mais elle manque de précision. Surtout, le profil 'etranger_ue' n'est pas plus spécifiquement visé que 'etranger_hors_ue'. La consigne précise qu'être un sous-ensemble de facto ne suffit pas si le texte ne fait pas cette distinction. Le texte parle de 'l'étranger' sans précision de nationalité. Il ne cible donc pas le profil 'etranger_ue' en particulier. La raison fondamentale est que le texte s'applique à tous les étrangers, mais pas spécifiquement à un ressortissant de l'UE. C'est donc un profil qui n'est pas 'visé lui-même' par le texte. La phrase est par ailleurs fidèle dans sa description factuelle mais elle est attribuée à un profil qui ne peut pas être retenu selon les règles de la consigne."
+   },
+   {
+    "profil": "etranger_hors_ue",
+    "concerne": false,
+    "phrase_fidele": false,
+    "raison": "Identique au cas 'etranger_ue'. Le texte ne vise pas spécifiquement un ressortissant hors UE, mais parle de tous les étrangers. Le profil ne peut pas être retenu."
+   }
+  ],
+  "oublis": [
+   "etranger_ue",
+   "etranger_hors_ue"
+  ]
+ },
+ "cout_usd": 0.0078195
+}

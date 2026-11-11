@@ -1,0 +1,24 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etranger_ue",
+    "raison": "Le texte ouvre l’accès aux personnes qui ne sont pas françaises si elles résident de façon stable et régulière en France ; cela vise directement les ressortissants de l’UE vivant en France.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "etranger_hors_ue",
+    "raison": "Le texte ouvre l’accès aux personnes qui ne sont pas françaises si elles résident de façon stable et régulière en France ; cela vise directement les ressortissants hors UE vivant en France.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "expat"
+  ]
+ },
+ "cout_usd": 0.000667025,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

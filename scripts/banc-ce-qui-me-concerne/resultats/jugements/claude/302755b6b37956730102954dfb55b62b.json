@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "marie_pacse",
+    "raison": "La saisie peut viser les biens d’un conjoint ou d’un descendant de la personne qui commet l’acte défini. Mais c’est le lien avec cette personne qui déclenche la mesure, pas le fait d’être marié ou pacsé ; le texte ne vise pas les partenaires de PACS en tant que tels.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0005089,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

@@ -1,0 +1,14 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "outre_mer",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'amendement adapte explicitement le dispositif aux 'résidents de Wallis-et-Futuna', qui est une collectivité d'outre-mer. L'effet est direct : l'Agence de santé du territoire devient l'entité qui délivre le moyen d'identification électronique et prend en charge les soins lors des séjours en hexagone. La phrase de l'assistant est fidèle au dispositif."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0023582
+}

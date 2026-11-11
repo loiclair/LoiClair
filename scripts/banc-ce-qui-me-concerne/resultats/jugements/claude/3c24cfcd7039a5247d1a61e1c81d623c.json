@@ -1,0 +1,28 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "salarie_prive",
+    "raison": "Le régime vise les personnes relevant des articles L. 311-2 et L. 311-3, et les cotisations sont partagées entre employeurs et salariés.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "chef_entreprise",
+    "raison": "Les employeurs doivent prendre en charge la moitié des cotisations dues pour les salariés concernés ; cela vise les employeurs de PME et de TPE.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "dirigeant_grande_entreprise",
+    "raison": "La part patronale de ces cotisations est imposée aux employeurs, quelle que soit la taille de leur entreprise.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00099365,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

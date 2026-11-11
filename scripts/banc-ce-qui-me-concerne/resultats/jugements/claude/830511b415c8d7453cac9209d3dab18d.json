@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "aidant",
+    "raison": "Le texte vise directement les personnes qui exerceront la tutelle ou la curatelle d'un majeur protégé en cas de décès ou de mesure du tuteur initial, et leur impose des formalités (informer, établir les formalités des articles 503 et 510). C'est le rôle d'aidant défini au catalogue, qui exerce pour un proche une mesure de protection juridique.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000690135,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

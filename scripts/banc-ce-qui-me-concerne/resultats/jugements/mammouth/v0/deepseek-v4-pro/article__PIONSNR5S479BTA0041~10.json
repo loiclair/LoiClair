@@ -1,0 +1,14 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "heritier_donateur",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article change la condition de temps pour qu'un bien d'une succession non réclamée entre dans le domaine de la commune : le délai passe de 30 à 15 ans. Il s'applique directement aux successions depuis 2007 qui ne sont pas encore partagées, donc aux héritiers potentiels de ces successions. La phrase de l'assistant résume correctement et fidèlement cet effet."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0020865
+}

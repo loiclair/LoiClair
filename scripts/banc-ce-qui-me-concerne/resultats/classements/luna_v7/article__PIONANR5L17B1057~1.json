@@ -1,0 +1,12 @@
+{
+ "impacts": [
+  {
+   "profil": "automobiliste",
+   "phrase_fr": "Les restrictions de circulation dans une zone à faibles émissions pourraient s’appliquer ou ne pas s’appliquer selon les temps de trajet et la décision de l’autorité compétente.",
+   "phrase_en": "Traffic restrictions in a low-emission zone would apply or not apply depending on travel times and the competent authority’s decision.",
+   "passage": "Dans le cas où ces zones sont continues et jugées pertinentes par l’autorité compétente, les prescriptions applicables au sein de la zone à faibles émissions initialement prévue s’y appliquent.",
+   "certitude": "possible"
+  }
+ ],
+ "cout_usd": 0.00029785
+}

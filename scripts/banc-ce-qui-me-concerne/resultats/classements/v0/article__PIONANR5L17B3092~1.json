@@ -1,0 +1,26 @@
+{
+ "impacts": [
+  {
+   "profil": "demandeur_emploi",
+   "passage": "Les entreprises d’insertion par le travail indépendant accompagnent, dans le cadre d’une activité exercée à titre indépendant, des personnes sans emploi rencontrant des difficultés sociales et professionnelles particulières",
+   "certitude": "certain",
+   "phrase_en": "Jobseekers facing hardship could be supported towards self-employment or salaried work by these new insertion companies.",
+   "phrase_fr": "Les personnes sans emploi en difficulté pourraient être accompagnées vers une activité indépendante ou un emploi salarié par ces nouvelles entreprises d'insertion."
+  },
+  {
+   "profil": "independant",
+   "passage": "Elles fournissent à ces personnes un service d’accompagnement socioprofessionnel, un appui au développement entrepreneurial et commercial pouvant prendre la forme d’une mise en relation avec des clients.",
+   "certitude": "probable",
+   "phrase_en": "Self-employed workers facing difficulties could receive support and be connected with clients by these companies.",
+   "phrase_fr": "Les travailleurs indépendants en difficulté pourraient recevoir un accompagnement et être mis en relation avec des clients par ces entreprises."
+  },
+  {
+   "profil": "auto_entrepreneur",
+   "passage": "Elles fournissent à ces personnes un service d’accompagnement socioprofessionnel, un appui au développement entrepreneurial et commercial pouvant prendre la forme d’une mise en relation avec des clients.",
+   "certitude": "possible",
+   "phrase_en": "Micro-entrepreneurs facing difficulties could be supported by these companies to develop their business and find clients.",
+   "phrase_fr": "Les micro-entrepreneurs en difficulté pourraient être accompagnés par ces entreprises pour développer leur activité et trouver des clients."
+  }
+ ],
+ "resume_fr": null
+}

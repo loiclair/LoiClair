@@ -1,0 +1,28 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etranger_hors_ue",
+    "raison": "La disposition vise un étranger relevant du CESEDA et lui accorde une carte de séjour ; elle supprime aussi l’opposabilité de la condition de l’article L. 412-1.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "mineur",
+    "raison": "« Avant l’âge de dix-huit ans » fixe l’âge auquel la personne a été confiée à l’ASE, pas celui auquel la carte est délivrée. L’amendement vise la régularisation des jeunes à leur majorité, pas les mineurs en tant que tels.",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "jeune",
+    "raison": "La mesure vise les jeunes étrangers confiés à l’ASE avant 18 ans et leur délivre une carte de séjour ; l’exposé précise qu’il s’agit de les régulariser à leur majorité.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0010819,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

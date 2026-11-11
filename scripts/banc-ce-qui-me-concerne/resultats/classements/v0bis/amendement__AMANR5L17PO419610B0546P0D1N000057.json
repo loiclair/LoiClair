@@ -1,0 +1,17 @@
+{
+ "resume_fr": "Remplacerait « établies ou contrôlées » par « attestées » : les raisons justifiant l'impossibilité de faire des travaux devraient être attestées par écrit.",
+ "resume_en": "Would replace 'established or verified' with 'attested': the reasons making works impossible would have to be certified in writing.",
+ "impacts": [
+  {
+   "profil": "proprietaire_bailleur",
+   "passage": "Au quatrième alinéa, substituer aux mots : « établies ou contrôlées » le mot : « attestées ».",
+   "certitude": "probable"
+  },
+  {
+   "profil": "locataire",
+   "passage": "Au quatrième alinéa, substituer aux mots : « établies ou contrôlées » le mot : « attestées ».",
+   "certitude": "possible"
+  }
+ ],
+ "cout_usd": 0.00077311
+}

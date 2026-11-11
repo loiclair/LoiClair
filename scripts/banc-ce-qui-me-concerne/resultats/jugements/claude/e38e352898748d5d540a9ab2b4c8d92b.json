@@ -1,0 +1,35 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "parent",
+    "raison": "Le texte vise les infractions commises sur l'enfant ou envers un ascendant, dont le non-versement de pension alimentaire (art. 227-3) qui touche le parent créancier ou débiteur ; un parent est visé par la qualification de violences intrafamiliales.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "separe_divorce",
+    "raison": "Le dispositif inclut les infractions commises par l'ancien conjoint, ancien partenaire ou ancien concubin (2°), notamment le non-paiement de pension alimentaire et le harcèlement conjugal : les personnes séparées ou divorcées sont directement visées.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "marie_pacse",
+    "raison": "Le dispositif s'applique aux infractions commises par le conjoint ou le partenaire de PACS (1°), dont le harcèlement conjugal, le vol, l'escroquerie ou l'abus de confiance : les personnes mariées ou pacsées sont directement visées.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "concubin",
+    "raison": "Le 1° vise expressément le concubin comme auteur : les infractions économiques commises par lui deviennent des violences intrafamiliales.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0058847,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

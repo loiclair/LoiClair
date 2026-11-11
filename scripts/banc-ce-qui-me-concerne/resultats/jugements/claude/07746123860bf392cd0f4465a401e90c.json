@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "automobiliste",
+    "raison": "Concerné : le texte détermine dans quelles zones les restrictions de circulation s’appliquent ou ne s’appliquent pas aux déplacements en voiture. Mais la phrase inverse la condition : lorsque les alternatives ne dépassent pas une fois et demie le temps en voiture, les prescriptions peuvent s’appliquer si les zones sont continues et jugées pertinentes ; dans le cas contraire, les restrictions ne s’appliquent pas.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "grande_ville",
+    "raison": "Le texte vise les zones à faibles émissions, pas les habitants des grandes villes en tant que tels : le lieu de résidence dans une grande ville n’est pas le critère de la mesure. La phrase évoque en outre les ZFE de « votre agglomération » et leur redécoupage, ce que le texte ne précise pas.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0008714,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

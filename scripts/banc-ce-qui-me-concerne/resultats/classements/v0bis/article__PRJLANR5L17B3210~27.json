@@ -1,0 +1,19 @@
+{
+ "impacts": [
+  {
+   "profil": "proprietaire_bailleur",
+   "phrase_fr": "Le propriétaire ne serait plus désigné comme la personne visée par une taxe locale prévue à l'article 1599 quater B : cette obligation pèserait sur l'exploitant.",
+   "phrase_en": "The owner would no longer be the person named for a local tax under article 1599 quater B; that obligation would fall on the operator.",
+   "passage": "5° Au II de l’article 1599 quater B, les mots : « le propriétaire » sont remplacés par les mots : « l’exploitant ».",
+   "certitude": "possible"
+  },
+  {
+   "profil": "chef_entreprise",
+   "phrase_fr": "Un exploitant, et non plus le propriétaire, serait celui qui doit répondre d'une taxe locale prévue à l'article 1599 quater B, ce qui pourrait concerner un dirigeant d'entreprise.",
+   "phrase_en": "An operator, rather than the owner, would be the one liable for a local tax under article 1599 quater B, which could concern a business head.",
+   "passage": "5° Au II de l’article 1599 quater B, les mots : « le propriétaire » sont remplacés par les mots : « l’exploitant ».",
+   "certitude": "possible"
+  }
+ ],
+ "cout_usd": 0.00102135
+}

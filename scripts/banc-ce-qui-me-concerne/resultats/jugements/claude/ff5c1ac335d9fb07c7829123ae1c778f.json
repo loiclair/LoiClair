@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "littoral",
+    "raison": "La taxe vise les mutations d'immeubles situés dans une commune littorale ; le lieu de vie est le critère, mais elle frappe l'acte d'achat, pas l'habitant en tant que tel. Elle concerne néanmoins les habitants du littoral qui achètent ou vendent sur place, et le texte désigne la commune littorale elle-même.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "projet_achat",
+    "raison": "La taxe additionnelle de 0,10 % s'ajoute aux droits de mutation dus par la personne tenue de les payer (l'acquéreur) ; une personne qui achète un logement en commune littorale paie davantage. Le texte ne limite pas aux logements ni n'évoque expressément l'acheteur, mais la phrase reste fidèle en substance.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0034877,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

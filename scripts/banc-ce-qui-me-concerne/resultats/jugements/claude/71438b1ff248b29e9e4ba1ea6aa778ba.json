@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_culture",
+    "raison": "Le texte qualifie les publications de presse pour les droits voisins (présomption, saisine de l'Arcom par des éditeurs ou services en ligne). Il vise des entreprises de presse, pas la manière dont journalistes ou salariés de la presse exercent leur métier. Les effets passent par les éditeurs, donc pour le secteur c'est indirect (règle 12).",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000469985,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

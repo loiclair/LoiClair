@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_btp",
+    "raison": "Le texte impose l’obligation à l’entrepreneur principal selon la part sous-traitée, sans viser le secteur du bâtiment en particulier.",
+    "concerne": false,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "chef_entreprise",
+    "raison": "L’obligation vise l’entrepreneur principal qui sous-traite au-delà du seuil, et non les dirigeants de petites ou moyennes entreprises en tant que tels.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000789275,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

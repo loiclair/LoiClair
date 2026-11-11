@@ -1,0 +1,28 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "mineur",
+    "raison": "Le texte vise expressément l’embauche et l’emploi des moins de treize ans dans une entreprise de cinéma.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "parent",
+    "raison": "Il impose la présence d’un représentant légal du mineur à l’embauche et pendant le contrat ; cela vise le parent ou responsable légal concerné.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "secteur_culture",
+    "raison": "La mesure encadre directement l’embauche de mineurs dans le cinéma, secteur inclus dans la culture et l’audiovisuel.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00098115,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

@@ -1,0 +1,29 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "cycliste",
+    "raison": "Le catalogue inclut les utilisateurs de trottinette ; l'article fixe une vitesse maximale de 20 km/h et un âge minimal pour les conducteurs de trottinette électrique, ce qui les vise directement.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "mineur",
+    "raison": "L'article impose un âge minimal de quatorze ans pour conduire une trottinette électrique, ce qui touche directement les mineurs de moins de 14 ans.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "parent",
+    "raison": "Le texte vise les conducteurs et ne s'adresse pas aux parents, mais l'interdiction aux moins de 14 ans change concrètement ce que leurs enfants mineurs peuvent faire. Le lien passe par l'enfant, pas par une obligation du parent ; l'effet sur le parent est indirect.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0031046999999999997,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "salarie_prive",
+    "raison": "L'article crée une circonstance aggravante pénale visant l'auteur de harcèlement moral imposé par une politique d'entreprise. Le texte ne nomme pas les salariés et ne change rien à leurs droits ou obligations ; l'effet pour eux dépend d'une poursuite pénale, donc d'un tiers. Le déclencheur est la politique d'entreprise, non le statut de salarié.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000455935,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

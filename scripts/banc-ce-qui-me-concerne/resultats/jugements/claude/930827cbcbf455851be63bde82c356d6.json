@@ -1,0 +1,20 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "salarie_prive",
+    "raison": "L'article 222-33-2 du code pénal porte sur le harcèlement moral au travail ; l'ajout d'une circonstance « politique d'entreprise » vise les salariés qui subissent ces comportements, et le salarié du privé est le cadre naturel d'une politique d'entreprise.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "chef_entreprise",
+   "dirigeant_grande_entreprise"
+  ]
+ },
+ "cout_usd": 0.0020417,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

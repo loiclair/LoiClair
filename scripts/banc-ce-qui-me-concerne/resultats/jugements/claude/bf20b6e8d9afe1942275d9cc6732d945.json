@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_agriculture",
+    "raison": "Les réclamants sont ceux dont les cultures sont endommagées par le grand gibier : agriculteurs. Le barème national, la demande sur portail et la commission de recours changent directement leur indemnisation et leurs démarches.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "chasseur_pecheur",
+    "raison": "Le texte cite les fédérations de chasseurs comme organismes concourant à l'instruction, effet indirect via un tiers. Le chasseur en loisir n'a ici ni obligation ni droit nouveau. La baisse de la contribution de la fédération nationale au financement relève aussi de l'organisme.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0031747,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

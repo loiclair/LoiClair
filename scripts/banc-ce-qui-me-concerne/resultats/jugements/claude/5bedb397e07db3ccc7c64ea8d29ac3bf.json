@@ -1,0 +1,25 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_finance",
+    "raison": "Le texte vise les entreprises d’assurance et leur permet de contribuer au fonds ; il ne change pas directement les règles du métier des personnes qui travaillent dans la finance.",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "salarie_prive",
+    "raison": "Les salariés couverts par un contrat de la branche sont expressément visés ; le texte prévoit un fonds destiné à financer le dispositif d’activité physique et interdit de répercuter la contribution sur leurs primes ou garanties.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "chef_entreprise",
+   "dirigeant_grande_entreprise"
+  ]
+ },
+ "cout_usd": 0.0010464,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

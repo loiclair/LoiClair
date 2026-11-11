@@ -1,0 +1,46 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "proprietaire_bailleur",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "Le texte modifie explicitement les conditions de déduction pour les bailleurs louant un logement nu comme résidence principale. La phrase est fidèle et utilise le conditionnel (texte non adopté). Passage pertinent : « de louer le logement nu à titre de résidence principale »."
+   },
+   {
+    "profil": "imposable",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "La déduction fiscale mentionnée affecte directement les revenus imposables des contribuables éligibles. La phrase est fidèle et conditionnelle. Passage pertinent : « une déduction au titre de l’amortissement du prix d’acquisition du logement net de frais »."
+   },
+   {
+    "profil": "projet_achat",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article vise explicitement les acheteurs de logements ou locaux avec travaux. La phrase est fidèle et conditionnelle. Passage pertinent : « Pour les logements situés en France que le contribuable acquiert, qui font ou ont fait l’objet de travaux »."
+   },
+   {
+    "profil": "proprietaire_occupant",
+    "concerne": false,
+    "phrase_fidele": false,
+    "raison": "Le texte ne concerne pas les propriétaires occupants, mais uniquement les bailleurs (location). Aucun passage ne vise ce profil."
+   },
+   {
+    "profil": "coproprietaire",
+    "concerne": false,
+    "phrase_fidele": false,
+    "raison": "Aucun passage ne mentionne spécifiquement les copropriétaires. La mesure cible les propriétaires bailleurs ou acheteurs, pas les copropriétaires en tant que tels."
+   },
+   {
+    "profil": "outre_mer",
+    "concerne": true,
+    "phrase_fidele": false,
+    "raison": "Le texte mentionne explicitement des critères spécifiques pour les logements situés en Guadeloupe, Guyane, Martinique, Mayotte ou La Réunion. Ce profil est concerné mais n'a pas été proposé par l'assistant. Passage pertinent : « lorsqu’il est situé en Guadeloupe, en Guyane, à la Martinique, à Mayotte ou à La Réunion »."
+   }
+  ],
+  "oublis": [
+   "outre_mer"
+  ]
+ },
+ "cout_usd": 0.010746
+}

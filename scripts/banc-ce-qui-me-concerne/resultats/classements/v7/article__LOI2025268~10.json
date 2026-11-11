@@ -1,0 +1,19 @@
+{
+ "impacts": [
+  {
+   "profil": "secteur_education",
+   "phrase_fr": "Les membres du personnel de l'enseignement supérieur agricole public peuvent être suspendus un an au plus, sans perte de salaire, par le ministre de l'agriculture.",
+   "phrase_en": "Staff of public agricultural higher education can be suspended for up to one year, without loss of pay, by the agriculture minister.",
+   "passage": "Le ministre chargé de l'agriculture peut prononcer la suspension d'un membre du personnel de l'enseignement supérieur agricole public pour une durée qui n'excède pas un an, sans privation de traitement.",
+   "certitude": "certain"
+  },
+  {
+   "profil": "fonctionnaire",
+   "phrase_fr": "Un agent public de l'enseignement supérieur agricole peut être suspendu un an au plus par le ministre, sans privation de traitement.",
+   "phrase_en": "A public agent of agricultural higher education can be suspended for up to one year by the minister, without loss of pay.",
+   "passage": "Le ministre chargé de l'agriculture peut prononcer la suspension d'un membre du personnel de l'enseignement supérieur agricole public pour une durée qui n'excède pas un an, sans privation de traitement.",
+   "certitude": "probable"
+  }
+ ],
+ "cout_usd": 0.00115211
+}

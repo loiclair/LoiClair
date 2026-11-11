@@ -1,0 +1,26 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "proprietaire_bailleur",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article impose une condition de location nue à titre de résidence principale pour le bénéfice de la déduction (3° du I). Le profil est directement visé en tant que bailleur. La phrase est fidèle et utilise le conditionnel requis."
+   },
+   {
+    "profil": "imposable",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "Il s'agit d'une déduction de revenus fonciers, ce qui concerne directement les foyers imposables. La phrase est correcte et prudente (« pourrait réduire », conditionnel)."
+   },
+   {
+    "profil": "projet_achat",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "Le dispositif s'adresse à ceux qui acquièrent un logement ou un local à transformer pour le louer. Une personne en projet d'achat pour ce type d'investissement locatif est concernée. La phrase est fidèle et au conditionnel."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0033605
+}

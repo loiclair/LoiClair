@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "patrimoine_ifi",
+    "raison": "Le texte vise une contribution sur une assiette patrimoniale propre, pour les personnes domiciliées fiscalement en France. Il ne vise pas le statut de foyer assujetti à l’IFI et exclut les biens mentionnés aux 1° et 2° de l’article 965 du CGI.",
+    "concerne": false,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "parent",
+    "raison": "L’assiette comprend les biens des enfants mineurs lorsque la personne imposée en a l’administration légale : le texte vise directement ces parents ou responsables légaux.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000695525,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

@@ -1,0 +1,12 @@
+{
+ "impacts": [
+  {
+   "profil": "etudiant",
+   "phrase_fr": "Les étudiants en médecine pourraient aussi effectuer leurs stages dans des maisons de santé.",
+   "phrase_en": "Medical students would also be able to do their placements in multidisciplinary health centres.",
+   "passage": "À la seconde phrase du second alinéa de l'article L. 632-5 du code de l'éducation, après le mot : « santé », sont insérés les mots : « , de maisons de santé",
+   "certitude": "possible"
+  }
+ ],
+ "cout_usd": 0.00138308
+}

@@ -1,0 +1,79 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_sante",
+    "raison": "Le IV impose le certificat aux professionnels de santé et aux personnes intervenant auprès de mineurs dans plusieurs structures de santé.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "independant",
+    "raison": "Le IV vise explicitement l’exercice à titre libéral d’activités de prévention, de soins ou d’accompagnement sanitaire auprès de mineurs.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "salarie_prive",
+    "raison": "Le VI vise les salariés qui exercent une activité auprès de mineurs et impose à leur employeur de vérifier le certificat.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "salarie_particulier",
+    "raison": "Les assistants maternels sont explicitement soumis au certificat pour obtenir et conserver leur agrément.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "particulier_employeur",
+    "raison": "Le VI impose à l’employeur de vérifier le certificat des salariés concernés, y compris ceux employés par un particulier employeur.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "chef_entreprise",
+    "raison": "L’obligation de vérification imposée à l’employeur concerne les dirigeants de petites et moyennes entreprises qui emploient des salariés exerçant auprès de mineurs.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "benevole",
+    "raison": "Le V exige explicitement le certificat des bénévoles qui encadrent une activité sportive auprès de mineurs.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "etudiant",
+    "raison": "Le IV vise explicitement les étudiants intervenant auprès de mineurs dans les structures de santé mentionnées.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "apprenti_alternant",
+    "raison": "Les stagiaires sont explicitement visés par le IV ; les apprentis ou alternants le sont également s’ils exercent une activité auprès de mineurs.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "secteur_education",
+    "raison": "Le II impose le certificat à toute personne intervenant ponctuellement auprès des élèves, quel que soit le cadre ou le lieu.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "secteur_transport",
+    "raison": "Le I inclut explicitement les activités de transport, de convoyage et d’accompagnement à la mobilité auprès de mineurs.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "dirigeant_grande_entreprise",
+   "secteur_culture"
+  ]
+ },
+ "cout_usd": 0.00230715,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

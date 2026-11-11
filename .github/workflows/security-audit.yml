@@ -1,0 +1,29 @@
+# `npm audit` hebdomadaire, seul contrôle du dépôt qui échoue sur une faille `high`.
+#
+# `deps-weekly.yml` lance bien `npm audit fix` chaque lundi, mais son `|| true`
+# l'empêche de bloquer sur une faille sans correctif compatible : ce workflow reste
+# donc nécessaire. Le déclencheur `push` a été retiré pour la même raison que dans
+# `codeql.yml` (un run par commit sur un dépôt à un seul contributeur), et
+# `workflow_dispatch` ajouté pour pouvoir le relancer avant une release.
+#
+# pip et les actions GitHub ne sont couverts que par les alertes Dependabot (D-162).
+name: Security Audit
+on:
+  schedule:
+    - cron: '0 6 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  npm-audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: '24'
+          cache: npm
+      - run: npm install --ignore-scripts
+      - run: npm audit --audit-level=high

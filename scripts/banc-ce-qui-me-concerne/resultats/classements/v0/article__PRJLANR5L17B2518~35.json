@@ -1,0 +1,26 @@
+{
+ "impacts": [
+  {
+   "profil": "secteur_numerique",
+   "passage": "Lorsqu’elle constate un manquement au I sexies, l’Agence nationale des fréquences peut, après une procédure contradictoire, mettre en demeure, dans un délai qu’elle détermine, l’opérateur au sens du 8 de l’article 3",
+   "certitude": "probable",
+   "phrase_en": "Digital professionals supplying high-risk AI systems for radio equipment would be checked by the ANFR and could face administrative fines.",
+   "phrase_fr": "Les professionnels du numérique fournissant des systèmes d'IA à haut risque pour équipements radio pourraient être contrôlés par l'ANFR et risquer des amendes administratives."
+  },
+  {
+   "profil": "chef_entreprise",
+   "passage": "Lorsque l’opérateur ne se conforme pas dans le délai imparti à la mise en demeure, l’agence peut, sans préjudice de la mise en œuvre des mesures de restriction ou d’interdiction prévues à l’article 79 du même règlement, prononcer à son encontre une amende administrative",
+   "certitude": "possible",
+   "phrase_en": "Heads of small firms supplying high-risk AI systems for radio equipment would receive a formal notice, then possibly an administrative fine.",
+   "phrase_fr": "Les dirigeants de petites entreprises fournissant des systèmes d'IA à haut risque pour équipements radio pourraient recevoir une mise en demeure, puis une amende administrative."
+  },
+  {
+   "profil": "dirigeant_grande_entreprise",
+   "passage": "Lorsque l’opérateur ne se conforme pas dans le délai imparti à la mise en demeure, l’agence peut, sans préjudice de la mise en œuvre des mesures de restriction ou d’interdiction prévues à l’article 79 du même règlement, prononcer à son encontre une amende administrative",
+   "certitude": "possible",
+   "phrase_en": "Executives of large firms placing high-risk AI systems for radio equipment on the market would be given a formal notice, then possibly fined.",
+   "phrase_fr": "Les dirigeants de grandes entreprises mettant sur le marché des systèmes d'IA à haut risque pour équipements radio pourraient être mis en demeure, puis sanctionnés d'une amende administrative."
+  }
+ ],
+ "resume_fr": null
+}

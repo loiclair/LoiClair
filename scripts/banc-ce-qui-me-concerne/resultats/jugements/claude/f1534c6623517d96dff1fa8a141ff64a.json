@@ -1,0 +1,40 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "mineur",
+    "raison": "Le texte vise explicitement le cas d’un mineur victime de violences commises par un ascendant et confie alors au juge spécialisé les modalités d’exercice de l’autorité parentale, à la place du JAF.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "parent",
+    "raison": "Le lien parent-enfant est directement visé lorsque le parent est l’ascendant auteur présumé des violences sur un mineur ; le texte prévoit aussi que le juge spécialisé règle alors l’autorité parentale.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "separe_divorce",
+    "raison": "Le texte nomme l’ancien conjoint parmi les auteurs dont les délits concernés relèvent du tribunal spécialisé ; le statut d’ancien conjoint déclenche la mesure.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "concubin",
+    "raison": "Le concubin est explicitement visé comme auteur, y compris sans cohabitation ; ce statut détermine la compétence du tribunal pour les délits concernés.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "marie_pacse",
+    "raison": "Le conjoint et le partenaire de PACS sont explicitement visés comme auteurs, y compris sans cohabitation ; leur statut détermine la compétence du tribunal pour les délits concernés.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.001582025,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

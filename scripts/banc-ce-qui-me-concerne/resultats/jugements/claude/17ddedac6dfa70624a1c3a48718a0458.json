@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_culture",
+    "raison": "L'article modifie le point de départ d'un délai de prescription des poursuites pour délits de presse et publications jeunesse. C'est une règle de procédure pénale qui ne change ni la façon d'exercer le métier d'éditeur ni ses obligations professionnelles, et l'effet sur l'édition relève du ricochet (règle 12).",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000556335,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

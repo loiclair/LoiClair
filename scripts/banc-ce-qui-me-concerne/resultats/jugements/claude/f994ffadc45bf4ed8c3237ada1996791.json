@@ -1,0 +1,29 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etranger_hors_ue",
+    "raison": "L'article 2 impose deux ans de séjour régulier aux non-ressortissants de l'UE pour les prestations familiales (I, 2° a) et pour l'APA (II). La mesure vise directement cette catégorie par sa nationalité et son statut de séjour, avec les exceptions prévues. La phrase de l'assistant est fidèle et le conditionnel est respecté.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "allocataire",
+    "raison": "Les aides personnelles au logement sont bien touchées, mais la condition vise la nationalité et la durée de séjour, non le fait de percevoir une aide. Le profil n'est pas ce qui déclenche la mesure. La phrase de l'assistant reste fidèle sur le fond, même si la citation ne porte que sur l'exception étudiants.",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "age_dependant",
+    "raison": "L'APA est visée, mais seulement pour les étrangers hors UE. La mesure ne vise pas la perte d'autonomie ni l'âge des personnes. Un lecteur âgé dépendant de nationalité française ne se reconnaîtrait pas dans la mesure. La phrase de l'assistant est fidèle.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.001385485,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

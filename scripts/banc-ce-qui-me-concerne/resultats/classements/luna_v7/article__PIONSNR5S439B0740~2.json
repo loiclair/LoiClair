@@ -1,0 +1,40 @@
+{
+ "impacts": [
+  {
+   "profil": "senior",
+   "phrase_fr": "Vous pourriez bénéficier d’un dégrèvement si vous avez plus de 60 ans, sous conditions de revenus et si vous n’êtes pas assujetti à l’IFI.",
+   "phrase_en": "You could qualify for a reduction if you are over 60, subject to income conditions and provided you are not liable for the real estate wealth tax.",
+   "passage": "Les contribuables âgés de plus de 60 ans, les veuves et veufs dont le montant des revenus de l’année précédente n’excède pas la limite prévue au 2° du présent II, lorsqu’ils ne sont pas passibles de l’impôt sur la fortune immobilière au titre de l’année précédant celle de l’imposition ;",
+   "certitude": "certain"
+  },
+  {
+   "profil": "veuf",
+   "phrase_fr": "Vous pourriez bénéficier d’un dégrèvement si vous êtes veuf ou veuve, sous conditions de revenus et si vous n’êtes pas assujetti à l’IFI.",
+   "phrase_en": "You could qualify for a reduction if you are widowed, subject to income conditions and provided you are not liable for the real estate wealth tax.",
+   "passage": "Les contribuables âgés de plus de 60 ans, les veuves et veufs dont le montant des revenus de l’année précédente n’excède pas la limite prévue au 2° du présent II, lorsqu’ils ne sont pas passibles de l’impôt sur la fortune immobilière au titre de l’année précédant celle de l’imposition ;",
+   "certitude": "certain"
+  },
+  {
+   "profil": "handicap",
+   "phrase_fr": "Vous pourriez bénéficier d’un dégrèvement si une infirmité ou une invalidité vous empêche de subvenir à vos besoins par votre travail, sous conditions de revenus.",
+   "phrase_en": "You could qualify for a reduction if an infirmity or disability prevents you from meeting your needs through work, subject to income conditions.",
+   "passage": "Les contribuables atteints d’une infirmité ou d’une invalidité les empêchant de subvenir par leur travail aux nécessités de l’existence, lorsque le montant de leurs revenus de l’année précédente n’excède pas la limite prévue au 2° du présent II ;",
+   "certitude": "certain"
+  },
+  {
+   "profil": "patrimoine_ifi",
+   "phrase_fr": "Si vous êtes assujetti à l’IFI, vous ne pourriez pas bénéficier du dégrèvement prévu pour les contribuables de plus de 60 ans et les veufs ou veuves.",
+   "phrase_en": "If you are liable for the real estate wealth tax, you would not qualify for the reduction provided for taxpayers over 60 and widows or widowers.",
+   "passage": "lorsqu’ils ne sont pas passibles de l’impôt sur la fortune immobilière au titre de l’année précédant celle de l’imposition ;",
+   "certitude": "certain"
+  },
+  {
+   "profil": "outre_mer",
+   "phrase_fr": "En Martinique, en Guadeloupe, à La Réunion, en Guyane et à Mayotte, certains seuils de revenus ouvrant droit au dégrèvement seraient adaptés au territoire.",
+   "phrase_en": "In Martinique, Guadeloupe, Réunion, French Guiana and Mayotte, some income thresholds for qualifying for the reduction would vary by territory.",
+   "passage": "Pour la Martinique, la Guadeloupe et la Réunion, les montants des revenus mentionnés au premier alinéa du présent 2° sont fixés à 13 343 € pour la première part, majorés de 3 187 € pour la première demi-part et 3 011 € pour chaque demi-part supplémentaire à compter de la deuxième.",
+   "certitude": "certain"
+  }
+ ],
+ "cout_usd": 0.000876475
+}

@@ -1,0 +1,12 @@
+{
+ "resume_fr": "Ajouterait une autorisation provisoire de séjour d'un an, renouvelable, pour les étrangers victimes de violences sexuelles sans plainte déposée, avec droit de travailler.",
+ "resume_en": "Would add a one-year, renewable provisional residence permit for foreign victims of violence who have not filed a complaint, with the right to work.",
+ "impacts": [
+  {
+   "profil": "etranger_hors_ue",
+   "passage": "L’étranger qui fait état de faits susceptibles de constituer l’une des infractions mentionnées au premier alinéa de l’article L. 425‑1 et qui, sans avoir déposé plainte ou témoigné dans une procédure pénale",
+   "certitude": "probable"
+  }
+ ],
+ "cout_usd": 0.00095647
+}

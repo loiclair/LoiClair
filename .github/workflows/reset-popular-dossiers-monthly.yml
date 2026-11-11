@@ -1,0 +1,56 @@
+name: Reset popular dossiers monthly
+
+on:
+  schedule:
+    - cron: '0 0 1 * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  reset:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout du code
+        uses: actions/checkout@v7
+
+      - name: Installer Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+
+      - name: Installer les dépendances
+        run: |
+          cd pipeline
+          pip install -r requirements.txt
+
+      - name: Tunnel vers la base du VPS
+        uses: ./.github/actions/tunnel-base
+        with:
+          host: ${{ secrets.VPS_HOST }}
+          key: ${{ secrets.VPS_TUNNEL_KEY }}
+          known_hosts: ${{ secrets.VPS_KNOWN_HOSTS }}
+
+      - name: Reset des compteurs mensuels
+        env:
+          # Connexion Postgres de `_db.connexion` (D-325) : la base du VPS, au bout
+          # du tunnel (D-327). Sans TLS : le tunnel chiffre déjà.
+          PGHOST: 127.0.0.1
+          PGPORT: '5432'
+          PGSSLMODE: disable
+          PGDATABASE: ${{ secrets.VPS_PGDATABASE }}
+          PGUSER: ${{ secrets.VPS_PGUSER }}
+          PGPASSWORD: ${{ secrets.VPS_PGPASSWORD }}
+        run: |
+          cd pipeline
+          python reset_view_counts_monthly.py
+
+  alerte:
+    needs: reset
+    if: failure()
+    uses: ./.github/workflows/alerte-echec.yml
+    with:
+      quoi: "Remise à zéro des dossiers populaires"
+    secrets:
+      RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}

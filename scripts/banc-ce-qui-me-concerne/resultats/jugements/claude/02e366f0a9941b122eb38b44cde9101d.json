@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_sante",
+    "raison": "L'article modifie les règles d'autorisation de remplacement des médecins, chirurgiens-dentistes et sages-femmes, donc la façon concrète d'exercer leur métier. La mesure les vise par leur profession, ce qui correspond au secteur santé.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "independant",
+    "raison": "Le texte vise le médecin, le chirurgien-dentiste et la sage-femme sans préciser de mode d'exercice libéral ou salarié. Il ne désigne donc pas les indépendants, et la mesure ne vise pas ce profil en particulier.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0007036849999999999,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

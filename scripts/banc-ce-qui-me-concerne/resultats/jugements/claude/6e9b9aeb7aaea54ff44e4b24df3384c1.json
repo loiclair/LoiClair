@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_transport",
+    "raison": "L’article vise directement les opérateurs de transports guidés urbains et prévoit l’usage de caméras sur les matériels roulants qu’ils exploitent, notamment pour former le personnel de conduite.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000310275,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

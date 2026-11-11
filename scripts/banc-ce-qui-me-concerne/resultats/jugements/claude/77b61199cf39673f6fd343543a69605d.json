@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "veuf",
+    "raison": "Le conjoint survivant d’un fonctionnaire civil est directement visé par la majoration et le maintien possible dans le logement. Toutefois, la majoration prévue à l’article I ne concerne que le conjoint d’un fonctionnaire civil, pas celui d’un militaire : la phrase généralise à tort en parlant d’un « agent ».",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "forces_ordre",
+    "raison": "Le texte vise le conjoint survivant d’un militaire, non le militaire lui-même. Le profil forces_ordre ne s’applique donc pas au seul motif que le défunt était militaire.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0005184,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

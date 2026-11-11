@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_industrie",
+    "raison": "Le texte impose une obligation technique aux producteurs d'électricité au-dessus d'un seuil, pour leurs installations. Il ne change pas la façon d'exercer le métier de ceux qui travaillent dans l'industrie ou la production d'énergie. C'est une obligation de l'entreprise productrice, touchant le secteur par ricochet, comme l'exemple donné pour la puissance mise à disposition par un producteur.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00032108500000000003,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

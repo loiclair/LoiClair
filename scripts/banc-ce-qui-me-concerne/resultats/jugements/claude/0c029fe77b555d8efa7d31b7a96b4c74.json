@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "residence_secondaire",
+    "raison": "Concerné : le texte prévoit une possible majoration de la taxe d’habitation sur les résidences secondaires et modifie aussi les règles de taxation des logements vacants.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000514525,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

@@ -1,0 +1,28 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "heritier_donateur",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article modifie directement les règles de calcul des droits de succession et donation, notamment en supprimant l'exception des donations de plus de 15 ans (article 784). Cela concerne directement les héritiers et donataires."
+   },
+   {
+    "profil": "epargnant",
+    "concerne": false,
+    "phrase_fidele": false,
+    "raison": "Aucun passage ne mentionne explicitement les épargnants. La suppression de l'abattement sur les primes d'assurance-vie après 70 ans (article 757 B) concerne les bénéficiaires de ces contrats, pas les épargnants en général. La phrase proposée est infidèle car elle invente un effet non précisé dans le texte."
+   },
+   {
+    "profil": "senior",
+    "concerne": false,
+    "phrase_fidele": false,
+    "raison": "Aucun passage ne vise spécifiquement les seniors. La suppression de l'abattement pour les primes versées après 70 ans (article 757 B) concerne les bénéficiaires des contrats d'assurance-vie, pas les seniors en tant que tels. La phrase proposée est infidèle car elle généralise à tort."
+   }
+  ],
+  "oublis": [
+   "heritier_donateur"
+  ]
+ },
+ "cout_usd": 0.0094125
+}

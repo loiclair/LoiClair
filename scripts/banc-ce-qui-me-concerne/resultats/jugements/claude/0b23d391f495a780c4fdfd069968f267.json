@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "imposable",
+    "raison": "L'article étend aux investissements à Wallis-et-Futuna, en Nouvelle-Calédonie et dans les TAAF une réduction d'impôt sur le revenu (art. 199 undecies B) : un foyer qui paie l'IR et investit dans ces territoires y gagne directement.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000445635,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

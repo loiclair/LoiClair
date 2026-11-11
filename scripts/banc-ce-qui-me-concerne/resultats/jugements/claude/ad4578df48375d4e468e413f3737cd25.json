@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "mineur",
+    "raison": "Le texte vise les victimes « mineure[s] au moment des faits » : le point de départ du délai de prescription est modifié pour elles. Un mineur actuel appartient à ce sous-groupe, donc la mesure le vise.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0041047,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

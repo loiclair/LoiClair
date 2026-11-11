@@ -1,0 +1,41 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "salarie_prive",
+    "raison": "L'article L. 1132-1 du code du travail, modifié par le 1° du III, protège directement le salarié contre une discrimination liée à l'allaitement.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "fonctionnaire",
+    "raison": "Le I modifie l'article L. 131-1 du code général de la fonction publique : l'allaitement devient un motif de discrimination interdit pour les agents publics.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "parent",
+    "raison": "Le critère déclencheur est l'allaitement, pas le statut de parent d'un enfant mineur ou à charge. Le texte ne désigne pas les parents en tant que tels.",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "chef_entreprise",
+    "raison": "L'interdiction de discrimination liée à l'allaitement (L. 1132-1) et la règle du règlement intérieur (L. 1321-3) imposent une obligation à tout employeur, donc au dirigeant de TPE, PME ou ETI de moins de 250 salariés.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "dirigeant_grande_entreprise",
+    "raison": "Les mêmes obligations pèsent sur tout employeur, y compris le dirigeant d'une entreprise de 250 salariés ou plus, qui doit respecter l'interdiction et adapter son règlement intérieur.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0016112125,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "outre_mer",
+    "raison": "L’amendement vise explicitement les résidents de Wallis-et-Futuna, territoire d’outre-mer, et adapte pour eux les références à l’agence chargée de la prise en charge des soins.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000309275,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

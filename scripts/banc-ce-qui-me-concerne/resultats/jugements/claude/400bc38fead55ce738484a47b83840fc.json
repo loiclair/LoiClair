@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "mineur",
+    "raison": "L'article vise les victimes mineures au moment des faits : pour elles, le délai de prescription courrait à partir de la révélation aux autorités, et non de la date des faits. Un mineur victime de ces infractions est directement touché par ce changement de délai.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000443285,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

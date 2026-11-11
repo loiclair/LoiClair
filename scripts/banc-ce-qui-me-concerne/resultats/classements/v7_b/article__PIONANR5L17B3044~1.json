@@ -1,0 +1,19 @@
+{
+ "impacts": [
+  {
+   "profil": "locataire",
+   "phrase_fr": "Les locataires pourraient obtenir un logement garantissant un niveau minimal de confort thermique en été.",
+   "phrase_en": "Tenants would be entitled to a home offering a minimum level of summer thermal comfort.",
+   "passage": "Le bailleur est tenu de fournir au locataire un logement garantissant un niveau minimal de confort thermique en période estivale.",
+   "certitude": "certain"
+  },
+  {
+   "profil": "proprietaire_bailleur",
+   "phrase_fr": "Les propriétaires bailleurs devraient installer, à la demande du locataire, des protections solaires extérieures et un brasseur d’air, ou un volet et un ventilateur si c’est impossible.",
+   "phrase_en": "Landlords would have to install, at the tenant's request, exterior solar shades and an air circulator, or a blind and a portable fan if that is impossible.",
+   "passage": "D’installer, à la demande du locataire, des protections solaires mobiles extérieures et un brasseur d’air dans les pièces de vie.",
+   "certitude": "certain"
+  }
+ ],
+ "cout_usd": 0.00077901
+}

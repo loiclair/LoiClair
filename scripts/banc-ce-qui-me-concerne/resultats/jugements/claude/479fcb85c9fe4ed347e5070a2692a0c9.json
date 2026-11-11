@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "elu_local",
+    "raison": "Le texte vise directement « le maire de la commune d'implantation » et lui donne un droit d'être informé à l'avance de tout projet de fermeture d'une succursale, avec les moyens prévus pour garder l'accès aux services. Le maire fait partie du profil elu_local (maire, adjoint, conseiller), et la mesure change concrètement ce qu'il reçoit et peut suivre dans sa commune.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000286685,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

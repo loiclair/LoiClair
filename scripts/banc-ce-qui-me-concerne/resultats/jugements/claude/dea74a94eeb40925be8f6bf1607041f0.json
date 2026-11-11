@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "corse",
+    "raison": "Le texte nomme la Corse, mais il prévoit seulement un calendrier, fixé par décret, pour créer un CHR puis un CHU au chef-lieu. L'effet passe par l'organisation hospitalière et n'entraîne aucun droit, aucune obligation ni aucune dépense pour le lecteur.",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "etudiant",
+    "raison": "Le texte impose aux UFR de santé de proposer dans chaque département la première année de médecine, pharmacie, odontologie ou maïeutique. Le lieu et l'offre de formation des étudiants de santé changent directement, et la mesure vise la formation elle-même.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000809535,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

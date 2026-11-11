@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "imposable",
+    "concerne": true,
+    "phrase_fidele": false,
+    "raison": "La phrase est infidèle car elle ajoute des informations qui ne figurent pas dans l'article. L'article ne dit rien sur un droit à réduction d'impôt ni sur les investissements éligibles ; il modifie simplement le champ d'application territorial d'un dispositif existant. Le passage cité ne justifie pas le profil car il ne mentionne ni l'impôt ni le contribuable. Le profil 'imposable' peut être déduit du code visé (CGI, impôt sur le revenu), mais la phrase proposée est incorrecte."
+   }
+  ],
+  "oublis": [
+   "outre_mer"
+  ]
+ },
+ "cout_usd": 0.0015769
+}

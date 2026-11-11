@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etranger_hors_ue",
+    "raison": "Le texte impose directement des taxes aux étrangers auxquels est délivré ou renouvelé un titre de séjour.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000638275,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

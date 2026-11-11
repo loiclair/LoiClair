@@ -1,0 +1,15 @@
+{
+ "impacts": [
+  {
+   "profil": "salarie_prive",
+   "passage": "À l'alinéa 1, substituer à l'année : « 2027 » l'année : « 2026 ».",
+   "certitude": "certain"
+  },
+  {
+   "profil": "epargnant",
+   "passage": "En conséquence, procéder à la même substitution à l’alinéa 2.",
+   "certitude": "probable"
+  }
+ ],
+ "resume_fr": "Limiterait le déblocage exceptionnel aux sommes placées sur un plan d’épargne salariale avant le 1er janvier 2026, au lieu de 2027."
+}

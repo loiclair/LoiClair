@@ -1,0 +1,45 @@
+# Envoie un email à contact@loiclair.fr quand un workflow échoue.
+#
+# Sans lui, un échec hors du cron de nuit ne produit qu'une notification GitHub, loin de
+# la boîte où arrivent les autres alertes (`pipeline/_alertes.py`, même expéditeur).
+# Un job `alerte` l'appelle avec `needs` sur le job surveillé et `if: failure()`.
+# `quoi` nomme ce qui a échoué : `github.workflow` ne suffirait pas, la purge étant
+# aussi lancée depuis le cron, dont elle prendrait le nom.
+name: Alerte d'échec
+
+on:
+  workflow_call:
+    inputs:
+      quoi:
+        description: Ce qui a échoué, repris dans le sujet de l'email
+        required: true
+        type: string
+    secrets:
+      RESEND_API_KEY:
+        required: true
+
+permissions: {}
+
+jobs:
+  envoyer:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      # `jq` construit le JSON : un nom contenant un guillemet ne casse pas la requête.
+      # `--retry-all-errors` : une alerte perdue coûte plus qu'une alerte reçue deux fois.
+      - name: Envoyer l'email
+        env:
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          QUOI: ${{ inputs.quoi }}
+          LIEN: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          jq -n --arg quoi "$QUOI" --arg lien "$LIEN" '{
+            from: "LoiClair System <newsletter@loiclair.fr>",
+            to: ["contact@loiclair.fr"],
+            subject: ("[ALERTE] Échec : " + $quoi),
+            html: ("<p><strong>" + $quoi + "</strong> a échoué.</p><p><a href=\"" + $lien + "\">Ouvrir le run sur GitHub</a></p>")
+          }' | curl --fail-with-body --silent --show-error --retry 3 --retry-all-errors \
+            -X POST https://api.resend.com/emails \
+            -H "Authorization: Bearer ${RESEND_API_KEY}" \
+            -H "Content-Type: application/json" \
+            --data @-

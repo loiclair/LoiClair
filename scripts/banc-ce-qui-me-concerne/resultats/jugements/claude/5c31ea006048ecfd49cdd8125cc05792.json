@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_finance",
+    "raison": "L'article vise directement les entreprises d'assurance, mais il s'agit d'une faculté (elles « peuvent » abonder un fonds) assortie d'une interdiction de répercuter le coût sur les primes ou de réduire les garanties. C'est une règle commerciale propre à l'entreprise, qui ne change pas la façon d'exercer le métier de l'assurance : pas concerné.",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "salarie_prive",
+    "raison": "Le texte mentionne les salariés, mais aucun droit ne leur est créé directement. Un financement n'existe que si la branche institue un dispositif conventionnel et si un assureur choisit d'abonder le fonds : l'effet passe par deux tiers et n'atteint le salarié que si ces tiers réagissent. Effet indirect : pas concerné.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000941785,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

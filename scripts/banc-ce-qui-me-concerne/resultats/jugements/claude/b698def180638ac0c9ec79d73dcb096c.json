@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_agriculture",
+    "raison": "Le crédit d'impôt pour remplacement (article 200 undecies du CGI, alinéa 59 de l'article 13) vise les exploitants agricoles. Passer de 80 % à 100 % change directement la part de leurs dépenses de remplacement pour maladie, accident du travail ou formation qui est prise en charge. Texte non adopté, jugé comme s'il s'appliquait.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000842385,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

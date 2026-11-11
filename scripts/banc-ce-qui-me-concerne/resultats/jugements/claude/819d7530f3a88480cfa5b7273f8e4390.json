@@ -1,0 +1,13 @@
+{
+ "jugement": {
+  "profils": [],
+  "oublis": [
+   "mineur",
+   "chef_entreprise",
+   "dirigeant_grande_entreprise"
+  ]
+ },
+ "cout_usd": 0.000773275,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

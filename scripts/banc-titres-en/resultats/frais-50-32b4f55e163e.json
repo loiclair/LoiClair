@@ -1,0 +1,307 @@
+{
+ "prompt": "32b4f55e163e",
+ "cout": 0.00163118,
+ "duree": 12.0,
+ "titres": [
+  {
+   "uid": "DLR5L17N50494",
+   "titre": "Mettre en œuvre un plan d’urgence en faveur du logement en France",
+   "procedure": "Résolution Article 34-1",
+   "en": "Implement an emergency plan to support housing in France"
+  },
+  {
+   "uid": "DLR5L17N54907",
+   "titre": "Contrôle réel des investissements étrangers en France",
+   "procedure": "Proposition de loi ordinaire",
+   "en": "Effective control of foreign investment in France"
+  },
+  {
+   "uid": "DLR5L17N53872",
+   "titre": "Intégrer la composition pénale dans le champ de la récidive",
+   "procedure": "Proposition de loi ordinaire",
+   "en": "Bring penal composition within the scope of recidivism"
+  },
+  {
+   "uid": "DSNRAP2023N0006",
+   "titre": "Actes du colloque du 11 mai 2023, à l'Assemblée nationale, sur le thème : « La politique publique du renseignement est-elle bien contrôlée ? »",
+   "procedure": "Rapport d'information sans mission",
+   "en": "Proceedings of the colloquium of 11 May 2023, held at the National Assembly, on the theme: “Is public intelligence policy really under proper scrutiny?”"
+  },
+  {
+   "uid": "DLR5L17N55061",
+   "titre": "Proposition de loi visant à faciliter les emplois saisonniers des jeunes dans le milieu agricole",
+   "procedure": "Proposition de loi ordinaire",
+   "en": "Private member's bill to make it easier for young people to take seasonal jobs in agriculture"
+  },
+  {
+   "uid": "DLR5L17N54171",
+   "titre": "Les conditions d’exercice du mandat parlementaire en cas de remplacement temporaire",
+   "procedure": "Projet ou proposition de loi organique",
+   "en": "The conditions for exercising a parliamentary mandate in the event of temporary replacement"
+  },
+  {
+   "uid": "DLR5L17N53744",
+   "titre": "L’avenir du projet spatial européen après Ariane 6",
+   "procedure": "Rapport d'information sans mission",
+   "en": "The future of the European space project after Ariane 6"
+  },
+  {
+   "uid": "DSNRES2024N0001",
+   "titre": "en application de l'article 34-1 de la Constitution, visant à condamner les actions des rebelles houthis en mer Rouge et à appeler à une action internationale pour protéger le commerce maritime et l'environnement dans cette zone",
+   "procedure": "Résolution Article 34-1",
+   "en": "under Article 34-1 of the Constitution, to condemn the actions of the Houthi rebels in the Red Sea and to call for international action to protect maritime trade and the environment in that area"
+  },
+  {
+   "uid": "DLR5L17N51555",
+   "titre": "Annulation de la réforme de la franchise en base de la taxe sur la valeur ajoutée au 1er mars 2025",
+   "procedure": "Proposition de loi ordinaire",
+   "en": "Repeal of the reform of the VAT threshold exemption with effect from 1 March 2025"
+  },
+  {
+   "uid": "DLR5L17N51739",
+   "titre": "Recueil d’auditions de la commission de la défense nationale et des forces armées sur l’économie de guerre",
+   "procedure": "Rapport d'information sans mission",
+   "en": "Compilation of hearings held by the Defence Committee on the war economy"
+  },
+  {
+   "uid": "DLR5L17N50318",
+   "titre": "Soutenir nos artisans, assurer la pérennité de l'artisanat et renforcer leur rôle dans l'économie française",
+   "procedure": "Résolution Article 34-1",
+   "en": "Support our craftspeople, secure the future of craft and strengthen their role in the French economy"
+  },
+  {
+   "uid": "DLR5L15N36391",
+   "titre": "Qualité des études d'impact des projets de loi",
+   "procedure": "Projet ou proposition de loi organique",
+   "en": "Quality of impact assessments for government bills"
+  },
+  {
+   "uid": "DSNRAP2025N0877",
+   "titre": "Les CCI et CMA : des réseaux de proximité indispensables au tissu économique local",
+   "procedure": "Rapport d'information sans mission",
+   "en": "Chambers of Commerce and Industry and Chambers of Trades and Crafts: local networks essential to the regional economy"
+  },
+  {
+   "uid": "DSNRAP2024N0841",
+   "titre": "L'aide médicale de l'État, une réforme nécessaire",
+   "procedure": "Rapport d'information sans mission",
+   "en": "State Medical Aid: a necessary reform"
+  },
+  {
+   "uid": "DLR5L17N52460",
+   "titre": "Proposition de loi visant à protéger les jeunes de l'exposition excessive et précoce aux écrans et des méfaits des réseaux sociaux",
+   "procedure": "Proposition de loi ordinaire",
+   "en": "Private member's bill to protect young people from excessive and early exposure to screens and the harms of social networks"
+  },
+  {
+   "uid": "DLR5L17N50944",
+   "titre": "Mettre en place un cadre européen sur les relations contractuelles des centrales d’achats de la grande distribution avec les producteurs",
+   "procedure": "Résolution",
+   "en": "Establish a European framework governing the contractual relations between large retail purchasing alliances and producers"
+  },
+  {
+   "uid": "DLR5L17N54867",
+   "titre": "Renforcer la répression des incendies volontaires de forêt commis en période de risque exceptionnel de propagation",
+   "procedure": "Proposition de loi ordinaire",
+   "en": "Strengthen the punishment of deliberate forest fires committed during periods of exceptional risk of spread"
+  },
+  {
+   "uid": "DLR5L17N51825",
+   "titre": "Redéfinir le rôle de l’éducation nationale dans le domaine de la vie affective et sexuelle des élèves",
+   "procedure": "Proposition de loi ordinaire",
+   "en": "Redefine the role of the national education system in the emotional and sexual life of pupils"
+  },
+  {
+   "uid": "DLR5L17N50437",
+   "titre": "Faciliter le retrait de contenus en ligne à caractère pédopornographique",
+   "procedure": "Proposition de loi ordinaire",
+   "en": "Facilitate the removal of online content of a child sexual abuse nature"
+  },
+  {
+   "uid": "DLR5L17N50388",
+   "titre": "Rétablir le régime de déclaration de l’instruction en famille",
+   "procedure": "Proposition de loi ordinaire",
+   "en": "Restore the declaration regime for home education"
+  },
+  {
+   "uid": "DLR5L17N51703",
+   "titre": "Doter la France des équipements nécessaires à la dépollution aux substances per et polyfluoroalkylées dit polluants éternels",
+   "procedure": "Proposition de loi ordinaire",
+   "en": "Equip France with the means needed to clean up per- and polyfluoroalkyl substances, known as forever chemicals"
+  },
+  {
+   "uid": "DLR5L17N52770",
+   "titre": "Reconnaissance et sauvegarde du pastoralisme",
+   "procedure": "Proposition de loi ordinaire",
+   "en": "Recognition and safeguarding of pastoralism"
+  },
+  {
+   "uid": "DLR5L17N54463",
+   "titre": "Proposition de loi renforçant la liberté de choix de l'opérateur funéraire par les familles endeuillées et régulant le marché des prestations obsèques",
+   "procedure": "Proposition de loi ordinaire",
+   "en": "Private member's bill strengthening bereaved families' freedom to choose their funeral operator and regulating the funeral services market"
+  },
+  {
+   "uid": "DLR5L17N50356",
+   "titre": "Les manquements des politiques publiques de protection de l'enfance",
+   "procedure": "Résolution",
+   "en": "Failures of public child protection policies"
+  },
+  {
+   "uid": "DLR5L17N52807",
+   "titre": "Reconnaître les fanfares comme patrimoine vivant",
+   "procedure": "Résolution Article 34-1",
+   "en": "Recognise marching bands as living heritage"
+  },
+  {
+   "uid": "DLR5L17N52548",
+   "titre": "Proposition de loi visant à expérimenter un dispositif de soutien à la réhabilitation du parc de logement social en zone peu dense",
+   "procedure": "Proposition de loi ordinaire",
+   "en": "Private member's bill to pilot a support scheme for the rehabilitation of social housing stock in low-density areas"
+  },
+  {
+   "uid": "DLR5L15N43814",
+   "titre": "Circulation et retour des biens culturels appartenant aux collections publiques",
+   "procedure": "Proposition de loi ordinaire",
+   "en": "Circulation and return of cultural property belonging to public collections"
+  },
+  {
+   "uid": "DLR5L17N51560",
+   "titre": "Mise en application de la loi n° 2021-1018 du 2 août 2021 pour renforcer la prévention en santé au travail",
+   "procedure": "Rapport d'information sans mission",
+   "en": "Implementation of Law No. 2021-1018 of 2 August 2021 to strengthen occupational health prevention"
+  },
+  {
+   "uid": "DLR5L17N51732",
+   "titre": "Proposition de loi relative à l'organisation, à la gestion et au financement du sport professionnel",
+   "procedure": "Proposition de loi ordinaire",
+   "en": "Private member's bill on the organisation, management and financing of professional sport"
+  },
+  {
+   "uid": "DLR5L17N53796",
+   "titre": "Proposition de loi pour une politique funéraire territoriale simplifiée et respectueuse de la volonté des défunts",
+   "procedure": "Proposition de loi ordinaire",
+   "en": "Private member's bill for a simplified local funeral policy that respects the wishes of the deceased"
+  },
+  {
+   "uid": "DLR5L17N50207",
+   "titre": "Proposition de loi constitutionnelle visant à préciser le statut de Gouvernement démissionnaire",
+   "procedure": "Projet ou proposition de loi constitutionnelle",
+   "en": "Private member's constitutional bill to clarify the status of a caretaker Government"
+  },
+  {
+   "uid": "DLR5L17N50912",
+   "titre": "Faire coïncider les délais de prescriptions du délit de non-dénonciation et du délit d'omission de porter secours avec les délais de prescriptions des crimes et agressions sexuelles sur mineurs",
+   "procedure": "Proposition de loi ordinaire",
+   "en": "Align the limitation periods for the offence of failure to report and the offence of failure to render assistance with those for sexual crimes and assaults against minors"
+  },
+  {
+   "uid": "DLR5L17N52886",
+   "titre": "Déployer la politique de réduction des risques en milieu carcéral",
+   "procedure": "Résolution Article 34-1",
+   "en": "Roll out harm reduction policy in prisons"
+  },
+  {
+   "uid": "DLR5L17N51674",
+   "titre": "Commission d’enquête portant sur les défaillances des pouvoirs publics face à la multiplication des plans de licenciements",
+   "procedure": "Commission d'enquête",
+   "en": "Committee of inquiry into the failures of public authorities in the face of the growing number of redundancy plans"
+  },
+  {
+   "uid": "DLR5L17N50759",
+   "titre": "Exclure les étrangers en situation irrégulière du bénéfice de la tarification sociale dans les transports",
+   "procedure": "Proposition de loi ordinaire",
+   "en": "Exclude irregular migrants from social fare concessions on public transport"
+  },
+  {
+   "uid": "DLR5L17N54242",
+   "titre": "visant à refonder la filière à responsabilité élargie des producteurs des produits et matériaux de construction du secteur du bâtiment",
+   "procedure": "Proposition de loi ordinaire",
+   "en": "to overhaul the extended producer responsibility scheme for construction products and materials in the building sector"
+  },
+  {
+   "uid": "DLR5L17N52499",
+   "titre": "Interdire la vente de chiens et de chats dans les foires et salons",
+   "procedure": "Proposition de loi ordinaire",
+   "en": "Ban the sale of dogs and cats at fairs and trade shows"
+  },
+  {
+   "uid": "DLR5L17N52855",
+   "titre": "La sauvegarde du développement de l’agriculture biologique",
+   "procedure": "Résolution Article 34-1",
+   "en": "Safeguarding the development of organic farming"
+  },
+  {
+   "uid": "DLR5L17N52195",
+   "titre": "Proposition de loi tendant à renforcer la protection fonctionnelle des élus locaux et des agents publics",
+   "procedure": "Proposition de loi ordinaire",
+   "en": "Private member's bill to strengthen the functional protection of local elected officials and public servants"
+  },
+  {
+   "uid": "DLR5L17N50914",
+   "titre": "Amnistie des gilets jaunes et la publication des cahiers d’expression libre issus du grand débat national de 2020",
+   "procedure": "Proposition de loi ordinaire",
+   "en": "Amnesty for the yellow vests and publication of the free expression notebooks from the 2020 national great debate"
+  },
+  {
+   "uid": "DLR5L17N54643",
+   "titre": "La titularisation des agents de la fonction publique territoriale à La Réunion",
+   "procedure": "Proposition de loi ordinaire",
+   "en": "Civil service appointments for territorial civil servants in Réunion"
+  },
+  {
+   "uid": "DLR5L17N53144",
+   "titre": "La place des outre-mer dans la diplomatie française",
+   "procedure": "Rapport d'information sans mission",
+   "en": "The place of overseas territories in French diplomacy"
+  },
+  {
+   "uid": "DLR5L17N52529",
+   "titre": "Création d’une compétence sécurité pour les régions",
+   "procedure": "Proposition de loi ordinaire",
+   "en": "Creating a security competence for regions"
+  },
+  {
+   "uid": "DLR5L17N50917",
+   "titre": "Indemniser systématiquement les propriétaires de biens immobiliers impactés par l’implantation d’éoliennes terrestres",
+   "procedure": "Proposition de loi ordinaire",
+   "en": "Systematically compensate owners of property affected by the siting of onshore wind turbines"
+  },
+  {
+   "uid": "DLR5L17N50235",
+   "titre": "Rétablir la pratique de la réserve parlementaire au profit des petites communes et des associations",
+   "procedure": "Projet ou proposition de loi organique",
+   "en": "Reinstate the parliamentary reserve scheme for the benefit of small communes and associations"
+  },
+  {
+   "uid": "DLR5L17N53983",
+   "titre": "Projet de loi ratifiant l’ordonnance 2026-2 du 5 janvier 2026 relative à la commercialisation à distance de services financiers auprès des consommateurs",
+   "procedure": "Projet de loi ordinaire",
+   "en": "Government bill ratifying Ordinance No. 2026-2 of 5 January 2026 on the distance marketing of financial services to consumers"
+  },
+  {
+   "uid": "DLR5L17N54378",
+   "titre": "Proposition de loi visant à transférer la police de l'environnement de l'Office français de la biodiversité aux services de l'État",
+   "procedure": "Proposition de loi ordinaire",
+   "en": "Private member's bill to transfer the environmental police from the French Biodiversity Office to the State departments"
+  },
+  {
+   "uid": "DSNRAP2023N0726",
+   "titre": "Les achats publics des universités : une navigation à vue peu compatible avec une gestion saine des deniers publics",
+   "procedure": "Rapport d'information sans mission",
+   "en": "Public procurement by universities: navigating by sight, hardly compatible with sound management of public funds"
+  },
+  {
+   "uid": "DLR5L17N53521",
+   "titre": "Instaurer un moratoire sur les démolitions de logements prévues par l’Agence nationale pour la rénovation urbaine",
+   "procedure": "Proposition de loi ordinaire",
+   "en": "Introduce a moratorium on demolitions of housing planned by the National Agency for Urban Renewal"
+  },
+  {
+   "uid": "DSNRAP2025N0829",
+   "titre": "Enseignement français à l'étranger : un réseau à défendre, une ambition à réaffirmer",
+   "procedure": "Rapport d'information sans mission",
+   "en": "French education abroad: a network to defend, an ambition to reaffirm"
+  }
+ ]
+}

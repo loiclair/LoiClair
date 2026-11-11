@@ -1,0 +1,14 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "outre_mer",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'amendement vise explicitement les résidents de Wallis-et-Futuna (collectivité d'outre-mer) pour adapter les modalités de prise en charge des soins et d'identification électronique à leur organisation sanitaire."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00641025
+}

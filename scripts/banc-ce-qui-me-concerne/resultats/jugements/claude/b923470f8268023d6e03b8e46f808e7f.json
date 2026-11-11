@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_agriculture",
+    "raison": "L'article interdit des techniques de pêche (appâts concentrés, dispositifs lumineux, rejets de poissons) qui servent à la capture. Il change donc directement la façon dont les pêcheurs professionnels exercent leur métier, et la pêche relève du secteur agriculture au sens du catalogue.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "chasseur_pecheur",
+    "raison": "« Il est interdit à toute personne de mettre en œuvre » ces pratiques vise directement les pêcheurs de loisir qui utiliseraient des appâts concentrés, des lumières ou des débris de poissons pour attirer le poisson. Ils perdent un moyen de pêche qu'ils pouvaient utiliser.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000712985,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

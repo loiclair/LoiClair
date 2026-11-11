@@ -1,0 +1,24 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etudiant",
+    "raison": "Le texte prévoit la nullité du contrat et le remboursement au cocontractant ; un étudiant partie à un contrat relevant des règles visées est directement concerné.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "chef_entreprise",
+    "raison": "Le texte vise expressément le dirigeant d’un organisme de formation et prévoit une possible interdiction d’exercer cette activité, sans condition de taille de l’organisme.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "dirigeant_grande_entreprise"
+  ]
+ },
+ "cout_usd": 0.000818775,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

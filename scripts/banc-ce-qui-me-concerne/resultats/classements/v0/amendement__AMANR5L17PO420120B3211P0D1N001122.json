@@ -1,0 +1,20 @@
+{
+ "impacts": [
+  {
+   "profil": "etranger_hors_ue",
+   "passage": "",
+   "certitude": "certain"
+  },
+  {
+   "profil": "parent",
+   "passage": "",
+   "certitude": "probable"
+  },
+  {
+   "profil": "outre_mer",
+   "passage": "",
+   "certitude": "possible"
+  }
+ ],
+ "resume_fr": "Exigerait une année de résidence en France aux étrangers hors UE pour toucher les prestations familiales, avec des exceptions pour les réfugiés et d'autres."
+}

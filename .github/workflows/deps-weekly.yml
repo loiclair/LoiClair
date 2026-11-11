@@ -1,0 +1,139 @@
+# Met à jour les dépendances mineures et correctifs, et pousse directement sur `main`.
+#
+# Remplace Dependabot, qui ne travaille que par pull request : chaque PR laisse une
+# référence `refs/pull/*` que le propriétaire du dépôt ne peut pas supprimer. Les
+# majeures ne passent pas ici : `/done` les propose, et elles s'appliquent dans une
+# session avec vérification visuelle.
+#
+# Tourne sur Linux, donc `npm install` y écrit un lockfile complet : sur macOS, npm
+# élague les paquets optionnels propres à Linux et `npm ci` échoue ensuite en CI.
+#
+# Lundi 5 h UTC, avant `security-audit.yml` et `codeql.yml` (6 h), pour que l'audit
+# de la semaine porte sur les versions à jour.
+name: Deps weekly
+
+on:
+  schedule:
+    - cron: '0 5 * * 1'
+  workflow_dispatch:
+
+# Partagé avec `lockfile-repair.yml` : les deux poussent `package-lock.json` sur
+# `main`, et deux pushes concurrents se rejetteraient l'un l'autre.
+concurrency:
+  group: deps-main
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      # LOCKFILE_PAT et pas GITHUB_TOKEN : un push fait avec GITHUB_TOKEN ne déclenche
+      # aucun workflow, donc pas de `ci.yml` sur ce commit, et `/release` refuse de
+      # publier un `main` dont le dernier commit n'a pas de CI verte. Si le PAT
+      # expire, ce checkout échoue bruyamment plutôt que de pousser en silence.
+      - uses: actions/checkout@v7
+        with:
+          token: ${{ secrets.LOCKFILE_PAT }}
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: '24'
+          cache: npm
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+
+      - name: Apply minor and patch updates
+        run: |
+          # Sans `shell:` explicite, GitHub lance `bash -e` sans pipefail : une erreur
+          # de registre dans le script serait masquée par le code de sortie de `tee`.
+          set -o pipefail
+          node .github/scripts/deps.mjs minor | tee "$RUNNER_TEMP/changements.txt"
+          npm install --ignore-scripts --no-fund
+          # Couvre les failles des dépendances transitives, que les « security
+          # updates » de Dependabot corrigeaient avant. Sans --force, qui
+          # installerait des majeures de dépendances directes. `|| true` parce que
+          # npm audit fix rend un code non nul quand une faille reste sans correctif
+          # compatible, ce qui ne doit pas bloquer les autres mises à jour : elle
+          # reste visible dans les alertes Dependabot, que `/done` affiche.
+          npm audit fix --ignore-scripts --no-fund || true
+
+      - name: Detect changes
+        id: diff
+        run: |
+          if git diff --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "Aucune mise à jour."
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            git diff --stat
+          fi
+
+      # Mêmes contrôles que `ci.yml`, plus les dépendances Python. Rien n'est poussé
+      # si l'un échoue : le run reste rouge et `/done` le signale.
+      - name: Verify npm install from lockfile
+        if: steps.diff.outputs.changed == 'true'
+        run: npm ci --ignore-scripts
+
+      - name: Typecheck
+        if: steps.diff.outputs.changed == 'true'
+        run: npm run typecheck
+
+      - name: Lint
+        if: steps.diff.outputs.changed == 'true'
+        run: npm run lint:strict
+
+      # Le build lit la base du VPS par un tunnel SSH (D-327).
+      - name: Tunnel vers la base du VPS
+        if: steps.diff.outputs.changed == 'true'
+        uses: ./.github/actions/tunnel-base
+        with:
+          host: ${{ secrets.VPS_HOST }}
+          key: ${{ secrets.VPS_TUNNEL_KEY }}
+          known_hosts: ${{ secrets.VPS_KNOWN_HOSTS }}
+
+      # Les secrets de connexion sont obligatoires : `src/lib/db.ts` lève à
+      # l'import s'il en manque, ce qui fait échouer `next build` avant la
+      # première page.
+      # La base répond sur `127.0.0.1:5432`, au bout du tunnel, sans TLS : le
+      # tunnel chiffre déjà.
+      - name: Build
+        if: steps.diff.outputs.changed == 'true'
+        run: npm run build
+        env:
+          PGHOST: 127.0.0.1
+          PGPORT: '5432'
+          PGSSLMODE: disable
+          PGDATABASE: ${{ secrets.VPS_PGDATABASE }}
+          PGUSER: ${{ secrets.VPS_PGUSER }}
+          PGPASSWORD: ${{ secrets.VPS_PGPASSWORD }}
+
+      - name: Verify Python dependencies
+        if: steps.diff.outputs.changed == 'true'
+        run: |
+          pip install -r pipeline/requirements.txt
+          pip check
+
+      - name: Commit and push
+        if: steps.diff.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          {
+            echo "build(deps): mettre à jour les dépendances mineures"
+            echo
+            if [ -s "$RUNNER_TEMP/changements.txt" ]; then
+              cat "$RUNNER_TEMP/changements.txt"
+            else
+              echo "Correctifs de dépendances transitives (npm audit fix)."
+            fi
+          } > "$RUNNER_TEMP/message.txt"
+          git add package.json package-lock.json pipeline/requirements.txt
+          git commit -F "$RUNNER_TEMP/message.txt"
+          # Une session peut avoir poussé sur `main` pendant les vérifications : un
+          # seul rebase, puis nouvel essai. Un second rejet laisse le run rouge.
+          git push origin HEAD:main || { git pull --rebase origin main && git push origin HEAD:main; }

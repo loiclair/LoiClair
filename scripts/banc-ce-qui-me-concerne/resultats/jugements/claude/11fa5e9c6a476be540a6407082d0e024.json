@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_culture",
+    "raison": "Le texte vise explicitement les journalistes professionnels et assimilés fournissant des contenus à certaines agences ou entreprises de presse, catégorie qui relève du secteur de la presse.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0003239,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

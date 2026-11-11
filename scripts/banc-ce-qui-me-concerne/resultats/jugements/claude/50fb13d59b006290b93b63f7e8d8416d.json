@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_education",
+    "raison": "Le contexte de l’article vise les personnels de l’éducation victimes de violences, menaces ou outrages dans leurs fonctions. La suppression de l’alinéa retire la possibilité de leur enlever la protection en cas de faute personnelle.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "fonctionnaire",
+    "raison": "La mesure vise les personnels de l’éducation en raison de leur activité, pas les fonctionnaires ou contractuels en raison de leur statut. Ce statut ne suffit donc pas à être concerné.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00085565,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

@@ -1,0 +1,49 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "imposable",
+    "raison": "Le texte institue une contribution à la charge des contribuables, mais ne vise pas les foyers parce qu’ils paient l’impôt sur le revenu : le profil imposable ne correspond pas à cette catégorie.",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "outre_mer",
+    "raison": "Le texte prévoit des seuils de revenus particuliers pour plusieurs territoires ultramarins, notamment pour le dégrèvement lié à l’AAH.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "handicap",
+    "raison": "Les titulaires de l’AAH sous condition de revenus, ainsi que certaines personnes atteintes d’une infirmité ou invalidité, peuvent bénéficier d’un dégrèvement.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "retraite",
+    "raison": "Le texte vise les titulaires de l’ASPA, pas les retraités en tant que tels ; percevoir l’ASPA ne suffit pas à établir le statut de retraité au sens du catalogue.",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "senior",
+    "raison": "Les contribuables de plus de 60 ans peuvent bénéficier du dégrèvement sous conditions de revenus et de non-assujettissement à l’IFI ; ils appartiennent au profil senior.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "veuf",
+    "raison": "Le texte mentionne explicitement les veuves et veufs, sous conditions de revenus et de non-assujettissement à l’IFI.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": [
+   "heberge",
+   "age_dependant"
+  ]
+ },
+ "cout_usd": 0.0020969,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

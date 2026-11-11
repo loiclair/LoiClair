@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_sante",
+    "raison": "L’article finance une stratégie de soins palliatifs et inclut explicitement des dépenses hospitalières ; le financement des soins hospitaliers concerne directement le secteur de la santé.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "independant",
+    "raison": "Le périmètre budgétaire inclut explicitement les actes des professionnels de santé libéraux, catégorie qui comprend des travailleurs indépendants.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000604525,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

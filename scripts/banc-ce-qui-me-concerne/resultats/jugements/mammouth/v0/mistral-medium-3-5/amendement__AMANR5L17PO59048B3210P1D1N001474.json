@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_agriculture",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'amendement vise explicitement les jeunes agriculteurs (associés exploitants dans une société agricole) et modifie directement leur traitement fiscal des plus-values. Le passage cité est exact et justifie le profil."
+   },
+   {
+    "profil": "imposable",
+    "concerne": false,
+    "phrase_fidele": false,
+    "raison": "Le profil 'imposable' n'est pas directement concerné. L'amendement cible spécifiquement les jeunes agriculteurs (secteur_agriculture) et non tous les contribuables imposables. La phrase proposée est infidèle car elle suggère un effet général pour les imposables, alors que le texte ne vise que les jeunes agriculteurs."
+   }
+  ],
+  "oublis": [
+   "jeune"
+  ]
+ },
+ "cout_usd": 0.0078105
+}

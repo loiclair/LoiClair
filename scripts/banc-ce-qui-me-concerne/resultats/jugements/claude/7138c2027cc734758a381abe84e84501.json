@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "littoral",
+    "raison": "La taxe vise explicitement les biens situés dans une commune littorale, qui est le critère même du profil. Un habitant de ces communes qui achète dans sa commune est directement touché par la taxe de 0,10 %.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "projet_achat",
+    "raison": "La taxe s'applique à toute mutation à titre onéreux de biens situés dans une commune littorale, donc à l'acte même d'achat. Une personne qui achète son logement dans ces communes doit la payer, ce qui la concerne directement.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000893935,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

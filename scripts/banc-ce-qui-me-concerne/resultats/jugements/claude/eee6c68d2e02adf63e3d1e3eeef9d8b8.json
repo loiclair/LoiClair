@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_agriculture",
+    "raison": "Les prescriptions visent les installations d’élevage et peuvent imposer modernisation, gestion des effluents et biosécurité : les éleveurs, sous-groupe du secteur agricole, sont concernés.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "chef_entreprise",
+    "raison": "Le texte vise les installations d’élevage et leurs exploitants, pas les dirigeants de petites ou moyennes entreprises en tant que tels. Le statut de chef d’entreprise ne suffit donc pas à être visé.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0011104,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

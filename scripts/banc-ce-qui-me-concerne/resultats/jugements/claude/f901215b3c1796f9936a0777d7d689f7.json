@@ -1,0 +1,37 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "locataire",
+    "raison": "L'article encadre le loyer de base des logements loués et ouvre une action en diminution du loyer pour le locataire : effet direct sur son argent et ses droits.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "proprietaire_bailleur",
+    "raison": "Le texte plafonne le loyer que le bailleur peut fixer à la conclusion du bail. Mais la phrase est inexacte : le loyer de référence égal au médian vaut pour les autres communes, et le plafond est alors le loyer de référence majoré (+10 %). Le passage cité est donc mal rapporté.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "meuble_tourisme",
+    "raison": "L'alinéa étend explicitement l'encadrement des loyers aux meublés touristiques, partout sur le territoire, ce qui vise directement ceux qui les louent.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "etudiant",
+    "raison": "L'alinéa vise les résidences étudiantes privées, dont le loyer serait encadré. Un étudiant qui y loue une chambre est directement visé, et la phrase reste fidèle au texte.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "grande_ville"
+  ]
+ },
+ "cout_usd": 0.0059347,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

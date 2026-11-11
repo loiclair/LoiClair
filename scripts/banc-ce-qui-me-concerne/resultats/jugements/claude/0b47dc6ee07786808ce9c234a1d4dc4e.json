@@ -1,0 +1,34 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "outre_mer",
+    "raison": "L’article vise expressément les assurés résidant à Mayotte, territoire d’outre-mer.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "allocataire",
+    "raison": "Les aides personnelles au logement sont expressément visées ; l’article permet leur attribution ou leur maintien dans la situation prévue.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "handicap",
+    "raison": "La prolongation porte notamment sur la carte mobilité inclusion, la PCH, l’AEEH et d’autres droits liés au handicap.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "age_dependant",
+    "raison": "L’allocation personnalisée d’autonomie, destinée aux personnes âgées en perte d’autonomie, figure explicitement parmi les droits prolongés.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0014534,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

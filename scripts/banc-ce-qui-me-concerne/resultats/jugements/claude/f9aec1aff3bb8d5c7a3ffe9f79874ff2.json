@@ -1,0 +1,73 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "salarie_particulier",
+    "raison": "Le texte vise directement l'agrément d'assistant maternel (L. 421-3-1), et les nounous salariées de particuliers sont soumises à l'obligation de détenir le certificat (chapeau du L. 133-6-1 et L. 1221-8).",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "particulier_employeur",
+    "raison": "L. 1221-8 oblige explicitement l'employeur particulier à vérifier le certificat de ses salariés, mais seulement lorsqu'ils exercent une activité auprès de mineurs. La phrase supprime cette condition et parle de nounous et d'aides à domicile en général, alors qu'une aide à domicile auprès de personnes âgées n'est pas visée.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "chef_entreprise",
+    "raison": "L'obligation de vérification pèse sur tout employeur (L. 1221-8), donc sur les dirigeants de TPE, PME et artisans. La phrase omet la condition qu'un salarié exerce une activité auprès de mineurs.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "dirigeant_grande_entreprise",
+    "raison": "Même obligation d'employeur (L. 1221-8) pour un dirigeant d'entreprise de 250 salariés ou plus. La phrase omet la même condition d'activité auprès de mineurs.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "salarie_prive",
+    "raison": "Le chapeau du L. 133-6-1 interdit à tout salarié d'exercer auprès de mineurs sans certificat, et L. 1221-8 nomme les salariés. La phrase reprend bien la condition d'activité auprès de mineurs.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "benevole",
+    "raison": "Le IV du L. 911-5 du code de l'éducation vise toute personne intervenant bénévolement ou ponctuellement auprès des élèves, quel que soit le lieu. Le code du sport (L. 212-9) et le III du L. 4113-13-1 visent aussi les bénévoles.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "secteur_sante",
+    "raison": "Le L. 4113-13-1 impose le certificat à l'ensemble des professionnels de santé et à toute personne intervenant dans les établissements et structures de santé auprès de mineurs, ce qui change la façon d'exercer le métier.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "independant",
+    "raison": "Le L. 4113-13-1 vise expressément l'exercice à titre libéral de l'activité de soins auprès de mineurs, donc les professionnels de santé libéraux.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "etudiant",
+    "raison": "Le III du L. 4113-13-1 vise expressément les étudiants intervenant auprès de mineurs dans les structures de santé.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "apprenti_alternant",
+    "raison": "Le III du L. 4113-13-1 vise expressément les stagiaires intervenant auprès de mineurs dans les structures de santé, et les stagiaires relèvent de ce profil.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "secteur_education"
+  ]
+ },
+ "cout_usd": 0.0029814850000000003,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

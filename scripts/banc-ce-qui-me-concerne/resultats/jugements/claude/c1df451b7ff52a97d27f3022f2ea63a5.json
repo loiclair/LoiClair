@@ -1,0 +1,29 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "mineur",
+    "raison": "Le texte soumet l'embauche des moins de treize ans dans le cinéma à l'avis conforme d'un médecin, d'un psychologue et d'un comité, et impose l'examen de leur rôle, de leur santé et de leurs conditions de tournage. Ce sont les mineurs eux-mêmes qui sont visés.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "parent",
+    "raison": "Le texte subordonne l'emploi de tout mineur de moins de treize ans à la présence d'un de ses représentants légaux lors de l'embauche et pendant le contrat. Le parent, en tant que représentant légal, est directement visé par cette obligation.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "secteur_culture",
+    "raison": "Le texte impose aux entreprises de production cinématographique et audiovisuelle des conditions d'embauche et de tournage pour les enfants de moins de treize ans, ce qui change la façon d'exercer ce métier.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0014124349999999999,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

@@ -1,0 +1,20 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "imposable",
+    "raison": "Le crédit d'impôt s'impute sur l'impôt sur le revenu du cessionnaire, mais la mesure vise les repreneurs d'entreprise, pas les foyers imposables en tant que tels. Être imposable n'est pas ce qui déclenche la mesure : c'est l'acquisition d'une entreprise.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "chef_entreprise",
+   "heritier_donateur"
+  ]
+ },
+ "cout_usd": 0.0024706999999999997,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

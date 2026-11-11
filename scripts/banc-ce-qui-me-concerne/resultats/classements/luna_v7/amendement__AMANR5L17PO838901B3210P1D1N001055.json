@@ -1,0 +1,12 @@
+{
+ "resume_fr": "Ajouterait le titre de reconnaissance de la Nation aux titres ouvrant droit à une demi-part fiscale pour les veuves de combattants.",
+ "resume_en": "Would add the Nation’s recognition title to the titles qualifying widows of combatants for an additional tax half-share.",
+ "impacts": [
+  {
+   "profil": "veuf",
+   "passage": "ou du titre de reconnaissance de la Nation",
+   "certitude": "probable"
+  }
+ ],
+ "cout_usd": 0.000339225
+}

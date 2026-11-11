@@ -1,0 +1,14 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etranger_hors_ue",
+    "concerne": false,
+    "phrase_fidele": false,
+    "raison": "L'article 1018 A du code général des impôts concerne le droit fixe de procédure dû par les personnes condamnées par une juridiction pénale, et non les taxes sur les titres de séjour ou les étrangers."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.005706
+}

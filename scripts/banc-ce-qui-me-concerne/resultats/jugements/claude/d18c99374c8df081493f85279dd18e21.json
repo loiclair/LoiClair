@@ -1,0 +1,24 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "mineur",
+    "raison": "Le dispositif fixe le rejet implicite de l’autorisation concernant l’emploi de travailleurs de moins de 18 ans dans des travaux réglementés, ce qui peut directement affecter leur possibilité d’y travailler.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "chef_entreprise",
+    "raison": "La règle porte sur l’autorisation nécessaire à une entreprise qui emploie des mineurs dans des travaux réglementés ; elle affecte donc les employeurs concernés.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "dirigeant_grande_entreprise"
+  ]
+ },
+ "cout_usd": 0.0007459,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "fumeur",
+    "raison": "Les conditionnements des produits avec nicotine seront encadrés, notamment leurs dimensions, couleurs et avertissements sanitaires ; cela touche directement les personnes qui fument ou utilisent une cigarette électronique.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000459275,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

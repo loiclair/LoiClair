@@ -1,0 +1,26 @@
+{
+ "impacts": [
+  {
+   "profil": "montagne",
+   "passage": "Par dérogation aux dispositions relatives aux unités touristiques nouvelles locales, le représentant de l’État dans le département peut, par décision motivée,",
+   "certitude": "probable",
+   "phrase_en": "Tourist accommodation created or extended in mountain areas would be exempt from the local tourist-unit procedure, by reasoned decision of the prefect.",
+   "phrase_fr": "Les hébergements touristiques créés ou agrandis en zone de montagne pourraient être dispensés de la procédure d'unité touristique nouvelle locale, sur décision motivée du préfet."
+  },
+  {
+   "profil": "secteur_hotellerie",
+   "passage": "une opération de création ou d’extension d’un hébergement touristique lorsque sont réunies les conditions suivantes",
+   "certitude": "probable",
+   "phrase_en": "Tourist accommodation projects would be exempt from the usual local tourist-unit procedure.",
+   "phrase_fr": "Les projets de création ou d'agrandissement d'hébergement touristique pourraient être dispensés de la procédure habituelle des unités touristiques nouvelles locales."
+  },
+  {
+   "profil": "meuble_tourisme",
+   "passage": "une opération de création ou d’extension d’un hébergement touristique lorsque sont réunies les conditions suivantes",
+   "certitude": "possible",
+   "phrase_en": "People wanting to create or extend a furnished tourist rental could be exempt from the local tourist-unit procedure.",
+   "phrase_fr": "Les personnes qui veulent créer ou agrandir un hébergement touristique meublé pourraient être dispensées de la procédure d'unité touristique nouvelle locale."
+  }
+ ],
+ "resume_fr": null
+}

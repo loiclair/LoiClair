@@ -1,0 +1,164 @@
+<title>Calibrage du juge LoiClair</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=Instrument+Sans:wght@400;500;600&display=swap">
+<style>
+/* Une colonne de lecture : le texte de loi en serif, la décision en sans, une barre d'avancement collante. */
+:root {
+  --bg: #f6f7f6; --surface: #ffffff; --fg: #1b2422; --muted: #5d6b67; --line: #dfe4e2;
+  --accent: #0f6e66; --accent-soft: #e2f0ee; --non: #9a3b2c; --non-soft: #f6e6e2; --mark: #fff1b8;
+  --serif: "Source Serif 4", Georgia, "Times New Roman", serif;
+  --sans: "Instrument Sans", -apple-system, "Segoe UI", system-ui, sans-serif;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #121716; --surface: #1a2120; --fg: #e4ebe9; --muted: #9aa9a5; --line: #2c3634;
+  --accent: #5cc2b6; --accent-soft: #19332f; --non: #e48a78; --non-soft: #3a211c; --mark: #4a4220; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #121716; --surface: #1a2120; --fg: #e4ebe9; --muted: #9aa9a5; --line: #2c3634;
+  --accent: #5cc2b6; --accent-soft: #19332f; --non: #e48a78; --non-soft: #3a211c; --mark: #4a4220; color-scheme: dark }
+body { background: var(--bg); color: var(--fg); font-family: var(--sans); font-size: 15px; line-height: 1.5; }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--surface); }
+.wrap { max-width: 46rem; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 0 4rem; }
+header.intro { padding-block: 2rem 1rem; display: grid; gap: .5rem; }
+h1 { font-family: var(--serif); font-weight: 600; font-size: 1.75rem; line-height: 1.2; margin: 0; text-wrap: balance; }
+.intro p { margin: 0; color: var(--muted); max-width: 62ch; }
+.barre { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--surface); border-bottom: 1px solid var(--line);
+  padding-block: .6rem; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+.barre .in { max-width: 46rem; margin: 0 auto; display: flex; align-items: center; gap: .75rem; font-variant-numeric: tabular-nums; font-size: .875rem; }
+.jauge { flex: 1; height: 4px; background: var(--line); border-radius: 2px; overflow: hidden; position: relative; }
+.jauge i { position: absolute; inset: 0 auto 0 0; background: var(--accent); width: 0; transition: width .2s; }
+.jauge b { position: absolute; top: -3px; bottom: -3px; width: 1px; background: var(--muted); }
+.etat { color: var(--muted); font-size: .8125rem; }
+.etat.alerte { color: var(--non); }
+section.el { padding-block: 2rem; border-top: 1px solid var(--line); display: grid; gap: 1rem; }
+.meta { font-size: .75rem; letter-spacing: .04em; text-transform: uppercase; color: var(--muted); }
+h2 { font-family: var(--serif); font-weight: 600; font-size: 1.2rem; line-height: 1.3; margin: 0; text-wrap: balance; }
+.texte { font-family: var(--serif); font-size: .95rem; white-space: pre-wrap; background: var(--surface); border: 1px solid var(--line);
+  border-radius: 6px; padding: .9rem 1rem; max-height: 18rem; overflow: auto; min-width: 0; overflow-wrap: anywhere; }
+.texte mark { background: var(--mark); color: inherit; border-radius: 2px; }
+.cas { display: grid; gap: .6rem; padding: 1rem 0 0; }
+.cas + .cas { border-top: 1px dashed var(--line); }
+.profil { display: flex; flex-wrap: wrap; align-items: baseline; gap: .25rem .6rem; }
+.profil strong { font-size: 1.05rem; }
+.cert { font-size: .75rem; color: var(--muted); }
+.def { color: var(--muted); font-size: .875rem; margin: 0; }
+.phrase { margin: 0; }
+.phrase::before { content: "L'IA : "; color: var(--muted); }
+blockquote { margin: 0; padding-left: .75rem; border-left: 2px solid var(--line); font-family: var(--serif); font-size: .9rem; color: var(--muted); overflow-wrap: anywhere; }
+details.avis summary { cursor: pointer; color: var(--muted); font-size: .875rem; }
+details.avis ul { margin: .5rem 0 0; padding: 0; list-style: none; display: grid; gap: .5rem; font-size: .875rem; }
+details.avis li span { font-weight: 600; }
+.choix { display: flex; gap: .5rem; flex-wrap: wrap; }
+.choix button { flex: 1 1 9rem; font: inherit; font-weight: 500; padding: .6rem .8rem; border-radius: 6px; border: 1px solid var(--line);
+  background: var(--surface); color: var(--fg); cursor: pointer; }
+.choix button:focus-visible, input:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.choix button[data-v="oui"][aria-pressed="true"] { background: var(--accent-soft); border-color: var(--accent); color: var(--accent); }
+.choix button[data-v="non"][aria-pressed="true"] { background: var(--non-soft); border-color: var(--non); color: var(--non); }
+input.note { font: inherit; font-size: .875rem; width: 100%; box-sizing: border-box; padding: .45rem .6rem; border: 1px solid var(--line);
+  border-radius: 6px; background: var(--surface); color: var(--fg); }
+.bonus { padding-block: 1.25rem; color: var(--muted); font-size: .875rem; text-align: center; border-top: 1px solid var(--line); }
+@media (prefers-reduced-motion: reduce) { .jauge i { transition: none; } }
+</style>
+
+<div class="barre"><div class="in">
+  <span id="compte">0 / 0</span>
+  <span class="jauge" aria-hidden="true"><i id="rempli"></i><b id="repere"></b></span>
+  <span class="etat" id="etat">Connexion…</span>
+</div></div>
+
+<div class="wrap">
+  <header class="intro">
+    <h1>Calibrage du juge</h1>
+    <p>Une IA a rattaché ces textes de loi à des profils de lecteur, et trois IA juges ne sont pas d'accord entre elles. Pour chaque rattachement : la personne décrite est-elle <em>directement</em> concernée par ce que le texte change ?</p>
+    <p>Les 25 premiers cas suffisent (repère sur la barre). Les avis des juges sont repliés pour ne pas t'influencer. Une note est facultative, elle m'aide à écrire les règles.</p>
+  </header>
+  <main id="liste"></main>
+</div>
+
+<script type="application/json" id="donnees">/*DONNEES*/</script>
+<script>
+const DONNEES = JSON.parse(document.getElementById("donnees").textContent);
+const TOTAL = DONNEES.reduce((n, e) => n + e.cas.length, 0);
+const SEUIL = 25;
+const verdicts = {};
+let db = null;
+
+function echapper(s) { const d = document.createElement("div"); d.textContent = s; return d.innerHTML; }
+function surligner(texte, passages) {
+  let h = echapper(texte);
+  for (const p of passages) { const e = echapper(p); if (e.length > 8 && h.includes(e)) h = h.split(e).join("<mark>" + e + "</mark>"); }
+  return h;
+}
+
+function rendre() {
+  const liste = document.getElementById("liste");
+  let vus = 0, bonusPose = false;
+  for (const el of DONNEES) {
+    if (!bonusPose && vus >= SEUIL) {
+      const b = document.createElement("p"); b.className = "bonus"; b.textContent = "Au-delà, c'est en bonus.";
+      liste.appendChild(b); bonusPose = true;
+    }
+    const s = document.createElement("section"); s.className = "el";
+    s.innerHTML = `<div class="meta">${echapper(el.element)} · ${echapper(el.etape)}</div><h2>${echapper(el.dossier)}</h2>`
+      + `<div class="texte">${surligner(el.texte, el.cas.map(c => c.passage))}</div>`;
+    for (const c of el.cas) {
+      const oui = c.avis.filter(a => a.oui).length;
+      const d = document.createElement("div"); d.className = "cas"; d.id = c.id;
+      d.innerHTML = `<div class="profil"><strong>${echapper(c.libelle)}</strong><span class="cert">proposé « ${echapper(c.certitude)} »</span></div>`
+        + `<p class="def">${echapper(c.definition)}</p>`
+        + `<p class="phrase">${echapper(c.phrase)}</p>`
+        + (c.passage ? `<blockquote>${echapper(c.passage)}</blockquote>` : "")
+        + `<details class="avis"><summary>Avis des trois IA juges (${oui} oui, ${c.avis.length - oui} non)</summary><ul>`
+        + c.avis.map((a, i) => `<li><span>Juge ${i + 1} : ${a.oui ? "concerné" : "pas concerné"}.</span> ${echapper(a.raison)}</li>`).join("")
+        + `</ul></details>`
+        + `<div class="choix"><button type="button" data-v="oui" aria-pressed="false">Concerné</button>`
+        + `<button type="button" data-v="non" aria-pressed="false">Pas concerné</button></div>`
+        + `<input class="note" id="note-${c.id}" type="text" placeholder="Pourquoi (facultatif)" aria-label="Note sur ce cas">`;
+      d.querySelectorAll("button").forEach(btn => btn.addEventListener("click", () => choisir(c.id, btn.dataset.v)));
+      d.querySelector("input").addEventListener("change", ev => noter(c.id, ev.target.value));
+      s.appendChild(d); vus++;
+    }
+    liste.appendChild(s);
+  }
+  document.getElementById("repere").style.left = (SEUIL / TOTAL * 100) + "%";
+  afficher();
+}
+
+function afficher() {
+  let n = 0;
+  for (const el of DONNEES) for (const c of el.cas) {
+    const v = verdicts[c.id] || {};
+    if (v.verdict) n++;
+    const d = document.getElementById(c.id);
+    d.querySelectorAll("button").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.v === v.verdict)));
+    const inp = d.querySelector("input");
+    if (document.activeElement !== inp) inp.value = v.note || "";
+  }
+  document.getElementById("compte").textContent = `${n} / ${TOTAL}`;
+  document.getElementById("rempli").style.width = (n / TOTAL * 100) + "%";
+}
+
+function etat(msg, alerte) { const e = document.getElementById("etat"); e.textContent = msg; e.classList.toggle("alerte", !!alerte); }
+
+async function sauver(id) {
+  const v = { verdict: verdicts[id].verdict || null, note: verdicts[id].note || "", t: Date.now() };
+  try { localStorage.setItem("calibrage", JSON.stringify(verdicts)); } catch (_) {}
+  if (!db) { etat("Gardé dans ce navigateur seulement", true); return; }
+  try { await db.collection("verdicts").doc(id).set(v); etat("Enregistré"); }
+  catch (e) { etat("Échec de l'enregistrement : " + (e.code || "inconnu"), true); }
+}
+function choisir(id, v) { verdicts[id] = { ...(verdicts[id] || {}), verdict: v }; afficher(); sauver(id); }
+function noter(id, note) { verdicts[id] = { ...(verdicts[id] || {}), note }; sauver(id); }
+
+try { Object.assign(verdicts, JSON.parse(localStorage.getItem("calibrage") || "{}")); } catch (_) {}
+rendre();
+(async () => {
+  db = window.claude ? await window.claude.use("db") : null;
+  if (!db) { etat("Enregistrement indisponible ici : réponses gardées dans ce navigateur", true); return; }
+  etat("Prêt");
+  db.collection("verdicts").onSnapshot(snap => {
+    for (const d of snap.docs) verdicts[d.id] = { ...(verdicts[d.id] || {}), ...d.data() };
+    afficher();
+  }, e => etat("Lecture impossible : " + (e.code || "inconnu"), true));
+})();
+</script>

@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "chef_entreprise",
+    "raison": "Le crédit d'impôt vise le cessionnaire qui reprend une entreprise et doit en maintenir l'activité cinq ans, ce qui le place à la tête de cette entreprise, généralement une TPE ou PME. Le texte ne limite pas la taille de l'entreprise cédée, mais le profil reste directement visé.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "heritier_donateur",
+    "raison": "Le profil couvre celui qui reçoit un patrimoine par donation. Pour une cession à titre gratuit, le cessionnaire qui reçoit l'entreprise est visé et paie des droits de mutation à titre gratuit que le crédit réduit. Le cédant n'est pas bénéficiaire. Le cas onéreux est exclu du profil, mais le cas gratuit suffit à le rendre concerné.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.001045485,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

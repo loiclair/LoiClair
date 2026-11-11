@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "heritier_donateur",
+    "raison": "L'article 755 du CGI, qui soumet les avoirs d'un défunt aux droits de succession, est étendu aux actifs numériques d'un portefeuille. Les héritiers de détenteurs de cryptoactifs sont donc directement visés par les droits de mutation par décès.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "epargnant",
+    "raison": "La majoration pour actifs numériques non déclarés dans un portefeuille vise les personnes qui détiennent des cryptoactifs, catégorie explicitement incluse dans la définition d'épargnant. Le texte ne dit pas que la majoration vaut pour tous les détenteurs, seulement pour ceux qui n'ont pas déclaré.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000730885,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

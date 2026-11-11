@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "epargnant",
+    "raison": "Le texte ne change rien de concret : il actualise une référence au règlement MiCA (« soumis au » devient « au sens du 5) du 1 de l'article 3 »). Les actifs visés aux 3 et 4 de l'article 2 étaient déjà hors du champ du MiCA, donc hors de la règle. Il s'agit d'une coordination de références, sans effet pour l'épargnant (règle 6).",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0010327350000000001,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

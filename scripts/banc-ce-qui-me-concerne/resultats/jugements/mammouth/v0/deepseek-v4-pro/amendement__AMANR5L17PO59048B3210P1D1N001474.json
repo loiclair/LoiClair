@@ -1,0 +1,28 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_agriculture",
+    "concerne": true,
+    "phrase_fidele": false,
+    "raison": "Le profil est bien concerné : l'amendement vise explicitement les jeunes agriculteurs exerçant une activité agricole. Le passage cité justifie ce choix. En revanche, la phrase n'est pas fidèle au texte. L'amendement ne « permettrait » pas de voir « leurs plus-values calculées sur la moyenne de leurs chiffres d'affaires ». Il neutralise, pour le calcul du seuil d'exonération des plus-values, les plus-values réalisées *avant* l'installation, en se basant sur la moyenne des recettes des deux derniers exercices pour l'application de l'article 151 septies. La phrase proposée par l'assistant est trop vague et déforme le mécanisme prévu."
+   },
+   {
+    "profil": "imposable",
+    "concerne": false,
+    "phrase_fidele": false,
+    "raison": "Le profil n'est pas concerné. Le fait d'être imposable est une condition préalable (sans plus-value, pas d'imposition, donc pas besoin de dérogation), mais l'amendement ne vise pas tous les foyers imposables. Il ne change rien pour un foyer imposable qui n'est pas un jeune agriculteur en société. La mesure ne s'applique qu'à une sous-catégorie très spécifique de contribuables définie par leur profession et leur âge, pas par leur statut général d'imposable. La phrase est par ailleurs identique à la précédente et donc également infidèle quant au mécanisme décrit."
+   },
+   {
+    "profil": "jeune",
+    "concerne": true,
+    "phrase_fidele": false,
+    "raison": "Profil omis par l'assistant. Le dispositif mentionne explicitement les « jeunes agriculteurs » bénéficiaires des aides à l'installation, visant ainsi ce profil d'âge (jeune de 18 à 25 ans), car ces aides sont conditionnées à un âge limite (généralement moins de 40 ans, ce qui inclut largement la tranche 18-25 ans et au-delà. Dans ce catalogue, « jeune » cible les 18-25 ans ; l'amendement les concerne possiblement, selon leur date d'installation, mais le point déterminant est que le texte fixe lui-même une condition d'âge en parlant de « jeunes agriculteurs »)."
+   }
+  ],
+  "oublis": [
+   "jeune"
+  ]
+ },
+ "cout_usd": 0.0033068
+}

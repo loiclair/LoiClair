@@ -1,0 +1,26 @@
+{
+ "impacts": [
+  {
+   "profil": "auto_entrepreneur",
+   "passage": "II.-Lorsque le plafond de chiffre d'affaires prévu pour les opérations de l'année en cours est dépassé, la franchise mentionnée au I cesse de s'appliquer aux opérations intervenant à compter de la date du dépassement.",
+   "certitude": "certain",
+   "phrase_en": "VAT exemption thresholds are set at 25,000 € (previous year) and 27,500 € (current year). If exceeded, the exemption stops from the date of exceeding.",
+   "phrase_fr": "Les seuils de chiffre d'affaires de la franchise de TVA sont fixés à 25 000 € (année précédente) et 27 500 € (année en cours). Au dépassement, la franchise cesse dès cette date."
+  },
+  {
+   "profil": "secteur_btp",
+   "passage": "III bis.-Par dérogation au I du présent article, le taux prévu à l'article 278 s'applique aux prestations de rénovation énergétique comprenant la fourniture ou l'installation d'une chaudière susceptible d'utiliser des combustibles fossiles.",
+   "certitude": "certain",
+   "phrase_en": "Energy renovation work including a boiler that may run on fossil fuels is subject to the standard VAT rate.",
+   "phrase_fr": "Les prestations de rénovation énergétique incluant une chaudière pouvant utiliser des combustibles fossiles sont soumises au taux normal de TVA."
+  },
+  {
+   "profil": "proprietaire_occupant",
+   "passage": "III bis.-Par dérogation au I du présent article, le taux prévu à l'article 278 s'applique aux prestations de rénovation énergétique comprenant la fourniture ou l'installation d'une chaudière susceptible d'utiliser des combustibles fossiles.",
+   "certitude": "probable",
+   "phrase_en": "Energy renovation work including a boiler that may run on fossil fuels is billed at the standard VAT rate.",
+   "phrase_fr": "Les travaux de rénovation énergétique incluant une chaudière pouvant utiliser des combustibles fossiles sont facturés au taux normal de TVA."
+  }
+ ],
+ "resume_fr": null
+}

@@ -1,0 +1,32 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "veuf",
+    "raison": "Le texte vise les veuves de combattants (demi-part de l'article 195 du CGI pour les veuves dont le mari avait la carte d'ancien combattant ou, désormais, le titre de reconnaissance de la Nation) : la situation de veuvage est ce qui déclenche la mesure.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "ancien_combattant",
+    "raison": "Le profil inclut les membres de la famille des anciens combattants ; les veuves de combattants titulaires du titre de reconnaissance de la Nation sont directement visées par l'extension de la demi-part.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "imposable",
+    "raison": "La demi-part fiscale modifie le calcul de l'impôt sur le revenu des veuves concernées, donc des foyers imposables ; la mesure change directement leur impôt.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "senior",
+   "retraite"
+  ]
+ },
+ "cout_usd": 0.0039307,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

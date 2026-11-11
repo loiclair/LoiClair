@@ -1,0 +1,33 @@
+{
+ "impacts": [
+  {
+   "profil": "outre_mer",
+   "phrase_fr": "Les fonctionnaires résidant en Nouvelle-Calédonie, à Wallis-et-Futuna ou en Polynésie française pourraient voir leur pension calculée avec un coefficient de majoration propre à leur territoire.",
+   "phrase_en": "Civil servants living in New Caledonia, Wallis-and-Futuna or French Polynesia would see their pension calculated with a territory-specific increase coefficient.",
+   "passage": "« IV. – Le III du présent article est applicable aux personnels qui, à la date d’effet de leur pension, justifient d’une résidence effective en Nouvelle‑Calédonie, à Wallis‑et‑Futuna ou en Polynésie française et qui remplissent les conditions suivantes :",
+   "certitude": "certain"
+  },
+  {
+   "profil": "fonctionnaire",
+   "phrase_fr": "Les fonctionnaires de l’État pourraient voir leur pension calculée avec un coefficient de majoration selon le territoire où ils ont résidé et servi.",
+   "phrase_en": "State civil servants could have their pension calculated with a territory-specific increase coefficient if they served and lived in those territories.",
+   "passage": "Aux fins de liquidation de la pension des personnels relevant du présent code et visés à l’article premier du décret n° 67‑600 du 23 juillet 1967, le montant de celle‑ci est calculé",
+   "certitude": "certain"
+  },
+  {
+   "profil": "forces_ordre",
+   "phrase_fr": "Les militaires pourraient bénéficier du même calcul de pension majoré, sous conditions de résidence et de durée de services dans ces territoires.",
+   "phrase_en": "Military personnel could receive the same increased pension calculation, subject to residence and service conditions in those territories.",
+   "passage": "effectivement détenus depuis six mois au moins par le fonctionnaire, magistrat ou militaire au moment de la cessation des services valables pour la retraite",
+   "certitude": "certain"
+  },
+  {
+   "profil": "retraite",
+   "phrase_fr": "Les retraités dont la pension n’a pas été minorée pourraient remplir une condition d’accès au calcul majoré dans ces territoires.",
+   "phrase_en": "Retirees whose pension was not reduced by the minoration coefficient could meet an eligibility condition for the increased calculation in those territories.",
+   "passage": "« b) Ou bénéficier d’une pension dont le montant n’a pas fait l’objet de l’application du coefficient de minoration prévu à l’article L. 14 du même code.",
+   "certitude": "probable"
+  }
+ ],
+ "cout_usd": 0.00164405
+}

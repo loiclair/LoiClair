@@ -1,0 +1,28 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etranger_hors_ue",
+    "raison": "Concerné : l’article impose en principe aux étrangers hors UE deux ans de séjour régulier pour certaines prestations, avec plusieurs exceptions. La phrase généralise à tort cette condition à toutes les prestations familiales et à tous les étrangers concernés, sans mentionner les exceptions.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "age_dependant",
+    "raison": "Non concerné au sens du catalogue : la condition pour l’APA est déclenchée par la nationalité étrangère hors UE, et non par la perte d’autonomie ou l’âge. La phrase omet aussi les exceptions prévues, notamment pour les réfugiés et les titulaires d’une carte de résident.",
+    "concerne": false,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "parent",
+    "raison": "Non concerné au sens du catalogue : la condition vise les étrangers hors UE, pas les parents en tant que tels. De plus, la phrase omet les exceptions prévues, notamment pour les titulaires d’un titre de séjour autorisant à travailler.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0011269,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

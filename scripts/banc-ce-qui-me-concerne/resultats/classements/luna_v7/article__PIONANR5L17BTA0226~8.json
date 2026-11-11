@@ -1,0 +1,19 @@
+{
+ "impacts": [
+  {
+   "profil": "mineur",
+   "phrase_fr": "Les mineurs confiés à un membre de leur famille ou à un tiers digne de confiance pourraient bénéficier personnellement de la complémentaire santé solidaire.",
+   "phrase_en": "Minors entrusted to a family member or a trusted third party would be able to receive complementary health coverage in their own right.",
+   "passage": "Les personnes mineures relevant des 2° et 3° de l’article 375‑3 du code civil peuvent bénéficier à titre personnel de la protection complémentaire dans les conditions définies à l’article L. 861‑3 du présent code.",
+   "certitude": "certain"
+  },
+  {
+   "profil": "allocataire",
+   "phrase_fr": "Les mineurs confiés à un membre de leur famille ou à un tiers digne de confiance pourraient bénéficier personnellement de la complémentaire santé solidaire.",
+   "phrase_en": "Minors entrusted to a family member or a trusted third party would be able to receive complementary health coverage in their own right.",
+   "passage": "Les personnes mineures relevant des 2° et 3° de l’article 375‑3 du code civil peuvent bénéficier à titre personnel de la protection complémentaire dans les conditions définies à l’article L. 861‑3 du présent code.",
+   "certitude": "probable"
+  }
+ ],
+ "cout_usd": 0.000309225
+}

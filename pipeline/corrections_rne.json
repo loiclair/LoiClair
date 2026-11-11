@@ -1,0 +1,276 @@
+{
+  "derniere_verification": "2026-10-29",
+  "corrections": [
+    {
+      "uid": "PA842121", "type": "departemental", "collectivite": "Thiais",
+      "effet": "fonction_quittee", "date": "2026-07-06",
+      "source_url": "https://citoyens.com/2026/val-de-marne-mary-france-parrain-et-charles-aslangul-elus-vice-presidents,06-07-2026.html",
+      "source_nom": "Citoyens.com"
+    },
+    {
+      "uid": "PA796010", "type": "regional", "collectivite": "La Réunion",
+      "effet": "mandat_quitte", "date": null,
+      "source_url": "https://freedom.fr/le-depute-frederic-maillot-demissionne-de-son-mandat-de-conseiller-regional-jean-jacques-morel-salue-ce-choix-de-conviction/",
+      "source_nom": "Freedom"
+    },
+    {
+      "uid": "PA794182", "type": "departemental", "collectivite": "Montbrison",
+      "effet": "fonction_quittee", "date": null,
+      "source_url": "https://www.loire.fr/jcms/lw_1304880/fr/president-et-conseillers-departementaux-elus",
+      "source_nom": "Département de la Loire"
+    },
+    {
+      "uid": "PA642734", "type": "municipal", "collectivite": "La Loupe",
+      "effet": "fonction_quittee", "date": null,
+      "source_url": "https://www.ville-la-loupe.com/municipalite/conseil-municipal-1-1036.htm",
+      "source_nom": "Ville de La Loupe"
+    },
+    {
+      "uid": "PA642734", "type": "communautaire", "collectivite": "Cc Terres De Perche",
+      "effet": "fonction_quittee", "date": "2026-09-24",
+      "source_url": "https://www.banatic.interieur.gouv.fr/intercommunalite/200070167-cc-terres-de-perche",
+      "source_nom": "Ministère de l'Intérieur (Banatic)"
+    },
+    {
+      "uid": "PA642734", "type": "departemental", "collectivite": "Nogent-Le-Rotrou",
+      "effet": "mandat_quitte", "date": null,
+      "source_url": "https://eurelien.fr/mon-departement/les-elus/",
+      "source_nom": "Département d'Eure-et-Loir"
+    },
+    {
+      "uid": "PA2256", "type": "regional", "collectivite": "Provence-Alpes-Cote D'Azur",
+      "effet": "fonction_quittee", "date": "2026-10-12",
+      "source_url": "https://www.maregionsud.fr/actualites/detail/francois-de-canson-elu-president",
+      "source_nom": "Région Sud"
+    },
+    {
+      "uid": "PA267317", "type": "departemental", "collectivite": "Saint-Calais",
+      "effet": "fonction_quittee", "date": "2026-10-13",
+      "source_url": "https://www.sarthe.fr/actualites/frederic-beauchef-nouveau-president-du-conseil-departemental",
+      "source_nom": "Département de la Sarthe"
+    },
+    {
+      "uid": "PA791812", "type": "regional", "collectivite": "Île-De-France",
+      "effet": "mandat_quitte", "date": null,
+      "source_url": "https://www.iledefrance.fr/annuaire-des-elus",
+      "source_nom": "Région Île-de-France"
+    },
+    {
+      "uid": "PA720390", "type": "regional", "collectivite": "Grand Est",
+      "effet": "mandat_quitte", "date": null,
+      "source_url": "https://www.grandest.fr/fonctionnement-de-la-region/elus-regionaux/",
+      "source_nom": "Région Grand Est"
+    },
+    {
+      "uid": "PA841993", "type": "communautaire", "collectivite": "Cc Du Pays De Chantonnay",
+      "effet": "fonction_quittee", "date": null,
+      "source_url": "https://www.paysdechantonnay.fr/app/uploads/2026/07/202607_TROMBINOSCOPE-ELUS.pdf",
+      "source_nom": "CC du Pays de Chantonnay"
+    },
+    {
+      "uid": "PA404656", "type": "arrondissement", "collectivite": "Paris",
+      "effet": "fonction_jamais_exercee", "date": null,
+      "source_url": "https://cdn.paris.fr/paris/2026/05/13/06042026-pv-integral-X4vQ.pdf",
+      "source_nom": "Ville de Paris"
+    },
+    {
+      "uid": "PA885815", "type": "communautaire", "collectivite": "Cc Des Quatre Rivieres",
+      "effet": "fonction_quittee", "date": "2026-10-12",
+      "source_url": "https://communaute.4rivieres.fr/c/medias/vd9t7XebVf5YE1NjEgm8uS02/liste%20delib%C3%A9ration%2012%20octobre%202026.pdf",
+      "source_nom": "CC des Quatre Rivières"
+    },
+    {
+      "uid": "PA643110", "type": "departemental", "collectivite": "Apt",
+      "effet": "fonction_quittee", "date": "2026-10-19",
+      "source_url": "https://www.ici.fr/provence-alpes-cote-d-azur/vaucluse-84/avignon/dominique-santoni-preside-une-derniere-fois-la-seance-du-conseil-departemental-de-vaucluse-3006275",
+      "source_nom": "ici"
+    },
+    {
+      "uid": "PA1373", "type": "municipal", "collectivite": "Pirae",
+      "effet": "fonction_quittee", "date": "2026-10-19",
+      "source_url": "https://www.tntvnews.pf/polynesie/politique/yvonnick-raffin-est-le-nouveau-maire-de-pirae/",
+      "source_nom": "TNTV"
+    },
+    {
+      "uid": "PA606030", "type": "municipal", "collectivite": "Bourg-De-Péage",
+      "effet": "fonction_quittee", "date": "2026-10-16",
+      "source_url": "https://www.ici.fr/auvergne-rhone-alpes/drome-26/bourg-de-peage/anna-place-est-la-nouvelle-maire-de-bourg-de-peage-3528800",
+      "source_nom": "ici"
+    },
+    {
+      "uid": "PA885821", "type": "departemental", "collectivite": "Vervins",
+      "effet": "fonction_quittee", "date": "2026-07-16",
+      "source_url": "https://www.aisne.com/actualites/pierre-jean-verzelen-elu-president-conseil-departemental-laisne",
+      "source_nom": "Département de l'Aisne"
+    },
+    {
+      "uid": "PA793480", "type": "departemental", "collectivite": "Midi Corrézien",
+      "effet": "fonction_quittee", "date": "2026-10-23",
+      "source_url": "https://www.correze.fr/le-departement/lassemblee-departementale/le-president/print",
+      "source_nom": "Département de la Corrèze"
+    },
+    {
+      "uid": "PA885818", "type": "municipal", "collectivite": "Bram",
+      "effet": "mandat_quitte", "date": "2026-10-10",
+      "source_url": "https://www.villedebram.fr/actualite/xavier-beaujard-est-le-nouveau-maire-de-bram/",
+      "source_nom": "Ville de Bram"
+    },
+    {
+      "uid": "PA885816", "type": "municipal", "collectivite": "Les Andelys",
+      "effet": "mandat_quitte", "date": "2026-10-08",
+      "source_url": "https://www.ville-andelys.fr/wp-content/uploads/2026-82-Election-du-maire-tampon.pdf",
+      "source_nom": "Ville des Andelys"
+    },
+    {
+      "uid": "PA885816", "type": "communautaire", "collectivite": "Ca Seine Normandie Agglomeration",
+      "effet": "fonction_quittee", "date": "2026-10-08",
+      "source_url": "https://www.sna27.fr/wp-content/uploads/2026/10/CC26-207-Election-President-.pdf",
+      "source_nom": "Seine Normandie Agglomération"
+    },
+    {
+      "uid": "PA885812", "type": "regional", "collectivite": "Provence-Alpes-Cote D'Azur",
+      "effet": "mandat_quitte", "date": "2026-10-23",
+      "source_url": "https://www.titrespresse.com/26713392603/vaucluse-thierry-aigremont",
+      "source_nom": "BFM TV, repris par Titres Presse"
+    },
+    {
+      "uid": "PA885833", "type": "municipal", "collectivite": "Cherveux",
+      "effet": "fonction_quittee", "date": "2026-10-23",
+      "source_url": "https://www.titrespresse.com/26477332603/frederic-bourget-marie",
+      "source_nom": "La Nouvelle République, reprise par Titres Presse"
+    },
+    {
+      "uid": "PA606030", "type": "communautaire", "collectivite": "Ca Valence Romans Agglo",
+      "effet": "fonction_quittee", "date": null,
+      "source_url": "https://www.banatic.interieur.gouv.fr/intercommunalite/200068781-ca-valence-romans-agglo",
+      "source_nom": "Ministère de l'Intérieur (Banatic)"
+    },
+    {
+      "uid": "PA885826", "type": "communautaire", "collectivite": "Cc De Benevent Grand Bourg",
+      "effet": "fonction_quittee", "date": null,
+      "source_url": "https://www.banatic.interieur.gouv.fr/intercommunalite/242320000-cc-de-benevent-grand-bourg",
+      "source_nom": "Ministère de l'Intérieur (Banatic)"
+    },
+    {
+      "uid": "PA722198", "type": "municipal", "collectivite": "Rives-En-Seine",
+      "effet": "mandat_quitte", "date": "2026-10-23",
+      "source_url": "https://www.rives-en-seine.fr/lettre-de-bastien-coriton-aux-habitants/",
+      "source_nom": "Ville de Rives-en-Seine"
+    },
+    {
+      "uid": "PA415496", "type": "communautaire", "collectivite": "Dijon Metropole",
+      "effet": "fonction_quittee", "date": "2026-10-27",
+      "source_url": "https://dijon-actualites.fr/2026/10/28/francois-rebsamen-quitte-la-presidence-de-dijon-metropole-nathalie-koenders-prepare-sa-succession/",
+      "source_nom": "Dijon Actualités"
+    },
+    {
+      "uid": "PA703524", "type": "municipal", "collectivite": "Mézidon-Vallée-D'Auge",
+      "effet": "fonction_quittee", "date": null,
+      "source_url": "https://www.titrespresse.com/26613492603/mezidon-auge-francois",
+      "source_nom": "actu.fr, repris par Titres Presse"
+    },
+    {
+      "uid": "PA885814", "type": "municipal", "collectivite": "Batzendorf",
+      "effet": "mandat_quitte", "date": null,
+      "source_url": "https://www.dna.fr/politique/2026/10/22/luc-weber-elu-maire-de-batzendorf-remplace-isabelle-dollinger",
+      "source_nom": "Dernières Nouvelles d'Alsace"
+    },
+    {
+      "uid": "PA885827", "type": "municipal", "collectivite": "Landerneau",
+      "effet": "fonction_quittee", "date": null,
+      "source_url": "https://brest.maville.com/actu/actudet_-si-on-veut-c-est-du-sept-jours-sur-sept-patrick-leclerc-ex-maire-de-landerneau-a-entame-sa-vie-de-senateur_6-7546386_actu.Htm",
+      "source_nom": "Ouest-France, repris par maville.com"
+    },
+    {
+      "uid": "PA885839", "type": "municipal", "collectivite": "Strasbourg",
+      "effet": "fonction_quittee", "date": null,
+      "source_url": "https://www.dna.fr/politique/2026/10/28/pernelle-richardot-elue-senatrice-son-poste-de-4e-adjointe-a-la-maire-supprime",
+      "source_nom": "Dernières Nouvelles d'Alsace"
+    },
+    {
+      "uid": "PA885842", "type": "municipal", "collectivite": "Portet-Sur-Garonne",
+      "effet": "fonction_quittee", "date": null,
+      "source_url": "https://www.ladepeche.fr/2026/10/27/alors-quil-est-devenu-senateur-lancien-maire-de-portet-sur-garonne-thierry-suaud-semble-vouloir-conserver-une-influence-sur-son-ancienne-commune-13622738.php",
+      "source_nom": "La Dépêche du Midi"
+    },
+    {
+      "uid": "PA885800", "type": "departemental", "collectivite": "Gex",
+      "effet": "fonction_quittee", "date": null,
+      "source_url": "https://groupe-ecomedia.com/au-conseil-departemental-de-lain-des-mouvements-et-21-me-deconomies-a-trouver/",
+      "source_nom": "Groupe Ecomedia"
+    },
+    {
+      "uid": "PA885837", "type": "municipal", "collectivite": "Abondant",
+      "effet": "fonction_quittee", "date": null,
+      "source_url": "https://www.intensite.net/pauline-loisy-elue-nouvelle-maire-d-abondant-dans-la-continuite-et-la-serenite",
+      "source_nom": "Radio Intensité"
+    }
+  ],
+  "situations": [
+    {
+      "uid": "PA885804", "recours": true,
+      "source_url": "https://www.conseil-constitutionnel.fr/decisions/affaires-en-instances?id=32226&list=instance",
+      "source_nom": "Conseil constitutionnel"
+    },
+    {
+      "uid": "PA885799", "recours": true,
+      "source_url": "https://www.conseil-constitutionnel.fr/decisions/affaires-en-instances?id=32226&list=instance",
+      "source_nom": "Conseil constitutionnel"
+    },
+    {
+      "uid": "PA885807", "recours": true,
+      "source_url": "https://www.conseil-constitutionnel.fr/decisions/affaires-en-instances?id=32226&list=instance",
+      "source_nom": "Conseil constitutionnel"
+    },
+    {
+      "uid": "PA331582", "recours": true,
+      "source_url": "https://kohenavocats.com/chateaudun-municipales-recours-rejete-philippe-vigier-compte-campagne-fabien-verdier-ineligibilite/",
+      "source_nom": "Kohen Avocats"
+    },
+    {
+      "uid": "PA330240", "recours": true,
+      "source_url": "https://nice.tribunal-administratif.fr/decisions-de-justice/dernieres-decisions/elections-municipales-de-nice-le-tribunal-declare-ineligible-m.-ippolito-mais-valide-le-resultat-du-scrutin",
+      "source_nom": "Tribunal administratif de Nice"
+    },
+    {
+      "uid": "PA840701", "recours": true,
+      "source_url": "https://nice.tribunal-administratif.fr/decisions-de-justice/dernieres-decisions/elections-municipales-de-nice-le-tribunal-declare-ineligible-m.-ippolito-mais-valide-le-resultat-du-scrutin",
+      "source_nom": "Tribunal administratif de Nice"
+    },
+    {
+      "uid": "PA842155", "recours": true,
+      "source_url": "https://kohenavocats.com/eric-ciotti-aly-diouara-deputes-maires-cumul-quitter-assemblee-recours-rejetes/",
+      "source_nom": "Kohen Avocats"
+    },
+    {
+      "uid": "PA719436", "recours": true,
+      "source_url": "https://nimes.tribunal-administratif.fr/Media/mediatheque-ta-nimes/documents/2026/jugements-electoraux/vauvert",
+      "source_nom": "Tribunal administratif de Nîmes"
+    },
+    {
+      "uid": "PA796118", "recours": true,
+      "source_url": "https://nimes.tribunal-administratif.fr/Media/mediatheque-ta-nimes/documents/2026/jugements-electoraux/cavaillon",
+      "source_nom": "Tribunal administratif de Nîmes"
+    },
+    {
+      "uid": "PA794938", "recours": true,
+      "source_url": "https://lyon.tribunal-administratif.fr/decisions-de-justice/dernieres-decisions/elections-municipales-2026-annulation-des-elections-a-vaulx-en-velin-et-a-venissieux-rejet-des-recours-pour-givors-lyon-et-rillieux-la-pape",
+      "source_nom": "Tribunal administratif de Lyon"
+    },
+    {
+      "uid": "PA841729", "recours": true,
+      "source_url": "https://lyon.tribunal-administratif.fr/decisions-de-justice/dernieres-decisions/elections-municipales-2026-annulation-des-elections-a-vaulx-en-velin-et-a-venissieux-rejet-des-recours-pour-givors-lyon-et-rillieux-la-pape",
+      "source_nom": "Tribunal administratif de Lyon"
+    },
+    {
+      "uid": "PA796042", "date_limite": "2026-12-10",
+      "source_url": "https://www.bvoltaire.fr/lelection-de-frederic-boccaletti-rn-validee-par-la-justice/",
+      "source_nom": "Boulevard Voltaire"
+    },
+    {
+      "uid": "PA859244", "date_limite": "2026-10-27",
+      "source_url": "https://www.resultats-elections.interieur.gouv.fr/Senatoriales2026/ensemble_geographique/93/06/rappel_candidature/1/1.html",
+      "source_nom": "Ministère de l'Intérieur"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "elu_local",
+    "raison": "Le texte vise directement l'adjoint au maire ou le conseiller municipal chargé de la sécurité civile, qui relève de la catégorie des élus municipaux. Il lui impose de recevoir une formation à sa prise de fonction à partir du 1er janvier 2030.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000387435,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

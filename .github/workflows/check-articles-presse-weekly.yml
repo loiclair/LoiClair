@@ -1,0 +1,78 @@
+# Re-vérification hebdomadaire des URLs d'articles de presse.
+#
+# Cette étape vivait dans `sync-data-nightly.yml`, où elle coûtait 5,5 minutes par
+# nuit pour un lot de 500 articles, soit 165 minutes par mois. Comme une URL n'est de
+# toute façon re-testée qu'au bout de sept jours, un seul passage hebdomadaire sur un
+# lot plus gros couvre le même terrain pour environ 16 minutes par semaine (mesuré :
+# 0,49 s par article, requête HEAD et écriture en base comprises).
+#
+# Le mardi, et non le lundi, pour ne pas s'ajouter aux cinq workflows hebdomadaires
+# qui y sont déjà (CodeQL, audit npm, mise à jour des dépendances, newsletter, récap
+# des signalements).
+name: Vérification hebdomadaire des URLs d'articles de presse
+
+on:
+  # Automatique : le mardi à 4h UTC. Comme tous les crons GitHub, le démarrage réel
+  # traîne d'environ quatre heures et demie.
+  schedule:
+    - cron: '0 4 * * 2'
+  # Manuel : via l'interface GitHub (clic sur "Run workflow")
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check-urls:
+    runs-on: ubuntu-latest
+
+    # Sans borne, un job hérite des 6 heures par défaut : une requête HEAD qui pend
+    # brûlerait 18 % du quota Actions du mois. Les runs attendus tournent autour de
+    # 16 minutes.
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout du code
+        uses: actions/checkout@v7
+
+      - name: Installer Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+
+      - name: Installer les dépendances
+        run: |
+          cd pipeline
+          pip install -r requirements.txt
+
+      - name: Tunnel vers la base du VPS
+        uses: ./.github/actions/tunnel-base
+        with:
+          host: ${{ secrets.VPS_HOST }}
+          key: ${{ secrets.VPS_TUNNEL_KEY }}
+          known_hosts: ${{ secrets.VPS_KNOWN_HOSTS }}
+
+      # 2 000 articles par passage, soit environ 16 minutes : le lot tient dans la
+      # borne de 30 minutes du job.
+      - name: Vérifier les URLs des articles de presse
+        env:
+          # Connexion Postgres de `_db.connexion` (D-325) : la base du VPS, au bout
+          # du tunnel (D-327). Sans TLS : le tunnel chiffre déjà.
+          PGHOST: 127.0.0.1
+          PGPORT: '5432'
+          PGSSLMODE: disable
+          PGDATABASE: ${{ secrets.VPS_PGDATABASE }}
+          PGUSER: ${{ secrets.VPS_PGUSER }}
+          PGPASSWORD: ${{ secrets.VPS_PGPASSWORD }}
+        run: |
+          cd pipeline
+          python check_articles_presse.py --limit 2000
+
+  alerte:
+    needs: check-urls
+    if: failure()
+    uses: ./.github/workflows/alerte-echec.yml
+    with:
+      quoi: "Contrôle des articles de presse"
+    secrets:
+      RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}

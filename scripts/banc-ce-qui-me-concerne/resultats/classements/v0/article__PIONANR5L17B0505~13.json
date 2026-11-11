@@ -1,0 +1,26 @@
+{
+ "impacts": [
+  {
+   "profil": "chef_entreprise",
+   "passage": "de faire accepter ses sous‑traitants au maître de l’ouvrage et au donneur d’ordre lorsque la part sous‑traitée représente plus du tiers du contrat ou de la partie de marché dont il est chargé",
+   "certitude": "probable",
+   "phrase_en": "You would have to get your subcontractors accepted by the project owner and the principal contractor when you subcontract more than a third of the contract.",
+   "phrase_fr": "Vous devriez faire accepter vos sous-traitants par le maître de l'ouvrage et le donneur d'ordre lorsque vous en confiez plus du tiers du contrat."
+  },
+  {
+   "profil": "secteur_btp",
+   "passage": "de faire accepter ses sous‑traitants au maître de l’ouvrage et au donneur d’ordre lorsque la part sous‑traitée représente plus du tiers du contrat ou de la partie de marché dont il est chargé",
+   "certitude": "probable",
+   "phrase_en": "Construction and public works companies would have to get their subcontractors accepted when they subcontract more than a third of a contract.",
+   "phrase_fr": "Les entreprises du bâtiment et des travaux publics devraient faire accepter leurs sous-traitants lorsqu'elles en confient plus du tiers d'un marché."
+  },
+  {
+   "profil": "dirigeant_grande_entreprise",
+   "passage": "de faire accepter ses sous‑traitants au maître de l’ouvrage et au donneur d’ordre lorsque la part sous‑traitée représente plus du tiers du contrat ou de la partie de marché dont il est chargé",
+   "certitude": "possible",
+   "phrase_en": "If your company with 250 or more employees subcontracts more than a third of a contract, it would have to get its subcontractors accepted by the project owner.",
+   "phrase_fr": "Si votre entreprise de 250 salariés ou plus confie plus du tiers d'un contrat à des sous-traitants, elle devrait les faire accepter au maître de l'ouvrage."
+  }
+ ],
+ "resume_fr": null
+}

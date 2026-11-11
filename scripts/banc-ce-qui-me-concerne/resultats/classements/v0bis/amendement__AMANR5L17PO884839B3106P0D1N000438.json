@@ -1,0 +1,22 @@
+{
+ "resume_fr": "Accorderait de plein droit une carte de séjour de quatre ans aux jeunes étrangers confiés à l'aide sociale à l'enfance avant 18 ans, sans exiger leur entrée régulière en France.",
+ "resume_en": "Would grant automatically a four-year residence permit to foreign young people placed in child welfare before age 18, without requiring regular entry into France.",
+ "impacts": [
+  {
+   "profil": "mineur",
+   "passage": "avant l’âge de dix-huit ans se voit délivrer de plein droit une carte de séjour temporaire portant la mention « vie privée et familiale » d’une durée de quatre ans, sans que soit opposable la condition prévue à l’article L. 412‑1.",
+   "certitude": "certain"
+  },
+  {
+   "profil": "etranger_hors_ue",
+   "passage": "avant l’âge de dix-huit ans se voit délivrer de plein droit une carte de séjour temporaire portant la mention « vie privée et familiale » d’une durée de quatre ans, sans que soit opposable la condition prévue à l’article L. 412‑1.",
+   "certitude": "probable"
+  },
+  {
+   "profil": "jeune",
+   "passage": "avant l’âge de dix-huit ans se voit délivrer de plein droit une carte de séjour temporaire portant la mention « vie privée et familiale » d’une durée de quatre ans, sans que soit opposable la condition prévue à l’article L. 412‑1.",
+   "certitude": "probable"
+  }
+ ],
+ "cout_usd": 0.00150091
+}

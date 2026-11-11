@@ -1,0 +1,42 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "outre_mer",
+    "raison": "L’article vise expressément les assurés résidant à Mayotte et leurs ayants droit.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "handicap",
+    "raison": "La prolongation porte notamment sur la carte mobilité inclusion et certaines prestations liées au handicap, dont la PCH.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "age_dependant",
+    "raison": "L’allocation personnalisée d’autonomie (APA) figure parmi les droits dont l’accord peut être prolongé.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "allocataire",
+    "raison": "L’article prévoit le maintien ou l’attribution des aides personnelles au logement à Mayotte malgré une sous-location partielle.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "parent",
+    "raison": "L’allocation d’éducation de l’enfant handicapé et ses compléments sont explicitement inclus dans les droits pouvant être prolongés.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "mineur"
+  ]
+ },
+ "cout_usd": 0.0014899,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

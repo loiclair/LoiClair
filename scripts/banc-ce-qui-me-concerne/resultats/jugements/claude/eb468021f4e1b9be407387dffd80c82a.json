@@ -1,0 +1,25 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etranger_hors_ue",
+    "raison": "L'article fixe la taxe sur la première délivrance (300 €, ou 100 € pour certaines cartes) et sur le renouvellement (200 €, ou 50 €) des titres de séjour, ce qui vise directement les personnes hors UE qui vivent en France.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "automobiliste",
+    "raison": "L'article fixe la taxe à 25 € pour remplacer un permis non présenté ou détérioré, et à 40 € pour échanger un permis étranger. Cela vise directement les titulaires de permis qui conduisent.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": [
+   "etranger_ue"
+  ]
+ },
+ "cout_usd": 0.0060357,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

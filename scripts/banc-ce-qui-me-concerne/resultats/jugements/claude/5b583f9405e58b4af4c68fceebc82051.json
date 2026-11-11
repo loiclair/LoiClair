@@ -1,0 +1,29 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "residence_secondaire",
+    "raison": "L'article majore la taxe d'habitation sur les résidences secondaires (5 à 60 %) et durcit la taxe sur les logements vacants : propriétaires de résidences secondaires directement visés.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "meuble_tourisme",
+    "raison": "Le texte définit la vacance par une occupation inférieure à 90 jours, sans mentionner la location en courte durée ni les meublés de tourisme ; le statut est prêté et la phrase invente ce lien.",
+    "concerne": false,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "grande_ville",
+    "raison": "La majoration vise les communes en zone de tension, mais le texte ne vise pas les habitants des grandes villes en tant que tels : l'effet porte sur les propriétaires de résidences secondaires, et la taille de la commune n'est pas un critère.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0037757,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

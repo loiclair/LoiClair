@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "mineur",
+    "raison": "Le texte désigne directement les mineurs victimes de prostitution ou d'exploitation sexuelle comme bénéficiaires du repérage, de l'orientation et d'un hébergement adapté. Ils forment un sous-groupe des mineurs, ce qui vise le profil mineur. La mesure reste une proposition non adoptée.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000371185,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

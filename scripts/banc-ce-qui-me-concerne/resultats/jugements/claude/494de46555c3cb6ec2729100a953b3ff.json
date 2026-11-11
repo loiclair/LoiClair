@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "mineur",
+    "raison": "Le texte vise expressément les personnes mineures confiées à une personne relevant des 2° ou 3° de l’article 375-3 et leur ouvre un bénéfice personnel de la complémentaire santé.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "allocataire",
+    "raison": "Le texte ouvre directement à ces mineurs un droit personnel à la protection complémentaire, qui relève de la complémentaire santé solidaire visée par la définition du profil, sous les conditions légales.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000734275,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

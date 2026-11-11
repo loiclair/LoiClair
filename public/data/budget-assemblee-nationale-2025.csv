@@ -1,0 +1,186 @@
+section,code,libelle_officiel,montant_realise_eur,poste_cle,poste_fr,poste_en,sous_poste_cle,sous_poste_fr,sous_poste_en,page_rapport_questeurs
+investissement,2051,Logiciels,1165237,informatique,Informatique,IT,logiciels,Logiciels,Software,32
+investissement,2351,Logiciels en cours,52928,informatique,Informatique,IT,logiciels,Logiciels,Software,32
+investissement,2131,Gros œuvre,20939,batiments,Bâtiments,Buildings,travaux,Travaux de rénovation,Renovation works,32
+investissement,2331,Gros œuvre en cours,6200065,batiments,Bâtiments,Buildings,travaux,Travaux de rénovation,Renovation works,32
+investissement,2135,Installations générales,1721734,batiments,Bâtiments,Buildings,travaux,Travaux de rénovation,Renovation works,32
+investissement,2335,Installations générales en cours,8666567,batiments,Bâtiments,Buildings,travaux,Travaux de rénovation,Renovation works,32
+investissement,2136,Agencements et aménagements,76909,batiments,Bâtiments,Buildings,travaux,Travaux de rénovation,Renovation works,32
+investissement,2336,Agencements et aménagements en cours,3623851,batiments,Bâtiments,Buildings,travaux,Travaux de rénovation,Renovation works,32
+investissement,2137,Installations,0,batiments,Bâtiments,Buildings,travaux,Travaux de rénovation,Renovation works,32
+investissement,2337,Installations téléphoniques en cours,0,batiments,Bâtiments,Buildings,travaux,Travaux de rénovation,Renovation works,32
+investissement,2151,Matériel et,4412,batiments,Bâtiments,Buildings,equipements,Équipements techniques,Technical equipment,32
+investissement,2315,Matériel et outillage de la DAIP en cours,0,batiments,Bâtiments,Buildings,equipements,Équipements techniques,Technical equipment,32
+investissement,2152,Matériel de,214614,fonctionnement,Fonctionnement quotidien,Day-to-day running,vehicules,Matériel et véhicules,Equipment and vehicles,32
+investissement,23152,Matériel de la DLP en cours,0,fonctionnement,Fonctionnement quotidien,Day-to-day running,vehicules,Matériel et véhicules,Equipment and vehicles,32
+investissement,2153,Matériel du,41475,communication,Communication et information du public,Communication and public information,photo,Photo et vidéo,Photo and video equipment,32
+investissement,23153,Matériel photo-vidéo en cours,0,communication,Communication et information du public,Communication and public information,photo,Photo et vidéo,Photo and video equipment,32
+investissement,2154,Matériel,0,fonctionnement,Fonctionnement quotidien,Day-to-day running,vehicules,Matériel et véhicules,Equipment and vehicles,32
+investissement,23154,Matériel médical en cours,0,fonctionnement,Fonctionnement quotidien,Day-to-day running,vehicules,Matériel et véhicules,Equipment and vehicles,32
+investissement,2161,Œuvres d'art,9165,patrimoine,Patrimoine et bibliothèque,Heritage and library,oeuvres,"Œuvres, livres, objets anciens","Artworks, books and antiques",33
+investissement,2361,Œuvres d'art en cours,6960,patrimoine,Patrimoine et bibliothèque,Heritage and library,oeuvres,"Œuvres, livres, objets anciens","Artworks, books and antiques",33
+investissement,2162,Meubles de,0,patrimoine,Patrimoine et bibliothèque,Heritage and library,oeuvres,"Œuvres, livres, objets anciens","Artworks, books and antiques",33
+investissement,2362,Meubles de style en cours,0,patrimoine,Patrimoine et bibliothèque,Heritage and library,oeuvres,"Œuvres, livres, objets anciens","Artworks, books and antiques",33
+investissement,2163,"Livres,",40308,patrimoine,Patrimoine et bibliothèque,Heritage and library,oeuvres,"Œuvres, livres, objets anciens","Artworks, books and antiques",33
+investissement,2363,Livres et objets anciens en cours,0,patrimoine,Patrimoine et bibliothèque,Heritage and library,oeuvres,"Œuvres, livres, objets anciens","Artworks, books and antiques",33
+investissement,2164,Autres livres de la Bibliothèque,0,patrimoine,Patrimoine et bibliothèque,Heritage and library,oeuvres,"Œuvres, livres, objets anciens","Artworks, books and antiques",33
+investissement,2165,Autres,0,patrimoine,Patrimoine et bibliothèque,Heritage and library,oeuvres,"Œuvres, livres, objets anciens","Artworks, books and antiques",33
+investissement,2365,Autres œuvres et objets d'art en cours,0,patrimoine,Patrimoine et bibliothèque,Heritage and library,oeuvres,"Œuvres, livres, objets anciens","Artworks, books and antiques",33
+investissement,2182,Matériel de,290683,fonctionnement,Fonctionnement quotidien,Day-to-day running,vehicules,Matériel et véhicules,Equipment and vehicles,33
+investissement,2382,Matériel de transport en cours,0,fonctionnement,Fonctionnement quotidien,Day-to-day running,vehicules,Matériel et véhicules,Equipment and vehicles,33
+investissement,2183,Matériel de,25985,fonctionnement,Fonctionnement quotidien,Day-to-day running,vehicules,Matériel et véhicules,Equipment and vehicles,33
+investissement,2383,Matériel de bureau en cours,0,fonctionnement,Fonctionnement quotidien,Day-to-day running,vehicules,Matériel et véhicules,Equipment and vehicles,33
+investissement,2184,Mobilier,536316,fonctionnement,Fonctionnement quotidien,Day-to-day running,mobilier,Mobilier,Furniture,33
+investissement,2384,Mobilier en cours,2458,fonctionnement,Fonctionnement quotidien,Day-to-day running,mobilier,Mobilier,Furniture,33
+investissement,2185,Appareils électriques,242499,batiments,Bâtiments,Buildings,equipements,Équipements techniques,Technical equipment,33
+investissement,2385,Appareils électriques en cours,1585,batiments,Bâtiments,Buildings,equipements,Équipements techniques,Technical equipment,33
+investissement,2188,Matériel informatique,1839074,informatique,Informatique,IT,materiel,Ordinateurs et matériel,Computers and hardware,33
+investissement,23881,Matériel informatique en cours,897852,informatique,Informatique,IT,materiel,Ordinateurs et matériel,Computers and hardware,33
+investissement,2341,ÉTUDES ET INGÉNIERIE EN COURS,3880342,batiments,Bâtiments,Buildings,etudes,Études et architectes,Studies and architects,33
+investissement,2342,ÉTUDES COURS,108802,batiments,Bâtiments,Buildings,etudes,Études et architectes,Studies and architects,33
+investissement,2992,AUTRES DÉPENSES IMPRÉVUES,0,fonctionnement,Fonctionnement quotidien,Day-to-day running,divers,Divers,Miscellaneous,33
+fonctionnement,6011,Fournitures d’ateliers de la DAIP,863021,batiments,Bâtiments,Buildings,entretien,Entretien et réparations,Maintenance and repairs,37
+fonctionnement,6012,Fournitures d’impression et de reliure,142894,fonctionnement,Fonctionnement quotidien,Day-to-day running,fournitures,Fournitures,Supplies,37
+fonctionnement,6013,Fournitures audiovisuelles,93572,communication,Communication et information du public,Communication and public information,photo,Photo et vidéo,Photo and video equipment,37
+fonctionnement,6021,Petits équipements de la DAIP,321858,batiments,Bâtiments,Buildings,entretien,Entretien et réparations,Maintenance and repairs,37
+fonctionnement,6022,Petit équipement automobile,49835,fonctionnement,Fonctionnement quotidien,Day-to-day running,vehicules,Matériel et véhicules,Equipment and vehicles,37
+fonctionnement,6023,Petit équipement de la DLP,41416,fonctionnement,Fonctionnement quotidien,Day-to-day running,vehicules,Matériel et véhicules,Equipment and vehicles,37
+fonctionnement,6024,Petit équipement informatique,109737,informatique,Informatique,IT,materiel,Ordinateurs et matériel,Computers and hardware,37
+fonctionnement,6025,Petit équipement téléphonique,9284,informatique,Informatique,IT,reseaux,Téléphonie et réseaux,Telephony and networks,37
+fonctionnement,6041,Achats de fournitures de bureau,489060,fonctionnement,Fonctionnement quotidien,Day-to-day running,fournitures,Fournitures,Supplies,37
+fonctionnement,6042,Achats d’autres fournitures,614529,fonctionnement,Fonctionnement quotidien,Day-to-day running,fournitures,Fournitures,Supplies,37
+fonctionnement,6043,Fournitures du laboratoire photo-vidéo,6240,communication,Communication et information du public,Communication and public information,photo,Photo et vidéo,Photo and video equipment,37
+fonctionnement,6044,Fournitures médicales soins et prévention,18256,personnel,Personnel de l'Assemblée,Assembly staff,sante,Santé et action sociale,Health and welfare,37
+fonctionnement,6051,Consommation de fluides pour les bâtiments,3779742,batiments,Bâtiments,Buildings,energie,Énergie et eau,Energy and water,37
+fonctionnement,6052,Carburant des véhicules,95351,fonctionnement,Fonctionnement quotidien,Day-to-day running,vehicules,Matériel et véhicules,Equipment and vehicles,37
+fonctionnement,6071,Achat de marchandises de la DLP,260852,fonctionnement,Fonctionnement quotidien,Day-to-day running,fournitures,Fournitures,Supplies,37
+fonctionnement,6113,Abonnement aux bases extérieures,348636,informatique,Informatique,IT,bases,Bases de données et hébergement,Databases and hosting,37
+fonctionnement,6114,Frais d’hébergement du site Internet,65000,informatique,Informatique,IT,bases,Bases de données et hébergement,Databases and hosting,37
+fonctionnement,6115,Infogérance de Sécurité sociale,379258,informatique,Informatique,IT,bases,Bases de données et hébergement,Databases and hosting,37
+fonctionnement,6132,Locations et charges immobilières,4833158,batiments,Bâtiments,Buildings,loyers,Loyers et charges,Rent and service charges,38
+fonctionnement,6133,Redevances et locations informatiques,2690422,informatique,Informatique,IT,licences,"Licences, cloud et locations","Licences, cloud and rentals",38
+fonctionnement,6134,Location de réseaux privés de transmission,11310,informatique,Informatique,IT,reseaux,Téléphonie et réseaux,Telephony and networks,38
+fonctionnement,6135,Locations de matériels de communication et de restauration,184350,fonctionnement,Fonctionnement quotidien,Day-to-day running,vehicules,Matériel et véhicules,Equipment and vehicles,38
+fonctionnement,6136,Locations de photocopieurs,225104,fonctionnement,Fonctionnement quotidien,Day-to-day running,vehicules,Matériel et véhicules,Equipment and vehicles,38
+fonctionnement,6137,Locations de matériels de transport,98413,fonctionnement,Fonctionnement quotidien,Day-to-day running,vehicules,Matériel et véhicules,Equipment and vehicles,38
+fonctionnement,6138,Locations de matériels divers,97629,fonctionnement,Fonctionnement quotidien,Day-to-day running,vehicules,Matériel et véhicules,Equipment and vehicles,38
+fonctionnement,6139,Autres locations,13449,fonctionnement,Fonctionnement quotidien,Day-to-day running,divers,Divers,Miscellaneous,38
+fonctionnement,6151,Entretien et réparations sur biens immobiliers,12149336,batiments,Bâtiments,Buildings,entretien,Entretien et réparations,Maintenance and repairs,38
+fonctionnement,6152,Entretien des installations de la DAIP,341370,batiments,Bâtiments,Buildings,entretien,Entretien et réparations,Maintenance and repairs,38
+fonctionnement,6153,Maintenance informatique,4334969,informatique,Informatique,IT,maintenance,Maintenance,Maintenance,38
+fonctionnement,6154,Entretien du matériel de communication,7410,informatique,Informatique,IT,reseaux,Téléphonie et réseaux,Telephony and networks,38
+fonctionnement,6155,Maintenance du matériel,719525,fonctionnement,Fonctionnement quotidien,Day-to-day running,vehicules,Matériel et véhicules,Equipment and vehicles,38
+fonctionnement,6156,"Entretien des livres, objets anciens et audiovisuelles",206221,patrimoine,Patrimoine et bibliothèque,Heritage and library,oeuvres,"Œuvres, livres, objets anciens","Artworks, books and antiques",38
+fonctionnement,6157,Entretien des installations de transport,31970,fonctionnement,Fonctionnement quotidien,Day-to-day running,vehicules,Matériel et véhicules,Equipment and vehicles,38
+fonctionnement,6158,Entretien du laboratoire photo– vidéo,0,communication,Communication et information du public,Communication and public information,photo,Photo et vidéo,Photo and video equipment,38
+fonctionnement,6161,Assurances des biens et personnes,430314,fonctionnement,Fonctionnement quotidien,Day-to-day running,assurances,Assurances,Insurance,38
+fonctionnement,6165,Assurances des véhicules,100026,fonctionnement,Fonctionnement quotidien,Day-to-day running,assurances,Assurances,Insurance,38
+fonctionnement,6171,Études et recherches informatiques,1205362,informatique,Informatique,IT,developpement,Études et développement,Studies and development,38
+fonctionnement,6172,Documentation de la bibliothèque,144533,patrimoine,Patrimoine et bibliothèque,Heritage and library,documentation,Documentation,Documentation,38
+fonctionnement,6173,Documentation européenne,7845,patrimoine,Patrimoine et bibliothèque,Heritage and library,documentation,Documentation,Documentation,38
+fonctionnement,6175,Abonnements,744915,patrimoine,Patrimoine et bibliothèque,Heritage and library,documentation,Documentation,Documentation,38
+fonctionnement,6181,Subventions et libéralités diverses,507926,fonctionnement,Fonctionnement quotidien,Day-to-day running,subventions,Subventions diverses,Miscellaneous grants,38
+fonctionnement,6182,Subventions et indemnités repas,2768220,personnel,Personnel de l'Assemblée,Assembly staff,restauration,Restauration,Staff catering,38
+fonctionnement,6211,Personnel intérimaire et mis à disposition,4478598,personnel,Personnel de l'Assemblée,Assembly staff,interim,Intérim et personnel mis à disposition,Temporary and seconded staff,39
+fonctionnement,6221,Honoraires d'experts et d'avocats,290413,fonctionnement,Fonctionnement quotidien,Day-to-day running,avocats,Avocats et experts,Lawyers and experts,39
+fonctionnement,6223,Honoraires d'études et d'ingénierie,396016,batiments,Bâtiments,Buildings,etudes,Études et architectes,Studies and architects,39
+fonctionnement,6231,Annonces et insertions,55080,communication,Communication et information du public,Communication and public information,comm,Communication,Communication,39
+fonctionnement,6233,Communication événementielle,148256,communication,Communication et information du public,Communication and public information,comm,Communication,Communication,39
+fonctionnement,6234,Production des images télévisuelles,934664,communication,Communication et information du public,Communication and public information,video,Production et diffusion vidéo,Video production and broadcasting,39
+fonctionnement,6235,Documents d'information et de communication,104413,communication,Communication et information du public,Communication and public information,comm,Communication,Communication,39
+fonctionnement,6236,Diffusion des images télévisées,142561,communication,Communication et information du public,Communication and public information,video,Production et diffusion vidéo,Video production and broadcasting,39
+fonctionnement,6237,Études et prestations multimédia,283521,communication,Communication et information du public,Communication and public information,comm,Communication,Communication,39
+fonctionnement,6238,Actions pédagogiques et d'information,122463,communication,Communication et information du public,Communication and public information,comm,Communication,Communication,39
+fonctionnement,6241,Impressions parlementaires,188139,fonctionnement,Fonctionnement quotidien,Day-to-day running,impressions,Impressions,Printing,39
+fonctionnement,6243,Impressions techniques,10299,fonctionnement,Fonctionnement quotidien,Day-to-day running,impressions,Impressions,Printing,39
+fonctionnement,6251,Transports de biens,423200,fonctionnement,Fonctionnement quotidien,Day-to-day running,transports,Transports,Freight,39
+fonctionnement,6252,Frais de transport et de mission du personnel,664999,personnel,Personnel de l'Assemblée,Assembly staff,missionsPersonnel,Missions du personnel,Staff travel,39
+fonctionnement,6261,Frais de courrier,170676,fonctionnement,Fonctionnement quotidien,Day-to-day running,courrier,Courrier,Mail,39
+fonctionnement,6262,Frais de télécommunication,130773,informatique,Informatique,IT,reseaux,Téléphonie et réseaux,Telephony and networks,39
+fonctionnement,6281,Services divers,188199,fonctionnement,Fonctionnement quotidien,Day-to-day running,divers,Divers,Miscellaneous,39
+fonctionnement,6291,Régie du directeur général des services administratifs,357,fonctionnement,Fonctionnement quotidien,Day-to-day running,divers,Divers,Miscellaneous,39
+fonctionnement,6292,Régie du directeur général des services législatifs,2577,fonctionnement,Fonctionnement quotidien,Day-to-day running,divers,Divers,Miscellaneous,39
+fonctionnement,6330,Versement mobilité,3908427,personnel,Personnel de l'Assemblée,Assembly staff,impotsSalaires,Impôts sur les salaires,Payroll taxes,40
+fonctionnement,6350,Impôts locaux,1090843,batiments,Bâtiments,Buildings,impotsLocaux,Impôts locaux,Local taxes,40
+fonctionnement,6370,Contributions diverses et fiscalité automobile,4199,fonctionnement,Fonctionnement quotidien,Day-to-day running,divers,Divers,Miscellaneous,40
+fonctionnement,6380,Fond d’insertion des travailleurs handicapés,14247,personnel,Personnel de l'Assemblée,Assembly staff,impotsSalaires,Impôts sur les salaires,Payroll taxes,40
+fonctionnement,6411,Traitements – rémunérations de base,42068363,personnel,Personnel de l'Assemblée,Assembly staff,salairesFonctionnaires,Salaires des fonctionnaires,Civil servants' salaries,40
+fonctionnement,6412,Indemnités de fonction et de sujétion,40867277,personnel,Personnel de l'Assemblée,Assembly staff,salairesFonctionnaires,Salaires des fonctionnaires,Civil servants' salaries,40
+fonctionnement,6414,Autres indemnités,7642235,personnel,Personnel de l'Assemblée,Assembly staff,salairesFonctionnaires,Salaires des fonctionnaires,Civil servants' salaries,40
+fonctionnement,6415,Prestations familiales,483214,personnel,Personnel de l'Assemblée,Assembly staff,salairesFonctionnaires,Salaires des fonctionnaires,Civil servants' salaries,40
+fonctionnement,6416,Supplément familial,301788,personnel,Personnel de l'Assemblée,Assembly staff,salairesFonctionnaires,Salaires des fonctionnaires,Civil servants' salaries,40
+fonctionnement,6418,Allocations de fin de carrière,468328,personnel,Personnel de l'Assemblée,Assembly staff,salairesFonctionnaires,Salaires des fonctionnaires,Civil servants' salaries,40
+fonctionnement,6421,Salaires – indemnités de base,29976843,personnel,Personnel de l'Assemblée,Assembly staff,salairesContractuels,Salaires des contractuels,Contract staff salaries,40
+fonctionnement,6422,Indemnités de fonction et de sujétions,366588,personnel,Personnel de l'Assemblée,Assembly staff,salairesContractuels,Salaires des contractuels,Contract staff salaries,40
+fonctionnement,6423,Autres indemnités,1645169,personnel,Personnel de l'Assemblée,Assembly staff,salairesContractuels,Salaires des contractuels,Contract staff salaries,40
+fonctionnement,6424,Prestations familiales,262119,personnel,Personnel de l'Assemblée,Assembly staff,salairesContractuels,Salaires des contractuels,Contract staff salaries,40
+fonctionnement,6425,Indemnités de préavis de licenciement,63822,personnel,Personnel de l'Assemblée,Assembly staff,salairesContractuels,Salaires des contractuels,Contract staff salaries,40
+fonctionnement,6431,Salaires – indemnités de base,1207191,personnel,Personnel de l'Assemblée,Assembly staff,cabinet,Cabinet de la Présidence,Speaker's private office,40
+fonctionnement,6432,Autres indemnités,50384,personnel,Personnel de l'Assemblée,Assembly staff,cabinet,Cabinet de la Présidence,Speaker's private office,40
+fonctionnement,6433,Prestations familiales,6406,personnel,Personnel de l'Assemblée,Assembly staff,cabinet,Cabinet de la Présidence,Speaker's private office,40
+fonctionnement,6434,Indemnités de préavis de licenciement,0,personnel,Personnel de l'Assemblée,Assembly staff,cabinet,Cabinet de la Présidence,Speaker's private office,40
+fonctionnement,6442,Indemnisation des demandeurs d’emploi,632132,personnel,Personnel de l'Assemblée,Assembly staff,cotisations,Cotisations sociales,Social contributions,40
+fonctionnement,6451,Contribution au fonds de sécurité sociale du personnel,3172274,personnel,Personnel de l'Assemblée,Assembly staff,cotisations,Cotisations sociales,Social contributions,40
+fonctionnement,6452,Contribution à la caisse de retraites de l'an,59722427,retraites,Retraites,Pensions,anciensFonctionnaires,Anciens fonctionnaires de l'Assemblée,Former Assembly civil servants,41
+fonctionnement,6453,Cotisations URSAFF,7396172,personnel,Personnel de l'Assemblée,Assembly staff,cotisations,Cotisations sociales,Social contributions,41
+fonctionnement,6454,Cotisations de retraite du personnel contractuel,2054745,personnel,Personnel de l'Assemblée,Assembly staff,cotisations,Cotisations sociales,Social contributions,41
+fonctionnement,6455,Contribution solidarité autonomie,98113,personnel,Personnel de l'Assemblée,Assembly staff,cotisations,Cotisations sociales,Social contributions,41
+fonctionnement,6461,Accidents du travail,2043,personnel,Personnel de l'Assemblée,Assembly staff,sante,Santé et action sociale,Health and welfare,41
+fonctionnement,6462,Capital décès 1,0,personnel,Personnel de l'Assemblée,Assembly staff,sante,Santé et action sociale,Health and welfare,41
+fonctionnement,6463,Allocations décès 1,18410,personnel,Personnel de l'Assemblée,Assembly staff,sante,Santé et action sociale,Health and welfare,41
+fonctionnement,6464,Allocations viagères des anciens employés temporaires,2141,retraites,Retraites,Pensions,pensionsHistoriques,Autres pensions anciennes,Historical pensions,41
+fonctionnement,6465,Médico– social et prévention,36525,personnel,Personnel de l'Assemblée,Assembly staff,sante,Santé et action sociale,Health and welfare,41
+fonctionnement,6466,Arrérages de pension des retraités de l'union française,190397,retraites,Retraites,Pensions,pensionsHistoriques,Autres pensions anciennes,Historical pensions,41
+fonctionnement,6475,Indemnités repas des gardes républicains,386382,fonctionnement,Fonctionnement quotidien,Day-to-day running,garde,Sécurité (repas des gardes républicains),Republican Guard meals,41
+fonctionnement,6476,Subvention à la mutuelle du personnel,45000,personnel,Personnel de l'Assemblée,Assembly staff,sante,Santé et action sociale,Health and welfare,41
+fonctionnement,6477,Médecine du travail,13644,personnel,Personnel de l'Assemblée,Assembly staff,sante,Santé et action sociale,Health and welfare,41
+fonctionnement,6481,Frais de recrutement de personnel,760110,personnel,Personnel de l'Assemblée,Assembly staff,recrutement,Recrutement et formation,Recruitment and training,41
+fonctionnement,6482,Formation professionnelle du personnel,451874,personnel,Personnel de l'Assemblée,Assembly staff,recrutement,Recrutement et formation,Recruitment and training,41
+fonctionnement,6484,Formations – projets informatiques,14465,informatique,Informatique,IT,developpement,Études et développement,Studies and development,41
+fonctionnement,6511,Indemnités parlementaires,52581539,deputes,Les députés,MPs themselves,indemnites,Indemnités,Parliamentary allowances,41
+fonctionnement,6512,Indemnités spéciales,600419,deputes,Les députés,MPs themselves,indemnites,Indemnités,Parliamentary allowances,41
+fonctionnement,6514,Prestations familiales,195407,deputes,Les députés,MPs themselves,indemnites,Indemnités,Parliamentary allowances,41
+fonctionnement,6515,Supplément familial,118104,deputes,Les députés,MPs themselves,indemnites,Indemnités,Parliamentary allowances,41
+fonctionnement,6521,Charges de sécurité sociale et de prévoyance,70868445,retraites,Retraites,Pensions,anciensDeputes,Anciens députés,Former MPs,41
+fonctionnement,6521,Charges de sécurité sociale et de prévoyance,4083930,deputes,Les députés,MPs themselves,protectionSociale,Protection sociale,Social security,41
+fonctionnement,6522,Prestations directes,416776,deputes,Les députés,MPs themselves,protectionSociale,Protection sociale,Social security,41
+fonctionnement,6528,Autres charges sociales,2470000,deputes,Les députés,MPs themselves,retourEmploi,Aide au retour à l'emploi des anciens députés (équivalent chômage),Back-to-work support for former MPs (unemployment equivalent),41
+fonctionnement,6531,Frais de secrétariat des groupes,15137364,groupes,Groupes politiques,Political groups,subventionGroupes,Subvention aux groupes,Grants to groups,42
+fonctionnement,6532,Frais de secrétariat des députés,83886603,collaborateurs,Collaborateurs des députés,MPs' assistants,salairesCredit,Salaires et primes payés sur le crédit,Salaries and bonuses paid from the allowance,42
+fonctionnement,6532,Frais de secrétariat des députés,32540477,collaborateurs,Collaborateurs des députés,MPs' assistants,cotisationsCollab,Cotisations sociales des collaborateurs,Social contributions,42
+fonctionnement,6532,Frais de secrétariat des députés,8256620,collaborateurs,Collaborateurs des députés,MPs' assistants,taxeSalaires,Taxe sur les salaires,Payroll tax,42
+fonctionnement,6532,Frais de secrétariat des députés,4016997,collaborateurs,Collaborateurs des députés,MPs' assistants,supplements,"Prime d'ancienneté, frais de garde, formation","Seniority bonus, childcare, training",42
+fonctionnement,6533,Crédit supplémentaire fin de mandat,1387931,collaborateurs,Collaborateurs des députés,MPs' assistants,finMandat,Licenciements en fin de mandat,End-of-term dismissals,42
+fonctionnement,6535,Dotation de fonctionnement parlementaire,42731480,fraisMandat,Frais de mandat des députés,MPs' office expenses,afm,Avance mensuelle de frais de mandat,Monthly expense allowance,42
+fonctionnement,6541,Déplacements par avions,4089017,fraisMandat,Frais de mandat des députés,MPs' office expenses,avion,Avion,Air travel,42
+fonctionnement,6542,Déplacements ferroviaires,2522754,fraisMandat,Frais de mandat des députés,MPs' office expenses,train,Train,Rail travel,42
+fonctionnement,6543,Autres déplacements français de l'étranger,15344,fraisMandat,Frais de mandat des députés,MPs' office expenses,autresTransports,Autres transports,Other transport,42
+fonctionnement,6544,Remboursements de péages,109041,fraisMandat,Frais de mandat des députés,MPs' office expenses,autresTransports,Autres transports,Other transport,42
+fonctionnement,6546,Frais de déplacement des collaborateurs,857136,collaborateurs,Collaborateurs des députés,MPs' assistants,deplacementsCollab,Déplacements,Travel,42
+fonctionnement,6551,OPECST,54665,activite,Activité parlementaire,Parliamentary activities,opecst,Office scientifique (OPECST),Science and technology office (OPECST),42
+fonctionnement,6563,Frais de réception et de représentation de la présidence,273584,activite,Activité parlementaire,Parliamentary activities,presidence,Présidence et Bureau,Speaker and Bureau,42
+fonctionnement,6564,Déplacements de la présidence en France,58792,activite,Activité parlementaire,Parliamentary activities,presidence,Présidence et Bureau,Speaker and Bureau,42
+fonctionnement,6565,Frais de mission et de communication du cabinet du président,24067,activite,Activité parlementaire,Parliamentary activities,presidence,Présidence et Bureau,Speaker and Bureau,42
+fonctionnement,6566,Frais de réception du bureau,54114,activite,Activité parlementaire,Parliamentary activities,presidence,Présidence et Bureau,Speaker and Bureau,42
+fonctionnement,6567,Activités des délégations parlementaires,128336,activite,Activité parlementaire,Parliamentary activities,delegations,Délégations,Delegations,42
+fonctionnement,6568,Activités internationales des organes de l'an,2432360,activite,Activité parlementaire,Parliamentary activities,international,International,International relations,42
+fonctionnement,6569,Missions et réceptions des commissions,815992,activite,Activité parlementaire,Parliamentary activities,commissions,Missions des commissions,Committee missions,42
+fonctionnement,6570,Autres missions et réceptions parlementaires,84174,activite,Activité parlementaire,Parliamentary activities,enquetes,Commissions d'enquête et missions,Inquiry committees and fact-finding missions,42
+fonctionnement,6571,Études et expertises des organes de l'assemblée,3367,activite,Activité parlementaire,Parliamentary activities,enquetes,Commissions d'enquête et missions,Inquiry committees and fact-finding missions,42
+fonctionnement,6582,Équipement bureautique des groupes,316877,groupes,Groupes politiques,Political groups,informatiqueGroupes,Informatique des groupes,Groups' IT,43
+fonctionnement,6583,Frais matériels des députés,11004175,fraisMandat,Frais de mandat des députés,MPs' office expenses,dotationMaterielle,Dotation matérielle,Material allowance,43
+fonctionnement,6583,Frais matériels des députés,389870,fraisMandat,Frais de mandat des députés,MPs' office expenses,expertiseComptable,Expertise comptable,Accounting fees,43
+fonctionnement,6585,Formations et accompagnement des députés anciens députés,305809,deputes,Les députés,MPs themselves,formation,Formation et reconversion,Training and career transition,43
+fonctionnement,6586,Frais d'hébergement,2892781,fraisMandat,Frais de mandat des députés,MPs' office expenses,hebergement,Hébergement à Paris,Accommodation in Paris,43
+fonctionnement,6587,Insignes et équipements officiels,44251,deputes,Les députés,MPs themselves,insignes,Insignes,Official insignia,43
+fonctionnement,6588,Cours de langues étrangères,15102,deputes,Les députés,MPs themselves,formation,Formation et reconversion,Training and career transition,43
+fonctionnement,6589,Protection fonctionnelle des députés et diverses,83404,deputes,Les députés,MPs themselves,protectionJuridique,Protection juridique,Legal protection,43
+fonctionnement,6711,Subventions et libéralités diverses,0,fonctionnement,Fonctionnement quotidien,Day-to-day running,divers,Divers,Miscellaneous,43
+fonctionnement,6714,Pénalités sur marchés,0,fonctionnement,Fonctionnement quotidien,Day-to-day running,divers,Divers,Miscellaneous,43
+fonctionnement,6715,Créances irrécouvrables de l'exercice courant,0,fonctionnement,Fonctionnement quotidien,Day-to-day running,divers,Divers,Miscellaneous,43
+fonctionnement,6716,Secours,20150,fonctionnement,Fonctionnement quotidien,Day-to-day running,divers,Divers,Miscellaneous,43
+fonctionnement,6719,Autres charges exceptionnelles sur exercice Courant,1613,fonctionnement,Fonctionnement quotidien,Day-to-day running,divers,Divers,Miscellaneous,43
+fonctionnement,6743,Annulation de recettes sur exercices antérieurs,0,fonctionnement,Fonctionnement quotidien,Day-to-day running,divers,Divers,Miscellaneous,43
+fonctionnement,6745,Créances irrécouvrables sur exercices antérieurs,0,fonctionnement,Fonctionnement quotidien,Day-to-day running,divers,Divers,Miscellaneous,43
+fonctionnement,6748,Autres charges exceptionnelles sur exercices antérieurs,0,fonctionnement,Fonctionnement quotidien,Day-to-day running,divers,Divers,Miscellaneous,43
+fonctionnement,6992,Autres dépenses imprévues,0,fonctionnement,Fonctionnement quotidien,Day-to-day running,divers,Divers,Miscellaneous,43

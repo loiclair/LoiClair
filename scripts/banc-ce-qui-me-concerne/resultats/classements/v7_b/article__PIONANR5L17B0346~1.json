@@ -1,0 +1,19 @@
+{
+ "impacts": [
+  {
+   "profil": "montagne",
+   "phrase_fr": "Les communes de montagne pourraient conserver ou retrouver les compétences eau et assainissement, même au sein d'une communauté de communes.",
+   "phrase_en": "Mountain communes would keep or regain the water and sanitation powers, even within a community of communes.",
+   "passage": "Une ou plusieurs communes situées en zone de montagne au sens de l’article 3 de la loi n° 85‑30 du 9 janvier 1985 relative au développement et à la protection de la montagne, peuvent décider, par délibération",
+   "certitude": "certain"
+  },
+  {
+   "profil": "elu_local",
+   "phrase_fr": "Les conseils municipaux des communes de montagne pourraient décider de reprendre l'eau et l'assainissement à la communauté de communes.",
+   "phrase_en": "Municipal councils in mountain communes would be able to take back water and sanitation from the community of communes.",
+   "passage": "peuvent décider, par délibération et après avis de l’organe délibérant de la communauté de communes, de retrouver l’exercice des compétences visées aux 6° et 7° du présent I.",
+   "certitude": "probable"
+  }
+ ],
+ "cout_usd": 0.00085091
+}

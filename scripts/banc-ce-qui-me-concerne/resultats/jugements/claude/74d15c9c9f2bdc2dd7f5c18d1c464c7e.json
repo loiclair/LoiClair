@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "expat",
+    "raison": "Le texte vise explicitement le contribuable sans résidence fiscale en France, soit les Français établis à l'étranger, dans le cadre d'une règle de l'article 155 du CGI. La phrase de l'assistant reste vague (« traitement fiscal ») mais ne contient aucun fait faux.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0020777,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

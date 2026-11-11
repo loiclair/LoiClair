@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etudiant",
+    "raison": "L'article 7 ne nomme pas les étudiants. Il vise tout co-contractant d'un professionnel de formation, quel que soit son statut : l'effet tient au contrat de formation, pas à la qualité d'étudiant.",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "chef_entreprise",
+    "raison": "Le texte permet d'interdire au dirigeant d'un organisme de formation professionnelle d'exercer cette fonction, et prévoit une amende personnelle jusqu'à 3 000 euros pour une personne physique. Ce dirigeant est le profil visé, et la plupart de ces organismes sont des petites structures. La taille n'est pas précisée dans le texte.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.001238585,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

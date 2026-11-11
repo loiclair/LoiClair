@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "automobiliste",
+    "raison": "La majoration vise la délivrance du certificat d'immatriculation en Île-de-France, donc les personnes qui immatriculent un véhicule : effet direct sur le coût pour l'automobiliste.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "grande_ville",
+    "raison": "La mesure vise la région Île-de-France entière (certificat réputé délivré en région), pas les habitants des grandes agglomérations en tant que tels ; un habitant de grande ville hors Île-de-France n'est pas visé et un rural francilien l'est. Le texte ne parle pas de l'agglomération parisienne.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0034346999999999997,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

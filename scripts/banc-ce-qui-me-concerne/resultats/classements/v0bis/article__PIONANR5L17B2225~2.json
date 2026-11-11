@@ -1,0 +1,40 @@
+{
+ "impacts": [
+  {
+   "profil": "locataire",
+   "phrase_fr": "Le loyer de votre futur logement loué serait fixé librement entre les parties, dans la limite d'un loyer de référence fixé chaque année par arrêté, avec une possibilité de contester un loyer trop élevé.",
+   "phrase_en": "The rent of your future rental would be set freely by the parties, up to a reference rent fixed each year by order, with the option to challenge a rent that is too high.",
+   "passage": "Le loyer de base des logements mis en location dans le territoire concerné est fixé librement entre les parties lors de la conclusion du contrat de bail dans la limite du loyer de référence.",
+   "certitude": "certain"
+  },
+  {
+   "profil": "proprietaire_bailleur",
+   "phrase_fr": "Le loyer que vous pourriez demander pour un logement loué à l'année serait plafonné par un loyer de référence fixé chaque année, égal au loyer médian observé localement.",
+   "phrase_en": "The rent you could ask for a year-round rental would be capped by a reference rent set each year, equal to the locally observed median rent.",
+   "passage": "Dans les autres communes, à partir de 2026, le loyer de référence est égal au loyer médian observé par les observatoires locaux de l’habitat.",
+   "certitude": "probable"
+  },
+  {
+   "profil": "meuble_tourisme",
+   "phrase_fr": "Vos loyers de location meublée touristique seraient soumis aux mêmes règles d'encadrement que les logements de résidence principale, partout en France et pas seulement en zone tendue.",
+   "phrase_en": "Your furnished tourist rental rents would be subject to the same rent caps as main-residence homes, everywhere in France and not only in tight-market areas.",
+   "passage": "Les loyers des logements meublés utilisés à des fins touristiques et ceux des résidences étudiantes privées sont soumis aux mêmes règles d’encadrement des loyers que les logements à usage d’habitation principale, dans les zones tendues comme sur le reste du territoire.",
+   "certitude": "certain"
+  },
+  {
+   "profil": "etudiant",
+   "phrase_fr": "Le loyer d'une chambre en résidence étudiante privée serait encadré comme celui d'un logement d'habitation principale, partout en France.",
+   "phrase_en": "The rent for a room in a private student residence would be capped like that of a main-residence home, everywhere in France.",
+   "passage": "Les loyers des logements meublés utilisés à des fins touristiques et ceux des résidences étudiantes privées sont soumis aux mêmes règles d’encadrement des loyers que les logements à usage d’habitation principale, dans les zones tendues comme sur le reste du territoire.",
+   "certitude": "probable"
+  },
+  {
+   "profil": "grande_ville",
+   "phrase_fr": "Dans les communes à forte tension sur le logement, dont la liste serait fixée par décret, le loyer de référence serait plafonné au loyer médian local.",
+   "phrase_en": "In high-pressure housing communes, whose list would be set by decree, the reference rent would be capped at the local median rent.",
+   "passage": "Dans les communes où il existe un déséquilibre marqué entre l’offre et la demande de logements",
+   "certitude": "possible"
+  }
+ ],
+ "cout_usd": 0.00198345
+}

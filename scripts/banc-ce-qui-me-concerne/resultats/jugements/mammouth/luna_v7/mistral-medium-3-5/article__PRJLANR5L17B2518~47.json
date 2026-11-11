@@ -1,0 +1,29 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "forces_ordre",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "Le texte autorise explicitement les agents mentionnés à l'article 78-2 (policiers/gendarmes) à procéder à la prise d'empreintes ou de photographies lors de contrôles d'identité. La phrase est fidèle et le conditionnel est correctement utilisé (texte non définitivement adopté)."
+   },
+   {
+    "profil": "etranger_ue",
+    "concerne": false,
+    "phrase_fidele": false,
+    "raison": "Le texte ne distingue pas les étrangers selon leur origine (UE ou hors UE). Les passages cités concernent les étrangers en général, sans précision sur leur nationalité. La phrase invente une distinction non présente dans le texte."
+   },
+   {
+    "profil": "etranger_hors_ue",
+    "concerne": false,
+    "phrase_fidele": false,
+    "raison": "Même raison que pour 'etranger_ue' : le texte ne fait pas de distinction entre étrangers UE et hors UE. La phrase est donc infidèle car elle ajoute une précision absente du texte."
+   }
+  ],
+  "oublis": [
+   "etranger_ue",
+   "etranger_hors_ue"
+  ]
+ },
+ "cout_usd": 0.0132855
+}

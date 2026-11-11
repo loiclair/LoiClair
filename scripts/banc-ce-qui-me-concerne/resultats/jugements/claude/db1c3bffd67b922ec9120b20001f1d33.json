@@ -1,0 +1,48 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "imposable",
+    "raison": "Non : la contribution est instituée à la charge des contribuables sans viser spécifiquement les foyers qui paient l’impôt sur le revenu. En outre, plusieurs catégories bénéficient d’un dégrèvement.",
+    "concerne": false,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "handicap",
+    "raison": "Oui : les titulaires de l’AAH bénéficient d’un dégrèvement sous condition de revenus ; ils constituent un sous-groupe des personnes en situation de handicap.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "senior",
+    "raison": "Oui : le texte prévoit un dégrèvement pour les contribuables de plus de 60 ans, sous conditions de revenus et de non-assujettissement à l’IFI. Cela vise une partie des personnes de 55 ans ou plus.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "veuf",
+    "raison": "Oui : les veuves et veufs peuvent bénéficier du dégrèvement sous les conditions de revenus et d’IFI prévues au 4°.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "outre_mer",
+    "raison": "Oui : le texte fixe des seuils de revenus particuliers pour la Martinique, la Guadeloupe, La Réunion, la Guyane et Mayotte, pour le dégrèvement lié à l’AAH.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "age_dependant",
+    "raison": "Oui : le 7° prévoit un dégrèvement pour certaines personnes hébergées durablement en établissement, sans autonomie de vie, sous plusieurs conditions.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": [
+   "patrimoine_ifi"
+  ]
+ },
+ "cout_usd": 0.0018634,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

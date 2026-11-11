@@ -1,0 +1,19 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "chef_entreprise",
+    "raison": "L'amendement ouvre à l'entreprise exclue (sinistralité élevée, manquement à l'obligation de sécurité) la possibilité d'obtenir de l'inspecteur du travail l'autorisation de conclure à nouveau conventions de stage et contrats d'apprentissage. Cela change directement les droits et démarches de son dirigeant ou employeur. Le texte ne vise pas la taille de l'entreprise, mais les PME en font partie.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "dirigeant_grande_entreprise"
+  ]
+ },
+ "cout_usd": 0.0033106999999999998,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

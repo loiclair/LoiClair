@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "futur_parent",
+    "raison": "Le texte vise directement les femmes et les couples engagés dans une tentative de FIV, donc des personnes qui ont un projet d'enfant. L'examen des chromosomes des embryons leur est proposé, avec un consentement écrit, et il change leurs choix concrets de parcours de procréation.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0005634349999999999,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

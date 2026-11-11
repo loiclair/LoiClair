@@ -1,0 +1,33 @@
+{
+ "impacts": [
+  {
+   "profil": "salarie_prive",
+   "passage": "Sur présentation d’un certificat médical attestant de symptômes incapacitants liés à leur condition médicale, les salariés atteints d’algie vasculaire de la face bénéficient d’un droit de trente jours d’arrêt de travail par an.",
+   "certitude": "certain",
+   "phrase_en": "Employees with cluster headaches would be entitled to thirty days of sick leave per year, on presentation of a medical certificate.",
+   "phrase_fr": "Les salariés atteints d’algie vasculaire de la face pourraient avoir droit à trente jours d’arrêt de travail par an, sur présentation d’un certificat médical."
+  },
+  {
+   "profil": "malade_chronique",
+   "passage": "Sur présentation d’un certificat médical attestant de symptômes incapacitants liés à leur condition médicale, les salariés atteints d’algie vasculaire de la face bénéficient d’un droit de trente jours d’arrêt de travail par an.",
+   "certitude": "probable",
+   "phrase_en": "People with cluster headaches could benefit from thirty days of sick leave per year with a medical certificate.",
+   "phrase_fr": "Les personnes atteintes d’algie vasculaire de la face pourraient bénéficier de trente jours d’arrêt de travail par an sur certificat médical."
+  },
+  {
+   "profil": "chef_entreprise",
+   "passage": "Ces jours d’arrêt peuvent être pris sans condition d’ancienneté et sans préavis, sur simple notification à l’employeur.",
+   "certitude": "possible",
+   "phrase_en": "Employers would have to accept affected employees taking these sick days without notice, on simple notification.",
+   "phrase_fr": "Les employeurs devraient accepter que les salariés concernés prennent ces jours d’arrêt sans préavis, sur simple notification."
+  },
+  {
+   "profil": "cdd_interim",
+   "passage": "Ces jours d’arrêt peuvent être pris sans condition d’ancienneté et sans préavis, sur simple notification à l’employeur.",
+   "certitude": "probable",
+   "phrase_en": "Short-contract employees could take these sick days without any seniority requirement or notice.",
+   "phrase_fr": "Les salariés en contrat court pourraient prendre ces jours d’arrêt sans condition d’ancienneté ni préavis."
+  }
+ ],
+ "resume_fr": null
+}

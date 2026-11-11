@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_education",
+    "raison": "Le texte vise les accompagnants d’élèves en situation de handicap : il prévoit leur intégration dans un corps de catégorie B et leur recrutement par concours.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "fonctionnaire",
+    "raison": "Les agents non titulaires concernés, notamment les contractuels des établissements publics, seraient nommés fonctionnaires stagiaires, sauf s’ils ne remplissent pas les conditions d’accès, auquel cas un CDI leur serait proposé.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0009459,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

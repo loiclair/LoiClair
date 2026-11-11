@@ -1,0 +1,26 @@
+{
+ "impacts": [
+  {
+   "profil": "fonctionnaire",
+   "phrase_fr": "Les accompagnants non titulaires exerçant dans les établissements scolaires seraient nommés fonctionnaires stagiaires dans un nouveau corps de catégorie B.",
+   "phrase_en": "Non-permanent accompanying staff working in schools would be appointed trainee civil servants in a new category B corps.",
+   "passage": "Les agents non titulaires exerçant dans des établissements d'enseignement publics ou privés sous contrat d'association au 1er septembre 2026 sont immédiatement nommés fonctionnaires stagiaires dans leur corps d'exercice.",
+   "certitude": "certain"
+  },
+  {
+   "profil": "secteur_education",
+   "phrase_fr": "Les accompagnants d’élèves en situation de handicap seraient recrutés par concours, puis affectés dans un département de leur académie.",
+   "phrase_en": "Accompanying staff for pupils with disabilities would be recruited by competitive exam and posted to a department within their academy.",
+   "passage": "Les accompagnants des élèves en situation de handicap sont recrutés par concours, organisés selon des modalités fixées par voie règlementaire, qui prévoient une affectation des lauréats dans l'un des départements de l'académie",
+   "certitude": "certain"
+  },
+  {
+   "profil": "cdd_interim",
+   "phrase_fr": "Les accompagnants non titulaires qui ne remplissent pas certaines conditions pourraient se voir proposer un contrat à durée indéterminée.",
+   "phrase_en": "Non-permanent accompanying staff who do not meet certain conditions would be offered a permanent contract.",
+   "passage": "Ceux de ces agents qui ne remplissent pas les conditions posées par les articles L. 321-1 à L. 312-3 du code général de la fonction publique se voient proposer un contrat de travail à durée indéterminée",
+   "certitude": "possible"
+  }
+ ],
+ "cout_usd": 0.00163461
+}

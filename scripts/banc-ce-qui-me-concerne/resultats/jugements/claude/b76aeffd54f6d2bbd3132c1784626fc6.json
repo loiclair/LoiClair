@@ -1,0 +1,35 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "auto_entrepreneur",
+    "raison": "La franchise de TVA des micro-entrepreneurs change : ils la perdent dès le dépassement du plafond en cours d'année, qui est de 27 500 €. Le seuil de 25 000 € ne vaut que pour l'année civile précédente, la phrase de l'assistant le présente à tort comme le plafond de perte de franchise.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "chef_entreprise",
+    "raison": "Les dirigeants de petites entreprises en franchise de TVA sont visés par la même règle. La phrase retient 25 000 € comme plafond déclenchant la perte de franchise, alors que le texte retient 27 500 € pour l'année en cours. « Plus tôt » n'est pas dans le texte.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "proprietaire_occupant",
+    "raison": "La mesure vise les travaux (chaudière pouvant brûler des énergies fossiles) quel que soit le client, sans mentionner le statut de propriétaire ni d'occupant. L'effet sur le prix passe par la facture de l'installateur, il est donc indirect.",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "secteur_btp",
+    "raison": "Le taux applicable aux travaux de rénovation avec chaudière fossile, et aux travaux de nettoyage et d'entretien des espaces verts dans les logements, passe au taux normal. C'est une obligation de facturation des professionnels du bâtiment, donc un effet direct sur leur métier. La phrase est fidèle au texte.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.003240935,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

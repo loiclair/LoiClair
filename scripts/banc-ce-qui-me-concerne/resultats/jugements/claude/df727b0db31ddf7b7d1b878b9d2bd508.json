@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "chef_entreprise",
+    "raison": "Non concerné : le crédit vise le cessionnaire d’une entreprise, sans viser spécifiquement les dirigeants de TPE ou PME. Être chef d’entreprise ne suffit pas à être cessionnaire.",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "heritier_donateur",
+    "raison": "Concerné : le texte prévoit explicitement les cessions à titre gratuit, donc les transmissions d’entreprise par donation, et attribue le crédit au cessionnaire.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0007729,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

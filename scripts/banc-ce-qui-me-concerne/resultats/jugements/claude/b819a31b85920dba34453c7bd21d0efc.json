@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "imposable",
+    "raison": "L’article 200 du CGI étend la réduction d’impôt sur les dons aux versements faits à des organismes répondant aux critères indiqués ; cela peut réduire l’impôt d’un foyer imposable qui effectue ces dons.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0003779,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

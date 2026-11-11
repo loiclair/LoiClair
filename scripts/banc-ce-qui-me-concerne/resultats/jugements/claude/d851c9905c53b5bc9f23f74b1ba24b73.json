@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "expat",
+    "raison": "L'article impose seulement de publier sur les sites des ambassades et postes consulaires les informations sur les mesures sanitaires d'urgence. Il ne vise pas les Français établis hors de France comme catégorie, et ne change ni leurs droits ni leurs obligations. Les restrictions de déplacement valent pour tous, quel que soit le lieu de résidence, et le déclencheur est l'urgence sanitaire, non le statut d'expatrié.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000621885,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

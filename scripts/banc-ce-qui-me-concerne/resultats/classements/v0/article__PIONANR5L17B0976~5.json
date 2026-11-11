@@ -1,0 +1,26 @@
+{
+ "impacts": [
+  {
+   "profil": "elu_local",
+   "passage": "du président de l’agglomération et des maires des communes concernés",
+   "certitude": "certain",
+   "phrase_en": "The agglomeration president and the mayors of the concerned communes would sit on a committee presenting an industrial transition plan for Vencorex.",
+   "phrase_fr": "Le président de l'agglomération et les maires des communes concernées siégeraient dans un comité qui présenterait un plan de transition industrielle pour Vencorex."
+  },
+  {
+   "profil": "syndique",
+   "passage": "des représentants des organisations syndicales de salariés de la société",
+   "certitude": "probable",
+   "phrase_en": "Union representatives of Vencorex France would sit on the committee that would prepare the company's industrial transition plan.",
+   "phrase_fr": "Les représentants syndicaux de Vencorex France siégeraient dans le comité qui préparerait le plan de transition industrielle de l'entreprise."
+  },
+  {
+   "profil": "salarie_prive",
+   "passage": "des représentants des organisations syndicales de salariés de la société",
+   "certitude": "possible",
+   "phrase_en": "Vencorex France employees would be represented, through their unions, on a committee preparing an industrial transition plan for the company.",
+   "phrase_fr": "Les salariés de Vencorex France seraient représentés, par leurs syndicats, dans un comité préparant un plan de transition industrielle pour l'entreprise."
+  }
+ ],
+ "resume_fr": null
+}

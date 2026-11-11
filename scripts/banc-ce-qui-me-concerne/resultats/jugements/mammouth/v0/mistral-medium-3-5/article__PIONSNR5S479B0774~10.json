@@ -1,0 +1,47 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "montagne",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article vise explicitement les territoires de montagne via la condition 3° qui mentionne la protection des 'espaces, des paysages et de l’environnement montagnard'. La dérogation s'applique donc aux opérations dans ces zones."
+   },
+   {
+    "profil": "secteur_hotellerie",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article concerne directement les opérations de création ou d'extension d'hébergements touristiques, ce qui inclut les acteurs du secteur de l'hôtellerie."
+   },
+   {
+    "profil": "rural",
+    "concerne": true,
+    "phrase_fidele": false,
+    "raison": "Le titre du dossier mentionne explicitement les 'territoires ruraux', et l'article s'applique aux opérations dans ces zones. La phrase proposée par l'assistant pour 'montagne' est fidèle, mais celle pour 'rural' n'a pas été proposée alors qu'elle est concernée."
+   },
+   {
+    "profil": "meuble_tourisme",
+    "concerne": true,
+    "phrase_fidele": false,
+    "raison": "L'article vise les 'hébergements touristiques', ce qui inclut les logements meublés de tourisme (type Airbnb, gîtes). Ce profil n'a pas été proposé par l'assistant."
+   },
+   {
+    "profil": "proprietaire_bailleur",
+    "concerne": false,
+    "phrase_fidele": false,
+    "raison": "L'article ne concerne pas spécifiquement les propriétaires bailleurs en général, mais seulement ceux qui créent ou étendent des hébergements touristiques. Le profil est trop large."
+   },
+   {
+    "profil": "coproprietaire",
+    "concerne": false,
+    "phrase_fidele": false,
+    "raison": "Aucun passage ne mentionne spécifiquement les copropriétaires. L'article vise les opérations de création ou d'extension, pas la copropriété en tant que telle."
+   }
+  ],
+  "oublis": [
+   "rural",
+   "meuble_tourisme"
+  ]
+ },
+ "cout_usd": 0.0093375
+}

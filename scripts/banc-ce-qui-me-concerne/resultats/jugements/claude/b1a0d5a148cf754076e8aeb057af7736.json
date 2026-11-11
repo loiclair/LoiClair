@@ -1,0 +1,29 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_education",
+    "raison": "Le texte modifie la discipline des enseignants-chercheurs et enseignants de l'enseignement supérieur agricole public : suspension par le ministre, composition des sections disciplinaires, récusation. Ces règles changent directement l'exercice de leur métier.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "fonctionnaire",
+    "raison": "La suspension par le ministre, sans privation de traitement, vise les membres du personnel de l'enseignement supérieur agricole public, c'est-à-dire des agents de l'État ou des contractuels de l'État.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "etudiant",
+    "raison": "Le texte retire les « usagers », donc les étudiants, de la composition des sections disciplinaires (art. L. 812-5 et L. 814-4), qui jugent les poursuites visant les étudiants. Ils perdent ainsi leur représentation dans ces instances.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0015759850000000002,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

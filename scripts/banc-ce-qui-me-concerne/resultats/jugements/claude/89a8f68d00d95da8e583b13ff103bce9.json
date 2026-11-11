@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "outre_mer",
+    "raison": "L'amendement vise expressément les résidents de Wallis-et-Futuna, collectivité d'outre-mer, pour leur moyen d'identification électronique : l'agence de santé remplace l'institution et le régime d'affiliation.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0029216999999999997,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

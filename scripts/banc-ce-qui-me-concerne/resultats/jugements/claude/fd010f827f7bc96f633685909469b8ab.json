@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "elu_local",
+    "raison": "Le texte impose explicitement une formation à l’adjoint au maire ou au conseiller municipal chargé des questions de sécurité civile, ainsi qu’au correspondant incendie et secours, lors de sa prise de fonction.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00019715,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "jeune",
+    "raison": "L'article relève de 21 à 25 ans la limite d'âge de l'accompagnement des jeunes sortant de l'aide sociale à l'enfance (L. 222-5-2) : il vise directement des jeunes de 18 à 25 ans.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0017447,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

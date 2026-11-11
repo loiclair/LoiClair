@@ -1,0 +1,12 @@
+{
+ "impacts": [
+  {
+   "profil": "emprunteur",
+   "phrase_fr": "Un crédit contesté pourrait ne plus être réclamé pendant 90 jours après notification au créancier, sans pénalités ni déchéance du terme pour ce seul défaut de paiement.",
+   "phrase_en": "A contested loan would not be pursued for 90 days after notice to the lender, with no penalties or early repayment demands for non-payment alone.",
+   "passage": "La notification au créancier ou à la personne chargée du recouvrement de l’attestation prévue à l’article 15‑3‑5 du code de procédure pénale suspend de plein droit, pendant quatre‑vingt‑dix jours à compter de sa réception, toute mesure de recouvrement amiable",
+   "certitude": "possible"
+  }
+ ],
+ "cout_usd": 0.00087381
+}

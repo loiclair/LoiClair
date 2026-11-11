@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "chef_entreprise",
+    "raison": "Le texte prévoit une peine pour le même employeur lorsque la violation est commise à l’égard de plusieurs personnes ; le profil inclut les dirigeants et employeurs de PME.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "dirigeant_grande_entreprise",
+    "raison": "La peine vise l’employeur sans distinction de taille d’entreprise ; elle concerne donc aussi les dirigeants de grandes entreprises employeurs.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0005399,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

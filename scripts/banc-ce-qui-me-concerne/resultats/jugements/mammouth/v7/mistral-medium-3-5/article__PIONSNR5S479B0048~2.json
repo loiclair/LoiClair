@@ -1,0 +1,28 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etranger_hors_ue",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "Le texte impose explicitement une condition de séjour de deux ans pour les étrangers hors UE pour accéder à certaines prestations familiales et allocations. La phrase est fidèle et utilise le conditionnel car le texte n'est pas encore adopté."
+   },
+   {
+    "profil": "age_dependant",
+    "concerne": false,
+    "phrase_fidele": false,
+    "raison": "L'article II mentionne une allocation (APA) mais ne précise pas explicitement qu'elle concerne les personnes âgées en perte d'autonomie. De plus, la phrase invente un lien avec l'APA alors que le texte parle d'une 'allocation mentionnée au premier alinéa' sans préciser laquelle. La condition de séjour s'applique à une allocation non spécifiée, pas nécessairement à l'APA."
+   },
+   {
+    "profil": "parent",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "Les prestations familiales (comme les allocations familiales) sont visées par l'article L. 512-2 du code de la sécurité sociale, modifié ici. Les parents étrangers hors UE sont donc concernés par la condition de séjour de deux ans pour ces prestations. La phrase est fidèle et utilise le conditionnel."
+   }
+  ],
+  "oublis": [
+   "etranger_ue"
+  ]
+ },
+ "cout_usd": 0.008994
+}

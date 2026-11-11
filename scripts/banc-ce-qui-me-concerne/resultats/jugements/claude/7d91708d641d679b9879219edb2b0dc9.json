@@ -1,0 +1,13 @@
+{
+ "jugement": {
+  "profils": [],
+  "oublis": [
+   "parent",
+   "famille_nombreuse",
+   "outre_mer"
+  ]
+ },
+ "cout_usd": 0.00057115,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

@@ -1,0 +1,28 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etudiant",
+    "raison": "Le texte vise directement les étudiants et fixe un ordre de priorité pour l’aide selon leur nationalité.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "etranger_ue",
+    "raison": "Les étudiants ressortissants d’un autre État de l’UE ou de l’EEE sont explicitement dans une catégorie priorisée après les étudiants français.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "etranger_hors_ue",
+    "raison": "Le texte prévoit une priorité pour les étudiants ressortissants d’un État ayant un accord ou une convention d’accueil des étudiants avec la France. En revanche, il ne dit pas que tous les autres étudiants hors UE seront servis en dernier, ni que l’accord est une condition pour recevoir l’aide.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00046065,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

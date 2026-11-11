@@ -1,0 +1,33 @@
+{
+ "impacts": [
+  {
+   "profil": "auto_entrepreneur",
+   "phrase_fr": "Les micro-entrepreneurs qui dépassent le plafond de chiffre d'affaires perdent la franchise de TVA dès la date du dépassement, avec un plafond abaissé à 25 000 euros.",
+   "phrase_en": "Micro-entrepreneurs who exceed the revenue ceiling lose the VAT exemption from the date of exceeding it, with the ceiling lowered to 25,000 euros.",
+   "passage": "Lorsque le plafond de chiffre d'affaires prévu pour les opérations de l'année en cours est dépassé, la franchise mentionnée au I cesse de s'appliquer aux opérations intervenant à compter de la date du dépassement.",
+   "certitude": "certain"
+  },
+  {
+   "profil": "chef_entreprise",
+   "phrase_fr": "Les petites entreprises en franchise de TVA perdent cette franchise plus tôt, dès dépassement du nouveau plafond de chiffre d'affaires fixé à 25 000 euros.",
+   "phrase_en": "Small businesses under the VAT exemption lose it sooner, once they exceed the new revenue ceiling set at 25,000 euros.",
+   "passage": "Lorsque le plafond de chiffre d'affaires prévu pour les opérations de l'année en cours est dépassé, la franchise mentionnée au I cesse de s'appliquer aux opérations intervenant à compter de la date du dépassement.",
+   "certitude": "probable"
+  },
+  {
+   "profil": "proprietaire_occupant",
+   "phrase_fr": "Les travaux de rénovation énergétique incluant une chaudière pouvant brûler des énergies fossiles seraient facturés au taux normal de TVA de 20 %.",
+   "phrase_en": "Energy renovation work including a boiler that can run on fossil fuels would be charged the standard 20% VAT rate.",
+   "passage": "le taux prévu à l'article 278 s'applique aux prestations de rénovation énergétique comprenant la fourniture ou l'installation d'une chaudière susceptible d'utiliser des combustibles fossiles.",
+   "certitude": "probable"
+  },
+  {
+   "profil": "secteur_btp",
+   "phrase_fr": "Les travaux de rénovation avec chaudière fossile et certains travaux de nettoyage ou d'entretien des espaces verts passent au taux normal de TVA de 20 %.",
+   "phrase_en": "Renovation work with a fossil-fuel boiler and certain cleaning or garden maintenance work move to the standard 20% VAT rate.",
+   "passage": "Les travaux comprenant la fourniture ou l'installation d'une chaudière susceptible d'utiliser des combustibles fossiles.",
+   "certitude": "probable"
+  }
+ ],
+ "cout_usd": 0.00147941
+}

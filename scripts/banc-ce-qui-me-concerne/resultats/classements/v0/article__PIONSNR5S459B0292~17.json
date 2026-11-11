@@ -1,0 +1,19 @@
+{
+ "impacts": [
+  {
+   "profil": "patrimoine_ifi",
+   "passage": "III. – La contribution exceptionnelle est calculée en appliquant à l’assiette définie au II un taux de 0,5 % sur la fraction comprise entre 5 et 100 millions d’euros, 1 % sur la fraction comprise entre 100 millions d’euros et un milliard d’euros, 2 % sur la fraction excédant un milliard d’euros.",
+   "certitude": "probable",
+   "phrase_en": "Net assets above 5 million euros would be subject to a yearly progressive contribution of 0.5% to 2%.",
+   "phrase_fr": "Les patrimoines nets supérieurs à 5 millions d'euros seraient soumis à une contribution annuelle progressive, de 0,5 % à 2 %."
+  },
+  {
+   "profil": "parent",
+   "passage": "ainsi qu’à leurs enfants mineurs lorsqu’elles ont l’administration légale des biens de ceux-ci.",
+   "certitude": "certain",
+   "phrase_en": "Your minor children's assets would count toward your taxable wealth if you hold their legal administration.",
+   "phrase_fr": "Les biens de vos enfants mineurs seraient comptés dans votre patrimoine taxable si vous en avez l'administration légale."
+  }
+ ],
+ "resume_fr": null
+}

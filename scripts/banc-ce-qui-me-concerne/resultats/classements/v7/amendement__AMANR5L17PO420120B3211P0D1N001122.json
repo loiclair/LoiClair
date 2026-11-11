@@ -1,0 +1,22 @@
+{
+ "resume_fr": "Exigerait un an de résidence en France pour les prestations familiales des étrangers hors UE, sauf réfugiés et apatrides ; porterait à trois ans un délai à Mayotte.",
+ "resume_en": "Would require one year of residence in France for family benefits of non-EU foreigners, except refugees and stateless persons; would raise a Mayotte delay from two to three years.",
+ "impacts": [
+  {
+   "profil": "etranger_hors_ue",
+   "passage": "",
+   "certitude": "certain"
+  },
+  {
+   "profil": "parent",
+   "passage": "",
+   "certitude": "probable"
+  },
+  {
+   "profil": "outre_mer",
+   "passage": "",
+   "certitude": "probable"
+  }
+ ],
+ "cout_usd": 0.00165027
+}

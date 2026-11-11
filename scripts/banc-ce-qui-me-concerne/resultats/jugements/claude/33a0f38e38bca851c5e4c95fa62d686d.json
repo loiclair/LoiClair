@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "joueur",
+    "raison": "L’ajout étend le champ des pratiques en ligne visées par l’article 34 ; il ne vise pas directement les personnes qui jouent.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0009849,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

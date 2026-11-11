@@ -1,0 +1,33 @@
+{
+ "impacts": [
+  {
+   "profil": "residence_secondaire",
+   "passage": "majorer d’un pourcentage compris entre 5 % et 60 % la part lui revenant de la cotisation de taxe d’habitation sur les résidences secondaires prévue aux articles 1407 et 1407 bis.",
+   "certitude": "certain",
+   "phrase_en": "Communes would be able to raise the housing tax on your second home by 5% to 60% if you do not rent it year-round.",
+   "phrase_fr": "Les communes pourraient majorer de 5 % à 60 % la taxe d'habitation sur les résidences secondaires que vous ne louez pas à l'année."
+  },
+  {
+   "profil": "meuble_tourisme",
+   "passage": "Pour l’application de la taxe, est considéré comme vacant un logement dont la durée d’occupation est inférieure à quatre‑vingt‑dix jours au cours de la période de référence définie au présent alinéa.",
+   "certitude": "probable",
+   "phrase_en": "A furnished short-term rental occupied fewer than 90 days a year would be treated as vacant and could be taxed.",
+   "phrase_fr": "Un logement loué en courte durée, occupé moins de 90 jours par an, pourrait être considéré comme vacant et taxé."
+  },
+  {
+   "profil": "grande_ville",
+   "passage": "dans les communes où il existe un déséquilibre marqué entre l’offre et la demande de logements entraînant des difficultés sérieuses d’accès au logement",
+   "certitude": "probable",
+   "phrase_en": "Communes with strained housing markets would be able to raise the housing tax on second homes.",
+   "phrase_fr": "Les communes en forte tension sur le logement pourraient majorer la taxe d'habitation sur les résidences secondaires."
+  },
+  {
+   "profil": "proprietaire_bailleur",
+   "passage": "les mots : « depuis plus de deux années » sont remplacés par les mots : « depuis plus d’une année »",
+   "certitude": "possible",
+   "phrase_en": "The vacant housing tax would apply after one year of vacancy instead of two years.",
+   "phrase_fr": "La taxe sur les logements vacants pourrait s'appliquer après un an de vacance au lieu de deux ans."
+  }
+ ],
+ "resume_fr": null
+}

@@ -1,0 +1,20 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_education",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'amendement supprime la possibilité pour l'administration de retirer la protection fonctionnelle en cas de faute personnelle pour les personnels de l'éducation victimes d'agressions, menaces ou violences."
+   },
+   {
+    "profil": "fonctionnaire",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "Les personnels visés par ces règles du code de l'éducation sont des agents publics et fonctionnaires de l'Éducation nationale."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00608775
+}

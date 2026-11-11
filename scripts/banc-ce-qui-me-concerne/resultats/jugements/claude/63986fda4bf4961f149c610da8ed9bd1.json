@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etranger_hors_ue",
+    "raison": "L'article 1018 A du CGI fixe les droits fixes de procédure dus par les personnes condamnées (tribunal de police, tribunal correctionnel, cour d'appel, cour d'assises), pas des droits sur les titres de séjour. Rien dans le texte ne vise les étrangers hors UE.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0062977,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

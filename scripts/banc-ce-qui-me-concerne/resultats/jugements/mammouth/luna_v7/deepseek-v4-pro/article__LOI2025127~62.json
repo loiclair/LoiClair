@@ -1,0 +1,26 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "expat",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article vise explicitement les personnes qui se prévalent d'une fausse domiciliation fiscale à l'étranger, qui sont nécessairement des expatriés ou des personnes se prétendant tels."
+   },
+   {
+    "profil": "imposable",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article traite du droit de reprise de l'administration en matière fiscale, ce qui affecte directement les obligations de contrôle des personnes imposables."
+   },
+   {
+    "profil": "patrimoine_ifi",
+    "concerne": false,
+    "phrase_fidele": false,
+    "raison": "Le texte ne mentionne pas spécifiquement les personnes assujetties à l'IFI, bien que l'IFI soit un impôt, il n'est pas ciblé ici."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0017836
+}

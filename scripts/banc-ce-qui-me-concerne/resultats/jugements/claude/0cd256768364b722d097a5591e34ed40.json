@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_education",
+    "raison": "La suspension vise directement les membres du personnel de l'enseignement supérieur agricole public, donc le métier d'enseignant et de chercheur de ce secteur. Le texte nomme ce secteur et change les obligations de ceux qui y travaillent.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "fonctionnaire",
+    "raison": "Le texte vise les personnels publics de l'enseignement supérieur agricole, agents de l'État, et le mot « traitement » renvoie au régime des agents publics. La suspension sans privation de traitement les concerne directement.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0006532850000000001,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

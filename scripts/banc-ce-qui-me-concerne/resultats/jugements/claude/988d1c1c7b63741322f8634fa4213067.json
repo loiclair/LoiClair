@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "usager_transports",
+    "raison": "Le texte autorise des caméras frontales filmant la voie publique devant le matériel roulant, avec information du public par signalétique. Les voyageurs ne sont pas filmés à l'intérieur, et la mesure ne leur crée aucun droit ni obligation propre. L'effet direct visé est sur les opérateurs et le personnel de conduite.",
+    "concerne": false,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "secteur_transport",
+    "raison": "L'article autorise les opérateurs de transports guidés urbains à embarquer des caméras. Il fixe les finalités (formation du personnel de conduite), la durée de conservation et l'information du public. Cela change les règles d'exercice et les obligations des opérateurs et de leur personnel de conduite.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0034517,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

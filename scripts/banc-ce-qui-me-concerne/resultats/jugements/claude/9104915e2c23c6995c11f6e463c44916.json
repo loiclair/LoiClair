@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "mineur",
+    "raison": "Le texte vise les infractions sexuelles commises sur une personne mineure au moment des faits. Un mineur victime de ces infractions voit le délai de prescription courir à compter de sa révélation, avec une durée de 20 ans pour les délits et 30 ans pour les crimes.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000530485,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

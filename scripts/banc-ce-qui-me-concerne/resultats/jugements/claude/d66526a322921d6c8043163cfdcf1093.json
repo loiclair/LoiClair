@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "forces_ordre",
+    "raison": "La disposition qualifie juridiquement le survol d’une emprise militaire de menace imminente pour la défense nationale, pour l’application d’un mécanisme de sécurité intérieure susceptible de concerner les militaires.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000385775,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

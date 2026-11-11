@@ -1,0 +1,16 @@
+psycopg[binary]==3.3.8
+requests==2.34.2
+python-dotenv==1.2.4
+tqdm==4.70.1
+lxml==6.1.3
+
+# Modèles IA : Mammouth par son API compatible OpenAI (import_cc_decisions.py),
+# Anthropic pour les fiches courtes (generate_search_summaries.py), le classement
+# « Ce qui me concerne » (classer_articles.py) et les titres anglais (traduire_titres.py)
+openai==3.46.0
+anthropic==2.6.0
+
+# Lecture des textes sources de generate_search_summaries.py
+beautifulsoup4==4.15.0
+pdfplumber==0.11.10
+feedparser==6.0.14

@@ -1,0 +1,12 @@
+{
+ "impacts": [
+  {
+   "profil": "heritier_donateur",
+   "phrase_fr": "Les règles de calcul des droits sur les donations et les successions évolueraient, notamment avec de nouveaux seuils et un abattement de 200 000 euros.",
+   "phrase_en": "The rules for calculating tax on gifts and inheritances would change, including new thresholds and a €200,000 allowance.",
+   "passage": "« 100 000 € sur la part de chacun des ascendants et sur la part de chacun des enfants vivants ou représentés par suite de prédécès ou de renonciation » sont remplacés par les mots : « 200 000 euros dans les conditions mentionnés à l’article 784 du présent code. »",
+   "certitude": "certain"
+  }
+ ],
+ "cout_usd": 0.0004056
+}

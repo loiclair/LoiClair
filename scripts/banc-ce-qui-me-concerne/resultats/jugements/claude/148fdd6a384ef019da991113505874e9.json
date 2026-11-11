@@ -1,0 +1,25 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "residence_secondaire",
+    "raison": "L'article 1407 ter majoré de 5 % à 60 % la taxe d'habitation sur les résidences secondaires dans les communes en zone tendue : les propriétaires de résidence secondaire sont directement visés.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "meuble_tourisme",
+    "raison": "Le texte définit la vacance par une occupation inférieure à 90 jours, sans mentionner la location meublée de courte durée. Il ne vise pas les loueurs de meublés de tourisme, et la taxe sur les logements vacants dépend du critère de vacance, pas de ce profil. La phrase ajoute aussi que le logement est « loué » et « meublé », ce que le texte ne dit pas.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": [
+   "proprietaire_bailleur"
+  ]
+ },
+ "cout_usd": 0.0034787,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

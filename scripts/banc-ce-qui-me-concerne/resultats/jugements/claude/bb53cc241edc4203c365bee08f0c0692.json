@@ -1,0 +1,35 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "parent",
+    "raison": "Le 4° du 222-1 A vise les infractions commises par un parent sur son enfant. L'amendement range donc parmi les violences intrafamiliales le non-paiement de pension alimentaire (227-3) et les actes qui bloquent son versement (227-4). Le parent débiteur de pension est directement visé.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "separe_divorce",
+    "raison": "Le 2° vise l'ancien conjoint, l'ancien partenaire lié par un PACS ou l'ancien concubin, c'est-à-dire une personne divorcée ou séparée. Les escroqueries, abus de confiance, chantages ou vols de documents indispensables commis dans ce cadre deviennent des violences intrafamiliales.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "marie_pacse",
+    "raison": "Le 1° vise le conjoint ou le partenaire lié par un PACS. Une personne mariée ou pacsée est donc visée par les infractions économiques commises par son conjoint ou contre lui, qui deviennent des violences intrafamiliales. La phrase de l'assistant reste fidèle, même si « le vol » est en réalité limité aux objets et documents indispensables.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "concubin",
+    "raison": "Le 1° vise aussi le concubin. Une personne en union libre est donc visée par les infractions économiques commises par son concubin ou contre lui, qui deviennent des violences intrafamiliales. La phrase de l'assistant reste fidèle, même si « le vol » est en réalité limité aux objets et documents indispensables.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.002171985,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etranger_hors_ue",
+    "raison": "Le texte vise directement « l’étranger » et lui accorde, sous conditions, une autorisation provisoire de séjour ouvrant droit au travail ; cela concerne les étrangers hors UE vivant en France.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00067915,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

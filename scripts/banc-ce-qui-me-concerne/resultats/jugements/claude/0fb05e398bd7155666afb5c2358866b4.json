@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "elu_local",
+    "raison": "La règle vise directement la désignation des adjoints parmi les conseillers municipaux en cas de vacance dans les communes de moins de 1 000 habitants.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "rural",
+    "raison": "Le texte fixe le critère à la population de la commune, pas à son caractère rural ; une commune de moins de 1 000 habitants n’est pas nécessairement rurale.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0004224,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

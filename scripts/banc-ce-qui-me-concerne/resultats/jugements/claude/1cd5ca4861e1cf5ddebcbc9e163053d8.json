@@ -1,0 +1,29 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "veuf",
+    "raison": "La mesure ouvre la demi-part fiscale aux veuves de titulaires du titre de reconnaissance de la Nation. La situation de veuve, combinée au titre du conjoint, déclenche l'avantage.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "ancien_combattant",
+    "raison": "Les bénéficiaires sont des veuves de titulaires du TRN, que l'exposé désigne comme « veuves de combattants ». Elles sont donc membres de la famille d'un ancien combattant au sens large.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "imposable",
+    "raison": "La demi-part réduirait l'impôt des foyers qui en bénéficient, mais le texte ne vise pas les foyers imposables. Il vise les veuves de titulaires du TRN, qu'elles paient l'impôt ou non.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.001273385,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

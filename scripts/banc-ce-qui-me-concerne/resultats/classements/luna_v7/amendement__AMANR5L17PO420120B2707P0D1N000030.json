@@ -1,0 +1,12 @@
+{
+ "resume_fr": "Permettrait à l’inspecteur du travail d’autoriser, sous conditions de sécurité et après un délai réglementaire, une entreprise à accueillir un stagiaire ou un apprenti.",
+ "resume_en": "Would allow the labour inspector to authorize a company to host an intern or apprentice after a regulatory waiting period, provided safety conditions are met.",
+ "impacts": [
+  {
+   "profil": "apprenti_alternant",
+   "passage": "Après une durée et dans des conditions déterminées par voie réglementaire, l’inspecteur de travail peut autoriser une entreprise concernée par le présent alinéa à conclure un contrat d'apprentissage lorsque celle-ci présente les garanties suffisantes en matière de sécurité et de protection de la santé des travailleurs pour l’accueil d’un apprenti.",
+   "certitude": "certain"
+  }
+ ],
+ "cout_usd": 0.000404475
+}

@@ -1,0 +1,31 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etranger_hors_ue",
+    "raison": "L'article change la durée et le type des cartes de séjour délivrées aux étrangers (conjoint de titulaire d'une carte de résident, enfant dont un parent a une carte de résident). Ces personnes sont des ressortissants hors UE titulaires d'un titre de séjour, et la mesure change directement la durée de leur carte. Le texte n'est pas adopté, d'où le conditionnel respecté.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "mineur",
+    "raison": "Le 3° vise l'étranger de 16 à 18 ans dont l'un des parents est titulaire d'une carte de résident, qui peut recevoir une carte pluriannuelle de quatre ans s'il remplit les conditions de l'article L. 421-35. Le critère d'âge déclenche la mesure et la mineure change directement son droit au séjour.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "jeune",
+    "raison": "Le 3° vise aussi la personne dans l'année suivant son dix-huitième anniversaire, tranche d'âge qui relève du profil jeune (18 à 25 ans). Mais la phrase de l'assistant dit « À partir de 18 ans », alors que le texte limite le droit à l'année suivant le dix-huitième anniversaire. Elle omet aussi la condition de l'article L. 421-35 qui peut s'appliquer.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": [
+   "marie_pacse"
+  ]
+ },
+ "cout_usd": 0.001674535,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

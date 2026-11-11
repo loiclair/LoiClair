@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "elu_local",
+    "raison": "Le texte impose une formation à l’adjoint au maire ou au conseiller municipal chargé de la sécurité civile, qui sont des élus locaux.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000169025,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

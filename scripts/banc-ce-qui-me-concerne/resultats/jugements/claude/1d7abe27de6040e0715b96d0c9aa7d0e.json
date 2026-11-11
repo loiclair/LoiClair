@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "chef_entreprise",
+    "raison": "Le texte impose une obligation à l’entrepreneur principal, sans viser les dirigeants de TPE ou PME en tant que tels ni distinguer la taille de l’entreprise.",
+    "concerne": false,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "secteur_btp",
+    "raison": "L’article modifie la règle générale de sous-traitance sans nommer le BTP ; l’obligation dépend du rôle d’entrepreneur principal, pas du secteur d’activité.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00120065,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

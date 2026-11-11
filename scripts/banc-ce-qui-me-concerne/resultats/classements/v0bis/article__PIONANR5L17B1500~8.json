@@ -1,0 +1,19 @@
+{
+ "impacts": [
+  {
+   "profil": "secteur_agriculture",
+   "phrase_fr": "Les personnes dont les cultures sont endommagées par le grand gibier seraient indemnisées selon un barème national fixé par décret, avec un recours tranché par une commission.",
+   "phrase_en": "Farmers whose crops are damaged by large game would be compensated under a national scale set by decree, with disputes decided by a commission.",
+   "passage": "propose une indemnité aux réclamants selon un barème national d’indemnisation",
+   "certitude": "probable"
+  },
+  {
+   "profil": "chasseur_pecheur",
+   "phrase_fr": "Les fédérations départementales de chasseurs aideraient à instruire les demandes d’indemnisation des dégâts de grand gibier.",
+   "phrase_en": "Hunting federations would help process compensation claims for large game damage.",
+   "passage": "avec le concours des fédérations départementales des chasseurs",
+   "certitude": "probable"
+  }
+ ],
+ "cout_usd": 0.00095835
+}

@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "epargnant",
+    "raison": "Le texte crée un livret d'épargne nouveau, ouvert aux personnes physiques domiciliées fiscalement en France, avec un plafond de versements. Un épargnant peut donc ouvrir ce livret, ce qui change directement ses choix d'épargne. La finalité rurale est inférée du nom du livret et de la référence au code rural, sans être énoncée.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "marie_pacse",
+    "raison": "L'article fixe une règle propre aux couples mariés ou pacsés soumis à une imposition commune : un livret par contribuable, ou un livret pour chacun des époux ou partenaires. Cette règle limite directement le nombre de livrets que ces personnes peuvent détenir.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0007950349999999999,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

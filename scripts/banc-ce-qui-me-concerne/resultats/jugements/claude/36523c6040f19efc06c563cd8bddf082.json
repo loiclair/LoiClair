@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "chef_entreprise",
+    "raison": "Le texte vise les cédants et repreneurs d'entreprises (individuelles, sociétés de personnes ou de capitaux) : le repreneur obtient un crédit d'impôt et s'engage à maintenir l'activité cinq ans, ce qui touche directement les dirigeants de PME.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "heritier_donateur",
+    "raison": "Les cessions à titre gratuit (donation, succession) d'entreprises ouvrent droit au crédit d'impôt, donc le bénéficiaire d'une transmission gratuite est visé. Le texte couvre aussi les cessions onéreuses, mais le volet gratuit relève bien du profil.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0031796999999999997,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

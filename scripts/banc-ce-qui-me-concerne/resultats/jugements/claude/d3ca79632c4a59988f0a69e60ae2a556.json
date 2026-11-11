@@ -1,0 +1,28 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "malade_chronique",
+    "raison": "Le texte vise une affection grave et incurable engageant le pronostic vital, en phase avancée ou terminale. Le profil « malade chronique » ne couvre pas spécifiquement cette situation.",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "etranger_hors_ue",
+    "raison": "Le texte permet l’accès aux personnes qui résident de façon stable et régulière en France, ce qui vise aussi les étrangers hors UE résidant en France.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "etranger_ue",
+    "raison": "Le texte permet l’accès aux personnes qui résident de façon stable et régulière en France, ce qui vise aussi les ressortissants de l’UE vivant en France.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0005559,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

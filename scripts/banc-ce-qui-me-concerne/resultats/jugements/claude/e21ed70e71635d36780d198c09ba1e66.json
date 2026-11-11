@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_agriculture",
+    "raison": "L'amendement relève de 80 % à 100 % le crédit d'impôt de l'article 200 undecies pour le remplacement en cas de maladie, d'accident du travail ou de formation. L'exposé vise les agricultrices et agriculteurs, donc le secteur agriculture est concerné. Le remplacement de l'exploitant agricole est directement visé.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0087647,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

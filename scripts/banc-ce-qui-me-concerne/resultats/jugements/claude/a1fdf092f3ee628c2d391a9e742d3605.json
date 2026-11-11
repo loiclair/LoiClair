@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "mineur",
+    "raison": "L'article vise directement les personnes mineures relevant des 2° et 3° de l'article 375-3 du code civil (mineurs confiés à un proche, un tiers digne de confiance ou à l'aide sociale à l'enfance) : ils pourraient bénéficier à titre personnel de la protection complémentaire santé, ce qui change leurs droits.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0021787,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

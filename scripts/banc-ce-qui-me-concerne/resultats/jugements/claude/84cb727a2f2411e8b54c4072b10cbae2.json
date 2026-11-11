@@ -1,0 +1,28 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "salarie_prive",
+    "raison": "Le régime vise les personnes mentionnées aux articles L. 311-2 et L. 311-3 et prévoit des cotisations salariales, partagées à parts égales avec les employeurs.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "chef_entreprise",
+    "raison": "Le texte met explicitement la moitié des cotisations à la charge des employeurs concernés ; cela vise les employeurs dirigeants de petites et moyennes entreprises ayant des salariés relevant du régime.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "dirigeant_grande_entreprise",
+    "raison": "Le texte met explicitement la moitié des cotisations à la charge des employeurs concernés ; cela vise aussi les employeurs dirigeants de grandes entreprises ayant des salariés relevant du régime.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000745025,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

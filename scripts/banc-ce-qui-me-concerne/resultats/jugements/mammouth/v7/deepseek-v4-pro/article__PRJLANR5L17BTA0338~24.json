@@ -1,0 +1,41 @@
+{
+ "jugement": {
+  "profils": [],
+  "oublis": [
+   "secteur_sante",
+   "secteur_education",
+   "secteur_artisanat_commerce",
+   "fonctionnaire",
+   "elu_local",
+   "allocataire",
+   "handicap",
+   "malade_chronique",
+   "aidant",
+   "age_dependant",
+   "senior",
+   "mineur",
+   "jeune",
+   "salarie_prive",
+   "independant",
+   "auto_entrepreneur",
+   "chef_entreprise",
+   "salarie_particulier",
+   "apprenti_alternant",
+   "etudiant",
+   "cdd_interim",
+   "demandeur_emploi",
+   "retraite",
+   "travailleur_plateforme",
+   "forces_ordre",
+   "secteur_culture",
+   "secteur_btp",
+   "secteur_hotellerie",
+   "secteur_transport",
+   "secteur_numerique",
+   "secteur_industrie",
+   "secteur_finance",
+   "secteur_agriculture"
+  ]
+ },
+ "cout_usd": 0.001573
+}

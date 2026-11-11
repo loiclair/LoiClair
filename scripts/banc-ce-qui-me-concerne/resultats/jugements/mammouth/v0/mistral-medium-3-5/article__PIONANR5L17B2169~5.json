@@ -1,0 +1,42 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "mineur",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "Le texte prévoit explicitement que le juge des violences sexistes et sexuelles intervient pour les modalités d’exercice de l’autorité parentale lorsqu’un mineur est victime de violences de la part d’un ascendant. Cela concerne directement les mineurs victimes."
+   },
+   {
+    "profil": "parent",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "Le texte vise les parents (ascendants) auteurs de violences sur leur enfant, ce qui les concerne directement. La phrase de l'assistant est fidèle au texte."
+   },
+   {
+    "profil": "separe_divorce",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "Le texte mentionne explicitement les violences commises par un ancien conjoint, ancien concubin ou ancien partenaire de PACS, ce qui concerne directement les personnes séparées ou divorcées."
+   },
+   {
+    "profil": "concubin",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "Le texte cite explicitement les violences commises par un concubin, même sans cohabitation, ce qui concerne directement ce profil."
+   },
+   {
+    "profil": "marie_pacse",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "Le texte cite explicitement les violences commises par un conjoint ou un partenaire de PACS, même sans cohabitation, ce qui concerne directement ce profil."
+   }
+  ],
+  "oublis": [
+   "famille_nombreuse",
+   "futur_parent",
+   "parent_isole"
+  ]
+ },
+ "cout_usd": 0.010764
+}

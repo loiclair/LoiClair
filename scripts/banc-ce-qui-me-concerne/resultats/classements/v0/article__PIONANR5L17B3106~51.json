@@ -1,0 +1,26 @@
+{
+ "impacts": [
+  {
+   "profil": "secteur_sante",
+   "passage": "ou lorsque le professionnel de santé fait l’objet d’une mise en examen en lien avec l’exercice de sa profession",
+   "certitude": "certain",
+   "phrase_en": "A health professional charged with offences linked to their work could be suspended from practice by the regional health agency.",
+   "phrase_fr": "Un professionnel de santé mis en examen pour des faits liés à son métier pourrait être suspendu de ses fonctions par l'agence régionale de santé."
+  },
+  {
+   "profil": "independant",
+   "passage": "dans tout autre lieu où ils réalisent des soins, à quelque titre que ce soit",
+   "certitude": "probable",
+   "phrase_en": "A self-employed health professional could also be suspended if charged with offences linked to their practice, when providing care outside a facility.",
+   "phrase_fr": "Un professionnel de santé libéral pourrait aussi être suspendu s'il est mis en examen pour des faits liés à son activité, s'il réalise des soins hors d'un établissement."
+  },
+  {
+   "profil": "etudiant",
+   "passage": "Les élèves et les étudiants des établissements préparant aux professions de santé",
+   "certitude": "certain",
+   "phrase_en": "Health students and trainees could be affected by the suspension measure provided for in case of charges being brought.",
+   "phrase_fr": "Les élèves et étudiants en santé pourraient être concernés par la mesure de suspension prévue en cas de mise en examen."
+  }
+ ],
+ "resume_fr": null
+}

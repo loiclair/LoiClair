@@ -1,0 +1,29 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "malade_chronique",
+    "raison": "Le texte vise les personnes atteintes d'une affection grave et incurable en phase avancée ou terminale, avec souffrance réfractaire. La règle 8 exclut du profil malade_chronique la condition de maladie incurable en phase terminale, qui n'est pas la maladie de longue durée avec soins réguliers.",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "etranger_hors_ue",
+    "raison": "La condition de résidence stable et régulière vaut pour tous les habitants, de nationalité française ou non. Le texte ne désigne pas les étrangers hors UE (règle 7).",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "etranger_ue",
+    "raison": "La condition de résidence stable et régulière vaut pour tous les habitants. Le texte ne vise pas les ressortissants de l'UE en particulier (règle 7).",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0033997,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

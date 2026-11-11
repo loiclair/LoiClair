@@ -1,0 +1,77 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "salarie_particulier",
+    "raison": "L'art. L. 421-3-1 subordonne l'agrément d'assistant maternel au certificat, et l'art. L. 1221-8 vise les salariés employés par un particulier employeur ou payés en CESU.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "particulier_employeur",
+    "raison": "L'art. L. 1221-8 impose à l'employeur, y compris le particulier employeur, de vérifier le certificat avant l'embauche d'un salarié exerçant auprès de mineurs.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "chef_entreprise",
+    "raison": "L'art. L. 1221-8 impose à tout employeur de vérifier le certificat avant embauche ou affectation, ce qui vise les dirigeants de PME.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "dirigeant_grande_entreprise",
+    "raison": "L'obligation de vérification pèse sur tout employeur, donc aussi sur les dirigeants de grandes entreprises.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "salarie_prive",
+    "raison": "L'art. L. 1221-8 vise les salariés exerçant une activité auprès de mineurs, qui doivent détenir le certificat, notamment dans une entreprise ou association privée.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "benevole",
+    "raison": "L'art. L. 911-5 IV vise les personnes intervenant bénévolement auprès des élèves, et l'art. L. 133-6-1 couvre les activités exercées à titre non professionnel.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "secteur_sante",
+    "raison": "L'art. L. 4113-13-1 impose le certificat à tous les professionnels de santé et aux intervenants des structures de santé auprès de mineurs, ce qui change les règles d'exercice du métier.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "independant",
+    "raison": "L'art. L. 4113-13-1 I vise expressément l'exercice à titre libéral de toute activité de soins auprès de mineurs, donc les professionnels de santé libéraux.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "etudiant",
+    "raison": "L'art. L. 4113-13-1 III vise expressément les étudiants intervenant auprès de mineurs dans les structures de santé.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "apprenti_alternant",
+    "raison": "L'art. L. 4113-13-1 III vise expressément les stagiaires intervenant auprès de mineurs dans les structures de santé, et le profil inclut les stagiaires.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "secteur_education",
+   "secteur_culture",
+   "fonctionnaire",
+   "forces_ordre",
+   "pompier_volontaire"
+  ]
+ },
+ "cout_usd": 0.009759700000000001,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

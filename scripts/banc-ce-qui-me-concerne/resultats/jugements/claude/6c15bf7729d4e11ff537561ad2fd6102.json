@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "imposable",
+    "raison": "L'article 199 undecies B du CGI est une réduction d'impôt sur le revenu. L'extension à Wallis-et-Futuna, à la Nouvelle-Calédonie et aux Terres australes change directement le montant d'impôt que peut réduire un foyer imposable qui investit dans ces territoires à partir du 1er janvier 2025.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000801885,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

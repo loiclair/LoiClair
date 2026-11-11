@@ -1,0 +1,19 @@
+{
+ "impacts": [
+  {
+   "profil": "heritier_donateur",
+   "phrase_fr": "Les dons d’argent faits entre le 1er janvier et le 30 juin 2027 seraient taxés au taux unique de 6 %, dans la limite de 100 000 euros.",
+   "phrase_en": "Money gifts made between 1 January and 30 June 2027 would be taxed at a flat 6%, up to 100,000 euros.",
+   "passage": "Les dons de sommes d’argent consentis en pleine propriété entre le 1er janvier 2027 et le 30 juin 2027 au profit d’un enfant, d’un petit-enfant, d’un arrière-petit-enfant ou, à défaut d’une telle descendance, d’un neveu ou d’une nièce",
+   "certitude": "certain"
+  },
+  {
+   "profil": "jeune",
+   "phrase_fr": "Les donataires âgés de 18 à moins de 50 ans pourraient recevoir ces dons taxés à 6 %, voire à 5 % avec un versement à une association.",
+   "phrase_en": "Donees aged 18 to under 50 could receive these gifts taxed at 6%, or 5% with a payment to an association.",
+   "passage": "âgé de dix-huit ans révolus ou ayant fait l’objet d’une mesure d’émancipation et de moins de cinquante ans au jour de la transmission",
+   "certitude": "probable"
+  }
+ ],
+ "cout_usd": 0.00100311
+}

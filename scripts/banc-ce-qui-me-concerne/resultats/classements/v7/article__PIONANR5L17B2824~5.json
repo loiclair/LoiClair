@@ -1,0 +1,33 @@
+{
+ "impacts": [
+  {
+   "profil": "mineur",
+   "phrase_fr": "Les enfants de moins de treize ans ne pourraient être embauchés dans une entreprise de cinéma qu'après avis favorables d'un médecin, d'un psychologue et d'un comité.",
+   "phrase_en": "Children under thirteen would only be hired by a film company after favourable opinions from a doctor, a psychologist and a committee.",
+   "passage": "l’embauche d’un mineur de moins de treize ans dans une entreprise de cinéma est soumise à l’avis conforme d’un médecin de l’organisme Thalie Santé, d’un psychologue agréé par ce même organisme",
+   "certitude": "certain"
+  },
+  {
+   "profil": "parent",
+   "phrase_fr": "Le représentant légal d'un enfant de moins de treize ans devrait être présent lors de son embauche, pendant son contrat et lors de certains événements liés à ce contrat.",
+   "phrase_en": "The legal guardian of a child under thirteen would have to be present at hiring, during the contract and at certain related events.",
+   "passage": "L’emploi d’un mineur de moins de treize ans est subordonné à la présence de l’un de ses représentants légaux lors de son embauche, durant l’exécution de son contrat de travail",
+   "certitude": "certain"
+  },
+  {
+   "profil": "secteur_culture",
+   "phrase_fr": "Les entreprises de cinéma ne pourraient embaucher un enfant de moins de treize ans qu'après des avis favorables de médecin, psychologue et comité.",
+   "phrase_en": "Film companies would only be able to hire a child under thirteen after favourable opinions from a doctor, psychologist and committee.",
+   "passage": "l’embauche d’un mineur de moins de treize ans dans une entreprise de cinéma est soumise à l’avis conforme",
+   "certitude": "probable"
+  },
+  {
+   "profil": "chef_entreprise",
+   "phrase_fr": "Un employeur du cinéma devrait obtenir des avis favorables avant d'embaucher un enfant de moins de treize ans.",
+   "phrase_en": "A film industry employer would need favourable opinions before hiring a child under thirteen.",
+   "passage": "l’embauche d’un mineur de moins de treize ans dans une entreprise de cinéma est soumise à l’avis conforme",
+   "certitude": "possible"
+  }
+ ],
+ "cout_usd": 0.00197447
+}

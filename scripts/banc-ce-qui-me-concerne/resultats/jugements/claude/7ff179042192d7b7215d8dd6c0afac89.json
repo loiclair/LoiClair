@@ -1,0 +1,75 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "benevole",
+    "raison": "Le texte vise expressément « tout encadrant d'activité sportive auprès de mineurs, y compris bénévole » (code du sport, L. 212-9), et l'obligation générale de l'article 1er s'applique aussi aux activités non professionnelles.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "particulier_employeur",
+    "raison": "L'article L. 1221-8 vise les salariés « employés par un particulier employeur » : le particulier doit vérifier le certificat avant l'embauche ou l'affectation.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "salarie_particulier",
+    "raison": "L'article L. 421-3-1 subordonne l'obtention et le maintien de l'agrément d'assistant maternel à la détention du certificat, ce qui vise directement cette profession.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "secteur_sante",
+    "raison": "L'article L. 4113-13-1 impose le certificat à l'ensemble des professionnels de santé et à toute personne intervenant dans les établissements et structures de santé auprès de mineurs, à quelque titre que ce soit. Cela change les obligations professionnelles du secteur.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "independant",
+    "raison": "L'obligation couvre l'exercice « à titre libéral » de soins auprès de mineurs, donc les professionnels de santé en profession libérale.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "etudiant",
+    "raison": "Le III de l'article L. 4113-13-1 applique expressément l'obligation aux étudiants intervenant auprès de mineurs dans les structures de santé.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "apprenti_alternant",
+    "raison": "Le III de l'article L. 4113-13-1 vise les stagiaires, que le catalogue range dans apprenti_alternant (apprenti, alternant, stagiaire).",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "secteur_education",
+    "raison": "Le IV de l'article L. 911-5 vise toute personne intervenant auprès des élèves, quels que soient le cadre ou le lieu. Le I applique aussi l'obligation à toute activité auprès de mineurs dans un cadre d'enseignement, donc les personnels enseignants.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "chef_entreprise",
+    "raison": "L'article L. 1221-8 impose à tout employeur de vérifier le certificat de ses salariés avant l'embauche ou l'affectation auprès de mineurs.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "secteur_transport",
+    "raison": "Le transport et le convoyage de mineurs figurent parmi les activités visées par le nouvel article L. 133-6-1. Les personnes qui conduisent des enfants sont donc directement visées.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "dirigeant_grande_entreprise",
+   "salarie_prive",
+   "fonctionnaire"
+  ]
+ },
+ "cout_usd": 0.0029001350000000003,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

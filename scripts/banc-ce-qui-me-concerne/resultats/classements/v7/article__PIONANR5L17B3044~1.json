@@ -1,0 +1,19 @@
+{
+ "impacts": [
+  {
+   "profil": "locataire",
+   "phrase_fr": "Les locataires auraient droit à un logement offrant un confort thermique minimal en été, et pourraient demander des protections solaires et un brasseur d'air.",
+   "phrase_en": "Tenants would have a right to housing with minimal summer thermal comfort, and could request exterior solar shades and an air circulator.",
+   "passage": "Le bailleur est tenu de fournir au locataire un logement garantissant un niveau minimal de confort thermique en période estivale.",
+   "certitude": "certain"
+  },
+  {
+   "profil": "proprietaire_bailleur",
+   "phrase_fr": "Les propriétaires bailleurs seraient tenus d'installer, sur demande, des protections solaires extérieures et un brasseur d'air, ou à défaut un volet occultant et un ventilateur.",
+   "phrase_en": "Landlords would have to install exterior solar shades and an air circulator on tenant request, or otherwise a blackout shutter and a portable fan.",
+   "passage": "D’installer, à la demande du locataire, des protections solaires mobiles extérieures et un brasseur d’air dans les pièces de vie.",
+   "certitude": "certain"
+  }
+ ],
+ "cout_usd": 0.00077351
+}

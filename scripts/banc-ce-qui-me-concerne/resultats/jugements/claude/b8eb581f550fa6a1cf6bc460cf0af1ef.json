@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "outre_mer",
+    "raison": "Non : le texte impose à l’État d’élaborer un plan territorial ; il ne crée pas directement de droit ou d’obligation pour les habitants d’outre-mer.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00034307,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

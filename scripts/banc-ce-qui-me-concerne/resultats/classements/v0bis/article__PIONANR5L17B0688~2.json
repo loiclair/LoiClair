@@ -1,0 +1,26 @@
+{
+ "impacts": [
+  {
+   "profil": "fonctionnaire",
+   "phrase_fr": "Les agents publics pourraient voir leurs proches protégés par la collectivité en cas de menace grave liée à leur fonction.",
+   "phrase_en": "Public agents could see their close relatives protected by the public body if a serious threat linked to their job arises.",
+   "passage": "La protection de la collectivité publique peut être accordée, sans délai et à titre conservatoire, au conjoint, au concubin, au partenaire lié par un pacte civil de solidarité d’un agent public, à ses enfants et à ses ascendants directs",
+   "certitude": "certain"
+  },
+  {
+   "profil": "concubin",
+   "phrase_fr": "Une personne en union libre pourrait bénéficier de la protection de la collectivité si son compagnon, agent public, subit un risque grave lié à ses fonctions.",
+   "phrase_en": "A cohabiting partner could receive the public body's protection if their partner, a public agent, faces a serious risk linked to their duties.",
+   "passage": "au concubin, au partenaire lié par un pacte civil de solidarité d’un agent public, à ses enfants et à ses ascendants directs, lorsque la collectivité publique est informée, par quelque moyen que ce soit, de l’existence d’un risque manifeste d’atteinte grave à l’intégrité physique",
+   "certitude": "certain"
+  },
+  {
+   "profil": "marie_pacse",
+   "phrase_fr": "Un conjoint ou un partenaire de PACS d'un agent public pourrait recevoir la protection de la collectivité en cas de risque grave pour son intégrité physique.",
+   "phrase_en": "A spouse or civil-partnership partner of a public agent could receive the public body's protection if facing a serious risk to their physical safety.",
+   "passage": "au conjoint, au concubin, au partenaire lié par un pacte civil de solidarité d’un agent public, à ses enfants et à ses ascendants directs",
+   "certitude": "certain"
+  }
+ ],
+ "cout_usd": 0.00114225
+}

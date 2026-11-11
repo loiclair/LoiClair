@@ -1,0 +1,18 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "proprietaire_bailleur",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article modifie les conditions de déduction fiscale pour les propriétaires bailleurs qui réalisent des travaux sur des logements destinés à la location nue comme résidence principale, avec des critères énergétiques précis. Le passage cité est exact et justifie le profil."
+   }
+  ],
+  "oublis": [
+   "proprietaire_occupant",
+   "projet_achat",
+   "outre_mer"
+  ]
+ },
+ "cout_usd": 0.007635
+}

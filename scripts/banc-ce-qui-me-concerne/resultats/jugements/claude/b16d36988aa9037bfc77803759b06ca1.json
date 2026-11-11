@@ -1,0 +1,19 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "proprietaire_bailleur",
+    "raison": "Le texte vise expressément « les bailleurs détenteurs d'un lot » dans l'établissement dont l'activité cesse, qui seraient indemnisés ; ils sont directement visés comme propriétaires de lots loués (à l'exploitant). La phrase est fidèle, au conditionnel, mais « où vous louez un lot » est légèrement imprécis : ils détiennent un lot qu'ils louent à l'exploitant.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "coproprietaire"
+  ]
+ },
+ "cout_usd": 0.0023566999999999998,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

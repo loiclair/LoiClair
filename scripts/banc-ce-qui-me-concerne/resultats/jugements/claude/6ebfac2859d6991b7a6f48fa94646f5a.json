@@ -1,0 +1,34 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "locataire",
+    "raison": "Les règles encadrent directement le loyer payé par les locataires. Toutefois, dans les autres communes, le texte prévoit un plafond au loyer de référence majoré, et non au loyer de référence comme l’affirme la phrase.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "proprietaire_bailleur",
+    "raison": "Les plafonds de loyers limitent directement le montant que peut demander un bailleur. Mais le loyer de référence n’est pas partout égal au loyer médian, et le plafond peut être le loyer de référence majoré.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "meuble_tourisme",
+    "raison": "Le texte soumet explicitement les logements meublés utilisés à des fins touristiques aux règles d’encadrement, dans les zones tendues comme sur le reste du territoire.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "etudiant",
+    "raison": "Le texte vise les loyers des résidences étudiantes privées, donc un type de logement, et non les étudiants en raison de leur statut. Un étudiant n’est pas nécessairement concerné par cette règle.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.001419525,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

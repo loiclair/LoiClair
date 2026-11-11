@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "salarie_prive",
+    "raison": "L'amendement restreint le déblocage de la participation et de l'intéressement aux sommes affectées avant le 1er janvier 2026 : cela change directement les droits des salariés d'entreprises, qui sont le public visé par l'article.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "epargnant",
+    "raison": "Le texte porte sur l'épargne salariale (participation, intéressement), que la définition du profil exclut explicitement : « epargnant » ne couvre pas l'épargne salariale.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0043806999999999995,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

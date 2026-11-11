@@ -1,0 +1,19 @@
+{
+ "impacts": [
+  {
+   "profil": "mineur",
+   "phrase_fr": "Les moins de 14 ans ne pourraient pas conduire une trottinette à assistance électrique.",
+   "phrase_en": "Children under 14 would not be allowed to ride an electric-assist scooter.",
+   "passage": "Tout conducteur de trottinette à assistance électrique est âgé d’au moins quatorze ans.",
+   "certitude": "certain"
+  },
+  {
+   "profil": "cycliste",
+   "phrase_fr": "La vitesse des trottinettes à assistance électrique serait limitée à 20 km/h.",
+   "phrase_en": "The speed of electric-assist scooters would be limited to 20 km/h.",
+   "passage": "La vitesse maximale d’une trottinette à assistance électrique ne dépasse pas 20 kilomètres par heure.",
+   "certitude": "certain"
+  }
+ ],
+ "cout_usd": 0.00023435
+}

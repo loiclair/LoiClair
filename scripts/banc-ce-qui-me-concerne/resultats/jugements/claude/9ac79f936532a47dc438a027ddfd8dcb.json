@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_agriculture",
+    "raison": "L'amendement vise explicitement les associés exploitants de sociétés exerçant une activité agricole et les jeunes agriculteurs. Il change directement le calcul de leurs plus-values professionnelles, sans passer par un tiers.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "imposable",
+    "raison": "Les plus-values professionnelles des associés de sociétés agricoles entrent dans leur base d'impôt sur le revenu. La dérogation réduit donc directement l'impôt de ces foyers.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000924885,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

@@ -1,0 +1,19 @@
+{
+ "impacts": [
+  {
+   "profil": "secteur_industrie",
+   "phrase_fr": "Les producteurs d'électricité dont l'installation dépasse un seuil de puissance devraient mettre toute leur puissance disponible, à la hausse comme à la baisse, à la disposition du gestionnaire du réseau.",
+   "phrase_en": "Electricity producers whose installation exceeds a power threshold would have to make all their available capacity, up and down, available to the grid operator.",
+   "passage": "La totalité de la puissance techniquement disponible à la hausse et à la baisse, sur chacune des installations de production, dont la puissance installée est supérieure à un seuil fixé par décret, raccordées au réseau public de transport ou de distribution d’électricité, est mise à la disposition du gestionnaire du réseau public de transport d’électricité par les producteurs dans leurs offres sur le mécanisme d’ajustement.",
+   "certitude": "probable"
+  },
+  {
+   "profil": "dirigeant_grande_entreprise",
+   "phrase_fr": "Les dirigeants de grandes entreprises productrices d'électricité au-dessus du seuil pourraient devoir offrir toute leur puissance disponible au gestionnaire du réseau.",
+   "phrase_en": "Leaders of large electricity-producing companies above the threshold would possibly have to offer all their available capacity to the grid operator.",
+   "passage": "La totalité de la puissance techniquement disponible à la hausse et à la baisse, sur chacune des installations de production, dont la puissance installée est supérieure à un seuil fixé par décret, raccordées au réseau public de transport ou de distribution d’électricité, est mise à la disposition du gestionnaire du réseau public de transport d’électricité par les producteurs dans leurs offres sur le mécanisme d’ajustement.",
+   "certitude": "possible"
+  }
+ ],
+ "cout_usd": 0.00085235
+}

@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "automobiliste",
+    "raison": "La majoration porte sur la taxe régionale due pour la délivrance d’un certificat d’immatriculation en Île-de-France : elle vise directement les personnes qui immatriculent un véhicule. Les exonérations, tarifs nuls et réductions prévus par le texte s’appliquent toutefois aussi à cette majoration.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "grande_ville",
+    "raison": "Le texte vise une immatriculation réputée intervenir en Île-de-France, et non les habitants des grandes villes ou de l’agglomération parisienne en tant que tels. Le lieu déterminant est la région, pas la taille de la commune.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000506025,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

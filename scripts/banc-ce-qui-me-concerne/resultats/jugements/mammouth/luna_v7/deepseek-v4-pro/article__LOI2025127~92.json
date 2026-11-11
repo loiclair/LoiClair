@@ -1,0 +1,20 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "fumeur",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article double certains droits sur les tabacs. Un fumeur verra le prix du tabac augmenter, ce qui est un effet direct et concret."
+   },
+   {
+    "profil": "automobiliste",
+    "concerne": false,
+    "phrase_fidele": false,
+    "raison": "La consigne précise qu'il ne faut retenir un profil que si l'article le vise lui-même. Un article qui concerne tout le monde de la même façon ne concerne aucun profil en particulier. Or, l'augmentation des droits sur les tabacs ne vise pas directement un profil particulier du catalogue."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0015678
+}

@@ -1,0 +1,19 @@
+{
+ "impacts": [
+  {
+   "profil": "chef_entreprise",
+   "phrase_fr": "Les organisateurs de jeux-concours en ligne seraient soumis au contrôle de l'autorité des jeux pour leurs pratiques commerciales.",
+   "phrase_en": "Online contest organisers would be subject to gambling regulator oversight of their commercial practices.",
+   "passage": "et des pratiques commerciales mentionnées à l’article L. 121-20 du code de la consommation lorsqu’elles se déroulent en ligne",
+   "certitude": "probable"
+  },
+  {
+   "profil": "joueur",
+   "phrase_fr": "Les participants aux jeux-concours en ligne pourraient être concernés par ce contrôle des pratiques commerciales.",
+   "phrase_en": "Online contest participants could be affected by this oversight of commercial practices.",
+   "passage": "et des pratiques commerciales mentionnées à l’article L. 121-20 du code de la consommation lorsqu’elles se déroulent en ligne",
+   "certitude": "possible"
+  }
+ ],
+ "cout_usd": 0.00083371
+}

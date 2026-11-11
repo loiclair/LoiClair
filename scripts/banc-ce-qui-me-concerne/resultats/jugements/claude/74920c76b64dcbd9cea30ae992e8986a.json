@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "handicap",
+    "raison": "L'article L. 146-11 créé par le 1° du I permet à la personne handicapée de demander une évaluation limitée à son éligibilité à la reconnaissance de travailleur handicapé ou à certaines mentions de la carte mobilité inclusion. Le texte la vise directement, par sa situation.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "age_dependant",
+    "raison": "Le 2° a du I prévoit que les bénéficiaires de l'allocation de l'article L. 232-1 du CASF, qui est l'APA, reçoivent à titre définitif une carte mobilité inclusion selon leur groupe AGGIR, sans nouvelle évaluation. Cela change directement leurs démarches et leurs droits en tant que personnes âgées dépendantes percevant l'APA.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000611085,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

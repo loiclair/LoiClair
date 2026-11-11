@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_culture",
+    "raison": "Le texte modifie un délai de prescription pour des délits commis au moyen d’un média principalement destiné à un public mineur. Il ne vise pas les professionnels de la culture en raison de leur métier ; l’effet sur eux relève d’une règle de procédure judiciaire.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0003739,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

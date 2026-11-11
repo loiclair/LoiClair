@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "demandeur_emploi",
+    "raison": "Le texte vise directement les personnes sans emploi rencontrant des difficultés sociales et professionnelles, qui sont les bénéficiaires de l'accompagnement. Le profil désigne les personnes inscrites à France Travail, et le texte parle plus largement de personnes sans emploi, ce qui recoupe ce profil.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "chef_entreprise",
+    "raison": "Le texte crée une catégorie de structure conventionnée par l'État et ne mentionne pas les dirigeants en tant que tels. L'effet passe par la structure elle-même, qui est un tiers, et ne change pas d'obligation ni de droit pour le dirigeant en général.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0007943350000000001,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

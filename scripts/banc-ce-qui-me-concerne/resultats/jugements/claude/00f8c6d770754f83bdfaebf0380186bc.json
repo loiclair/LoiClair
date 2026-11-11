@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_culture",
+    "raison": "L'article vise des publications et des services de presse, c'est-à-dire des entreprises éditrices, et ne change pas la façon dont les journalistes travaillent. La présomption décide quels titres relèvent des droits voisins, ce qui touche les éditeurs et non les personnes qui travaillent dans la presse. Pas concerné.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000405185,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

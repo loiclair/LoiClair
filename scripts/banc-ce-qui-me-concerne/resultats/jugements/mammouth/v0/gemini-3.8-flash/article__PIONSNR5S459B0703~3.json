@@ -1,0 +1,14 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "age_dependant",
+    "concerne": false,
+    "phrase_fidele": false,
+    "raison": "La perte d'autonomie figure déjà parmi les critères de discrimination interdits à l'article 225-1 du code pénal dans le droit en vigueur. La modification apportée par le texte vise à insérer l'expression de genre et ne change rien pour les personnes dépendantes."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00795525
+}

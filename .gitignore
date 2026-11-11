@@ -1,0 +1,52 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# Python virtual environment
+venv/
+
+# dependencies
+/node_modules
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+
+# env files
+.env*
+
+
+# claude code
+.claude/
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+#documents
+/Docs
+/mockups
+CLAUDE.md
+ARCHITECTURE.md
+BACKLOG.md
+BRAND_ID.md
+DECISIONS.md
+PDD.md
+
+__pycache__/
+*.pyc
+
+
+# Banc d'essai des modèles : résultats bruts, régénérables (voir scripts/banc-modeles/README.md)
+/scripts/banc-modeles/resultats/

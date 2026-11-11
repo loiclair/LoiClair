@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "chef_entreprise",
+    "raison": "Le crédit revient au cessionnaire, sous conditions, et non au cédant. Être dirigeant d’une PME ne suffit pas à être cessionnaire.",
+    "concerne": false,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "heritier_donateur",
+    "raison": "Le cessionnaire qui reçoit une entreprise par donation peut bénéficier du crédit. En revanche, le texte ne l’accorde pas à la personne qui transmet l’entreprise.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000442025,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

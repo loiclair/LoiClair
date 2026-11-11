@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "epargnant",
+    "raison": "Le texte crée un livret d’épargne et en fixe l’usage : il modifie directement les possibilités d’épargne des personnes qui épargnent, sous réserve d’avoir leur domicile fiscal en France.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "marie_pacse",
+    "raison": "Le texte prévoit explicitement un livret pour chacun des époux ou partenaires de PACS soumis à une imposition commune, sous réserve du domicile fiscal en France.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00112715,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

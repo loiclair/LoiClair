@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_culture",
+    "raison": "L'article allonge la prescription des délits de presse commis par des moyens destinés à un public mineur et modifie le point de départ de la prescription pour les publications destinées à la jeunesse : cela change les obligations et l'exposition juridique des éditeurs et de la presse jeunesse, donc la façon d'exercer ce métier.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0022616999999999997,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

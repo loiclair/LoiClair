@@ -1,0 +1,566 @@
+{
+ "DLR5L17N50647|claude-haiku-5-5": {
+  "duree": 6.846526145935059,
+  "jetons_in": 3226,
+  "jetons_out": 1057,
+  "cout": 0.0008511,
+  "fin": "end_turn",
+  "data": {
+   "resume": "Cette proposition de loi vise à punir plus lourdement le viol commis après réflexion, appelé viol avec préméditation. Elle créerait une circonstance aggravante : un viol prémédité ou commis dans un guet-apens serait puni de la réclusion criminelle à perpétuité, avec une période de sûreté, comme c'est déjà le cas pour un meurtre prémédité. Selon les auteurs du texte, beaucoup de violences sexuelles sont commises par une personne connue de la victime, qui prépare et manœuvre pour la piéger, alors que l'image du violeur inconnu domine. Ils estiment aussi que la mesure mettrait le droit français en conformité avec la Convention d'Istanbul, qui demande de tenir compte des stratégies des agresseurs. Le texte, déposé à l'Assemblée nationale, n'est pas adopté à ce jour.",
+   "themes": [
+    "Justice"
+   ]
+  }
+ },
+ "DLR5L17N50647|gpt-6-luna": {
+  "duree": 3.5952718257904053,
+  "jetons_in": 1764,
+  "jetons_out": 164,
+  "cout": 0.000302425,
+  "fin": "stop",
+  "data": {
+   "resume": "Cette proposition de loi créerait une peine plus lourde pour le viol préparé à l’avance ou commis dans le cadre d’un guet-apens. Elle ajouterait la préméditation comme circonstance aggravante du viol, c’est-à-dire une préparation ou une volonté criminelle formée avant l’acte. Les personnes reconnues coupables de ce viol aggravé pourraient être condamnées à la réclusion criminelle à perpétuité, avec une période de sûreté applicable. Selon les auteurs du texte, cette mesure renforcerait la réponse pénale face aux violences sexuelles et permettrait de mieux prendre en compte la stratégie de l’agresseur, notamment lorsque celui-ci connaît sa victime et organise un piège.",
+   "themes": [
+    "Justice"
+   ]
+  }
+ },
+ "DLR5L17N54542|claude-haiku-5-5": {
+  "duree": 9.499114990234375,
+  "jetons_in": 6469,
+  "jetons_out": 2270,
+  "cout": 0.0017818999999999999,
+  "fin": "end_turn",
+  "data": {
+   "resume": "Cette proposition de loi porte sur la victimisation secondaire, c'est-à-dire le mal supplémentaire qu'une victime peut subir pendant une procédure pénale à cause de la façon dont on l'accueille, l'auditionne, l'informe ou la suit. Selon les auteurs du texte, cette notion n'existe pas encore clairement dans le droit français, alors qu'elle touche surtout les victimes de violences. Le texte définirait ce phénomène dans le code de procédure pénale : propos humiliants, culpabilisants ou stéréotypés, auditions trop nombreuses, pressions ou dénigrement. Il imposerait aux magistrats, enquêteurs et avocats de prévenir ces dérives, prévoirait des formations, et permettrait au tribunal de reconnaître ce préjudice et d'ouvrir une indemnisation. Selon les auteurs, il ne créerait pas d'infraction nouvelle et ne remettrait pas en cause les droits de la défense.",
+   "themes": [
+    "Justice",
+    "Police et sécurité"
+   ]
+  }
+ },
+ "DLR5L17N54542|gpt-6-luna": {
+  "duree": 6.903594017028809,
+  "jetons_in": 3557,
+  "jetons_out": 402,
+  "cout": 0.00064555,
+  "fin": "stop",
+  "data": {
+   "resume": "Cette proposition de loi définirait la victimisation secondaire, c’est-à-dire le préjudice supplémentaire qu’une victime peut subir pendant une procédure pénale. Elle concernerait notamment les victimes de violences et pourrait résulter de propos humiliants ou culpabilisants, de pratiques stéréotypées ou de démarches qui dépassent les nécessités de la procédure. Les professionnels de la justice et les services d’enquête devraient prévenir ces situations, limiter le nombre d’auditions et adapter leur accompagnement à la vulnérabilité de la victime. Le texte prévoirait aussi des formations et permettrait une indemnisation si le tribunal reconnaît ce préjudice. Le président d’audience devrait veiller à la dignité des débats.",
+   "themes": [
+    "Justice"
+   ]
+  }
+ },
+ "DLR5L17N51709|claude-haiku-5-5": {
+  "duree": 6.278195858001709,
+  "jetons_in": 5788,
+  "jetons_out": 1168,
+  "cout": 0.0011628,
+  "fin": "end_turn",
+  "data": {
+   "resume": "Ce texte veut supprimer les avantages à vie accordés aux anciens présidents de la République et aux anciens premiers ministres, comme les dotations, les collaborateurs, les locaux ou les moyens matériels financés par le Trésor public. Selon les auteurs du texte, ces privilèges coûtent chaque année des millions d'euros à l'État et nourrissent la défiance des citoyens envers leurs institutions. La proposition abrogerait les dispositions qui leur donnent droit à ces avantages automatiques, et interdirait d'en créer de nouveaux. Elle ne toucherait pas à la protection policière, qui continuerait d'être décidée par le ministre de l'intérieur. Déposé par la députée Gabrielle Cathala, ce texte n'est pas adopté à ce stade.",
+   "themes": [
+    "Pouvoirs publics et Constitution",
+    "Budget"
+   ]
+  }
+ },
+ "DLR5L17N51709|gpt-6-luna": {
+  "duree": 4.9048240184783936,
+  "jetons_in": 3252,
+  "jetons_out": 324,
+  "cout": 0.000568425,
+  "fin": "stop",
+  "data": {
+   "resume": "Le texte propose de supprimer les avantages accordés après leur mandat aux anciens présidents de la République et Premiers ministres. Il abrogerait les règles qui leur donnent automatiquement droit à une dotation, au paiement de dépenses ou à des moyens matériels et humains, comme des locaux, des collaborateurs ou une voiture avec chauffeur. Ces anciens dirigeants ne bénéficieraient donc plus de ces aides au titre de leur ancienne fonction. Le texte laisserait toutefois possible leur protection par les services de sécurité, sur décision du ministre de l’intérieur. Les auteurs estiment que cette suppression réduirait les dépenses publiques et rétablirait l’égalité entre citoyens ; ce sont leurs arguments en faveur de la réforme.",
+   "themes": [
+    "Pouvoirs publics et Constitution",
+    "Budget"
+   ]
+  }
+ },
+ "DLR5L17N54714|claude-haiku-5-5": {
+  "duree": 5.675299882888794,
+  "jetons_in": 6294,
+  "jetons_out": 1173,
+  "cout": 0.0012159,
+  "fin": "end_turn",
+  "data": {
+   "resume": "Ce texte concerne les personnes âgées atteintes de troubles de la mémoire, comme la maladie d'Alzheimer, placées dans des unités sécurisées d'EHPAD, appelées unités de vie protégée ou unités d'hébergement renforcé. Selon les auteurs du texte, ces unités restreignent la liberté d'aller et venir, alors que l'entrée repose aujourd'hui surtout sur un contrat et une évaluation interne à l'établissement. La proposition de loi prévoit qu'un diagnostic médical détaillé et un examen complet du corps soient faits avant toute admission, pour écarter une cause physique réversible. Elle subordonnerait l'admission au consentement de la personne ou de son représentant, et obligerait le directeur à informer le juge des tutelles. Le résident, ses proches ou son représentant pourraient saisir ce juge à tout moment pour demander la fin de la mesure, avec droit à un avocat. Un rapport au Parlement sur le coût de ce contrôle est aussi prévu.",
+   "themes": [
+    "Questions sociales et santé",
+    "Justice"
+   ]
+  }
+ },
+ "DLR5L17N54714|gpt-6-luna": {
+  "duree": 3.0993459224700928,
+  "jetons_in": 3521,
+  "jetons_out": 182,
+  "cout": 0.00053105,
+  "fin": "stop",
+  "data": {
+   "resume": "Cette proposition de loi encadrerait l’admission des personnes atteintes de troubles cognitifs dans les unités sécurisées des maisons de retraite médicalisées. Elle définirait les unités de vie protégée (UVP) et les unités d’hébergement renforcé (UHR), où les déplacements sont limités, et réserverait leur accès aux résidents exposés à un risque grave. Avant l’entrée, un médecin devrait établir un diagnostic et réaliser un examen complet. Le directeur devrait informer le juge des tutelles, qui pourrait être saisi pour demander la fin de la mesure et devrait statuer sous quinze jours. Le résident pourrait être assisté d’un avocat et bénéficier d’une expertise médicale indépendante. Le gouvernement remettrait aussi un rapport sur le coût du contrôle et le personnel soignant.",
+   "themes": [
+    "Questions sociales et santé",
+    "Justice"
+   ]
+  }
+ },
+ "DLR5L17N54991|claude-haiku-5-5": {
+  "duree": 6.457212924957275,
+  "jetons_in": 5224,
+  "jetons_out": 1240,
+  "cout": 0.0011424,
+  "fin": "end_turn",
+  "data": {
+   "resume": "Ce texte propose de changer la règle qui oblige certaines communes à avoir 25 % de logements sociaux, appelée loi SRU (loi relative à la solidarité et au renouvellement urbains). Aujourd'hui, ce taux se calcule sur l'ensemble des logements existants et les communes qui n'y arrivent pas sont sanctionnées : perte du droit de préemption, des autorisations d'urbanisme, amendes. Selon les auteurs du texte, ces sanctions sont trop lourdes et découragent les maires. La proposition de loi, déposée par des députés, appliquerait plutôt le taux de 25 % aux seuls logements neufs construits chaque année, et supprimerait le constat de carence ainsi que les sanctions qui y sont liées. Selon ses auteurs, les communes qui rattrapent leur retard seraient mieux reconnues et le dispositif serait plus cohérent d'un territoire à l'autre. Pour les maires, la pression baisserait ; pour les ménages en attente d'un logement social, le texte ne garantit pas davantage de logements.",
+   "themes": [
+    "Logement et urbanisme",
+    "Collectivités territoriales"
+   ]
+  }
+ },
+ "DLR5L17N54991|gpt-6-luna": {
+  "duree": 2.574453830718994,
+  "jetons_in": 3004,
+  "jetons_out": 155,
+  "cout": 0.000452925,
+  "fin": "stop",
+  "data": {
+   "resume": "Cette proposition de loi changerait la façon de mesurer les obligations des communes en matière de logements sociaux. Au lieu de calculer la part de logements sociaux dans l’ensemble des logements d’une commune, elle appliquerait le seuil de 25 % aux logements construits chaque année : les logements locatifs sociaux devraient représenter au moins cette part des nouvelles constructions. Le texte supprimerait aussi plusieurs règles de programmation et de suivi, et modifierait la procédure permettant au préfet de constater qu’une commune ne respecte pas ses obligations. Selon les auteurs, cette approche reconnaîtrait mieux les efforts locaux et aiderait à produire davantage de logements sociaux.",
+   "themes": [
+    "Logement et urbanisme",
+    "Collectivités territoriales"
+   ]
+  }
+ },
+ "DSNRAP2023N0284|claude-haiku-5-5": {
+  "duree": 6.211578130722046,
+  "jetons_in": 8746,
+  "jetons_out": 1170,
+  "cout": 0.0014596000000000001,
+  "fin": "end_turn",
+  "data": {
+   "resume": "Ce rapport du Sénat fait le point sur l'accès à l'avortement dans le monde, à partir d'un colloque organisé par la délégation aux droits des femmes. Il compare les lois de différents pays, qui vont de l'interdiction totale à une autorisation sur simple demande, et décrit des reculs récents, notamment aux États-Unis, en Pologne ou en Argentine. Selon les auteurs du rapport, ces restrictions poussent les femmes vers des avortements non sécurisés, qui mettent leur vie en danger, surtout les plus pauvres. Le texte ne modifie aucune loi : il rassemble des constats et des débats. Les auteurs estiment que les mouvements anti-IVG progressent et appellent à la vigilance, notamment face à une possible inscription du droit à l'avortement dans la Constitution française.",
+   "themes": [
+    "Questions sociales et santé",
+    "Affaires étrangères et coopération"
+   ]
+  }
+ },
+ "DSNRAP2023N0284|gpt-6-luna": {
+  "duree": 5.396533966064453,
+  "jetons_in": 5138,
+  "jetons_out": 315,
+  "cout": 0.000799675,
+  "fin": "stop",
+  "data": {
+   "resume": "Ce rapport rassemble les échanges d’un colloque du Sénat sur le droit à l’avortement et la possibilité d’y accéder dans différents pays. Il compare les lois nationales et examine les obstacles rencontrés par les femmes, comme les interdictions, le manque de professionnels de santé, le coût, les déplacements et la stigmatisation. Les intervenantes abordent aussi les mobilisations de terrain et les campagnes qui, selon les auteures du rapport, freinent l’accès à l’avortement. Le texte présente les soins liés à l’interruption volontaire de grossesse (IVG) et les évolutions législatives dans plusieurs régions du monde, sans proposer de mesure législative.",
+   "themes": [
+    "Questions sociales et santé"
+   ]
+  }
+ },
+ "DSNRAP2024N0847|claude-haiku-5-5": {
+  "duree": 2.845952033996582,
+  "jetons_in": 9591,
+  "jetons_out": 388,
+  "cout": 0.0011531,
+  "fin": "end_turn",
+  "data": {
+   "resume": "Ce rapport du Sénat fait le point sur la filière bois française, qui peine à transformer le bois produit en France en objets fabriqués ici, alors que le commerce extérieur des produits bois est déficitaire. Selon les auteurs du texte, il faudrait investir dans les scieries pour passer à une échelle industrielle, tout en gardant de la souplesse. Le texte propose de développer la construction en bois et de soutenir la rénovation avec des isolants biosourcés, sans que l'essentiel de ces mesures ne soit décrit précisément dans l'extrait. Il décrit aussi des freins pour les entreprises du secteur, comme les normes de sécurité, les difficultés d'assurance et les règles européennes sur la déforestation, que les auteurs jugent trop lourdes. Enfin, il défend une meilleure organisation de l'usage du bois entre matériau et énergie, et une gestion forestière adaptée au changement climatique. Ce document n'est pas une loi : il ne contient que des recommandations.",
+   "themes": [
+    "Entreprises",
+    "Environnement",
+    "Économie et finances, fiscalité"
+   ]
+  }
+ },
+ "DSNRAP2024N0847|gpt-6-luna": {
+  "duree": 5.066324949264526,
+  "jetons_in": 5616,
+  "jetons_out": 384,
+  "cout": 0.000893925,
+  "fin": "stop",
+  "data": {
+   "resume": "Ce rapport examine comment développer la transformation du bois en France, de la scierie aux produits finis. Selon ses auteurs, la filière pourrait mieux valoriser le bois français et réduire le déficit commercial si les entreprises disposaient de règles plus simples, de compétences et d’investissements adaptés. Le rapport recommande de soutenir les scieries, la construction en bois, l’ameublement, le papier-carton et les palettes, tout en aidant les entreprises à faire face à la concurrence étrangère. Il propose aussi de mieux planifier les usages du bois et d’organiser l’approvisionnement avec les acteurs locaux. La gestion durable des forêts et l’adaptation au changement climatique devraient guider les choix industriels.",
+   "themes": [
+    "Entreprises",
+    "Environnement",
+    "Économie et finances, fiscalité"
+   ]
+  }
+ },
+ "DLR5L17N51755|claude-haiku-5-5": {
+  "duree": 2.359170913696289,
+  "jetons_in": 3969,
+  "jetons_out": 302,
+  "cout": 0.0005479,
+  "fin": "end_turn",
+  "data": {
+   "resume": "",
+   "themes": [
+    "Agriculture et pêche",
+    "Environnement"
+   ]
+  }
+ },
+ "DLR5L17N51755|gpt-6-luna": {
+  "duree": 2.663275957107544,
+  "jetons_in": 2119,
+  "jetons_out": 93,
+  "cout": 0.0003113,
+  "fin": "stop",
+  "data": {
+   "resume": "",
+   "themes": [
+    "Agriculture et pêche",
+    "Environnement"
+   ]
+  }
+ },
+ "DLR5L17N51616|claude-haiku-5-5": {
+  "duree": 7.237165212631226,
+  "jetons_in": 5488,
+  "jetons_out": 1293,
+  "cout": 0.0011952999999999998,
+  "fin": "end_turn",
+  "data": {
+   "resume": "Ce texte demande au gouvernement français d'agir auprès de ses partenaires européens pour utiliser non seulement les revenus, mais aussi le capital des avoirs russes gelés dans l'Union européenne, afin d'aider l'Ukraine à financer sa défense et sa reconstruction. Il s'agit d'une proposition de résolution européenne déposée par des députés : elle n'a pas valeur de loi et n'obligerait pas, à elle seule, à saisir ces avoirs. Selon les auteurs du texte, l'accord du Conseil de l'Union européenne du 21 mai 2024 ne porte que sur les intérêts générés par ces avoirs, ce qui serait insuffisant face aux besoins de l'Ukraine. Les auteurs estiment que les conséquences de la guerre devraient être supportées par la Russie plutôt que par le contribuable européen, et qu'une telle mesure constituerait un signal dissuasif pour le respect du droit international. Le texte réaffirme aussi le soutien de l'Assemblée à l'indépendance de l'Ukraine.",
+   "themes": [
+    "Affaires étrangères et coopération",
+    "Union européenne",
+    "Défense"
+   ]
+  }
+ },
+ "DLR5L17N51616|gpt-6-luna": {
+  "duree": 3.698092222213745,
+  "jetons_in": 2987,
+  "jetons_out": 177,
+  "cout": 0.0004618,
+  "fin": "stop",
+  "data": {
+   "resume": "Cette proposition de résolution demande d’utiliser les avoirs russes gelés en Europe pour aider l’Ukraine. Elle inviterait le Gouvernement français à agir auprès des autres pays et des institutions de l’Union européenne afin de mobiliser non seulement les revenus produits par ces avoirs, mais aussi le capital lui-même. L’argent servirait à soutenir l’effort de guerre ukrainien et à reconstruire le pays. Les auteurs estiment que les revenus déjà mobilisés ne suffisent pas à couvrir les besoins de l’Ukraine et que la Russie, responsable de la guerre selon eux, devrait contribuer aux coûts qu’elle entraîne. Le texte exprime aussi le soutien de la France à l’indépendance et à la défense de l’Ukraine.",
+   "themes": [
+    "Affaires étrangères et coopération",
+    "Union européenne",
+    "Défense"
+   ]
+  }
+ },
+ "DLR5L17N52128|claude-haiku-5-5": {
+  "duree": 7.982281923294067,
+  "jetons_in": 8109,
+  "jetons_out": 1697,
+  "cout": 0.0016594000000000001,
+  "fin": "end_turn",
+  "data": {
+   "resume": "Ce rapport d'information fait le point sur le contrôle des investissements étrangers en France : la procédure qui permet à l'État de vérifier qu'un investisseur venu de l'étranger ne prend pas la main sur une entreprise ou une activité sensible. Selon ses deux auteurs, députés, ce filtrage présente des limites. Ils recommanderaient d'élargir le champ des secteurs concernés, comme les données, la banque ou l'intelligence artificielle, et d'y soumettre aussi la création de nouveaux sites par des groupes étrangers. Ils proposeraient également de renforcer les effectifs de l'administration, de mieux suivre les engagements imposés aux investisseurs et de créer une délégation parlementaire pour contrôler la procédure. Il s'agit de recommandations, sans règle nouvelle adoptée.",
+   "themes": [
+    "Économie et finances, fiscalité",
+    "Défense",
+    "Pouvoirs publics et Constitution"
+   ]
+  }
+ },
+ "DLR5L17N52128|gpt-6-luna": {
+  "duree": 4.929745197296143,
+  "jetons_in": 4447,
+  "jetons_out": 352,
+  "cout": 0.0007318,
+  "fin": "stop",
+  "data": {
+   "resume": "Ce rapport examine comment la France contrôle les investissements étrangers dans les entreprises et les secteurs jugés stratégiques. Ce contrôle des investissements directs étrangers (IDE) pourrait, selon les propositions des rapporteurs, être élargi à de nouvelles opérations, comme la création d’une entreprise, et à davantage de domaines, notamment les réseaux sociaux, les centres de données et l’intelligence artificielle. L’État pourrait aussi intervenir après une opération et mieux suivre les conditions imposées aux investisseurs. Les rapporteurs proposent de renforcer les moyens de contrôle, l’information du Parlement et la transparence des décisions. Ils suggèrent également de mieux mobiliser les financements publics et privés pour soutenir les entreprises stratégiques françaises.",
+   "themes": [
+    "Économie et finances, fiscalité",
+    "Entreprises"
+   ]
+  }
+ },
+ "DLR5L17N51570|claude-haiku-5-5": {
+  "duree": 5.482266187667847,
+  "jetons_in": 7406,
+  "jetons_out": 1183,
+  "cout": 0.0013321000000000001,
+  "fin": "end_turn",
+  "data": {
+   "resume": "Ce rapport d'information donne l'avis de la commission des affaires étrangères de l'Assemblée nationale sur le projet de contrat d'objectifs et de performance de l'Institut français, l'organisme chargé de faire connaître la culture française à l'étranger, pour la période 2024-2026. Selon les rapporteurs, ce projet confirme les missions de l'Institut, qui appuie les Instituts et Alliances françaises à travers le monde, accompagne les artistes et les industries culturelles et encourage le dialogue entre les cultures, avec des priorités géographiques et un soutien à l'entrepreneuriat culturel africain. Les rapporteurs estiment toutefois que les incertitudes sur la baisse de la subvention versée par l'État pourraient fragiliser sa mise en œuvre. Ils demandent de préserver ces moyens et de construire une feuille de route commune à tous les opérateurs de la diplomatie culturelle. Il s'agit d'un avis, le texte n'est pas adopté.",
+   "themes": [
+    "Affaires étrangères et coopération",
+    "Culture"
+   ]
+  }
+ },
+ "DLR5L17N51570|gpt-6-luna": {
+  "duree": 6.266554117202759,
+  "jetons_in": 4168,
+  "jetons_out": 442,
+  "cout": 0.000741925,
+  "fin": "stop",
+  "data": {
+   "resume": "Ce rapport examine les priorités de l’Institut français pour soutenir la culture française à l’étranger. Le projet de contrat d’objectifs et de performance (COP) pour la période 2024-2026 confirmerait le rôle de l’établissement auprès des instituts culturels français et des ambassades. Il orienterait son action vers l’accompagnement des artistes et des entreprises culturelles, le dialogue entre les cultures et la promotion de la langue française. Les réseaux culturels à l’étranger et les professionnels français de la culture seraient concernés. Selon les rapporteurs, les incertitudes sur les financements pourraient fragiliser ces actions ; ils recommandent de préserver les moyens de l’Institut français et de préparer une stratégie commune aux acteurs de la diplomatie culturelle.",
+   "themes": [
+    "Culture",
+    "Affaires étrangères et coopération"
+   ]
+  }
+ },
+ "DLR5L17N54615|claude-haiku-5-5": {
+  "duree": 8.921633005142212,
+  "jetons_in": 8331,
+  "jetons_out": 1977,
+  "cout": 0.0018216,
+  "fin": "end_turn",
+  "data": {
+   "resume": "Cette proposition de résolution demande à l'Assemblée nationale de reconnaître officiellement le massacre survenu à Oran le 5 juillet 1962, jour de la proclamation de l'indépendance de l'Algérie. Selon les auteurs du texte, plusieurs centaines de Français auraient été enlevés, tués puis enterrés dans des fosses communes, pendant que les troupes françaises restaient consignées dans leurs casernements. Les auteurs estiment que le Président de la République a reconnu ce massacre en 2022, mais que cette parole n'a jamais été reprise par le Parlement. Le texte demanderait donc aux députés de dire publiquement ce que le chef de l'État avait affirmé. Il s'agit d'une résolution, sans valeur de loi, qui n'est pas adoptée à ce stade.",
+   "themes": [
+    "Affaires étrangères et coopération"
+   ]
+  }
+ },
+ "DLR5L17N54615|gpt-6-luna": {
+  "duree": 5.942312002182007,
+  "jetons_in": 4837,
+  "jetons_out": 419,
+  "cout": 0.00081405,
+  "fin": "stop",
+  "data": {
+   "resume": "Ce texte demande à l’Assemblée nationale de reconnaître officiellement le massacre d’Oran du 5 juillet 1962. Selon les auteurs, des civils français furent enlevés et tués ce jour-là, et près de sept cents Européens, presque tous Français, furent tués ou portés disparus. La proposition de résolution ferait reconnaître ces victimes et leur place dans la mémoire nationale, après des décennies de silence, selon ses auteurs. Elle prolongerait publiquement une déclaration du président de la République et répondrait à l’attente des familles de rapatriés d’Algérie. Le texte évoque aussi la transmission de cette histoire et l’absence de cérémonie ou de plaque nationale dédiée.",
+   "themes": [
+    "Pouvoirs publics et Constitution"
+   ]
+  }
+ },
+ "DLR5L17N53255|claude-haiku-5-5": {
+  "duree": 7.129519939422607,
+  "jetons_in": 3839,
+  "jetons_out": 1387,
+  "cout": 0.0010774,
+  "fin": "end_turn",
+  "data": {
+   "resume": "Ce texte propose de donner le droit de vote aux élections locales, comme les municipales, aux étrangers qui habitent en France, quelle que soit leur nationalité. Selon les auteurs du texte, ces personnes travaillent, paient des impôts, envoient leurs enfants à l'école et participent à la vie de leur commune sans pouvoir choisir leurs élus, ce qui serait injuste. Concrètement, la Constitution recevrait un nouvel article affirmant ce droit, et une loi organique, un texte de niveau inférieur, fixerait ensuite les conditions pratiques. Le texte retirerait aussi les mots relatifs au droit de vote dans une disposition de la Constitution consacrée aux citoyens de l'Union européenne. Il s'agit d'une proposition de loi constitutionnelle : elle n'est pas adoptée à ce stade.",
+   "themes": [
+    "Pouvoirs publics et Constitution",
+    "Collectivités territoriales",
+    "Union européenne"
+   ]
+  }
+ },
+ "DLR5L17N53255|gpt-6-luna": {
+  "duree": 6.979840993881226,
+  "jetons_in": 2061,
+  "jetons_out": 336,
+  "cout": 0.00042555,
+  "fin": "stop",
+  "data": {
+   "resume": "Cette proposition de loi constitutionnelle permettrait aux personnes étrangères qui résident en France de voter aux élections locales. Elle inscrirait ce droit dans la Constitution et confierait à une loi organique le soin d’en préciser les conditions d’application. Elle supprimerait aussi, dans la Constitution, les mots qui associent le droit de vote des citoyens de l’Union européenne aux élections municipales à leur droit d’éligibilité. Les auteurs du texte estiment que les habitants étrangers qui participent à la vie de leur commune devraient pouvoir choisir leurs élus locaux, quelle que soit leur nationalité. La proposition n’a pas été adoptée.",
+   "themes": [
+    "Pouvoirs publics et Constitution",
+    "Collectivités territoriales"
+   ]
+  }
+ },
+ "DLR5L17N51420|claude-haiku-5-5": {
+  "duree": 7.257321119308472,
+  "jetons_in": 3002,
+  "jetons_out": 1389,
+  "cout": 0.0009947,
+  "fin": "end_turn",
+  "data": {
+   "resume": "Ce projet de loi demande au Parlement de valider une ordonnance du gouvernement qui rend applicables outre-mer une partie des règles de la loi visant à sécuriser et à réguler l'espace numérique, appelée loi SREN, ainsi que le règlement européen sur les services numériques. Par lui-même, il ne change rien : il confirme l'ordonnance, qui prendrait ainsi valeur de loi. Selon les auteurs du texte, cette adaptation permettrait aux habitants des territoires ultramarins de bénéficier du même cadre numérique que ceux de l'Hexagone. Le texte ne comporte qu'un seul article, et il est déposé au Sénat, où il n'a pas encore été adopté.",
+   "themes": [
+    "Outre-mer",
+    "Union européenne"
+   ]
+  }
+ },
+ "DLR5L17N51420|gpt-6-luna": {
+  "duree": 8.151703119277954,
+  "jetons_in": 1685,
+  "jetons_out": 734,
+  "cout": 0.00057755,
+  "fin": "stop",
+  "data": {
+   "resume": "Ce projet de loi porte sur l’application outre-mer des règles françaises et européennes qui encadrent l’espace numérique. Il ferait ratifier une ordonnance déjà prise, qui étend et adapte dans les territoires ultramarins des dispositions de la loi française destinée à sécuriser et réguler les services et activités en ligne, ainsi que celles du règlement européen sur les services numériques. Concrètement, les règles concernées s’appliqueraient donc dans les territoires visés avec les adaptations prévues pour l’outre-mer. Le texte ne détaille pas ces adaptations : il se limite à ratifier l’ordonnance.",
+   "themes": [
+    "Outre-mer",
+    "Union européenne"
+   ]
+  }
+ },
+ "DLR5L17N54925|claude-haiku-5-5": {
+  "duree": 6.899866104125977,
+  "jetons_in": 6668,
+  "jetons_out": 1252,
+  "cout": 0.0012928,
+  "fin": "end_turn",
+  "data": {
+   "resume": "Ce projet de loi concerne les violences et les dégradations commises dans la rue ou dans les lieux publics. Il permettrait de faire payer les dégâts causés lors de ces violences. Selon les auteurs du texte, une personne ayant participé sciemment à un groupe ayant commis des violences, des vols ou des destructions pourrait être tenue solidairement de réparer les dommages, dans la limite de 10 000 euros. Les personnes restées dans un attroupement après les sommations de se disperser seraient aussi concernées. L'État pourrait ensuite se retourner contre les auteurs pour récupérer ce qu'il a versé aux victimes. Le texte faciliterait aussi la demande de dommages et intérêts par les victimes dans un procès. Enfin, il permettrait de saisir les allocations familiales et certaines aides au logement pour recouvrer ces sommes, y compris lorsque l'auteur est mineur, ce qui toucherait directement les parents.",
+   "themes": [
+    "Police et sécurité",
+    "Justice",
+    "Famille"
+   ]
+  }
+ },
+ "DLR5L17N54925|gpt-6-luna": {
+  "duree": 3.246272087097168,
+  "jetons_in": 4339,
+  "jetons_out": 188,
+  "cout": 0.0006363,
+  "fin": "stop",
+  "data": {
+   "resume": "Ce projet de loi changerait les règles pour réparer les dégâts et obtenir le paiement des dommages et intérêts après des violences ou des dégradations dans l’espace public. Les personnes qui auraient sciemment participé à un groupement violent ou seraient restées dans un attroupement malgré les sommations pourraient devoir indemniser solidairement les victimes, dans la limite prévue par le texte. Si l’État a payé les dommages, il pourrait ensuite réclamer le remboursement aux responsables et leur proposer des actions d’intérêt général. Les victimes qui n’ont pas été avisées de l’audience pourraient se déclarer partie civile plus tard. Enfin, certaines allocations familiales et aides au logement pourraient être saisies pour payer des dommages et intérêts définitivement prononcés, sous réserve des priorités de recouvrement prévues.",
+   "themes": [
+    "Justice",
+    "Police et sécurité",
+    "Sécurité sociale"
+   ]
+  }
+ },
+ "DLR5L17N50579|claude-haiku-5-5": {
+  "duree": 7.342435121536255,
+  "jetons_in": 4061,
+  "jetons_out": 1351,
+  "cout": 0.0010816,
+  "fin": "end_turn",
+  "data": {
+   "resume": "Ce texte concerne la façon d'élire les conseils municipaux, c'est-à-dire les élus de chaque commune. Il a été déposé au Sénat par un groupe de sénateurs, qui affirment, selon eux, vouloir préserver la vitalité démocratique, la cohésion des communes et la parité. Concrètement, il supprimerait la limite qui réserve certaines règles électorales à une catégorie de communes, retirerait un alinéa du code électoral et abrogerait un autre article, afin d'harmoniser le mode de scrutin entre les communes. Le texte ne précise pas dans le détail ce que cela changerait pour les électeurs, les candidats ou les maires. Il n'est pas encore adopté et reste en cours d'examen.",
+   "themes": [
+    "Collectivités territoriales",
+    "Pouvoirs publics et Constitution"
+   ]
+  }
+ },
+ "DLR5L17N50579|gpt-6-luna": {
+  "duree": 9.951576709747314,
+  "jetons_in": 2308,
+  "jetons_out": 675,
+  "cout": 0.000625925,
+  "fin": "stop",
+  "data": {
+   "resume": "Cette proposition modifierait les règles des élections municipales pour rapprocher le mode de scrutin applicable dans les différentes communes. Elle changerait le code électoral en supprimant une distinction liée au mode de scrutin et en abrogeant une règle particulière. Les électeurs et les candidats aux municipales seraient concernés, mais le texte ne précise pas dans son article unique les modalités concrètes du scrutin qui s’appliquerait ensuite. Ses auteurs présentent cette harmonisation comme un moyen de soutenir la vitalité démocratique, la cohésion municipale et la parité ; ce sont les objectifs qu’ils avancent, et non des effets garantis par le texte.",
+   "themes": [
+    "Collectivités territoriales",
+    "Pouvoirs publics et Constitution"
+   ]
+  }
+ },
+ "DLR5L17N51599|claude-haiku-5-5": {
+  "duree": 9.340842008590698,
+  "jetons_in": 7356,
+  "jetons_out": 1023,
+  "cout": 0.0012471000000000001,
+  "fin": "end_turn",
+  "data": {
+   "resume": "Ce projet de loi demande au Parlement d'approuver deux accords signés en juillet 2023 entre la France et le Panama : une convention d'entraide judiciaire en matière pénale et une convention d'extradition. Aujourd'hui, les deux pays n'ont aucun accord bilatéral de ce type et coopèrent au cas par cas, par courtoisie. Selon les auteurs du texte, ces accords permettraient une coopération plus efficace contre le crime organisé, notamment le trafic de drogue, et contre les infractions économiques et financières. Concrètement, la convention d'entraide prévoirait que chaque pays exécute les demandes de l'autre pour recueillir des preuves, notifier des actes, entendre des témoins, y compris par visioconférence, ou rechercher des biens. Le secret bancaire ne pourrait pas être opposé à une demande. Des garanties de confidentialité et de protection des personnes seraient aussi prévues.",
+   "themes": [
+    "Traités et conventions",
+    "Justice"
+   ]
+  }
+ },
+ "DLR5L17N51599|gpt-6-luna": {
+  "duree": 5.13939905166626,
+  "jetons_in": 4249,
+  "jetons_out": 335,
+  "cout": 0.00069855,
+  "fin": "stop",
+  "data": {
+   "resume": "Ce texte permettrait à la France et au Panama de coopérer plus directement dans les affaires pénales. Il autoriserait l’approbation de deux accords : l’un sur l’entraide judiciaire pénale, l’autre sur l’extradition, c’est-à-dire la remise d’une personne recherchée à l’autre pays. Les autorités pourraient notamment échanger des preuves, entendre des témoins à distance, effectuer des perquisitions et saisir des biens, dans le respect des règles de chaque pays. L’entraide pourrait être refusée ou reportée dans certains cas, par exemple si elle menace des intérêts essentiels ou gêne une enquête en cours. Selon les auteurs du texte, ces accords faciliteraient la lutte contre la criminalité organisée et les infractions économiques et financières.",
+   "themes": [
+    "Justice",
+    "Traités et conventions"
+   ]
+  }
+ },
+ "DLR5L17N52428|claude-haiku-5-5": {
+  "duree": 5.80675482749939,
+  "jetons_in": 7934,
+  "jetons_out": 1140,
+  "cout": 0.0013634,
+  "fin": "end_turn",
+  "data": {
+   "resume": "Le projet de loi de finances pour 2026 est le texte qui fixe le budget de l'État pour l'année à venir, c'est-à-dire ce qu'il prélèvera comme recettes et ce qu'il dépensera. Déposé à l'Assemblée nationale en octobre 2025 par le gouvernement, il prolongerait la contribution sur les hauts revenus et créerait une taxe sur le patrimoine financier de certaines holdings patrimoniales. Il instaurerait aussi un abattement forfaitaire pour les personnes retraitées et anticiperait la suppression de la CVAE, un impôt payé par les entreprises. Pour les collectivités locales, il modifierait la répartition de la dotation globale de fonctionnement et les mécanismes de lissage de leurs recettes fiscales. Selon les auteurs du texte, ces mesures participeraient à un redressement des comptes publics.",
+   "themes": [
+    "Budget",
+    "Économie et finances, fiscalité",
+    "Collectivités territoriales"
+   ]
+  }
+ },
+ "DLR5L17N52428|gpt-6-luna": {
+  "duree": 4.822455167770386,
+  "jetons_in": 4272,
+  "jetons_out": 345,
+  "cout": 0.000706425,
+  "fin": "stop",
+  "data": {
+   "resume": "Ce texte prévoit le budget de l’État pour 2026 et modifierait plusieurs impôts et aides. Ce projet de loi de finances (PLF) prolongerait certaines contributions des hauts revenus et des grandes entreprises, créerait une taxe sur le patrimoine financier de certaines holdings et accorderait un abattement aux retraités. Il changerait aussi des règles fiscales pour les agriculteurs, les dons, les véhicules, l’énergie et les déchets. Les collectivités locales verraient leurs dotations et recettes ajustées. Le texte stabiliserait les aides au logement, recentrerait celles des étudiants étrangers et supprimerait certaines aides aux apprentis, dont celle au permis de conduire.",
+   "themes": [
+    "Budget",
+    "Économie et finances, fiscalité",
+    "Collectivités territoriales"
+   ]
+  }
+ },
+ "DLR5L17N50588|claude-haiku-5-5": {
+  "duree": 2.574928045272827,
+  "jetons_in": 8149,
+  "jetons_out": 400,
+  "cout": 0.0010149,
+  "fin": "end_turn",
+  "data": {
+   "resume": "Ce projet de loi concerne le budget de la sécurité sociale pour 2025, c'est-à-dire les recettes et les dépenses des régimes qui financent la santé, les retraites, la famille et l'autonomie. Selon le texte, le solde de l'ensemble des administrations de sécurité sociale serait excédentaire en 2025 d'environ 0,2 point de PIB, après un équilibre quasi atteint en 2024, et l'objectif national de dépenses d'assurance maladie serait relevé pour 2024. Pour les agriculteurs, le texte prévoit de fusionner les cotisations vieillesse agricoles et individuelles en une cotisation unique, avec une assiette minimale et forfaitaire, et de faire calculer les retraites agricoles sur les 25 meilleures années de revenus à terme. Il prolongerait aussi, pour les employeurs agricoles, l'exonération de cotisations patronales pour les travailleurs occasionnels demandeurs d'emploi, selon les auteurs du texte pour soutenir les filières saisonnières.",
+   "themes": [
+    "Sécurité sociale",
+    "Agriculture et pêche"
+   ]
+  }
+ },
+ "DLR5L17N50588|gpt-6-luna": {
+  "duree": 5.317169189453125,
+  "jetons_in": 4773,
+  "jetons_out": 323,
+  "cout": 0.00075805,
+  "fin": "stop",
+  "data": {
+   "resume": "Ce projet de loi fixerait les recettes et les dépenses de la Sécurité sociale pour 2025 et ajusterait les comptes de 2024. Il modifierait aussi les cotisations et les aides de plusieurs catégories d’assurés et d’employeurs. Pour les agriculteurs, les cotisations de retraite de base seraient regroupées et rapprochées de celles des autres indépendants ; le texte prévoit également de pérenniser l’exonération de cotisations patronales pour l’embauche de travailleurs saisonniers agricoles et d’en relever le plafond. Il rectifierait enfin les dépenses d’assurance maladie, notamment celles des soins de ville et des hôpitaux. Selon les auteurs, ces changements amélioreraient les retraites agricoles et soutiendraient les employeurs agricoles. ",
+   "themes": [
+    "Sécurité sociale",
+    "Agriculture et pêche"
+   ]
+  }
+ },
+ "DLR5L17N55060|claude-haiku-5-5": {
+  "duree": 0.9930071830749512,
+  "jetons_in": 1867,
+  "jetons_out": 23,
+  "cout": 0.00019820000000000002,
+  "fin": "end_turn",
+  "data": {
+   "resume": "",
+   "themes": [
+    "Justice",
+    "Famille"
+   ]
+  }
+ },
+ "DLR5L17N55060|gpt-6-luna": {
+  "duree": 3.2120141983032227,
+  "jetons_in": 941,
+  "jetons_out": 112,
+  "cout": 0.0001501,
+  "fin": "stop",
+  "data": {
+   "resume": "",
+   "themes": [
+    "Questions sociales et santé",
+    "Justice"
+   ]
+  }
+ }
+}

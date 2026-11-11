@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "forces_ordre",
+    "raison": "L’article modifie les règles applicables aux actes d’enquête autorisés dans des procédures pénales, ce qui concerne directement l’exercice des missions d’enquête des forces de l’ordre.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000565525,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

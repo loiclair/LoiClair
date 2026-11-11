@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "montagne",
+    "raison": "Le texte vise les communes situées en zone de montagne, pas directement leurs habitants. Les effets pour un résident dépendraient ensuite de la décision de sa commune.",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "elu_local",
+    "raison": "La mesure attribue une faculté à la commune, qui décide par délibération ; elle ne vise pas directement les élus locaux en tant que catégorie de personnes.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0008694,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

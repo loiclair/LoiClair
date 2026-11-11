@@ -1,0 +1,26 @@
+{
+ "impacts": [
+  {
+   "profil": "etranger_hors_ue",
+   "phrase_fr": "L’accès de certains étrangers hors UE aux prestations familiales et à l’APA serait soumis à deux ans de séjour régulier, avec des exceptions prévues par le texte.",
+   "phrase_en": "Access for some non-EU foreigners to family benefits and the autonomy allowance would require two years of lawful residence, subject to exceptions in the text.",
+   "passage": "Pour bénéficier de l’allocation mentionnée au premier alinéa, l’étranger non ressortissant de l’Union européenne doit être titulaire, depuis au moins deux ans, d’un titre ou d’un document qui atteste de la régularité de sa situation au regard du droit au séjour.",
+   "certitude": "certain"
+  },
+  {
+   "profil": "allocataire",
+   "phrase_fr": "Pour certains étrangers hors UE, l’accès aux aides personnelles au logement serait soumis à deux ans de séjour régulier, sauf exceptions prévues par le texte.",
+   "phrase_en": "For some non-EU foreigners, access to personal housing assistance would require two years of lawful residence, subject to exceptions in the text.",
+   "passage": "Aux étrangers disposant d’un titre de séjour pour motif d’études prévu au chapitre II du titre II du livre IV du code de l’entrée et du séjour des étrangers et du droit d’asile pour obtenir le bénéfice des aides personnelles au logement mentionnées à l’article L. 821-1 du code de la construction et de l’habitation ;",
+   "certitude": "certain"
+  },
+  {
+   "profil": "age_dependant",
+   "phrase_fr": "L’accès à l’allocation personnalisée d’autonomie serait soumis, pour certains étrangers hors UE, à deux ans de séjour régulier, avec des exceptions prévues par le texte.",
+   "phrase_en": "Access to the personalized autonomy allowance would require some non-EU foreigners to have two years of lawful residence, subject to exceptions in the text.",
+   "passage": "Pour bénéficier de l’allocation mentionnée au premier alinéa, l’étranger non ressortissant de l’Union européenne doit être titulaire, depuis au moins deux ans, d’un titre ou d’un document qui atteste de la régularité de sa situation au regard du droit au séjour.",
+   "certitude": "certain"
+  }
+ ],
+ "cout_usd": 0.00059035
+}

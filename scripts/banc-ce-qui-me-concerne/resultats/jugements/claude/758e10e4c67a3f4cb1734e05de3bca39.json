@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "forces_ordre",
+    "raison": "Le texte vise directement les enquêteurs (policiers, gendarmes) qui agissent sous autorisation judiciaire dans les infiltrations, livraisons et coups d'achat. Il les protège de la qualification d'incitation à l'infraction, ce qui change concrètement leur situation pénale dans l'exercice de leur métier.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00042658500000000005,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

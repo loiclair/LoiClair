@@ -1,0 +1,19 @@
+{
+ "impacts": [
+  {
+   "profil": "secteur_agriculture",
+   "phrase_fr": "Il serait interdit aux pêcheurs professionnels d'attirer les poissons par des déversements, des appâts concentrés ou des lumières avant de les capturer.",
+   "phrase_en": "Professional fishers would be banned from attracting fish with discharges, concentrated baits or lights before catching them.",
+   "passage": "L’usage d’appâts concentrés, tels que des granulés, liquides ou gels attractifs, volontairement disséminés dans le milieu marin pour attirer les poissons vers une embarcation ou un engin de pêche ;",
+   "certitude": "certain"
+  },
+  {
+   "profil": "chasseur_pecheur",
+   "phrase_fr": "Les pêcheurs de loisir ne pourraient plus utiliser d'appâts concentrés, de déversements ou de lumières pour attirer les poissons en mer.",
+   "phrase_en": "Recreational anglers would no longer be allowed to use concentrated baits, discharges or lights to attract fish at sea.",
+   "passage": "Il est interdit à toute personne de mettre en œuvre les pratiques suivantes :",
+   "certitude": "probable"
+  }
+ ],
+ "cout_usd": 0.00099421
+}

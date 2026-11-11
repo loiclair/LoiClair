@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "mineur",
+    "raison": "L'article interdit de conduire une trottinette à assistance électrique avant 14 ans. La mesure vise directement les mineurs de moins de 14 ans, qui sont un sous-groupe du profil mineur.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "cycliste",
+    "raison": "Le plafond de 20 km/h s'applique à la trottinette à assistance électrique, mode de déplacement que la définition du profil cycliste inclut expressément. La règle change directement la façon dont ces personnes roulent.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000380685,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

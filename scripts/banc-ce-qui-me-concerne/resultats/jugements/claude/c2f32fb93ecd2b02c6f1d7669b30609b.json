@@ -1,0 +1,26 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "salarie_prive",
+    "raison": "Le texte désigne directement les salariés : l'employeur doit les informer des frais, pénalités et coûts de transaction liés au déblocage de leur épargne salariale, ce qui change leur information avant de décider.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "epargnant",
+    "raison": "Le catalogue exclut l'épargne salariale de la définition d'épargnant. L'amendement ne vise que les sommes placées dans un plan d'épargne salariale, pas l'épargne en général.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "chef_entreprise",
+   "dirigeant_grande_entreprise"
+  ]
+ },
+ "cout_usd": 0.0007334350000000001,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

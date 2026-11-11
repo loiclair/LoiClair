@@ -1,0 +1,106 @@
+name: Récap hebdomadaire signalements & idées
+
+on:
+  schedule:
+    - cron: "0 8 * * 1" # Chaque lundi à 8h UTC (9h/10h heure française)
+  workflow_dispatch: # Permet de lancer manuellement pour tester
+
+permissions:
+  contents: read
+  issues: read
+
+jobs:
+  recap:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Collecter les issues et envoyer le récap
+        uses: actions/github-script@v9
+        id: build-recap
+        env:
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+        with:
+          script: |
+            const oneWeekAgo = new Date();
+            oneWeekAgo.setDate(oneWeekAgo.getDate() - 7);
+            const since = oneWeekAgo.toISOString();
+
+            const LABELS = ['signalement', 'idée'];
+
+            async function fetchIssues(params) {
+              const results = [];
+              for (const label of LABELS) {
+                const res = await github.rest.issues.listForRepo({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  labels: label,
+                  per_page: 100,
+                  ...params,
+                });
+                results.push(...res.data);
+              }
+              // Déduplication par numéro (une issue peut avoir les deux labels)
+              const seen = new Set();
+              return results.filter(i => {
+                if (seen.has(i.number)) return false;
+                seen.add(i.number);
+                return true;
+              });
+            }
+
+            // 1. Issues créées cette semaine
+            const newAll = await fetchIssues({ state: 'all', since });
+            const createdThisWeek = newAll.filter(
+              i => new Date(i.created_at) >= oneWeekAgo
+            );
+            const newIds = new Set(createdThisWeek.map(i => i.number));
+
+            // 2. Issues toujours ouvertes HORS celles créées cette semaine
+            const openAll = await fetchIssues({ state: 'open' });
+            const olderOpen = openAll.filter(i => !newIds.has(i.number));
+
+            // 3. Issues fermées cette semaine
+            const closedAll = await fetchIssues({ state: 'closed', since });
+            const closedThisWeek = closedAll.filter(
+              i => i.closed_at && new Date(i.closed_at) >= oneWeekAgo
+            );
+
+            const totalOpen = openAll.length;
+
+            function formatList(issues) {
+              if (issues.length === 0) return 'Aucun.\n';
+              return issues.map(i => {
+                const labels = i.labels
+                  .map(l => l.name)
+                  .join(', ');
+                return `• #${i.number} — ${i.title}${labels ? ' [' + labels + ']' : ''}\n  ${i.html_url}`;
+              }).join('\n') + '\n';
+            }
+
+            const body = `Récap hebdomadaire LoiClair — signalements & idées\n` +
+              `Semaine du ${oneWeekAgo.toLocaleDateString('fr-FR')} au ${new Date().toLocaleDateString('fr-FR')}\n\n` +
+              `📌 TOTAL OUVERT : ${totalOpen}\n\n` +
+              `━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n` +
+              `🆕 NOUVEAUX (${createdThisWeek.length})\n\n` +
+              formatList(createdThisWeek) + '\n' +
+              `📂 TOUJOURS OUVERTS (${olderOpen.length})\n\n` +
+              formatList(olderOpen) + '\n' +
+              `✅ RÉSOLUS CETTE SEMAINE (${closedThisWeek.length})\n\n` +
+              formatList(closedThisWeek);
+
+            const subject = `📊 LoiClair — Récap : ${createdThisWeek.length} nouveaux, ${totalOpen} ouverts, ${closedThisWeek.length} résolus`;
+            const res = await fetch('https://api.resend.com/emails', {
+              method: 'POST',
+              headers: {
+                Authorization: `Bearer ${process.env.RESEND_API_KEY}`,
+                'Content-Type': 'application/json',
+              },
+              body: JSON.stringify({
+                from: 'LoiClair System <newsletter@loiclair.fr>',
+                to: 'contact@loiclair.fr',
+                subject,
+                text: body,
+              }),
+            });
+            if (!res.ok) {
+              core.setFailed(`Échec envoi Resend (${res.status}) : ${await res.text()}`);
+            }

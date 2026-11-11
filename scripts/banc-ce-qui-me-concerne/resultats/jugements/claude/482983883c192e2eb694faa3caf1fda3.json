@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_agriculture",
+    "raison": "Le L. 511-3 créé vise directement les installations d'élevage soumises à enregistrement ou autorisation : prescriptions générales et plan de modernisation des bâtiments, dont la mise en œuvre change la façon d'exploiter un élevage. Le texte peut comprendre ces mesures (« peuvent »), mais le champ est bien celui de l'élevage.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0006367850000000001,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

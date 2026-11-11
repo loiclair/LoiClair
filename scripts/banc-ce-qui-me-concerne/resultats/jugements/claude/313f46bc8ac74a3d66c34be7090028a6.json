@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "travailleur_plateforme",
+    "raison": "L'article vise directement les travailleurs qui reçoivent leurs missions par une plateforme numérique : il encadre la suspension, la désactivation, le déréférencement ou la réduction d'accès aux missions, et impose motivation, notification et procédure contradictoire.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000209135,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

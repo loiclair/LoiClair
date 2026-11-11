@@ -1,0 +1,29 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "salarie_prive",
+    "raison": "L'amendement impose à l'employeur d'informer les salariés, nommément visés, des frais, pénalités et coûts de transaction liés au déblocage de leurs sommes d'épargne salariale. Le salarié est le destinataire direct de cette information, qui pèse sur sa décision de débloquer son argent.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "chef_entreprise",
+    "raison": "L'amendement complète une obligation imposée à l'employeur (alinéa VI de l'article 1er). Elle vaut pour tout employeur, donc pour le dirigeant d'une très petite, petite ou moyenne entreprise, qui devra informer ses salariés des frais.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "dirigeant_grande_entreprise",
+    "raison": "Même obligation d'information imposée à tout employeur. Le dirigeant d'une entreprise de 250 salariés ou plus devra donc informer ses salariés des frais, pénalités et coûts de transaction.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0008325350000000001,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

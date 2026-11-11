@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "montagne",
+    "raison": "Le texte vise directement les communes situées en zone de montagne, qui pourraient retrouver les compétences eau et assainissement ; c'est le lieu de vie des habitants concernés.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "elu_local",
+    "raison": "Les communes de montagne décident par délibération de leur conseil municipal de retrouver les compétences, et les conseillers de la communauté de communes rendent un avis dans un délai de trois mois : cela change directement les attributions des élus municipaux et intercommunaux.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0031217,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

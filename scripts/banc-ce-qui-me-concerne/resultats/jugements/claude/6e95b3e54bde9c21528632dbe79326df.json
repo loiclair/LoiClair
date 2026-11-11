@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_culture",
+    "raison": "Le texte vise directement les journalistes professionnels (art. L. 7111-3 du code du travail) et change leur couverture sociale, en les rattachant au régime de sécurité sociale quel que soit leur lien juridique avec l'entreprise de presse. La presse fait partie du secteur culture.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "expat",
+    "raison": "La dérogation à l'article L. 111-1 vise expressément les journalistes qui exercent ou résident à l'étranger, quel que soit leur pays de résidence. Les Français établis hors de France et journalistes pour une presse française sont donc directement touchés. Le texte ne mentionne pas la nationalité : la phrase de l'assistant ajoute une restriction aux seuls journalistes français, qui n'existe pas dans le texte.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0008716349999999999,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

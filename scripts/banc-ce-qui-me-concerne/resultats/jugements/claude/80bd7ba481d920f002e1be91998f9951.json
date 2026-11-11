@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "demandeur_emploi",
+    "raison": "Le texte vise des « personnes sans emploi rencontrant des difficultés sociales et professionnelles particulières » accompagnées vers une activité indépendante ou salariée : les demandeurs d'emploi sont directement visés, avec un nouveau dispositif d'accompagnement.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0026006999999999996,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

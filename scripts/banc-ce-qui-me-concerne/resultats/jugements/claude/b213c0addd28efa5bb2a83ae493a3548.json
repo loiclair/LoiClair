@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "heritier_donateur",
+    "raison": "L'article modifie les droits de succession et de donation : barème (tranches de 25 000 € à 600 000 €, taux de 50 % puis 60 %), abattement porté à 200 000 € (art. 779), rappel des donations (art. 784). Cela vise directement ceux qui transmettent ou reçoivent un patrimoine.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0045447,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

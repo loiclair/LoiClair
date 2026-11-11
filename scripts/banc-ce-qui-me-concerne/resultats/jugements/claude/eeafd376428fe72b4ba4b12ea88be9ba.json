@@ -1,0 +1,37 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "fonctionnaire",
+    "raison": "L'article L. 131-1 du code général de la fonction publique est modifié pour interdire la discrimination liée à l'allaitement ; les agents publics sont directement visés.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "salarie_prive",
+    "raison": "Les articles L. 1132-1 et L. 1321-3 du code du travail ajoutent l'allaitement aux motifs de discrimination interdits, ce qui protège directement les salariés du privé.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "outre_mer",
+    "raison": "Le V modifie le statut des fonctionnaires communaux de Polynésie française, mais cela ne vise que les agents de cette fonction publique locale, pas les habitants d'outre-mer en général ; le profil n'est pas ce qui déclenche la mesure.",
+    "concerne": false,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "parent",
+    "raison": "Le texte protège les femmes qui allaitent contre la discrimination, mais il ne désigne pas les parents d'enfants mineurs en tant que tels ; l'allaitement n'équivaut pas au profil parent du catalogue et la mesure vise d'abord les mères allaitantes, ce qui est un statut voisin.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": [
+   "futur_parent"
+  ]
+ },
+ "cout_usd": 0.0054037,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

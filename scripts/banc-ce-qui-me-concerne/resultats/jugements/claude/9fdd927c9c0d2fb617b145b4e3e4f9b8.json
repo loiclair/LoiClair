@@ -1,0 +1,29 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etranger_hors_ue",
+    "raison": "L'article porte sur les cartes de séjour (vie privée et familiale) délivrées à des étrangers conjoints ou enfants de titulaires de carte de résident ; ce sont des ressortissants hors UE titulaires d'un titre de séjour, directement visés.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "mineur",
+    "raison": "Le texte vise l'enfant étranger entre seize et dix-huit ans qui remplit les conditions de l'article L. 421-35 et dont un parent est résident : un mineur de 16-17 ans est directement visé.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "jeune",
+    "raison": "Le texte vise l'étranger dont un parent est résident, dans l'année suivant son dix-huitième anniversaire : un jeune de 18 ans est directement visé.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0038517,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

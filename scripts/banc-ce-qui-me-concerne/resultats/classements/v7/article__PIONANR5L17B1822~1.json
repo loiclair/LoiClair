@@ -1,0 +1,12 @@
+{
+ "impacts": [
+  {
+   "profil": "salarie_prive",
+   "phrase_fr": "Un salarié en arrêt maladie après une IVG serait indemnisé dès le premier jour, sans délai de carence.",
+   "phrase_en": "A salaried employee on sick leave after an abortion would be paid from the first day, with no waiting period.",
+   "passage": "La même disposition s’applique lorsque l’incapacité de travail fait suite à une interruption volontaire de grossesse réalisée dans les conditions prévues aux articles L. 2212‑1 à L. 2212‑10 du code de la santé publique.",
+   "certitude": "probable"
+  }
+ ],
+ "cout_usd": 0.00058471
+}

@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "elu_local",
+    "raison": "L'article désigne lui-même le maire de la commune d'implantation comme destinataire d'une information préalable obligatoire sur tout projet de fermeture d'une succursale, ce qui lui confère un droit directement attaché à sa fonction.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000385635,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

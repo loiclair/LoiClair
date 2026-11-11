@@ -1,0 +1,26 @@
+{
+ "impacts": [
+  {
+   "profil": "secteur_culture",
+   "phrase_fr": "Les journalistes seraient rattachés au régime de sécurité sociale prévu pour eux, quel que soit leur lien juridique avec l'agence ou l'entreprise de presse.",
+   "phrase_en": "Journalists would be placed under the social security scheme set for them, whatever their legal link with the press agency or company.",
+   "passage": "Les journalistes professionnels et assimilés, au sens des articles L. 7111‑3 et L. 7111‑4 du code du travail, fournissant des articles, des informations, des reportages, des dessins ou des photographies à une agence de presse ou à une entreprise de presse quotidienne ou périodique",
+   "certitude": "certain"
+  },
+  {
+   "profil": "expat",
+   "phrase_fr": "Les journalistes français travaillant ou résidant à l'étranger pour une entreprise de presse française seraient couverts par ce régime de sécurité sociale.",
+   "phrase_en": "French journalists working or living abroad for a French press company would be covered by this social security scheme.",
+   "passage": "quel que soit leur pays d’exercice et leur pays de résidence",
+   "certitude": "probable"
+  },
+  {
+   "profil": "travailleur_frontalier",
+   "phrase_fr": "Les journalistes vivant dans un pays voisin et travaillant pour un média français seraient couverts par ce régime, quel que soit leur pays de résidence.",
+   "phrase_en": "Journalists living in a neighbouring country and working for a French media outlet would be covered by this scheme, whatever their country of residence.",
+   "passage": "quel que soit leur pays d’exercice et leur pays de résidence",
+   "certitude": "possible"
+  }
+ ],
+ "cout_usd": 0.00118101
+}

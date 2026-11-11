@@ -1,0 +1,20 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "mineur",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "La phrase décrit un refus implicite de la demande, ce qui correspond au dispositif de l'amendement. L'emploi de mineurs est bien au cœur de l'amendement (tel qu'explicité par l'exposé des motifs). Le conditionnel est correct."
+   },
+   {
+    "profil": "chef_entreprise",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'employeur qui fait la demande est directement concerné par la règle de décision de rejet. La phrase décrit cela fidèlement au conditionnel."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0019604
+}

@@ -1,0 +1,34 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "fonctionnaire",
+    "raison": "Le I ajoute l’allaitement aux motifs de discrimination visés par le code général de la fonction publique, ce qui concerne les agents publics.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "salarie_prive",
+    "raison": "Le III ajoute l’allaitement aux motifs de discrimination interdits par le code du travail, notamment dans les relations de travail.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "outre_mer",
+    "raison": "Le V vise expressément le statut des fonctionnaires des communes et groupements de communes de Polynésie française : une partie des habitants d’outre-mer est directement concernée.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "parent",
+    "raison": "Le texte vise le fait d’allaiter, pas le statut de parent ou de responsable légal ; être parent n’est pas le critère déclenchant la mesure.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0012084,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

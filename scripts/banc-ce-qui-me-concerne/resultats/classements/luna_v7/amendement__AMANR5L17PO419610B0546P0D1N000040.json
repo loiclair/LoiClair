@@ -1,0 +1,17 @@
+{
+ "resume_fr": "Remplacerait le vote de travaux en copropriété par la conclusion, par le syndicat des copropriétaires, d’un contrat de maîtrise d’œuvre reposant sur un audit énergétique pour satisfaire à l’obligation de décence énergétique.",
+ "resume_en": "Would replace the copropriété’s vote on works with the co-owners’ association entering into a project management contract based on an energy audit to meet the energy-efficiency standard for rented homes.",
+ "impacts": [
+  {
+   "profil": "locataire",
+   "passage": "« le syndicat des copropriétaires a conclu un contrat de maîtrise d’œuvre reposant sur un audit énergétique et portant sur un projet de rénovation énergétique »",
+   "certitude": "probable"
+  },
+  {
+   "profil": "proprietaire_bailleur",
+   "passage": "« le syndicat des copropriétaires a conclu un contrat de maîtrise d’œuvre reposant sur un audit énergétique et portant sur un projet de rénovation énergétique »",
+   "certitude": "probable"
+  }
+ ],
+ "cout_usd": 0.00037835
+}

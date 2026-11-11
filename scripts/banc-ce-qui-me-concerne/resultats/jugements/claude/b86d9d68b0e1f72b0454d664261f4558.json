@@ -1,0 +1,35 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etranger_hors_ue",
+    "raison": "La taxe sur la première délivrance (300 €) et le renouvellement (200 €) des titres de séjour vise directement les personnes hors UE titulaires d'un titre de séjour en France ; les réductions pour certaines cartes sont bien mentionnées.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "automobiliste",
+    "raison": "Le texte fixe un tarif de 25 € pour remplacer un permis de conduire non présenté ou détérioré et de 40 € pour l'échange d'un permis étranger, ce qui vise directement les titulaires d'un permis. Mais le texte parle de « non présenté ou détérioré », pas de « perdu » : la phrase ajoute un fait (perdu) qui n'est pas dans le texte.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "salarie_prive",
+    "raison": "La contribution de 50 € s'applique à toute instance civile ou prud'homale devant un tribunal judiciaire ou un conseil des prud'hommes, pour la partie qui saisit. Un salarié du privé qui saisit les prud'hommes est directement visé, le texte nommant explicitement la procédure prud'homale.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "independant",
+    "raison": "Le produit de la contribution est affecté au paiement des avocats via les caisses de règlements pécuniaires. Le texte ne change pas les règles d'exercice des avocats libéraux et ne les vise pas directement : il s'agit du financement de l'aide juridictionnelle par l'intermédiaire d'un organisme. L'effet est indirect.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0080197,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

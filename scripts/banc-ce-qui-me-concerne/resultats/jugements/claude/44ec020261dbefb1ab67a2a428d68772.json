@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "montagne",
+    "raison": "Le texte vise les communes situées en zone de montagne, pas directement leurs habitants. Pour ceux-ci, les effets dépendraient d’une décision de la commune, donc passeraient par un tiers.",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "elu_local",
+    "raison": "Le texte permet aux communes de reprendre ces compétences par délibération : il modifie directement la décision que les élus municipaux peuvent prendre.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000462025,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

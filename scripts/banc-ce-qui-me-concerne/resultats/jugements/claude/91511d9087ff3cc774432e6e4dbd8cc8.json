@@ -1,0 +1,49 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "handicap",
+    "raison": "Le texte prévoit un dégrèvement pour certains titulaires de l’AAH et pour des contribuables dont l’infirmité ou l’invalidité les empêche de subvenir à leurs besoins par leur travail.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "senior",
+    "raison": "Les contribuables de plus de 60 ans peuvent bénéficier du dégrèvement sous conditions de revenus et s’ils ne sont pas passibles de l’IFI ; cela vise une partie des personnes de 55 ans ou plus.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "veuf",
+    "raison": "Les veuves et veufs sont expressément visés par le dégrèvement, sous conditions, notamment de revenus et d’absence d’assujettissement à l’IFI.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "patrimoine_ifi",
+    "raison": "Le texte exclut explicitement du dégrèvement les contribuables passibles de l’IFI parmi les personnes de plus de 60 ans ou veuves ou veufs qui pourraient autrement y avoir droit.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "demandeur_emploi",
+    "raison": "Le statut de demandeur d’emploi concerne les enfants majeurs comme condition pour accorder un dégrèvement à leur parent ; le texte n’accorde pas de droit au dégrèvement à ces enfants eux-mêmes.",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "parent",
+    "raison": "Le texte prévoit un dégrèvement pour certains contribuables qui occupent leur résidence principale avec leurs enfants majeurs demandeurs d’emploi. Cela vise une partie des parents.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "outre_mer",
+   "age_dependant"
+  ]
+ },
+ "cout_usd": 0.001812525,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

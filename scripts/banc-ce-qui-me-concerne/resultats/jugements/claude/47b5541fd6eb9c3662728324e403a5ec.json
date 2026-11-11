@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_culture",
+    "raison": "Le texte vise directement les éditeurs de presse et agences de presse : présomption de qualité de publication de presse pour les droits voisins et possibilité de saisir l'Arcom pour avis. Cela change leurs droits et démarches, donc le secteur presse/édition est concerné.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0020397,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

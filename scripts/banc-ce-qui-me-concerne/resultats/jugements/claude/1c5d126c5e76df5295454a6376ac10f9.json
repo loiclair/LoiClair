@@ -1,0 +1,33 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "salarie_prive",
+    "raison": "Le régime s'adresse aux personnes visées aux articles L. 311-2 et L. 311-3 (salariés) : cotisation de 2 % au plus de la rémunération, partagée avec l'employeur. Le salarié du privé est directement visé.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "chef_entreprise",
+    "raison": "Le texte impose aux employeurs la moitié des cotisations ; selon la règle 11, une obligation imposée à tout employeur concerne les dirigeants de PME.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "dirigeant_grande_entreprise",
+    "raison": "Obligation de cotiser pour la moitié à la charge de tous les employeurs, donc aussi des grandes entreprises (règle 11).",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "retraite",
+   "senior",
+   "fonctionnaire"
+  ]
+ },
+ "cout_usd": 0.0044677,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "salarie_prive",
+    "raison": "Le texte vise directement les salariés : les droits de participation et les sommes d'intéressement affectés à un plan d'épargne salariale ne peuvent être débloqués que « sur demande du salarié ». Avancer le seuil du 1er janvier 2027 au 1er janvier 2026 réduit les sommes que le salarié peut débloquer avec les exonérations.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0005307350000000001,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

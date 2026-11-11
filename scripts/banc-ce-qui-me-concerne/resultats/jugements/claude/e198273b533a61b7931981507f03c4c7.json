@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "heritier_donateur",
+    "raison": "Le texte fixe directement le régime fiscal des dons d'argent entre donateur et donataire (taux de 6 %, plafond de 100 000 euros, réduction à 5 % sous condition, plafond relevé à 50 000 euros pour IV), donc des personnes qui transmettent ou reçoivent un patrimoine par donation.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000466335,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

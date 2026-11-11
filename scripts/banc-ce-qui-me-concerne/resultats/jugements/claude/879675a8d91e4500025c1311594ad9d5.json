@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "pompier_volontaire",
+    "raison": "Le texte vise directement les sapeurs-pompiers volontaires : l'autorité territoriale doit établir pour chacun d'eux une fiche d'exposition après une intervention à risque. C'est une obligation de suivi qui les concerne par leur fonction même.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "fonctionnaire",
+    "raison": "Le texte désigne les sapeurs-pompiers, et non les fonctionnaires en général. L'obligation pèse sur l'autorité territoriale (effet indirect pour le lecteur fonctionnaire), et la mesure ne change rien pour un fonctionnaire qui n'est pas sapeur-pompier.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000984585,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

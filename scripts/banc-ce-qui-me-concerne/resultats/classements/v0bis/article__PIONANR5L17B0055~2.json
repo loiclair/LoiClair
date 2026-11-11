@@ -1,0 +1,26 @@
+{
+ "impacts": [
+  {
+   "profil": "elu_local",
+   "phrase_fr": "Le maire de la commune où se trouve une agence bancaire serait prévenu à l'avance de tout projet de fermeture et des solutions prévues pour les clients.",
+   "phrase_en": "The mayor of a town with a bank branch would be told in advance of any plan to close it, and of the measures planned for clients.",
+   "passage": "Les établissements visés au présent chapitre informent au préalable le maire de la commune d’implantation de tout projet de fermeture d’une succursale mentionnée au I de l’article L. 511‑10 et des moyens mis en œuvre pour garantir la continuité de l’accès à son réseau pour ses clients.",
+   "certitude": "certain"
+  },
+  {
+   "profil": "rural",
+   "phrase_fr": "Les habitants des communes rurales où une agence bancaire ferme seraient mieux prévenus, avec des solutions pour garder l'accès aux services bancaires.",
+   "phrase_en": "Residents of rural towns where a bank branch closes would be warned earlier, with solutions to keep access to banking services.",
+   "passage": "Les établissements visés au présent chapitre informent au préalable le maire de la commune d’implantation de tout projet de fermeture d’une succursale mentionnée au I de l’article L. 511‑10 et des moyens mis en œuvre pour garantir la continuité de l’accès à son réseau pour ses clients.",
+   "certitude": "probable"
+  },
+  {
+   "profil": "secteur_finance",
+   "phrase_fr": "Les banques devraient prévenir le maire avant de fermer une agence et prévoir des moyens pour garder l'accès aux clients.",
+   "phrase_en": "Banks would have to warn the mayor before closing a branch and plan ways to keep clients' access.",
+   "passage": "Les établissements visés au présent chapitre informent au préalable le maire de la commune d’implantation de tout projet de fermeture d’une succursale mentionnée au I de l’article L. 511‑10 et des moyens mis en œuvre pour garantir la continuité de l’accès à son réseau pour ses clients.",
+   "certitude": "probable"
+  }
+ ],
+ "cout_usd": 0.00109375
+}

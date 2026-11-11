@@ -1,0 +1,29 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_transport",
+    "raison": "Le texte vise les opérateurs de transports guidés urbains (tramways, métros) et autorise la captation d'images depuis les rames qu'ils exploitent. Filmer la conduite des conducteurs pour la formation et l'analyse des accidents change directement la façon d'exercer ce métier.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "salarie_prive",
+    "raison": "Le texte ne mentionne ni salariés ni statut de droit privé. Il parle de « personnel de conduite » et d'une « procédure disciplinaire » générale, sans viser une catégorie de salariés. Le statut salarié n'est pas ce qui déclenche la mesure, et les conducteurs peuvent relever d'autres statuts.",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "usager_transports",
+    "raison": "Le texte impose aux opérateurs une signalétique informant le public que le véhicule est équipé d'une caméra. Les caméras filment la voie publique vers l'avant, et le voyageur ne voit pas ses droits, ses démarches ou son argent changer. L'information du public ne le vise pas en tant qu'usager.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0010877850000000002,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

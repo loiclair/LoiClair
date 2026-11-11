@@ -1,0 +1,28 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "mineur",
+    "raison": "Le texte vise explicitement l’embauche et l’emploi des moins de treize ans, avec des conditions qui s’appliquent directement à eux.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "parent",
+    "raison": "Le texte impose la présence de l’un des représentants légaux du mineur pendant l’embauche et l’exécution du contrat ; cela vise directement le parent qui est son représentant légal.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "secteur_culture",
+    "raison": "La mesure encadre les conditions d’embauche et de tournage des enfants dans les entreprises de cinéma, une activité du secteur audiovisuel, et impose des exigences professionnelles spécifiques à ce secteur.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0009294,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

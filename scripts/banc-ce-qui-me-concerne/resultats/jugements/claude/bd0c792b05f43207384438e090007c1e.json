@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "marie_pacse",
+    "raison": "L'article 2 ne vise les conjoints que comme proches d'une personne qui commet un acte visé au 1°. Ce qui déclenche la saisie, c'est le lien avec cette personne, pas le fait d'être marié ou pacsé. Le texte ne fait pas du mariage ou du PACS un critère de la mesure.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000306185,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_agriculture",
+    "raison": "Le texte ne nomme ni les agriculteurs, ni les cultures, ni aucun secteur : il vise les « réclamants » de dégâts de grand gibier, catégorie définie par le dommage subi et non par un métier. Le profil n'est donc pas désigné par la mesure, même si les victimes sont souvent agricoles.",
+    "concerne": false,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "chasseur_pecheur",
+    "raison": "La mesure attribue un rôle d'instruction aux fédérations départementales des chasseurs, qui sont des organismes, non aux chasseurs eux-mêmes. Aucune obligation ni aucun droit ne touche personnellement un chasseur : l'effet passe par la fédération, donc il est indirect.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000704485,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

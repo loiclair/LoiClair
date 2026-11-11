@@ -1,0 +1,19 @@
+{
+ "impacts": [
+  {
+   "profil": "heritier_donateur",
+   "phrase_fr": "Les règles permettant à une commune d’acquérir certains biens sans maître seraient modifiées, y compris pour des successions ouvertes depuis 2007 et non encore partagées.",
+   "phrase_en": "The rules allowing a municipality to acquire certain ownerless properties would change, including for estates opened since 2007 that have not yet been divided.",
+   "passage": "Le 1° de l’article L. 1123-1 du code général de la propriété des personnes publiques, dans sa rédaction résultant du I du présent article, est applicable aux successions ouvertes à compter du 1er janvier 2007 et non encore partagées.",
+   "certitude": "certain"
+  },
+  {
+   "profil": "elu_local",
+   "phrase_fr": "Un maire pourrait demander à l’administration fiscale les informations nécessaires pour engager la procédure d’acquisition de certains biens sans maître.",
+   "phrase_en": "A mayor would be able to ask the tax authorities for information needed to begin the procedure for acquiring certain ownerless properties.",
+   "passage": "L’administration fiscale transmet au maire ou au président de l’établissement public de coopération intercommunale à fiscalité propre, à leur demande, les informations nécessaires à la mise en œuvre de la procédure d’acquisition des biens mentionnés à l’article L. 1123-1.",
+   "certitude": "certain"
+  }
+ ],
+ "cout_usd": 0.000409975
+}

@@ -1,0 +1,31 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "fonctionnaire",
+    "raison": "Le texte vise les agents publics : la protection de la collectivité est accordée à leurs proches en raison de leurs fonctions. L'agent est le déclencheur de la mesure, même si le bénéfice va à sa famille.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "concubin",
+    "raison": "Le texte nomme explicitement le concubin comme bénéficiaire de la protection. Le risque peut toucher « l'une de ces personnes », donc le concubin lui-même, et pas seulement l'agent.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "marie_pacse",
+    "raison": "Le texte nomme explicitement le conjoint et le partenaire de PACS comme bénéficiaires de la protection, en raison des fonctions de l'agent public.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "forces_ordre"
+  ]
+ },
+ "cout_usd": 0.0020546350000000004,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_sante",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "La loi permet directement à certains médecins (diplômés du Royaume-Uni) d'exercer en France. Cela vise le secteur de la santé. La phrase dit 'Les médecins concernés pourraient exercer' : le conditionnel est de trop car c'est une loi publiée, mais le fond est exact."
+   },
+   {
+    "profil": "etranger_hors_ue",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "Les ressortissants du Royaume-Uni (hors UE) sont explicitement visés par le texte, qui leur donne un droit nouveau d'exercice en France. Conditionnel fautif, mais fond exact."
+   }
+  ],
+  "oublis": [
+   "expat",
+   "etranger_ue"
+  ]
+ },
+ "cout_usd": 0.0024817
+}

@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "jeune",
+    "raison": "L'article porte de 21 à 25 ans l'âge jusqu'auquel les jeunes sortant de l'aide sociale à l'enfance peuvent être accompagnés : cela vise des jeunes de 18 à 25 ans, donc le profil jeune.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0018197,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

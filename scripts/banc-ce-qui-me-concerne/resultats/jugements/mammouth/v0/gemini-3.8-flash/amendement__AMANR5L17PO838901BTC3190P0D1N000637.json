@@ -1,0 +1,20 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "outre_mer",
+    "concerne": false,
+    "phrase_fidele": true,
+    "raison": "L'amendement impose à l'État d'élaborer un plan territorial de politique publique. Il s'agit d'une disposition programmatique et institutionnelle qui ne modifie pas directement et immédiatement les droits, devoirs ou démarches des habitants d'outre-mer."
+   },
+   {
+    "profil": "mineur",
+    "concerne": false,
+    "phrase_fidele": true,
+    "raison": "L'amendement prévoit l'élaboration future d'un plan par l'État pour définir des modalités d'accompagnement. Cet effet est indirect et dépend du contenu de ce plan futur ; il n'y a pas de modification directe et immédiate des droits ou obligations des mineurs."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0087375
+}

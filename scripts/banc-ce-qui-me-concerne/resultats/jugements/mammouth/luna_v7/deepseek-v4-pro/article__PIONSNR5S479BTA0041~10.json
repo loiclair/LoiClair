@@ -1,0 +1,20 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "heritier_donateur",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article modifie rétroactivement les conditions d'acquisition de biens sans maître pour les successions ouvertes depuis 2007 et non partagées, ce qui impacte directement les héritiers de ces successions."
+   },
+   {
+    "profil": "elu_local",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article crée une procédure permettant directement au maire ou au président d'EPCI de demander des informations fiscales pour identifier les biens sans maître."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0023296
+}

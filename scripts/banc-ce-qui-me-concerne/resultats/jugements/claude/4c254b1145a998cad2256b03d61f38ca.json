@@ -1,0 +1,35 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "locataire",
+    "raison": "Le loyer de base des nouveaux baux est fixé librement dans la limite du loyer de référence, et une action en diminution peut être engagée contre un loyer supérieur à ce plafond. Le locataire paie directement le loyer encadré.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "proprietaire_bailleur",
+    "raison": "Le loyer qu’il peut demander pour un logement loué à l’année est plafonné par le loyer de référence. La phrase présente ce plafond comme égal au loyer médian, ce qui vaut seulement pour les autres communes : dans les zones tendues, il est inférieur ou égal au médian, à 90 % ou 80 % selon l’année.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "meuble_tourisme",
+    "raison": "Les logements meublés touristiques définis à l’article L. 324-1-1 du code du tourisme entrent dans l’encadrement des loyers, en zone tendue comme ailleurs. La mesure vise directement le loueur en meublé touristique.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "etudiant",
+    "raison": "La mesure vise le type de logement (résidence étudiante privée) et non le statut d’étudiant. Un étudiant logé ailleurs n’est pas touché, et la règle vaudrait pour tout occupant d’une telle résidence.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0018937350000000001,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

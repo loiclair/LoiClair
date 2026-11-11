@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_culture",
+    "raison": "Les journalistes professionnels et assimilés qui fournissent des contenus à une agence ou entreprise de presse répondant aux conditions du texte sont visés ; la presse relève du secteur culture.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "expat",
+    "raison": "La dérogation vise expressément les journalistes concernés quel que soit leur pays de résidence ou d’exercice, donc aussi ceux établis hors de France.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000463775,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

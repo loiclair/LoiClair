@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "fumeur",
+    "raison": "L'article renvoie à un décret les règles de conditionnement et d'étiquetage des produits à la nicotine (tabac, dispositifs rechargeables et jetables). Ces paquets sont ceux que le fumeur achète et utilise, y compris la cigarette électronique : le profil est visé directement par la catégorie du produit.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0019377,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

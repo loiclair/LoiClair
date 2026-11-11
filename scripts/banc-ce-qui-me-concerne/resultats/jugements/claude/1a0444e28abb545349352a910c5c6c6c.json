@@ -1,0 +1,34 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "parent",
+    "raison": "La mesure vise le contribuable qui assume la charge exclusive ou principale d’au moins deux enfants, donc une partie des parents.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "imposable",
+    "raison": "La mesure modifie le quotient familial utilisé pour calculer l’impôt du contribuable, mais seulement sous la condition de charge d’au moins deux enfants.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "parent_isole",
+    "raison": "Le texte ne vise pas le fait d’élever seul ses enfants ; il vise la charge exclusive ou principale d’au moins deux enfants, qui peut aussi concerner d’autres parents.",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "separe_divorce",
+    "raison": "Le texte parle des parents d’enfants à charge égale, sans faire de la séparation ou du divorce un critère de la mesure.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.001165025,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

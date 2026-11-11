@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_artisanat_commerce",
+    "raison": "Le texte prévoit la publication des commissions des émetteurs afin d’informer clairement les commerçants qui acceptent les titres-restaurant ; les commerçants sont explicitement visés.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000353275,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

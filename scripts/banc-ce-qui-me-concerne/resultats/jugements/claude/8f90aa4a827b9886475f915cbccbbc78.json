@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "benevole",
+    "raison": "Le texte vise les associations déclarées (personnes morales), pas leurs bénévoles ni leurs dirigeants. L'accompagnement passe par l'association, donc l'effet pour une personne est indirect, et le statut de bénévole n'est pas nommé.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000312435,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

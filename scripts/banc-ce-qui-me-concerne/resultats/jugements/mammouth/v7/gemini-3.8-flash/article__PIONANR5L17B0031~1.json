@@ -1,0 +1,14 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "forces_ordre",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "Les agents de police municipale (membres des forces de l'ordre) voient leur dénomination modifiée en police territoriale ainsi que leurs prérogatives de verbalisation précisées et élargies pour certaines contraventions."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00608175
+}

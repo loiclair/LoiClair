@@ -1,0 +1,19 @@
+{
+ "impacts": [
+  {
+   "profil": "corse",
+   "phrase_fr": "Un centre hospitalier régional puis universitaire seraient progressivement créés au chef-lieu de la Corse, selon un calendrier fixé par décret après avis de l'Assemblée de Corse.",
+   "phrase_en": "A regional hospital centre, then a university hospital, would gradually be set up in Corsica's capital, on a timetable set by decree after consulting the Corsican Assembly.",
+   "passage": "Un décret, pris après avis de l’Assemblée de Corse, détermine les modalités d’application du même II en établissant le calendrier de la mise en place progressive d’un centre hospitalier régional puis d’un centre hospitalier universitaire au sein du chef‐lieu de la collectivité de Corse.",
+   "certitude": "certain"
+  },
+  {
+   "profil": "etudiant",
+   "phrase_fr": "Les facultés de santé devraient proposer dans chaque département la première année de médecine, pharmacie, odontologie et maïeutique, notamment dans les zones sous-dotées en soins.",
+   "phrase_en": "Health training units would have to offer first-year medicine, pharmacy, dentistry and midwifery courses in every department, notably in areas short of care.",
+   "passage": "Les unités de formation et de recherche en santé proposent dans chaque département des enseignements correspondant au minimum à la première année du premier cycle des formations de médecine, de pharmacie, d’odontologie et de maïeutique",
+   "certitude": "probable"
+  }
+ ],
+ "cout_usd": 0.00113875
+}

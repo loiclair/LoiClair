@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_education",
+    "raison": "L'amendement supprime la possibilité de retirer la protection fonctionnelle des personnels de l'éducation victimes de violences, menaces ou outrages dans l'exercice de leurs fonctions : cela change leurs garanties professionnelles.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "fonctionnaire",
+    "raison": "La protection fonctionnelle (art. L. 134-5 du code général de la fonction publique) vise des agents publics de l'éducation ; la suppression de la faculté de retrait modifie directement leurs droits.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0032906999999999997,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

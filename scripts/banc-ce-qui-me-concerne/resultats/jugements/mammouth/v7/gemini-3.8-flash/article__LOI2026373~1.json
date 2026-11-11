@@ -1,0 +1,14 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_sante",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article autorise sous certaines conditions l'exercice de la médecine en France pour les titulaires de diplômes britanniques dont la formation a débuté avant fin 2020, modifiant directement les règles d'accès à la profession dans le secteur de la santé."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0057885
+}

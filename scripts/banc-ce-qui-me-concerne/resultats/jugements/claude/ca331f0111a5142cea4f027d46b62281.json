@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_culture",
+    "raison": "Le texte allonge à trois ans le délai de prescription de certains délits de presse visant un public mineur, et modifie le dépôt des publications destinées à la jeunesse. Il s'agit de règles de procédure judiciaire et de formalités de l'éditeur qui touchent la presse par ricochet, sans changer la façon d'exercer le métier d'artiste, d'auteur ou de journaliste.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00038208500000000005,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

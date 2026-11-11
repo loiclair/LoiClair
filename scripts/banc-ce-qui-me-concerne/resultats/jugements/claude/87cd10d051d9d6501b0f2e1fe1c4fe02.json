@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "patrimoine_ifi",
+    "raison": "L'article vise le patrimoine net total au-delà de 5 M€, tous biens confondus, et non l'assujettissement à l'IFI, qui ne porte que sur l'immobilier net au-delà de 1,3 M€. Un patrimoine financier de 6 M€ sans immobilier relève de la contribution sans être à l'IFI, et un patrimoine immobilier de 2 M€ au total relève de l'IFI sans être visé. Le profil voisin n'est pas le bon. La phrase de l'assistant décrit fidèlement le barème, mais le profil est mal rattaché.",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "parent",
+    "raison": "Le II inclut dans l'assiette les biens des enfants mineurs dont le parent a l'administration légale. Le statut parental déclenche directement une hausse de l'assiette imposable du parent, sans passer par un tiers. Le conditionnel est respecté et aucun fait n'est inventé.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000774085,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

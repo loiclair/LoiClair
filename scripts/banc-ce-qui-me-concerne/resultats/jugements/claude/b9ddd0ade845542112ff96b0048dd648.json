@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "epargnant",
+    "raison": "Le II B 2° exclut du premier alinéa de l'article 150 VH bis certains crypto-actifs définis par le règlement MiCA (art. 2, 3 et 4). Les détenteurs de ces actifs sont directement visés par l'imposition des plus-values, et « cryptoactifs » figure dans la définition du profil. La phrase de l'assistant reflète le texte et garde le conditionnel.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "chef_entreprise",
+    "raison": "Le II A conditionne l'avantage fiscal de l'article 39 decies C (équipements de technologie « zéro net ») à une contribution à la durabilité et à la résilience. Le texte ne limite pas cet avantage à une taille d'entreprise, et le dirigeant d'une TPE, PME ou entreprise artisanale en est directement affecté. La phrase de l'assistant est fidèle au texte et garde le conditionnel.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.001793385,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

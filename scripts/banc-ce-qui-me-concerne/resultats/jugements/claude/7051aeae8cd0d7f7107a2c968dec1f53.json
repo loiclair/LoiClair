@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "patrimoine_ifi",
+    "raison": "Le texte vise le patrimoine net au-dessus de 5 millions d'euros, tous biens confondus, et non les foyers assujettis à l'IFI, qui ne sont pas définis par ce seuil. Un foyer assujetti à l'IFI mais sous 5 millions n'est pas touché, et un patrimoine de plus de 5 millions sans immobilier imposable à l'IFI l'est. Le profil recoupe la mesure sans en être le critère.",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "parent",
+    "raison": "Le texte désigne les personnes qui ont l'administration légale des biens de leurs enfants mineurs : c'est la situation du parent. Ses biens et ceux de l'enfant seraient comptés dans son assiette dès qu'il dépasse le seuil de 5 millions d'euros.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000616935,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "chef_entreprise",
+    "raison": "Le texte aggrave la peine encourue par « le même employeur » qui viole ces dispositions à l'égard de plusieurs personnes ; l'obligation vise tout employeur, donc le dirigeant de PME.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "dirigeant_grande_entreprise",
+    "raison": "La sanction vise tout employeur sans distinction de taille ; le dirigeant d'une entreprise de 250 salariés ou plus est donc aussi visé (règle 11).",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0026306999999999997,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

@@ -1,0 +1,35 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "locataire",
+    "raison": "L'article crée un bail mobilité de une semaine à dix-huit mois pour les locataires de ces résidences et prolonge la durée maximale du bail mobilité. Cela touche directement les locataires.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "etudiant",
+    "raison": "Les locataires visés doivent justifier de « études supérieures » à la date de prise d'effet du bail, ce qui vise directement les étudiants.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "apprenti_alternant",
+    "raison": "Le texte vise explicitement la formation professionnelle, le contrat d'apprentissage et le stage, qui relèvent de ce profil.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "benevole",
+    "raison": "Le texte vise les personnes en engagement volontaire dans le cadre d'un service civique. La définition du profil inclut les volontaires en service civique.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0063877,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

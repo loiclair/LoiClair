@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_industrie",
+    "raison": "L'amendement redéfinit la catégorie des produits (aliments ultra-transformés) par leurs procédés et additifs, et les interdictions de publicité et d'emballage visent les produits et ceux qui les diffusent. Cela passe par les entreprises et ne change ni la façon d'exercer le métier ni les obligations professionnelles des personnes qui travaillent dans l'industrie : pas concerné.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000447585,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

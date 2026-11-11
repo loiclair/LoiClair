@@ -1,0 +1,36 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "auto_entrepreneur",
+    "raison": "Concerné : la modification du régime de franchise de TVA s'applique aussi aux micro-entrepreneurs qui en bénéficient, et fixe les seuils à 25 000 € pour l'année précédente et 27 500 € pour l'année en cours.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "chef_entreprise",
+    "raison": "Le texte modifie les seuils de franchise de TVA des entreprises, mais ne vise pas le dirigeant en tant que tel : l'effet sur lui dépend de la situation de son entreprise.",
+    "concerne": false,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "proprietaire_occupant",
+    "raison": "La règle vise des prestations et travaux déterminés, sans distinguer les propriétaires occupants des autres clients.",
+    "concerne": false,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "secteur_btp",
+    "raison": "Le taux de TVA change pour des travaux de rénovation énergétique comprenant une chaudière susceptible d'utiliser des combustibles fossiles, ce qui modifie directement les règles de facturation de travaux du secteur.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "secteur_culture"
+  ]
+ },
+ "cout_usd": 0.0021409,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

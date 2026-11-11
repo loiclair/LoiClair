@@ -1,0 +1,12 @@
+{
+ "impacts": [
+  {
+   "profil": "secteur_sante",
+   "phrase_fr": "Le secret médical ne pourrait pas être opposé lorsque des données seraient recueillies par l’intermédiaire d’un professionnel de santé.",
+   "phrase_en": "Medical confidentiality could not be invoked when data were collected through a healthcare professional.",
+   "passage": "Lorsque ces données sont collectées par l’intermédiaire d’un professionnel de santé, le secret médical n’est pas opposable.",
+   "certitude": "certain"
+  }
+ ],
+ "cout_usd": 0.0005126
+}

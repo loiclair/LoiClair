@@ -1,0 +1,20 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "proprietaire_occupant",
+    "raison": "Le texte prévoit une aide pour les travaux touchant une construction et la réserve notamment au propriétaire assuré ; un propriétaire occupant peut donc être directement aidé pour son logement. La formulation « pourrait » respecte le fait que la proposition n’est pas encore adoptée, et la prise en charge peut être partielle et soumise à conditions.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "proprietaire_bailleur",
+   "coproprietaire",
+   "residence_secondaire"
+  ]
+ },
+ "cout_usd": 0.000766025,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

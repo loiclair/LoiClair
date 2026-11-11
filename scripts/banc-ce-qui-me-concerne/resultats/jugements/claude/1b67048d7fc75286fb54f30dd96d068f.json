@@ -1,0 +1,12 @@
+{
+ "jugement": {
+  "profils": [],
+  "oublis": [
+   "benevole"
+  ]
+ },
+ "cout_usd": 0.000427635,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

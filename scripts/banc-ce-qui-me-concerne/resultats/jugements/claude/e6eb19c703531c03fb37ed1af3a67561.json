@@ -1,0 +1,26 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "parent",
+    "raison": "Le texte vise le contribuable qui assume la charge exclusive ou principale d'au moins deux enfants : c'est un parent d'enfants à charge, dont le quotient familial change.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "imposable",
+    "raison": "La demi-part supplémentaire modifie directement le calcul de l'impôt sur le revenu du foyer qui le paie. Le profil recoupe la mesure, qui porte sur le quotient familial.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "famille_nombreuse",
+   "parent_isole"
+  ]
+ },
+ "cout_usd": 0.0024666999999999996,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

@@ -1,0 +1,19 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_sante",
+    "raison": "L'article encadre le refus d'autorisation de remplacement pour les médecins, chirurgiens-dentistes et sages-femmes qui s'absentent pour exercer en territoire sous-doté : cela change leurs règles d'exercice professionnel dans le soin.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "independant"
+  ]
+ },
+ "cout_usd": 0.0026826999999999997,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

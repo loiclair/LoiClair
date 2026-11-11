@@ -1,0 +1,19 @@
+{
+ "impacts": [
+  {
+   "profil": "chasseur_pecheur",
+   "phrase_fr": "Serait interdit d'attirer les poissons en mer avec appâts, lumières ou déversements lors d'une pêche de loisir.",
+   "phrase_en": "Attracting fish at sea with bait, lights or fish waste during recreational fishing would be banned.",
+   "passage": "2° L’usage d’appâts concentrés, tels que des granulés, liquides ou gels attractifs, volontairement disséminés dans le milieu marin pour attirer les poissons vers une embarcation ou un engin de pêche ;",
+   "certitude": "probable"
+  },
+  {
+   "profil": "secteur_agriculture",
+   "phrase_fr": "Serait interdit d'attirer les poissons avant la capture avec appâts, lumières ou déchets de poisson, y compris pour la pêche professionnelle.",
+   "phrase_en": "Attracting fish before capture with bait, lights or fish waste, including for professional fishing, would be banned.",
+   "passage": "1° Les pratiques consistant à déverser volontairement en mer des débris ou liquides issus de poissons en vue d’attirer des poissons vers un point de capture ;",
+   "certitude": "probable"
+  }
+ ],
+ "cout_usd": 0.00193768
+}

@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "montagne",
+    "raison": "Le texte ne vise pas les habitants des communes de montagne. Il crée une dérogation de procédure pour des opérations d'hébergement touristique, décidée par le préfet. Son effet sur les habitants passe par des projets et n'est pas direct.",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "secteur_hotellerie",
+    "raison": "Le texte vise directement les opérations de création ou d'extension d'hébergement touristique, activité centrale de l'hôtellerie et du tourisme. Il modifie la procédure d'urbanisme qui pèse sur ceux qui développent ces hébergements, donc les obligations liées à l'exercice de ce métier.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.001179485,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

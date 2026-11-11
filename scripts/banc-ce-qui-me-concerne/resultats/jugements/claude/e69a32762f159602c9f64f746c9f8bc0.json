@@ -1,0 +1,50 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "handicap",
+    "raison": "Le dégrèvement vise les titulaires de l'AAH (art. L. 821-1) et les personnes atteintes d'une infirmité ou invalidité, sous plafond de revenus : effet direct sur leur impôt.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "senior",
+    "raison": "Le 4° vise les contribuables de plus de 60 ans (donc en partie les 55 ans et plus), sous conditions de revenus et de non-assujettissement à l'IFI : dégrèvement direct.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "veuf",
+    "raison": "Le 4° vise explicitement les veuves et veufs sous plafond de revenus pour le dégrèvement.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "patrimoine_ifi",
+    "raison": "Le texte exclut du dégrèvement les personnes passibles de l'IFI : cette condition les touche directement (ils ne bénéficient pas du dégrèvement et paient la contribution).",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "demandeur_emploi",
+    "raison": "Le texte vise les parents hébergeant des enfants majeurs demandeurs d'emploi ; le bénéficiaire du dégrèvement est le parent, pas le demandeur d'emploi lui-même. Effet indirect/profil déclencheur autre.",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "parent",
+    "raison": "Le 5° vise les contribuables du 4° (plus de 60 ans ou veufs) qui vivent avec leurs enfants majeurs demandeurs d'emploi, ce qui touche des parents d'enfants majeurs, mais le texte parle d'enfants majeurs et non d'enfants mineurs ou à charge ; le profil parent est défini pour des enfants mineurs ou à charge, et les enfants majeurs ici ne sont pas nécessairement à charge.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "age_dependant",
+   "imposable"
+  ]
+ },
+ "cout_usd": 0.008128699999999999,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

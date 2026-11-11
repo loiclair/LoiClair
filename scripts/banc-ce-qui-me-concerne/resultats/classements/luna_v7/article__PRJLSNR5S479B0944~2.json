@@ -1,0 +1,19 @@
+{
+ "impacts": [
+  {
+   "profil": "chef_entreprise",
+   "phrase_fr": "Un employeur qui commet ces infractions envers plusieurs personnes encourrait jusqu’à deux ans de prison et 7 500 euros d’amende.",
+   "phrase_en": "An employer who commits these offences against several people would face up to two years in prison and a €7,500 fine.",
+   "passage": "La violation des dispositions mentionnées à l’alinéa précédent est punie de deux ans d’emprisonnement et de 7 500 euros d’amende lorsqu’elle est commise par le même employeur à l’égard de plusieurs personnes.",
+   "certitude": "certain"
+  },
+  {
+   "profil": "dirigeant_grande_entreprise",
+   "phrase_fr": "Un employeur qui commet ces infractions envers plusieurs personnes encourrait jusqu’à deux ans de prison et 7 500 euros d’amende.",
+   "phrase_en": "An employer who commits these offences against several people would face up to two years in prison and a €7,500 fine.",
+   "passage": "La violation des dispositions mentionnées à l’alinéa précédent est punie de deux ans d’emprisonnement et de 7 500 euros d’amende lorsqu’elle est commise par le même employeur à l’égard de plusieurs personnes.",
+   "certitude": "certain"
+  }
+ ],
+ "cout_usd": 0.00033185
+}

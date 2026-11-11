@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "mineur",
+    "raison": "L'art. 32 vise nommément les mineurs victimes de prostitution ou d'exploitation sexuelle : repérage, orientation et accès garanti à un hébergement sécurisé. Le profil est bien celui qui déclenche la mesure. Nuance : « le cas échéant » est omis dans la phrase, mais le conditionnel est respecté.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "heberge",
+    "raison": "Le texte ne mentionne pas la situation d'hébergement actuelle des mineurs : il prévoit de leur garantir l'accès à un hébergement. Le déclencheur est la victimisation par prostitution, pas l'hébergement. La phrase de l'assistant présente à tort les mineurs comme « hébergés en foyer », un fait absent du texte.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0004987850000000001,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

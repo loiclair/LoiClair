@@ -1,0 +1,14 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_education",
+    "concerne": true,
+    "phrase_fidele": false,
+    "raison": "La proposition de l'assistant inventorie le dispositif et l'exposé en un seul résumé, ce qui n'est pas interdit par la consigne pour un amendement, mais le résumé de l'assistant est en pratique fidèle quant au fond : l'amendement supprime la faculté pour l'administration de retirer la protection accordée aux personnels de l'éducation en cas de faute personnelle. La phrase n'invente rien ; le conditionnel est employé. Elle est donc fidèle (aucun fait inventé)."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0022074
+}

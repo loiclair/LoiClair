@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "fonctionnaire",
+    "raison": "Le texte étend la protection fonctionnelle aux proches d'un « agent public » en raison de ses fonctions. Le statut d'agent public déclenche la mesure, et les fonctionnaires en font partie. L'effet touche d'abord les proches, mais il découle directement du statut de l'agent.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000555685,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

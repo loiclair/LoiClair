@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "elu_local",
+    "raison": "Le texte fixe qui devient conseiller communautaire suppléant (candidat suivant sur la liste municipale ou membre suivant du conseil municipal) et permet à ce suppléant de siéger avec voix délibérative en cas d'absence du titulaire dans une commune à un seul siège. Il vise directement les élus municipaux et intercommunaux.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000312435,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

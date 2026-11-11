@@ -1,0 +1,14 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_industrie",
+    "concerne": false,
+    "phrase_fidele": false,
+    "raison": "L'amendement redéfinit un concept juridique (aliment ultra-transformé) qui s'applique aux produits, mais ne change rien directement pour les travailleurs du secteur de l'industrie. Il ne modifie aucune règle, aucun droit, aucune obligation ni aucune taxe propre à leur métier. De plus, la phrase proposée reprend le contenu de l'amendement sans employer le conditionnel requis."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0030576
+}

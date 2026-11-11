@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_education",
+    "raison": "Le texte vise les personnels de l'éducation victimes de violences. En supprimant l'alinéa 3, l'amendement retire à l'administration la possibilité de retirer leur protection en cas de faute personnelle, ce qui change directement leurs droits professionnels.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "fonctionnaire",
+    "raison": "Le texte renvoie à la protection fonctionnelle de l'article L. 134-5 du code général de la fonction publique, qui concerne les agents publics. La suppression de l'alinéa 3 change directement leurs droits face au retrait de cette protection.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000673835,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

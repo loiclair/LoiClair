@@ -1,0 +1,25 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_btp",
+    "raison": "La loi de 1975 sur la sous-traitance s'applique à tous les secteurs, et le texte ne cite ni le bâtiment ni les travaux publics. Le « maître de l'ouvrage » évoque le BTP mais ne suffit pas à le viser. Le secteur est prêté.",
+    "concerne": false,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "chef_entreprise",
+    "raison": "L'entrepreneur principal, c'est-à-dire l'employeur qui sous-traite, devrait faire accepter ses sous-traitants au-delà d'un tiers du contrat. C'est une obligation directe pour les dirigeants de PME, et pour ceux des grandes entreprises, qui sous-traitent.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "dirigeant_grande_entreprise"
+  ]
+ },
+ "cout_usd": 0.0029527,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

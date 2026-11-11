@@ -1,0 +1,28 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etranger_hors_ue",
+    "raison": "Le texte accorde directement des cartes de séjour à des étrangers, notamment au conjoint d’un titulaire d’une carte de résident.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "mineur",
+    "raison": "Les étrangers âgés de 16 à 18 ans peuvent recevoir une carte de quatre ans si au moins un parent détient une carte de résident et s’ils remplissent les conditions prévues.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "jeune",
+    "raison": "Le texte prévoit aussi une carte de quatre ans pour l’étranger dans l’année suivant son dix-huitième anniversaire, tranche d’âge incluse dans le profil jeune.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0008389,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

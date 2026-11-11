@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "expat",
+    "raison": "Le texte prévoit explicitement la publication sur les sites des ambassades et des postes consulaires, ce qui vise directement les Français établis à l’étranger en leur donnant accès aux mesures sanitaires d’urgence.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000700275,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

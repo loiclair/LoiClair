@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "usager_transports",
+    "raison": "Le texte autorise les opérateurs à filmer la voie publique avec des caméras frontales. Il informe le public, mais ne vise pas les personnes parce qu’elles utilisent les transports ; les caméras ne sont pas décrites comme filmant les voyageurs.",
+    "concerne": false,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "secteur_transport",
+    "raison": "Le texte vise explicitement la formation du personnel de conduite et de sa hiérarchie au moyen des images des caméras embarquées, ce qui concerne directement l’exercice de leur métier dans les transports guidés urbains.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000592275,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

@@ -1,0 +1,14 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "jeune",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "Le changement de l'âge de 21 à 25 ans dans le code de l'action sociale et des familles modifie directement les droits des jeunes sortant de l'ASE. Le profil 'jeune' (18-25 ans) est explicitement visé par cette nouvelle borne d'âge."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0013169
+}

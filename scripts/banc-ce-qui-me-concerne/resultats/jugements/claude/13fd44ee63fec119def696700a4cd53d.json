@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "ancien_combattant",
+    "raison": "Le texte vise nommément les anciens militaires résistants déportés à Rawa-Ruska titulaires de la carte de combattant volontaire de la Résistance, et leur ouvre un accès plus favorable à la pension d'invalidité.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000237335,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

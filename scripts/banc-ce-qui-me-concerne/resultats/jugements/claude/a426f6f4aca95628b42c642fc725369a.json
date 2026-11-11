@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "elu_local",
+    "raison": "L’article modifie directement les règles de désignation des adjoints municipaux, notamment en cas de vacance dans les communes de moins de 1 000 habitants.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000287275,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

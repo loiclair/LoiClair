@@ -1,0 +1,14 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "salarie_prive",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article L. 323-1-2 du code de la sécurité sociale régit les indemnités journalières d'assurance maladie versées par le régime général aux salariés du privé en arrêt maladie sans délai de carence."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.005232
+}

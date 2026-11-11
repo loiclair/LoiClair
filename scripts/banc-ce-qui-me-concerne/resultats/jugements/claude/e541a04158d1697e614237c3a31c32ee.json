@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "proprietaire_bailleur",
+    "raison": "Le texte vise directement « les bailleurs détenteurs d'un lot » dans l'établissement qui cesse son activité : ils doivent être indemnisés et informés des conditions. Ce sont des propriétaires qui louent, ce qui correspond au profil.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0044027,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

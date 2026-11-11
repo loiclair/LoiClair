@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "locataire",
+    "raison": "Le texte crée un droit pour le locataire : logement garantissant un confort thermique estival et installation de protections solaires et d'un brasseur d'air à sa demande.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "proprietaire_bailleur",
+    "raison": "Le texte impose directement au bailleur une obligation de fournir un confort thermique et d'installer protections solaires et brasseur d'air à la demande du locataire.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0025017,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

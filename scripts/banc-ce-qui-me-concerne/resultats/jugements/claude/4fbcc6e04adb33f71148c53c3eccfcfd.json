@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "expat",
+    "raison": "Le texte ne vise pas les Français établis hors de France : il prévoit que la liste des zones soumises à mesures sanitaires soit mise à jour chaque semaine et publiée sur les sites des ambassades et postes consulaires. Cette publication s'adresse à tous, et le statut d'expatrié ne déclenche pas la mesure. La liste concerne les personnes qui arrivent en France depuis ces zones.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000444935,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

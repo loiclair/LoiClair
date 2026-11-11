@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "mineur",
+    "raison": "Le texte vise les infractions commises sur une personne « mineure au moment des faits » : les victimes mineures sont directement visées par ce nouveau point de départ du délai de prescription.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0019947,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

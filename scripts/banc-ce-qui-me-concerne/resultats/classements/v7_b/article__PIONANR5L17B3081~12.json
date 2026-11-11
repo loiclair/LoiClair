@@ -1,0 +1,12 @@
+{
+ "impacts": [
+  {
+   "profil": "travailleur_plateforme",
+   "phrase_fr": "Une plateforme ne pourrait plus suspendre, désactiver ou réduire l'accès aux missions d'un travailleur uniquement grâce à un algorithme. Elle devrait motiver sa décision, la lui notifier et lui permettre de répondre avant.",
+   "phrase_en": "A platform would no longer be able to suspend, deactivate or reduce a worker's access to missions based solely on an algorithm. It would have to give reasons, notify the worker and let them respond first.",
+   "passage": "Aucune suspension, désactivation, déréférencement, réduction d’accès aux missions ou décision produisant des effets comparables ne peut être prise exclusivement sur le fondement d’un traitement algorithmique automatisé.",
+   "certitude": "certain"
+  }
+ ],
+ "cout_usd": 0.00054451
+}

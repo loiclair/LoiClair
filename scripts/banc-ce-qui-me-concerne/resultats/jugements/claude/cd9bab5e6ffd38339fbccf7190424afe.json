@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "forces_ordre",
+    "raison": "L'article précise le cadre de l'infiltration, des opérations sous pseudonyme et des livraisons surveillées menées par policiers, gendarmes et douaniers, pour lesquels les actes ne constituent pas une incitation à l'infraction : cela change leurs règles de métier. Le texte ne cite pas les policiers et gendarmes nommément, mais ce sont les enquêteurs habilités.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0026136999999999996,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

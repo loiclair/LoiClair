@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "ancien_combattant",
+    "raison": "Le texte vise les enfants d'une personne morte pour la France, défini par le statut de pupille de la Nation et le décès du parent, pas par la qualité d'ancien combattant ni par un lien avec un ancien combattant vivant ; la catégorie famille du catalogue ne couvre pas ce cas.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000446335,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

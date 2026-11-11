@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "projet_achat",
+    "raison": "Oui : une personne qui achète son logement dans une commune visée peut être redevable de la taxe sur la mutation à titre onéreux. Le texte fixe son taux à 0,10 %.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "littoral",
+    "raison": "Non : la taxe dépend de la localisation du bien vendu, pas du lieu de résidence de l’acheteur. Le texte ne vise donc pas les habitants du littoral en tant que tels.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0010659,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

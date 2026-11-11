@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "heritier_donateur",
+    "raison": "Le texte vise directement les donateurs et donataires de dons d'argent à des descendants, avec taux réduit de 6 % ou 5 % : c'est une transmission par donation.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "jeune",
+    "raison": "Le texte vise les donataires de 18 ans révolus (ou émancipés) à moins de 50 ans, ce qui inclut les 18-25 ans : sous-groupe contenant le profil jeune.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0030217,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

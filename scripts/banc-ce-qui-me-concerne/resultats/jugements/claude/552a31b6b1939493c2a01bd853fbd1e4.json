@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "expat",
+    "raison": "L'article ne change rien pour l'électeur lui-même : il ajoute seulement une consultation des conseils consulaires avant l'élection des conseillers consulaires de la circonscription. C'est une règle d'organisation de l'État, qui n'atteint pas les droits ou démarches des Français établis hors de France.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000308335,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

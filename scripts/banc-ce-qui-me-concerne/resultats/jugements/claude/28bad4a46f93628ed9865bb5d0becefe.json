@@ -1,0 +1,38 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "salarie_prive",
+    "raison": "Le III 1° complète l'article L. 1132-1 du code du travail : aucun employeur ne pourra refuser d'embaucher, sanctionner ou licencier une salariée du fait qu'elle allaite. L'effet est direct pour les salariés du privé.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "fonctionnaire",
+    "raison": "Le I complète l'article L. 131-1 du code général de la fonction publique : l'allaitement devient un motif de discrimination interdit pour les agents de l'État et des collectivités.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "parent",
+    "raison": "Le II ajoute l'allaitement aux motifs de discrimination du code pénal. La mesure vise les mères qui allaitent leur enfant, donc des parents d'enfant en bas âge, par leur situation de parent.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "outre_mer",
+    "raison": "Le V ne vise que les fonctionnaires des communes de Polynésie française. Le lieu n'est qu'un périmètre : un habitant d'outre-mer qui n'est pas fonctionnaire de ces communes n'est pas visé, et ceux qui le sont relèvent déjà de fonctionnaire.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "chef_entreprise",
+   "dirigeant_grande_entreprise"
+  ]
+ },
+ "cout_usd": 0.0021000850000000002,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

@@ -1,0 +1,11 @@
+{
+ "jugement": {
+  "profils": [],
+  "oublis": [
+   "secteur_agriculture"
+  ]
+ },
+ "cout_usd": 0.00031858,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

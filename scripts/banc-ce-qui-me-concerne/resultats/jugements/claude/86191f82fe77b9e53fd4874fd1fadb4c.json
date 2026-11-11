@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "automobiliste",
+    "raison": "La majoration de la taxe régionale sur la carte grise en Île-de-France touche directement les personnes qui immatriculent un véhicule, donc les automobilistes.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0025126999999999997,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

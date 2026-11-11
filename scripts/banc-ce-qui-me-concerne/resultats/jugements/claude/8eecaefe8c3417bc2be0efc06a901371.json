@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_culture",
+    "raison": "Le texte vise nommément les journalistes professionnels et assimilés, qui travaillent dans la presse. Il leur ouvre l'affiliation à la Sécurité sociale quelle que soit la nature de leur lien juridique avec l'agence ou le journal, ce qui touche directement leurs droits.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "expat",
+    "raison": "La mesure ne vise pas les Français établis hors de France en tant que tels. Elle vise les journalistes, et leur résidence ou exercice à l'étranger n'est qu'une condition supplémentaire. Un expatrié qui n'est pas journaliste n'est pas touché.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0008955349999999999,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

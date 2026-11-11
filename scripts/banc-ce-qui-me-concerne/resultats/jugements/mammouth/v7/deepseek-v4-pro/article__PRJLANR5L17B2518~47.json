@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "oublis": [
+   "forces_ordre",
+   "outre_mer"
+  ],
+  "profils": [
+   {
+    "concerne": true,
+    "phrase_fidele": true,
+    "profil": "etranger_hors_ue",
+    "raison": "Le texte modifie le CESEDA et vise explicitement les opérations de consultation prévues par les règlements européens sur le SIS, le VIS et l’EES, qui s’appliquent aux ressortissants de pays tiers. L’article L. 142-7 parle de « l’étranger » qui refuse le relevé d’empreintes ou la photographie lors d’un contrôle aux frontières et prévoit une retenue et des sanctions pénales. L’effet est direct et concret."
+   }
+  ]
+ },
+ "cout_usd": 0.0013985598
+}

@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "outre_mer",
+    "raison": "L'amendement vise expressément les résidents de Wallis-et-Futuna, habitants d'une collectivité d'outre-mer : l'agence de santé du territoire délivrerait leur moyen d'identification électronique et prendrait en charge leurs soins lors de séjours en hexagone.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0030347,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

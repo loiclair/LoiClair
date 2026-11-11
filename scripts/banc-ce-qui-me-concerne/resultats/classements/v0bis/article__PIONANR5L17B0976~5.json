@@ -1,0 +1,19 @@
+{
+ "impacts": [
+  {
+   "profil": "syndique",
+   "phrase_fr": "Les représentants syndicaux des salariés de Vencorex siégeraient au comité stratégique chargé de préparer un plan de transition industrielle.",
+   "phrase_en": "Vencorex employee union representatives would sit on a strategic committee tasked with preparing an industrial transition plan.",
+   "passage": "des représentants des organisations syndicales de salariés de la société",
+   "certitude": "certain"
+  },
+  {
+   "profil": "elu_local",
+   "phrase_fr": "Le président de l’agglomération et les maires concernés siégeraient au comité stratégique qui présenterait un plan de transition industrielle pour Vencorex.",
+   "phrase_en": "The agglomeration president and concerned mayors would sit on the strategic committee that presents an industrial transition plan for Vencorex.",
+   "passage": "du président de l’agglomération et des maires des communes concernés",
+   "certitude": "certain"
+  }
+ ],
+ "cout_usd": 0.00138928
+}

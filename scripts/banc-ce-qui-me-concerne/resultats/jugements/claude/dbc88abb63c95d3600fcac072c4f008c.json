@@ -1,0 +1,14 @@
+{
+ "jugement": {
+  "profils": [],
+  "oublis": [
+   "salarie_prive",
+   "fonctionnaire",
+   "chef_entreprise",
+   "dirigeant_grande_entreprise"
+  ]
+ },
+ "cout_usd": 0.00136365,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

@@ -1,0 +1,18 @@
+{
+ "jugement": {
+  "profils": [],
+  "oublis": [
+   "secteur_agriculture",
+   "secteur_artisanat_commerce",
+   "secteur_industrie",
+   "secteur_hotellerie",
+   "independant",
+   "auto_entrepreneur",
+   "chef_entreprise",
+   "dirigeant_grande_entreprise",
+   "mineur",
+   "parent"
+  ]
+ },
+ "cout_usd": 0.0012486
+}

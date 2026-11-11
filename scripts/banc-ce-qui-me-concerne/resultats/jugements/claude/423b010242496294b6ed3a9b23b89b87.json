@@ -1,0 +1,19 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "parent",
+    "raison": "La suppression d'alinéas de l'art. L. 521-1 (modulation des allocations familiales selon les revenus) touche directement les parents d'enfants à charge qui perçoivent ces allocations.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "famille_nombreuse"
+  ]
+ },
+ "cout_usd": 0.0017937,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

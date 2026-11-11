@@ -1,0 +1,26 @@
+{
+ "impacts": [
+  {
+   "profil": "parent",
+   "phrase_fr": "Les allocations familiales ne seraient plus soumises à conditions de ressources, ce qui modifierait leur montant pour les familles avec enfants.",
+   "phrase_en": "Family allowances would no longer be subject to income conditions, which would change the amounts paid to families with children.",
+   "passage": "Les troisième, cinquième et dernier alinéas de l’article L. 521‑1 sont supprimés ;",
+   "certitude": "probable"
+  },
+  {
+   "profil": "famille_nombreuse",
+   "phrase_fr": "Les allocations familiales des familles de trois enfants ou plus ne seraient plus soumises à conditions de ressources.",
+   "phrase_en": "Family allowances for families with three or more children would no longer be subject to income conditions.",
+   "passage": "Les troisième, cinquième et dernier alinéas de l’article L. 521‑1 sont supprimés ;",
+   "certitude": "probable"
+  },
+  {
+   "profil": "outre_mer",
+   "phrase_fr": "Les conditions de ressources applicables aux allocations familiales outre-mer seraient aussi supprimées.",
+   "phrase_en": "Income conditions for family allowances in overseas territories would also be removed.",
+   "passage": "Le second alinéa de l’article L. 755‑12 est supprimé.",
+   "certitude": "possible"
+  }
+ ],
+ "cout_usd": 0.00101531
+}

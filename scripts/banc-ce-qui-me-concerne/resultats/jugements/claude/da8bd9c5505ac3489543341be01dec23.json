@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "locataire",
+    "raison": "Le texte vise explicitement le locataire : le bailleur doit lui fournir un logement avec un confort thermique minimal en été et, à sa demande, installer des équipements ou prévoir une solution de remplacement.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "proprietaire_bailleur",
+    "raison": "Le texte impose directement au bailleur des obligations concernant les logements qu’il loue et les équipements à installer à la demande du locataire.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00030315,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

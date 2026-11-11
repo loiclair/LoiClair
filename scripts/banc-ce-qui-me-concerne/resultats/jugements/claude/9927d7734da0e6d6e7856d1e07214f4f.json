@@ -1,0 +1,24 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "chef_entreprise",
+    "raison": "Le texte prévoit une peine pour l’employeur qui commet la violation à l’égard de plusieurs personnes ; cela peut viser un dirigeant ou employeur de PME.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "dirigeant_grande_entreprise",
+    "raison": "Le texte prévoit une peine pour l’employeur qui commet la violation à l’égard de plusieurs personnes ; cela peut viser un dirigeant ou employeur d’une grande entreprise.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "particulier_employeur"
+  ]
+ },
+ "cout_usd": 0.00081315,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

@@ -1,0 +1,19 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "forces_ordre",
+    "raison": "L'article qualifie de menace imminente le survol non autorisé d'une emprise militaire par un drone, ce qui permet de déclencher les mesures de neutralisation prévues à l'article L. 213-2 du code de la sécurité intérieure. Ce sont les forces chargées de la protection de ces sites, militaires et gendarmes, qui voient leurs règles d'intervention changer.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": [
+   "automobiliste"
+  ]
+ },
+ "cout_usd": 0.0022897,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

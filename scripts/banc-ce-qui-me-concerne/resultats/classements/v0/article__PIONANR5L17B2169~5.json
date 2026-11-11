@@ -1,0 +1,40 @@
+{
+ "impacts": [
+  {
+   "profil": "mineur",
+   "passage": "« 2° Lorsqu’un mineur est victime de violences de la part d’un ascendant légitime, naturel ou adoptif.",
+   "certitude": "certain",
+   "phrase_en": "Minors who are victims of violence by a parent or ancestor would be handled by the sexist and sexual violence judge for parental authority, instead of the family affairs judge.",
+   "phrase_fr": "Les mineurs victimes de violences de la part d’un parent ou d’un ascendant seraient suivis par le juge des violences sexistes et sexuelles pour l’autorité parentale, à la place du juge aux affaires familiales."
+  },
+  {
+   "profil": "parent",
+   "passage": "« 2° Lorsqu’un mineur est victime de violences de la part d’un ascendant légitime, naturel ou adoptif.",
+   "certitude": "probable",
+   "phrase_en": "A parent accused of violence against their child would be tried by a specialised court, and the specialised judge would set parental authority arrangements in their place.",
+   "phrase_fr": "Un parent accusé de violences sur son enfant serait jugé par un tribunal spécialisé, et le juge spécialisé fixerait les modalités de l’autorité parentale à sa place."
+  },
+  {
+   "profil": "separe_divorce",
+   "passage": "« 2° Par l’ancien conjoint, l’ancien concubin ou l’ancien partenaire lié à la victime par un pacte civil de solidarité ;",
+   "certitude": "probable",
+   "phrase_en": "Violence committed by a former spouse, former cohabiting partner or former civil partner would be tried by the specialised sexist and sexual violence court.",
+   "phrase_fr": "Les violences commises par un ancien conjoint, un ancien concubin ou un ancien partenaire de PACS seraient jugées par le tribunal spécialisé des violences sexistes et sexuelles."
+  },
+  {
+   "profil": "concubin",
+   "passage": "« 1° Par le conjoint, le concubin ou le partenaire lié à la victime par un pacte civil de solidarité, y compris lorsqu’ils ne cohabitent pas ;",
+   "certitude": "certain",
+   "phrase_en": "Violence committed by a cohabiting partner would be tried by the specialised sexist and sexual violence court, even without living together.",
+   "phrase_fr": "Les violences commises par un concubin seraient jugées par le tribunal spécialisé des violences sexistes et sexuelles, même sans cohabitation."
+  },
+  {
+   "profil": "marie_pacse",
+   "passage": "« 1° Par le conjoint, le concubin ou le partenaire lié à la victime par un pacte civil de solidarité, y compris lorsqu’ils ne cohabitent pas ;",
+   "certitude": "certain",
+   "phrase_en": "Violence committed by a spouse or civil partner would be tried by the specialised sexist and sexual violence court, even without living together.",
+   "phrase_fr": "Les violences commises par un conjoint ou un partenaire de PACS seraient jugées par le tribunal spécialisé des violences sexistes et sexuelles, même sans cohabitation."
+  }
+ ],
+ "resume_fr": null
+}

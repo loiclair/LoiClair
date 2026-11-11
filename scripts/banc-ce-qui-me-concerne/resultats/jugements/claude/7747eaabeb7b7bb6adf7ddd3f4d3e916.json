@@ -1,0 +1,28 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_sante",
+    "raison": "Le texte vise les professionnels de santé et prévoit leur suspension notamment en cas de mise en examen liée à l’exercice de leur profession.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "independant",
+    "raison": "La mesure vise les professionnels de santé selon leur profession et leur activité de soins, pas leur statut d’indépendant ; le texte ne désigne pas les indépendants comme tels.",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "etudiant",
+    "raison": "Le texte inclut explicitement les élèves et étudiants préparant aux professions de santé parmi les personnes concernées par la mesure de suspension.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000841525,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

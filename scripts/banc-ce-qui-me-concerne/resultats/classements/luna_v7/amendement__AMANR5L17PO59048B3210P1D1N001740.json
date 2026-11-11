@@ -1,0 +1,12 @@
+{
+ "resume_fr": "Étendrait jusqu’au 31 décembre 2027 la période des dons pouvant bénéficier de l’allègement fiscal prévu pour 2027.",
+ "resume_en": "Would extend until 31 December 2027 the period for donations eligible for the 2027 tax relief.",
+ "impacts": [
+  {
+   "profil": "heritier_donateur",
+   "passage": "« 31 décembre ».",
+   "certitude": "probable"
+  }
+ ],
+ "cout_usd": 0.0003381
+}

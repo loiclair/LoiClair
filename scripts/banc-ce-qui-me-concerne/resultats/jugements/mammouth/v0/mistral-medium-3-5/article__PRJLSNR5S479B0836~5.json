@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_finance",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article vise explicitement l'interdiction d'exercer les fonctions d'agent de change, ce qui concerne directement les professionnels du secteur financier. Le conditionnel est correctement utilisé car le texte n'est pas encore adopté."
+   },
+   {
+    "profil": "chef_entreprise",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article mentionne l'interdiction d'être électeurs ou élus aux chambres de commerce, tribunaux de commerce et conseils de prud’hommes, ce qui peut concerner les chefs d'entreprise souvent impliqués dans ces instances. Le conditionnel est correct."
+   }
+  ],
+  "oublis": [
+   "elu_local"
+  ]
+ },
+ "cout_usd": 0.0072285
+}

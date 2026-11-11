@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "mineur",
+    "raison": "Le texte vise directement les mineurs confiés à l'ASE ou à un tiers digne de confiance (art. 375-3, 2° et 3°, du code civil) et leur ouvre à titre personnel la complémentaire santé solidaire : sous-groupe des mineurs, effet direct sur leur couverture santé.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "allocataire",
+    "raison": "Le critère qui déclenche la mesure est le placement du mineur, pas la perception de la complémentaire santé solidaire. La CSS n'est qu'une conséquence pour ces mineurs, qui ne sont pas visés en tant qu'allocataires ; un allocataire actuel ne voit rien changer pour lui.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000788435,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

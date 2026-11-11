@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_transport",
+    "raison": "Le texte crée un avantage fiscal pour les entreprises qui investissent dans des équipements de propulsion vélique sur des navires de transport. Il ne change ni la façon d'exercer le métier ni les obligations des salariés du secteur, et le bénéfice va à l'entreprise, pas aux personnes qui y travaillent. L'effet passe donc par l'entreprise et reste indirect.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0006596849999999999,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

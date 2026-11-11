@@ -1,0 +1,34 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "locataire",
+    "raison": "Le texte prévoit explicitement des logements loués à des locataires et fixe la durée du bail ; le droit vise donc directement les locataires éligibles.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "etudiant",
+    "raison": "Les personnes qui suivent des études supérieures sont explicitement désignées comme pouvant louer dans cette résidence.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "apprenti_alternant",
+    "raison": "Le texte désigne explicitement les personnes en formation professionnelle ou en contrat d’apprentissage.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "benevole",
+    "raison": "Les personnes engagées volontairement dans un service civique sont explicitement désignées.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0005384,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

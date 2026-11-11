@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "salarie_prive",
+    "raison": "L'amendement limite aux sommes placées avant le 1er janvier 2026 le déblocage exceptionnel de la participation et de l'intéressement ouvert au salarié, ce qui change directement ses droits ; les salariés d'entreprises privées sont les bénéficiaires visés.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0038647,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

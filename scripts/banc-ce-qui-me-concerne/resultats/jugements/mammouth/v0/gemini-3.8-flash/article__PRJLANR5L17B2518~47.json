@@ -1,0 +1,14 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etranger_hors_ue",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article modifie le code de l'entrée et du séjour des étrangers et du droit d'asile (CESEDA) pour permettre le relevé d'empreintes et la prise de photos lors des contrôles et prévoit une retenue ainsi que des sanctions pénales en cas de refus."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.01070025
+}

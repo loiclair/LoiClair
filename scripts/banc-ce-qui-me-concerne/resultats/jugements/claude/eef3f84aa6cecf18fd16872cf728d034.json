@@ -1,0 +1,19 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "chef_entreprise",
+    "raison": "L'amendement vise l'entreprise employeur exclue de la conclusion de conventions de stage et de contrats d'apprentissage. Il permettrait à l'inspecteur du travail d'autoriser sa reprise après un délai réglementaire. Le dirigeant ou employeur d'une TPE ou PME est directement touché, car c'est lui qui décide d'accueillir stagiaires et apprentis.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "dirigeant_grande_entreprise"
+  ]
+ },
+ "cout_usd": 0.0008833350000000001,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

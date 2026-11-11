@@ -1,0 +1,28 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "fonctionnaire",
+    "raison": "Le texte vise les personnels relevant du code des pensions, notamment les fonctionnaires, et prévoit un calcul de pension majoré sous conditions de résidence et de service.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "forces_ordre",
+    "raison": "Le texte mentionne expressément les militaires parmi les personnels concernés, sous réserve des conditions prévues.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "outre_mer",
+    "raison": "Le dispositif vise les personnels résidant effectivement en Nouvelle-Calédonie, à Wallis-et-Futuna ou en Polynésie française, sous conditions.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000571525,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

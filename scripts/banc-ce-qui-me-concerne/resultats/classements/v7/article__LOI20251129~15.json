@@ -1,0 +1,33 @@
+{
+ "impacts": [
+  {
+   "profil": "etudiant",
+   "phrase_fr": "Les étudiants peuvent louer un logement meublé dans une résidence à vocation d'emploi, pour une durée d'une semaine à dix-huit mois, en bail mobilité.",
+   "phrase_en": "Students can rent a furnished home in a job-focused residence, for one week to eighteen months, under a mobility lease.",
+   "passage": "locataires justifiant, à la date de prise d'effet du bail, suivre des études supérieures ou être en formation professionnelle, en contrat d'apprentissage, en stage",
+   "certitude": "certain"
+  },
+  {
+   "profil": "apprenti_alternant",
+   "phrase_fr": "Les apprentis, alternants et stagiaires peuvent louer un logement meublé dans une résidence à vocation d'emploi, en bail mobilité.",
+   "phrase_en": "Apprentices, work-study students and interns can rent a furnished home in a job-focused residence, under a mobility lease.",
+   "passage": "en contrat d'apprentissage, en stage",
+   "certitude": "certain"
+  },
+  {
+   "profil": "benevole",
+   "phrase_fr": "Les volontaires en service civique peuvent louer un logement meublé dans une résidence à vocation d'emploi, en bail mobilité.",
+   "phrase_en": "Civic service volunteers can rent a furnished home in a job-focused residence, under a mobility lease.",
+   "passage": "en engagement volontaire dans le cadre d'un service civique prévu au II de l'article L. 120-1 du code du service national",
+   "certitude": "certain"
+  },
+  {
+   "profil": "locataire",
+   "phrase_fr": "Les locataires de ces résidences signent un bail mobilité, avec des loyers à la nuitée encadrés par des plafonds.",
+   "phrase_en": "Tenants of these residences sign a mobility lease, with nightly rents capped by ceilings.",
+   "passage": "le bail conclu avec le locataire est un bail mobilité régi par le titre I er ter de la loi n° 89-462 du 6 juillet 1989",
+   "certitude": "certain"
+  }
+ ],
+ "cout_usd": 0.00122981
+}

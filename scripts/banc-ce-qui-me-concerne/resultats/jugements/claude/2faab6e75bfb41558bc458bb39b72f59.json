@@ -1,0 +1,28 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "salarie_prive",
+    "raison": "Le texte prévoit que les salariés soient informés des frais liés au déblocage de leurs sommes d’épargne salariale : cela les vise directement.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "chef_entreprise",
+    "raison": "L’amendement complète l’obligation d’information imposée à l’employeur, qui doit informer ses salariés des frais éventuels liés au déblocage.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "dirigeant_grande_entreprise",
+    "raison": "L’amendement complète l’obligation d’information imposée à l’employeur, qui doit informer ses salariés des frais éventuels liés au déblocage.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00054665,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

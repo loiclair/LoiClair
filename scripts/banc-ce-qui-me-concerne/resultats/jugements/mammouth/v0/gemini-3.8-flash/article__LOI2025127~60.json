@@ -1,0 +1,20 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "heritier_donateur",
+    "concerne": false,
+    "phrase_fidele": false,
+    "raison": "L'article 755 du CGI ne modifie pas les règles habituelles des successions ou donations entre proches. Il s'agit d'une présomption fiscale de sanction anti-fraude qui taxe d'office à 60 % les avoirs et cryptoactifs non justifiés ou dissimulés à l'étranger."
+   },
+   {
+    "profil": "epargnant",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "Le profil inclut expressément les détenteurs de cryptoactifs, qui sont directement concernés par le durcissement des sanctions et majorations fiscales en cas de non-déclaration de leurs portefeuilles à l'étranger."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00852
+}

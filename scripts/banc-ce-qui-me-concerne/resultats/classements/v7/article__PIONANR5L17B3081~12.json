@@ -1,0 +1,12 @@
+{
+ "impacts": [
+  {
+   "profil": "travailleur_plateforme",
+   "phrase_fr": "Ne pourrait plus être suspendu, désactivé ni privé de missions uniquement par un algorithme, et toute décision de ce type devrait être motivée, notifiée et précédée d'une procédure contradictoire.",
+   "phrase_en": "Could no longer be suspended, deactivated or cut off from missions solely by an algorithm, and any such decision would have to be justified, notified and preceded by a contradictory procedure.",
+   "passage": "Aucune suspension, désactivation, déréférencement, réduction d’accès aux missions ou décision produisant des effets comparables ne peut être prise exclusivement sur le fondement d’un traitement algorithmique automatisé.",
+   "certitude": "certain"
+  }
+ ],
+ "cout_usd": 0.00055701
+}

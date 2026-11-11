@@ -1,0 +1,14 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "imposable",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article modifie le champ géographique d'application de la réduction d'impôt sur le revenu pour investissements productifs outre-mer (article 199 undecies B du CGI), ce qui modifie les possibilités de défiscalisation pour les contribuables imposables."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.007749
+}

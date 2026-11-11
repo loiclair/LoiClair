@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "mineur",
+    "raison": "Le texte vise expressément les personnes mineures relevant des 2° et 3° de l’article 375-3 et leur ouvre la possibilité de bénéficier personnellement de la complémentaire santé.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000592025,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

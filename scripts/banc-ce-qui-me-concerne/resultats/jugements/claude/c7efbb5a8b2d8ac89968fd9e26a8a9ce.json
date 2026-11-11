@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "residence_secondaire",
+    "raison": "Le I de l'article 1407 ter permet à la commune de majorer de 5 % à 60 % la taxe d'habitation sur les résidences secondaires, ce qui touche directement leur propriétaire. Le texte n'est pas adopté et la majoration ne vaut que dans les communes en déséquilibre marqué, listées par décret ; la phrase de l'assistant reste conditionnelle et ne dit rien de faux.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "meuble_tourisme",
+    "raison": "Le 1° du 2 b) de l'article 1407 bis définit comme vacant un logement occupé moins de 90 jours par an, et cette vacance peut entraîner la taxe sur les logements vacants. Un loueur de courte durée dont le logement est peu occupé est donc directement visé, même si le critère déclencheur est la durée d'occupation et non le type de location.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.001289335,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

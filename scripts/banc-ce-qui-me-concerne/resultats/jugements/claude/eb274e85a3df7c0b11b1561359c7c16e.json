@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "residence_secondaire",
+    "raison": "L’article 1407 ter vise explicitement la taxe d’habitation sur les résidences secondaires et permet à certaines communes de la majorer de 5 % à 60 %.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "meuble_tourisme",
+    "raison": "Le seuil de moins de 90 jours concerne la durée d’occupation du logement, sans viser spécifiquement les locations meublées de tourisme. Le texte prévoit aussi une exonération si la vacance est indépendante de la volonté du contribuable.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000840025,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

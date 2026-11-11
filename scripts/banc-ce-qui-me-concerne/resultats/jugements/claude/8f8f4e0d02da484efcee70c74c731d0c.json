@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "elu_local",
+    "raison": "Le texte fixe la désignation du conseiller communautaire suppléant et lui permet de participer avec voix délibérative en l’absence du titulaire, dans les communautés de communes et d’agglomération.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000286025,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

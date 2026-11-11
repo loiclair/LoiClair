@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_sante",
+    "raison": "Le texte vise les professionnels de santé et étend la mesure à d’autres personnes exerçant dans le domaine des soins.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "etudiant",
+    "raison": "Le texte inclut expressément les élèves et étudiants des établissements préparant aux professions de santé. En revanche, il ne dit pas que toute suspension les concernant est liée à l’exercice de cette profession.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000882275,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

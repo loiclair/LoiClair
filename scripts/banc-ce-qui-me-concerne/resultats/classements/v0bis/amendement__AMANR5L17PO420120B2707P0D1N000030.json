@@ -1,0 +1,27 @@
+{
+ "resume_fr": "Permettrait à l'inspecteur du travail d'autoriser une entreprise exclue pour sécurité insuffisante à reprendre stagiaires et apprentis, après un délai fixé par décret.",
+ "resume_en": "Would allow the labour inspector to authorise a company excluded for insufficient safety to take on interns and apprentices again, after a period set by decree.",
+ "impacts": [
+  {
+   "profil": "apprenti_alternant",
+   "passage": "peut autoriser une entreprise concernée par le présent alinéa à conclure un contrat d'apprentissage",
+   "certitude": "certain"
+  },
+  {
+   "profil": "etudiant",
+   "passage": "peut autoriser une entreprise concernée par le présent alinéa à conclure une convention de stage",
+   "certitude": "probable"
+  },
+  {
+   "profil": "chef_entreprise",
+   "passage": "peut autoriser une entreprise concernée par le présent alinéa à conclure une convention de stage",
+   "certitude": "probable"
+  },
+  {
+   "profil": "dirigeant_grande_entreprise",
+   "passage": "peut autoriser une entreprise concernée par le présent alinéa à conclure un contrat d'apprentissage",
+   "certitude": "possible"
+  }
+ ],
+ "cout_usd": 0.00133141
+}

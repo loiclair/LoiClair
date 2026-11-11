@@ -1,0 +1,19 @@
+{
+ "impacts": [
+  {
+   "profil": "secteur_education",
+   "phrase_fr": "Les accompagnants d'élèves en situation de handicap seraient intégrés dans un corps de fonctionnaires de catégorie B, recrutés par concours et formés pendant un an.",
+   "phrase_en": "Accompanying staff for pupils with disabilities would join a new category B civil-service corps, recruited by competitive exam and trained for one year.",
+   "passage": "Les accompagnants des élèves en situation de handicap sont recrutés par concours, organisés selon des modalités fixées par voie règlementaire, qui prévoient une affectation des lauréats dans l'un des départements de l'académie au sein duquel le concours a été",
+   "certitude": "certain"
+  },
+  {
+   "profil": "fonctionnaire",
+   "phrase_fr": "Les contractuels qui accompagnent des élèves handicapés seraient immédiatement nommés fonctionnaires stagiaires, avec un stage d'un an.",
+   "phrase_en": "Contract staff who accompany pupils with disabilities would immediately become probationary civil servants, with a one-year traineeship.",
+   "passage": "sont immédiatement nommés fonctionnaires stagiaires dans leur corps d'exercice.",
+   "certitude": "probable"
+  }
+ ],
+ "cout_usd": 0.00127261
+}

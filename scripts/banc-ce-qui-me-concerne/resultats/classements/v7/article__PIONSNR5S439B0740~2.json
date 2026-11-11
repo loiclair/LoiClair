@@ -1,0 +1,47 @@
+{
+ "impacts": [
+  {
+   "profil": "imposable",
+   "phrase_fr": "Les foyers fiscaux paieraient une contribution audiovisuelle de 10 € à 350 € par an, selon leur revenu fiscal de référence.",
+   "phrase_en": "Tax households would pay an audiovisual contribution of €10 to €350 a year, depending on their reference tax income.",
+   "passage": "Il est institué à la charge des contribuables une taxe dénommée : “contribution progressive au financement de l’audiovisuel public”.",
+   "certitude": "probable"
+  },
+  {
+   "profil": "handicap",
+   "phrase_fr": "Les personnes handicapées percevant l'allocation aux adultes handicapés seraient dispensées de cette contribution, sous conditions de revenus.",
+   "phrase_en": "People with disabilities receiving the adult disability allowance would be exempt from this contribution, subject to income limits.",
+   "passage": "2° Les titulaires de l’allocation aux adultes handicapés mentionnée à l’article L. 821-1 du code de la sécurité sociale, lorsque le montant de leurs revenus de l’année précédente n’excède pas 11 276 €",
+   "certitude": "certain"
+  },
+  {
+   "profil": "senior",
+   "phrase_fr": "Les contribuables de plus de 60 ans seraient dispensés de cette contribution, sous conditions de revenus et d'impôt sur la fortune immobilière.",
+   "phrase_en": "Taxpayers over 60 would be exempt from this contribution, subject to income limits and real estate wealth tax conditions.",
+   "passage": "4° Les contribuables âgés de plus de 60 ans, les veuves et veufs dont le montant des revenus de l’année précédente n’excède pas la limite prévue au 2° du présent II",
+   "certitude": "certain"
+  },
+  {
+   "profil": "veuf",
+   "phrase_fr": "Les veufs et veuves seraient dispensés de cette contribution, sous conditions de revenus et d'impôt sur la fortune immobilière.",
+   "phrase_en": "Widowers and widows would be exempt from this contribution, subject to income limits and real estate wealth tax conditions.",
+   "passage": "4° Les contribuables âgés de plus de 60 ans, les veuves et veufs dont le montant des revenus de l’année précédente n’excède pas la limite prévue au 2° du présent II",
+   "certitude": "certain"
+  },
+  {
+   "profil": "outre_mer",
+   "phrase_fr": "Les seuils de revenus pour la dispense de cette contribution seraient plus élevés en Martinique, en Guadeloupe, à La Réunion, en Guyane et à Mayotte.",
+   "phrase_en": "Income thresholds for exemption from this contribution would be higher in Martinique, Guadeloupe, La Réunion, French Guiana and Mayotte.",
+   "passage": "Pour la Martinique, la Guadeloupe et la Réunion, les montants des revenus mentionnés au premier alinéa du présent 2° sont fixés à 13 343 € pour la première part, majorés de 3 187 € pour la première demi-part et 3 011 € pour chaque demi-part supplémentaire à compter de la deuxième.",
+   "certitude": "certain"
+  },
+  {
+   "profil": "age_dependant",
+   "phrase_fr": "Les personnes hébergées durablement en établissement de soins de longue durée, sans autonomie de vie, pourraient garder un dégrèvement sous conditions de revenus.",
+   "phrase_en": "People permanently housed in long-term care facilities who lack independent living could keep a reduction, subject to income conditions.",
+   "passage": "7° Les personnes qui conservent la jouissance exclusive de l’habitation qui constituait leur résidence principale avant qu’elles soient hébergées durablement dans un établissement ou un service",
+   "certitude": "probable"
+  }
+ ],
+ "cout_usd": 0.00365947
+}

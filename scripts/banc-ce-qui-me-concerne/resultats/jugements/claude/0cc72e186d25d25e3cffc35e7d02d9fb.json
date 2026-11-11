@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "parent",
+    "raison": "Le texte impose l’équipement aux établissements, pas aux parents. L’effet pour eux passe par l’école et leur enfant.",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "mineur",
+    "raison": "La mesure vise les établissements accueillant des élèves, sans condition d’âge. Être mineur ne déclenche pas la mesure ; des élèves majeurs sont aussi concernés.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000644775,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

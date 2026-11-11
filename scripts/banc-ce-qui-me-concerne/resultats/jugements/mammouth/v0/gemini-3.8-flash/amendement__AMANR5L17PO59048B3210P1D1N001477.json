@@ -1,0 +1,14 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_agriculture",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'amendement porte à 100 % le taux du crédit d'impôt pour les dépenses engagées par les exploitants agricoles afin d'assurer leur remplacement en cas de maladie, accident du travail ou formation."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.009099
+}

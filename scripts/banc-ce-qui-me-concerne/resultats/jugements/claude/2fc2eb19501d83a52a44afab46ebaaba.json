@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "veuf",
+    "raison": "L'article vise directement le conjoint survivant d'un fonctionnaire décédé (majoration pour perte du logement de fonction, maintien d'un an) : c'est la situation de veuf.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "marie_pacse",
+    "raison": "Le texte vise le conjoint survivant, donc une personne veuve, plus la personne mariée ou pacsée ; le profil marié/pacsé n'est pas ce qui déclenche la mesure (règle 7).",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0026977,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

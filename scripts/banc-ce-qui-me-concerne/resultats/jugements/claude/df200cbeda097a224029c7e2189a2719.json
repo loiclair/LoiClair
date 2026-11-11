@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "epargnant",
+    "raison": "Le texte crée un livret d’épargne et prévoit l’emploi des sommes déposées : il vise directement les personnes qui épargnent.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "marie_pacse",
+    "raison": "Le texte prévoit expressément un livret pour chacun des époux ou partenaires de PACS soumis à une imposition commune.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00035065,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

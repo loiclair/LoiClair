@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "futur_parent",
+    "raison": "Le texte vise les femmes ou couples engagés dans une tentative de fécondation in vitro, une démarche de projet d’enfant.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000273525,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

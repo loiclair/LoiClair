@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "syndique",
+    "raison": "Le texte fait siéger des représentants des organisations syndicales de Vencorex dans un comité créé pour une seule affaire ; cela ne change pas les règles applicables aux syndiqués en général (règle 9).",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "elu_local",
+    "raison": "Le président de l'agglomération et les maires concernés siègent dans un comité créé pour Vencorex ; cela ne change pas les règles applicables aux élus locaux en général (règle 9).",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000269235,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

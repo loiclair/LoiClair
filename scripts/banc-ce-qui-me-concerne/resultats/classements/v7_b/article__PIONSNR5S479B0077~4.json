@@ -1,0 +1,19 @@
+{
+ "impacts": [
+  {
+   "profil": "cycliste",
+   "phrase_fr": "La vitesse maximale des trottinettes électriques serait limitée à 20 km/h.",
+   "phrase_en": "The maximum speed of electric scooters would be limited to 20 km/h.",
+   "passage": "La vitesse maximale d’une trottinette à assistance électrique ne dépasse pas 20 kilomètres par heure.",
+   "certitude": "certain"
+  },
+  {
+   "profil": "mineur",
+   "phrase_fr": "Les moins de 14 ans ne pourraient plus conduire une trottinette électrique.",
+   "phrase_en": "Children under 14 would no longer be allowed to drive an electric scooter.",
+   "passage": "Tout conducteur de trottinette à assistance électrique est âgé d’au moins quatorze ans.",
+   "certitude": "certain"
+  }
+ ],
+ "cout_usd": 0.00064011
+}

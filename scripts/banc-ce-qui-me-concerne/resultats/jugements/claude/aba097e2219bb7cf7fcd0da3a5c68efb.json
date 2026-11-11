@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_sante",
+    "raison": "Le texte vise les médecins, chirurgiens-dentistes et sages-femmes qui demandent un remplacement pour exercer en zone sous-dotée : cela change leurs règles d'exercice professionnel (l'autorisation ne peut être refusée que pour motif impérieux).",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "independant",
+    "raison": "Le texte ne précise pas le mode d'exercice : il parle du « médecin », du chirurgien-dentiste et de la sage-femme sans dire qu'ils sont libéraux ; le profil indépendant n'est pas visé (règle 7).",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0034127,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

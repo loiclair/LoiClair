@@ -1,0 +1,28 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "parent",
+    "raison": "La mesure vise le contribuable qui assume la charge exclusive ou principale d’au moins deux enfants, et prévoit aussi une répartition en cas de charge égale.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "imposable",
+    "raison": "Le texte modifie directement le nombre de parts utilisé pour le calcul de l’impôt sur le revenu, pour les contribuables remplissant la condition de charge des enfants.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "parent_isole",
+    "raison": "Le texte ne vise pas le fait d’élever seul un enfant : le critère est la charge exclusive ou principale, qui ne se confond pas avec le statut de parent isolé.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000798275,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

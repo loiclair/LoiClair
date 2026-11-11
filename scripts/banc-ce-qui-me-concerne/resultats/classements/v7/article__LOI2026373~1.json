@@ -1,0 +1,12 @@
+{
+ "impacts": [
+  {
+   "profil": "secteur_sante",
+   "phrase_fr": "Les médecins ayant commencé leurs études au Royaume-Uni avant le 31 décembre 2020 peuvent exercer en France si leur diplôme figure sur une liste fixée par arrêté.",
+   "phrase_en": "Doctors who began their medical studies in the UK before 31 December 2020 can practise in France if their diploma is on a list set by decree.",
+   "passage": "3° Soit les titres de formation de médecin délivrés par le Royaume-Uni, figurant sur une liste établie par arrêté des ministres chargés de l'enseignement supérieur et de la santé,",
+   "certitude": "certain"
+  }
+ ],
+ "cout_usd": 0.00103201
+}

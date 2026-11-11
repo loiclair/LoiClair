@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_agriculture",
+    "raison": "Les installations d'élevage soumises à enregistrement ou autorisation feraient l'objet de prescriptions générales et d'un plan de modernisation des bâtiments. L'élevage relève du secteur agricole et ces règles changeraient directement la façon d'exercer le métier.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "chef_entreprise",
+    "raison": "Le texte vise les installations d'élevage selon leur classement, non le statut de dirigeant ou d'employeur d'une petite entreprise. Le lien avec le profil passe par le secteur agricole, déjà retenu. La phrase ajoute un critère de dirigeant absent du texte.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0007095350000000001,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

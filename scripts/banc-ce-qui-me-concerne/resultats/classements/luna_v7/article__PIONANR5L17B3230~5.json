@@ -1,0 +1,12 @@
+{
+ "impacts": [
+  {
+   "profil": "imposable",
+   "phrase_fr": "Pourrait imputer le crédit sur son impôt sur le revenu dû l’année de la transmission, avec un report possible du surplus pendant trois ans.",
+   "phrase_en": "Could apply the tax credit to income tax due for the year of the transfer, and carry forward any surplus for up to three years.",
+   "passage": "Le crédit d’impôt est imputable sur l’impôt sur le revenu ou l’impôt sur les sociétés dû par le cessionnaire au titre de l’année de la transmission. En cas de montant excédentaire, le surplus peut être reporté sur les années suivantes, dans la limite de trois ans.",
+   "certitude": "probable"
+  }
+ ],
+ "cout_usd": 0.00032435
+}

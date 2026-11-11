@@ -1,0 +1,14 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "age_dependant",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article ajoute explicitement 'la perte d'autonomie' à la liste des critères de discrimination à l'article 225-1 du code pénal. La phrase décrit correctement cette extension de la protection pénale et utilise le conditionnel, le texte n'étant pas encore adopté."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0016536
+}

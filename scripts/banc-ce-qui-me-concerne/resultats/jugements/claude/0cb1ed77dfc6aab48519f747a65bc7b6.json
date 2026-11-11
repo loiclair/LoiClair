@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "projet_achat",
+    "raison": "La taxe de 0,10 % s’ajouterait aux droits dus lors d’une mutation à titre onéreux d’un bien immobilier situé dans une commune littorale : elle vise donc directement les personnes qui achètent leur logement dans ces communes.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "littoral",
+    "raison": "La taxe dépend de la localisation du bien vendu, pas du lieu de résidence de l’acheteur. Habiter une commune littorale ne suffit pas à être visé.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00083115,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

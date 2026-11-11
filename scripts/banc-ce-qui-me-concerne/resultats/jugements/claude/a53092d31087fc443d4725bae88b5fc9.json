@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "veuf",
+    "raison": "Le texte vise le conjoint survivant d'un fonctionnaire civil ou militaire décédé qui occupait un logement de fonction : la personne veuve est directement visée, avec une majoration forfaitaire (I) et un maintien d'un an dans le logement (II). Le profil ne vaut que pour les veufs dont le conjoint était logé par fonction, mais il est bien le critère déclencheur.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000426785,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

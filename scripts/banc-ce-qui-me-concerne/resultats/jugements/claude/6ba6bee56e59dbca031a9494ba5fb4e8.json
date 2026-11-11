@@ -1,0 +1,19 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "proprietaire_bailleur",
+    "raison": "L'amendement change la preuve que le bailleur doit fournir pour être réputé satisfaire à la décence énergétique quand les travaux sont impossibles : une attestation écrite, d'après l'exposé. Le dispositif vise donc directement le propriétaire qui loue à l'année.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "locataire"
+  ]
+ },
+ "cout_usd": 0.0030816999999999997,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

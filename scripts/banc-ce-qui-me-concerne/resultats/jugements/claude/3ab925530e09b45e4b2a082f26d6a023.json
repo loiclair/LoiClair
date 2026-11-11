@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "mineur",
+    "raison": "L'article vise directement les mineurs victimes de prostitution ou d'exploitation sexuelle : repérage, orientation et accès garanti à un hébergement adapté. Un mineur a donc bien un droit nouveau.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0019337,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

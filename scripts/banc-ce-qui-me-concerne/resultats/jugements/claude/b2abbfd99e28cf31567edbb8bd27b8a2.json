@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etranger_hors_ue",
+    "raison": "L’article L. 142-7 vise explicitement l’étranger contrôlé et prévoit sa retenue s’il refuse les relevés. Cela peut directement concerner les étrangers hors UE vivant en France soumis à ces contrôles.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.001049275,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

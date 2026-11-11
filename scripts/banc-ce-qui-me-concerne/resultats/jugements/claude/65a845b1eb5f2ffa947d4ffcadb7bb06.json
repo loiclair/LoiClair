@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "epargnant",
+    "raison": "L'article crée un livret d'épargne nouveau, ouvert aux personnes ayant leur domicile fiscal en France, avec des versements plafonnés. Un épargnant peut donc l'ouvrir, ce qui change directement ses options d'épargne. La phrase de l'assistant reprend fidèlement le texte, et le conditionnel « pourriez » convient à une proposition non adoptée.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "marie_pacse",
+    "raison": "Le texte désigne nommément les époux et partenaires liés par un PACS soumis à une imposition commune, et fixe leur droit à ouvrir un livret chacun. La règle les vise directement par leur situation de couple. La phrase de l'assistant correspond au texte et respecte le conditionnel.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000501185,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

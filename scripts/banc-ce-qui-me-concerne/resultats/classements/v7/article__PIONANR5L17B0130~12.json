@@ -1,0 +1,12 @@
+{
+ "impacts": [
+  {
+   "profil": "benevole",
+   "phrase_fr": "Les bénévoles d'une association dissoute pourraient voir ses biens liquidés par un curateur, puis dévolus lors d'une assemblée générale que celui-ci convoque.",
+   "phrase_en": "Volunteers of a dissolved association would see its assets liquidated by a curator, then allocated at a general meeting he convenes.",
+   "passage": "Le curateur a pour mission de procéder à la liquidation des biens de l’association et de convoquer, dans un délai déterminé par le tribunal, la réunion d’une assemblée générale à seule fin d’adopter une délibération sur la dévolution des biens",
+   "certitude": "probable"
+  }
+ ],
+ "cout_usd": 0.00092301
+}

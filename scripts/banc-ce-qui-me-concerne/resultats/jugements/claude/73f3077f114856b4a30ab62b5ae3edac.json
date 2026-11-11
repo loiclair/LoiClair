@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "salarie_prive",
+    "raison": "Le dispositif remplace 2027 par 2026 aux deux alinéas qui fixent la date des droits à participation et des sommes d’intéressement des salariés pouvant être débloqués. Cela vise directement les salariés du privé concernés par ces dispositifs.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000548775,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

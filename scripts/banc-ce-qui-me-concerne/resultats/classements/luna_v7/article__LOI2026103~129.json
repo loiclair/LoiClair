@@ -1,0 +1,19 @@
+{
+ "impacts": [
+  {
+   "profil": "etranger_hors_ue",
+   "phrase_fr": "Vous pourriez payer une taxe de 100 à 300 euros pour la première délivrance de votre titre de séjour, puis de 50 à 200 euros pour son renouvellement, selon votre situation.",
+   "phrase_en": "You could pay a tax of €100 to €300 when your residence permit is first issued, then €50 to €200 when it is renewed, depending on your situation.",
+   "passage": "La première délivrance d'un titre de séjour donne lieu à la perception d'une taxe dont le montant est fixé à 300 euros.",
+   "certitude": "certain"
+  },
+  {
+   "profil": "automobiliste",
+   "phrase_fr": "L’échange d’un permis de conduire délivré par une autorité étrangère contre un permis français vous coûtera 40 euros.",
+   "phrase_en": "Exchanging a driving licence issued by a foreign authority for a French licence will cost you €40.",
+   "passage": "2° En échange d'un permis de conduire délivré par une autorité étrangère.",
+   "certitude": "possible"
+  }
+ ],
+ "cout_usd": 0.00061235
+}

@@ -1,0 +1,14 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "outre_mer",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'amendement concerne directement les résidents de Wallis-et-Futuna (collectivité d'outre-mer) en adaptant pour eux les règles d'affiliation et de prise en charge des soins pour l'accès au moyen d'identification électronique."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.006054
+}

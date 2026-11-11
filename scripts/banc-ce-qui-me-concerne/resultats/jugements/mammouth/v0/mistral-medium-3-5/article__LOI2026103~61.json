@@ -1,0 +1,20 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "automobiliste",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article introduit une majoration directe de la taxe régionale pour l'immatriculation des véhicules en Île-de-France, ce qui concerne spécifiquement les automobilistes. La phrase est fidèle au texte et au conditionnel (loi publiée, donc pas de conditionnel nécessaire). Le passage cité est exact et justifie le profil."
+   },
+   {
+    "profil": "grande_ville",
+    "concerne": false,
+    "phrase_fidele": false,
+    "raison": "Le profil 'grande_ville' n'est pas concerné car la mesure vise spécifiquement la région Île-de-France, et non toutes les grandes villes. De plus, la phrase proposée mentionne 'l'agglomération parisienne', ce qui est une interprétation erronée (l'Île-de-France inclut des zones non urbaines). Le passage cité ne justifie pas ce profil, car il ne cible pas les habitants de grandes villes en général."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.008163
+}

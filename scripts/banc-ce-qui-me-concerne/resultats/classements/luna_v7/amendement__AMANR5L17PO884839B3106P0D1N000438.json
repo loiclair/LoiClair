@@ -1,0 +1,12 @@
+{
+ "resume_fr": "Accorderait de plein droit une carte de séjour temporaire de quatre ans aux personnes confiées à l’ASE ou à une personne de confiance avant 18 ans, sans condition prévue à l’article L. 412-1.",
+ "resume_en": "Would automatically grant a four-year temporary residence permit to people entrusted to child welfare services or a trusted person before age 18, without the condition set out in Article L. 412-1.",
+ "impacts": [
+  {
+   "profil": "etranger_hors_ue",
+   "passage": "avant l’âge de dix-huit ans se voit délivrer de plein droit une carte de séjour temporaire portant la mention « vie privée et familiale » d’une durée de quatre ans, sans que soit opposable la condition prévue à l’article L. 412‑1.",
+   "certitude": "certain"
+  }
+ ],
+ "cout_usd": 0.0004331
+}

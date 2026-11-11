@@ -1,0 +1,12 @@
+{
+ "impacts": [
+  {
+   "profil": "emprunteur",
+   "phrase_fr": "Une dette contestée pour usurpation d'identité ne pourrait plus être recouvrée pendant 90 jours, sans pénalités ni déchéance du terme sur ce seul motif.",
+   "phrase_en": "A disputed debt linked to identity theft would no longer be collected for 90 days, with no penalties or loan acceleration based on that alone.",
+   "passage": "Pendant cette période, aucune pénalité, majoration, indemnité de retard, déchéance du terme ou autre mesure défavorable ne peut être fondée sur le seul défaut de paiement de l’obligation contestée.",
+   "certitude": "possible"
+  }
+ ],
+ "cout_usd": 0.00079231
+}

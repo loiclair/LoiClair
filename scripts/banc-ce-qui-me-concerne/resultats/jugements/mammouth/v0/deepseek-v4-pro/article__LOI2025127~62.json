@@ -1,0 +1,14 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "imposable",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "Le texte allonge le délai de reprise de l'administration lorsqu'une personne physique se prévaut d'une fausse domiciliation fiscale à l'étranger. Cela ne cible pas les foyers imposables en général, mais uniquement ceux qui commettraient cette fraude. Cet effet est trop spécifique pour que le profil 'imposable' soit concerné au sens de la consigne, car la quasi-totalité des foyers imposables ne sont pas visés par la mesure, et l'article ne change rien pour eux. L'effet est limité à un sous-ensemble très restreint, non représentatif du profil."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0018031
+}

@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "parent",
+    "raison": "Les allocations familiales sont versées aux parents ou responsables légaux d'enfants à charge. La suppression des alinéas de l'article L. 521-1 change directement le montant qu'ils perçoivent, en levant la condition de ressources selon le titre du texte.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "famille_nombreuse",
+    "raison": "Le texte ne mentionne aucun seuil de trois enfants. La mesure vaut pour toutes les familles auxquelles les allocations familiales sont versées, à partir de deux enfants, et ne se déclenche pas par le nombre d'enfants. La phrase de l'assistant invente donc une restriction absente du texte.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000781535,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

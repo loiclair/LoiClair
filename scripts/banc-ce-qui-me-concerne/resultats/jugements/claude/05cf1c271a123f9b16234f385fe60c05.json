@@ -1,0 +1,18 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "proprietaire_bailleur",
+    "raison": "Le changement porte sur l’attestation des raisons pour lesquelles les travaux nécessaires à la décence énergétique sont impossibles, dans une règle applicable au bailleur.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "locataire"
+  ]
+ },
+ "cout_usd": 0.000400025,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

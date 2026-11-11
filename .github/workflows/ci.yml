@@ -1,0 +1,68 @@
+# Checks bloquants sur tout push vers main : lint, types, compilation. Un seul job,
+# donc un seul checkout et un seul `npm ci` : GitHub facture la somme des durées de
+# chaque job, arrondie à la minute supérieure, si bien que trois jobs d'une minute
+# coûtent plus cher qu'un seul de deux. Paralléliser ne réduit que l'attente, jamais
+# la facture. Pas de déclencheur `pull_request` : le dépôt ne passe plus par des PR,
+# Dependabot compris (D-162).
+#
+# Ordre des étapes : du plus rapide au plus lent, pour que l'erreur la plus fréquente
+# sorte la première. Le prix du séquentiel est qu'une erreur de lint masque une erreur
+# de types jusqu'au run suivant.
+#
+# Le trigger `push` est le seul filet depuis que `main` ne déploie plus (D-159) :
+# aucune image ne se construit sur un commit poussé sur `main`, et une release
+# promeut ce que `main` contient. Sans ce job, du code qui ne compile pas peut
+# vivre des jours sur `main` et ne se découvrir qu'au moment de publier.
+name: CI
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+# Un second push coup sur coup annule le run précédent, qui ne valide plus rien
+# puisque seul le dernier commit part en release. À ne pas confondre avec les blocs
+# de `deps-weekly.yml` et `lockfile-repair.yml`, en `false` parce qu'ils poussent du
+# code : annuler un push à mi-chemin laisserait le dépôt dans un état intermédiaire.
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: '24'
+          cache: npm
+      - run: npm ci --ignore-scripts
+      - run: npm run lint:strict
+      - run: npm run typecheck
+
+      # Le build lit la base du VPS par un tunnel SSH (D-327), ouvert après lint et
+      # types pour qu'une erreur de code ne coûte pas la connexion au serveur.
+      - name: Tunnel vers la base du VPS
+        uses: ./.github/actions/tunnel-base
+        with:
+          host: ${{ secrets.VPS_HOST }}
+          key: ${{ secrets.VPS_TUNNEL_KEY }}
+          known_hosts: ${{ secrets.VPS_KNOWN_HOSTS }}
+
+      # Les secrets de connexion restent portés par la seule étape qui en a besoin :
+      # `src/lib/db.ts` lève à l'import s'il en manque, ce qui fait échouer
+      # `next build` avant la première page, alors que `eslint` et `tsc` n'en ont
+      # aucun usage. Même motif que dans `deps-weekly.yml`.
+      # La base répond sur `127.0.0.1:5432` du runner, au bout du tunnel, sans TLS :
+      # le tunnel chiffre déjà, et Postgres n'écoute que sur `127.0.0.1` du VPS.
+      - run: npm run build
+        env:
+          PGHOST: 127.0.0.1
+          PGPORT: '5432'
+          PGSSLMODE: disable
+          PGDATABASE: ${{ secrets.VPS_PGDATABASE }}
+          PGUSER: ${{ secrets.VPS_PGUSER }}
+          PGPASSWORD: ${{ secrets.VPS_PGPASSWORD }}

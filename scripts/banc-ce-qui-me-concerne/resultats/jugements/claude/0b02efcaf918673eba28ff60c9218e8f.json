@@ -1,0 +1,20 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "veuf",
+    "raison": "Le dispositif modifie l'article 195 du CGI pour étendre la demi-part fiscale aux veuves de combattants titulaires du titre de reconnaissance de la Nation ; les veuves sont directement visées, et la situation de veuvage déclenche la mesure.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "ancien_combattant",
+   "imposable"
+  ]
+ },
+ "cout_usd": 0.0026067,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

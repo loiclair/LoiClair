@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_sante",
+    "raison": "Le texte modifie les conditions d'exercice de la médecine en France pour les titulaires de diplômes britanniques (reconnaissance des titres, formation commencée avant le 31 décembre 2020) : c'est une règle du métier de médecin.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "etranger_hors_ue",
+    "raison": "Le texte vise les titulaires de diplômes britanniques de médecin, et le Royaume-Uni est hors UE. Mais le texte vise des ressortissants français, andorrans, de l'UE, de l'EEE ou du Royaume-Uni, sans parler de titre de séjour ni de personnes vivant en France. Ce n'est pas le profil défini dans le catalogue (titre de séjour, asile, réfugié), qui n'est pas déclencheur ici.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0038047,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

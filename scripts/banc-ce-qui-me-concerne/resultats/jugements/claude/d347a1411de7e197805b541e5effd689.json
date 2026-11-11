@@ -1,0 +1,29 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etranger_hors_ue",
+    "raison": "Le texte vise directement les étrangers non européens : titre de séjour depuis deux ans exigé pour les prestations familiales et l'APA, avec exceptions pour réfugiés, apatrides et titulaires de titres autorisant à travailler.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "parent",
+    "raison": "Les prestations familiales (L. 512-2) visées bénéficient aux parents d'enfants à charge, et la condition de séjour change leurs droits ; l'article cible ces prestations familiales.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "age_dependant",
+    "raison": "L'art. L. 232-1 CASF concerne l'APA, destinée aux personnes âgées en perte d'autonomie ; la condition de deux ans de séjour change leur droit à cette allocation.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0042227,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

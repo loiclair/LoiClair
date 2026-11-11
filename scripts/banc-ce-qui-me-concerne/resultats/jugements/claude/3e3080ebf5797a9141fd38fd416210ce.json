@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "salarie_prive",
+    "raison": "Le dispositif modifie la date limite des sommes de participation et d’intéressement affectées par le salarié à un plan d’épargne salariale : cela change directement l’accès des salariés concernés au déblocage exceptionnel.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0004704,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

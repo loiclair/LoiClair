@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "salarie_prive",
+    "raison": "L’article vise les faits de harcèlement moral liés à la mise en œuvre d’une politique d’entreprise, dans le cadre des conditions de travail des salariés.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00075265,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

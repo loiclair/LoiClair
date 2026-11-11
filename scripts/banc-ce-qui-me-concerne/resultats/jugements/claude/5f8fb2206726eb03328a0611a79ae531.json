@@ -1,0 +1,29 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "salarie_prive",
+    "raison": "Le texte crée un régime de retraite obligatoire financé par des cotisations prélevées sur la rémunération, réparties à parts égales entre employeur et salarié, dans la limite de 2 %. Le salarié est directement visé comme cotisant.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "chef_entreprise",
+    "raison": "Le texte impose à tout employeur de financer la moitié des cotisations du régime pour ses salariés. Un dirigeant de très petite, petite ou moyenne entreprise est donc directement visé par cette obligation.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "dirigeant_grande_entreprise",
+    "raison": "La même obligation de financement pèse sur tout employeur, y compris celui d'une entreprise de 250 salariés ou plus.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000724635,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

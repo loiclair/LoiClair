@@ -1,0 +1,47 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "imposable",
+    "raison": "La taxe est instituée « à la charge des contribuables » selon le revenu fiscal de référence (de 10 € à 350 €) et recouvrée comme l'impôt sur le revenu : les foyers imposables sont directement visés.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "handicap",
+    "raison": "Le 2° du II accorde un dégrèvement aux titulaires de l'AAH sous plafond de revenus, et le 3° aux personnes atteintes d'une infirmité ou invalidité : les personnes handicapées sont visées.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "senior",
+    "raison": "Le 4° du II prévoit un dégrèvement pour les contribuables de plus de 60 ans, sous plafond de revenus et hors IFI : cela recoupe les 55 ans et plus.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "veuf",
+    "raison": "Le 4° du II cite expressément les veuves et veufs parmi les bénéficiaires du dégrèvement, sous plafond de revenus et hors IFI.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "outre_mer",
+    "raison": "Le texte fixe des plafonds de revenus spécifiques, plus élevés, pour la Martinique, la Guadeloupe, La Réunion, la Guyane et Mayotte (2° et 5° du II) : les habitants de ces territoires sont visés.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "age_dependant",
+    "raison": "Le 7° du II maintient le dégrèvement pour les personnes hébergées durablement en établissement de soins de longue durée, sans autonomie de vie, qui gardent leur ancien logement.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0120987,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

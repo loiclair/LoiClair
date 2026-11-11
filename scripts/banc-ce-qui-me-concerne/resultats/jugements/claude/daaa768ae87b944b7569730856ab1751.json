@@ -1,0 +1,30 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "proprietaire_occupant",
+    "raison": "Le taux de TVA change pour certaines prestations de travaux, quel que soit le statut d’occupation du client : le texte ne vise pas spécialement les propriétaires occupants.",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "secteur_btp",
+    "raison": "Le texte modifie directement le taux de TVA applicable à des travaux de rénovation énergétique, de nettoyage, d’aménagement ou d’entretien des espaces verts et d’installation de chaudières.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "auto_entrepreneur",
+    "raison": "Le texte modifie la franchise de TVA selon le chiffre d’affaires, et non selon le statut de micro-entrepreneur ; ce statut, à lui seul, ne déclenche donc pas la mesure.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "secteur_culture"
+  ]
+ },
+ "cout_usd": 0.0024514,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "mineur",
+    "raison": "L'article vise nommément les mineurs victimes de prostitution ou d'exploitation sexuelle, et leur garantit l'accès à un hébergement adapté, non mixte et sécurisé. La mesure s'adresse donc directement au mineur, même si elle est mise en œuvre par la protection de l'enfance.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000349185,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

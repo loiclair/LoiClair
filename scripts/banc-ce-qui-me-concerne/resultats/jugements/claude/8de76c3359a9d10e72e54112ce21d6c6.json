@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etranger_hors_ue",
+    "raison": "L'article fixe la taxe due à chaque première délivrance (300 €, ramenée à 100 €) et à chaque renouvellement (200 €, ramené à 50 €) d'un titre de séjour, donc directement à des personnes hors UE vivant en France. La fourchette « 100 à 300 € » omet les cas exonérés (délivrance non soumise à taxe, art. L. 426-8 et L. 426-9, et certaines premières délivrances), dont le montant est nul.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000837135,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

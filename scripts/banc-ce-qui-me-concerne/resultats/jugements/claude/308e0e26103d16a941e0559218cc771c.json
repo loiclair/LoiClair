@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_culture",
+    "raison": "Le texte vise les journalistes professionnels et assimilés fournissant des contenus à une agence ou entreprise de presse : ils relèvent du secteur presse, rattaché à secteur_culture, et leur affiliation au régime général change leurs droits sociaux.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0021006999999999996,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

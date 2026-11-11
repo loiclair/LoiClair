@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_transport",
+    "raison": "L'article ouvre une déduction fiscale aux entreprises qui achètent des équipements véliques pour leurs navires de transport. Le bénéfice va à l'entreprise exploitante, non au salarié ni au travailleur du secteur, et ne change ni la façon d'exercer le métier ni ses obligations. L'effet passe par l'entreprise : indirect.",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "chef_entreprise",
+    "raison": "Le taux majoré vise les moyennes et petites entreprises, mais seulement si elles supportent des coûts d'équipements véliques pour des navires de transport. La taille fixe le taux, le critère d'éligibilité est l'achat de matériel pour un navire. Le gain passe par la trésorerie de l'entreprise et non par la personne du dirigeant : indirect.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.001429635,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

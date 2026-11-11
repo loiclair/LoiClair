@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "parent",
+    "raison": "Ce qui déclenche la contribution est un patrimoine net supérieur à 5 millions d'euros, pas le fait d'être parent. La mention des enfants mineurs sert seulement à calculer l'assiette des personnes redevables, donc le profil parent n'est pas visé en tant que tel.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0049937,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

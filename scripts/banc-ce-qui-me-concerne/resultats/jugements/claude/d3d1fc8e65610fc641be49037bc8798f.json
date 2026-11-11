@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "elu_local",
+    "raison": "L'article modifie les règles de désignation des adjoints au maire (L. 2122-7-2) et en cas de vacance dans les petites communes : cela change directement les règles applicables aux élus municipaux.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "rural",
+    "raison": "La règle vise les conseillers municipaux et les adjoints des communes de moins de 1 000 habitants, pas les habitants en tant que tels ; un habitant de commune rurale n'est pas changé dans ses droits. Le critère de taille de commune ne définit pas le profil rural.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0027437,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

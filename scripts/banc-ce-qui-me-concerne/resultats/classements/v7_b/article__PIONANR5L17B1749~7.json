@@ -1,0 +1,19 @@
+{
+ "impacts": [
+  {
+   "profil": "etudiant",
+   "phrase_fr": "Un étudiant qui a signé un contrat avec un organisme privé pourrait obtenir l'annulation du contrat et le double des sommes versées si les règles ne sont pas respectées.",
+   "phrase_en": "A student who signed a contract with a private institution would be able to cancel it and get back double the sums paid if the rules are not respected.",
+   "passage": "Le professionnel rembourse à son co‑contractant le double des sommes qui ont été versées dans le cadre du contrat.",
+   "certitude": "probable"
+  },
+  {
+   "profil": "chef_entreprise",
+   "phrase_fr": "Le dirigeant d'un organisme de formation pourrait se voir interdire, temporairement ou définitivement, d'exercer ses fonctions en cas de manquement aux règles.",
+   "phrase_en": "The director of a training organisation could be banned, temporarily or permanently, from running it if the rules are breached.",
+   "passage": "peut être assortie, à titre de peine complémentaire, d’une interdiction d’exercer temporairement ou définitivement l’activité de dirigeant d’un organisme de formation professionnelle",
+   "certitude": "probable"
+  }
+ ],
+ "cout_usd": 0.00103021
+}

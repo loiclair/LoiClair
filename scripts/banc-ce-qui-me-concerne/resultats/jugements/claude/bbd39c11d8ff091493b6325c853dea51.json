@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "proprietaire_bailleur",
+    "raison": "Le texte vise directement les bailleurs détenant un lot dans l’établissement dont l’activité cesse et prévoit les conditions de leur indemnisation.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0002894,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

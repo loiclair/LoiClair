@@ -1,0 +1,33 @@
+{
+ "impacts": [
+  {
+   "profil": "automobiliste",
+   "passage": "Cette évaluation définit les zones dans lesquelles le temps de déplacement par un mode de transport alternatif à l’automobile individuelle n’excède pas une fois et demie le temps de déplacement au moyen d’une voiture individuelle.",
+   "certitude": "probable",
+   "phrase_en": "In some low-emission zones, driving restrictions would not apply if alternative trips are not much longer than trips by car.",
+   "phrase_fr": "Dans certaines zones à faibles émissions, les restrictions de circulation pourraient ne pas s'appliquer si les trajets en transports alternatifs ne sont pas beaucoup plus longs qu'en voiture."
+  },
+  {
+   "profil": "grande_ville",
+   "passage": "Au cours de l’instauration d’une zone à faibles émissions mobilité, l’autorité organisatrice de la mobilité, de concert avec les services de l’État, y mène une évaluation sur les temps de trajets",
+   "certitude": "probable",
+   "phrase_en": "Low-emission zones in your urban area could be redrawn, with some areas free of traffic restrictions depending on alternative trip times.",
+   "phrase_fr": "Les zones à faibles émissions de votre agglomération pourraient être redessinées, avec des secteurs sans restrictions de circulation selon le temps de trajet des alternatives à la voiture."
+  },
+  {
+   "profil": "cycliste",
+   "passage": "les travaux de développement d’infrastructures de transport en commun ainsi que de mobilités actives sont priorisées de consort entre les autorités en charge du déploiement des zones à faibles émissions mobilité",
+   "certitude": "possible",
+   "phrase_en": "Works developing cycling and walking infrastructure would be prioritised in low-emission zones, which could improve your bike trips.",
+   "phrase_fr": "Les travaux d'aménagement pour le vélo et la marche seraient priorisés dans les zones à faibles émissions, ce qui pourrait améliorer vos déplacements à vélo."
+  },
+  {
+   "profil": "usager_transports",
+   "passage": "les travaux de développement d’infrastructures de transport en commun ainsi que de mobilités actives sont priorisées de consort entre les autorités en charge du déploiement des zones à faibles émissions mobilité",
+   "certitude": "possible",
+   "phrase_en": "Public transport infrastructure works would be prioritised in low-emission zones, which could improve your bus, tram, metro or train journeys.",
+   "phrase_fr": "Les travaux de transports en commun seraient priorisés dans les zones à faibles émissions, ce qui pourrait améliorer vos trajets en bus, tram, métro ou train."
+  }
+ ],
+ "resume_fr": null
+}

@@ -1,0 +1,19 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "heritier_donateur",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'amendement étend la période d'allègement fiscal pour les dons d'argent aux moins de 50 ans jusqu'au 31 décembre 2027, ce qui concerne directement les donateurs et donataires (héritiers/donataires). Le passage cité est exact et le conditionnel est respecté (texte non définitivement adopté)."
+   }
+  ],
+  "oublis": [
+   "jeune",
+   "futur_parent",
+   "famille_nombreuse",
+   "parent"
+  ]
+ },
+ "cout_usd": 0.0074295
+}

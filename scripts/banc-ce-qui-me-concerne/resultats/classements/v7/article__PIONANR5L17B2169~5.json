@@ -1,0 +1,19 @@
+{
+ "impacts": [
+  {
+   "profil": "mineur",
+   "phrase_fr": "Un enfant victime de violences de la part d’un parent serait suivi par le juge des violences sexistes et sexuelles, qui réglerait aussi l’autorité parentale à sa place.",
+   "phrase_en": "A child who is a victim of violence by a parent would be handled by the specialised violence judge, who would also decide on parental authority in place of the family judge.",
+   "passage": "« 2° Lorsqu’un mineur est victime de violences de la part d’un ascendant légitime, naturel ou adoptif.",
+   "certitude": "certain"
+  },
+  {
+   "profil": "parent",
+   "phrase_fr": "Pour les parents en conflit après des violences entre eux, le juge des violences sexistes et sexuelles fixerait les modalités de l’autorité parentale à la place du juge aux affaires familiales.",
+   "phrase_en": "For parents in dispute after violence between them, the specialised violence judge would set parental authority arrangements instead of the family affairs judge.",
+   "passage": "« Art. L. 256‑4. – Le juge des violences sexistes et sexuelles connaît des modalités d’exercice de l’autorité parentale, dans les conditions prévues aux articles 373‑2 à 373‑2‑13 du code civil.",
+   "certitude": "probable"
+  }
+ ],
+ "cout_usd": 0.00132951
+}

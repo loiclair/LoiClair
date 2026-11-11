@@ -1,0 +1,12 @@
+{
+ "impacts": [
+  {
+   "profil": "etudiant",
+   "phrase_fr": "Les études de médecine, pharmacie, odontologie et maïeutique seraient proposées au moins en première année dans chaque département, en priorité dans les zones sous-dotées en soins.",
+   "phrase_en": "First-year medicine, pharmacy, dentistry and midwifery courses would be offered in every department, especially in areas short of healthcare.",
+   "passage": "proposent dans chaque département des enseignements correspondant au minimum à la première année du premier cycle des formations de médecine, de pharmacie, d’odontologie et de maïeutique",
+   "certitude": "possible"
+  }
+ ],
+ "cout_usd": 0.00086641
+}

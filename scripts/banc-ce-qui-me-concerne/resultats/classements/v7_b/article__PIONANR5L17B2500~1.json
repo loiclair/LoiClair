@@ -1,0 +1,75 @@
+{
+ "impacts": [
+  {
+   "profil": "salarie_particulier",
+   "phrase_fr": "Les assistants maternels devraient obtenir ou conserver leur agrément en présentant un certificat d’honorabilité pour l’enfance.",
+   "phrase_en": "Childminders would need an honorability certificate for children to get or keep their approval.",
+   "passage": "L’obtention et le maintien de l’agrément d’assistant maternel sont subordonnés à la détention d’un certificat d’honorabilité pour l’enfance.",
+   "certitude": "certain"
+  },
+  {
+   "profil": "particulier_employeur",
+   "phrase_fr": "Les particuliers employeurs devraient vérifier le certificat de leurs salariés, nounous ou aides à domicile, avant l’embauche.",
+   "phrase_en": "Private employers would have to check the certificate of staff such as nannies or home helpers before hiring.",
+   "passage": "L’employeur vérifie préalablement à l’embauche ou à l’affectation la détention du certificat d’honorabilité pour l’enfance lorsque des salariés, y compris ceux employés par un particulier employeur",
+   "certitude": "certain"
+  },
+  {
+   "profil": "chef_entreprise",
+   "phrase_fr": "Les employeurs devraient vérifier, avant toute embauche ou affectation, que leurs salariés détiennent le certificat pour l’enfance.",
+   "phrase_en": "Employers would have to check, before hiring or assigning staff, that employees hold the certificate for children.",
+   "passage": "L’employeur vérifie préalablement à l’embauche ou à l’affectation la détention du certificat d’honorabilité pour l’enfance",
+   "certitude": "certain"
+  },
+  {
+   "profil": "dirigeant_grande_entreprise",
+   "phrase_fr": "Les employeurs devraient vérifier, avant toute embauche ou affectation, que leurs salariés détiennent le certificat pour l’enfance.",
+   "phrase_en": "Employers would have to check, before hiring or assigning staff, that employees hold the certificate for children.",
+   "passage": "L’employeur vérifie préalablement à l’embauche ou à l’affectation la détention du certificat d’honorabilité pour l’enfance",
+   "certitude": "probable"
+  },
+  {
+   "profil": "salarie_prive",
+   "phrase_fr": "Les salariés travaillant auprès de mineurs devraient détenir le certificat, avant embauche ou affectation.",
+   "phrase_en": "Employees working with minors would need the certificate before being hired or assigned.",
+   "passage": "lorsque des salariés, y compris ceux employés par un particulier employeur ou déclarés au moyen du chèque emploi‑service universel, exercent toute activité mentionnée",
+   "certitude": "probable"
+  },
+  {
+   "profil": "benevole",
+   "phrase_fr": "Bénévoles et volontaires occasionnels auprès d’élèves ou de mineurs devraient détenir le certificat, quel que soit le lieu.",
+   "phrase_en": "Volunteers and occasional helpers working with pupils or minors would need the certificate, wherever they work.",
+   "passage": "toute personne intervenant ponctuellement, bénévolement ou à titre occasionnel auprès des élèves, quels que soient le cadre ou le lieu de l’intervention.",
+   "certitude": "certain"
+  },
+  {
+   "profil": "secteur_sante",
+   "phrase_fr": "Les professionnels et personnels de santé intervenant auprès de mineurs devraient détenir le certificat, y compris en structure.",
+   "phrase_en": "Health professionals and staff working with minors would need the certificate, including in facilities.",
+   "passage": "L’exercice, à titre libéral, salarié, bénévole, occasionnel ou en qualité de remplaçant, de toute activité de prévention, de diagnostic, de soins",
+   "certitude": "certain"
+  },
+  {
+   "profil": "independant",
+   "phrase_fr": "Les professionnels de santé exerçant à titre libéral auprès de mineurs devraient détenir le certificat.",
+   "phrase_en": "Self-employed health professionals working with minors would need the certificate.",
+   "passage": "L’exercice, à titre libéral, salarié, bénévole, occasionnel ou en qualité de remplaçant, de toute activité de prévention, de diagnostic, de soins",
+   "certitude": "certain"
+  },
+  {
+   "profil": "etudiant",
+   "phrase_fr": "Les étudiants intervenant auprès de mineurs dans des structures de santé devraient détenir le certificat.",
+   "phrase_en": "Students working with minors in health facilities would need the certificate.",
+   "passage": "Elle s’applique également aux étudiants, stagiaires, volontaires et bénévoles intervenant auprès de mineurs dans ces structures.",
+   "certitude": "certain"
+  },
+  {
+   "profil": "apprenti_alternant",
+   "phrase_fr": "Les stagiaires intervenant auprès de mineurs dans des structures de santé devraient détenir le certificat.",
+   "phrase_en": "Interns working with minors in health facilities would need the certificate.",
+   "passage": "Elle s’applique également aux étudiants, stagiaires, volontaires et bénévoles intervenant auprès de mineurs dans ces structures.",
+   "certitude": "certain"
+  }
+ ],
+ "cout_usd": 0.00317011
+}

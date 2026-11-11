@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_culture",
+    "raison": "Le texte modifie des délais de prescription liés à des publications, mais ne vise pas les personnes travaillant dans la culture ni leurs obligations professionnelles. Une règle de procédure judiciaire applicable à la presse ne suffit pas à rendre ce secteur concerné.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000611525,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

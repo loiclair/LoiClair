@@ -1,0 +1,37 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "salarie_prive",
+    "raison": "Le III modifie les articles L. 1132-1 et L. 1321-3 du code du travail : les salariés du privé, notamment les femmes qui allaitent, sont protégés contre la discrimination.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "fonctionnaire",
+    "raison": "Le I modifie l'article L. 131-1 du code général de la fonction publique pour interdire la discrimination liée à l'allaitement, ce qui vise directement les agents publics.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "parent",
+    "raison": "Le texte protège les femmes qui allaitent leur enfant contre la discrimination, y compris dans les lieux ouverts au public (art. 225-1 du code pénal). Les mères allaitantes sont des parents d'un jeune enfant.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "outre_mer",
+    "raison": "Le V ne touche que le statut des fonctionnaires communaux de Polynésie française. Ce statut est un sous-groupe de fonctionnaires d'outre-mer, mais le profil outre_mer (habitant) n'est pas visé pour l'essentiel : le texte s'applique partout et la mention de la Polynésie est un simple alignement de coordination.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "futur_parent"
+  ]
+ },
+ "cout_usd": 0.005451699999999999,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

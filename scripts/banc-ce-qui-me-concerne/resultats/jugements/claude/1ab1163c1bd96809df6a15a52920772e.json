@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_transport",
+    "raison": "Le texte accorde une déduction fiscale aux entreprises de transport maritime de marchandises ou de passagers pour l'équipement vélique de leurs navires. C'est une aide financière qui vise directement le secteur. La phrase de l'assistant est inexacte : le texte ne couvre que les coûts supplémentaires d'installation, hors frais financiers, et non le coût total des équipements.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "chef_entreprise",
+    "raison": "Le taux majoré de 20 % (moyennes entreprises) ou de 30 % (petites entreprises) est fondé sur la taille de l'entreprise, ce qui vise directement les dirigeants de TPE et PME du transport maritime. La phrase de l'assistant reste fidèle, avec le conditionnel approprié.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.002660485,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

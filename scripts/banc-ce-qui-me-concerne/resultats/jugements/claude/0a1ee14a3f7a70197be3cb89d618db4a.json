@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "patrimoine_ifi",
+    "raison": "Le texte crée une contribution distincte fondée sur une assiette patrimoniale propre ; être assujetti à l’IFI n’est pas le critère qui déclenche la mesure.",
+    "concerne": false,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "parent",
+    "raison": "Le texte inclut dans l’assiette les biens des enfants mineurs lorsque le contribuable en a l’administration légale, ce qui vise une partie des parents.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00062265,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

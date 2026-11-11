@@ -1,0 +1,14 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_agriculture",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'amendement modifie le crédit d'impôt pour remplacement prévu à l'article 200 undecies du code général des impôts, réservé aux exploitants agricoles (en augmentant le taux de prise en charge de 80 % à 100 % en cas de maladie, accident du travail ou formation)."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.01095525
+}

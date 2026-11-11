@@ -1,0 +1,19 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_education",
+    "raison": "Le texte vise directement les personnels de l'éducation (« personnel de l'éducation mentionné au livre IX »). L'amendement supprime l'alinéa qui permet à l'administration de retirer leur protection fonctionnelle en cas de faute personnelle, ce qui change concrètement leurs droits dans l'exercice de leur métier.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "fonctionnaire"
+  ]
+ },
+ "cout_usd": 0.000534735,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

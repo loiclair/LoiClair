@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "benevole",
+    "raison": "Le texte prévoit un accueil, une information et un accompagnement spécifiques pour les associations déclarées, pas pour les bénévoles ou leurs dirigeants en tant que personnes. Leur éventuel bénéfice dépend de leur rôle auprès de l’association.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000455525,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

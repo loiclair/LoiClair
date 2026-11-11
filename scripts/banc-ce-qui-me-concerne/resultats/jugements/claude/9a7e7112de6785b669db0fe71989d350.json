@@ -1,0 +1,26 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "parent",
+    "raison": "Le texte impose l'obligation aux établissements scolaires (effet via un tiers) et ne désigne pas les parents ; aucun droit, obligation ou démarche nouveau pour eux.",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "mineur",
+    "raison": "Les élèves du premier et second degré, majoritairement mineurs, fréquentent les locaux visés (classes, restauration, salles d'activités physiques) ; l'obligation vise directement leurs conditions d'accueil.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "secteur_education",
+   "fonctionnaire"
+  ]
+ },
+ "cout_usd": 0.0026427,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

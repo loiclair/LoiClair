@@ -1,0 +1,14 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "jeune",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article modifie l'âge limite d'accompagnement des jeunes sortant de l'ASE de 21 à 25 ans, ce qui concerne directement les jeunes de 18 à 25 ans (profil 'jeune'). Le conditionnel est correctement utilisé car le texte n'est pas encore adopté."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.006015
+}

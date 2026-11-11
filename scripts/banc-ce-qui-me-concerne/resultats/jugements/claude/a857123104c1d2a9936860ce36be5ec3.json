@@ -1,0 +1,28 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_education",
+    "raison": "La suspension vise le personnel de l’enseignement supérieur agricole public : la mesure touche directement les règles de son activité professionnelle.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "fonctionnaire",
+    "raison": "Le texte permet au ministre de suspendre un membre du personnel de l’enseignement supérieur agricole public, catégorie qui comprend des fonctionnaires.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "etudiant",
+    "raison": "Le texte retire les « usagers » de la composition des sections disciplinaires ; cela vise les étudiants qui pouvaient y siéger.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00122015,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

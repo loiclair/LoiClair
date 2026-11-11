@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "benevole",
+    "raison": "Le texte vise les associations déclarées (loi de 1901), pas les bénévoles ni les dirigeants bénévoles en tant que personnes. Le bénéfice va à l'association, et n'atteint le bénévole que par ricochet. Il ne change ni ses droits ni ses obligations.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00045058500000000004,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

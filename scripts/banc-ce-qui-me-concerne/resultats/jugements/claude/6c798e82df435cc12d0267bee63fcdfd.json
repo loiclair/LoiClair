@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "mineur",
+    "raison": "Le seuil de quatorze ans vise directement les mineurs de moins de quatorze ans, qui ne pourraient pas conduire ces trottinettes.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "cycliste",
+    "raison": "Le profil inclut les personnes qui se déplacent en trottinette ; le texte fixe directement la vitesse maximale de ces engins.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0006564,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

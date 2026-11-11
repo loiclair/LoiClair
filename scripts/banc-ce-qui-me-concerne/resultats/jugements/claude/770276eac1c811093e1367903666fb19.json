@@ -1,0 +1,27 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_sante",
+    "raison": "Le texte étend la suspension d'exercice à tout professionnel de santé, notamment en cas de mise en examen en lien avec sa profession, et prévoit une interdiction d'exercer : cela change les règles d'exercice du métier.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "etudiant",
+    "raison": "Le texte cite expressément les élèves et étudiants des établissements préparant aux professions de santé parmi les personnes pouvant être suspendues : ils sont visés directement.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "independant",
+   "fonctionnaire",
+   "salarie_prive"
+  ]
+ },
+ "cout_usd": 0.0035426999999999998,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

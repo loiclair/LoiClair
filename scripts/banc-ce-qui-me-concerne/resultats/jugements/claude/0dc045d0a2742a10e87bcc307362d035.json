@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "parent",
+    "raison": "Le profil vise les parents d'un enfant mineur ou à charge. L'article 4 traite des parents vivants d'un majeur protégé (art. 448 du code civil), qui ne relèvent pas de cette définition. La phrase de l'assistant est en outre inversée : le texte exige que le parent désigné ne bénéficie pas d'une mesure de curatelle ou de tutelle (« qui ne bénéficient pas d'une mesure de curatelle ou de tutelle et »), alors que l'assistant affirme qu'il peut en bénéficier.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000706135,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

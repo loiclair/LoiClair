@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etudiant",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article modifie directement les critères d'attribution des aides étudiantes (bourses et logements), ce qui concerne tous les étudiants, avec une priorité basée sur la nationalité et les ressources. Le conditionnel est respecté car le texte n'est pas encore adopté."
+   },
+   {
+    "profil": "etranger_ue",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "Les étudiants ressortissants de l'UE sont explicitement mentionnés comme prioritaires pour l'attribution des aides, après les étudiants français. Le conditionnel est respecté."
+   }
+  ],
+  "oublis": [
+   "etranger_hors_ue"
+  ]
+ },
+ "cout_usd": 0.006834
+}

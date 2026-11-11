@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "animal",
+    "raison": "Le texte vise directement les livraisons d'équidés et les prestations de pension, d'entraînement et de location, ainsi que les prestations d'équitation. Le taux de TVA change donc le prix payé par le propriétaire d'un cheval.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "chef_entreprise",
+    "raison": "Les entreprises qui facturent ces prestations (centres équestres, pensions, entraîneurs) voient changer le taux de TVA qu'elles appliquent. La mesure vise leur activité d'exploitation et s'applique à ces petites entreprises.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0067217,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

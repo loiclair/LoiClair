@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_numerique",
+    "raison": "Le texte donne à l'ANFR le pouvoir de contrôler et de sanctionner les opérateurs de systèmes d'IA à haut risque, composants de sécurité d'équipements radioélectriques ou équipements eux-mêmes. Cela change les obligations professionnelles de ceux qui les fabriquent ou les mettent sur le marché, donc du secteur numérique et des télécommunications.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0055017,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

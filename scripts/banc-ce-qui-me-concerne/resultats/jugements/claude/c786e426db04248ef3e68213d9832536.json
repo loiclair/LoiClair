@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "apprenti_alternant",
+    "raison": "L'amendement ajoute la prévention des violences sexuelles et sexistes aux missions des centres de formation des apprentis (article L. 6231-2). L'effet passe par l'établissement : l'apprenti n'en bénéficierait que si le CFA mettait cette mission en œuvre. Le texte ne le vise pas directement.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000307885,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

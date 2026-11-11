@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "heritier_donateur",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article modifie l'article 755 du CGI, qui régit la présomption de propriété pour les droits de mutation à titre gratuit (successions/donations), pour y inclure les actifs numériques. Un héritier ou donataire est donc directement concerné par cette nouvelle règle de preuve pour l'administration fiscale."
+   },
+   {
+    "profil": "epargnant",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article crée une majoration d'impôt (art. 1729-0 A) applicable aux actifs numériques non déclarés selon l'article 1649 bis C. Un détenteur de cryptoactifs (épargnant) est directement visé par cette sanction fiscale."
+   }
+  ],
+  "oublis": [
+   "imposable"
+  ]
+ },
+ "cout_usd": 0.0024752
+}

@@ -1,0 +1,19 @@
+{
+ "impacts": [
+  {
+   "profil": "secteur_artisanat_commerce",
+   "phrase_fr": "Les commerçants qui acceptent les titres-restaurant seraient mieux informés des commissions prélevées par les émetteurs, grâce à une publication transparente et claire.",
+   "phrase_en": "Merchants accepting meal vouchers would get clearer, more transparent information about the commissions charged by voucher issuers.",
+   "passage": "de manière à assurer une information transparente et claire des commerçants acceptant le paiement par titres‑restaurant",
+   "certitude": "certain"
+  },
+  {
+   "profil": "secteur_hotellerie",
+   "phrase_fr": "Les restaurants qui acceptent les titres-restaurant seraient mieux informés des commissions prélevées par les émetteurs de ces titres.",
+   "phrase_en": "Restaurants accepting meal vouchers would get clearer information about the commissions charged by the voucher issuers.",
+   "passage": "de manière à assurer une information transparente et claire des commerçants acceptant le paiement par titres‑restaurant",
+   "certitude": "possible"
+  }
+ ],
+ "cout_usd": 0.00084745
+}

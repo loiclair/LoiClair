@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_education",
+    "raison": "L’amendement supprimerait la réserve permettant de retirer la protection fonctionnelle aux personnels de l’éducation victimes de violences, de menaces ou d’outrages.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000328525,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

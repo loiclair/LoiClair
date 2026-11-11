@@ -1,0 +1,28 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etranger_hors_ue",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "Le texte impose directement et explicitement une condition de séjour de deux ans pour les étrangers non-UE pour l'accès aux prestations familiales et à l'APA. La phrase résume correctement l'effet au conditionnel, sans ajouter de fait faux."
+   },
+   {
+    "profil": "allocataire",
+    "concerne": true,
+    "phrase_fidele": false,
+    "raison": "La phrase est erronée. Elle affirme que l'accès aux aides au logement (APL) serait soumis à deux ans de séjour pour 'certains étrangers', mais le texte cité (1°, 2°, b, 2°) prévoit exactement l'inverse : les étrangers avec un titre de séjour 'études' sont une **exception** à cette condition de deux ans pour ces mêmes aides au logement. De plus, le profil 'allocataire' n'est pas réservé aux étrangers hors-UE ; la phrase ne précise donc pas qui est visé parmi ce profil plus large, ce qui la rend trompeuse."
+   },
+   {
+    "profil": "age_dependant",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'allocation personnalisée d'autonomie (APA) vise directement les personnes âgées dépendantes. L'article instaure bien une condition de séjour de deux ans pour les étrangers non-UE souhaitant en bénéficier. La phrase décrit fidèlement ce changement pour ce profil."
+   }
+  ],
+  "oublis": [
+   "etudiant"
+  ]
+ },
+ "cout_usd": 0.0035009
+}

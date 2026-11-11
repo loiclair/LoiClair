@@ -1,0 +1,26 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "mineur",
+    "raison": "Le texte vise explicitement le mineur victime de violences d’un ascendant et confie alors au juge l’exercice de l’autorité parentale à la place du juge aux affaires familiales.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "parent",
+    "raison": "Le juge peut fixer les modalités d’exercice de l’autorité parentale en lieu et place du juge aux affaires familiales dans les situations de violences prévues par le texte.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": [
+   "concubin",
+   "marie_pacse",
+   "separe_divorce"
+  ]
+ },
+ "cout_usd": 0.001736775,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

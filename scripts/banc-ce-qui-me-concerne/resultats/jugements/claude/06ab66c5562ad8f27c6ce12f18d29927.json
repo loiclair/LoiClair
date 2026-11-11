@@ -1,0 +1,28 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "locataire",
+    "raison": "Les loyers des logements mis en location sont encadrés et le texte prévoit une action en diminution si le loyer de base dépasse le loyer de référence.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "proprietaire_bailleur",
+    "raison": "Le loyer des logements qu’un bailleur met en location doit respecter les plafonds prévus par le texte.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "meuble_tourisme",
+    "raison": "Le texte étend explicitement l’encadrement aux logements meublés touristiques et soumet leurs loyers aux mêmes règles.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00091515,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

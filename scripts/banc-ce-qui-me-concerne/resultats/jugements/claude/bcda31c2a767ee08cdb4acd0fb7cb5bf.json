@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "expat",
+    "raison": "L'article vise les mesures de restriction de circulation applicables aux voyageurs, pas les Français établis hors de France en tant que catégorie. La publication sur les sites des ambassades et des postes consulaires est une obligation d'information de l'administration, sans effet direct sur la situation de résidence des expatriés.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000443285,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

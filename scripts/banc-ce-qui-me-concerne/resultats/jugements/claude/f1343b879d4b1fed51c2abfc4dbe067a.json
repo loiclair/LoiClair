@@ -1,0 +1,19 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "heritier_donateur",
+    "raison": "Le texte allège directement les droits dus sur des dons d’argent et impose au donataire une déclaration ou un enregistrement.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": [
+   "mineur",
+   "jeune"
+  ]
+ },
+ "cout_usd": 0.000620775,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

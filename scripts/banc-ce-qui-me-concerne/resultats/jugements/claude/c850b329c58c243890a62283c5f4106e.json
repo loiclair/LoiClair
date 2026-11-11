@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "chef_entreprise",
+    "raison": "Le crédit bénéficie au cessionnaire, qui doit maintenir l’activité cinq ans ; le texte ne vise pas les chefs d’entreprise en tant que tels, ni le cédant.",
+    "concerne": false,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "heritier_donateur",
+    "raison": "Le cessionnaire qui reçoit l’entreprise à titre gratuit, notamment par donation, peut bénéficier du crédit ; une succession n’est toutefois pas mentionnée.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0006874,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

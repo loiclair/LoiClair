@@ -1,0 +1,25 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "heritier_donateur",
+    "raison": "Le 4° b (article 784) supprime l'exception des donations de plus de quinze ans : elles seraient prises en compte pour les droits de succession ou de donation, quel que soit le donateur ou le défunt. Le 2° modifie aussi le barème des successions en ligne directe et l'abattement du 3° (article 779). Ces règles touchent directement héritiers et donateurs.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "epargnant",
+    "raison": "Le 1° a supprime, pour les primes d'assurance-vie versées après 70 ans, le critère du lien de parenté avec le bénéficiaire, et abroge les II et III de l'article 757 B. Le régime fiscal de ce produit d'épargne serait donc modifié pour ceux qui y versent des primes après 70 ans.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "senior"
+  ]
+ },
+ "cout_usd": 0.0010210850000000001,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

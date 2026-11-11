@@ -1,0 +1,29 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_sante",
+    "raison": "Le texte modifie la suspension des professionnels de santé après mise en examen (« tout professionnel de santé », arrêté motivé, information de l'ARS). Il vise directement le métier, avec des conséquences concrètes sur l'exercice.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "etudiant",
+    "raison": "Le 3° cite explicitement « les élèves et les étudiants des établissements préparant aux professions de santé » parmi les personnes soumises à la suspension, ce qui vise directement les étudiants en santé. La phrase de l'assistant invente en revanche le déclencheur « une mise en examen liée à leur formation », alors que le texte ne retient que la mise en examen en lien avec l'exercice de la profession ou le danger grave.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "independant",
+    "raison": "Le 1° vise les professionnels qui réalisent des soins « dans tout autre lieu », ce qui inclut le cabinet des libéraux. Les soignants libéraux sont donc visés par leur mode d'exercice, ce qui est une mesure ciblée et non générale.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.001542285,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

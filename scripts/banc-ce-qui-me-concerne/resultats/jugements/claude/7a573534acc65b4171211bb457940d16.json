@@ -1,0 +1,29 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "heritier_donateur",
+    "raison": "L'article change les tarifs et abattements des droits de succession et de donation. Il supprime aussi l'exception pour les donations de plus de quinze ans à l'article 784.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "epargnant",
+    "raison": "L'article réécrit l'article 757 B sur la taxation des capitaux d'assurance-vie transmis, ce qui touche les titulaires de contrats. Mais le texte ne dit pas que l'abattement disparaît : il abroge les II et III sans en citer le contenu, et supprime la référence à la fraction des primes versées après 70 ans.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "senior",
+    "raison": "L'article supprime la référence à l'âge de 70 ans à l'article 757 B. Ce n'est donc plus l'âge qui déclenche la mesure, et elle ne vise pas les seniors en tant que tels.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.009152700000000001,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

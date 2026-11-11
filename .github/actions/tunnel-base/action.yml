@@ -1,0 +1,94 @@
+# Ouvre un tunnel SSH du runner vers la base Postgres du VPS (D-327), pour le
+# reste du job : la base se joint alors sur `127.0.0.1:5432` du runner, comme
+# si elle tournait dessus. Sur le VPS, Postgres n'écoute que sur
+# `127.0.0.1:5432` : aucun port de base n'est ouvert sur Internet.
+#
+# La clé utilisée appartient à l'utilisateur `gh-tunnel`, sans mot de passe ni
+# terminal, et son `authorized_keys` ne l'autorise qu'à ce seul couloir
+# (`restrict,port-forwarding,permitopen="127.0.0.1:5432"`). Une fuite de la clé
+# ne donne donc ni commande, ni terminal, ni couloir vers un autre port du
+# serveur (vérifié le 2026-11-05 depuis un Mac, et à chaque `tunnel-test.yml`).
+#
+# Limite connue, acceptée par Alex le 2026-11-05 : `permitopen` ne borne que les
+# couloirs sortants (`-L`). La clé peut encore ouvrir un couloir inverse (`-R`),
+# c'est-à-dire faire écouter le serveur sur un port libre de `127.0.0.1`
+# (constaté sur 15999). Un voleur de la clé pourrait ainsi prendre le port d'un
+# service pendant son redémarrage et se faire passer pour lui. Deux façons de
+# le fermer : `AllowTcpForwarding local` pour ce seul utilisateur, dans un
+# fichier de `/etc/ssh/sshd_config.d/`, ou, sans toucher à la configuration de
+# sshd, l'option `permitlisten="…"` sur la même ligne d'`authorized_keys`, qui
+# borne `-R` comme `permitopen` borne `-L` (page `man sshd`, non essayé sur le
+# VPS).
+#
+# Appelée par `tunnel-test.yml` et par tous les workflows qui lisent ou
+# écrivent la base. Une action composite ne lit pas les secrets : l'appelant
+# les passe en entrées.
+name: Tunnel vers la base
+description: Ouvre un tunnel SSH vers le Postgres du VPS sur 127.0.0.1:5432
+inputs:
+  host:
+    description: Adresse du VPS (secret VPS_HOST)
+    required: true
+  key:
+    description: Clé privée de gh-tunnel (secret VPS_TUNNEL_KEY)
+    required: true
+  known_hosts:
+    description: Empreinte du serveur, au format known_hosts (secret VPS_KNOWN_HOSTS)
+    required: true
+outputs:
+  dir:
+    description: Dossier qui contient la clé (`cle`) et l'empreinte (`known_hosts`), pour un appelant qui ouvre un autre couloir avec (tunnel-test.yml)
+    value: ${{ steps.ouvrir.outputs.dir }}
+runs:
+  using: composite
+  steps:
+    - name: Ouvrir le tunnel
+      id: ouvrir
+      shell: bash
+      env:
+        VPS_HOST: ${{ inputs.host }}
+        VPS_TUNNEL_KEY: ${{ inputs.key }}
+        VPS_KNOWN_HOSTS: ${{ inputs.known_hosts }}
+      run: |
+        set -euo pipefail
+        # GitHub masque déjà les secrets dans le journal ; ce masque couvre
+        # aussi un appelant qui passerait l'adresse autrement que par un secret.
+        echo "::add-mask::$VPS_HOST"
+
+        # `RUNNER_TEMP` est vidé par GitHub à la fin de chaque job : la clé ne
+        # survit pas au job, même s'il échoue.
+        dir="$RUNNER_TEMP/tunnel-base"
+        mkdir -p -m 700 "$dir"
+        printf '%s\n' "$VPS_TUNNEL_KEY" > "$dir/cle"
+        chmod 600 "$dir/cle"
+        printf '%s\n' "$VPS_KNOWN_HOSTS" > "$dir/known_hosts"
+        echo "dir=$dir" >> "$GITHUB_OUTPUT"
+
+        # `StrictHostKeyChecking=yes` avec la seule empreinte connue : un
+        # serveur qui se ferait passer pour le VPS est refusé.
+        # `ExitOnForwardFailure` fait échouer ssh tout de suite si le port
+        # local est pris, au lieu de partir en arrière-plan sans tunnel.
+        # Le battement toutes les 30 s garde la connexion en vie pendant les
+        # longues étapes (l'import de nuit dure jusqu'à 120 min) et la coupe
+        # après deux minutes sans réponse.
+        ssh -f -N \
+          -i "$dir/cle" -o IdentitiesOnly=yes -o BatchMode=yes \
+          -o UserKnownHostsFile="$dir/known_hosts" -o StrictHostKeyChecking=yes \
+          -o ExitOnForwardFailure=yes -o ConnectTimeout=15 \
+          -o ServerAliveInterval=30 -o ServerAliveCountMax=4 \
+          -L 127.0.0.1:5432:127.0.0.1:5432 \
+          "gh-tunnel@$VPS_HOST"
+
+        # Le port local s'ouvre avant que le serveur accepte le couloir : seul
+        # Postgres qui répond au bout prouve que le tunnel mène à la base.
+        # `pg_isready` est installé sur les runners Ubuntu et ne demande aucun
+        # mot de passe.
+        for _ in $(seq 1 20); do
+          if pg_isready -q -h 127.0.0.1 -p 5432 -t 2; then
+            echo "Tunnel ouvert, la base répond sur 127.0.0.1:5432."
+            exit 0
+          fi
+          sleep 1
+        done
+        echo "::error::Tunnel ouvert, mais la base ne répond pas sur 127.0.0.1:5432."
+        exit 1

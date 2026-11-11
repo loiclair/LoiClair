@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etranger_hors_ue",
+    "raison": "Le dispositif de l’amendement n’est pas publié ; l’article 37 est fourni à titre de contexte seulement et ne permet pas d’établir que l’amendement vise ce profil.",
+    "concerne": false,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "parent",
+    "raison": "Le dispositif de l’amendement n’est pas publié ; le contexte de l’article 37 ne permet pas d’établir que l’amendement modifie les droits des parents.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0003904,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

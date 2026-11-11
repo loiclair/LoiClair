@@ -1,0 +1,40 @@
+{
+ "impacts": [
+  {
+   "profil": "handicap",
+   "passage": "La personne handicapée ou son représentant légal peut, par dérogation à l’article L. 146‑8, solliciter l’évaluation par l’équipe pluridisciplinaire de sa seule éligibilité à la reconnaissance de la qualité de travailleur handicapé",
+   "certitude": "certain",
+   "phrase_en": "Disabled people could request an assessment limited to a single card or recognition, without a hearing or a compensation plan.",
+   "phrase_fr": "Les personnes handicapées pourraient demander une évaluation limitée à une seule carte ou reconnaissance, sans audition ni plan de compensation."
+  },
+  {
+   "profil": "mineur",
+   "passage": "destinée à un mineur atteint d’une maladie ou d’un handicap ou victime d’un accident d’une particulière gravité",
+   "certitude": "probable",
+   "phrase_en": "The mobility inclusion card for a minor would no longer be limited to cases of serious illness, disability or accident.",
+   "phrase_fr": "La carte mobilité inclusion pour un mineur ne serait plus réservée aux cas de maladie, de handicap ou d'accident d'une particulière gravité."
+  },
+  {
+   "profil": "parent",
+   "passage": "destinée à un mineur atteint d’une maladie ou d’un handicap ou victime d’un accident d’une particulière gravité",
+   "certitude": "probable",
+   "phrase_en": "Parents could more easily obtain a mobility inclusion card for their child, as the serious illness or disability condition would be removed.",
+   "phrase_fr": "Les parents pourraient obtenir plus facilement une carte mobilité inclusion pour leur enfant, la condition de maladie ou de handicap grave étant supprimée."
+  },
+  {
+   "profil": "senior",
+   "passage": "si le demandeur a un âge supérieur à un âge fixé par arrêté du ministre chargé de l’autonomie, qui ne peut être inférieur à 60 ans",
+   "certitude": "possible",
+   "phrase_en": "People aged at least 60 could request an assessment for the mobility inclusion card, based on an age threshold set by decree.",
+   "phrase_fr": "Les personnes âgées d'au moins 60 ans pourraient demander une évaluation pour la carte mobilité inclusion, selon un seuil d'âge fixé par arrêté."
+  },
+  {
+   "profil": "age_dependant",
+   "passage": "Les résidents des établissements concernés par l’expérimentation prévue à l’article 79 de la loi n° 2023‑1250 du 26 décembre 2023",
+   "certitude": "possible",
+   "phrase_en": "Residents of establishments in the trial could permanently receive a mobility inclusion card, depending on their classification group.",
+   "phrase_fr": "Les résidents des établissements en expérimentation pourraient recevoir définitivement une carte mobilité inclusion, selon leur groupe de classement."
+  }
+ ],
+ "resume_fr": null
+}

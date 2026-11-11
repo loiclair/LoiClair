@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "usager_transports",
+    "raison": "Le texte prévoit seulement une information du public par signalétique ; les caméras frontales filment la voie publique, pas les voyageurs, et l'effet sur l'usager est indirect et sans changement concret de droits ou d'obligations.",
+    "concerne": false,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "secteur_transport",
+    "raison": "Les opérateurs de transports guidés urbains sont autorisés à poser des caméras frontales, avec des règles d'effacement, de signalétique et de formation du personnel de conduite : cela change leurs obligations professionnelles et la façon d'exercer le métier.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0031837,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

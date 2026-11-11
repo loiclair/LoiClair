@@ -1,0 +1,14 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "jeune",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article modifie la limite d'âge de l'accompagnement des jeunes majeurs de l'aide sociale à l'enfance pour la porter jusqu'à 25 ans, ce qui correspond exactement à la définition du profil jeune (18 à 25 ans)."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00498825
+}

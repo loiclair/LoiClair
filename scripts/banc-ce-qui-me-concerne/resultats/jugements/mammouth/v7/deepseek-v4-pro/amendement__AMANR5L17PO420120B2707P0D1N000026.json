@@ -1,0 +1,18 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "chef_entreprise",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'amendement change la règle de silence de l'administration directement pour l'emploi de mineurs dans des travaux réglementés, ce qui vise directement les chefs d'entreprise qui emploient ou souhaitent employer ces mineurs. La phrase est fidèle : le passage cité correspond exactement, le conditionnel est respecté (texte non adopté définitivement), pas de fait inventé. Cependant, le profil n'est qu'une partie du groupe cible : l'amendement vise tout employeur de ces mineurs, y compris des salariés ou structures non couvertes par 'chef_entreprise' (grandes entreprises, associations...). Mais 'chef_entreprise' est bien une concrétisation de ce groupe."
+   }
+  ],
+  "oublis": [
+   "dirigeant_grande_entreprise",
+   "mineur",
+   "apprenti_alternant"
+  ]
+ },
+ "cout_usd": 0.001963
+}

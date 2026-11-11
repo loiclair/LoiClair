@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "heritier_donateur",
+    "raison": "Concerné : le texte réduit de trente à quinze ans le délai pour certains biens issus d’une succession sans successible présenté, et rend cette règle applicable à des successions ouvertes depuis 2007 et non encore partagées. Cela peut affecter les droits des héritiers concernés.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000711025,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

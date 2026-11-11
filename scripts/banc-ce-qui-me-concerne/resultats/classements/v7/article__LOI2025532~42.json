@@ -1,0 +1,12 @@
+{
+ "impacts": [
+  {
+   "profil": "forces_ordre",
+   "phrase_fr": "Les policiers et gendarmes qui agissent sous autorisation d'un magistrat dans une enquête sur un trafic ne commettent pas d'incitation à l'infraction si l'infraction avait déjà commencé.",
+   "phrase_en": "Police officers and gendarmes acting under a magistrate's authorisation in a trafficking investigation are not committing incitement if the offence had already started.",
+   "passage": "Ne constituent pas une incitation à commettre une infraction les actes qui contribuent à la poursuite d'une infraction déjà préparée ou débutée au moment où l'autorisation mentionnée au présent article a été accordée par le magistrat compétent",
+   "certitude": "probable"
+  }
+ ],
+ "cout_usd": 0.00078731
+}

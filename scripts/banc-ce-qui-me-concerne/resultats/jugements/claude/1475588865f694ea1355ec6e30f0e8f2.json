@@ -1,0 +1,29 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etranger_hors_ue",
+    "raison": "L'article 2 I 2° impose aux étrangers non ressortissants de l'UE, de l'EEE ou suisses une condition de deux ans de titre ou document de séjour régulier pour les prestations familiales. Le texte vise directement les personnes hors UE qui vivent en France, mais il prévoit des exceptions (réfugiés, protection subsidiaire ou temporaire, apatrides, titulaires d'un titre autorisant à travailler, étudiants pour les APL).",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "age_dependant",
+    "raison": "L'article 2 II complète l'article L. 232-1 du code de l'action sociale et des familles, qui est l'article de l'allocation personnalisée d'autonomie. La condition de deux ans de séjour régulier touche donc directement les personnes âgées en perte d'autonomie non ressortissantes de l'UE qui demandent l'APA. Le texte exclut toutefois les réfugiés, les bénéficiaires de la protection subsidiaire, les apatrides et les titulaires de la carte de résident, ce que la phrase ne mentionne pas.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "parent",
+    "raison": "Les prestations familiales sont versées à la personne qui élève l'enfant. La condition de deux ans de séjour, prévue par l'article L. 512-2 modifié, touche donc directement les parents non ressortissants de l'UE qui demandent ces prestations. Le texte prévoit les mêmes exceptions que pour les étrangers hors UE, que la phrase ne mentionne pas.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.001696435,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

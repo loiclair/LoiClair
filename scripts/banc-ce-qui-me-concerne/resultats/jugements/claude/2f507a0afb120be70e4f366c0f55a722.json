@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_agriculture",
+    "raison": "L'amendement fait passer de 80 % à 100 % le taux du crédit d'impôt pour remplacement en cas de maladie, d'accident du travail ou de formation. L'exposé des motifs vise explicitement les agricultrices et agriculteurs, donc les exploitants agricoles sont directement visés.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0102047,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

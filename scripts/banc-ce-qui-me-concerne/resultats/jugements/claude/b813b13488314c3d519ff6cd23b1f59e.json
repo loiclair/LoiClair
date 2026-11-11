@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "fumeur",
+    "raison": "L'article fixe des règles de conditionnement, d'étiquetage et de présentation qui s'imposent aux fabricants et aux distributeurs. Le fumeur n'y est ni visé ni soumis à une obligation : il ne voit l'effet que si les fabricants changent leurs emballages.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00034613499999999996,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

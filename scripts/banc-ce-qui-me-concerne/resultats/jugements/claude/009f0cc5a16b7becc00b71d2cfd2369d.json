@@ -1,0 +1,34 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "locataire",
+    "raison": "Le texte encadre les loyers des logements mis en location et permet une action en diminution : le droit du locataire est directement concerné.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "proprietaire_bailleur",
+    "raison": "Le texte limite le loyer de base que le bailleur peut fixer pour un logement mis en location.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "meuble_tourisme",
+    "raison": "Le texte soumet explicitement les loyers des logements meublés touristiques aux mêmes règles d’encadrement, dans les zones tendues comme ailleurs.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "etudiant",
+    "raison": "La mesure vise les résidences étudiantes privées, pas les étudiants en raison de leur statut ; le fait d’être étudiant ne suffit donc pas à être concerné.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0011359,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

@@ -1,0 +1,26 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "proprietaire_bailleur",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article met en place un mécanisme d'amortissement fiscal pour les bailleurs qui achètent un bien avec d'importants travaux de rénovation ou de transformation et le louent nu à titre de résidence principale."
+   },
+   {
+    "profil": "imposable",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "Ce dispositif de déduction au titre de l'amortissement permet de réduire l'assiette imposable des revenus fonciers pour les contribuables qui réalisent cet investissement locatif."
+   },
+   {
+    "profil": "projet_achat",
+    "concerne": false,
+    "phrase_fidele": false,
+    "raison": "Le profil « projet_achat » correspond à l'acquisition de sa propre résidence principale. Or, cette déduction fiscale est réservée à l'investissement locatif avec obligation de louer nu le logement comme résidence principale du locataire."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0219075
+}

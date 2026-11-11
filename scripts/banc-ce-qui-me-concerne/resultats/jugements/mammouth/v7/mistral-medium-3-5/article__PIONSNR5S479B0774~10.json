@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "montagne",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article vise explicitement les opérations en montagne avec une dérogation possible pour les hébergements touristiques, sous conditions. Le passage cité justifie bien le profil, et la phrase est fidèle au texte (conditionnel utilisé car le texte n'est pas adopté)."
+   }
+  ],
+  "oublis": [
+   "rural"
+  ]
+ },
+ "cout_usd": 0.0063435
+}

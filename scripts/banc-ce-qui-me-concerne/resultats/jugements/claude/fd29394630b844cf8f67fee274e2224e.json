@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_agriculture",
+    "raison": "Le secteur agriculture inclut la pêche et le secteur maritime ; l'interdiction des appâts, lumières et rejets d'attraction change la façon dont les pêcheurs professionnels exercent leur métier.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "chasseur_pecheur",
+    "raison": "L'interdiction vise « toute personne », donc les pêcheurs de loisir en mer, qui ne pourraient plus utiliser ces techniques d'attraction ; le profil couvre ceux qui pêchent en loisir.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0028897,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

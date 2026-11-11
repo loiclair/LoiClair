@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_education",
+    "raison": "Le texte vise directement les accompagnants d'élèves en situation de handicap, qui travaillent dans les établissements scolaires. Il change leur statut, leur mode de recrutement (concours, affectation académique), leur formation (stage d'un an, formation en établissement d'enseignement supérieur) et leurs obligations professionnelles.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "fonctionnaire",
+    "raison": "Les accompagnants actuellement non titulaires, contractuels de l'État, sont visés par la nomination immédiate en qualité de fonctionnaires stagiaires, puis par l'intégration dans un corps de catégorie B. La phrase de l'assistant est fidèle, avec le conditionnel approprié puisque le texte n'est pas adopté. Elle omet seulement le cas de ceux qui ne remplissent pas les conditions et se voient proposer un CDI, sans l'inventer.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0008874349999999999,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

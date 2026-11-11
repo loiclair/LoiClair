@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "heritier_donateur",
+    "raison": "L’ajout à l’article 755 vise les actifs numériques dans une règle applicable à la succession ; la majoration prévue pour les actifs qui auraient dû être déclarés renforce aussi le traitement fiscal de ces actifs.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "epargnant",
+    "raison": "Les règles de déclaration et l’amende modifiées visent les portefeuilles d’actifs numériques : elles peuvent donc toucher les personnes qui détiennent des cryptoactifs. Toutefois, la majoration citée ne s’applique pas indistinctement à tout actif numérique non déclaré ; la phrase généralise son champ.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.001813025,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

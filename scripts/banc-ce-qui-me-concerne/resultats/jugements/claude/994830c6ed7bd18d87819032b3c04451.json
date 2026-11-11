@@ -1,0 +1,40 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "concubin",
+    "raison": "Le texte vise les violences sexistes ou sexuelles commises au sein du couple, y compris par un concubin actuel ou ancien : le lien de concubinage est explicitement visé.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "marie_pacse",
+    "raison": "Le texte vise les violences sexistes ou sexuelles commises par un conjoint ou un partenaire de PACS, y compris sans cohabitation.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "separe_divorce",
+    "raison": "Le texte vise expressément les violences sexistes ou sexuelles commises par un ancien conjoint, partenaire de PACS ou concubin.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "parent",
+    "raison": "Le juge spécialisé reçoit compétence pour certaines décisions sur l’autorité parentale en cas de violences : cela touche directement les parents concernés par ces situations.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "mineur",
+    "raison": "Le texte mentionne expressément le mineur victime de violences d’un ascendant pour les questions d’autorité parentale.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.001131775,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_culture",
+    "raison": "Le texte vise directement les journalistes professionnels et assimilés qui fournissent des contenus à certaines agences ou entreprises de presse, métier inclus dans ce secteur.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "expat",
+    "raison": "Le pays de résidence ne déclenche pas la mesure : elle vise les journalistes répondant aux critères, où qu’ils résident. Être expatrié ne suffit donc pas.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000416775,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

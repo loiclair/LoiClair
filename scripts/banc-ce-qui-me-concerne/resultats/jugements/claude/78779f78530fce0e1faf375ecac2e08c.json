@@ -1,0 +1,25 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "mineur",
+    "raison": "L'amendement vise l'emploi de moins de 18 ans dans les travaux réglementés : chaque emploi doit faire l'objet d'une autorisation expresse, et le silence de l'administration vaut rejet. Le mineur est directement désigné par son âge.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "chef_entreprise",
+    "raison": "L'amendement impose à l'employeur d'obtenir une autorisation pour employer des mineurs dans les travaux réglementés. Sans réponse en deux mois, sa demande est rejetée. C'est une obligation de tout employeur, qui concerne donc les dirigeants de TPE et PME.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "dirigeant_grande_entreprise"
+  ]
+ },
+ "cout_usd": 0.000747035,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

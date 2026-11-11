@@ -1,0 +1,19 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "proprietaire_bailleur",
+    "raison": "L'amendement exige une attestation écrite des raisons techniques ou administratives rendant les travaux impossibles. Le bailleur doit la fournir pour que son logement soit réputé décent, ce qui change directement ses obligations de preuve.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "locataire"
+  ]
+ },
+ "cout_usd": 0.0030117,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

@@ -1,0 +1,20 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etranger_hors_ue",
+    "concerne": false,
+    "phrase_fidele": false,
+    "raison": "Le dispositif de l'amendement n'est pas publié. L'assistant a résumé le contenu de l'article 37 qui sert seulement de contexte, alors que le contenu de l'amendement est inconnu."
+   },
+   {
+    "profil": "parent",
+    "concerne": false,
+    "phrase_fidele": false,
+    "raison": "Le dispositif de l'amendement n'est pas publié. On ignore ce que cet amendement modifie ou propose, l'assistant s'étant basé sur l'article de contexte."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00629325
+}

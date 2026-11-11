@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etranger_hors_ue",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article modifie directement les taxes pour la première délivrance et le renouvellement des titres de séjour, ce qui concerne les étrangers hors UE résidant en France. Le passage cité est exact et la phrase est fidèle au texte."
+   },
+   {
+    "profil": "automobiliste",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article introduit des tarifs spécifiques pour le remplacement ou l'échange d'un permis de conduire, ce qui concerne directement les automobilistes. Le passage cité est exact et la phrase est fidèle au texte."
+   }
+  ],
+  "oublis": [
+   "etranger_ue"
+  ]
+ },
+ "cout_usd": 0.0103545
+}

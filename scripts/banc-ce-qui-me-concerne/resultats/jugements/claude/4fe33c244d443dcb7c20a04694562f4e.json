@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "forces_ordre",
+    "raison": "Le texte précise le cadre juridique des opérations d'infiltration, de surveillance et de coups d'achat menées par policiers, gendarmes et douaniers autorisés : leurs actes ne sont pas une incitation à l'infraction. Cela change directement les règles de leur métier d'enquêteur.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0024297,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

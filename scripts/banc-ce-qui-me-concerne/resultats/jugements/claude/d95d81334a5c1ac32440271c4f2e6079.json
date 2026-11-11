@@ -1,0 +1,28 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "proprietaire_bailleur",
+    "raison": "Concerné : l’amendement modifie la condition à laquelle l’obligation de décence énergétique du bailleur est réputée satisfaite pour un logement en copropriété.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "coproprietaire",
+    "raison": "Non concerné en tant que copropriétaire : le dispositif modifie l’obligation de décence du bailleur, sans imposer directement de règle aux copropriétaires du seul fait de ce statut.",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "locataire",
+    "raison": "Concerné : la modification change la condition qui permet de considérer satisfaite l’obligation de décence énergétique du logement loué, et donc les droits du locataire.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00059165,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

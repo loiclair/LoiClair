@@ -1,0 +1,22 @@
+{
+ "resume_fr": "Ajouterait à l'information que l'employeur doit donner aux salariés les frais, pénalités ou coûts de transaction liés au déblocage de leur épargne salariale.",
+ "resume_en": "Would add to the information the employer must give employees the fees, penalties or transaction costs linked to unlocking their employee savings.",
+ "impacts": [
+  {
+   "profil": "salarie_prive",
+   "passage": "Il informe également les salariés des frais éventuels, des pénalités ou des coûts de transaction applicables lors du déblocage des sommes concernées",
+   "certitude": "certain"
+  },
+  {
+   "profil": "chef_entreprise",
+   "passage": "Il informe également les salariés des frais éventuels, des pénalités ou des coûts de transaction applicables lors du déblocage des sommes concernées",
+   "certitude": "certain"
+  },
+  {
+   "profil": "dirigeant_grande_entreprise",
+   "passage": "Il informe également les salariés des frais éventuels, des pénalités ou des coûts de transaction applicables lors du déblocage des sommes concernées",
+   "certitude": "certain"
+  }
+ ],
+ "cout_usd": 0.00219247
+}

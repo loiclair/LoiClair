@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "mineur",
+    "raison": "L’article vise expressément certaines personnes mineures confiées à un membre de leur famille, à un tiers digne de confiance ou relevant de l’aide sociale à l’enfance.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "allocataire",
+    "raison": "La mesure permet à ces mineurs de bénéficier à titre personnel de la protection complémentaire, qui correspond à la complémentaire santé solidaire incluse dans ce profil.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0007424,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

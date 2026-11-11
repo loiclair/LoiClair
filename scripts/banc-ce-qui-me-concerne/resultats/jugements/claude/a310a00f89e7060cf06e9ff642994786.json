@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "elu_local",
+    "raison": "La formation vise explicitement l’adjoint au maire ou le conseiller municipal chargé de la sécurité civile ; ce sont des élus locaux.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00021865,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

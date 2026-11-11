@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "heritier_donateur",
+    "raison": "La mesure fixe directement les droits dus sur certaines donations : elle vise donc les personnes qui transmettent ou reçoivent un patrimoine par donation.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00043315,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

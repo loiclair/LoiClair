@@ -1,0 +1,19 @@
+{
+ "impacts": [
+  {
+   "profil": "imposable",
+   "passage": "Le I s'applique aux investissements réalisés à compter du 1er janvier 2025.",
+   "certitude": "probable",
+   "phrase_en": "Investments made from 1 January 2025 in certain overseas territories qualify for a tax reduction, now also extended to Wallis-et-Futuna, New Caledonia and the French Southern and Antarctic Lands.",
+   "phrase_fr": "Les investissements faits à partir du 1er janvier 2025 dans certains territoires d'outre-mer ouvrent droit à une réduction d'impôt, désormais aussi à Wallis-et-Futuna, en Nouvelle-Calédonie et dans les Terres australes."
+  },
+  {
+   "profil": "outre_mer",
+   "passage": "à Wallis-et-Futuna et en Nouvelle-Calédonie. » ; 2° Après les mots : « Polynésie française », la fin de la dernière phrase est ainsi rédigée : « et dans les Terres australes et antarctiques françaises. »",
+   "certitude": "possible",
+   "phrase_en": "Investments made in Wallis-et-Futuna, New Caledonia or the French Southern and Antarctic Lands could now qualify for the tax reduction.",
+   "phrase_fr": "Les investissements réalisés à Wallis-et-Futuna, en Nouvelle-Calédonie ou dans les Terres australes pourraient désormais ouvrir droit à la réduction d'impôt."
+  }
+ ],
+ "resume_fr": null
+}

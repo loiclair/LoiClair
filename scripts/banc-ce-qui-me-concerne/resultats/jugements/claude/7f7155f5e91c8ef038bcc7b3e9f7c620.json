@@ -1,0 +1,28 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "elu_local",
+    "raison": "Le texte oblige à informer le maire de la commune d’implantation : les maires, sous-groupe des élus locaux, sont directement visés.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "rural",
+    "raison": "La règle vaut pour toute commune et vise le maire, pas les habitants ; elle n’est pas limitée aux communes rurales.",
+    "concerne": false,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "secteur_finance",
+    "raison": "L’obligation est imposée aux établissements bancaires, pas directement aux personnes qui travaillent dans le secteur financier.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00056715,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

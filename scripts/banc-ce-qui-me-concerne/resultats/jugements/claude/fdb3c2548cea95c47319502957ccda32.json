@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "apprenti_alternant",
+    "raison": "L’amendement ajoute la prévention des violences sexuelles et sexistes aux missions des centres de formation des apprentis. Il vise les centres, et non directement les apprentis ; l’effet sur eux dépend de la mise en œuvre par leur centre.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00025465,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

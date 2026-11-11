@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "veuf",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "Le dispositif insère « ou du titre de reconnaissance de la Nation » dans une disposition fiscale sur les veuves. Une personne veuve est donc directement concernée, car un nouveau titre ouvre droit pour elle à un avantage fiscal. La phrase résume correctement ce changement (demi-part fiscale rendue accessible), et le conditionnel est employé (\"Ajouterait\") car le texte n'est pas adopté."
+   }
+  ],
+  "oublis": [
+   "ancien_combattant"
+  ]
+ },
+ "cout_usd": 0.0017585
+}

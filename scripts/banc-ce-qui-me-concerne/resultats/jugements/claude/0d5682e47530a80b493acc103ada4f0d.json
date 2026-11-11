@@ -1,0 +1,20 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "proprietaire_occupant",
+    "raison": "Le texte vise « le propriétaire » de toute construction située en zone moyenne ou forte, sous réserve d'une multirisque habitation (II, 2°), et le Fonds intervient sur les travaux de stabilisation et de réparation (art. L. 125-1-4 et L. 125-1-5). Le propriétaire qui habite son bien est donc directement visé, sans que l'occupation soit une condition.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": [
+   "proprietaire_bailleur",
+   "residence_secondaire"
+  ]
+ },
+ "cout_usd": 0.001810335,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

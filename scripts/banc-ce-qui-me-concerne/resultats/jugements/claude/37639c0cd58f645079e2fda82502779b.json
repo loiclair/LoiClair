@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_sante",
+    "raison": "Le texte finance les dépenses liées à l'hôpital de jour et aux courts séjours (1°), ce qui touche directement les établissements de soins et leurs professionnels. Le texte ne réglemente pas leur pratique, mais le financement des soins hospitaliers relève du secteur santé selon la règle 12.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "independant",
+    "raison": "Le 10° inclut expressément les actes des professionnels de santé libéraux, qui entrent dans la définition du profil independant. Le financement de leurs actes par l'enveloppe les concerne directement, mais la mesure passe par le budget et ses modalités restent imprécises.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000656635,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

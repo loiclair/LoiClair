@@ -1,0 +1,19 @@
+{
+ "impacts": [
+  {
+   "profil": "handicap",
+   "phrase_fr": "Les distinctions fondées sur le handicap seraient reconnues comme des discriminations au sens du code pénal.",
+   "phrase_en": "Distinctions based on disability would be recognized as discrimination under the Criminal Code.",
+   "passage": "du handicap",
+   "certitude": "certain"
+  },
+  {
+   "profil": "malade_chronique",
+   "phrase_fr": "Les distinctions fondées sur l’état de santé seraient reconnues comme des discriminations au sens du code pénal.",
+   "phrase_en": "Distinctions based on health status would be recognized as discrimination under the Criminal Code.",
+   "passage": "de l’état de santé",
+   "certitude": "certain"
+  }
+ ],
+ "cout_usd": 0.0003951
+}

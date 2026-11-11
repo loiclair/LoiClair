@@ -1,0 +1,37 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "auto_entrepreneur",
+    "raison": "Le 7° réécrit la franchise en base de TVA : elle cesse à la date de dépassement du plafond, ce qui vise les micro-entrepreneurs. La phrase confond cependant 25 000 € (année précédente) et 27 500 € (année en cours, qui déclenche la perte immédiate), et le mot « abaissé » ne ressort pas du texte.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "chef_entreprise",
+    "raison": "La franchise en base de TVA concerne les très petites entreprises, y compris sans salarié, qui sont dans la définition du profil. Mais la phrase présente 25 000 € comme le plafond de dépassement, alors que le seuil en cours d'année est de 27 500 €.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "proprietaire_occupant",
+    "raison": "Le III bis de l'article 278-0 bis A applique le taux normal de TVA aux travaux de rénovation énergétique avec chaudière pouvant brûler des combustibles fossiles. Cela renchérit directement les travaux d'un propriétaire qui les commande pour son logement.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "secteur_btp",
+    "raison": "Le 5° (c) et le III bis modifient le taux de TVA applicable aux travaux de chaudière fossile, ce qui change les règles de facturation des professionnels du bâtiment.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "independant"
+  ]
+ },
+ "cout_usd": 0.0121937,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

@@ -1,0 +1,20 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "outre_mer",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "Le texte vise explicitement les collectivités régies par les articles 73 et 74 de la Constitution et la Nouvelle-Calédonie, ce qui correspond à la définition du profil outre_mer. Le résumé est fidèle au dispositif, le conditionnel est respecté et le passage est correctement cité."
+   },
+   {
+    "profil": "mineur",
+    "concerne": false,
+    "phrase_fidele": false,
+    "raison": "Un plan de prévention et de lutte élaboré par l'État est une mesure institutionnelle qui ne change rien directement pour un mineur. De plus, la phrase proposée pour le profil mineur, bien que différente du résumé général, est répétée à l'identique de la phrase pour le profil outre_mer, ce qui est une erreur, et le passage cité ne justifie pas un effet direct sur un mineur lui-même."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0019301
+}

@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "epargnant",
+    "raison": "L’article étend aux actifs numériques en portefeuille les règles de déclaration, de contrôle et de sanction : il vise directement les détenteurs concernés, et le profil inclut les personnes qui investissent en cryptoactifs.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00043115,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

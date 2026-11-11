@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "chef_entreprise",
+    "raison": "L'article étend seulement les pouvoirs de contrôle de l'autorité de régulation à certaines pratiques commerciales en ligne. Il ne vise ni les dirigeants de PME ni les employeurs. L'effet sur d'éventuels organisateurs passe par l'action du régulateur et n'est pas lié au statut de chef d'entreprise.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0054767,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

@@ -1,0 +1,19 @@
+{
+ "impacts": [
+  {
+   "profil": "forces_ordre",
+   "phrase_fr": "Les agents de police municipale deviendraient des agents de police territoriale, habilités à constater certaines contraventions du code de la route et du code pénal.",
+   "phrase_en": "Municipal police officers would become territorial police officers, empowered to record certain traffic and criminal-code offences.",
+   "passage": "Ils constatent aussi par procès‑verbaux les contraventions mentionnées au livre VI du code pénal dès lors qu’elles ne nécessitent pas de leur part d’actes d’enquête",
+   "certitude": "probable"
+  },
+  {
+   "profil": "automobiliste",
+   "phrase_fr": "Les agents de police territoriale pourraient verbaliser certaines infractions au code de la route, en plus des agents de surveillance de la voie publique.",
+   "phrase_en": "Territorial police officers would be able to issue fines for certain traffic violations, alongside street-surveillance agents.",
+   "passage": "ils constatent également par procès‑verbaux les contraventions aux dispositions du code de la route, conformément à son article L. 130‑4",
+   "certitude": "possible"
+  }
+ ],
+ "cout_usd": 0.00109511
+}

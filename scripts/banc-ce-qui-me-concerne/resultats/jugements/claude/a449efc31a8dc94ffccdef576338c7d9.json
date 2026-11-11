@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "fonctionnaire",
+    "raison": "Le texte vise les agents des douanes, des services fiscaux et les agents de police judiciaire des finances, qui sont des agents de l'État. Ils peuvent désormais, sur autorisation du procureur ou du juge d'instruction, communiquer aux agents de contrôle les informations recueillies lors d'enquêtes judiciaires. Cela change les règles de leur métier, donc le profil est concerné.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0026856999999999996,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

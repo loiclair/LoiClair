@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "travailleur_plateforme",
+    "raison": "L’article vise directement le « travailleur » concerné par les décisions de suspension, de désactivation ou de réduction d’accès aux missions liées au travail via une plateforme.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0001624,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etranger_hors_ue",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "Le texte fixe les taxes pour la délivrance et le renouvellement des titres de séjour listés dans le CESEDA. Ces taxes concernent directement les étrangers hors UE qui doivent demander ces titres. La phrase résume correctement les montants et les conditions, sans inventer."
+   }
+  ],
+  "oublis": [
+   "etranger_ue"
+  ]
+ },
+ "cout_usd": 0.0046657
+}

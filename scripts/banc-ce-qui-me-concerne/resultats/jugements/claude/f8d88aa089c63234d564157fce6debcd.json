@@ -1,0 +1,28 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_sante",
+    "raison": "Le texte vise tout professionnel de santé, y compris en cas de mise en examen liée à l’exercice de sa profession. La suspension peut être prononcée par arrêté motivé.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "etudiant",
+    "raison": "Le texte inclut explicitement les élèves et étudiants des établissements préparant aux professions de santé parmi les personnes concernées par la mesure de suspension.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "independant",
+    "raison": "Le texte vise les professionnels de santé selon leur profession et leur activité de soins, pas en raison de leur statut d’indépendant. Le fait que certains professionnels libéraux puissent entrer dans son champ ne suffit pas à viser ce profil.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0008469,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

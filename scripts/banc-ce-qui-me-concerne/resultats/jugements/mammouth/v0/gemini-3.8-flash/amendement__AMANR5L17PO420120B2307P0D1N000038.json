@@ -1,0 +1,14 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_industrie",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "La précision des critères techniques et industriels (procédés complexes comme l'extrusion ou le fractionnement, additifs) définissant les aliments ultra-transformés concerne directement l'industrie agroalimentaire."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0077745
+}

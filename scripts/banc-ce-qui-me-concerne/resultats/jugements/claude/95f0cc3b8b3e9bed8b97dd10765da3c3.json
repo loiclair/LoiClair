@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "expat",
+    "raison": "La liste serait publiée sur le site des ambassades et postes consulaires, donc destinée aux Français à l'étranger. Ils y trouveraient une information actualisée chaque semaine pour leurs déplacements vers la France. Le texte ne les nomme pas, mais ce canal les vise directement.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0050237,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

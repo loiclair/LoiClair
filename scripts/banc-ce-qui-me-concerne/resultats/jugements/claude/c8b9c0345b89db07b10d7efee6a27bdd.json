@@ -1,0 +1,19 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "parent",
+    "raison": "L'amendement qualifie de violences intrafamiliales le non-versement de pension alimentaire (art. 227-3, 227-4) et les infractions économiques commises envers un enfant ou par un parent ; il vise directement les parents, notamment séparés, débiteurs ou créanciers de pension alimentaire pour leurs enfants.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "separe_divorce"
+  ]
+ },
+ "cout_usd": 0.0038277,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

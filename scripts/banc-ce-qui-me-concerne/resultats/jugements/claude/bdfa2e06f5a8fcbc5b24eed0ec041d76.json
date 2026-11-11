@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "apprenti_alternant",
+    "raison": "Le dispositif autorise l’entreprise à conclure un contrat d’apprentissage ; il ne confère pas directement de droit à l’apprenti. Son effet dépend de la décision de l’entreprise.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0005629,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

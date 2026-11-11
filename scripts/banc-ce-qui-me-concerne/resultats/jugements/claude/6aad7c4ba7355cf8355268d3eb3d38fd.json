@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etudiant",
+    "raison": "Les sanctions s’appliquent au contrat régi par les articles cités : si l’étudiant en est le cocontractant, il peut être concerné par la nullité et le remboursement du double des sommes versées.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "secteur_education",
+    "raison": "Le texte sanctionne le professionnel ou la personne morale qui manque aux règles, et peut interdire à un dirigeant d’exercer. Il ne modifie pas directement les règles du métier des personnes qui travaillent dans l’éducation.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000677275,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "aidant",
+    "raison": "Le profil aidant inclut la personne qui exerce une mesure de protection juridique (tutelle, curatelle) pour un proche. L'article 4 vise les tuteurs et curateurs désignés et leurs remplaçants : obligation d'informer, formalités, désignation anticipée. Cela change leurs obligations et leurs démarches.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0027026999999999997,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "heritier_donateur",
+    "raison": "L'article raccourcit de 30 à 15 ans le délai après lequel un bien de succession ouverte et non partagée est réputé sans maître, et l'applique aux successions ouvertes depuis 2007. Les héritiers qui n'ont pas partagé ni réclamé le bien risquent de le perdre au profit de la commune : l'effet est direct sur eux.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0027407,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

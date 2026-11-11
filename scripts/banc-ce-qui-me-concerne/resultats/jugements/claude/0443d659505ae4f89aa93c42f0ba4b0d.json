@@ -1,0 +1,13 @@
+{
+ "jugement": {
+  "profils": [],
+  "oublis": [
+   "etranger_hors_ue",
+   "parent"
+  ]
+ },
+ "cout_usd": 0.000310135,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

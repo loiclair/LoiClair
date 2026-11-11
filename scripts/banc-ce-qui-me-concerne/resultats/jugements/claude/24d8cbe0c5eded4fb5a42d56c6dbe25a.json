@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "salarie_prive",
+    "raison": "L'amendement désigne directement « les salariés » et leur impose une information sur les frais du déblocage de leur épargne salariale, ce qui touche leurs décisions. L'obligation pèse sur l'employeur, mais l'information porte sur leurs propres sommes.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0006005350000000001,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

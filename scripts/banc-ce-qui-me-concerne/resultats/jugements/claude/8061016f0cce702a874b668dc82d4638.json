@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "mineur",
+    "raison": "L'article vise les personnes mineures relevant des 2° et 3° de l'article 375-3 du code civil (confiées à un proche ou à un tiers digne de confiance) et leur ouvre la protection complémentaire à titre personnel : effet direct sur des mineurs.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "allocataire",
+    "raison": "Le profil allocataire couvre les personnes qui perçoivent la complémentaire santé solidaire, et l'article en ouvre le bénéfice à ces mineurs. Mais ce sont des mineurs, pas des adultes allocataires ; c'est le critère de minorité et de placement qui déclenche la mesure. Un lecteur allocataire (RSA, APL, prime d'activité) ne se sentirait pas visé.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0030997,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

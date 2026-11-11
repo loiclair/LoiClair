@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "elu_local",
+    "raison": "Le texte vise explicitement l’adjoint au maire ou le conseiller municipal chargé de la sécurité civile, qui relèvent du profil élu local.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000158775,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

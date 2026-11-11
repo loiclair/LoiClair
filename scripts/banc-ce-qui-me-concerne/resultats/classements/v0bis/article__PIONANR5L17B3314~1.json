@@ -1,0 +1,26 @@
+{
+ "impacts": [
+  {
+   "profil": "futur_parent",
+   "phrase_fr": "Les personnes en fécondation in vitro pourraient se voir proposer un examen des chromosomes des embryons, afin de transférer en priorité ceux sans anomalie.",
+   "phrase_en": "People undergoing IVF would be offered a chromosome check on embryos, to transfer first those without an abnormality.",
+   "passage": "la recherche d'anomalies du nombre et de la structure de chromosomes affectant l'embryon in vitro peut être proposée à la femme ou aux deux membres du couple engagés dans une tentative de fécondation in vitro,",
+   "certitude": "certain"
+  },
+  {
+   "profil": "concubin",
+   "phrase_fr": "Les couples non mariés en fécondation in vitro pourraient se voir proposer un examen chromosomique des embryons avant transfert.",
+   "phrase_en": "Unmarried couples in IVF would be offered a chromosome check of embryos before transfer.",
+   "passage": "aux deux membres du couple engagés dans une tentative de fécondation in vitro",
+   "certitude": "probable"
+  },
+  {
+   "profil": "marie_pacse",
+   "phrase_fr": "Les couples mariés ou pacsés en fécondation in vitro pourraient se voir proposer un examen chromosomique des embryons avant transfert.",
+   "phrase_en": "Married or civil-partnered couples in IVF would be offered a chromosome check of embryos before transfer.",
+   "passage": "aux deux membres du couple engagés dans une tentative de fécondation in vitro",
+   "certitude": "probable"
+  }
+ ],
+ "cout_usd": 0.00114765
+}

@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_sante",
+    "raison": "Le texte modifie les règles d'autorisation de remplacement des médecins, chirurgiens-dentistes et sages-femmes, donc les règles de l'exercice de leur métier dans le soin. Il les vise directement par leur profession.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "independant",
+    "raison": "Le texte vise « le médecin », « le chirurgien-dentiste » et « la sage-femme » qui sollicitent un remplacement, sans mentionner de mode d'exercice libéral. La règle de la définition sur « le médecin » sans mode d'exercice s'applique : le profil indépendant n'est pas visé.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000530385,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

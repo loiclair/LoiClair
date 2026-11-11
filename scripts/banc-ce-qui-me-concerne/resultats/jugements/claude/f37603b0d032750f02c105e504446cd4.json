@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "heritier_donateur",
+    "raison": "L'article 755 du CGI porte sur les droits de mutation à titre gratuit (donations, successions) portant sur des biens non déclarés ; l'ajout des actifs numériques d'un portefeuille change directement les règles pour ceux qui transmettent ou reçoivent de tels actifs. La phrase reste fidèle au texte.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "epargnant",
+    "raison": "Les détenteurs de cryptoactifs dans des portefeuilles d'actifs numériques sont directement visés : la majoration pour actifs non déclarés (art. 1649 bis C) a un plancher égal à l'amende de l'article 1736 X. La phrase de l'assistant est fidèle ; la loi est publiée, donc le présent est correct.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0036157,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

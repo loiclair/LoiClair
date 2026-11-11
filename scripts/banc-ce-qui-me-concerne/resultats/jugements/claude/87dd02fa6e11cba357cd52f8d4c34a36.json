@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_industrie",
+    "raison": "L'amendement ne fait que redéfinir ce qu'est un aliment ultra-transformé (procédés, additifs, liste par arrêté après avis de l'ANSES). Cette définition ne produit d'effet qu'au travers de l'interdiction de publicité de l'article 1er, qui vise les annonceurs et les marques. Elle ne change pas directement les règles de production ou le métier des travailleurs de l'industrie, donc l'effet est indirect. Les produits visés relèvent de l'industrie agroalimentaire, mais le texte ne la nomme pas.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0043167,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

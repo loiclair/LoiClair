@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "elu_local",
+    "raison": "Non concerné : la présence du président de l’agglomération et des maires dans un comité consacré à Vencorex est une participation ponctuelle, qui ne change pas les règles applicables aux élus locaux.",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "syndique",
+    "raison": "Non concerné : les représentants des organisations syndicales de Vencorex siègent dans un comité consacré à cette entreprise ; cela ne change pas les règles applicables aux syndiqués en général.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000343775,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

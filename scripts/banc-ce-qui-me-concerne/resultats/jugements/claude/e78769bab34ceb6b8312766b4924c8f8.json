@@ -1,0 +1,26 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "handicap",
+    "raison": "Le texte nomme directement « du handicap » comme critère de discrimination interdite : une distinction faite à cause du handicap serait punie. La personne handicapée est donc visée par la protection elle-même. Le critère figure déjà dans l'article 225-1 actuel et est repris tel quel.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "malade_chronique",
+    "raison": "Le texte nomme « de l'état de santé » comme critère de discrimination. Ce critère couvre les personnes atteintes de maladies de longue durée, qui forment un sous-groupe de l'état de santé. Le texte ne parle pas explicitement de maladie chronique, mais une personne malade chronique serait protégée par cette interdiction.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "syndique",
+   "futur_parent"
+  ]
+ },
+ "cout_usd": 0.001637635,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

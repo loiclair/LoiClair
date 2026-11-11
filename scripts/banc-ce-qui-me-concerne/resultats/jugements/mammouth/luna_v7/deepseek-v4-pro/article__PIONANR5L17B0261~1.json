@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etudiant",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article modifie directement les critères d'attribution des aides pour les étudiants. La phrase capture correctement l'idée de priorité basée sur la nationalité et les ressources, et utilise le conditionnel requis."
+   },
+   {
+    "profil": "etranger_ue",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article mentionne explicitement les étudiants 'd'un État membre de l'Union européenne' comme bénéficiant de la priorité. La phrase est fidèle au texte et utilise bien le conditionnel."
+   }
+  ],
+  "oublis": [
+   "etranger_hors_ue"
+  ]
+ },
+ "cout_usd": 0.001833
+}

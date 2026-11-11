@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "salarie_prive",
+    "raison": "La disposition vise les comportements de harcèlement imposés dans le cadre d’une politique d’entreprise, ce qui peut concerner directement les salariés qui les subissent.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00110165,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

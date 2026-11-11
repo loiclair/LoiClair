@@ -1,0 +1,25 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etudiant",
+    "raison": "L'article vise directement les étudiants : il réécrit la règle d'attribution des aides étudiantes (bourses) en y introduisant la nationalité comme critère prioritaire.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "etranger_ue",
+    "raison": "Le texte désigne la nationalité d'un État membre de l'Union européenne comme critère de priorité pour l'aide, ce qui donne un avantage direct aux ressortissants européens qui étudient en France.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "etranger_hors_ue"
+  ]
+ },
+ "cout_usd": 0.000622885,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

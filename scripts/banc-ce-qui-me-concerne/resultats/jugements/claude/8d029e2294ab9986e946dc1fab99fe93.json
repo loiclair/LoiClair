@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "forces_ordre",
+    "raison": "L'article précise le cadre des infiltrations et opérations sous autorisation (code de procédure pénale, douanes) : il protège les agents habilités, policiers, gendarmes et douaniers, contre la qualification d'incitation à l'infraction. Les règles de leur métier changent directement.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0024216999999999997,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

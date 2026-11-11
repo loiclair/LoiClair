@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_transport",
+    "raison": "Le texte prévoit un avantage fiscal lié aux coûts supportés par les entreprises pour certains navires ; il ne change pas directement les règles d’exercice du métier des personnes travaillant dans le transport.",
+    "concerne": false,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "chef_entreprise",
+    "raison": "La mesure vise les coûts supportés par des entreprises petites ou moyennes, mais son effet porte sur l’entreprise, pas directement sur la situation personnelle de son dirigeant.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000811775,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

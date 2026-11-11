@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "chef_entreprise",
+    "raison": "L'article punit de deux ans d'emprisonnement et de 7 500 euros d'amende l'employeur qui viole les règles visées lorsqu'il vise plusieurs personnes. La sanction frappe directement l'employeur en tant que tel, donc le dirigeant ou employeur de TPE, PE ou ME, sans effet passant par un tiers.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "dirigeant_grande_entreprise",
+    "raison": "Même sanction pénale visant l'employeur en tant que tel. Le dirigeant d'une entreprise de 250 salariés ou plus est directement visé par la menace de peine, car il est l'employeur qui répond de la violation.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000723635,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

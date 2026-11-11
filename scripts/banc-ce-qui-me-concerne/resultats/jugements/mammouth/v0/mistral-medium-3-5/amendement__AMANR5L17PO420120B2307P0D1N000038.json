@@ -1,0 +1,26 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_industrie",
+    "concerne": false,
+    "phrase_fidele": false,
+    "raison": "L'amendement modifie la définition des aliments ultra-transformés, mais il ne vise pas spécifiquement le secteur industriel. Il s'agit d'une mesure réglementaire générale qui s'applique à tous les acteurs de la chaîne alimentaire, sans cibler un secteur en particulier. De plus, la phrase proposée mentionne une action future ('Redéfinirait') alors que l'amendement est déjà adopté en commission, ce qui n'est pas conforme à la consigne (le conditionnel n'est pas nécessaire ici)."
+   },
+   {
+    "profil": "secteur_agriculture",
+    "concerne": false,
+    "phrase_fidele": false,
+    "raison": "Aucun passage de l'amendement ne vise spécifiquement le secteur agricole. La définition des aliments ultra-transformés concerne davantage les procédés industriels que les activités agricoles."
+   },
+   {
+    "profil": "secteur_hotellerie",
+    "concerne": false,
+    "phrase_fidele": false,
+    "raison": "L'amendement ne mentionne pas le secteur de l'hôtellerie ni ne modifie des règles qui lui seraient spécifiques."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.009048
+}

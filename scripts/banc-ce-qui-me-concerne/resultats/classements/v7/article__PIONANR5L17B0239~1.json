@@ -1,0 +1,26 @@
+{
+ "impacts": [
+  {
+   "profil": "salarie_prive",
+   "phrase_fr": "Un régime de retraite obligatoire serait créé, financé à parts égales par l'employeur et le salarié, à hauteur de 2 % du salaire au plus.",
+   "phrase_en": "A mandatory retirement savings scheme would be created, funded equally by employer and employee, up to 2% of salary.",
+   "passage": "Les cotisations, dont le taux global, fixé par décret en Conseil d’État, ne peut dépasser 2 % de la rémunération, sont réparties à parts égales entre les employeurs et les salariés.",
+   "certitude": "certain"
+  },
+  {
+   "profil": "chef_entreprise",
+   "phrase_fr": "Les employeurs seraient tenus de payer la moitié des cotisations de ce nouveau régime de retraite obligatoire pour leurs salariés.",
+   "phrase_en": "Employers would be required to pay half of the contributions to this new mandatory retirement scheme for their employees.",
+   "passage": "Les cotisations, dont le taux global, fixé par décret en Conseil d’État, ne peut dépasser 2 % de la rémunération, sont réparties à parts égales entre les employeurs et les salariés.",
+   "certitude": "certain"
+  },
+  {
+   "profil": "dirigeant_grande_entreprise",
+   "phrase_fr": "Les employeurs seraient tenus de payer la moitié des cotisations de ce nouveau régime de retraite obligatoire pour leurs salariés.",
+   "phrase_en": "Employers would be required to pay half of the contributions to this new mandatory retirement scheme for their employees.",
+   "passage": "Les cotisations, dont le taux global, fixé par décret en Conseil d’État, ne peut dépasser 2 % de la rémunération, sont réparties à parts égales entre les employeurs et les salariés.",
+   "certitude": "certain"
+  }
+ ],
+ "cout_usd": 0.00122301
+}

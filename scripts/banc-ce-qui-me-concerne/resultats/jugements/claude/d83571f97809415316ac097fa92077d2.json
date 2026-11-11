@@ -1,0 +1,30 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "fonctionnaire",
+    "raison": "Le texte vise les proches d’un agent public ; le statut d’agent public de la personne déclenche donc la possibilité de protection de ses proches.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "concubin",
+    "raison": "Le concubin d’un agent public est expressément désigné comme bénéficiaire potentiel, si son intégrité physique est menacée du fait des fonctions de l’agent.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "marie_pacse",
+    "raison": "Le conjoint et le partenaire lié par un PACS d’un agent public sont expressément désignés comme bénéficiaires potentiels.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": [
+   "forces_ordre"
+  ]
+ },
+ "cout_usd": 0.001185525,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

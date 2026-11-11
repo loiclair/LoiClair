@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_education",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'amendement supprime une disposition qui concernait directement les personnels de l'Éducation nationale (secteur_education). Le passage 'personnels de l’éducation mentionné au livre IX de la quatrième partie' dans l'article visé confirme que le secteur_education est ciblé. La phrase est fidèle car elle décrit correctement l'effet de l'amendement (suppression de l'alinéa 3) et respecte le conditionnel (texte non adopté)."
+   },
+   {
+    "profil": "fonctionnaire",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'amendement concerne aussi les fonctionnaires, car les personnels de l'Éducation nationale visés sont des fonctionnaires (ou contractuels). Le passage 'l’administration lui accorde de plein droit et sans délai la protection prévue à l’article L. 134-5 du code général de la fonction publique' confirme que la mesure s'applique aux fonctionnaires. La phrase est fidèle et le conditionnel est respecté."
+   }
+  ],
+  "oublis": [
+   "secteur_culture"
+  ]
+ },
+ "cout_usd": 0.008043
+}

@@ -1,0 +1,29 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "mineur",
+    "raison": "Le titre de séjour est délivré à la majorité (18 ans) à ceux confiés avant 18 ans. Les mineurs encore pris en charge ne sont pas visés par la délivrance, et le texte ne leur ouvre rien directement. Le profil mineur n'est pas ce qui déclenche la mesure.",
+    "concerne": false,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "etranger_hors_ue",
+    "raison": "L'article L. 423-22 vise les étrangers (hors UE) confiés à l'ASE avant 18 ans, qui obtiendraient de plein droit une carte de séjour de quatre ans. Le texte les vise directement.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "jeune",
+    "raison": "La mesure joue à la majorité, pour les jeunes de 18 ans issus de l'ASE, qui obtiendraient la carte de séjour. L'exposé parle de régulariser les jeunes à 18 ans, donc de jeunes de 18 à 25 ans.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0042637,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

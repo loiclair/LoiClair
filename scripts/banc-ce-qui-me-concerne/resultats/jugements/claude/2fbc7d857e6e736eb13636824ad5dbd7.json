@@ -1,0 +1,31 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "auto_entrepreneur",
+    "raison": "Le 7° a) et le II fixent les seuils de la franchise en base de TVA (25 000 € l'année précédente, 27 500 € l'année en cours) et font cesser la franchise dès le dépassement. Les micro-entrepreneurs relèvent de ce régime, dont la mesure change les conditions et les obligations de TVA.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "secteur_btp",
+    "raison": "Le 4° (III bis) impose le taux normal aux prestations de rénovation énergétique avec une chaudière à combustibles fossiles, et le 5° fait de même pour certains travaux sur logements. Ces règles de facturation s'imposent directement aux professionnels qui réalisent ces travaux.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "proprietaire_occupant",
+    "raison": "La mesure est définie par la nature des travaux (rénovation énergétique avec chaudière fossile), et non par le statut de propriétaire. Le texte ne désigne ni les propriétaires ni les occupants : le profil ne fait que recouper le groupe des clients, il n'est pas ce qui déclenche la mesure.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "chef_entreprise"
+  ]
+ },
+ "cout_usd": 0.003529935,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

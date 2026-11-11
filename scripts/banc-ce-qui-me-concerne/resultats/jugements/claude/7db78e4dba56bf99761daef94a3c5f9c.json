@@ -1,0 +1,29 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "salarie_prive",
+    "raison": "Le texte vise directement les salariés atteints d'AVF : droit à trente jours d'arrêt par an, sans condition d'ancienneté ni préavis. La phrase de l'assistant reprend fidèlement cette portée, avec le conditionnel.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "malade_chronique",
+    "raison": "La condition ouvrant le droit est l'algie vasculaire de la face, une maladie récurrente de longue durée qui exige des soins réguliers. Mais le droit n'est ouvert qu'aux salariés, et la phrase de l'assistant étend à tort le bénéfice à « les personnes atteintes », ce que le texte ne dit pas.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "cdd_interim",
+    "raison": "Le texte ne mentionne pas les contrats courts. La condition d'absence d'ancienneté et de préavis vaut pour les salariés atteints d'AVF, quel que soit leur contrat. La phrase de l'assistant invente un périmètre de contrats courts qui n'existe pas dans le texte.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000852235,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

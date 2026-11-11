@@ -1,0 +1,13 @@
+{
+ "jugement": {
+  "profils": [],
+  "oublis": [
+   "proprietaire_occupant",
+   "coproprietaire"
+  ]
+ },
+ "cout_usd": 0.0036146999999999998,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

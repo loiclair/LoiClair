@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "fonctionnaire",
+    "raison": "L'art. L. 812-7 permet au ministre de suspendre un membre du personnel de l'enseignement supérieur agricole public (agents publics) jusqu'à un an, et la réforme des sections disciplinaires touche leurs droits de défense : ce personnel est visé directement.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "secteur_education",
+    "raison": "La réforme modifie la discipline des enseignants et enseignants-chercheurs de l'enseignement supérieur agricole (composition des sections, récusation, suspension) : ce sont les règles de leur métier.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0044456999999999995,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_numerique",
+    "raison": "L’article 6-1 concerne le retrait de contenus par les hébergeurs ; la modification abaisse le seuil de certitude requis pour viser ces contenus.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000590775,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

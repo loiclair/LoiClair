@@ -1,0 +1,26 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "proprietaire_occupant",
+    "raison": "Le texte vise le propriétaire d'une construction touchée par le retrait-gonflement des argiles, qui pourrait obtenir une prise en charge des travaux par le fonds s'il a une multirisque habitation ; cela concerne le propriétaire de sa maison.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "proprietaire_bailleur",
+    "raison": "Le texte vise « toute construction » et « le propriétaire » sans distinguer l'usage du bien ; un propriétaire qui loue un logement touché est donc visé comme propriétaire. Cependant, le profil bailleur n'est pas ce qui déclenche la mesure, et le texte ne parle ni de location ni de logements loués.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": [
+   "coproprietaire",
+   "residence_secondaire"
+  ]
+ },
+ "cout_usd": 0.0052247,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "parent",
+    "raison": "L'article supprime des alinéas de l'article L. 521-1 du code de la sécurité sociale, qui fixent les conditions de versement des allocations familiales aux familles. L'effet touche directement les parents d'enfants à charge (montant et droit à l'allocation), sans passer par un tiers. Le texte ne nomme pas le revenu : la suppression d'une condition de ressources se déduit du titre du texte, qui vise à redonner un caractère universel aux allocations.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000564435,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

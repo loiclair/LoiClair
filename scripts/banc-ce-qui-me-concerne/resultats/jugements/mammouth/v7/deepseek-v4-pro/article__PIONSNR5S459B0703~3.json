@@ -1,0 +1,14 @@
+{
+ "jugement": {
+  "oublis": [],
+  "profils": [
+   {
+    "concerne": false,
+    "phrase_fidele": true,
+    "profil": "handicap",
+    "raison": "Le texte modifie un article général du code pénal qui définit la discrimination. Il ne change rien directement pour une personne handicapée, ni pour aucun autre profil du catalogue : l'effet est très lointain."
+   }
+  ]
+ },
+ "cout_usd": 0.0003861582
+}

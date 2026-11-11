@@ -1,0 +1,15 @@
+{
+ "impacts": [
+  {
+   "profil": "secteur_education",
+   "passage": "",
+   "certitude": "certain"
+  },
+  {
+   "profil": "fonctionnaire",
+   "passage": "",
+   "certitude": "probable"
+  }
+ ],
+ "resume_fr": "Supprimerait la possibilité pour l’administration de retirer la protection accordée aux personnels de l’éducation victimes de violences, même en cas de faute personnelle."
+}

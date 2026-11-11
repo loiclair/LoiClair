@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "alsace_moselle",
+    "raison": "Le texte modifie la loi de 1884 qui s'applique uniquement à la Moselle, au Bas-Rhin et au Haut-Rhin, et change les règles de propriété foncière qui y valent pour les habitants. Le lieu de vie déclenche la mesure, ce qui rend le profil concerné.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000656785,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

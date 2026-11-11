@@ -1,0 +1,19 @@
+{
+ "impacts": [
+  {
+   "profil": "chasseur_pecheur",
+   "phrase_fr": "La pêche de loisir serait interdite si elle attire les poissons avec des appâts concentrés, des lumières ou des déchets de poissons jetés à la mer.",
+   "phrase_en": "Recreational fishing would be banned if it attracts fish with concentrated bait, lights or fish waste thrown into the sea.",
+   "passage": "Il est interdit à toute personne de mettre en œuvre les pratiques suivantes :",
+   "certitude": "probable"
+  },
+  {
+   "profil": "secteur_agriculture",
+   "phrase_fr": "Les pêcheurs professionnels ne pourraient plus utiliser d’appâts concentrés, de lumières ou de déchets de poissons jetés en mer pour attirer le poisson.",
+   "phrase_en": "Professional fishers would no longer be allowed to use concentrated bait, lights or fish waste thrown at sea to attract fish.",
+   "passage": "L’usage d’appâts concentrés, tels que des granulés, liquides ou gels attractifs, volontairement disséminés dans le milieu marin pour attirer les poissons vers une embarcation ou un engin de pêche ;",
+   "certitude": "probable"
+  }
+ ],
+ "cout_usd": 0.00091705
+}

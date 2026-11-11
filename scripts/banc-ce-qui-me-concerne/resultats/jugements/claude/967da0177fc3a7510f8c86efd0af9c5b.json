@@ -1,0 +1,25 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "mineur",
+    "raison": "Le texte vise directement les mineurs de moins de treize ans embauchés dans le cinéma (avis conformes, présence d'un représentant légal) : sous-groupe du profil mineur.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "parent",
+    "raison": "L'article impose la présence d'un représentant légal de l'enfant de moins de treize ans lors de l'embauche, pendant le contrat et lors d'évènements ultérieurs : obligation directe pour le parent ou responsable légal.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": [
+   "secteur_culture"
+  ]
+ },
+ "cout_usd": 0.0029476999999999997,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

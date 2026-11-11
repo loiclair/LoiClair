@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etranger_hors_ue",
+    "raison": "La disposition modifie un droit au séjour dans le CESEDA pour l’étranger confié à l’ASE ou à un tiers digne de confiance avant 18 ans : elle le vise directement.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0010739,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

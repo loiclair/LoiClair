@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "oublis": [
+   "etranger_ue",
+   "etranger_hors_ue"
+  ],
+  "profils": [
+   {
+    "concerne": true,
+    "phrase_fidele": false,
+    "profil": "secteur_sante",
+    "raison": "La mesure s’applique aux médecins titulaires des diplômes visés, mais la phrase omet la condition de nationalité explicitement énoncée dans le texte (« Le présent 3° s’applique aux ressortissants de nationalité française, de citoyenneté andorrane, d’un Etat membre de l’Union européenne ou partie à l’accord sur l’Espace économique européen ou du Royaume-Uni »). Elle laisse croire que tout médecin diplômé au Royaume-Uni avant le Brexit est concerné, ce qui est inexact."
+   }
+  ]
+ },
+ "cout_usd": 0.0016580982
+}

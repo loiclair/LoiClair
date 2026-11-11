@@ -1,0 +1,19 @@
+{
+ "impacts": [
+  {
+   "profil": "patrimoine_ifi",
+   "phrase_fr": "Les personnes dont le patrimoine net dépasse 5 millions d'euros paieraient une contribution progressive sur les hauts patrimoines, au taux de 0,5 % à 2 %.",
+   "phrase_en": "People whose net wealth exceeds 5 million euros would pay a progressive high-wealth contribution, at rates from 0.5% to 2%.",
+   "passage": "L’assiette de la contribution mentionnée au I est constituée par la valeur nette, au 1er janvier de l’année, de l’ensemble des biens, droits et valeurs imposables appartenant aux personnes physiques ayant leur domicile fiscal en France",
+   "certitude": "probable"
+  },
+  {
+   "profil": "parent",
+   "phrase_fr": "Les biens de vos enfants mineurs dont vous avez l'administration légale seraient comptés dans la base de cette contribution sur les hauts patrimoines.",
+   "phrase_en": "Assets of your minor children that you legally administer would be counted in the base of this high-wealth contribution.",
+   "passage": "ainsi qu’à leurs enfants mineurs lorsqu’elles ont l’administration légale des biens de ceux-ci",
+   "certitude": "certain"
+  }
+ ],
+ "cout_usd": 0.00106665
+}

@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etranger_hors_ue",
+    "raison": "Le texte modifie le code de l'entrée et du séjour des étrangers et accorde directement un titre de séjour de quatre ans, de plein droit, aux personnes confiées à l'ASE avant 18 ans, sans que la condition de séjour régulier (L. 412-1) leur soit opposable. Il vise donc des ressortissants hors UE vivant en France, y compris sans titre.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "jeune",
+    "raison": "Le critère déclencheur est le passage à l'ASE avant 18 ans, pas l'âge de 18 à 25 ans : la carte vaut quel que soit l'âge à laquelle elle est demandée. Un jeune sans parcours ASE n'est pas visé par la mesure.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.001172985,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

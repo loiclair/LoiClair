@@ -1,0 +1,26 @@
+{
+ "impacts": [
+  {
+   "profil": "etranger_hors_ue",
+   "phrase_fr": "Votre carte de séjour pourrait être délivrée pour quatre ans dans plusieurs situations, notamment si votre conjoint ou l’un de vos parents possède une carte de résident.",
+   "phrase_en": "Your residence permit could be issued for four years in several situations, including if your spouse or one of your parents holds a resident card.",
+   "passage": "Si le conjoint est titulaire d’une carte de résident, l’étranger se voit délivrer une carte de séjour pluriannuelle “vie privée et familiale” d’une durée de quatre ans.",
+   "certitude": "certain"
+  },
+  {
+   "profil": "mineur",
+   "phrase_fr": "Entre 16 et 18 ans, vous pourriez recevoir une carte de séjour de quatre ans si l’un de vos parents possède une carte de résident et si vous remplissez les conditions prévues.",
+   "phrase_en": "Between the ages of 16 and 18, you could receive a four-year residence permit if one of your parents holds a resident card and you meet the stated conditions.",
+   "passage": "dans l’année suivant son dix-huitième anniversaire ou entre ses seize et dix-huit ans s’il remplit les conditions prévues à l’article L. 421-35",
+   "certitude": "certain"
+  },
+  {
+   "profil": "jeune",
+   "phrase_fr": "À partir de 18 ans, vous pourriez recevoir une carte de séjour de quatre ans si l’un de vos parents possède une carte de résident.",
+   "phrase_en": "From the age of 18, you could receive a four-year residence permit if one of your parents holds a resident card.",
+   "passage": "dans l’année suivant son dix-huitième anniversaire",
+   "certitude": "certain"
+  }
+ ],
+ "cout_usd": 0.00045585
+}

@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "travailleur_plateforme",
+    "raison": "L'article vise directement les travailleurs de plateforme : il interdit qu'un algorithme seul suspende, désactive, déréférence ou réduise l'accès aux missions, et impose motivation, notification et procédure contradictoire. Ces règles changeraient concrètement la situation de ceux qui trouvent leurs missions par une plateforme.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00021223500000000002,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

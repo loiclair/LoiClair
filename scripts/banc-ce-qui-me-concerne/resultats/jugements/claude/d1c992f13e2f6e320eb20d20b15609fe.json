@@ -1,0 +1,24 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "auto_entrepreneur",
+    "raison": "Non : le texte modifie la franchise de TVA selon le chiffre d’affaires, sans viser le statut de micro-entrepreneur. La règle peut concerner d’autres catégories d’activité.",
+    "concerne": false,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "proprietaire_occupant",
+    "raison": "Non : le taux de TVA vise certaines prestations et certains travaux, sans désigner les propriétaires occupants ni leur résidence principale.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": [
+   "secteur_culture"
+  ]
+ },
+ "cout_usd": 0.001269775,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

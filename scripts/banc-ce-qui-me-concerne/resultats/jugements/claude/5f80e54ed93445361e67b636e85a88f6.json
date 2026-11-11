@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_agriculture",
+    "raison": "Le texte vise nommément les jeunes agriculteurs bénéficiant des aides à l'installation et les sociétés exerçant une activité agricole. Il modifie directement le calcul de leur imposition sur les plus-values de cession, donc leur fiscalité professionnelle.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "imposable",
+    "raison": "La mesure vise les jeunes agriculteurs aidés à l'installation, et non les foyers imposables en général. Payer l'impôt sur le revenu n'est pas ce qui déclenche la dérogation (règle 7), même si la plus-value est imposée à l'IR.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000818635,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

@@ -1,0 +1,29 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "rural",
+    "raison": "L'ajout de « police des campagnes » vise les missions des agents, pas les habitants des communes rurales. Leurs droits et obligations ne changent pas directement ; l'effet passe par la décision de la commune d'organiser ses agents.",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "automobiliste",
+    "raison": "L'article 1er 3° b) permet aux agents de police territoriale de constater par procès-verbal les contraventions au code de la route, concurremment avec les agents de surveillance de la voie publique. Un conducteur est donc directement visé par ces verbalisations.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "fonctionnaire",
+    "raison": "Les agents de police municipale, qui sont des fonctionnaires ou contractuels territoriaux et non des forces de l'ordre, voient leur appellation et leurs missions changer. Le texte vise donc un sous-groupe contenu dans le profil. Un fonctionnaire qui ne relève pas de la police municipale n'est pas concerné.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.001424685,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

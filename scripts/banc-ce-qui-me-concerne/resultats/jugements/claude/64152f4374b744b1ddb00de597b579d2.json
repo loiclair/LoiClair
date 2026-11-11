@@ -1,0 +1,37 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etranger_hors_ue",
+    "raison": "Le texte modifie la durée des titres de séjour vie privée et familiale des étrangers (articles L.423-7, L.423-13 et L.423-21 : un an devient quatre ans), ce qui touche directement les non-UE titulaires de ces titres. La phrase est trop générale : elle présente le passage à quatre ans comme valable pour tous les titres vie privée et familiale, alors que seuls certains articles le prévoient et que l'article L.423-18 maintient une carte temporaire de deux ans. La citation ne porte que sur le cas du conjoint d'un titulaire de carte de résident.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "marie_pacse",
+    "raison": "Le texte vise le conjoint d'un titulaire de carte de résident, donc une personne mariée. Le mariage est ici le critère qui déclenche le droit à une carte de séjour de quatre ans. La phrase reprend fidèlement le texte et respecte le conditionnel.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "parent",
+    "raison": "Le droit nouveau appartient à l'enfant étranger, pas au parent titulaire d'une carte de résident : les droits et obligations de ce parent ne changent pas. La phrase est inexacte : elle dit « à sa majorité », alors que le texte prévoit aussi une délivrance dès 16 ans, sous réserve des conditions de l'article L.421-35.",
+    "concerne": false,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "mineur",
+    "raison": "Le texte ouvre à l'enfant étranger âgé de 16 à 18 ans, dont un parent est titulaire d'une carte de résident, un droit direct à une carte de séjour de quatre ans, sous réserve des conditions de l'article L.421-35. La phrase est fidèle et le conditionnel est respecté, même si la réserve sur les conditions n'est pas nommée.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "jeune"
+  ]
+ },
+ "cout_usd": 0.002956585,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

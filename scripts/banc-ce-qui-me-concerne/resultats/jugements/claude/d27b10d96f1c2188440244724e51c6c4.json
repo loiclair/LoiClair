@@ -1,0 +1,14 @@
+{
+ "jugement": {
+  "profils": [],
+  "oublis": [
+   "concubin",
+   "marie_pacse",
+   "separe_divorce",
+   "parent"
+  ]
+ },
+ "cout_usd": 0.001141775,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

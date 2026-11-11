@@ -1,0 +1,26 @@
+{
+ "impacts": [
+  {
+   "profil": "salarie_prive",
+   "phrase_fr": "Des propos ou comportements imposés dans le cadre d'une politique d'entreprise pourraient relever du harcèlement moral et être punis pénalement.",
+   "phrase_en": "Comments or behaviour imposed under a company policy would could be treated as moral harassment and punished under criminal law.",
+   "passage": "Lorsque ces propos ou comportements sont imposés dans le cadre de la mise en œuvre d’une politique d’entreprise.",
+   "certitude": "probable"
+  },
+  {
+   "profil": "dirigeant_grande_entreprise",
+   "phrase_fr": "Les propos ou comportements qu'une politique d'entreprise impose pourraient engager pénalement la direction pour harcèlement moral.",
+   "phrase_en": "Comments or behaviour that a company policy imposes would could expose management to criminal liability for moral harassment.",
+   "passage": "Lorsque ces propos ou comportements sont imposés dans le cadre de la mise en œuvre d’une politique d’entreprise.",
+   "certitude": "possible"
+  },
+  {
+   "profil": "chef_entreprise",
+   "phrase_fr": "Les propos ou comportements qu'une politique d'entreprise impose pourraient engager pénalement le dirigeant pour harcèlement moral.",
+   "phrase_en": "Comments or behaviour that a company policy imposes would could expose the business owner to criminal liability for moral harassment.",
+   "passage": "Lorsque ces propos ou comportements sont imposés dans le cadre de la mise en œuvre d’une politique d’entreprise.",
+   "certitude": "possible"
+  }
+ ],
+ "cout_usd": 0.00077495
+}

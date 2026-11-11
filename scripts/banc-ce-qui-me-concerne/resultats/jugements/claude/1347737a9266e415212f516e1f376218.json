@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "corse",
+    "raison": "Le texte prévoit expressément l’installation progressive d’un centre hospitalier régional puis universitaire au chef-lieu de la collectivité de Corse, ce qui modifie concrètement l’offre hospitalière locale pour ses habitants.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "etudiant",
+    "raison": "Le texte impose aux unités de formation en santé de proposer dans chaque département des enseignements allant au minimum jusqu’à la première année de plusieurs formations : cela élargit concrètement l’accès local aux études concernées.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0015134,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

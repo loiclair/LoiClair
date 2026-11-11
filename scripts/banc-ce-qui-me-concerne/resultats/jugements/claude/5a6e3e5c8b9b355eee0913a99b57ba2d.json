@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "heritier_donateur",
+    "raison": "La réduction à quinze ans vise notamment les successions ouvertes depuis le 1er janvier 2007 et non encore partagées ; les droits liés à une succession peuvent donc être directement affectés.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000492275,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

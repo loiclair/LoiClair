@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_sante",
+    "raison": "Le texte modifie les conditions légales d'exercice de la médecine en France (articles L. 4111-1, L. 4131-1 et L. 4131-1-1 du code de la santé publique) en reconnaissant des titres de formation britanniques. Il vise directement la profession médicale, donc le secteur de la santé.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "etranger_hors_ue",
+    "raison": "Le texte vise les titulaires de diplômes britanniques ayant commencé leurs études avant le 31 décembre 2020, et non les étrangers hors UE résidant en France. Le critère déclencheur est le diplôme et sa date, sans mention de résidence en France, alors que ce profil l'exige.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000773735,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_culture",
+    "raison": "Le texte vise les journalistes professionnels et assimilés travaillant pour une agence ou une entreprise de presse : il change leur affiliation à la Sécurité sociale, ce qui relève de la presse au sens du secteur culture.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "expat",
+    "raison": "Le texte précise que l'affiliation vaut quel que soit le pays d'exercice et de résidence, donc les journalistes résidant à l'étranger sont visés, ce qui concerne des Français établis hors de France.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0026457,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

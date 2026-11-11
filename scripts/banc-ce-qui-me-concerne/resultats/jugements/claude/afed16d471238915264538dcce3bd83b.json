@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "heritier_donateur",
+    "raison": "Le texte soumet directement les dons d'argent entre particuliers (donateur et donataire) aux droits de mutation à 6 % dans la limite de 100 000 euros, du 1er janvier au 30 juin 2027. C'est une transmission de patrimoine qui touche le donateur et le donataire. La phrase de l'assistant est inexacte : elle dit « de moins de 50 ans » sans rappeler la condition d'âge minimal de 18 ans révolus ou d'émancipation. Elle laisse donc entendre que des mineurs sont visés, ce qui est faux.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000610135,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

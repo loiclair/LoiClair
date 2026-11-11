@@ -1,0 +1,34 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "salarie_prive",
+    "raison": "Le dispositif vise expressément les salariés : leur employeur devrait les informer des frais applicables au déblocage. Cela les concerne directement s’ils détiennent les sommes visées.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "epargnant",
+    "raison": "La mesure porte sur l’épargne salariale et vise les salariés à ce titre. Or le profil « épargnant » ne couvre pas l’épargne salariale.",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "chef_entreprise",
+    "raison": "Le dispositif impose une obligation d’information à l’employeur ; cette obligation concerne directement les dirigeants d’une TPE, PME ou entreprise de taille moyenne qui emploient des salariés.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "dirigeant_grande_entreprise",
+    "raison": "Le dispositif impose une obligation d’information à l’employeur ; cette obligation concerne directement les dirigeants d’une entreprise de 250 salariés ou plus qui emploient des salariés.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0007309,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

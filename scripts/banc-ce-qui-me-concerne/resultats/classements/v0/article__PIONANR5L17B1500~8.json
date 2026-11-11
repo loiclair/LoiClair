@@ -1,0 +1,19 @@
+{
+ "impacts": [
+  {
+   "profil": "secteur_agriculture",
+   "passage": "Le fonds d’indemnisation des dégâts de grand gibier instruit les demandes d’indemnisation, avec le concours des fédérations départementales des chasseurs, et propose une indemnité aux réclamants selon un barème national d’indemnisation.",
+   "certitude": "probable",
+   "phrase_en": "Damage caused by big game would be compensated under a national scale, claimed through a single online portal; in case of disagreement, the national commission would decide without further appeal.",
+   "phrase_fr": "Les dégâts causés par le grand gibier seraient indemnisés selon un barème national, via un portail numérique unique ; en cas de désaccord, la Commission nationale trancherait sans recours."
+  },
+  {
+   "profil": "chasseur_pecheur",
+   "passage": "Elle contribue à l’indemnisation des dégâts de grand gibier par une portion ne pouvant excéder 40 % de son budget annuel qui est alloué au budget général de l’État.",
+   "certitude": "possible",
+   "phrase_en": "Up to 40% of the annual budget of the compensation fund would be transferred to the general state budget.",
+   "phrase_fr": "Une partie du budget annuel du fonds d'indemnisation pourrait être reversée au budget général de l'État, dans la limite de 40 %."
+  }
+ ],
+ "resume_fr": null
+}

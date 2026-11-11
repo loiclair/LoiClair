@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_sante",
+    "raison": "Oui. Le texte vise directement les médecins, chirurgiens-dentistes et sages-femmes lorsqu’ils sollicitent un remplacement pour contribuer à l’accès aux soins.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "independant",
+    "raison": "Non. Le texte vise les professions concernées sans préciser qu’elles exercent à leur compte ; le statut d’indépendant ne déclenche pas la mesure.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000668025,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

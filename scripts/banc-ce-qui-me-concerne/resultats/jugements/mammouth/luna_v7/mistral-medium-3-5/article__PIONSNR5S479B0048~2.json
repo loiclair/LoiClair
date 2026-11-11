@@ -1,0 +1,28 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etranger_hors_ue",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "Le texte modifie directement les conditions d'accès aux prestations familiales et à l'APA pour les étrangers hors UE, avec une condition de séjour de deux ans et des exceptions. La phrase est fidèle et utilise le conditionnel car le texte n'est pas adopté."
+   },
+   {
+    "profil": "allocataire",
+    "concerne": true,
+    "phrase_fidele": false,
+    "raison": "Le profil est concerné car l'article modifie les conditions d'accès aux aides personnelles au logement (APL) pour certains étrangers hors UE. Cependant, la phrase proposée est infidèle car elle ne précise pas que la condition de deux ans ne s'applique pas aux étrangers disposant d'un titre de séjour pour motif d'études (exception mentionnée dans le passage cité)."
+   },
+   {
+    "profil": "age_dependant",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "Le profil est concerné car l'article modifie les conditions d'accès à l'APA pour les étrangers hors UE. La phrase est fidèle et utilise le conditionnel."
+   }
+  ],
+  "oublis": [
+   "etudiant"
+  ]
+ },
+ "cout_usd": 0.008853
+}

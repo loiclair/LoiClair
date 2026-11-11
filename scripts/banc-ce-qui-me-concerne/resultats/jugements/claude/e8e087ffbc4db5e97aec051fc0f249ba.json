@@ -1,0 +1,43 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "senior",
+    "raison": "Le 4° du II vise les contribuables de plus de 60 ans, un sous-groupe des 55 ans et plus.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "veuf",
+    "raison": "Le 4° du II vise expressément les veuves et veufs sous conditions de revenus.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "handicap",
+    "raison": "Le 2° (titulaires de l'AAH) et les 3° et 6° (infirmité ou invalidité empêchant de travailler) visent les personnes en situation de handicap.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "patrimoine_ifi",
+    "raison": "La condition d'absence d'IFI écarte ce groupe d'un dégrèvement lié à une taxe nouvelle, donc rien ne change pour lui. Le tarif dépend du revenu fiscal de référence, pas de l'IFI.",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "outre_mer",
+    "raison": "Le texte fixe des seuils de revenus propres à la Martinique, la Guadeloupe, La Réunion, la Guyane et Mayotte pour le dégrèvement.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "age_dependant"
+  ]
+ },
+ "cout_usd": 0.0114757,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

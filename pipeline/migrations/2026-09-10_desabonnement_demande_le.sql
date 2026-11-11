@@ -1,0 +1,35 @@
+-- 2026-09-10 : un désabonnement refusé par Resend se garde au lieu de se perdre
+--
+-- À appliquer à la main AVANT le déploiement :
+-- `send/route.ts` et `unsubscribe/route.ts` lisent tous deux cette colonne, et un
+-- SELECT sur une colonne absente rend un 400 de l'ancienne API, donc une newsletter qui ne
+-- part pas. Additive et sans défaut : le code en place l'ignore.
+--
+-- Objet : `newsletter_subscribers.desabonnement_demande_le`, posée quand l'utilisateur
+-- a demandé son désabonnement mais que Resend a refusé de supprimer le contact. Le
+-- rattrapage du lundi rejoue la suppression et détruit la ligne quand elle passe.
+--
+-- Pourquoi : la route supprimait la ligne locale même quand Resend avait refusé. Le
+-- contact restait donc chez Resend, continuait de recevoir la lettre, et il ne restait
+-- plus rien localement pour rejouer la suppression. L'obligation du RGPD est de faire
+-- cesser le traitement, pas de détruire la trace de la demande : garder quelques jours
+-- une ligne dont l'unique finalité est d'exécuter l'effacement demandé est licite et
+-- proportionné, la détruire pendant que le traitement continue chez le sous-traitant
+-- est l'inverse de ce que le règlement veut.
+--
+-- LE PIÈGE, et la raison de cette colonne plutôt que d'un marqueur gratuit.
+-- Réutiliser `confirmed = false` comme marqueur serait tentant et ne coûterait rien.
+-- Mais `cleanup_expired_tokens`, appelée tous les jours à 6h UTC par
+-- `cleanup-newsletter-subscribers.yml`, fait exactement ceci (vérifié le 2026-09-09) :
+--
+--   DELETE FROM newsletter_subscribers
+--    WHERE confirmed = false AND subscribed_at < now() - interval '48 hours';
+--
+-- Le marqueur partirait donc avec la ligne au bout de deux jours, et on réintroduirait
+-- le bug qu'on corrige, en pire, puisqu'il n'apparaîtrait qu'après coup. Une ligne
+-- marquée reste `confirmed = true` et survit.
+--
+-- Volume attendu : 1 colonne, aucune ligne écrite (0 désabonnement en échec à ce jour).
+
+alter table public.newsletter_subscribers
+  add column if not exists desabonnement_demande_le timestamptz;

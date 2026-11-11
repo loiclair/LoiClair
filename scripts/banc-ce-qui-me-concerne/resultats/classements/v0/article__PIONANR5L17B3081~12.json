@@ -1,0 +1,12 @@
+{
+ "impacts": [
+  {
+   "profil": "travailleur_plateforme",
+   "passage": "Aucune suspension, désactivation, déréférencement, réduction d’accès aux missions ou décision produisant des effets comparables ne peut être prise exclusivement sur le fondement d’un traitement algorithmique automatisé.",
+   "certitude": "certain",
+   "phrase_en": "An algorithm alone would no longer be able to suspend, deactivate or reduce a worker's access to missions. Any such decision would have to be reasoned, notified, and preceded by a procedure letting the worker present their observations.",
+   "phrase_fr": "Un algorithme ne pourrait plus seul suspendre, désactiver ou réduire l'accès aux missions d'un travailleur. Toute décision de ce type devrait être motivée, notifiée, et précédée d'une procédure lui permettant de présenter ses observations."
+  }
+ ],
+ "resume_fr": null
+}

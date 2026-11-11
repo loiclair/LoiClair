@@ -1,0 +1,26 @@
+{
+ "impacts": [
+  {
+   "profil": "salarie_prive",
+   "phrase_fr": "Les salariés concernés cotiseraient à un régime de retraite supplémentaire, avec une cotisation partagée à parts égales avec leur employeur.",
+   "phrase_en": "Covered employees would contribute to an additional pension scheme, with the contribution split equally with their employer.",
+   "passage": "– Les cotisations, dont le taux global, fixé par décret en Conseil d'État, ne peut dépasser 2 % de la rémunération, sont réparties à parts égales entre les employeurs et les salariés. «",
+   "certitude": "certain"
+  },
+  {
+   "profil": "chef_entreprise",
+   "phrase_fr": "Les employeurs concernés prendraient en charge la moitié de la cotisation au nouveau régime de retraite de leurs salariés.",
+   "phrase_en": "Covered employers would pay half of their employees’ contributions to the new pension scheme.",
+   "passage": "– Les cotisations, dont le taux global, fixé par décret en Conseil d'État, ne peut dépasser 2 % de la rémunération, sont réparties à parts égales entre les employeurs et les salariés. «",
+   "certitude": "certain"
+  },
+  {
+   "profil": "dirigeant_grande_entreprise",
+   "phrase_fr": "Les employeurs concernés prendraient en charge la moitié de la cotisation au nouveau régime de retraite de leurs salariés.",
+   "phrase_en": "Covered employers would pay half of their employees’ contributions to the new pension scheme.",
+   "passage": "– Les cotisations, dont le taux global, fixé par décret en Conseil d'État, ne peut dépasser 2 % de la rémunération, sont réparties à parts égales entre les employeurs et les salariés. «",
+   "certitude": "certain"
+  }
+ ],
+ "cout_usd": 0.00052385
+}

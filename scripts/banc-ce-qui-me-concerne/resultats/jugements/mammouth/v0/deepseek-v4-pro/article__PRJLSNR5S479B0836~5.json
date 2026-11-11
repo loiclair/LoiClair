@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_finance",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article mentionne explicitement la fonction d'agent de change, une profession du secteur de la finance, en l'interdisant comme peine complémentaire pour certaines condamnations douanières."
+   },
+   {
+    "profil": "chef_entreprise",
+    "concerne": false,
+    "phrase_fidele": true,
+    "raison": "Le passage ne vise pas le profil 'chef_entreprise' de manière directe. L'interdiction d'être électeur ou élu aux chambres de commerce, tribunaux de commerce et conseils de prud'hommes peut toucher un chef d'entreprise, mais elle peut aussi concerner d'autres profils (élus, salariés). Le profil du catalogue 'chef_entreprise' n'est donc pas spécifiquement et directement visé par l'article."
+   }
+  ],
+  "oublis": [
+   "elu_local",
+   "syndique"
+  ]
+ },
+ "cout_usd": 0.002249
+}

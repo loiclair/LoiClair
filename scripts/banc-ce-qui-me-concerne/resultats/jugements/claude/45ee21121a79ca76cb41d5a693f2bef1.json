@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "elu_local",
+    "raison": "Le texte prévoit que les établissements informent directement le maire de la commune concernée, qui relève du profil élu_local.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00025015,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

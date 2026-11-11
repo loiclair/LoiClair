@@ -1,0 +1,32 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "heritier_donateur",
+    "raison": "Le texte vise les donations en argent à des descendants, neveux ou nièces, taxées à 6 % ou 5 % : il concerne directement ceux qui donnent ou reçoivent.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "jeune",
+    "raison": "Le texte vise les donataires de 18 ans révolus à moins de 50 ans, ce qui inclut les 18-25 ans : le sous-groupe les contient et ils bénéficieraient du taux réduit.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "mineur",
+    "raison": "Le texte mentionne expressément les donataires ayant fait l'objet d'une mesure d'émancipation, donc des mineurs émancipés, qui bénéficieraient du taux réduit.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "parent",
+   "epargnant"
+  ]
+ },
+ "cout_usd": 0.0035967,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

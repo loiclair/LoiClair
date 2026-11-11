@@ -1,0 +1,18 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "coproprietaire",
+    "raison": "Le texte prévoit une indemnisation pour les bailleurs qui détiennent un lot dans l’établissement dont l’activité cesse.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": [
+   "proprietaire_bailleur"
+  ]
+ },
+ "cout_usd": 0.000424525,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "chef_entreprise",
+    "raison": "L'article vise les cessions d'entreprises (entreprises individuelles, sociétés) : le cédant, dirigeant de PME, et le cessionnaire qui reprend et exploite l'entreprise sont directement touchés. Mais la phrase dit « de la cession de votre entreprise » et omet que le crédit d'impôt bénéficie au cessionnaire (repreneur), pas au cédant ; elle est donc inexacte.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "heritier_donateur",
+    "raison": "Les cessions à titre gratuit (donation, succession) ouvrent droit au crédit d'impôt sur les droits de mutation à titre gratuit : le bénéficiaire qui reçoit l'entreprise est visé. La phrase omet la condition d'engagement de maintien d'activité de cinq ans et le plafond de 100 000 euros, mais ne contient aucun fait faux et respecte le conditionnel.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0036517,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

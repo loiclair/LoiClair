@@ -1,0 +1,14 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "outre_mer",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article modifie directement les critères de classement des communes pour l'application de la taxe sur les logements vacants uniquement pour les collectivités régies par l'article 73 de la Constitution, c'est-à-dire les départements et régions d'outre-mer. Un propriétaire d'un logement vacant dans ces territoires est donc directement concerné par une possible extension de la taxe selon de nouveaux indicateurs locaux. Le conditionnel est correctement employé car le texte n'est pas une loi publiée."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0018759
+}

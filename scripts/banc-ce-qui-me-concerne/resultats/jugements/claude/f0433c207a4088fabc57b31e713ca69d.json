@@ -1,0 +1,24 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "heritier_donateur",
+    "raison": "Le texte modifie directement la fiscalité des dons et impose au donataire une démarche de déclaration ou d’enregistrement.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "jeune",
+    "raison": "Les jeunes de 18 à 25 ans sont inclus dans la tranche d’âge de 18 à moins de 50 ans ouvrant droit au régime prévu.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": [
+   "mineur"
+  ]
+ },
+ "cout_usd": 0.000727775,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

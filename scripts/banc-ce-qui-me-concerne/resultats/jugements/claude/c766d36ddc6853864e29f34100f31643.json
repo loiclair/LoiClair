@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "montagne",
+    "raison": "L'article vise des projets d'hébergement touristique, dont l'autorisation relève du préfet et de la procédure d'unité touristique nouvelle. Le mot « montagnard » n'y figure que comme critère de protection de l'environnement, pas comme catégorie de personnes. Un habitant d'une commune de montagne n'y gagne ni ne perd rien directement : l'effet passe par les porteurs de projets et la décision préfectorale.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0007894125,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

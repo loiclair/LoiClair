@@ -1,0 +1,14 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "outre_mer",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'amendement adapte spécifiquement les règles pour les résidents de Wallis-et-Futuna, un territoire d'outre-mer, en modifiant les références aux organismes d'affiliation et en confiant la prise en charge des soins à l'agence de santé locale. Le passage cité est exact et l'effet est direct pour ce profil."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.007161
+}

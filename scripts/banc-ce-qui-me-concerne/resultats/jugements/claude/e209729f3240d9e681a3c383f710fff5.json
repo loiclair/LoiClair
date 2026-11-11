@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "mineur",
+    "raison": "Le texte vise expressément les mineurs victimes de prostitution ou d’exploitation sexuelle et prévoit leur repérage, leur orientation et, le cas échéant, l’accès à un hébergement adapté.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000225525,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

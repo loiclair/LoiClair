@@ -1,0 +1,29 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "forces_ordre",
+    "raison": "L'article 78-2-2-1 du code de procédure pénale autorise directement les agents mentionnés à l'article 78-2 (policiers et gendarmes) à relever empreintes ou photographies lors d'un contrôle d'identité en cas de concordance Schengen. Ce sont eux qui exercent ce pouvoir.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "etranger_ue",
+    "raison": "Le texte vise les contrôles aux frontières et les étrangers au sens du CESEDA, mais les règlements cités (VIS, EES, interopérabilité) portent sur les ressortissants de pays tiers. Le texte ne mentionne pas les ressortissants de l'Union européenne, qui ne sont pas visés par ce dispositif.",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "etranger_hors_ue",
+    "raison": "Le texte vise directement les ressortissants de pays tiers : il cite le règlement EES « concernant les ressortissants de pays tiers » et crée une obligation de relevé d'empreintes ou de photographies, avec une retenue et une peine en cas de refus par l'étranger.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0011457350000000002,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

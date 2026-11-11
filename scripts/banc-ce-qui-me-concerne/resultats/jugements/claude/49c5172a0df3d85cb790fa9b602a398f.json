@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_culture",
+    "raison": "Le texte vise les journalistes professionnels et assimilés qui fournissent des contenus à la presse, et change directement leur affiliation à la sécurité sociale française, quel que soit leur lien juridique avec l'entreprise.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "expat",
+    "raison": "La dérogation vaut « quel que soit leur pays d'exercice et leur pays de résidence » : elle désigne explicitement les journalistes résidant hors de France, dont les Français établis à l'étranger, et leur ouvre l'affiliation française.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000869185,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

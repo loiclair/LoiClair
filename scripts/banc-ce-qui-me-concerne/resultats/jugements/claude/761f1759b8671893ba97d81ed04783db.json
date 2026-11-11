@@ -1,0 +1,35 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "outre_mer",
+    "raison": "Le III ne s'applique qu'aux personnels justifiant d'une résidence effective en Nouvelle-Calédonie, à Wallis-et-Futuna ou en Polynésie française, ce qui fait du lieu de vie le critère déclencheur. La phrase omet les conditions de durée de service et de congés bonifiés, mais ne fabrique aucun fait.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "fonctionnaire",
+    "raison": "Le texte vise les personnels relevant du code des pensions civiles et militaires, dont les fonctionnaires de l'État, et change le calcul de leur pension de liquidation s'ils remplissent les conditions de résidence. La phrase reste conditionnelle et correcte.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "forces_ordre",
+    "raison": "Le texte nomme explicitement les militaires (« fonctionnaire, magistrat ou militaire ») parmi les bénéficiaires du calcul majoré, sous conditions de résidence et de services dans ces territoires.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "retraite",
+    "raison": "Le profil désigne les personnes déjà retraitées. La condition porte sur le calcul de la pension au moment de sa prise d'effet (IV, « à la date d'effet de leur pension »), donc sur des liquidations futures. Les retraités actuels ne sont pas visés, et la phrase de l'assistant le suggère à tort.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.001402585,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

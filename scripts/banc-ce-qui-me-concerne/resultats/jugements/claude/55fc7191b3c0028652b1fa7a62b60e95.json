@@ -1,0 +1,25 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "proprietaire_occupant",
+    "raison": "Le texte vise le propriétaire d’une construction endommagée par le retrait-gonflement des argiles et prévoit, pour le guichet du fonds, une assurance multirisque habitation. Il ne distingue pas selon que le propriétaire habite le bien.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "proprietaire_bailleur",
+    "raison": "Le texte vise le propriétaire d’une construction endommagée par le retrait-gonflement des argiles et ne réserve pas l’aide aux logements occupés par leur propriétaire. L’assurance multirisque habitation est prévue comme condition d’accès au guichet du fonds.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "coproprietaire",
+   "residence_secondaire"
+  ]
+ },
+ "cout_usd": 0.0008109,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

@@ -1,0 +1,26 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etudiant",
+    "raison": "L'article fixe les critères de priorité (nationalité, ressources) pour l'aide servie aux étudiants : cela change directement leurs droits à l'aide.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "etranger_ue",
+    "raison": "Le texte cite expressément les ressortissants d'un État membre de l'UE parmi les bénéficiaires prioritaires de l'aide, ce qui les vise directement en tant qu'étudiants étrangers européens vivant en France.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "etranger_hors_ue",
+   "jeune"
+  ]
+ },
+ "cout_usd": 0.0026376999999999998,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

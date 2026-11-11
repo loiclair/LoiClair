@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "demandeur_emploi",
+    "raison": "Le texte vise des « personnes sans emploi » en difficulté sociale et professionnelle, accompagnées vers une activité indépendante. Un demandeur d'emploi peut donc être directement concerné, même si les conditions d'éligibilité sont fixées par décret.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "chef_entreprise",
+    "raison": "Le texte crée un type de structure conventionnée par l'autorité administrative, mais il ne vise pas les dirigeants de PME en tant que tels. L'effet passe par les entreprises d'insertion elles-mêmes. La phrase prête aussi aux dirigeants une faculté de création que le texte ne mentionne pas.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0034617,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

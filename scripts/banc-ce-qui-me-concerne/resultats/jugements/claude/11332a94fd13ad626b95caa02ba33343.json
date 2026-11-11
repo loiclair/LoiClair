@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "veuf",
+    "raison": "Le texte vise directement le conjoint survivant d'un fonctionnaire civil ou militaire décédé qui occupait un logement de fonction : il lui ouvre une majoration forfaitaire (I) et un maintien d'un an dans le logement (II). Être veuf est le statut qui déclenche la mesure.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "marie_pacse",
+    "raison": "Les droits ne naissent qu'au décès du conjoint : la personne visée est alors veuve, non mariée ou pacsée. Un lecteur encore marié ou pacsé n'est pas visé par la mesure.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000589885,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

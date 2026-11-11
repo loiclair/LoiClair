@@ -1,0 +1,29 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etranger_hors_ue",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'amendement modifie directement les conditions d'accès aux prestations familiales pour les étrangers hors UE, en ajoutant une condition de résidence d'un an (sauf exceptions). Le passage 'et qui y résident depuis au moins un an' vise explicitement ce profil."
+   },
+   {
+    "profil": "parent",
+    "concerne": false,
+    "phrase_fidele": false,
+    "raison": "L'article ne cible pas spécifiquement les parents, mais les étrangers hors UE. Les prestations familiales concernent les parents, mais l'effet direct est sur les étrangers, pas sur le statut de parent en soi. La phrase proposée est donc infidèle car elle suggère un ciblage des parents, ce qui n'est pas le cas."
+   },
+   {
+    "profil": "outre_mer",
+    "concerne": true,
+    "phrase_fidele": false,
+    "raison": "Le profil 'outre_mer' est concerné car l'article II modifie spécifiquement des dispositions pour Mayotte (collectivité d'outre-mer). Cependant, la phrase proposée est infidèle car elle ne mentionne pas explicitement Mayotte et mélange des éléments non pertinents pour ce profil (ex: 'sauf réfugiés et apatrides' ne concerne pas directement Mayotte)."
+   }
+  ],
+  "oublis": [
+   "famille_nombreuse",
+   "allocataire"
+  ]
+ },
+ "cout_usd": 0.0087855
+}

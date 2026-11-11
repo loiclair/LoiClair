@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_sante",
+    "raison": "Le texte prévoit que le secret médical n’est pas opposable lorsque les données sont collectées par l’intermédiaire d’un professionnel de santé : cela modifie directement ses obligations dans cette situation.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0004824,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

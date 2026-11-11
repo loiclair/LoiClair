@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "forces_ordre",
+    "raison": "L'article qualifie le survol d'une zone de défense ou d'une emprise militaire par un drone de « menace imminente ». Il ne désigne ni les policiers, gendarmes ou militaires, ni leurs missions ou obligations. Il vise le survol et ses auteurs, et ne change les pouvoirs des forces que par ricochet, via l'article L. 213-2 du code de la sécurité intérieure. Pas concerné.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00047498500000000003,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

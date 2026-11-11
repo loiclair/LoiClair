@@ -1,0 +1,19 @@
+{
+ "impacts": [
+  {
+   "profil": "usager_transports",
+   "passage": "Le public est informé, par une signalétique spécifique, que le moyen de transport est équipé d'une caméra.",
+   "certitude": "probable",
+   "phrase_en": "Trams and metros may be fitted, on a three-year trial basis, with front cameras filming the public road. Images are deleted after thirty days.",
+   "phrase_fr": "Les tramways et métros pourront être équipés, à titre expérimental pendant trois ans, de caméras frontales filmant la voie publique. Les images sont effacées au bout de trente jours."
+  },
+  {
+   "profil": "secteur_transport",
+   "passage": "Les traitements prévus au présent article ont exclusivement pour finalités d'assurer la prévention et l'analyse des accidents ainsi que la formation du personnel de conduite et de sa hiérarchie.",
+   "certitude": "probable",
+   "phrase_en": "Footage from onboard cameras may be used to analyse accidents and to train drivers and their supervisors.",
+   "phrase_fr": "Les images des caméras embarquées pourront servir à analyser les accidents et à former les conducteurs et leur hiérarchie."
+  }
+ ],
+ "resume_fr": null
+}

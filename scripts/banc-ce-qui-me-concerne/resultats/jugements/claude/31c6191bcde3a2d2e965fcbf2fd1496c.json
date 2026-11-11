@@ -1,0 +1,41 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "outre_mer",
+    "raison": "Le texte vise directement les assurés résidant à Mayotte : le maintien de leurs droits et prestations sociales dépend de ce lieu de vie, qui déclenche la mesure.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "handicap",
+    "raison": "Le II.A.2 vise la PCH, la carte mobilité inclusion et les droits décidés par la commission des droits (L. 241-6), qui sont versés aux personnes handicapées. Leur accord peut être prolongé de douze mois au maximum, sauf refus ou modification.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "age_dependant",
+    "raison": "Le II.A.2 a) vise nommément l'allocation personnalisée d'autonomie (APA), versée aux personnes âgées en perte d'autonomie. Leur accord peut être prolongé de douze mois au maximum.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "parent",
+    "raison": "Le II.A.2 e) vise l'allocation d'éducation de l'enfant handicapé, versée aux parents ou responsables légaux. Ils peuvent en garder le bénéfice au-delà de leur accord, dans la limite de douze mois.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "allocataire",
+    "raison": "Le I, troisième alinéa, déroge à l'interdiction de sous-location pour les aides personnelles au logement (APL, ALF, ALS) versées à Mayotte. Les bénéficiaires peuvent donc les conserver ou les obtenir même si une partie du logement est sous-louée.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.002602685,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

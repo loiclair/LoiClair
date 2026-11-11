@@ -1,0 +1,19 @@
+{
+ "impacts": [
+  {
+   "profil": "secteur_sante",
+   "phrase_fr": "Les professionnels de santé pourraient être suspendus après une mise en examen liée à leur profession, et certains pourraient ensuite se voir interdire temporairement ou définitivement d’exercer.",
+   "phrase_en": "Health professionals could be suspended after being placed under formal investigation in connection with their work, and some could later be temporarily or permanently barred from practising.",
+   "passage": "ou lorsque le professionnel de santé fait l’objet d’une mise en examen en lien avec l’exercice de sa profession",
+   "certitude": "certain"
+  },
+  {
+   "profil": "etudiant",
+   "phrase_fr": "Les étudiants préparant une profession de santé pourraient être concernés par une mesure de suspension liée à l’exercice de cette profession.",
+   "phrase_en": "Students training for a health profession could be affected by a suspension measure connected with practising that profession.",
+   "passage": "Les élèves et les étudiants des établissements préparant aux professions de santé régies par la quatrième partie du code de la santé publique",
+   "certitude": "certain"
+  }
+ ],
+ "cout_usd": 0.000387475
+}

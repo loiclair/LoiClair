@@ -1,0 +1,18 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "chef_entreprise",
+    "raison": "Concerné : la règle de rejet du silence administratif modifie la démarche d’autorisation nécessaire pour employer des mineurs à des travaux réglementés dans une entreprise.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "dirigeant_grande_entreprise"
+  ]
+ },
+ "cout_usd": 0.000525025,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

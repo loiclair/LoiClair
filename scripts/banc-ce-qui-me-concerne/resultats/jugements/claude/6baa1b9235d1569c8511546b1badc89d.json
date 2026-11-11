@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "expat",
+    "raison": "Le texte vise directement les contribuables sans résidence fiscale en France et modifie la règle applicable à leurs recettes ; les Français établis à l’étranger concernés entrent dans ce groupe.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000608775,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

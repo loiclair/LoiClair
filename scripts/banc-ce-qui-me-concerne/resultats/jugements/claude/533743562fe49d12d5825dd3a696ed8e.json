@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "expat",
+    "raison": "Le texte vise les contribuables « qui n'ont pas leur résidence fiscale en France », c'est-à-dire les personnes établies hors de France, et change la règle de calcul de l'impôt qui leur est appliqué. Le critère est fiscal et non la nationalité, donc le recoupement avec la définition du catalogue est large mais pas parfait.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.001164385,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

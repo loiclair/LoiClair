@@ -1,0 +1,19 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "grande_ville",
+    "raison": "Les zones à faibles émissions sont des dispositifs urbains (le catalogue les cite comme exemple de grande_ville). L'évaluation du texte détermine où les restrictions de circulation s'appliquent dans ces zones, ce qui touche directement les habitants concernés.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": [
+   "automobiliste"
+  ]
+ },
+ "cout_usd": 0.0008571849999999999,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

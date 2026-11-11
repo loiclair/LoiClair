@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etranger_hors_ue",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article prévoit explicitement que les étrangers (hors UE, car le SIS et les contrôles aux frontières concernent principalement les ressortissants de pays tiers) peuvent être soumis à des relevés d'empreintes ou de photographies lors de contrôles aux frontières, avec des conséquences en cas de refus (retenue et sanctions). Le passage cité est exact et justifie le profil."
+   }
+  ],
+  "oublis": [
+   "forces_ordre"
+  ]
+ },
+ "cout_usd": 0.0118245
+}

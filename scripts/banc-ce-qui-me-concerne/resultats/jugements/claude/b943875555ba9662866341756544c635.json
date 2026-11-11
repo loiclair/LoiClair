@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "salarie_prive",
+    "raison": "L'article étend à l'arrêt maladie consécutif à une IVG la règle de l'article L. 323-1-2, qui écarte le délai de carence pour les indemnités journalières. Ces indemnités remplacent le salaire des salariés du régime général, dont les salariés du privé. Le texte ne nomme pas les salariés, mais la mesure touche directement leurs indemnités.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000476935,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

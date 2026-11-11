@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "travailleur_plateforme",
+    "raison": "Le texte vise expressément le travailleur et interdit que ces décisions soient prises exclusivement par traitement algorithmique automatisé.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000161525,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

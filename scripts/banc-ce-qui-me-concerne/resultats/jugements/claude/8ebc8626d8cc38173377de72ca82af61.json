@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_industrie",
+    "raison": "Le texte impose aux producteurs une obligation technique et commerciale concernant la puissance de leurs installations. Selon la règle sur les secteurs, cela ne suffit pas à viser les personnes qui travaillent dans l’industrie ou l’énergie.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000284525,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

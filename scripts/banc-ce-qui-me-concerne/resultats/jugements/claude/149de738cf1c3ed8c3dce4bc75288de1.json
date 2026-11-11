@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "forces_ordre",
+    "raison": "L'article renomme la police municipale en police territoriale et élargit les compétences de ces agents (procès-verbaux pour les contraventions du livre VI du code pénal, contraventions routières). Le profil forces_ordre (policier, gendarme, militaire) les vise directement, puisque leurs missions changent.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0029436999999999996,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

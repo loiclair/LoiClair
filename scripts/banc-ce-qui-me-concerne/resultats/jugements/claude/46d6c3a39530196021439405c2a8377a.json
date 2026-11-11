@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "joueur",
+    "raison": "L'article étend les missions de l'ARJEL (art. 34 de la loi de 2010) aux pratiques commerciales en ligne de l'art. L. 121-20 (loteries publicitaires). Il agit sur le champ de compétence du régulateur, donc par un tiers. Il ne modifie ni droits ni obligations du joueur, et le profil joueur vise les paris sportifs, le poker et les jeux d'argent en ligne, pas les participants à des jeux-concours.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0022787,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

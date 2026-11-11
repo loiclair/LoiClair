@@ -1,0 +1,29 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "salarie_prive",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article vise les personnes mentionnées aux articles L. 311-2 et L. 311-3 du code de la sécurité sociale, qui sont les salariés du privé. Le passage cité précise que les cotisations sont réparties entre employeurs et salariés, ce qui les concerne directement. La phrase est fidèle au texte et respecte le conditionnel car il s'agit d'une proposition de loi."
+   },
+   {
+    "profil": "chef_entreprise",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article impose une obligation aux employeurs de payer la moitié des cotisations. Le chef d'entreprise, en tant qu'employeur, est directement concerné par cette nouvelle charge. La phrase est fidèle au texte et respecte le conditionnel."
+   },
+   {
+    "profil": "dirigeant_grande_entreprise",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article impose une obligation aux employeurs de payer la moitié des cotisations. Le dirigeant d'une grande entreprise, en tant qu'employeur, est directement concerné par cette nouvelle charge. La phrase est fidèle au texte et respecte le conditionnel."
+   }
+  ],
+  "oublis": [
+   "independant",
+   "salarie_particulier"
+  ]
+ },
+ "cout_usd": 0.003354
+}

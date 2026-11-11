@@ -1,0 +1,40 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "senior",
+    "raison": "Le dégrèvement vise notamment les contribuables de plus de 60 ans, qui appartiennent au profil senior, sous conditions de revenus et d’absence d’assujettissement à l’IFI.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "veuf",
+    "raison": "Le texte prévoit explicitement un dégrèvement pour les veuves et veufs, sous conditions de revenus et d’absence d’assujettissement à l’IFI.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "handicap",
+    "raison": "Le dégrèvement vise les personnes dont une infirmité ou une invalidité les empêche de subvenir par leur travail aux nécessités de l’existence, sous condition de revenus.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "patrimoine_ifi",
+    "raison": "L’assujettissement à l’IFI exclut du dégrèvement une catégorie définie par l’âge ou le veuvage ; il ne crée pas, à lui seul, un effet direct pour le profil IFI.",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "outre_mer",
+    "raison": "Le texte prévoit explicitement des seuils de revenus adaptés pour plusieurs territoires ultramarins, dont la Martinique, la Guadeloupe, La Réunion, la Guyane et Mayotte.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00126265,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

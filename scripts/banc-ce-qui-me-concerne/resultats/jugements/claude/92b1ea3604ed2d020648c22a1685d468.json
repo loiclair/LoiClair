@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "marie_pacse",
+    "raison": "L'amendement vise expressément les violations d'ordonnance de protection commises par un « conjoint », et les range parmi les violences intrafamiliales. Une personne mariée est directement visée, comme victime de son conjoint, par le changement de qualification et de traitement de ces faits.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "separe_divorce",
+    "raison": "L'amendement vise expressément les violations d'ordonnance de protection commises par un « ancien conjoint », et les range parmi les violences intrafamiliales. Une personne divorcée est directement visée, comme victime de son ancien conjoint, par le changement de qualification et de traitement de ces faits.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.001345835,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

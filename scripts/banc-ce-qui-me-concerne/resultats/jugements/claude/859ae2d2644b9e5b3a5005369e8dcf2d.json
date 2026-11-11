@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_agriculture",
+    "raison": "L'article ne nomme ni les agriculteurs ni le secteur agricole. Il vise les « réclamants » qui demandent une indemnité pour dégâts de grand gibier, sans lien avec un métier. La procédure (portail, barème national) s'applique à tout réclamant quel que soit son secteur, et la mesure ne change pas la façon d'exercer l'agriculture.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000414085,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

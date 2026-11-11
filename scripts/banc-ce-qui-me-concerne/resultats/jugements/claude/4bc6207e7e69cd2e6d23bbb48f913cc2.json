@@ -1,0 +1,29 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_sante",
+    "raison": "Le texte vise « tout professionnel de santé » mis en examen en lien avec sa profession (I, II-1°, III) : la mesure change directement les obligations de ceux qui soignent. La phrase de l'assistant attribue toutefois la suspension à l'ARS, ce que l'extrait ne dit pas : le sujet de « prononce » n'est pas nommé, le ministère public informe seulement l'ARS, et l'ARS n'a un pouvoir d'interdiction que pour les professionnels hors ordre (VI).",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "independant",
+    "raison": "Le 1° de l'article 4 vise les professionnels qui réalisent des soins « dans tout autre lieu », hors établissement, ce qui atteint directement les professionnels de santé libéraux (infirmiers, kinésithérapeutes, médecins en cabinet) : la mesure est donc nommée par leur mode d'exercice. La phrase est fidèle, à la réserve près qu'elle omet la condition de contact avec des usagers.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "etudiant",
+    "raison": "Le 3° vise explicitement « les élèves et les étudiants des établissements préparant aux professions de santé », sous-ensemble des étudiants : la mesure de suspension les atteint directement. La phrase est fidèle et correctement conditionnelle.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.001683285,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

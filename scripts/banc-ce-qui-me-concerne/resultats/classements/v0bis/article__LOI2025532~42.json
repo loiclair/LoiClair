@@ -1,0 +1,19 @@
+{
+ "impacts": [
+  {
+   "profil": "forces_ordre",
+   "phrase_fr": "Les actes d'enquête qui prolongent une infraction déjà commencée ne sont plus considérés comme une incitation, même si elle se répète ou s'aggrave.",
+   "phrase_en": "Investigative acts that continue an offence already under way are no longer treated as incitement, even if it is repeated or escalates.",
+   "passage": "Ne constituent pas une incitation à commettre une infraction les actes qui contribuent à la poursuite d'une infraction déjà préparée ou débutée au moment où l'autorisation mentionnée au présent article a été accordée par le magistrat compétent",
+   "certitude": "probable"
+  },
+  {
+   "profil": "fonctionnaire",
+   "phrase_fr": "Les agents des douanes qui agissent pendant une infraction déjà commencée ne sont plus considérés comme incitant à la commettre, même si elle se répète ou s'aggrave.",
+   "phrase_en": "Customs officers acting during an offence already under way are no longer treated as inciting it, even if it is repeated or escalates.",
+   "passage": "Ne constituent pas une incitation à commettre une infraction les actes qui contribuent à la poursuite d'une infraction déjà préparée ou débutée au moment de l'information du procureur de la République",
+   "certitude": "possible"
+  }
+ ],
+ "cout_usd": 0.00114065
+}

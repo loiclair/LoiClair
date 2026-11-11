@@ -1,0 +1,28 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etranger_hors_ue",
+    "raison": "Le dispositif de l’amendement n’est pas publié ; l’article 37 n’est fourni qu’à titre de contexte et ne permet pas d’établir que l’amendement impose cette condition.",
+    "concerne": false,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "parent",
+    "raison": "Aucun dispositif publié ne permet de conclure que l’amendement modifie les droits des parents ou des bénéficiaires de prestations familiales.",
+    "concerne": false,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "outre_mer",
+    "raison": "Le dispositif n’étant pas publié, rien ne permet d’attribuer à l’amendement la modification du délai à Mayotte évoquée dans la phrase.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000365775,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

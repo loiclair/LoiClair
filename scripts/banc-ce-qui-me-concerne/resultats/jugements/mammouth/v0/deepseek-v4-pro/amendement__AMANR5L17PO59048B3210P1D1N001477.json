@@ -1,0 +1,14 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_agriculture",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'amendement modifie directement le crédit d'impôt pour remplacement des exploitants agricoles. Le dispositif et l'exposé des auteurs visent explicitement les « agricultrices et agriculteurs ». L'effet est concret (hausse du crédit d'impôt de 80 % à 100 % pour maladie, accident du travail, formation). Le conditionnel est correct car le texte n'est pas une loi publiée."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0073329
+}

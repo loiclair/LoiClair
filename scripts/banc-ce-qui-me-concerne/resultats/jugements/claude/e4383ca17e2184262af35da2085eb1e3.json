@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etranger_ue",
+    "raison": "La condition « de nationalité française ou résider de façon stable et régulière en France » vaut pour tous les habitants, sans viser les étrangers. De plus, l'aide à mourir est un droit nouveau, donc la condition n'enlève rien à personne.",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "etranger_hors_ue",
+    "raison": "La condition de résidence stable et régulière s'applique à tous les habitants et ne désigne pas spécifiquement les étrangers hors UE. Elle porte sur un droit nouveau, donc elle ne change rien pour eux en tant que tels.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0045317,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

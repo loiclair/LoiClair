@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "parent",
+    "raison": "L’article 448 vise explicitement le parent vivant dans les règles de désignation d’un protecteur pour son enfant. Mais le texte précise que ce parent ne doit pas bénéficier d’une mesure de curatelle ou de tutelle.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0007289,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

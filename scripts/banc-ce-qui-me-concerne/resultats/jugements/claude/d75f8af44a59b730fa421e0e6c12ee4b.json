@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "emprunteur",
+    "raison": "Le dispositif vise la personne dont une obligation est contestée dans le cadre d’une usurpation d’identité, pas les emprunteurs du seul fait qu’ils contestent une dette.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00030665,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

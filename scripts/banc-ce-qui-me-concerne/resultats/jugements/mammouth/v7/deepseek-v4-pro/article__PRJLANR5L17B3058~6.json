@@ -1,0 +1,12 @@
+{
+ "jugement": {
+  "profils": [],
+  "oublis": [
+   "proprietaire_bailleur",
+   "residence_secondaire",
+   "outre_mer",
+   "elu_local"
+  ]
+ },
+ "cout_usd": 0.0014014
+}

@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "epargnant",
+    "raison": "Le B du II modifie l'article 150 VH bis, qui taxe les gains de cession de crypto-actifs, et exclut de cette règle certains crypto-actifs visés par le règlement (UE) 2023/1114. Cela change le régime fiscal des détenteurs de cryptoactifs, que la définition du profil épargnant inclut.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.008897700000000001,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

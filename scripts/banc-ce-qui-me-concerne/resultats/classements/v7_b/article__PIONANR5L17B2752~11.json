@@ -1,0 +1,12 @@
+{
+ "impacts": [
+  {
+   "profil": "secteur_culture",
+   "phrase_fr": "Les délais de poursuite pour les publications destinées à la jeunesse seraient calculés à partir de leur dépôt auprès de la commission de contrôle, et non de leur parution.",
+   "phrase_en": "Deadlines for prosecuting youth publications would run from their filing with the control commission, not from their publication.",
+   "passage": "les mots : « de la parution » sont remplacés par les mots : « à laquelle ils ont été déposés auprès de la commission de contrôle en application de l’article 6 »",
+   "certitude": "probable"
+  }
+ ],
+ "cout_usd": 0.00055051
+}

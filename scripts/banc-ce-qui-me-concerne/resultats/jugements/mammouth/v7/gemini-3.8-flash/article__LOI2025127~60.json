@@ -1,0 +1,20 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "heritier_donateur",
+    "concerne": false,
+    "phrase_fidele": false,
+    "raison": "L'article 755 du CGI est un mécanisme répressif de contrôle fiscal taxant d'office à 60 % les avoirs dont l'origine n'est pas justifiée, et non une règle encadrant les successions ou donations réelles."
+   },
+   {
+    "profil": "epargnant",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "Le profil inclut explicitement les détenteurs de cryptoactifs, directement visés par le renforcement des sanctions et des contrôles sur les portefeuilles d'actifs numériques non déclarés."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00799425
+}

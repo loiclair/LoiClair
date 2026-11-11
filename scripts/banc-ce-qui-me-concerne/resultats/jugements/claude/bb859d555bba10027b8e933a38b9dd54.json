@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "elu_local",
+    "raison": "L'article impose une formation à l'adjoint au maire ou au conseiller municipal chargé de la sécurité civile, donc à un élu local désigné par son mandat. Le texte le vise directement, dès sa prise de fonction à partir de 2030.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000191335,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

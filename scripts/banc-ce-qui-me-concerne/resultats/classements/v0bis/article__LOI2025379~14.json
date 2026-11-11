@@ -1,0 +1,26 @@
+{
+ "impacts": [
+  {
+   "profil": "secteur_transport",
+   "phrase_fr": "Les opérateurs de transport urbain guidé peuvent installer des caméras frontales sur leurs rames, à titre expérimental pendant trois ans, pour analyser les accidents et former les conducteurs.",
+   "phrase_en": "Urban guided transport operators may install front-facing cameras on their vehicles for three years, to analyse accidents and train drivers.",
+   "passage": "les opérateurs de transports guidés urbains sont autorisés à mettre en œuvre la captation, la transmission et l'enregistrement d'images prises sur la voie publique au moyen de caméras frontales embarquées sur les matériels roulants qu'ils exploitent.",
+   "certitude": "certain"
+  },
+  {
+   "profil": "salarie_prive",
+   "phrase_fr": "Les images des caméras frontales sont effacées après trente jours, sauf si elles servent à une procédure judiciaire, administrative ou disciplinaire.",
+   "phrase_en": "Footage from front-facing cameras is deleted after thirty days, unless it is used in a judicial, administrative or disciplinary procedure.",
+   "passage": "hors les cas où ils sont utilisés dans le cadre d'une procédure judiciaire, administrative ou disciplinaire, sont effacés au bout de trente jours.",
+   "certitude": "probable"
+  },
+  {
+   "profil": "usager_transports",
+   "phrase_fr": "Les voyageurs sont informés par une signalétique spécifique que le véhicule est équipé d'une caméra filmant la voie publique.",
+   "phrase_en": "Passengers are told by specific signage that the vehicle is fitted with a camera filming the public road.",
+   "passage": "Le public est informé, par une signalétique spécifique, que le moyen de transport est équipé d'une caméra.",
+   "certitude": "probable"
+  }
+ ],
+ "cout_usd": 0.00136045
+}

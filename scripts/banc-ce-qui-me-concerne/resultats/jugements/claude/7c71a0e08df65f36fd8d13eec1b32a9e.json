@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "mineur",
+    "raison": "Le texte vise directement les infractions sexuelles commises sur une personne mineure au moment des faits. Un mineur victime aujourd'hui entre dans ce régime, avec un délai qui court à partir de la révélation des faits. La proposition de l'assistant ne le précise pas et parle surtout d'adultes ayant subi des faits dans l'enfance.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000575235,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

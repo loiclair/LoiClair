@@ -1,0 +1,35 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "salarie_prive",
+    "raison": "L'alinéa complété impose à l'employeur d'informer les salariés, nommés dans le texte, des frais, pénalités et coûts de transaction liés au déblocage. Le salarié reçoit directement cette information, qui conditionne sa décision de demander le déblocage.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "epargnant",
+    "raison": "Le texte vise l'information sur les frais des plans d'épargne salariale. Le catalogue exclut explicitement l'épargne salariale de la définition d'« epargnant ».",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "chef_entreprise",
+    "raison": "L'obligation d'information pèse sur l'employeur en tant que tel (alinéa VI complété). Elle s'applique donc à tout employeur, y compris une très petite, petite ou moyenne entreprise.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "dirigeant_grande_entreprise",
+    "raison": "La même obligation d'information de l'employeur s'applique aux dirigeants d'entreprises de 250 salariés ou plus.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0007391850000000001,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

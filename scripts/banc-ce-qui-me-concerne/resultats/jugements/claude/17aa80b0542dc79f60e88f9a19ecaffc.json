@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "littoral",
+    "raison": "La taxe porte sur les mutations de biens situés dans certaines communes littorales, pas sur les personnes qui y habitent. Un habitant du littoral n’est donc pas visé du seul fait de son lieu de résidence.",
+    "concerne": false,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "projet_achat",
+    "raison": "La taxe s’ajoute aux droits dus lors d’une mutation à titre onéreux d’un bien situé dans une commune littorale ; elle peut donc augmenter le coût d’un achat immobilier correspondant.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00121465,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

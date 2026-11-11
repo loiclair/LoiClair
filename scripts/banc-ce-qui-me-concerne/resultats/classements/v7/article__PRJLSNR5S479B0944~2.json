@@ -1,0 +1,19 @@
+{
+ "impacts": [
+  {
+   "profil": "chef_entreprise",
+   "phrase_fr": "Un employeur qui violerait les règles d'égalité salariale envers plusieurs personnes serait puni de deux ans de prison et de 7 500 euros d'amende.",
+   "phrase_en": "An employer who would breach pay equality rules towards several people would face two years in prison and a 7,500 euro fine.",
+   "passage": "La violation des dispositions mentionnées à l’alinéa précédent est punie de deux ans d’emprisonnement et de 7 500 euros d’amende lorsqu’elle est commise par le même employeur à l’égard de plusieurs personnes.",
+   "certitude": "probable"
+  },
+  {
+   "profil": "dirigeant_grande_entreprise",
+   "phrase_fr": "Le dirigeant d'une grande entreprise qui violerait les règles d'égalité salariale envers plusieurs personnes serait puni de deux ans de prison et de 7 500 euros d'amende.",
+   "phrase_en": "The head of a large company who would breach pay equality rules towards several people would face two years in prison and a 7,500 euro fine.",
+   "passage": "La violation des dispositions mentionnées à l’alinéa précédent est punie de deux ans d’emprisonnement et de 7 500 euros d’amende lorsqu’elle est commise par le même employeur à l’égard de plusieurs personnes.",
+   "certitude": "possible"
+  }
+ ],
+ "cout_usd": 0.00088181
+}

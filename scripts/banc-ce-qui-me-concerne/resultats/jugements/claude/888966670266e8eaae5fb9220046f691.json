@@ -1,0 +1,29 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etranger_hors_ue",
+    "raison": "Le 2° du I du texte et le II imposent deux ans de titre ou document de séjour régulier pour les prestations familiales et l'APA aux étrangers hors UE. La mesure désigne directement ce statut. Elle ne vaut pas pour les titulaires d'un titre autorisant à travailler (L. 512-2-1), ni pour les réfugiés, protégés et apatrides. La phrase de l'assistant ne mentionne pas ces exceptions, mais elle n'affirme rien de faux.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "parent",
+    "raison": "La condition porte sur la nationalité hors UE et la régularité du séjour, pas sur la parentalité. Un parent français ou ressortissant de l'UE n'est pas visé. Le lien avec la famille n'est qu'un contexte du droit aux prestations, il ne déclenche pas la mesure.",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "age_dependant",
+    "raison": "La condition ne vise que les étrangers hors UE qui demandent l'APA. Une personne âgée dépendante française ou européenne n'est pas touchée. La perte d'autonomie n'est pas le critère qui déclenche la mesure, c'est la nationalité et la durée de séjour.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.001904385,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

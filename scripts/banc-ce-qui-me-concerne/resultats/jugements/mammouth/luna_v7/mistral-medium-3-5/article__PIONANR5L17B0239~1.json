@@ -1,0 +1,34 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "salarie_prive",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "Le texte vise explicitement les salariés (articles L. 311-2 et L. 311-3 du code de la sécurité sociale, qui couvrent les salariés du privé) avec une cotisation partagée. La phrase est fidèle et au conditionnel."
+   },
+   {
+    "profil": "chef_entreprise",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "Les employeurs (dont les chefs d'entreprise) sont explicitement mentionnés comme contribuant à la cotisation. La phrase est fidèle et au conditionnel."
+   },
+   {
+    "profil": "dirigeant_grande_entreprise",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "Les employeurs sont concernés, y compris ceux des grandes entreprises. La phrase est fidèle et au conditionnel, bien que le profil 'dirigeant_grande_entreprise' soit moins précis que 'chef_entreprise' pour ce texte."
+   }
+  ],
+  "oublis": [
+   "fonctionnaire",
+   "auto_entrepreneur",
+   "independant",
+   "travailleur_frontalier",
+   "retraite",
+   "emprunteur",
+   "epargnant"
+  ]
+ },
+ "cout_usd": 0.008973
+}

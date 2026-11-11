@@ -1,0 +1,19 @@
+{
+ "impacts": [
+  {
+   "profil": "etranger_hors_ue",
+   "passage": "La nationalité des demandeurs et des bénéficiaires de l’aide médicale de l’État et les pathologies prises en charge au titre de ce dispositif figurent parmi les données recueillies.",
+   "certitude": "probable",
+   "phrase_en": "Your nationality and the care you receive would be recorded in a state medical-aid tracking file, with identifiable data kept if fraud is suspected.",
+   "phrase_fr": "Votre nationalité et les soins que vous recevez pourraient être enregistrés dans un fichier de suivi de l'aide médicale de l'État, avec des données nominatives conservées en cas de suspicion de fraude."
+  },
+  {
+   "profil": "secteur_sante",
+   "passage": "Lorsque ces données sont collectées par l’intermédiaire d’un professionnel de santé, le secret médical n’est pas opposable.",
+   "certitude": "probable",
+   "phrase_en": "When you collect this data from patients, medical confidentiality would not be binding on you for the state medical-aid tracking file.",
+   "phrase_fr": "Lorsque vous collectez ces données sur les patients, le secret médical ne pourrait pas vous être opposé dans le cadre du suivi de l'aide médicale de l'État."
+  }
+ ],
+ "resume_fr": null
+}

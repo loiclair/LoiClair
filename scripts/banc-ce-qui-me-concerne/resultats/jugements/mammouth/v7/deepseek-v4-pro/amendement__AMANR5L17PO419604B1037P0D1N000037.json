@@ -1,0 +1,20 @@
+{
+ "jugement": {
+  "oublis": [],
+  "profils": [
+   {
+    "concerne": true,
+    "phrase_fidele": true,
+    "profil": "secteur_education",
+    "raison": "L'amendement modifie l'article L. 911-4-1 du code de l'éducation, qui protège les personnels de l'éducation. Le résumé décrit correctement la suppression de la faculté de retrait. Cependant, la proposition ne fournit pas la traduction anglaise obligatoire du résumé et ne cite aucun passage justificatif, ce qui n'est pas conforme à la consigne."
+   },
+   {
+    "concerne": false,
+    "phrase_fidele": false,
+    "profil": "fonctionnaire",
+    "raison": "L'amendement vise les « personnels de l'éducation », sans mention de leur statut de fonctionnaire. Le profil fonctionnaire n'est donc pas directement visé et ne devrait pas être retenu."
+   }
+  ]
+ },
+ "cout_usd": 0.001939491
+}

@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etranger_hors_ue",
+    "raison": "Le texte vise « l'étranger » victime de violences (art. L. 425-1 du CESEDA, titres de séjour) et crée pour lui une autorisation provisoire de séjour : cela touche directement le séjour des personnes hors UE, les ressortissants UE n'ayant pas besoin de titre de séjour.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0035556999999999997,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

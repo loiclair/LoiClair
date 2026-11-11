@@ -1,0 +1,28 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "malade_chronique",
+    "raison": "Le texte vise une affection grave et incurable engageant le pronostic vital, en phase avancée ou terminale. La définition du profil exclut précisément cette condition de maladie terminale.",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "etranger_hors_ue",
+    "raison": "La résidence stable et régulière est une condition d’accès pour les personnes non françaises, mais elle vaut indépendamment de leur nationalité : le profil étranger hors UE n’est pas visé en tant que tel.",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "etranger_ue",
+    "raison": "La résidence stable et régulière est une condition d’accès pour les personnes non françaises, mais elle vaut indépendamment de leur nationalité : le profil étranger UE n’est pas visé en tant que tel.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000753525,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

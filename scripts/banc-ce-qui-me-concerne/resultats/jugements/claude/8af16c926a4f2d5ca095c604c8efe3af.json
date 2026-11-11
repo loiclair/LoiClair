@@ -1,0 +1,25 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "mineur",
+    "raison": "Le texte vise les mineurs de moins de treize ans employés dans une entreprise de cinéma : avis conformes obligatoires sur leur rôle, leur rythme de travail et leurs conditions de tournage, et présence obligatoire d'un représentant légal. Ces règles encadrent directement leur embauche et leur contrat.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "parent",
+    "raison": "Le texte impose la présence d'« un de ses représentants légaux », catégorie qui inclut le parent, à l'embauche, pendant le contrat et, le cas échéant, après. Le profil est visé en tant que responsable légal d'un enfant de moins de treize ans employé dans le cinéma. La phrase écrit « vous devriez être présent », alors que le texte n'exige la présence que d'un seul représentant légal ; elle laisse entendre à tort que chaque parent doit venir.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": [
+   "secteur_culture"
+  ]
+ },
+ "cout_usd": 0.000921135,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

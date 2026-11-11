@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_culture",
+    "raison": "Le texte vise le statut des publications et services de presse, ainsi que la faculté de saisine de leurs éditeurs ou agences ; il ne change pas directement les droits ou obligations des personnes qui travaillent dans la presse.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000430275,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_sante",
+    "raison": "L'article change les règles d'exercice des médecins, chirurgiens-dentistes et sages-femmes : les conditions de refus d'autorisation de remplacement quand ils s'absentent pour aider un territoire sous-doté. Cela relève du secteur de la santé.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0051417,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

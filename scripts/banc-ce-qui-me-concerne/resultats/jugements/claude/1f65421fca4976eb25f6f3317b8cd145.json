@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "elu_local",
+    "raison": "Le texte fixe directement la règle de désignation des adjoints dans les communes de moins de 1 000 habitants en cas de vacance, ce qui vise les élus municipaux.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00040415,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etranger_hors_ue",
+    "raison": "Le texte vise « l'étranger » contrôlé aux frontières ou sur le territoire : relevé d'empreintes et photographies, retenue en cas de refus, et sanction pénale du refus. Cela touche directement les personnes d'un pays hors UE vivant en France, titulaires d'un titre de séjour ou demandeurs d'asile.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0072177,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

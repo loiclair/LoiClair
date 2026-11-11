@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "salarie_prive",
+    "raison": "Le texte ne nomme pas les salariés. Il ajoute une circonstance aggravante lorsque le harcèlement moral est imposé dans le cadre d'une politique d'entreprise, et la sanction vise l'auteur des propos ou comportements. Le salarié n'est atteint que par ricochet, si l'entreprise applique une telle politique.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000584485,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

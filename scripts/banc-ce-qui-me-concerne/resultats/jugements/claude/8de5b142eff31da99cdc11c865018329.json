@@ -1,0 +1,29 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "cycliste",
+    "raison": "La priorisation porte sur les travaux d'infrastructures décidés par les autorités organisatrices. Le cycliste n'en bénéficierait que si ces travaux sont réalisés, donc effet indirect. Le texte nomme bien le vélo, mais comme mode visé par des travaux, pas comme règle qui change directement la situation du cycliste.",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "usager_transports",
+    "raison": "La priorisation des infrastructures de transport en commun passe par les autorités organisatrices et les services de l'État. L'usager n'en profiterait que si ces travaux sont réalisés : effet indirect. La phrase de l'assistant reste fidèle et au conditionnel.",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "grande_ville",
+    "raison": "Le catalogue associe les zones à faibles émissions à la grande ville. L'article prévoit que les restrictions d'une ZFE mobilité ne s'appliquent pas dans les zones où les alternatives à la voiture ne sont pas assez rapides, ce qui change directement ce que subissent les habitants de ces zones. La phrase de l'assistant reprend fidèlement cette évaluation et ce cas de non-application, au conditionnel.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000799635,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

@@ -1,0 +1,19 @@
+{
+ "impacts": [
+  {
+   "profil": "pompier_volontaire",
+   "phrase_fr": "Une fiche d'exposition aux agents cancérogènes serait établie pour vous après chaque intervention à risque, comme pour les sapeurs-pompiers professionnels.",
+   "phrase_en": "A carcinogen exposure record would be created for you after each risky intervention, as it would be for professional firefighters.",
+   "passage": "L’autorité territoriale établit, pour chaque sapeur-pompier professionnel ou volontaire exposé, dans le cadre de ses fonctions, après une intervention présentant un risque d’exposition à un agent cancérogène, mutagène ou toxique pour la reproduction",
+   "certitude": "certain"
+  },
+  {
+   "profil": "fonctionnaire",
+   "phrase_fr": "Votre collectivité serait tenue d'établir une fiche d'exposition après chaque intervention à risque, selon un modèle fixé par voie réglementaire.",
+   "phrase_en": "Your local authority would have to create an exposure record after each risky intervention, using a template set by regulation.",
+   "passage": "L’autorité territoriale établit, pour chaque sapeur-pompier professionnel ou volontaire exposé",
+   "certitude": "probable"
+  }
+ ],
+ "cout_usd": 0.00094291
+}

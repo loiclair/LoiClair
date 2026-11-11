@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "benevole",
+    "raison": "Le passage vise la liquidation des biens d'une association dissoute et une délibération de son assemblée générale sur la dévolution de ses biens. L'effet porte sur le patrimoine de la personne morale, pas sur le statut des bénévoles, qui n'ont ni obligation ni droit nouveau attachés à cette qualité. Le texte ne désigne pas les bénévoles et n'atteint leur situation que par le biais de l'association.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000568335,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

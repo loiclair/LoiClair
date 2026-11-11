@@ -1,0 +1,19 @@
+{
+ "impacts": [
+  {
+   "profil": "secteur_sante",
+   "phrase_fr": "Un professionnel de santé mis en examen pour une infraction liée à son métier pourrait être suspendu par arrêté motivé, et son agence régionale de santé serait informée.",
+   "phrase_en": "A health professional placed under formal investigation for an offence linked to their work would be suspended by reasoned order, and their regional health agency would be informed.",
+   "passage": "1° Les professionnels de santé qui interviennent ou exercent une fonction permanente ou occasionnelle dans un établissement de santé, public ou privé",
+   "certitude": "certain"
+  },
+  {
+   "profil": "etudiant",
+   "phrase_fr": "Un étudiant en formation aux professions de santé pourrait être suspendu si une mise en examen liée à la profession est prononcée.",
+   "phrase_en": "A student training for a health profession could be suspended if placed under formal investigation for an offence linked to the profession.",
+   "passage": "3° Les élèves et les étudiants des établissements préparant aux professions de santé régies par la quatrième partie du code de la santé publique",
+   "certitude": "probable"
+  }
+ ],
+ "cout_usd": 0.00124931
+}

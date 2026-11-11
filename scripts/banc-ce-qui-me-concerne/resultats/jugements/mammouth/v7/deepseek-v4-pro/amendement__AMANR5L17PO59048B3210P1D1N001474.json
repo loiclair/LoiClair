@@ -1,0 +1,28 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_agriculture",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'amendement vise explicitement les 'jeunes agriculteurs' qui deviennent associés exploitants dans une société agricole. Le secteur_agriculture est donc directement concerné par une modification de la règle de calcul des plus-values d'exonération. La phrase décrit correctement le dispositif et respecte le conditionnel ('Ajouterait')."
+   },
+   {
+    "profil": "imposable",
+    "concerne": false,
+    "phrase_fidele": true,
+    "raison": "L'amendement modifie la règle de calcul de la plus-value exonérée, ce qui affecte le montant soumis à l'impôt sur le revenu (et donc l'impôt dû) pour une catégorie très spécifique de contribuables (jeunes agriculteurs aidés). Bien que l'amendement change leur argent (l'impôt sur la plus-value), la consigne précise qu'un profil n'est concerné que si l'article le vise 'par son métier, son statut ou sa situation'. Le profil 'imposable' définit une situation fiscale générale (foyer qui paie l'impôt sur le revenu), qui n'est pas la cible de la mesure. La mesure cible des personnes en fonction de leur métier (secteur_agriculture) et de leur âge/statut (jeune), pas en fonction de leur qualité d'imposable, qui n'est qu'une conséquence de la réduction de leur imposition. La phrase décrit correctement le dispositif, mais le profil n'est pas directement visé par le texte."
+   },
+   {
+    "profil": "jeune",
+    "concerne": true,
+    "phrase_fidele": false,
+    "raison": "Le texte vise 'les jeunes agriculteurs' bénéficiaires des aides à l'installation. Le profil 'jeune' (18 à 25 ans) est directement concerné par cette condition d'âge implicite liée au statut de 'jeune agriculteur'. L'assistant ne l'a pas proposé."
+   }
+  ],
+  "oublis": [
+   "jeune"
+  ]
+ },
+ "cout_usd": 0.0031885
+}

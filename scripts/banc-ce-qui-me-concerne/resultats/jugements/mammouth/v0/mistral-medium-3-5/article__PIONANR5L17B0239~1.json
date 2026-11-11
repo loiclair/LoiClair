@@ -1,0 +1,32 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "salarie_prive",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article instaure un nouveau régime de retraite avec des cotisations prélevées sur les revenus d'activité des salariés (art. L. 358-1 I et II). Le conditionnel est respecté car le texte n'est pas adopté. La phrase décrit correctement l'impact direct (cotisations supplémentaires)."
+   },
+   {
+    "profil": "chef_entreprise",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "Les employeurs (dont les chefs d'entreprise) sont explicitement mentionnés comme contribuant à parts égales aux cotisations (art. L. 358-1 II). Le conditionnel est respecté. La phrase est fidèle au texte."
+   },
+   {
+    "profil": "dirigeant_grande_entreprise",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "Les employeurs de grandes entreprises sont inclus dans la catégorie générale des employeurs (art. L. 358-1 II). Le conditionnel est respecté. La phrase est fidèle, bien que le profil soit moins précis que 'chef_entreprise' (toutes tailles d'entreprises sont concernées)."
+   }
+  ],
+  "oublis": [
+   "fonctionnaire",
+   "travailleur_frontalier",
+   "retraite",
+   "emprunteur",
+   "imposable"
+  ]
+ },
+ "cout_usd": 0.009237
+}

@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "montagne",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article concerne directement les règles d'urbanisme applicables spécifiquement dans les territoires de montagne, en permettant d'alléger les démarches (dispense de la procédure d'unité touristique nouvelle locale) pour les opérations d'hébergement touristique."
+   }
+  ],
+  "oublis": [
+   "secteur_hotellerie"
+  ]
+ },
+ "cout_usd": 0.033111
+}

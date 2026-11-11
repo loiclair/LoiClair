@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_agriculture",
+    "raison": "Concerné : les pêcheurs professionnels relèvent du secteur agricole et la mesure interdit des pratiques qui peuvent être utilisées dans l’exercice de la pêche en mer.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "chasseur_pecheur",
+    "raison": "Non concerné au titre du profil : l’interdiction vise toute personne qui utilise ces techniques, sans viser spécifiquement la pêche de loisir. La phrase décrit toutefois correctement l’effet de l’interdiction sur les pêcheurs de loisir qui les utilisent.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000743525,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

@@ -1,0 +1,12 @@
+{
+ "impacts": [
+  {
+   "profil": "animal",
+   "phrase_fr": "La TVA sur l’achat d’un équidé vivant et sur certains services liés aux chevaux serait modifiée, ce qui pourrait changer leur prix.",
+   "phrase_en": "VAT on buying a live horse and on certain horse-related services would change, which could affect their price.",
+   "passage": "Les livraisons d’équidés vivants et les prestations de service relatives à leur exploitation, à savoir la préparation et l’entraînement, la location et la prise en pension",
+   "certitude": "possible"
+  }
+ ],
+ "cout_usd": 0.000335725
+}

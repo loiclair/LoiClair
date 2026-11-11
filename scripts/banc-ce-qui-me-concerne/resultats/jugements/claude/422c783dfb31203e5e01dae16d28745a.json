@@ -1,0 +1,29 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "futur_parent",
+    "raison": "Le texte vise la femme ou le couple engagés dans une tentative de FIV, donc des personnes qui ont un projet d'enfant. L'examen leur est proposé directement.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "concubin",
+    "raison": "Le texte dit « la femme ou les deux membres du couple », sans distinguer selon le mariage. La mesure vaut aussi pour une femme seule, donc elle ne vise pas le concubinage en tant que tel.",
+    "concerne": false,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "marie_pacse",
+    "raison": "Le texte ne distingue pas selon le mariage ou le PACS : la mesure s'applique à la femme seule comme au couple, quelle que soit sa forme. Elle ne vise donc pas les personnes mariées ou pacsées en tant que telles.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0008310349999999999,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

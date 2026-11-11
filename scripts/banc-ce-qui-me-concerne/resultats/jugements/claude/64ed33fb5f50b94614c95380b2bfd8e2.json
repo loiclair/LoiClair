@@ -1,0 +1,14 @@
+{
+ "jugement": {
+  "profils": [],
+  "oublis": [
+   "proprietaire_occupant",
+   "proprietaire_bailleur",
+   "coproprietaire",
+   "residence_secondaire"
+  ]
+ },
+ "cout_usd": 0.000512275,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

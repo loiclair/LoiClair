@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "age_dependant",
+    "raison": "La perte d’autonomie figure déjà parmi les critères de discrimination de l’article 225-1 ; cet article ne change donc pas les droits des personnes âgées en perte d’autonomie sur ce point.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00060665,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

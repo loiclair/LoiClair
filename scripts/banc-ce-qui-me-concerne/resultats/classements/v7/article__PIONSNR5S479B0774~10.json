@@ -1,0 +1,26 @@
+{
+ "impacts": [
+  {
+   "profil": "montagne",
+   "phrase_fr": "Pourrait permettre au préfet de dispenser certains projets d'hébergement touristique en montagne de la procédure d'unité touristique nouvelle locale.",
+   "phrase_en": "Would allow the prefect to exempt some tourist accommodation projects in mountain areas from the local tourist development unit procedure.",
+   "passage": "notamment en matière de protection des espaces, des paysages et de l’environnement montagnard",
+   "certitude": "probable"
+  },
+  {
+   "profil": "secteur_hotellerie",
+   "phrase_fr": "Pourrait alléger la procédure à suivre pour créer ou agrandir un hébergement touristique, grâce à une dispense accordée par le préfet.",
+   "phrase_en": "Could ease the procedure for creating or extending a tourist accommodation, through an exemption granted by the prefect.",
+   "passage": "le représentant de l’État dans le département peut, par décision motivée, dispenser de la procédure prévue à la présente sous-section une opération de création ou d’extension d’un hébergement touristique",
+   "certitude": "possible"
+  },
+  {
+   "profil": "meuble_tourisme",
+   "phrase_fr": "Pourrait permettre de créer ou agrandir un gîte ou un autre hébergement touristique sans la procédure d'unité touristique nouvelle locale, sur décision du préfet.",
+   "phrase_en": "Could allow creating or extending a gîte or other tourist accommodation without the local tourist development unit procedure, by prefect's decision.",
+   "passage": "une opération de création ou d’extension d’un hébergement touristique lorsque sont réunies les conditions suivantes",
+   "certitude": "possible"
+  }
+ ],
+ "cout_usd": 0.00087901
+}

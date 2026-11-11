@@ -1,0 +1,28 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_transport",
+    "raison": "Non. L’article autorise les opérateurs à équiper les matériels qu’ils exploitent ; il ne vise pas directement les personnes qui travaillent dans le transport ni ne leur impose une règle professionnelle.",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "salarie_prive",
+    "raison": "Non. La règle d’effacement concerne les enregistrements comportant des données personnelles, sans viser les salariés du privé en tant que tels.",
+    "concerne": false,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "usager_transports",
+    "raison": "Oui. Le public doit être informé par une signalétique lorsque le moyen de transport est équipé d’une caméra.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.001149525,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

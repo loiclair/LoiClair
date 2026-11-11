@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "demandeur_emploi",
+    "raison": "Le texte vise les personnes sans emploi rencontrant aussi des difficultés sociales et professionnelles particulières, sans viser le statut d’inscription à France Travail. Être demandeur d’emploi au sens du catalogue ne suffit donc pas à être concerné.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00071715,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

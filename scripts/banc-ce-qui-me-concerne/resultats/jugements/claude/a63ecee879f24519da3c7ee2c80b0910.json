@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "residence_secondaire",
+    "raison": "Le texte majore la part de la taxe d'habitation due sur les résidences secondaires de 5 % à 60 % dans les communes où la commune le décide. La taxe frappe directement les propriétaires de résidences secondaires, même si la commune doit d'abord voter la majoration et qu'un décret fixe la liste des communes.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0008033350000000001,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

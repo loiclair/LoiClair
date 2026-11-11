@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "chef_entreprise",
+    "raison": "Le texte vise les cessions et reprises d'entreprises (individuelles, sociétés) : le cédant et le repreneur, qui deviennent dirigeants de PME, bénéficient directement du crédit d'impôt ; le profil est visé.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "heritier_donateur",
+    "raison": "Le texte couvre les cessions à titre gratuit (donation, transmission) avec un crédit d'impôt sur les droits de mutation à titre gratuit, donc ceux qui reçoivent ou transmettent une entreprise par donation sont visés.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0030367,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

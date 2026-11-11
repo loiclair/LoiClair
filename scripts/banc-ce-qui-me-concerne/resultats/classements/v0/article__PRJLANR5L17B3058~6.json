@@ -1,0 +1,33 @@
+{
+ "impacts": [
+  {
+   "profil": "outre_mer",
+   "passage": "Pour l’application du B du présent I dans les collectivités régies par l’article 73 de la Constitution, la qualification des communes situées en zone caractérisée par un déséquilibre entre l’offre et la demande de logements est appréciée au regard d’indicateurs tenant notamment compte :",
+   "certitude": "certain",
+   "phrase_en": "In French overseas departments and regions, the list of communes subject to the vacant housing tax would be set using new indicators, fixed by decree.",
+   "phrase_fr": "Dans les départements et régions d'outre-mer, la liste des communes soumises à la taxe sur les logements vacants pourrait être établie selon de nouveaux indicateurs, fixés par décret."
+  },
+  {
+   "profil": "proprietaire_bailleur",
+   "passage": "1° Du taux de vacance structurelle du parc de logements ;",
+   "certitude": "possible",
+   "phrase_en": "Owners of vacant homes in some communes would be subject to the vacant housing tax under broader criteria, such as the vacancy rate.",
+   "phrase_fr": "Les propriétaires de logements vacants dans certaines communes pourraient être soumis à la taxe sur les logements vacants selon des critères élargis, comme le taux de vacance."
+  },
+  {
+   "profil": "residence_secondaire",
+   "passage": "1° Du taux de vacance structurelle du parc de logements ;",
+   "certitude": "possible",
+   "phrase_en": "Unoccupied homes you do not rent out for the full year could fall within the commune classification for the vacant housing tax.",
+   "phrase_fr": "Les logements inoccupés que vous ne louez pas à l'année pourraient entrer dans le classement des communes soumises à la taxe sur les logements vacants."
+  },
+  {
+   "profil": "heritier_donateur",
+   "passage": "2° De la part de logements durablement inoccupés en raison de situations d’indivision successorale ;",
+   "certitude": "possible",
+   "phrase_en": "Homes left empty because heirs share ownership without agreement could count toward a commune's listing for the vacant housing tax.",
+   "phrase_fr": "Les logements restés vides faute d'accord entre héritiers pourraient compter dans le classement des communes soumises à la taxe sur les logements vacants."
+  }
+ ],
+ "resume_fr": null
+}

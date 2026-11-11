@@ -1,0 +1,26 @@
+{
+ "impacts": [
+  {
+   "profil": "secteur_sante",
+   "phrase_fr": "Un professionnel de santé mis en examen en lien avec son métier pourrait être suspendu par arrêté motivé, et l'agence régionale de santé serait informée sans délai.",
+   "phrase_en": "A health professional charged in connection with their work would be suspended by a reasoned order, and the regional health agency would be informed without delay.",
+   "passage": "ou lorsque le professionnel de santé fait l’objet d’une mise en examen en lien avec l’exercice de sa profession",
+   "certitude": "certain"
+  },
+  {
+   "profil": "etudiant",
+   "phrase_fr": "Les étudiants des formations aux professions de santé pourraient être suspendus si une mise en examen liée à leur formation le justifie.",
+   "phrase_en": "Students in health professional training would be subject to suspension if charged in connection with their training.",
+   "passage": "3° Les élèves et les étudiants des établissements préparant aux professions de santé régies par la quatrième partie du code de la santé publique",
+   "certitude": "certain"
+  },
+  {
+   "profil": "independant",
+   "phrase_fr": "Les professionnels de santé libéraux qui soignent dans leur propre cabinet pourraient être suspendus après une mise en examen liée à leur exercice.",
+   "phrase_en": "Self-employed health professionals who treat patients in their own practice would be suspended after being charged in connection with their work.",
+   "passage": "Les professionnels de santé qui interviennent ou exercent une fonction permanente ou occasionnelle dans un établissement de santé, public ou privé, ou dans tout autre lieu où ils réalisent des soins",
+   "certitude": "probable"
+  }
+ ],
+ "cout_usd": 0.00097215
+}

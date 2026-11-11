@@ -1,0 +1,14 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "outre_mer",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'amendement adapte explicitement le dispositif d'identification électronique pour les résidents de Wallis-et-Futuna, un territoire d'outre-mer, en remplaçant les références à l'institution et au régime d'affiliation par l'agence de santé locale. Cela concerne directement les habitants de Wallis-et-Futuna, qui font partie du profil 'outre_mer'."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.007134
+}

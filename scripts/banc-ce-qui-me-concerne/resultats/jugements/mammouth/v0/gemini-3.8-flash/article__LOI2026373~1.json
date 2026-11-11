@@ -1,0 +1,14 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_sante",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article permet aux médecins formés au Royaume-Uni (formation débutée avant le 31 décembre 2020) d'exercer légalement leur profession en France."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0061395
+}

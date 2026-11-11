@@ -1,0 +1,65 @@
+name: Import hebdomadaire des mandats locaux (RNE)
+
+on:
+  # Automatique : chaque mercredi à 4h UTC. Le RNE est annoncé trimestriel, mais
+  # sa date de parution n'est pas fixe : `/Facts/cumul-des-mandats` nomme des
+  # élus d'après lui, une nouvelle version doit donc y arriver en une semaine
+  # au plus, pas en un mois. Pas nocturne pour autant : l'ajouter au sync
+  # quotidien ferait télécharger 76 Mo chaque nuit pour une source qui bouge
+  # quatre fois par an. Le texte de la méthodologie (`methodologySource`)
+  # annonce ce rythme au lecteur : le changer ici, c'est le changer là.
+  schedule:
+    - cron: '0 4 * * 3'
+  # Manuel : pour rejouer après un nouveau millésime, via l'interface GitHub
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  import-rne:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout du code
+        uses: actions/checkout@v7
+
+      - name: Installer Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+
+      - name: Installer les dépendances
+        run: |
+          cd pipeline
+          pip install -r requirements.txt
+
+      - name: Tunnel vers la base du VPS
+        uses: ./.github/actions/tunnel-base
+        with:
+          host: ${{ secrets.VPS_HOST }}
+          key: ${{ secrets.VPS_TUNNEL_KEY }}
+          known_hosts: ${{ secrets.VPS_KNOWN_HOSTS }}
+
+      - name: Importer les mandats locaux
+        env:
+          # Connexion Postgres de `_db.connexion` (D-325) : la base du VPS, au bout
+          # du tunnel (D-327). Sans TLS : le tunnel chiffre déjà.
+          PGHOST: 127.0.0.1
+          PGPORT: '5432'
+          PGSSLMODE: disable
+          PGDATABASE: ${{ secrets.VPS_PGDATABASE }}
+          PGUSER: ${{ secrets.VPS_PGUSER }}
+          PGPASSWORD: ${{ secrets.VPS_PGPASSWORD }}
+        run: |
+          cd pipeline
+          python import_rne.py
+
+  alerte:
+    needs: import-rne
+    if: failure()
+    uses: ./.github/workflows/alerte-echec.yml
+    with:
+      quoi: "Import hebdomadaire du RNE"
+    secrets:
+      RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}

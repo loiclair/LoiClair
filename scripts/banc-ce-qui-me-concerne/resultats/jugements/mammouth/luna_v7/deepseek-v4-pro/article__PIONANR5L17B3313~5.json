@@ -1,0 +1,14 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "forces_ordre",
+    "concerne": false,
+    "phrase_fidele": false,
+    "raison": "Le texte ne modifie pas les règles du métier de militaire, mais qualifie juridiquement un acte (le survol) de 'menace imminente' pour autoriser des mesures de sûreté qui ne sont pas détaillées ici. L'effet sur le militaire est indirect et lointain. De plus, la phrase proposée est un simple résumé descriptif du texte, elle n'indique pas ce qui changerait concrètement pour le militaire (ses droits, obligations, démarches, ou règles de son métier)."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0013451
+}

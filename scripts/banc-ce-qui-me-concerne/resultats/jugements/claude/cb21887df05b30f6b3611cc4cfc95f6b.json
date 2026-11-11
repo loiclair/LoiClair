@@ -1,0 +1,12 @@
+{
+ "jugement": {
+  "profils": [],
+  "oublis": [
+   "corse"
+  ]
+ },
+ "cout_usd": 0.0033387,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

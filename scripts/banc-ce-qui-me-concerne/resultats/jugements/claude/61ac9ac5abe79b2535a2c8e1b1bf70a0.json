@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_sante",
+    "raison": "L'article crée une obligation directe pour les professionnels de santé qui collectent les données de l'AME ou des soins urgents : le secret médical ne leur est plus opposable. Cela change la façon d'exercer leur métier, sans passer par un tiers. La phrase de l'assistant reprend fidèlement le texte et reste au conditionnel.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "etranger_hors_ue",
+    "raison": "Le texte vise les demandeurs et bénéficiaires de l'AME, un dispositif pour les étrangers sans titre de séjour. Le profil du catalogue couvre les titulaires d'un titre de séjour, les demandeurs d'asile et les réfugiés, qui ne sont pas visés en tant que tels. Une personne hors UE titulaire d'un titre de séjour qui n'est pas bénéficiaire de l'AME n'est pas concernée. La phrase omet que les données sont rendues anonymes sauf usage contre la fraude, et parle d'un « fichier national » que le texte ne mentionne pas.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000880135,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

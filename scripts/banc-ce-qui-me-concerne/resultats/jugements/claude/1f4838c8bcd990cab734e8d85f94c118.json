@@ -1,0 +1,19 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_agriculture",
+    "raison": "L'article L. 511-3 vise les installations d'élevage soumises à enregistrement ou autorisation et prévoit des prescriptions (modernisation des bâtiments, effluents, azote, biodiversité). Il change les règles d'exploitation des éleveurs, donc le secteur agriculture.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "chef_entreprise"
+  ]
+ },
+ "cout_usd": 0.0036766999999999998,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

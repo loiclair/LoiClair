@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "chef_entreprise",
+    "raison": "Le crédit d'impôt profite au cessionnaire qui reprend l'entreprise, pas au cédant, et ce cessionnaire doit maintenir l'activité pendant cinq ans. Cela vise donc le repreneur qui devient dirigeant d'une TPE ou PME, mais pas le cédant.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "heritier_donateur",
+    "raison": "Le texte vise les cessions à titre gratuit, donc les donations d'entreprise. Le crédit d'impôt bénéficie au cessionnaire, c'est-à-dire la personne qui reçoit l'entreprise par donation. Le donateur, qui transmet, n'en bénéficie pas.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.001074685,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

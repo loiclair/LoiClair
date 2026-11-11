@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "fonctionnaire",
+    "raison": "Le texte modifie l'article du code général de la fonction publique sur la protection fonctionnelle des agents publics. C'est le statut d'agent public et l'exercice de ses fonctions qui déclenchent la protection accordée à ses proches. La mesure vise donc directement le fonctionnaire, même si le bénéfice concret va à sa famille.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0010390850000000001,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "travailleur_plateforme",
+    "raison": "Le texte protège directement le travailleur contre certaines décisions affectant son accès aux missions lorsqu’elles reposent exclusivement sur un traitement algorithmique automatisé.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0001979,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

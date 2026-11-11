@@ -1,0 +1,20 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "locataire",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "La condition sous laquelle le logement loué en copropriété est réputé respecter l'obligation de décence énergétique (déterminant les recours possibles du locataire en cas de non-décence ou réduction de loyer) est directement modifiée."
+   },
+   {
+    "profil": "proprietaire_bailleur",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'amendement modifie directement la condition permettant au bailleur d'un logement en copropriété d'être réputé satisfaire à son obligation légale de décence énergétique."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.008892
+}

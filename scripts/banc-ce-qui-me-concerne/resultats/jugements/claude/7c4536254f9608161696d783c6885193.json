@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "parent",
+    "raison": "L'article supprime les alinéas de L. 521-1 qui modulent les allocations familiales selon les ressources. Ces allocations sont versées aux parents d'enfants à charge, donc le texte touche directement leur montant, sans passer par un tiers.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0005229350000000001,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

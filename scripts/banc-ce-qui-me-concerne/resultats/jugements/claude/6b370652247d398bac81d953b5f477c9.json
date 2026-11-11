@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "salarie_prive",
+    "raison": "Le texte vise les assureurs, qui peuvent choisir de contribuer au fonds d’une branche. Le salarié ne bénéficie d’un éventuel financement que si l’assureur et la branche agissent : cet effet est indirect.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00038415,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

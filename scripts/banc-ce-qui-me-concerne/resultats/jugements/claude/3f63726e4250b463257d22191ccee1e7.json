@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "fonctionnaire",
+    "raison": "L'article vise les agents publics, dont les fonctionnaires, dont la famille pourrait être protégée par la collectivité en cas de risque lié à leurs fonctions. C'est une extension de leur protection fonctionnelle.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0019637,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

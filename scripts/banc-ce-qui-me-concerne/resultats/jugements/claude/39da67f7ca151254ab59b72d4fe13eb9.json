@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "aidant",
+    "raison": "Le texte permet de désigner la personne qui reprendra une mesure de protection ; le catalogue inclut parmi les aidants les personnes qui exercent une tutelle ou une curatelle pour un proche.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000650525,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

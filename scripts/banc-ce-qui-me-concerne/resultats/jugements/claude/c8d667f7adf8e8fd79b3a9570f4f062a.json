@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "forces_ordre",
+    "raison": "Les dispositions encadrent directement les actes d’enquête autorisés, notamment ceux des policiers et gendarmes, en précisant quand ils ne constituent pas une incitation à l’infraction.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000466775,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

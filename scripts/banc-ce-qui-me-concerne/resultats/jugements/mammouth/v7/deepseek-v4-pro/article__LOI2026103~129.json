@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etranger_hors_ue",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "Le I modifie directement les taxes de séjour payées par les étrangers hors UE lors de la première délivrance et du renouvellement de leurs titres. La phrase résume correctement les nouveaux montants, sans aucun fait inventé. La loi étant publiée, l'utilisation de l'indicatif est correcte."
+   },
+   {
+    "profil": "automobiliste",
+    "concerne": false,
+    "phrase_fidele": false,
+    "raison": "Le profil 'automobiliste' est défini comme une personne qui possède ou utilise une voiture, une moto ou un utilitaire. Une taxe sur la délivrance d'un permis de conduire, qui concerne toute personne demandant un tel document, ne vise pas spécifiquement les automobilistes au sens du catalogue. Le permis peut être demandé par une personne qui n'est pas encore ou plus automobiliste. De plus, la phrase est infidèle car elle invente que la taxe sur le remplacement d'un permis s'applique à un permis 'perdu ou abîmé', ce qui ne figure pas dans le texte."
+   }
+  ],
+  "oublis": [
+   "etranger_ue"
+  ]
+ },
+ "cout_usd": 0.0052052
+}

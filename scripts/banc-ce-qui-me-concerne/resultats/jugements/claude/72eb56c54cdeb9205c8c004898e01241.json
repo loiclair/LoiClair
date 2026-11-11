@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_education",
+    "raison": "Les accompagnants d'élèves en situation de handicap travaillent dans les écoles. L'article change leur métier : création d'un corps de catégorie B, recrutement par concours, formation d'un an et affectation dans un département de l'académie.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "fonctionnaire",
+    "raison": "Les agents non titulaires en poste dans des établissements d'enseignement au 1er septembre 2026 sont immédiatement nommés fonctionnaires stagiaires. Ceux qui ne remplissent pas les conditions passent en CDI. Ce sont des contractuels de l'État, et leur statut change directement.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000904785,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

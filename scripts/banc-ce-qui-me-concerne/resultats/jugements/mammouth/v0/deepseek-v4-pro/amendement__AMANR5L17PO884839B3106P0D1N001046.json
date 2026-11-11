@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etranger_hors_ue",
+    "concerne": false,
+    "phrase_fidele": false,
+    "raison": "L'amendement ne vise pas explicitement les étrangers hors UE seulement. Les dispositions s'appliquent à tout « étranger », ce qui pourrait inclure des ressortissants de l'UE. Sans précision, le profil n'est pas certain, et comme on ne peut pas exclure les citoyens UE qui ne relèvent pas d'un autre régime, la restriction à « hors UE » n'est pas fidèle au texte."
+   }
+  ],
+  "oublis": [
+   "etranger_ue"
+  ]
+ },
+ "cout_usd": 0.002756
+}

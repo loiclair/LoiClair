@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "proprietaire_bailleur",
+    "raison": "Le texte modifié (article 6, 2°) prévoit que le propriétaire bailleur n'est réputé respecter la décence énergétique que si les travaux sont impossibles ou refusés et qu'il a fait tous les travaux possibles. L'amendement change la preuve exigée de cette impossibilité : des raisons « attestées » par écrit au lieu d'« établies ou contrôlées ». C'est une démarche directe du bailleur, qui vise la catégorie de personnes qui loue.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0005536849999999999,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

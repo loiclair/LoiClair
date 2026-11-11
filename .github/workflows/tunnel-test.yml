@@ -1,0 +1,63 @@
+# Diagnostic du tunnel des workflows vers la base du VPS (D-327) : à lancer à
+# la main après tout changement de clé, d'utilisateur ou de port côté serveur,
+# et avant de brancher un workflow sur le tunnel.
+#
+# Vérifie deux choses : que l'action `tunnel-base` mène bien à Postgres, et que
+# la clé de `gh-tunnel` n'ouvre aucun couloir sortant vers un autre port. Pour
+# la seconde, il tente un couloir vers l'interface de Coolify (`127.0.0.1:8000`
+# du VPS, qui répond en HTTP à qui l'atteint) : le serveur doit le refuser.
+# Le couloir inverse n'est pas testé : il reste ouvert, limite écrite en tête
+# de l'action.
+name: Test du tunnel vers la base
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  tunnel:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      # L'action échoue d'elle-même si Postgres ne répond pas au bout du
+      # tunnel : son succès suffit à prouver le premier point.
+      - id: tunnel
+        uses: ./.github/actions/tunnel-base
+        with:
+          host: ${{ secrets.VPS_HOST }}
+          key: ${{ secrets.VPS_TUNNEL_KEY }}
+          known_hosts: ${{ secrets.VPS_KNOWN_HOSTS }}
+
+      # Le port local 18000 s'ouvre toujours, puisque c'est le runner qui
+      # l'écoute ; c'est à la première connexion que le serveur refuse le
+      # couloir (« administratively prohibited »), et curl ne reçoit rien.
+      # Si `permitopen` manquait, curl recevrait la réponse de Coolify.
+      - name: Un autre port est refusé
+        env:
+          VPS_HOST: ${{ secrets.VPS_HOST }}
+          # Dossier où l'action a écrit la clé et l'empreinte du serveur.
+          TUNNEL_DIR: ${{ steps.tunnel.outputs.dir }}
+        run: |
+          set -euo pipefail
+          dir="$TUNNEL_DIR"
+          ssh -f -N -E "$dir/interdit.log" \
+            -i "$dir/cle" -o IdentitiesOnly=yes -o BatchMode=yes \
+            -o UserKnownHostsFile="$dir/known_hosts" -o StrictHostKeyChecking=yes \
+            -o ExitOnForwardFailure=yes -o ConnectTimeout=15 \
+            -L 127.0.0.1:18000:127.0.0.1:8000 \
+            "gh-tunnel@$VPS_HOST"
+          code=$(curl -s -o /dev/null -w '%{http_code}' -m 5 http://127.0.0.1:18000/ || true)
+          if [ "$code" != "000" ]; then
+            echo "::error::Le couloir vers 127.0.0.1:8000 a répondu (HTTP $code) : la clé n'est pas limitée à la base."
+            exit 1
+          fi
+          # Le journal de ssh n'est pas affiché : il peut citer l'adresse du VPS.
+          sleep 1
+          if grep -q "administratively prohibited" "$dir/interdit.log"; then
+            echo "Couloir vers 127.0.0.1:8000 refusé par le serveur, comme attendu."
+          else
+            echo "::error::Aucune réponse, mais pas le refus attendu du serveur."
+            exit 1
+          fi

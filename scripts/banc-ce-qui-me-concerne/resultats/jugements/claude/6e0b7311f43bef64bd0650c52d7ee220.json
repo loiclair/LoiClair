@@ -1,0 +1,29 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "proprietaire_bailleur",
+    "raison": "L'amendement modifie la condition qui permet au bailleur d'un logement en copropriété de voir son obligation de décence énergétique réputée satisfaite : il doit désormais s'appuyer sur un contrat de maîtrise d'œuvre fondé sur un audit, et non plus sur un simple vote de travaux.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "coproprietaire",
+    "raison": "Le texte vise les logements en copropriété et le contrat conclu par le syndicat des copropriétaires. Le critère de décence énergétique dépend désormais de cet engagement, ce qui touche directement le copropriétaire.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "locataire",
+    "raison": "Le texte ne s'adresse pas au locataire : il règle la condition d'exonération du bailleur et le rôle du syndicat. L'effet sur le locataire passe par le bailleur ou le syndicat, donc il est indirect.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0044947,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

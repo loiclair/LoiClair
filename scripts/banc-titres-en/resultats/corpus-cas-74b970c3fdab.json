@@ -1,0 +1,685 @@
+{
+ "prompt": "74b970c3fdab",
+ "cout": 0.01310851,
+ "cas": [
+  {
+   "cas": "dénoncer",
+   "uid": "DLR5L17N50964",
+   "titre": "Dénoncer l’accord-franco-algérien du 27 décembre 1968",
+   "avant": "Denounce the Franco-Algerian agreement of 27 December 1968",
+   "apres": "Terminate the Franco-Algerian agreement of 27 December 1968"
+  },
+  {
+   "cas": "dénoncer",
+   "uid": "DLR5L17N51288",
+   "titre": "Dénoncer les accords franco algérien du 27 décembre 1968 et du 16 décembre 2013",
+   "avant": "Denounce the Franco-Algerian agreements of 27 December 1968 and 16 December 2013",
+   "apres": "Terminate the Franco-Algerian agreements of 27 December 1968 and 16 December 2013"
+  },
+  {
+   "cas": "dénoncer",
+   "uid": "DLR5L17N51727",
+   "titre": "Dénoncer les accords franco-algérien du 27 décembre 1968 et du 16 décembre 2013",
+   "avant": "Denounce the Franco-Algerian agreements of 27 December 1968 and 16 December 2013",
+   "apres": "Terminate the Franco-Algerian agreements of 27 December 1968 and 16 December 2013"
+  },
+  {
+   "cas": "dénoncer",
+   "uid": "DLR5L17N51858",
+   "titre": "Dénoncer l’Accord euro-méditerranéen de 2005 établissant une association entre la Communauté européenne et ses États-membres et la République Algérienne démocratique et populaire",
+   "avant": "Denounce the 2005 Euro-Mediterranean Agreement establishing an association between the European Community and its Member States and the People's Democratic Republic of Algeria",
+   "apres": "Terminate the Euro-Mediterranean Agreement of 2005 establishing an association between the European Community and its Member States and the People's Democratic Republic of Algeria"
+  },
+  {
+   "cas": "dénoncer",
+   "uid": "DLR5L17N52118",
+   "titre": "Dénoncer l’accord d’association entre l'Union européenne et Israël et mettre en œuvre les sanctions nécessaires à l’encontre d’Israël et ses dirigeants pour mettre fin à la guerre génocidaire du gouvernement d’extrême droite de Benyamin Netanyahou",
+   "avant": "Denounce the Association Agreement between the European Union and Israel and impose the necessary sanctions on Israel and its leaders to end the genocidal war waged by the far-right government of Benyamin Netanyahu",
+   "apres": "Terminate the association agreement between the European Union and Israel and impose the necessary sanctions on Israel and its leaders to bring an end to the genocidal war waged by the far-right government of Benjamin Netanyahu"
+  },
+  {
+   "cas": "dénoncer",
+   "uid": "DLR5L17N52719",
+   "titre": "Dénoncer les accords franco-algériens du 27 décembre 1968",
+   "avant": "Denounce the Franco-Algerian agreements of 27 December 1968",
+   "apres": "Terminate the Franco-Algerian agreements of 27 December 1968"
+  },
+  {
+   "cas": "dénoncer",
+   "uid": "DLR5L17N54289",
+   "titre": "Condamner le blocus économique, commercial et financier imposé par les États-Unis contre Cuba, dénoncer ses effets extraterritoriaux illégaux et appeler à une action résolue de la France en faveur du peuple cubain",
+   "avant": "Condemn the economic, commercial and financial blockade imposed by the United States on Cuba, denounce its unlawful extraterritorial effects and call for resolute French action in support of the Cuban people",
+   "apres": "Condemn the economic, commercial and financial blockade imposed by the United States on Cuba, denounce its unlawful extraterritorial effects and call for decisive action by France in support of the Cuban people"
+  },
+  {
+   "cas": "dérogatoire",
+   "uid": "DLR5L17N53100",
+   "titre": "Proposition de loi permettant aux conseils départementaux de bénéficier d'une compétence économique dérogatoire en cas de catastrophe sanitaire",
+   "avant": "Private member's bill enabling departmental councils to benefit from derogatory economic powers in the event of a health disaster",
+   "apres": "Private member's bill enabling departmental councils to be granted exceptional economic powers in the event of a health disaster"
+  },
+  {
+   "cas": "contresens ASE",
+   "uid": "DLR5L17N54298",
+   "titre": "Protéger durablement les jeunes majeurs de l’aide sociale à l’enfance et de la protection judiciaire de la jeunesse",
+   "avant": "Durably protect young adults from child social welfare and youth judicial protection",
+   "apres": "Provide lasting protection for young adults leaving child welfare services and judicial youth protection"
+  },
+  {
+   "cas": "fraude/avoidance",
+   "uid": "DLR5L16N49273",
+   "titre": "Projet de loi autorisant l’approbation de l’avenant à la convention entre le Gouvernement de la République française et le Gouvernement du Grand-duché de Luxembourg en vue d’éviter les doubles impositions et de prévenir l’évasion et la fraude fiscales en matière d’impôts sur le revenu et la fortune",
+   "avant": "Government bill authorising the approval of the amendment to the convention between the Government of the French Republic and the Government of the Grand Duchy of Luxembourg for the avoidance of double taxation and the prevention of tax evasion and fraud with respect to taxes on income and wealth",
+   "apres": "Government bill authorising the approval of the amending agreement to the convention between the Government of the French Republic and the Government of the Grand Duchy of Luxembourg for the avoidance of double taxation and the prevention of tax evasion and tax fraud with respect to income tax and wealth tax"
+  },
+  {
+   "cas": "fraude/avoidance",
+   "uid": "DLR5L17N52549",
+   "titre": "Projet de loi autorisant l’approbation de la convention entre le Gouvernement de la République française et le Gouvernement de la République de Finlande pour l’élimination de la double imposition en matière d’impôts sur le revenu et la prévention de l’évasion et de la fraude fiscales et l’approbation de l’avenant à la convention entre le Gouvernement de la République française et le Gouvernement du Royaume de Suède en vue d’éviter les doubles impositions et de prévenir l’évasion fiscale en matière d’impôts sur le revenu et sur la fortune",
+   "avant": "Government bill authorising the approval of the convention between the Government of the French Republic and the Government of the Republic of Finland for the elimination of double taxation with respect to income tax and the prevention of tax evasion and fraud, and the approval of the amendment to the convention between the Government of the French Republic and the Government of the Kingdom of Sweden for the avoidance of double taxation and the prevention of tax evasion with respect to taxes on income and on wealth",
+   "apres": "Government bill authorising the approval of the convention between the Government of the French Republic and the Government of the Republic of Finland for the elimination of double taxation with respect to income tax and the prevention of tax evasion and tax fraud, and the approval of the amending agreement to the convention between the Government of the French Republic and the Government of the Kingdom of Sweden for the avoidance of double taxation and the prevention of tax evasion with respect to income tax and wealth tax"
+  },
+  {
+   "cas": "motion sans article",
+   "uid": "DLR5L17N50557",
+   "titre": "Motion de censure déposée en application de l'article 49, alinéa 2, de la Constitution par M. Boris Vallaud, Mmes Mathilde Panot et Cyrielle Chatelain, M. André Chassaigne et 188 de leurs collègues",
+   "avant": "The censure motion tabled under Article 49, paragraph 2, of the Constitution by Mr Boris Vallaud, Ms Mathilde Panot and Ms Cyrielle Chatelain, Mr André Chassaigne and 188 of their colleagues",
+   "apres": "Censure motion tabled under Article 49, paragraph 2, of the Constitution by Mr Boris Vallaud, Ms Mathilde Panot and Ms Cyrielle Chatelain, Mr André Chassaigne and 188 of their colleagues"
+  },
+  {
+   "cas": "motion sans article",
+   "uid": "DLR5L17N51256",
+   "titre": "Motion de censure, déposée en application de l'article 49, alinéa 2, de la Constitution, par Mme Mathilde Panot et 57 de ses collègues",
+   "avant": "The censure motion, tabled under Article 49, paragraph 2, of the Constitution, by Ms Mathilde Panot and 57 of her colleagues",
+   "apres": "Censure motion tabled under Article 49, paragraph 2, of the Constitution by Ms Mathilde Panot and 57 of her colleagues"
+  },
+  {
+   "cas": "motion sans article",
+   "uid": "DLR5L17N53516",
+   "titre": "Motion de censure déposée en application de l'article 49, alinéa 2, de la Constitution par Mme Mathilde Panot et 57 de ses collègues",
+   "avant": "The censure motion tabled under Article 49, paragraph 2, of the Constitution by Ms Mathilde Panot and 57 of her colleagues",
+   "apres": "Censure motion tabled under Article 49, paragraph 2, of the Constitution by Ms Mathilde Panot and 57 of her colleagues"
+  },
+  {
+   "cas": "motion sans article",
+   "uid": "DLR5L17N53517",
+   "titre": "Motion de censure déposée en application de l'article 49, alinéa 2, de la Constitution par Mme Marine Le Pen et 57 de ses collègues",
+   "avant": "The censure motion tabled under Article 49, paragraph 2, of the Constitution by Ms Marine Le Pen and 57 of her colleagues",
+   "apres": "Censure motion tabled under Article 49, paragraph 2, of the Constitution by Ms Marine Le Pen and 57 of her colleagues"
+  },
+  {
+   "cas": "motion sans article",
+   "uid": "DLR5L17N53821",
+   "titre": "Motion de censure déposée en application de l'article 49, alinéa 2, de la Constitution par Jean-Philippe Tanguy et 59 de ses collègues",
+   "avant": "The censure motion tabled under Article 49, paragraph 2, of the Constitution by Jean-Philippe Tanguy and 59 of his colleagues",
+   "apres": "Censure motion tabled under Article 49, paragraph 2, of the Constitution by Jean-Philippe Tanguy and 59 of his colleagues"
+  },
+  {
+   "cas": "motion sans article",
+   "uid": "DLR5L17N53822",
+   "titre": "Motion de censure déposée en application de l'article 49, alinéa 2, de la Constitution par Mathilde Panot et 57 de ses collègues",
+   "avant": "The censure motion tabled under Article 49, paragraph 2, of the Constitution by Mathilde Panot and 57 of her colleagues",
+   "apres": "Censure motion tabled under Article 49, paragraph 2, of the Constitution by Mathilde Panot and 57 of her colleagues"
+  },
+  {
+   "cas": "infinitif → gérondif",
+   "uid": "DLR5L17N50195",
+   "titre": "Condamner l’oppression et la terreur imposées aux femmes iraniennes et réaffirmer leur liberté absolue",
+   "avant": "Condemning the oppression and terror imposed on Iranian women and reaffirming their absolute freedom",
+   "apres": "Condemn the oppression and terror imposed on Iranian women and reaffirm their absolute freedom"
+  },
+  {
+   "cas": "infinitif → gérondif",
+   "uid": "DLR5L17N50715",
+   "titre": "Contre toutes les fraudes aux aides publiques",
+   "avant": "Tackling all fraud involving public aid",
+   "apres": "Against all fraud involving public aid"
+  },
+  {
+   "cas": "infinitif → gérondif",
+   "uid": "DLR5L17N50757",
+   "titre": "Lutter contre la haine affectant les harkis et les membres des autres formations supplétives et assimilées de l'armée française ainsi que leurs descendants",
+   "avant": "Combating hatred targeting the harkis and members of other auxiliary and related units of the French army, as well as their descendants",
+   "apres": "Combat hatred targeting harkis and members of other auxiliary and associated units of the French army, as well as their descendants"
+  },
+  {
+   "cas": "infinitif → gérondif",
+   "uid": "DLR5L17N50923",
+   "titre": "Garantir la souveraineté sanitaire de la France",
+   "avant": "Safeguarding France's health sovereignty",
+   "apres": "Guarantee France's health sovereignty"
+  },
+  {
+   "cas": "infinitif → gérondif",
+   "uid": "DLR5L17N51347",
+   "titre": "Sécuriser la vente de plaques d'immatriculation",
+   "avant": "Securing the sale of registration plates",
+   "apres": "Secure the sale of vehicle registration plates"
+  },
+  {
+   "cas": "infinitif → gérondif",
+   "uid": "DLR5L17N51348",
+   "titre": "Optimiser les sanctions civiles pour contrefaçon",
+   "avant": "Optimising civil penalties for counterfeiting",
+   "apres": "Optimise civil penalties for infringement"
+  },
+  {
+   "cas": "infinitif → gérondif",
+   "uid": "DLR5L17N51349",
+   "titre": "Modifier la définition pénale du viol et des agressions sexuelles",
+   "avant": "Amending the legal definition of rape and sexual assault",
+   "apres": "Amend the criminal-law definition of rape and sexual assault"
+  },
+  {
+   "cas": "infinitif → gérondif",
+   "uid": "DLR5L17N51434",
+   "titre": "Contre les fraudes aux moyens de paiement scripturaux",
+   "avant": "Combating fraud involving non-cash payment methods",
+   "apres": "Against fraud involving non-cash means of payment"
+  },
+  {
+   "cas": "infinitif → gérondif",
+   "uid": "DLR5L17N51480",
+   "titre": "Mettre fin à la culpabilisation des victimes de violences physiques et sexuelles",
+   "avant": "Ending the blaming of victims of physical and sexual violence",
+   "apres": "End the blaming of victims of physical and sexual violence"
+  },
+  {
+   "cas": "infinitif → gérondif",
+   "uid": "DLR5L17N51850",
+   "titre": "Combler les lacunes de la réponse pénale face au viol",
+   "avant": "Closing the gaps in the criminal justice response to rape",
+   "apres": "Close the gaps in criminal justice's response to rape"
+  },
+  {
+   "cas": "infinitif → gérondif",
+   "uid": "DLR5L17N51851",
+   "titre": "Étendre l'aide médicale de l'État à Mayotte",
+   "avant": "Extending State medical aid to Mayotte",
+   "apres": "Extend state medical aid to Mayotte"
+  },
+  {
+   "cas": "infinitif → gérondif",
+   "uid": "DLR5L17N52496",
+   "titre": "Intégrer la santé sexuelle dans le champ de compétences du Conseil national du syndrome immunodéficitaire acquis et des hépatites virales chroniques",
+   "avant": "Bring sexual health within the remit of the National Council on AIDS and Chronic Viral Hepatitis",
+   "apres": "Bring sexual health within the powers of the National Council on Acquired Immunodeficiency Syndrome and Chronic Viral Hepatitis"
+  },
+  {
+   "cas": "infinitif → gérondif",
+   "uid": "DLR5L17N52831",
+   "titre": "Instaurer la gratuité des transports en commun et permettre aux communautés urbaines de répondre aux défis environnementaux et sociaux",
+   "avant": "Making public transport free and enabling urban communities to meet environmental and social challenges",
+   "apres": "Introduce free public transport and allow urban communities to meet environmental and social challenges"
+  },
+  {
+   "cas": "infinitif → gérondif",
+   "uid": "DLR5L17N52834",
+   "titre": "Lutter contre le financement occulte des campagnes électorales",
+   "avant": "Combating covert financing of election campaigns",
+   "apres": "Combat covert funding of election campaigns"
+  },
+  {
+   "cas": "infinitif → gérondif",
+   "uid": "DLR5L17N52857",
+   "titre": "Interdire dans l’espace public le port par un mineur de tout habit ou vêtement symbolisant l’infériorité de la femme sur l’homme",
+   "avant": "Banning minors from wearing in public spaces any garment or clothing symbolising the inferiority of women to men",
+   "apres": "Ban minors from wearing, in public spaces, any item of clothing or garment symbolising the inferiority of women to men"
+  },
+  {
+   "cas": "nom → impératif",
+   "uid": "DLR5L17N50421",
+   "titre": "Instauration de peines planchers pour certains crimes et délits",
+   "avant": "Introduce mandatory minimum sentences for certain crimes and offences",
+   "apres": "Introduction of minimum sentences for certain crimes and offences"
+  },
+  {
+   "cas": "nom → impératif",
+   "uid": "DLR5L17N50435",
+   "titre": "Instauration d’un nombre minimum de soignants par patient hospitalisé",
+   "avant": "Introduce a minimum number of healthcare staff per hospitalised patient",
+   "apres": "Introduction of a minimum number of care staff per inpatient"
+  },
+  {
+   "cas": "nom → impératif",
+   "uid": "DLR5L17N50919",
+   "titre": "Interdiction de la publicité des boissons alcoolisées par les influenceurs sur les réseaux sociaux",
+   "avant": "Ban on advertising of alcoholic drinks by influencers on social media",
+   "apres": "Ban on advertising of alcoholic drinks by influencers on social media"
+  },
+  {
+   "cas": "nom → impératif",
+   "uid": "DLR5L17N50925",
+   "titre": "Instauration de normes d’encadrement dans les établissements d’accueil de la protection de l’enfance",
+   "avant": "Introduce staffing standards for child protection care facilities",
+   "apres": "Introduction of staffing standards in child protection facilities"
+  },
+  {
+   "cas": "nom → impératif",
+   "uid": "DLR5L17N51030",
+   "titre": "Création d’une journée de solidarité des actionnaires en faveur de l'autonomie des personnes âgées ou en situation de handicap",
+   "avant": "Create a shareholder solidarity day in support of the independence of elderly or disabled people",
+   "apres": "Creation of a shareholders' solidarity day in support of the independence of older people and people with disabilities"
+  },
+  {
+   "cas": "nom → impératif",
+   "uid": "DLR5L17N51334",
+   "titre": "Instauration d’une traçabilité du tabac transformé importé en France ou en transit par la France au moyen d’un numéro d’identification",
+   "avant": "Introduce traceability for processed tobacco imported into France or in transit through France by means of an identification number",
+   "apres": "Introduction of traceability for processed tobacco imported into or transiting through France by means of an identification number"
+  },
+  {
+   "cas": "nom → impératif",
+   "uid": "DLR5L17N51335",
+   "titre": "Création d’un fonds de solidarité locale intergénérationnelle à destination des personnes âgées",
+   "avant": "Set up an intergenerational local solidarity fund for elderly people",
+   "apres": "Creation of an intergenerational local solidarity fund for older people"
+  },
+  {
+   "cas": "nom → impératif",
+   "uid": "DLR5L17N51633",
+   "titre": "Instauration de mesures de réparation en faveur des pupilles de la Nation, enfants de « Morts pour la France »",
+   "avant": "Introduce reparation measures for wards of the Nation, children of “Died for France”",
+   "apres": "Introduction of reparation measures for wards of the Nation, children of “Died for France”"
+  },
+  {
+   "cas": "aimed at",
+   "uid": "DLR5L17N52500",
+   "titre": "Rendre obligatoire l’affichage du nutri-score et à interdire la publicité à destination des enfants et adolescents en faveur des produits alimentaires de faible qualité nutritionnelle",
+   "avant": "Make display of the Nutri-Score mandatory and ban advertising aimed at children and adolescents promoting food products of low nutritional quality",
+   "apres": "Make the display of the Nutri-Score mandatory and ban advertising directed at children and adolescents promoting food products of poor nutritional quality"
+  },
+  {
+   "cas": "aimed at",
+   "uid": "DLR5L17N53071",
+   "titre": "Améliorer le dispositif d'aide financière à l'insonorisation à destination des riverains exposés aux nuisances sonores aériennes",
+   "avant": "Improve the financial aid scheme for soundproofing aimed at residents exposed to aircraft noise",
+   "apres": "Improve the financial assistance scheme for soundproofing aimed at residents exposed to aircraft noise"
+  },
+  {
+   "cas": "aimed at",
+   "uid": "DLR5L17N53681",
+   "titre": "Instaurer une classification par âge des ouvrages destinés à la jeunesse et aux adolescents",
+   "avant": "Introduce an age classification for books aimed at children and adolescents",
+   "apres": "Introduce an age classification for books aimed at young people and adolescents"
+  },
+  {
+   "cas": "aimed at",
+   "uid": "DSNRES2024N0157",
+   "titre": "en application de l'article 34-1 de la Constitution, visant à mettre fin au sans-abrisme des enfants",
+   "avant": "pursuant to Article 34-1 of the Constitution, aimed at putting an end to homelessness among children",
+   "apres": "under Article 34-1 of the Constitution, to end child homelessness"
+  },
+  {
+   "cas": "aimed at",
+   "uid": "DSNRES2024N0171",
+   "titre": "en application de l'article 73 quinquies du Règlement, visant à la création d'un fichier européen des comptes bancaires et assimilés",
+   "avant": "pursuant to Article 73 quinquies of the Standing Orders, aimed at creating a European file of bank accounts and similar accounts",
+   "apres": "under Article 73 quinquies of the Standing Orders, to set up a European register of bank accounts and similar accounts"
+  },
+  {
+   "cas": "aimed at",
+   "uid": "DSNRES2024N0229",
+   "titre": "en application de l'article 73 quinquies du Règlement, visant à la création d'un fichier européen des comptes bancaires et assimilés",
+   "avant": "pursuant to Article 73 quinquies of the Standing Orders, aimed at creating a European file of bank accounts and similar accounts",
+   "apres": "under Article 73 quinquies of the Standing Orders, to set up a European register of bank accounts and similar accounts"
+  },
+  {
+   "cas": "aimed at",
+   "uid": "DSNRES2024N0256",
+   "titre": "en application de l'article 73 quinquies du Règlement, visant à l'application stricte du cadre réglementaire numérique de l'Union européenne et appelant au renforcement des conditions d'une réelle souveraineté numérique européenne",
+   "avant": "pursuant to Article 73 quinquies of the Standing Orders, aimed at strictly applying the European Union's digital regulatory framework and calling for stronger conditions for genuine European digital sovereignty",
+   "apres": "under Article 73 quinquies of the Standing Orders, to ensure strict application of the European Union's digital regulatory framework and call for strengthening the conditions for genuine European digital sovereignty"
+  },
+  {
+   "cas": "aimed at",
+   "uid": "DSNRES2024N0347",
+   "titre": "en application de l'article 34-1 de la Constitution, visant à la reconnaissance du droit à l'alimentation et à l'adoption d'une loi-cadre pour le droit à l'alimentation",
+   "avant": "pursuant to Article 34-1 of the Constitution, aimed at recognising the right to food and adopting a framework law on the right to food",
+   "apres": "under Article 34-1 of the Constitution, to recognise the right to food and to adopt a framework law on the right to food"
+  },
+  {
+   "cas": "pursuant / filed",
+   "uid": "DLR5L17N50580",
+   "titre": "Rapport d'information déposé en application de l'article 145 du règlement, par la commission des affaires étrangères valant avis sur le projet de contrat d’objectifs et de moyens de France Médias Monde pour la période 2024-2028",
+   "avant": "Information report filed under Article 145 of the Standing Orders by the Committee on Foreign Affairs, serving as an opinion on the draft objectives and resources contract of France Médias Monde for the period 2024-2028",
+   "apres": "Information report tabled under Article 145 of the Standing Orders by the Committee on Foreign Affairs, serving as opinion on the draft objectives and means contract of France Médias Monde for 2024-2028"
+  },
+  {
+   "cas": "pursuant / filed",
+   "uid": "DLR5L17N51050",
+   "titre": "DOSSIER : rapport d'information déposé en application de l'article 29 du règlement au nom des délégués de l'Assemblée nationale à l'Assemblée parlementaire du conseil de l'Europe sur l'activité de l'Assemblée parlementaire du Conseil de l'Europe au cours de la deuxième partie de sa session ordinaire de 2024",
+   "avant": "Dossier: information report submitted under Article 29 of the Standing Orders on behalf of the National Assembly's delegates to the Parliamentary Assembly of the Council of Europe on the activity of the Parliamentary Assembly of the Council of Europe during the second part of its 2024 ordinary session",
+   "apres": "Information report tabled under Article 29 of the Standing Orders on behalf of the National Assembly's delegates to the Parliamentary Assembly of the Council of Europe on the activity of the Parliamentary Assembly of the Council of Europe during the second part of its 2024 ordinary session"
+  },
+  {
+   "cas": "pursuant / filed",
+   "uid": "DLR5L17N52301",
+   "titre": "DOSSIER : rapport d'information déposé en application de l'article 145 du règlement, par la commission de la défense nationale et des forces armées, en conclusion des travaux d'une mission d'information Masse et haute technologie : quels équilibres pour les équipements militaires français ?",
+   "avant": "DOSSIER: information report submitted under Article 145 of the Standing Orders by the Committee on National Defence and the Armed Forces, concluding the work of a fact-finding mission on Mass and High Technology: what balance for French military equipment?",
+   "apres": "Information report tabled under Article 145 of the Standing Orders by the Committee on National Defence and the Armed Forces, concluding the work of a fact-finding mission: Mass and high technology: what balance for French military equipment?"
+  },
+  {
+   "cas": "pursuant / filed",
+   "uid": "DLR5L17N54086",
+   "titre": "Proposition de loi présentée en application de l'article 11 de la Constitution en application du troisième alinéa de l'article 11 de la Constitution, visant à exclure de la notion de soin la provocation active de la mort",
+   "avant": "Private member's bill tabled under Article 11 of the Constitution, pursuant to the third paragraph of Article 11 of the Constitution, to exclude the active causing of death from the notion of care",
+   "apres": "Private member's bill tabled under Article 11 of the Constitution, under the third paragraph of Article 11 of the Constitution, to exclude the active causing of death from the notion of care"
+  },
+  {
+   "cas": "pursuant / filed",
+   "uid": "DLR5L17N54524",
+   "titre": "L'évaluation de la demande d’autorisation de création (DAC) de Cigéo, en application de l’article L. 542-10-1 du code de l’environnement",
+   "avant": "Assessment of the application for creation authorisation (DAC) for Cigéo, pursuant to Article L. 542-10-1 of the Environment Code",
+   "apres": "The assessment of the application for creation authorisation (DAC) for Cigéo, under Article L. 542-10-1 of the Environment Code"
+  },
+  {
+   "cas": "pursuant / filed",
+   "uid": "DLR5L17N54562",
+   "titre": "DOSSIER : rapport d'information déposé en application de l'article 146 du règlement, par la commission des finances, de l'économie générale et du contrôle budgétaire sur la péréquation et les autres dispositifs de compensation des inégalités de ressources et de charges entre collectivités",
+   "avant": "Dossier: information report filed pursuant to Article 146 of the Standing Orders by the Committee on Finance, the General Economy and Budgetary Control on equalisation and other mechanisms for compensating inequalities in resources and burdens between local authorities",
+   "apres": "Information report tabled under Article 146 of the Standing Orders by the Committee on Finance, the General Economy and Budgetary Control on equalisation and other mechanisms for compensating inequalities in resources and burdens between local authorities"
+  },
+  {
+   "cas": "pursuant / filed",
+   "uid": "DLR5L17N54611",
+   "titre": "L’évaluation de la décarbonation du secteur des transports terrestres en application de l’article 73 de la loi n° 2019-1428 du 24 décembre 2019 d’orientation des mobilités",
+   "avant": "The assessment of the decarbonisation of the land transport sector pursuant to Article 73 of Law No. 2019-1428 of 24 December 2019 on mobility orientation",
+   "apres": "Assessment of the decarbonisation of the land transport sector under Article 73 of Law No. 2019-1428 of 24 December 2019 on Mobility Orientation"
+  },
+  {
+   "cas": "pursuant / filed",
+   "uid": "DLR5L17N54613",
+   "titre": "Motion de censure déposée en application de l'article 49, alinéa 2, de la Constitution par Mme Cyrielle Chatelain, Mme Nadège Abomangoli et 56 de leurs collègues",
+   "avant": "Censure motion tabled pursuant to Article 49, paragraph 2, of the Constitution by Ms Cyrielle Chatelain, Ms Nadège Abomangoli and 56 of their colleagues",
+   "apres": "Censure motion tabled under Article 49, paragraph 2, of the Constitution by Ms Cyrielle Chatelain, Ms Nadège Abomangoli and 56 of their colleagues"
+  },
+  {
+   "cas": "étranger → migrant",
+   "uid": "DLR5L17N50752",
+   "titre": "Proposition de loi sur l'amélioration de la cohérence du traitement pénal des étrangers en situation irrégulière",
+   "avant": "Private member's bill on improving the consistency of the criminal justice response to irregular migrants",
+   "apres": "Private member's bill on improving the consistency of criminal justice processing of foreign nationals in an irregular situation"
+  },
+  {
+   "cas": "étranger → migrant",
+   "uid": "DLR5L17N50759",
+   "titre": "Exclure les étrangers en situation irrégulière du bénéfice de la tarification sociale dans les transports",
+   "avant": "Exclude irregular migrants from social fares on transport",
+   "apres": "Exclude foreign nationals in an irregular situation from social fares on transport"
+  },
+  {
+   "cas": "étranger → migrant",
+   "uid": "DLR5L17N50761",
+   "titre": "Systématiser la réalisation d’une consultation psychologique à destination des étrangers primo-arrivants et des mineurs étrangers non-accompagnés",
+   "avant": "Systematise psychological consultations for recently arrived migrants and unaccompanied foreign minors",
+   "apres": "Systematise the provision of psychological consultations for recently arrived foreign nationals and unaccompanied foreign minors"
+  },
+  {
+   "cas": "étranger → migrant",
+   "uid": "DLR5L17N50767",
+   "titre": "Permettre l’exclusion des étrangers en situation irrégulière du bénéfice de la tarification sociale dans les transports",
+   "avant": "Allow the exclusion of irregular migrants from social fares on transport",
+   "apres": "Enable the exclusion of foreign nationals in an irregular situation from social fares on transport"
+  },
+  {
+   "cas": "scrutin sans article",
+   "uid": "VTANR5L17V8609",
+   "titre": "la proposition de résolution visant à garantir un accès continu à l'eau potable dans les territoires ultramarins (article 34-1 de la Constitution).",
+   "avant": "draft resolution to guarantee continuous access to drinking water in overseas territories (Article 34-1 of the Constitution).",
+   "apres": "the draft resolution to guarantee continuous access to drinking water in overseas territories (Article 34-1 of the Constitution)."
+  },
+  {
+   "cas": "scrutin sans article",
+   "uid": "VTANR5L17V8610",
+   "titre": "la proposition de résolution visant à mobiliser la commande publique au service de l'emploi, de la production et de l'innovation en France (article 34-1 de la Constitution).",
+   "avant": "draft resolution to harness public procurement for jobs, production and innovation in France (Article 34-1 of the Constitution).",
+   "apres": "the draft resolution to mobilise public procurement in the service of employment, production and innovation in France (Article 34-1 of the Constitution)."
+  },
+  {
+   "cas": "scrutin sans article",
+   "uid": "VTANR5L17V8611",
+   "titre": "la proposition de résolution visant à refonder l'espace Schengen en instaurant une double frontière nationale et européenne (article 34-1 de la Constitution).",
+   "avant": "draft resolution to overhaul the Schengen area by introducing a dual national and European border (Article 34-1 of the Constitution).",
+   "apres": "the draft resolution to overhaul the Schengen area by introducing a dual national and European border (Article 34-1 of the Constitution)."
+  },
+  {
+   "cas": "scrutin sans article",
+   "uid": "VTANR5L17V8612",
+   "titre": "la proposition de résolution invitant le Gouvernement à engager les démarches en vue de soutenir l'entrée au Panthéon d'Olympe de Gouges, de l'abbé Charles-Michel de l'Epée et de Zéna M'Déré (article 34-1 de la Constitution).",
+   "avant": "draft resolution calling on the Government to take the steps needed to support the entry of Olympe de Gouges, Abbé Charles-Michel de l'Epée and Zéna M'Déré into the Panthéon (Article 34-1 of the Constitution).",
+   "apres": "the draft resolution inviting the Government to take steps with a view to supporting the entry of Olympe de Gouges, Abbé Charles-Michel de l'Epée and Zéna M'Déré into the Panthéon (Article 34-1 of the Constitution)."
+  },
+  {
+   "cas": "scrutin sans article",
+   "uid": "VTANR5L17V8705",
+   "titre": "la proposition de loi apportant une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants (première lecture).",
+   "avant": "private member's bill providing a comprehensive response to the phenomenon of sexual and sexist violence against women and children (first reading).",
+   "apres": "the private member's bill providing a comprehensive response to sexual and sexist violence against women and children (first reading)."
+  },
+  {
+   "cas": "scrutin sans article",
+   "uid": "VTANR5L17V8706",
+   "titre": "la proposition de loi organique visant à adapter l'autorité judiciaire à la lutte contre les violences sexuelles et intrafamiliales (première lecture).",
+   "avant": "private member's organic law bill to adapt the judicial authority to combating sexual and intra-family violence (first reading).",
+   "apres": "the private member's organic law bill to adapt the judicial authority to the fight against sexual and intra-family violence (first reading)."
+  },
+  {
+   "cas": "DOSSIER :",
+   "uid": "DLR5L17N51047",
+   "titre": "DOSSIER : rapport établi au nom de l'office, sur l'évaluation du cinquième plan national de gestion des matières et déchets radioactifs",
+   "avant": "Dossier: report drawn up on behalf of the Office on the evaluation of the fifth national plan for the management of radioactive materials and waste",
+   "apres": "Report prepared on behalf of the Office on the assessment of the fifth national plan for the management of radioactive materials and waste"
+  },
+  {
+   "cas": "DOSSIER :",
+   "uid": "DLR5L17N51297",
+   "titre": "DOSSIER : rapport d'information déposé par la commission des affaires européennes portant observations sur le projet de loi portant diverses dispositions d’adaptation au droit de l’Union européenne en matière économique, financière, environnementale, énergétique, de transport, de santé et de circulation des personnes",
+   "avant": "DOSSIER: information report tabled by the Committee on European Affairs setting out observations on the government bill laying down various provisions adapting French law to European Union law in economic, financial, environmental, energy, transport, health and freedom of movement matters",
+   "apres": "Information report tabled by the Committee on European Affairs, containing observations on the government bill laying down various provisions adapting French law to European Union law in economic, financial, environmental, energy, transport, health and movement of persons matters"
+  },
+  {
+   "cas": "scrutin banc",
+   "uid": "VTSNR2026V8",
+   "titre": "sur les amendements identiques n° 3, présenté par M. Akli Mellouli et plusieurs de ses collègues, n° 9 rectifié, présenté par Mme Silvana Silvani et les membres du groupe Communiste Républicain Citoyen et Écologiste  Kanaky, n° 12, présenté par M. Patrick Kanner et les membres du groupe Socialiste, Écologiste et Républicain, n° 15 rectifié, présenté par Mme Annick Girardin et plusieurs de ses collègues, et n° 18 rectifié, présenté par M. Lafaele Tukumuli et les membres du groupe Rassemblement des Démocrates, Progressistes et Indépendants, tendant à supprimer l'article 1er ter de la proposition de loi pour l'égalité d'accès aux soins des Ultramarins sur l'ensemble du territoire national",
+   "avant": "on identical amendments no. 3, tabled by Mr Akli Mellouli and several of his colleagues, no. 9 rectified, tabled by Ms Silvana Silvani and the members of the Communist, Republican, Citizen and Ecologist – Kanaky group, no. 12, tabled by Mr Patrick Kanner and the members of the Socialist, Ecologist and Republican group, no. 15 rectified, tabled by Ms Annick Girardin and several of her colleagues, and no. 18 rectified, tabled by Mr Lafaele Tukumuli and the members of the Rassemblement des Démocrates, Progressistes et Indépendants group, to delete Article 1 ter of the private member's bill on equal access to healthcare for overseas residents across the entire national territory",
+   "apres": "on the identical amendments No. 3, tabled by Mr Akli Mellouli and several of his colleagues, No. 9 revised, tabled by Ms Silvana Silvani and the members of the Communiste Républicain Citoyen et Écologiste Kanaky group, No. 12, tabled by Mr Patrick Kanner and the members of the Socialiste, Écologiste et Républicain group, No. 15 revised, tabled by Ms Annick Girardin and several of her colleagues, and No. 18 revised, tabled by Mr Lafaele Tukumuli and the members of the Rassemblement des Démocrates, Progressistes et Indépendants group, to delete Article 1 ter of the private member's bill on equal access to healthcare for overseas citizens throughout the national territory"
+  },
+  {
+   "cas": "scrutin banc",
+   "uid": "VTSNR2026V6",
+   "titre": "sur les amendements identiques n° 2, présenté par M. Akli Mellouli et plusieurs de ses collègues, n° 8 rectifié, présenté par Mme Silvana Silvani et les membres du groupe Communiste Républicain Citoyen et Écologiste  Kanaky, n° 11, présenté par M. Patrick Kanner et les membres du groupe Socialiste, Écologiste et Républicain, n° 14 rectifié, présenté par Mme Annick Girardin et plusieurs de ses collègues, et n° 17 rectifié, présenté par M. Lafaele Tukumuli et les membres du groupe Rassemblement des Démocrates, Progressistes et Indépendants, tendant à rétablir l'article 1er bis de la proposition de loi pour l'égalité d'accès aux soins des Ultramarins sur l'ensemble du territoire national",
+   "avant": "on identical amendments no. 2, tabled by Mr Akli Mellouli and several of his colleagues, no. 8 rectified, tabled by Ms Silvana Silvani and the members of the Communist, Republican, Citizen and Ecologist – Kanaky group, no. 11, tabled by Mr Patrick Kanner and the members of the Socialist, Ecologist and Republican group, no. 14 rectified, tabled by Ms Annick Girardin and several of her colleagues, and no. 17 rectified, tabled by Mr Lafaele Tukumuli and the members of the Rassemblement des Démocrates, Progressistes et Indépendants group, to reinstate Article 1 bis of the private member's bill on equal access to healthcare for overseas residents across the entire national territory",
+   "apres": "on the identical amendments No. 2, tabled by Mr Akli Mellouli and several of his colleagues, No. 8 revised, tabled by Ms Silvana Silvani and the members of the Communiste Républicain Citoyen et Écologiste Kanaky group, No. 11, tabled by Mr Patrick Kanner and the members of the Socialiste, Écologiste et Républicain group, No. 14 revised, tabled by Ms Annick Girardin and several of her colleagues, and No. 17 revised, tabled by Mr Lafaele Tukumuli and the members of the Rassemblement des Démocrates, Progressistes et Indépendants group, to reinstate Article 1 bis of the private member's bill on equal access to healthcare for overseas citizens throughout the national territory"
+  },
+  {
+   "cas": "scrutin banc",
+   "uid": "VTSNR2026V2",
+   "titre": "sur les amendements identiques n° 1, présenté par M. Akli Mellouli et plusieurs de ses collègues, n° 7 rectifié bis, présenté par Mme Silvana Silvani et les membres du groupe Communiste Républicain Citoyen et Écologiste  Kanaky, n° 10, présenté par M. Patrick Kanner et les membres du groupe Socialiste, Écologiste et Républicain, n° 13 rectifié, présenté par Mme Annick Girardin et plusieurs de ses collègues, et n° 16 rectifié, présenté par M. Lafaele Tukumuli et les membres du groupe Rassemblement des Démocrates, Progressistes et Indépendants, à l'article 1er de la proposition de loi pour l'égalité d'accès aux soins des Ultramarins sur l'ensemble du territoire national",
+   "avant": "on identical amendments no. 1, tabled by Mr Akli Mellouli and several of his colleagues, no. 7 rectified bis, tabled by Ms Silvana Silvani and the members of the Communist, Republican, Citizen and Ecologist – Kanaky group, no. 10, tabled by Mr Patrick Kanner and the members of the Socialist, Ecologist and Republican group, no. 13 rectified, tabled by Ms Annick Girardin and several of her colleagues, and no. 16 rectified, tabled by Mr Lafaele Tukumuli and the members of the Rassemblement des Démocrates, Progressistes et Indépendants group, on Article 1 of the private member's bill on equal access to healthcare for overseas residents across the entire national territory",
+   "apres": "on the identical amendments No. 1, tabled by Mr Akli Mellouli and several of his colleagues, No. 7 revised bis, tabled by Ms Silvana Silvani and the members of the Communiste Républicain Citoyen et Écologiste Kanaky group, No. 10, tabled by Mr Patrick Kanner and the members of the Socialiste, Écologiste et Républicain group, No. 13 revised, tabled by Ms Annick Girardin and several of her colleagues, and No. 16 revised, tabled by Mr Lafaele Tukumuli and the members of the Rassemblement des Démocrates, Progressistes et Indépendants group, to Article 1 of the private member's bill on equal access to healthcare for overseas citizens throughout the national territory"
+  },
+  {
+   "cas": "scrutin banc",
+   "uid": "VTANR5L17V5731",
+   "titre": "la motion de censure, déposée en application de l'article 49, alinéa 2, de la Constitution, par Mme Mathilde Panot et 57 députés.",
+   "avant": "the censure motion, tabled under Article 49(2) of the Constitution, by Ms Mathilde Panot and 57 deputies.",
+   "apres": "the censure motion, tabled under Article 49, paragraph 2, of the Constitution, by Ms Mathilde Panot and 57 deputies."
+  },
+  {
+   "cas": "scrutin banc",
+   "uid": "VTANR5L17V842",
+   "titre": "la motion de censure, déposée en application de l'article 49, alinéa 2, de la Constitution, par M. Boris Vallaud et 65 députés.",
+   "avant": "the censure motion, tabled under Article 49(2) of the Constitution, by Mr Boris Vallaud and 65 deputies.",
+   "apres": "the censure motion, tabled under Article 49, paragraph 2, of the Constitution, by Mr Boris Vallaud and 65 deputies."
+  },
+  {
+   "cas": "scrutin banc",
+   "uid": "VTANR5L17V1",
+   "titre": "la motion de censure déposée en application de l'article 49, alinéa 2, de la Constitution par M. Boris Vallaud, Mme Mathilde Panot, Mme Cyrielle Chatelain, M. André Chassaigne et 188 de leurs collègues.",
+   "avant": "the censure motion tabled under Article 49(2) of the Constitution by Mr Boris Vallaud, Ms Mathilde Panot, Ms Cyrielle Chatelain, Mr André Chassaigne and 188 of their colleagues.",
+   "apres": "the censure motion tabled under Article 49, paragraph 2, of the Constitution by Mr Boris Vallaud, Ms Mathilde Panot, Ms Cyrielle Chatelain, Mr André Chassaigne and 188 of their colleagues."
+  },
+  {
+   "cas": "scrutin banc",
+   "uid": "VTANR5L17V2105",
+   "titre": "la motion de rejet préalable, déposée par MM. Julien Dive, Laurent Wauquiez, Gabriel Attal, Marc Fesneau et Paul Christophe de la proposition de loi visant à lever les contraintes à l’exercice du métier d’agriculteur (première lecture).",
+   "avant": "the motion to reject at the outset, tabled by Messrs Julien Dive, Laurent Wauquiez, Gabriel Attal, Marc Fesneau and Paul Christophe, on the private member's bill to lift constraints on the practice of farming (first reading).",
+   "apres": "the preliminary motion to reject, tabled by Messrs Julien Dive, Laurent Wauquiez, Gabriel Attal, Marc Fesneau and Paul Christophe, on the private member's bill to lift constraints on the practice of farming (first reading)."
+  },
+  {
+   "cas": "scrutin banc",
+   "uid": "VTANR5L17V6133",
+   "titre": "la motion de rejet préalable, déposée par Mme Dubré-Chirat, de la proposition de loi visant à permettre aux salariés de certains établissements et services de travailler le 1er mai (première lecture).",
+   "avant": "the motion to reject at the outset, tabled by Ms Dubré-Chirat, on the private member's bill to allow employees of certain establishments and services to work on 1 May (first reading).",
+   "apres": "the preliminary motion to reject, tabled by Ms Dubré-Chirat, on the private member's bill to allow employees of certain businesses and services to work on 1 May (first reading)."
+  },
+  {
+   "cas": "scrutin banc",
+   "uid": "VTANR5L17V456",
+   "titre": "la déclaration du Gouvernement portant sur les négociations en cours relatives à l'accord d'association entre l'Union européenne et le Mercosur (application de l'article 50-1 de la Constitution).",
+   "avant": "the Government statement on the ongoing negotiations on the association agreement between the European Union and Mercosur (under Article 50-1 of the Constitution).",
+   "apres": "the Government statement on the ongoing negotiations on the association agreement between the European Union and Mercosur (under Article 50-1 of the Constitution)."
+  },
+  {
+   "cas": "scrutin banc",
+   "uid": "VTSNR2023V79",
+   "titre": "sur l'ensemble de la première partie du projet de loi de finances pour 2024",
+   "avant": "on the whole of the first part of the finance bill for 2024",
+   "apres": "on the whole of the first part of the finance bill for 2024"
+  },
+  {
+   "cas": "scrutin banc",
+   "uid": "VTSNR2023V46",
+   "titre": "sur l'ensemble de la deuxième partie du projet de loi de financement de la sécurité sociale pour 2024",
+   "avant": "on the whole of the second part of the social security financing bill for 2024",
+   "apres": "on the whole of the second part of the social security financing bill for 2024"
+  },
+  {
+   "cas": "scrutin banc",
+   "uid": "VTSNR2023V169",
+   "titre": "sur l'ensemble du texte élaboré par la commission mixte paritaire sur le projet de loi visant à sécuriser et réguler l'espace numérique",
+   "avant": "on the whole text drawn up by the joint committee on the government bill to secure and regulate the digital space",
+   "apres": "on the whole of the joint committee text on the government bill to secure and regulate the digital space"
+  },
+  {
+   "cas": "scrutin banc",
+   "uid": "VTSNR2024V147",
+   "titre": "sur l'ensemble du texte élaboré par la commission mixte paritaire sur le projet de loi de finances de fin de gestion pour 2024",
+   "avant": "on the whole text drawn up by the joint committee on the end-of-year finance bill for 2024",
+   "apres": "on the whole of the text drawn up by the joint committee on the end-of-year finance bill for 2024"
+  },
+  {
+   "cas": "scrutin banc",
+   "uid": "VTANR5L17V7494",
+   "titre": "l’ensemble de la proposition de loi visant à réduire l’impact environnemental de l’industrie textile (texte de la commission mixte paritaire).",
+   "avant": "the whole of the private member's bill to reduce the environmental impact of the textile industry (joint committee text).",
+   "apres": "the whole of the private member's bill to reduce the environmental impact of the textile industry (joint committee text)."
+  },
+  {
+   "cas": "scrutin banc",
+   "uid": "VTSNR2024V195",
+   "titre": "sur l'ensemble du projet de loi de financement de la sécurité sociale pour 2025 (nouvelle lecture)\\r\\n",
+   "avant": "on the whole of the social security financing bill for 2025 (new reading)",
+   "apres": "on the whole of the social security financing bill for 2025 (new reading)"
+  },
+  {
+   "cas": "scrutin banc",
+   "uid": "VTSNR2024V194",
+   "titre": "sur l'ensemble de la deuxième partie du projet de loi de financement de la sécurité sociale pour 2025 (nouvelle lecture)",
+   "avant": "on the whole of the second part of the social security financing bill for 2025 (new reading)",
+   "apres": "on the whole of the second part of the social security financing bill for 2025 (new reading)"
+  },
+  {
+   "cas": "scrutin banc",
+   "uid": "VTSNR2023V100",
+   "titre": "sur l'article unique constituant l'ensemble de la proposition de loi visant à lutter contre la précarité de la jeunesse par l'instauration d'une allocation autonomie universelle d'études",
+   "avant": "on the single article constituting the whole of the private member's bill to combat youth precarity through the introduction of a universal study autonomy allowance",
+   "apres": "on the single article constituting the whole of the private member's bill to combat youth precarity through the introduction of a universal study autonomy allowance"
+  },
+  {
+   "cas": "scrutin banc",
+   "uid": "VTANR5L17V946",
+   "titre": "l'article unique de la proposition de loi créant une dérogation à la participation minimale pour la maîtrise d'ouvrage  pour les communes rurales (première lecture).",
+   "avant": "the single article of the private member's bill creating an exemption from the minimum participation requirement for project ownership for rural municipalities (first reading).",
+   "apres": "the single article of the private member's bill creating an exemption from the minimum participation for project management for rural municipalities (first reading)."
+  },
+  {
+   "cas": "scrutin banc",
+   "uid": "VTSNR2024V332",
+   "titre": "sur l'article 3 constituant l'ensemble du projet de loi d'approbation des comptes de la sécurité sociale de l'année 2024",
+   "avant": "on Article 3 constituting the whole of the government bill approving the social security accounts for 2024",
+   "apres": "on Article 3 constituting the whole of the government bill approving the social security accounts for 2024"
+  },
+  {
+   "cas": "scrutin banc",
+   "uid": "VTANR5L17V1192",
+   "titre": "l'ensemble de la proposition de résolution pour une stratégie nationale de prévention sur le chemsex (article 34-1 de la Constitution).",
+   "avant": "the whole of the draft resolution for a national strategy on chemsex prevention (Article 34-1 of the Constitution).",
+   "apres": "the whole of the draft resolution on a national strategy for chemsex prevention (Article 34-1 of the Constitution)."
+  },
+  {
+   "cas": "scrutin banc",
+   "uid": "VTANR5L17V2283",
+   "titre": "l'article unique de la proposition de résolution européenne appelant à la régulation des réseaux sociaux face aux ingérences étrangères.",
+   "avant": "the single article of the draft European resolution calling for the regulation of social media in the face of foreign interference.",
+   "apres": "the single article of the draft European resolution calling for the regulation of social networks in the face of foreign interference."
+  },
+  {
+   "cas": "scrutin banc",
+   "uid": "VTSNR2025V231",
+   "titre": "sur l'ensemble du projet de loi organique relatif au renforcement des juridictions criminelles",
+   "avant": "on the whole of the government organic law bill on strengthening criminal courts",
+   "apres": "on the whole of the government organic law bill on strengthening criminal courts"
+  },
+  {
+   "cas": "scrutin banc",
+   "uid": "VTANR5L17V1304",
+   "titre": "l'ensemble de la proposition de loi organique visant à harmoniser le mode de scrutin aux élections municipales afin de garantir la vitalité démocratique, la cohésion municipale et la parité (première lecture).",
+   "avant": "the whole of the private member's organic law bill to harmonise the voting system for municipal elections in order to guarantee democratic vitality, municipal cohesion and parity (first reading).",
+   "apres": "the whole of the private member's organic law bill to harmonise the voting system for municipal elections in order to guarantee democratic vitality, municipal cohesion and gender parity (first reading)."
+  },
+  {
+   "cas": "scrutin banc",
+   "uid": "VTSNR2024V30",
+   "titre": "sur l'ensemble du projet de loi autorisant la ratification de l'accord se rapportant à la convention des Nations unies sur le droit de la mer et portant sur la conservation et l'utilisation durable de la diversité biologique marine des zones ne relevant pas de la juridiction nationale",
+   "avant": "on the whole of the government bill authorising the ratification of the agreement relating to the United Nations Convention on the Law of the Sea on the conservation and sustainable use of marine biological diversity of areas beyond national jurisdiction",
+   "apres": "on the whole of the government bill authorising the ratification of the agreement relating to the United Nations Convention on the Law of the Sea on the conservation and sustainable use of marine biological diversity of areas beyond national jurisdiction"
+  },
+  {
+   "cas": "scrutin banc",
+   "uid": "VTSNR2025V171",
+   "titre": "sur l'ensemble du projet de loi autorisant l'approbation de l'accord entre le Gouvernement de la République française et le Gouvernement de la République du Kazakhstan sur la réadmission des personnes\\r\\n",
+   "avant": "on the whole of the government bill authorising the approval of the agreement between the Government of the French Republic and the Government of the Republic of Kazakhstan on the readmission of persons",
+   "apres": "on the whole of the government bill authorising the approval of the agreement between the Government of the French Republic and the Government of the Republic of Kazakhstan on the readmission of persons"
+  },
+  {
+   "cas": "scrutin banc",
+   "uid": "VTSNR2024V225",
+   "titre": "sur l'ensemble de la proposition de loi visant à renforcer la parité dans les fonctions électives et exécutives du bloc communal",
+   "avant": "on the whole of the private member's bill to strengthen parity in elected and executive office within the communal bloc",
+   "apres": "on the whole of the private member's bill to strengthen parity in elected and executive positions at municipal level"
+  },
+  {
+   "cas": "scrutin banc",
+   "uid": "VTSNR2024V343",
+   "titre": "sur l'ensemble de la proposition de loi visant à permettre aux salariés de certains établissements et services de travailler le 1er mai",
+   "avant": "on the whole of the private member's bill to allow employees of certain establishments and services to work on 1 May",
+   "apres": "on the whole of the private member's bill to allow employees in certain businesses and services to work on 1 May"
+  },
+  {
+   "cas": "scrutin banc",
+   "uid": "VTANR5L17V4836",
+   "titre": "l'ensemble de la proposition de loi portant réparation des personnes condamnées pour homosexualité entre 1945 et 1982 (deuxième lecture).",
+   "avant": "the whole of the private member's bill making reparation for people convicted of homosexuality between 1945 and 1982 (second reading).",
+   "apres": "the whole of the private member's bill providing redress for people convicted of homosexuality between 1945 and 1982 (second reading)."
+  },
+  {
+   "cas": "scrutin banc",
+   "uid": "VTANR5L17V4287",
+   "titre": "l'ensemble de la proposition de loi relative à l’établissement de l’égalité d’accès au service public postal en outre-mer (première lecture).",
+   "avant": "the whole of the private member's bill on establishing equal access to the public postal service in the overseas territories (first reading).",
+   "apres": "the whole of the private member's bill on ensuring equal access to the postal public service in overseas territories (first reading)."
+  }
+ ]
+}

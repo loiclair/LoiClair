@@ -1,0 +1,24 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_transport",
+    "raison": "Le dispositif vise directement les équipements installés sur des navires de transport de marchandises ou de passagers ; il concerne donc le transport maritime.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "chef_entreprise",
+    "raison": "La majoration de 20 % ou 30 % vise les coûts supportés par les moyennes ou petites entreprises, catégories correspondant aux entreprises dirigées par ce profil.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "dirigeant_grande_entreprise"
+  ]
+ },
+ "cout_usd": 0.00113665,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

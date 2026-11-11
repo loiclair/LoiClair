@@ -1,0 +1,47 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "imposable",
+    "raison": "Le 1° du I institue une contribution à la charge des contribuables, calculée sur le revenu fiscal de référence, la base de l'impôt sur le revenu, et recouvrée selon les règles de cet impôt (III). Le foyer imposable paie donc la contribution comme tout foyer fiscal, même si elle s'applique aussi aux foyers non imposables.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "handicap",
+    "raison": "Le 2° du II dispense les titulaires de l'AAH sous un plafond de revenus, et le 3° vise les personnes atteintes d'une infirmité ou invalidité qui les empêche de travailler. La mesure désigne donc directement des personnes en situation de handicap.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "senior",
+    "raison": "Le 4° du II vise les contribuables de plus de 60 ans, sous un plafond de revenus et à condition de ne pas être passibles de l'IFI. Un sous-groupe des 55 ans et plus est ainsi visé.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "veuf",
+    "raison": "Le 4° du II nomme expressément « les veuves et veufs », sans condition d'âge, sous réserve du plafond de revenus et de l'absence d'IFI.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "outre_mer",
+    "raison": "Le 2° et le 5° du II fixent des plafonds de revenus plus élevés pour la Martinique, la Guadeloupe, La Réunion, la Guyane et Mayotte. Les habitants de ces territoires sont désignés par leur lieu de vie et voient leurs seuils changer.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "age_dependant",
+    "raison": "Le 7° vise les personnes sans autonomie de vie hébergées durablement dans un établissement de soins de longue durée, dont les EHPAD mentionnés au 6° du I de l'article L. 312-1 du CASF. Cela correspond à la perte d'autonomie en établissement.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0020374349999999998,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

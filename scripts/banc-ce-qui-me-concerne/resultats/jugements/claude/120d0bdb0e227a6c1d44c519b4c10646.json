@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "salarie_prive",
+    "raison": "Le texte vise des propos ou comportements imposés dans le cadre d’une politique d’entreprise, mais ne désigne pas les salariés privés en raison de leur statut : il s’applique selon les faits commis.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0005549,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

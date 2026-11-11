@@ -1,0 +1,12 @@
+{
+ "impacts": [
+  {
+   "profil": "secteur_transport",
+   "phrase_fr": "Les conducteurs de tramway et de métro sont filmés par des caméras frontales, dont les images servent à analyser les accidents et à les former.",
+   "phrase_en": "Tram and metro drivers are filmed by front-facing cameras, whose footage is used to analyse accidents and train them.",
+   "passage": "Les traitements prévus au présent article ont exclusivement pour finalités d'assurer la prévention et l'analyse des accidents ainsi que la formation du personnel de conduite et de sa hiérarchie.",
+   "certitude": "probable"
+  }
+ ],
+ "cout_usd": 0.00094811
+}

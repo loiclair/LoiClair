@@ -1,0 +1,19 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "heritier_donateur",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'amendement étend la période d'application d'un allègement fiscal pour les dons de sommes d'argent. Cela concerne directement les personnes qui transmettent ou reçoivent un patrimoine par donation, profil défini par 'heritier_donateur'."
+   }
+  ],
+  "oublis": [
+   "parent",
+   "jeune",
+   "senior",
+   "emprunteur"
+  ]
+ },
+ "cout_usd": 0.0024089
+}

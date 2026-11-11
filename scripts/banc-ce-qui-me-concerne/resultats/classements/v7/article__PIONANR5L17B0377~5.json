@@ -1,0 +1,19 @@
+{
+ "impacts": [
+  {
+   "profil": "secteur_culture",
+   "phrase_fr": "Les journalistes seraient affiliés à la sécurité sociale française, quel que soit leur lien juridique avec l’agence ou le journal qui publie leur travail.",
+   "phrase_en": "Journalists would be covered by French social security, whatever their legal link with the agency or newspaper that publishes their work.",
+   "passage": "Les journalistes professionnels et assimilés, au sens des articles L. 7111‑3 et L. 7111‑4 du code du travail, fournissant des articles, des informations, des reportages, des dessins ou des photographies à une agence de presse ou à une entreprise de presse quotidienne ou périodique",
+   "certitude": "certain"
+  },
+  {
+   "profil": "expat",
+   "phrase_fr": "Les journalistes vivant ou travaillant hors de France seraient aussi couverts par la sécurité sociale française.",
+   "phrase_en": "Journalists living or working abroad would also be covered by French social security.",
+   "passage": "par dérogation au deuxième alinéa de l’article L. 111‑1 du présent code, quel que soit leur pays d’exercice et leur pays de résidence",
+   "certitude": "probable"
+  }
+ ],
+ "cout_usd": 0.00100051
+}

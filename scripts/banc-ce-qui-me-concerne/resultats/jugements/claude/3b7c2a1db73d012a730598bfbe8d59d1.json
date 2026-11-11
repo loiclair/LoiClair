@@ -1,0 +1,34 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "fonctionnaire",
+    "raison": "Le texte vise explicitement l’agent public : ses fonctions déclenchent la protection de ses proches.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "marie_pacse",
+    "raison": "Le conjoint ou partenaire de PACS d’un agent public est expressément désigné comme bénéficiaire potentiel de la protection.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "concubin",
+    "raison": "Le concubin d’un agent public est expressément désigné comme bénéficiaire potentiel de la protection.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "parent",
+    "raison": "Le texte protège les enfants et les ascendants directs de l’agent public, pas les parents en tant que tels au sens du profil (parents d’un enfant mineur ou à charge).",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.001196025,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

@@ -1,0 +1,19 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "parent",
+    "raison": "L'article 448 vise le « parent vivant » qui peut désigner un tuteur ou curateur pour son enfant majeur protégé. Mais la phrase de l'assistant est fausse : le texte précise « qui ne bénéficient pas d'une mesure de curatelle ou de tutelle », donc un parent sous protection ne peut pas désigner. Le profil reste concerné, la phrase est infidèle.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": [
+   "aidant"
+  ]
+ },
+ "cout_usd": 0.0027676999999999997,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

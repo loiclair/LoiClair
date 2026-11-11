@@ -1,0 +1,26 @@
+{
+ "impacts": [
+  {
+   "profil": "salarie_prive",
+   "passage": "Lorsque ces propos ou comportements sont imposés dans le cadre de la mise en œuvre d’une politique d’entreprise.",
+   "certitude": "probable",
+   "phrase_en": "Harassment imposed through a company policy would be punished more severely, giving greater protection to the employee concerned.",
+   "phrase_fr": "Les propos ou comportements de harcèlement moral imposés par une politique d'entreprise pourraient être sanctionnés plus sévèrement, ce qui protégerait davantage le salarié concerné."
+  },
+  {
+   "profil": "chef_entreprise",
+   "passage": "Lorsque ces propos ou comportements sont imposés dans le cadre de la mise en œuvre d’une politique d’entreprise.",
+   "certitude": "possible",
+   "phrase_en": "A manager who imposes harassing remarks or conduct through a company policy would face a heavier criminal penalty.",
+   "phrase_fr": "Un dirigeant qui impose des propos ou comportements de harcèlement moral dans le cadre d'une politique d'entreprise pourrait encourir une sanction pénale plus lourde."
+  },
+  {
+   "profil": "dirigeant_grande_entreprise",
+   "passage": "Lorsque ces propos ou comportements sont imposés dans le cadre de la mise en œuvre d’une politique d’entreprise.",
+   "certitude": "possible",
+   "phrase_en": "A director of a large company who imposes a policy causing moral harassment could be punished more severely.",
+   "phrase_fr": "Un dirigeant de grande entreprise qui impose une politique entraînant du harcèlement moral pourrait être puni plus sévèrement."
+  }
+ ],
+ "resume_fr": null
+}

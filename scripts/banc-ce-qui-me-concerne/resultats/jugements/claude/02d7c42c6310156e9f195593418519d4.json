@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "expat",
+    "raison": "Le texte impose de publier sur le site des ambassades et postes consulaires l'information prévue par l'article L. 3131-15, avec mise à jour hebdomadaire. Ce sont les Français établis à l'étranger qui en bénéficient directement, car ils consultent ces sites.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0075877,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

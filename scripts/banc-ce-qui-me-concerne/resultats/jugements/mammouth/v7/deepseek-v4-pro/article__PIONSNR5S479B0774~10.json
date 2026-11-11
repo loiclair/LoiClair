@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "oublis": [
+   "meuble_tourisme",
+   "secteur_hotellerie"
+  ],
+  "profils": [
+   {
+    "concerne": true,
+    "phrase_fidele": true,
+    "profil": "montagne",
+    "raison": "La phrase conditionnelle est exacte et le profil est directement visé par la modification des règles d’urbanisme en zone de montagne."
+   }
+  ]
+ },
+ "cout_usd": 0.0014928678
+}

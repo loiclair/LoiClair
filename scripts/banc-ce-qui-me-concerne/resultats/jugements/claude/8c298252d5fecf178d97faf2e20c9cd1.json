@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "chef_entreprise",
+    "raison": "L'article fixe une peine d'emprisonnement et d'amende pour l'employeur qui commet la violation envers plusieurs personnes, sans condition de taille d'entreprise. Il vise donc directement les employeurs de très petites, petites et moyennes entreprises.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "dirigeant_grande_entreprise",
+    "raison": "Le même texte vise tout employeur, y compris celui d'une entreprise de 250 salariés ou plus. Le dirigeant d'une grande entreprise est donc concerné par la même peine.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000452535,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_sante",
+    "raison": "Le texte vise directement les médecins, chirurgiens-dentistes et sages-femmes : il encadre l’autorisation de remplacement lorsqu’ils s’absentent pour contribuer à l’accès aux soins dans les territoires concernés.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000377275,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

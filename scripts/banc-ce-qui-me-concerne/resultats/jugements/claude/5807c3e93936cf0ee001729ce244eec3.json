@@ -1,0 +1,40 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etudiant",
+    "raison": "Le texte vise explicitement les locataires qui suivent des études supérieures et prévoit pour eux l’accès à cette résidence et à son bail mobilité.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "apprenti_alternant",
+    "raison": "Le texte vise explicitement les personnes en formation professionnelle, en contrat d’apprentissage ou en stage.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "benevole",
+    "raison": "Le texte mentionne explicitement l’engagement volontaire dans le cadre d’un service civique, inclus dans ce profil.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "locataire",
+    "raison": "Les règles de durée du bail mobilité et les conditions de location s’appliquent directement aux locataires d’une résidence à vocation d’emploi, sous-groupe de ce profil.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "salarie_prive",
+    "raison": "Le texte vise une mutation professionnelle ou une mission temporaire, quel que soit le statut professionnel ; il ne vise pas spécifiquement les salariés du privé.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000810025,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

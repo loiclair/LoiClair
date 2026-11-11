@@ -1,0 +1,11 @@
+{
+ "jugement": {
+  "profils": [],
+  "oublis": [
+   "secteur_sante"
+  ]
+ },
+ "cout_usd": 0.000330775,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

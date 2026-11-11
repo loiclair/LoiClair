@@ -1,0 +1,19 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etranger_hors_ue",
+    "raison": "L'article fixe la taxe sur la première délivrance (300 €, ou 100 € pour certains titres) et sur le renouvellement (200 €, ou 50 €) des titres de séjour. Cela vise directement les personnes hors UE qui vivent en France avec un titre de séjour. Les montants cités sont exacts, avec des exonérations pour certains titres.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "automobiliste"
+  ]
+ },
+ "cout_usd": 0.0077577,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

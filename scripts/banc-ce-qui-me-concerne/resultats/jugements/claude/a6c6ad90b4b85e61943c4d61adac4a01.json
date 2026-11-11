@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "projet_achat",
+    "raison": "Le texte fait payer une taxe de 0,10 % à la personne tenue au paiement des droits lors d'une mutation à titre onéreux d'un bien situé dans une commune littorale. L'achat déclenche la taxe et l'acheteur la supporte directement, donc la personne qui cherche à acheter est visée. La phrase de l'assistant est fidèle : elle est au conditionnel, et le restriction au logement est une partie des biens visés.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0006858350000000001,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

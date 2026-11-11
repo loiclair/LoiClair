@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "benevole",
+    "raison": "Le texte vise les associations dissoutes par l'autorité administrative : un curateur liquide les biens et convoque l'assemblée générale, malgré les statuts. Les dirigeants bénévoles de ces associations sont directement touchés dans leurs prérogatives et leurs obligations.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0033816999999999996,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

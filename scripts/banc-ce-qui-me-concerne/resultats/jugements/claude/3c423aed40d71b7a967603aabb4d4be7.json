@@ -1,0 +1,29 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etranger_hors_ue",
+    "raison": "L'article modifie les titres de séjour (carte pluriannuelle de quatre ans « vie privée et familiale ») délivrés aux étrangers non européens en France, notamment conjoints et enfants de titulaires d'une carte de résident.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "mineur",
+    "raison": "Le texte vise l'étranger entre seize et dix-huit ans qui remplit les conditions de l'article L. 421-35, dont un parent a une carte de résident : un mineur de 16-17 ans est directement visé.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "jeune",
+    "raison": "Le texte vise l'étranger dans l'année suivant son dix-huitième anniversaire, donc un jeune de 18 ans dont un parent est titulaire d'une carte de résident.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0038946999999999996,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

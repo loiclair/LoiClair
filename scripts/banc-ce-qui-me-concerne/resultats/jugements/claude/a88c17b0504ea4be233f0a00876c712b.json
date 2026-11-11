@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "benevole",
+    "raison": "Le texte désigne le service civique, qui relève du volontariat et donc de la définition « volontaire en service civique » du profil. Il prévoit que ce temps soit pris en compte dans les règles de la fonction publique, ce qui touche le parcours de ces volontaires. L'effet reste conditionné à leur entrée dans la fonction publique et l'article ne précise pas la portée exacte de la modification de l'article L. 325-8.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000781835,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

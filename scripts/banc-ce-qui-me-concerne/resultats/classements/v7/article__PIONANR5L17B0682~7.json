@@ -1,0 +1,12 @@
+{
+ "impacts": [
+  {
+   "profil": "etudiant",
+   "phrase_fr": "Les facultés de santé proposeraient dans chaque département la première année des études de médecine, pharmacie, odontologie et maïeutique, surtout dans les zones sous-dotées en soins.",
+   "phrase_en": "Health faculties would offer first-year medicine, pharmacy, dentistry and midwifery courses in every department, especially in areas with few healthcare providers.",
+   "passage": "Les unités de formation et de recherche en santé proposent dans chaque département des enseignements correspondant au minimum à la première année du premier cycle des formations de médecine, de pharmacie, d’odontologie et de maïeutique",
+   "certitude": "possible"
+  }
+ ],
+ "cout_usd": 0.00084441
+}

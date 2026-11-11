@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "elu_local",
+    "raison": "L'article fixe qui est le conseiller communautaire suppléant (conseiller municipal suivant sur la liste ou dans l'ordre du tableau) et lui permet de siéger avec voix délibérative en cas d'absence du titulaire : cela vise directement les élus municipaux et intercommunaux.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0023587,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

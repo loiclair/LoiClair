@@ -1,0 +1,24 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "parent",
+    "raison": "La suppression des alinéas de l’article L. 521-1 vise les règles des allocations familiales, qui concernent directement les parents bénéficiaires.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "famille_nombreuse",
+    "raison": "Les familles de trois enfants ou plus sont incluses parmi les familles auxquelles s’appliquent les règles des allocations familiales supprimées.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "outre_mer"
+  ]
+ },
+ "cout_usd": 0.00102265,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

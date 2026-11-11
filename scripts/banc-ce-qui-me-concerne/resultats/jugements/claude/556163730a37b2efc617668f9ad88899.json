@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "marie_pacse",
+    "raison": "Le texte définit comme violences intrafamiliales les infractions commises par le conjoint ou le partenaire de PACS ; l'amendement y ajoute la violation d'ordonnance de protection. Le statut de la personne est ce qui déclenche la qualification, mais l'effet direct porte sur l'auteur ou la victime, pas sur toute personne mariée.",
+    "concerne": false,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "separe_divorce",
+    "raison": "L'amendement vise les violations d'ordonnance de protection commises par un conjoint ou un ancien conjoint, ce qui concerne directement les personnes séparées ou divorcées, dont l'ancien conjoint est expressément visé par le texte.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0034966999999999997,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

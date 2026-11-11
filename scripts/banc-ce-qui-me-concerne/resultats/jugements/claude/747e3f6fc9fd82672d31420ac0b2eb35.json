@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "imposable",
+    "raison": "Le texte modifie directement le nombre de parts servant au calcul de l’impôt sur le revenu des contribuables concernés.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "parent",
+    "raison": "Le texte vise les contribuables qui assument la charge d’au moins deux enfants et prévoit le partage de la majoration entre leurs parents lorsque la charge est égale.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000648025,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

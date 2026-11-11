@@ -1,0 +1,28 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "heritier_donateur",
+    "raison": "La modification de l’article 784 supprime l’exception visant les donations de plus de quinze ans, ce qui touche directement le calcul des droits lors d’une donation ou d’une succession.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "epargnant",
+    "raison": "La modification de l’article 757 B change le traitement fiscal des sommes issues d’une assurance-vie, placement expressément compris dans ce profil.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "senior",
+    "raison": "L’article 757 B vise expressément les primes versées après 70 ans ; les seniors de cet âge sont donc concernés par le changement de traitement fiscal.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0015509,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_agriculture",
+    "raison": "L'article 4 vise directement les installations d'élevage (I, art. L. 511-3) : prescriptions générales sur les effluents, l'isolation, la biosécurité et le désamiantage, avec obligations environnementales possibles. Il crée aussi une stratégie pour l'élevage (cartographie, plans d'action, programme d'attractivité du métier d'éleveur) et abroge deux paragraphes de la loi de 2025 sur le métier d'agriculteur. Le verbe « peuvent » laisse la portée ouverte, mais ces règles touchent directement la façon d'exploiter un élevage.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0005566849999999999,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

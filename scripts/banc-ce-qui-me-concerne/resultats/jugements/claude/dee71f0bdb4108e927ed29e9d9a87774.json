@@ -1,0 +1,35 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etranger_hors_ue",
+    "raison": "L'article modifie la durée et la nature des cartes de séjour « vie privée et familiale » (quatre ans, pluriannuelle) délivrées aux étrangers hors UE ; ils sont directement visés.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "marie_pacse",
+    "raison": "Le texte vise le conjoint d'un titulaire de carte de résident, au titre du séjour de l'étranger. Le profil marié ou pacsé n'est pas ce qui déclenche la mesure, c'est la situation de séjour. La phrase s'adresse en outre à « votre conjoint » titulaire d'une carte, ce qui n'est pas fidèle au texte pour un lecteur marié ou pacsé en général.",
+    "concerne": false,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "parent",
+    "raison": "Le texte vise l'enfant étranger dont un parent est titulaire d'une carte de résident ; le parent n'est pas le bénéficiaire direct de la mesure, qui ne change rien à ses droits ou obligations propres. La phrase de l'assistant est cependant fidèle sur le fond, malgré l'imprécision « à sa majorité » (dans l'année suivant les 18 ans, ou dès 16 ans sous conditions).",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "mineur",
+    "raison": "Le texte vise l'étranger entre seize et dix-huit ans qui remplit les conditions de l'article L. 421-35 et dont un parent a une carte de résident : un mineur de cette tranche est directement visé. La phrase est fidèle.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0053267,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

@@ -1,0 +1,19 @@
+{
+ "impacts": [
+  {
+   "profil": "elu_local",
+   "passage": "3° L'article L. 2122-7-2 est ainsi modifié : a) Au début de la première phrase du premier alinéa, les mots : « Dans les communes de 1 000 habitants et plus, » sont supprimés ;",
+   "certitude": "certain",
+   "phrase_en": "The rules for choosing deputy mayors change: the 1,000-inhabitant threshold is removed, so all municipalities follow these rules.",
+   "phrase_fr": "Les règles de désignation des adjoints au maire changent : la condition de population de 1 000 habitants disparaît, donc toutes les communes sont concernées par ces règles."
+  },
+  {
+   "profil": "rural",
+   "passage": "en cas de vacance dans les communes de moins de 1 000 habitants, le ou les adjoints sont désignés parmi les conseillers, sans tenir compte du sexe de ces derniers.",
+   "certitude": "probable",
+   "phrase_en": "In communes under 1,000 residents, when a deputy mayor post is vacant, deputies are chosen from councillors regardless of their sex.",
+   "phrase_fr": "Dans les communes de moins de 1 000 habitants, en cas de vacance, les adjoints sont désignés parmi les conseillers, sans tenir compte du sexe de ces derniers."
+  }
+ ],
+ "resume_fr": null
+}

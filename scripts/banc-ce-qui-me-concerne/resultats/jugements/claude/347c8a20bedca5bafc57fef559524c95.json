@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etranger_hors_ue",
+    "raison": "Le texte vise directement les étrangers (non-UE, régis par le CESEDA) victimes des infractions listées à l'article L. 425-1 et leur ouvre une autorisation provisoire de séjour d'un an, renouvelable, avec droit de travailler. Cela change concrètement leur situation de séjour et leurs droits, sous réserve de produire des éléments sérieux et concordants.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000577485,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

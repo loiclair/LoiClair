@@ -1,0 +1,19 @@
+{
+ "impacts": [
+  {
+   "profil": "locataire",
+   "phrase_fr": "Le logement devrait garantir un confort thermique minimal en été ; si des travaux sont impossibles, vous recevriez un ventilateur mobile et un dispositif d'occultation des fenêtres.",
+   "phrase_en": "The home would have to guarantee a minimum level of summer thermal comfort; if works are impossible, you would receive a mobile fan and window shading devices.",
+   "passage": "Le bailleur est tenu de fournir au locataire un logement garantissant un niveau minimal de confort thermique en période estivale.",
+   "certitude": "certain"
+  },
+  {
+   "profil": "proprietaire_bailleur",
+   "phrase_fr": "Vous devriez, à la demande du locataire, installer des protections solaires mobiles extérieures et un brasseur d'air dans les pièces de vie, ou un dispositif d'occultation si c'est impossible.",
+   "phrase_en": "You would have to install exterior mobile solar shades and an air circulator in living rooms on tenant request, or window shading if impossible.",
+   "passage": "D’installer, à la demande du locataire, des protections solaires mobiles extérieures et un brasseur d’air dans les pièces de vie.",
+   "certitude": "certain"
+  }
+ ],
+ "cout_usd": 0.00110735
+}

@@ -1,0 +1,19 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "parent",
+    "raison": "Le texte accorde une demi-part au contribuable qui assume la charge exclusive ou principale d’au moins deux enfants, et prévoit un partage en cas de charge égale.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "famille_nombreuse",
+   "imposable"
+  ]
+ },
+ "cout_usd": 0.0007424,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

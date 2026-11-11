@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "travailleur_plateforme",
+    "raison": "L'article L. 7342-5-4 du code du travail vise les travailleurs de plateformes numériques : interdiction des suspensions ou désactivations décidées uniquement par algorithme, avec motivation, notification et procédure contradictoire.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0019947,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

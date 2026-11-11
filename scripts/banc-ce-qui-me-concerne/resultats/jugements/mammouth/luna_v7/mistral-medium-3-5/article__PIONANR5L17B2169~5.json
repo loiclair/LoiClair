@@ -1,0 +1,43 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "concubin",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "Le texte mentionne explicitement les violences commises par le concubin ou ancien concubin, ce qui vise directement ce profil. La phrase est fidèle et au conditionnel."
+   },
+   {
+    "profil": "marie_pacse",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "Le texte cite les violences commises par le conjoint ou partenaire de PACS (ou ancien), ce qui concerne directement ce profil. La phrase est fidèle et au conditionnel."
+   },
+   {
+    "profil": "separe_divorce",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "Le texte évoque les violences commises par un ancien conjoint ou partenaire, ce qui vise ce profil. La phrase est fidèle et au conditionnel."
+   },
+   {
+    "profil": "parent",
+    "concerne": false,
+    "phrase_fidele": false,
+    "raison": "Le passage cité ne précise pas que le parent est *l'auteur* ou *la victime* des violences. Le texte vise les modalités d'autorité parentale *en cas de violences*, mais ne concerne pas tous les parents, seulement ceux impliqués dans des situations de violences. La phrase est trop générale et non fidèle."
+   },
+   {
+    "profil": "mineur",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "Le texte mentionne explicitement les mineurs victimes de violences par un ascendant, ce qui vise directement ce profil. La phrase est fidèle et au conditionnel."
+   }
+  ],
+  "oublis": [
+   "veuf",
+   "parent_isole",
+   "famille_nombreuse",
+   "futur_parent"
+  ]
+ },
+ "cout_usd": 0.011085
+}

@@ -1,0 +1,12 @@
+{
+ "impacts": [
+  {
+   "profil": "etudiant",
+   "phrase_fr": "Les étudiants en médecine pourraient effectuer certains stages de formation dans des maisons de santé.",
+   "phrase_en": "Medical students would be able to complete some of their training placements in maisons de santé.",
+   "passage": "après le mot : « santé », sont insérés les mots : « , de maisons de santé ».",
+   "certitude": "possible"
+  }
+ ],
+ "cout_usd": 0.00146758
+}

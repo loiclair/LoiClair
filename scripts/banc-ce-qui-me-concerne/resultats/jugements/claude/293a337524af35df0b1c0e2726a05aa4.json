@@ -1,0 +1,28 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etranger_hors_ue",
+    "raison": "Le texte impose à certains étrangers non ressortissants de l’UE une condition de deux ans de séjour régulier pour certaines prestations, tout en prévoyant des exceptions.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "allocataire",
+    "raison": "Les aides personnelles au logement, incluses dans ce profil, sont visées par la condition de séjour, avec des exceptions notamment pour certains étudiants et titulaires d’un titre autorisant à travailler.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "age_dependant",
+    "raison": "Le texte soumet le bénéfice de l’APA à une condition de deux ans de séjour régulier pour certains étrangers hors UE et prévoit des exceptions.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.001058275,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "benevole",
+    "raison": "L’article vise les associations dissoutes et organise la liquidation de leurs biens ; il ne vise pas les bénévoles ou leurs dirigeants en tant que tels.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00034615,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

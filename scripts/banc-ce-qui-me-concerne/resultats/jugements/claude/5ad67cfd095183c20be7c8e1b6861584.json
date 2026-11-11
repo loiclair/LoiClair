@@ -1,0 +1,29 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "animal",
+    "raison": "Le texte vise directement les équidés vivants et la prise en pension, l'entraînement et la location de chevaux, ce qui baisse le prix payé par leur propriétaire via le taux réduit de TVA. Le test « ça me vise » est satisfait pour une personne qui a un cheval.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "secteur_agriculture",
+    "raison": "Les livraisons d'équidés vivants et les prestations liées à leur exploitation (élevage, dressage, entraînement) relèvent de l'élevage ; le taux réduit s'applique directement aux ventes des éleveurs. La mesure ne touche pas le secteur par ricochet.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "chef_entreprise",
+    "raison": "Le taux réduit s'applique aux prestations d'équitation vendues par les centres équestres, dont les dirigeants sont des chefs de TPE ou PME. Il change directement leur TVA et leurs prix, sans passer par une réaction d'un tiers.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.001648185,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

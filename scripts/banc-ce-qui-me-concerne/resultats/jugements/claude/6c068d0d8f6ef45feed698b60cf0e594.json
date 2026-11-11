@@ -1,0 +1,28 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "salarie_prive",
+    "raison": "Le texte accorde explicitement le droit aux salariés atteints d’algie vasculaire de la face présentant des symptômes incapacitants. Les salariés du privé sont visés s’ils remplissent ces conditions.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "malade_chronique",
+    "raison": "L’algie vasculaire de la face est une affection chronique expressément visée. Le droit reste toutefois réservé aux personnes salariées dont les symptômes sont incapacitants et attestés médicalement.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "cdd_interim",
+    "raison": "Le droit vise les salariés atteints de cette pathologie, sans faire du CDD ou de l’intérim un critère. La seule suppression de la condition d’ancienneté ne vise pas spécialement les contrats courts.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00094965,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

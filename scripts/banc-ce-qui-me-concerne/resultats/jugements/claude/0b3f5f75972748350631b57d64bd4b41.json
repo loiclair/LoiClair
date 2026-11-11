@@ -1,0 +1,19 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_agriculture",
+    "raison": "L'article fixe des prescriptions générales pour les installations d'élevage (plan de modernisation des bâtiments, cycles de l'azote et du phosphore) et une stratégie nationale pour l'élevage : cela change les règles d'exercice du métier d'éleveur.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "chef_entreprise"
+  ]
+ },
+ "cout_usd": 0.0035707,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

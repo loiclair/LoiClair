@@ -1,0 +1,12 @@
+{
+ "impacts": [
+  {
+   "profil": "aidant",
+   "phrase_fr": "Permettrait au juge de désigner à l'avance la personne qui reprendrait la mesure de protection si le tuteur ou le curateur décède.",
+   "phrase_en": "Would let the judge name in advance the person who would take over a protection measure if the guardian or curator dies.",
+   "passage": "Le juge peut également, dans le jugement d’ouverture ou ultérieurement, en considération de la situation de la personne protégée, désigner la ou les personnes qui exerceront la mesure de protection en cas de décès des personnes désignées en premier lieu",
+   "certitude": "probable"
+  }
+ ],
+ "cout_usd": 0.00091625
+}

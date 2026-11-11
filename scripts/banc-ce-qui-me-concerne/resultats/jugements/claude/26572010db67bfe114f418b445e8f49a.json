@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_finance",
+    "raison": "Le texte vise les personnes condamnées pour certains délits douaniers, non les personnes en raison de leur secteur d’activité. La fonction d’agent de change est citée, mais le critère déclencheur est la condamnation.",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "chef_entreprise",
+    "raison": "L’interdiction vise les personnes condamnées pour certains délits douaniers, pas les dirigeants d’entreprise en tant que tels.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00067765,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

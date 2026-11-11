@@ -1,0 +1,12 @@
+{
+ "resume_fr": "Supprimerait la possibilité de retirer, en cas de faute personnelle, la protection accordée aux personnels de l’éducation victimes de violences, de menaces ou d’outrages.",
+ "resume_en": "Would remove the possibility of withdrawing protection, in cases of personal misconduct, from education staff who suffer violence, threats or insults.",
+ "impacts": [
+  {
+   "profil": "secteur_education",
+   "passage": "Supprimer l’alinéa 3.",
+   "certitude": "probable"
+  }
+ ],
+ "cout_usd": 0.0002746
+}

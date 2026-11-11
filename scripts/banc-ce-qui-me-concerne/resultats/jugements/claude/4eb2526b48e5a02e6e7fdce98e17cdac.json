@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "epargnant",
+    "raison": "L'article vise les détenteurs de portefeuilles d'actifs numériques, c'est-à-dire des cryptoactifs, que la définition du profil couvre explicitement. Il leur impose de déclarer ces actifs et prévoit une majoration, au minimum égale à l'amende de l'article 1736 X, pour les actifs non déclarés.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000501685,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

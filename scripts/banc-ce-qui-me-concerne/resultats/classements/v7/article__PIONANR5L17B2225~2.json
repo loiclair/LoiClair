@@ -1,0 +1,33 @@
+{
+ "impacts": [
+  {
+   "profil": "locataire",
+   "phrase_fr": "Le loyer d'un logement mis en location serait fixé librement, mais sans dépasser le loyer de référence fixé par le préfet.",
+   "phrase_en": "The rent for a home let out would be set freely, but could not exceed the reference rent set by the prefect.",
+   "passage": "Le loyer de base des logements mis en location dans le territoire concerné est fixé librement entre les parties lors de la conclusion du contrat de bail dans la limite du loyer de référence.",
+   "certitude": "certain"
+  },
+  {
+   "profil": "proprietaire_bailleur",
+   "phrase_fr": "Un loyer supérieur au loyer de référence pourrait être ramené à ce niveau, à la demande du locataire.",
+   "phrase_en": "A rent above the reference rent could be lowered to that level at the tenant's request.",
+   "passage": "Une action en diminution de loyer peut être engagée si le loyer de base prévu dans le contrat de bail est supérieur au loyer de référence en vigueur à la date de sa publication par arrêté.",
+   "certitude": "probable"
+  },
+  {
+   "profil": "meuble_tourisme",
+   "phrase_fr": "Les locations meublées touristiques seraient soumises à l'encadrement des loyers, y compris hors zones tendues.",
+   "phrase_en": "Furnished tourist rentals would be subject to rent controls, including outside tight housing areas.",
+   "passage": "Les dispositions du présent article relatives à l’encadrement des loyers sont étendues aux logements meublés touristiques définis à l’article L. 324‑1‑1 du code du tourisme",
+   "certitude": "certain"
+  },
+  {
+   "profil": "etudiant",
+   "phrase_fr": "Les loyers des résidences étudiantes privées seraient soumis aux mêmes règles d'encadrement que les logements classiques.",
+   "phrase_en": "Private student residence rents would be subject to the same rent controls as ordinary homes.",
+   "passage": "Les loyers des logements meublés utilisés à des fins touristiques et ceux des résidences étudiantes privées sont soumis aux mêmes règles d’encadrement des loyers que les logements à usage d’habitation principale, dans les zones tendues comme sur le reste du territoire.",
+   "certitude": "probable"
+  }
+ ],
+ "cout_usd": 0.00148411
+}

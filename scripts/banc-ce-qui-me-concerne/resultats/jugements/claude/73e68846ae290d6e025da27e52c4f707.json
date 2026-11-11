@@ -1,0 +1,18 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "imposable",
+    "raison": "L’article étend une réduction d’impôt sur le revenu aux versements faits à certaines catégories d’organismes d’intérêt général.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": [
+   "heritier_donateur"
+  ]
+ },
+ "cout_usd": 0.0007264,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

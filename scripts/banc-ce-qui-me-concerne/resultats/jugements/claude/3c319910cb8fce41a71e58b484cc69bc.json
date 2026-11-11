@@ -1,0 +1,19 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "chef_entreprise",
+    "raison": "L'amendement vise directement les entreprises à forte sinistralité ou ayant manqué à leur obligation de sécurité : leur interdiction de conclure conventions de stage et contrats d'apprentissage pourrait être levée par l'inspecteur du travail. Le dirigeant ou employeur de TPE, PME ou entreprise moyenne, qui signe ces conventions, est donc concerné par ses règles d'accueil. Le texte ne distingue pas la taille de l'entreprise.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "dirigeant_grande_entreprise"
+  ]
+ },
+ "cout_usd": 0.0007584349999999999,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

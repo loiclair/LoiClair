@@ -1,0 +1,26 @@
+{
+ "impacts": [
+  {
+   "profil": "rural",
+   "passage": "a) Au premier alinéa, les mots : « police municipale » sont remplacés par les mots : « police territoriale » et sont ajoutés les mots : « , et de police des campagnes »",
+   "certitude": "probable",
+   "phrase_en": "Municipal police officers, renamed territorial police, would also carry out rural policing in countryside communes.",
+   "phrase_fr": "Les agents de police municipale, renommés police territoriale, exerceraient aussi une « police des campagnes » dans les communes rurales."
+  },
+  {
+   "profil": "automobiliste",
+   "passage": "Sans préjudice des compétences qui leur sont dévolues par des lois spéciales, ils constatent également par procès‑verbaux les contraventions aux dispositions du code de la route, conformément à son article L. 130‑4",
+   "certitude": "probable",
+   "phrase_en": "Territorial police officers would be able to issue written reports for traffic offences under the highway code, alongside street surveillance agents.",
+   "phrase_fr": "Les agents de police territoriale pourraient constater par procès-verbal les infractions au code de la route, aux côtés des agents de surveillance de la voie publique."
+  },
+  {
+   "profil": "fonctionnaire",
+   "passage": "Au premier alinéa, les mots : « police municipale » sont remplacés par les mots : « police territoriale »",
+   "certitude": "probable",
+   "phrase_en": "Municipal police officers would become territorial police officers, with broader duties, including traffic and criminal-code offences.",
+   "phrase_fr": "Les agents de police municipale deviendraient des agents de police territoriale, avec des missions élargies, notamment en matière d'infractions routières et pénales."
+  }
+ ],
+ "resume_fr": null
+}

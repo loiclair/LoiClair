@@ -1,0 +1,28 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "rural",
+    "concerne": false,
+    "phrase_fidele": true,
+    "raison": "L'ajout de la mention de la « police des campagnes » réorganise les missions de police administrative générale mais ne modifie pas directement les droits, obligations ou démarches des habitants des zones rurales."
+   },
+   {
+    "profil": "automobiliste",
+    "concerne": false,
+    "phrase_fidele": true,
+    "raison": "La répartition des compétences de verbalisation entre agents publics ne change ni les règles de conduite, ni les sanctions, ni les obligations directes des automobilistes."
+   },
+   {
+    "profil": "fonctionnaire",
+    "concerne": false,
+    "phrase_fidele": true,
+    "raison": "Le profil « fonctionnaire » exclut explicitement les forces de l'ordre dans le catalogue. Les policiers municipaux relèvent du profil « forces_ordre »."
+   }
+  ],
+  "oublis": [
+   "forces_ordre"
+  ]
+ },
+ "cout_usd": 0.01063125
+}

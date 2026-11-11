@@ -1,0 +1,29 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etranger_hors_ue",
+    "raison": "L'article vise directement l'étranger conjoint d'un titulaire de carte de résident : il recevrait une carte « vie privée et familiale » de quatre ans au lieu d'une carte temporaire d'un an ou de deux ans, ce qui change son titre de séjour.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "mineur",
+    "raison": "La seconde voie ouvre à l'étranger âgé de seize à dix-huit ans, dont un parent est résident, une carte de quatre ans sous conditions de l'article L. 421-35. Le texte vise donc directement des mineurs.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "jeune",
+    "raison": "La première voie ouvre à l'étranger, dont un parent est résident, une carte de quatre ans dans l'année suivant son dix-huitième anniversaire. Cette tranche d'âge est celle des 18 ans et plus, donc des jeunes au sens du catalogue.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.001309585,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

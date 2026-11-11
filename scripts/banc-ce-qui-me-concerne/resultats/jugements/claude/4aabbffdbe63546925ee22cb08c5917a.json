@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_agriculture",
+    "raison": "Le texte vise directement les associés exploitants de sociétés agricoles et les jeunes agriculteurs bénéficiaires des aides à l'installation. Il modifie le calcul de l'exonération des plus-values lors de la cession, ce qui change concrètement leur impôt.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000417935,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

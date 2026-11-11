@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "veuf",
+    "raison": "Le texte vise explicitement le conjoint survivant d’un fonctionnaire civil décédé qui occupait un logement de fonction et lui accorde une majoration pour compenser la perte de ce logement.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "marie_pacse",
+    "raison": "Le texte vise le conjoint survivant, donc une personne veuve, et non une personne actuellement mariée ou pacsée au sens du profil.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0003564,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

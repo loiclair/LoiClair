@@ -1,0 +1,54 @@
+{
+ "impacts": [
+  {
+   "profil": "etudiant",
+   "passage": "justifiant, à la date de prise d'effet du bail, suivre des études supérieures ou être en formation professionnelle, en contrat d'apprentissage, en stage",
+   "certitude": "certain",
+   "phrase_en": "Students can rent a furnished flat in a residence à vocation d'emploi for one week to eighteen months, under a mobility lease.",
+   "phrase_fr": "Les étudiants peuvent louer un logement meublé en résidence à vocation d'emploi, pour une durée d'une semaine à dix-huit mois, avec un bail mobilité."
+  },
+  {
+   "profil": "apprenti_alternant",
+   "passage": "justifiant, à la date de prise d'effet du bail, suivre des études supérieures ou être en formation professionnelle, en contrat d'apprentissage, en stage",
+   "certitude": "certain",
+   "phrase_en": "Apprentices, work-study students and interns can rent a furnished flat in such a residence for one week to eighteen months.",
+   "phrase_fr": "Apprentis, alternants et stagiaires peuvent louer un meublé en résidence à vocation d'emploi, pour une semaine à dix-huit mois."
+  },
+  {
+   "profil": "benevole",
+   "passage": "en engagement volontaire dans le cadre d'un service civique prévu au II de l'article L. 120-1 du code du service national",
+   "certitude": "certain",
+   "phrase_en": "Civic service volunteers can rent a furnished flat in such a residence, for one week to eighteen months.",
+   "phrase_fr": "Les volontaires en service civique peuvent louer un meublé dans une résidence à vocation d'emploi, pour une semaine à dix-huit mois."
+  },
+  {
+   "profil": "locataire",
+   "passage": "Sans préjudice des dispositions propres à la résidence à vocation d'emploi, le bail conclu avec le locataire est un bail mobilité",
+   "certitude": "certain",
+   "phrase_en": "Mobility leases, lasting up to eighteen months in these residences, now apply to the tenants concerned.",
+   "phrase_fr": "Le bail mobilité, d'une durée pouvant aller jusqu'à dix-huit mois en résidence à vocation d'emploi, s'applique aux locataires concernés."
+  },
+  {
+   "profil": "salarie_prive",
+   "passage": "en cours de mutation professionnelle ou en mission temporaire dans le cadre de leur activité professionnelle",
+   "certitude": "probable",
+   "phrase_en": "Employees undergoing a job transfer or on a temporary assignment can rent a furnished flat in a residence à vocation d'emploi.",
+   "phrase_fr": "Les salariés en mutation professionnelle ou en mission temporaire peuvent louer un meublé dans une résidence à vocation d'emploi."
+  },
+  {
+   "profil": "cdd_interim",
+   "passage": "en mission temporaire dans le cadre de leur activité professionnelle",
+   "certitude": "possible",
+   "phrase_en": "People on a temporary assignment linked to their work can rent a furnished flat in a residence à vocation d'emploi.",
+   "phrase_fr": "Les personnes en mission temporaire liée à leur activité professionnelle peuvent louer un meublé dans une résidence à vocation d'emploi."
+  },
+  {
+   "profil": "proprietaire_bailleur",
+   "passage": "Les logements de la résidence à vocation d'emploi peuvent être loués à des personnes morales de droit public ou de droit privé en vue de leur sous-location",
+   "certitude": "possible",
+   "phrase_en": "Units in these residences can be leased to organisations that sublet them to the tenants concerned.",
+   "phrase_fr": "Les logements de ces résidences peuvent être loués à des organismes qui les sous-louent aux locataires concernés."
+  }
+ ],
+ "resume_fr": null
+}

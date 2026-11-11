@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "ancien_combattant",
+    "raison": "Le texte vise directement les anciens militaires résistants déportés à Rawa-Ruska ou dans ses annexes, titulaires de la carte de combattant volontaire de la Résistance.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0002194,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

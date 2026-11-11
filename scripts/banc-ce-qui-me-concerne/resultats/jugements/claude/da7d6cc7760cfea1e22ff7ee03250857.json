@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "independant",
+    "raison": "L'article 37 impose une règle de formation aux professionnels certifiés pour vérifier les informations de durabilité, mais le texte ne dit pas qu'ils exercent à leur compte ou en profession libérale. Ils peuvent aussi être salariés d'un cabinet. Le statut indépendant est donc prêté par l'assistant.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000572285,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

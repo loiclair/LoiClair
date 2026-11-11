@@ -1,0 +1,24 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "heritier_donateur",
+    "raison": "Le texte vise directement les donateurs et les donataires de dons familiaux, en modifiant leur fiscalité et leurs démarches déclaratives.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "jeune",
+    "raison": "Les personnes de 18 à 25 ans entrent dans la tranche d’âge expressément visée, si elles remplissent aussi les conditions de parenté du donataire.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": [
+   "mineur"
+  ]
+ },
+ "cout_usd": 0.00071565,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

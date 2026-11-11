@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_agriculture",
+    "raison": "Concerné : le dispositif porte le taux à 100 % pour les dépenses de remplacement liées à une maladie, un accident du travail ou une formation ; le crédit vise les personnes exerçant une activité dont les revenus relèvent des bénéfices agricoles, donc les agriculteurs.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.001021025,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

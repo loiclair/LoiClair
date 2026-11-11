@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "residence_secondaire",
+    "raison": "Le texte autorise explicitement une majoration de la taxe d’habitation sur les résidences secondaires dans les communes figurant sur une liste fixée par décret.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "meuble_tourisme",
+    "raison": "Le critère est l’occupation du logement pendant moins de 90 jours, quelle que soit sa location ou son caractère meublé ; le texte ne vise pas les loueurs de meublés touristiques en tant que tels.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000870275,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

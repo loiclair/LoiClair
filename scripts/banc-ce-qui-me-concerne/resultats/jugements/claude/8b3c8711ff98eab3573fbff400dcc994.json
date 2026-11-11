@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "outre_mer",
+    "raison": "Le plan territorial est élaboré dans les collectivités des articles 73 et 74 et en Nouvelle-Calédonie : il vise les habitants d'outre-mer, avec prise en compte de l'isolement, des langues et des zones transfrontalières.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "mineur",
+    "raison": "Le plan définit la mise à l'abri et l'accompagnement sanitaire, psychologique, social et judiciaire des mineurs victimes ou exposés à un risque d'exploitation sexuelle : les mineurs sont directement visés.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0030556999999999997,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

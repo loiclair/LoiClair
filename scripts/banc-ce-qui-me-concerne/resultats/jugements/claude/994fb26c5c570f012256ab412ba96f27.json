@@ -1,0 +1,13 @@
+{
+ "jugement": {
+  "profils": [],
+  "oublis": [
+   "corse",
+   "etudiant"
+  ]
+ },
+ "cout_usd": 0.000556435,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

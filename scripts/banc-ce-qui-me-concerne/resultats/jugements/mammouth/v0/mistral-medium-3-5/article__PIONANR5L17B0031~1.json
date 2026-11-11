@@ -1,0 +1,28 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "rural",
+    "concerne": false,
+    "phrase_fidele": false,
+    "raison": "Le texte ne vise pas spécifiquement les communes rurales. La mention 'police des campagnes' est ajoutée à la définition générale de la police territoriale, mais elle ne crée pas de disposition spécifique aux habitants des communes rurales. La phrase proposée invente un effet ('exerceraient aussi une police des campagnes dans les communes rurales') qui n'est pas dans le texte."
+   },
+   {
+    "profil": "automobiliste",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "Le texte étend explicitement les compétences des agents de police territoriale à la constatation des contraventions au code de la route (article L. 130-4), ce qui concerne directement les automobilistes. La phrase proposée est fidèle et au conditionnel, conformément à l'étape du texte."
+   },
+   {
+    "profil": "fonctionnaire",
+    "concerne": false,
+    "phrase_fidele": false,
+    "raison": "Le texte ne modifie pas le statut des agents (ils restent des agents de police municipale/territoriale, qui ne sont pas des fonctionnaires d'État mais des agents communaux). La phrase proposée invente un changement de statut ('deviendraient des agents de police territoriale') et des missions élargies non précisées pour les fonctionnaires en général. Le passage cité ne justifie pas cette interprétation."
+   }
+  ],
+  "oublis": [
+   "forces_ordre"
+  ]
+ },
+ "cout_usd": 0.009015
+}

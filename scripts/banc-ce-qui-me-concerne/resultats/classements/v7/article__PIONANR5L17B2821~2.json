@@ -1,0 +1,26 @@
+{
+ "impacts": [
+  {
+   "profil": "outre_mer",
+   "phrase_fr": "Les fonctionnaires résidant en Nouvelle-Calédonie, à Wallis-et-Futuna ou en Polynésie française pourraient voir leur pension calculée avec un coefficient de majoration propre à leur territoire.",
+   "phrase_en": "Civil servants living in New Caledonia, Wallis-and-Futuna or French Polynesia would see their pension calculated with a increase coefficient specific to their territory.",
+   "passage": "justifient d’une résidence effective en Nouvelle‑Calédonie, à Wallis‑et‑Futuna ou en Polynésie française",
+   "certitude": "certain"
+  },
+  {
+   "profil": "fonctionnaire",
+   "phrase_fr": "Les fonctionnaires de l'État pourraient voir leur pension majorée par un coefficient propre à chaque territoire, sous conditions de services et de résidence.",
+   "phrase_en": "State civil servants would see their pension increased by a coefficient specific to each territory, subject to service and residence conditions.",
+   "passage": "Aux fins de liquidation de la pension des personnels relevant du présent code et visés à l’article premier du décret n° 67‑600 du 23 juillet 1967",
+   "certitude": "certain"
+  },
+  {
+   "profil": "forces_ordre",
+   "phrase_fr": "Les militaires pourraient voir leur pension calculée avec un coefficient de majoration propre à chaque territoire, sous conditions de résidence et de services.",
+   "phrase_en": "Military personnel would see their pension calculated with a increase coefficient specific to each territory, subject to residence and service conditions.",
+   "passage": "fonctionnaire, magistrat ou militaire au moment de la cessation des services valables pour la retraite",
+   "certitude": "certain"
+  }
+ ],
+ "cout_usd": 0.00130621
+}

@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "chef_entreprise",
+    "raison": "L'article majore la déduction de 20 % pour les moyennes entreprises et de 30 % pour les petites entreprises (au sens de l'annexe I du règlement 651/2014) qui supportent les coûts. Les dirigeants de PME armatrices sont visés directement. La phrase est fidèle et au conditionnel.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "secteur_transport",
+    "raison": "La déduction exceptionnelle vise les navires et bateaux de transport de marchandises ou de passagers équipés de propulsion vélique. Elle change la fiscalité des armateurs du transport maritime. La phrase est fidèle et au conditionnel.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0034517,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

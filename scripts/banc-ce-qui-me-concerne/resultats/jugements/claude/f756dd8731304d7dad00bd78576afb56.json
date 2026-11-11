@@ -1,0 +1,29 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "animal",
+    "raison": "Les propriétaires de chevaux paient la TVA sur la pension, l'entraînement, la location et l'achat d'équidés, et le texte vise directement ces opérations. Un détenteur de cheval est un profil « animal » au sens du catalogue.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "secteur_agriculture",
+    "raison": "L'article vise les livraisons d'équidés vivants et leur exploitation (élevage, entraînement, pension), activité du secteur agricole, dans un texte sur la ferme France. Cela change la TVA appliquée par les éleveurs.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "chef_entreprise",
+    "raison": "Les centres équestres et exploitants d'équidés, souvent des PME, voient leur taux de TVA changer sur leurs prestations d'équitation. Ils sont visés directement comme exploitants de l'activité.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0033336999999999998,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

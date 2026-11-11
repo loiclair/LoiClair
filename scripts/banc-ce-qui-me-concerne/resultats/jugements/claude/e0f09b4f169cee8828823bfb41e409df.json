@@ -1,0 +1,19 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_agriculture",
+    "raison": "Les réclamants de dégâts de grand gibier sont surtout des exploitants agricoles et forestiers ; le texte fixe un barème national, un portail numérique et un recours devant la Commission, ce qui change leurs démarches et leur indemnité. Mais l'article ne nomme pas les agriculteurs, il parle de « réclamants » et de « denrées ».",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "chasseur_pecheur"
+  ]
+ },
+ "cout_usd": 0.0026666999999999997,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

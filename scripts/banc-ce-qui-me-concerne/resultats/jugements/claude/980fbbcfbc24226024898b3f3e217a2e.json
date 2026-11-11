@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "elu_local",
+    "raison": "Le texte ouvre aux communes de montagne la possibilité de reprendre les compétences eau et assainissement par délibération de leur conseil municipal, après avis de la communauté de communes. Les élus municipaux de ces communes sont ceux qui délibèrent, donc la mesure leur donne un pouvoir de décision concret.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0006031849999999999,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

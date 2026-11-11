@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "heritier_donateur",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article modifie directement les règles de calcul des droits de succession et de donation (abattements, barèmes, conditions), ce qui impacte concrètement les héritiers et donataires. Le passage cité justifie l'abattement de 200 000 €, et d'autres modifications (tableau de l'article 777, suppression de conditions de parenté) les concernent également."
+   }
+  ],
+  "oublis": [
+   "patrimoine_ifi"
+  ]
+ },
+ "cout_usd": 0.0079995
+}

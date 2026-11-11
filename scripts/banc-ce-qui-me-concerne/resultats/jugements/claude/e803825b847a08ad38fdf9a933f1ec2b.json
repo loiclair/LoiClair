@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "parent",
+    "raison": "Le II vise nommément les personnes ayant l'administration légale des biens de leurs enfants mineurs : leurs biens sont ajoutés à leur propre assiette de la contribution. L'effet sur l'impôt est direct, mais il ne joue qu'au-delà de 5 millions d'euros de patrimoine.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000546635,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

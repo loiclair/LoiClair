@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "forces_ordre",
+    "raison": "L’article vise directement les agents de la police municipale, renommée « police territoriale », et élargit leurs pouvoirs de verbalisation. Le profil inclut les policiers.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00043165,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

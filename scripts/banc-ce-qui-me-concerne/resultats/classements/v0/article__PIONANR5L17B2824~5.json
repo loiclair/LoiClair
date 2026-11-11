@@ -1,0 +1,26 @@
+{
+ "impacts": [
+  {
+   "profil": "mineur",
+   "passage": "l’embauche d’un mineur de moins de treize ans dans une entreprise de cinéma est soumise à l’avis conforme d’un médecin de l’organisme Thalie Santé, d’un psychologue agréé par ce même organisme et du comité compétent",
+   "certitude": "certain",
+   "phrase_en": "A child under thirteen would only be hired by a film company after a binding opinion from a doctor, an approved psychologist and a specialist committee.",
+   "phrase_fr": "Un enfant de moins de treize ans ne pourrait être embauché dans une entreprise de cinéma qu'après un avis contraignant d'un médecin, d'un psychologue agréé et d'un comité spécialisé."
+  },
+  {
+   "profil": "parent",
+   "passage": "L'emploi d'un mineur de moins de treize ans est subordonné à la présence de l'un de ses représentants légaux lors de son embauche, durant l'exécution de son contrat de travail et, le cas échéant, lors de la participation à des évènements en lien avec ce contrat après son exécution.",
+   "certitude": "probable",
+   "phrase_en": "A parent of a child under thirteen hired for film work would have to attend the hiring, the contract period and, if needed, related events.",
+   "phrase_fr": "Un parent d'enfant de moins de treize ans embauché au cinéma devrait être présent à l'embauche, pendant le contrat et, si besoin, aux événements liés."
+  },
+  {
+   "profil": "secteur_culture",
+   "passage": "l’embauche d’un mineur de moins de treize ans dans une entreprise de cinéma est soumise à l’avis conforme d’un médecin de l’organisme Thalie Santé",
+   "certitude": "certain",
+   "phrase_en": "Film and audiovisual production companies would need binding opinions on the script, role and filming conditions before hiring a child under thirteen.",
+   "phrase_fr": "Les entreprises de cinéma et de production audiovisuelle ne pourraient embaucher un enfant de moins de treize ans qu'avec des avis conformes sur le scénario, le rôle et les conditions de tournage."
+  }
+ ],
+ "resume_fr": null
+}

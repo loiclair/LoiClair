@@ -1,0 +1,31 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "handicap",
+    "raison": "Le I.1° crée une évaluation à la demande visant directement la personne handicapée (ou son représentant légal) pour la RQTH et la carte mobilité inclusion, sans audition ni plan personnalisé de compensation. La phrase de l'assistant est fidèle, à la forme conditionnelle, mais elle omet que les plus de 60 ans peuvent aussi obtenir les mentions 1° et 2°.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "mineur",
+    "raison": "Le I.2° c) supprime, dans la première phrase du IV bis de l'article L. 241-3, la condition de maladie, de handicap ou d'accident grave pour la carte mobilité inclusion destinée à un mineur. La mesure vise directement les mineurs en tant que bénéficiaires de la carte. La phrase de l'assistant reprend fidèlement cette suppression.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "parent",
+    "raison": "Le texte ne désigne pas les parents : il parle du mineur comme bénéficiaire de la carte. Les parents ne sont touchés qu'à travers leur enfant, sans être désignés par la mesure, ce qui ne suffit pas à retenir le profil. L'inférence de l'assistant reste raisonnable, mais ce n'est pas le texte qui vise les parents.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "age_dependant"
+  ]
+ },
+ "cout_usd": 0.0016200350000000001,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

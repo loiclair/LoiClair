@@ -1,0 +1,26 @@
+{
+ "impacts": [
+  {
+   "profil": "proprietaire_occupant",
+   "phrase_fr": "Les travaux de réparation ou de stabilisation de votre maison pourraient être financés par le fonds national d’appui, si vous avez une assurance multirisque habitation.",
+   "phrase_en": "Repair or stabilisation work on your home could be funded by the national support fund if you hold multirisk home insurance.",
+   "passage": "sous réserve que le propriétaire ait souscrit une assurance multirisque habitation",
+   "certitude": "probable"
+  },
+  {
+   "profil": "proprietaire_bailleur",
+   "phrase_fr": "Les travaux sur vos logements loués pourraient être financés par le fonds national d’appui, sous réserve d’une assurance multirisque habitation.",
+   "phrase_en": "Work on your rented homes could be funded by the national support fund, subject to multirisk home insurance.",
+   "passage": "sous réserve que le propriétaire ait souscrit une assurance multirisque habitation",
+   "certitude": "probable"
+  },
+  {
+   "profil": "residence_secondaire",
+   "phrase_fr": "Les dommages liés à l’argile sur votre logement non habité à titre principal pourraient ouvrir droit à une aide du fonds national d’appui.",
+   "phrase_en": "Clay-shrinkage damage to your non-main home could qualify for aid from the national support fund.",
+   "passage": "pour toute construction située en zone d’exposition moyenne ou forte au retrait‑gonflement des argiles",
+   "certitude": "possible"
+  }
+ ],
+ "cout_usd": 0.00145735
+}

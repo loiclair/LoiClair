@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_education",
+    "raison": "Le texte crée un corps d’accompagnants d’élèves en situation de handicap et modifie directement leur recrutement et leur formation.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "fonctionnaire",
+    "raison": "Les agents non titulaires concernés dans les établissements publics sont directement nommés fonctionnaires stagiaires, sauf ceux qui ne remplissent pas les conditions prévues, auxquels un CDI est proposé.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00105315,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "alsace_moselle",
+    "raison": "La disposition modifie une règle locale applicable au cadastre des départements du Bas-Rhin, du Haut-Rhin et de la Moselle, en permettant l’application des règles civiles sur la possession et la prescription acquisitive.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000353775,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "locataire",
+    "raison": "Le texte modifie la condition dans laquelle un logement situé en copropriété est réputé décent, ce qui touche le droit du locataire à un logement décent et à une réduction de loyer (art. 20-1). La mesure vise les logements loués dans les immeubles en copropriété, donc les locataires de ces logements.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "proprietaire_bailleur",
+    "raison": "La nouvelle condition ne dépend pas du bailleur lui-même : elle exige que le syndicat des copropriétaires conclue un contrat de maîtrise d'œuvre. Le bailleur n'est atteint que si le syndicat agit, ce qui relève de l'effet indirect par un tiers.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0018616849999999999,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

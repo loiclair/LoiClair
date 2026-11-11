@@ -1,0 +1,43 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "senior",
+    "raison": "Le 4° vise les contribuables de plus de 60 ans, sous-groupe des 55 ans et plus. L'âge est le critère déclencheur, sous réserve de plafond de revenus et de non-assujettissement à l'IFI.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "veuf",
+    "raison": "Le 4° cite explicitement les veuves et veufs comme bénéficiaires du dégrèvement, sous plafond de revenus et sans assujettissement à l'IFI.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "handicap",
+    "raison": "Le 3° vise les contribuables atteints d'une infirmité ou d'une invalidité qui les empêche de subvenir à leurs besoins par leur travail. Le 2° vise aussi les titulaires de l'AAH, ce qui relève du même profil.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "patrimoine_ifi",
+    "raison": "L'assujettissement à l'IFI ne déclenche aucune mesure : il exclut seulement du dégrèvement, qui est un droit nouveau (règle 10). Les assujettis paient la contribution au tarif commun, comme tout foyer. La phrase de l'assistant est exacte, mais le profil n'est pas concerné.",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "outre_mer",
+    "raison": "Le 2°, le 5° et leurs alinéas fixent des seuils distincts pour la Martinique, la Guadeloupe, La Réunion, la Guyane et Mayotte. Le lieu de vie détermine le seuil applicable, et la phrase de l'assistant reprend fidèlement ce point.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "age_dependant"
+  ]
+ },
+ "cout_usd": 0.002292785,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "demandeur_emploi",
+    "raison": "Le texte désigne nommément les « personnes sans emploi rencontrant des difficultés sociales et professionnelles particulières » comme bénéficiaires d'un accompagnement vers une activité indépendante ou un emploi salarié. Le texte ne dit pas qu'elles sont inscrites à France Travail, mais la cible sans emploi recoupe ce profil.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000668785,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

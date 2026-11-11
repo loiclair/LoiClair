@@ -1,0 +1,20 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "salarie_prive",
+    "raison": "L'article ajoute une circonstance aggravante pénale au harcèlement moral quand il est imposé par une politique d'entreprise ; les salariés du privé en sont les victimes visées, et le texte ne désigne pas d'autres catégories. Les salariés d'entreprises privées sont donc directement concernés par cette protection pénale.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "chef_entreprise",
+   "dirigeant_grande_entreprise"
+  ]
+ },
+ "cout_usd": 0.0021087,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

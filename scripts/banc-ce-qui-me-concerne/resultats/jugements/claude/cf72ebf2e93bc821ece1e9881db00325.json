@@ -1,0 +1,29 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "handicap",
+    "raison": "Le texte vise directement la personne handicapée : procédure d'évaluation simplifiée pour la reconnaissance de travailleur handicapé et la carte mobilité inclusion.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "age_dependant",
+    "raison": "Les bénéficiaires de l'APA (art. L. 232-1), classés en groupes GIR 1 à 4, obtiendraient la carte mobilité inclusion à titre définitif sur la seule décision d'attribution ; c'est exactement le profil de personne âgée en perte d'autonomie.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "senior",
+    "raison": "Le seuil d'âge (au moins 60 ans) conditionne l'accès à la procédure simplifiée pour les mentions invalidité et priorité de la carte : la mesure vise un sous-groupe de personnes de 60 ans et plus, qui recoupe les 55 ans et plus. Mais la phrase dit « plus de 60 ans » alors que le seuil est fixé par arrêté, et la phrase précise « pourraient demander une évaluation » ce qui reste fidèle au seuil indiqué.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0051126999999999995,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

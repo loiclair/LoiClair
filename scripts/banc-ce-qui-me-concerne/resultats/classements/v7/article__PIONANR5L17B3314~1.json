@@ -1,0 +1,12 @@
+{
+ "impacts": [
+  {
+   "profil": "futur_parent",
+   "phrase_fr": "Un examen des embryons pour détecter les anomalies chromosomiques pourrait vous être proposé pendant une fécondation in vitro, afin de transférer en priorité ceux qui n'en présentent pas.",
+   "phrase_en": "A test of embryos for chromosome abnormalities could be offered to you during IVF, so that embryos without one are transferred first.",
+   "passage": "la recherche d’anomalies du nombre et de la structure de chromosomes affectant l’embryon in vitro peut être proposée à la femme ou aux deux membres du couple engagés dans une tentative de fécondation in vitro",
+   "certitude": "certain"
+  }
+ ],
+ "cout_usd": 0.00072531
+}

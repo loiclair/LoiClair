@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "ancien_combattant",
+    "raison": "Le texte vise les pupilles de la Nation répondant à des critères liés à la guerre de 1939-1945 et à la mention portée sur l’acte de décès du parent. Il ne précise pas que ce parent était un ancien combattant ; le lien familial avec une personne « morte pour la France » ne suffit pas à établir le profil.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000741525,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

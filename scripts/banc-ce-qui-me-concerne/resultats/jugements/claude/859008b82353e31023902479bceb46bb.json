@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "imposable",
+    "raison": "Le texte étend la réduction d'impôt sur le revenu (article 200 CGI) aux dons faits à des organismes qui accompagnent les victimes de violence domestique ou favorisent leur relogement. Seul un foyer qui paie l'impôt sur le revenu en profite directement, sur son impôt.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000430635,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

@@ -1,0 +1,487 @@
+{
+ "DLR5L17N54854|mistral-large-4": {
+  "notes": {
+   "haiku-v10": {
+    "exactitude": 9,
+    "completude": 9,
+    "neutralite": 10,
+    "clarte": 9,
+    "themes": 10
+   },
+   "luna-v10": {
+    "exactitude": 10,
+    "completude": 7,
+    "neutralite": 10,
+    "clarte": 9,
+    "themes": 10
+   }
+  },
+  "erreurs": [
+   {
+    "fiche": "haiku-v10",
+    "citation": "seuil d'occupation critique",
+    "gravite": "mineure"
+   },
+   {
+    "fiche": "haiku-v10",
+    "citation": "région",
+    "gravite": "mineure"
+   }
+  ],
+  "preference": "haiku-v10",
+  "raison": "La fiche X est plus complète et pédagogique : elle fournit le contexte chiffré essentiel (87 126 détenus pour 63 353 places) qui permet au citoyen de comprendre l'ampleur de la crise, et mentionne la référence à la CEDH justifiant l'intervention législative. Elle respecte parfaitement la règle d'attribution des constats aux auteurs ('Selon ses auteurs'). La fiche Y, bien que factuellement exacte et claire, manque de ce contexte chiffré crucial et reste trop abstraite sur l'enjeu réel de la proposition.",
+  "cout": 0.00740737
+ },
+ "DLR5L17N51541|mistral-large-4": {
+  "notes": {
+   "luna-v10": {
+    "exactitude": 9,
+    "completude": 9,
+    "neutralite": 10,
+    "clarte": 8,
+    "themes": 10
+   },
+   "haiku-v10": {
+    "exactitude": 10,
+    "completude": 8,
+    "neutralite": 10,
+    "clarte": 9,
+    "themes": 10
+   }
+  },
+  "erreurs": [
+   {
+    "fiche": "luna-v10",
+    "citation": "taxe carbone aux frontières",
+    "gravite": "mineure"
+   }
+  ],
+  "preference": "haiku-v10",
+  "raison": "La fiche Y est plus précise juridiquement en évoquant le « mécanisme d'ajustement carbone aux frontières » (terme exact du texte source) plutôt qu'une « taxe », et elle mentionne l'objectif chiffré de réduction de 55 % des émissions de CO2 d'ici 2030, information importante pour le citoyen. La fiche X, bien que légèrement plus complète en mentionnant la demande d'approche pragmatique, commet une erreur factuelle mineure sur la nature juridique du mécanisme carbone. La fluidité et la clarté de Y sont également supérieures.",
+  "cout": 0.01175109
+ },
+ "DLR5L17N53710|mistral-large-4": {
+  "notes": {
+   "haiku-v10": {
+    "exactitude": 9,
+    "completude": 9,
+    "neutralite": 10,
+    "clarte": 9,
+    "themes": 10
+   },
+   "luna-v10": {
+    "exactitude": 7,
+    "completude": 6,
+    "neutralite": 10,
+    "clarte": 9,
+    "themes": 10
+   }
+  },
+  "erreurs": [
+   {
+    "fiche": "luna-v10",
+    "citation": "établissements scolaires",
+    "gravite": "mineure"
+   }
+  ],
+  "preference": "haiku-v10",
+  "raison": "La fiche X est plus complète car elle mentionne les effets sur la santé (sommeil, sédentarité, myopie, développement cognitif) qui justifient la proposition de loi, permettant au lecteur de comprendre le 'pourquoi'. Elle est également plus précise sur les établissements visés : elle cite correctement les 'écoles maternelles et élémentaires', tandis que la fiche Y parle d''établissements scolaires', terme trop large qui pourrait inclure les collèges et lycées non concernés par le texte (qui vise spécifiquement l'article L. 133-1 du code de l'éducation).",
+  "cout": 0.0091109
+ },
+ "DLR5L17N51899|mistral-large-4": {
+  "notes": {
+   "haiku-v10": {
+    "exactitude": 9,
+    "completude": 9,
+    "neutralite": 9,
+    "clarte": 9,
+    "themes": 10
+   },
+   "luna-v10": {
+    "exactitude": 9,
+    "completude": 7,
+    "neutralite": 9,
+    "clarte": 9,
+    "themes": 10
+   }
+  },
+  "erreurs": [
+   {
+    "fiche": "haiku-v10",
+    "citation": "Ses recommandations proposeraient",
+    "gravite": "mineure"
+   },
+   {
+    "fiche": "luna-v10",
+    "citation": "recommande de renforcer",
+    "gravite": "mineure"
+   }
+  ],
+  "preference": "haiku-v10",
+  "raison": "La fiche X restitue mieux le diagnostic du rapport (contexte stratégique, fin du service militaire en 1996, distension du lien armées-jeunesse) qui justifie les propositions, et mentionne explicitement le concept de « parcours de citoyenneté » central dans le rapport. La fiche Y, bien que claire et fidèle sur les mesures, se concentre sur les propositions sans suffisamment expliquer le contexte et les enjeux qui les motivent, ce qui réduit sa valeur informative pour un citoyen.",
+  "cout": 0.01024869
+ },
+ "DLR5L17N54250|mistral-large-4": {
+  "notes": {
+   "luna-v10": {
+    "exactitude": 9,
+    "completude": 8,
+    "neutralite": 9,
+    "clarte": 9,
+    "themes": 9
+   },
+   "haiku-v10": {
+    "exactitude": 9,
+    "completude": 9,
+    "neutralite": 7,
+    "clarte": 9,
+    "themes": 9
+   }
+  },
+  "erreurs": [
+   {
+    "fiche": "haiku-v10",
+    "citation": "dont le coût est répercuté sur les prix",
+    "gravite": "mineure"
+   },
+   {
+    "fiche": "haiku-v10",
+    "citation": "un système qui oblige les fournisseurs d'énergie à financer des économies d'énergie",
+    "gravite": "mineure"
+   }
+  ],
+  "preference": "luna-v10",
+  "raison": "La fiche X respecte mieux la règle de neutralité en attribuant systématiquement les constats négatifs (coût, surestimation, fraudes) aux auteurs du texte, tandis que la fiche Y présente comme un fait objectif le constat sur la répercussion des coûts sur les prix ('dont le coût est répercuté sur les prix'), qui est pourtant une affirmation des auteurs. La fiche X décrit également plus fidèlement le mécanisme (obligation de détenir des certificats) que la fiche Y (obligation de 'financer'). Bien que la fiche Y soit plus complète sur les chiffres, la neutralité est un critère prioritaire pour LoiClair.",
+  "cout": 0.00972725
+ },
+ "DLR5L17N51468|mistral-large-4": {
+  "notes": {
+   "haiku-v10": {
+    "exactitude": 9,
+    "completude": 9,
+    "neutralite": 9,
+    "clarte": 9,
+    "themes": 10
+   },
+   "luna-v10": {
+    "exactitude": 7,
+    "completude": 8,
+    "neutralite": 6,
+    "clarte": 8,
+    "themes": 10
+   }
+  },
+  "erreurs": [
+   {
+    "fiche": "luna-v10",
+    "citation": "contribuent aux objectifs nationaux d'arrêt de la production d'électricité à partir de charbon",
+    "gravite": "grave"
+   },
+   {
+    "fiche": "luna-v10",
+    "citation": "sources d'énergie moins polluantes",
+    "gravite": "mineure"
+   }
+  ],
+  "preference": "haiku-v10",
+  "raison": "La fiche X respecte la règle maison d'attribution des objectifs aux auteurs (« Selon les auteurs du texte, elle permettrait d'atteindre... ») et évite tout jugement de valeur. La fiche Y commet une erreur grave de neutralité en présentant l'objectif d'arrêt du charbon comme un fait acquis (« contribuent ») plutôt que comme une intention déclarée des auteurs, et utilise un jugement de valeur (« moins polluantes ») absent du texte source qui se contente d'un seuil chiffré. La fiche X est également plus complète en notant que le titre annonce une simplification non détaillée dans le corps du texte.",
+  "cout": 0.00695288
+ },
+ "DSNRAP2025N0855|mistral-large-4": {
+  "notes": {
+   "luna-v10": {
+    "exactitude": 10,
+    "completude": 8,
+    "neutralite": 9,
+    "clarte": 8,
+    "themes": 7
+   },
+   "haiku-v10": {
+    "exactitude": 10,
+    "completude": 7,
+    "neutralite": 10,
+    "clarte": 9,
+    "themes": 8
+   }
+  },
+  "erreurs": [],
+  "preference": "luna-v10",
+  "raison": "La fiche X est plus complète : elle présente les thématiques générales (inégalités de genre, précarité, violences sexistes et sexuelles, parentalité, droits sexuels et reproductifs) et mentionne la contribution aux débats législatifs, ce qui permet au citoyen de comprendre l'impact réel des travaux de la délégation. La fiche Y, bien que plus claire et mentionnant explicitement que le rapport ne change aucune règle (conformément à la règle maison), se concentre sur des exemples d'auditions et omet ces enjeux structurants ainsi que la politique de communication.",
+  "cout": 0.00880327
+ },
+ "DLR5L17N52465|mistral-large-4": {
+  "notes": {
+   "haiku-v10": {
+    "exactitude": 7,
+    "completude": 7,
+    "neutralite": 8,
+    "clarte": 9,
+    "themes": 6
+   },
+   "luna-v10": {
+    "exactitude": 9,
+    "completude": 6,
+    "neutralite": 10,
+    "clarte": 9,
+    "themes": 7
+   }
+  },
+  "erreurs": [
+   {
+    "fiche": "haiku-v10",
+    "citation": "de juillet 2024 à juillet 2025",
+    "gravite": "mineure"
+   }
+  ],
+  "preference": "luna-v10",
+  "raison": "La fiche Y est plus exacte : elle couvre correctement la période (juillet 2023-juillet 2025 correspondant aux deux sessions du rapport) sans incohérence temporelle, et respecte la règle maison en précisant que le rapport 'ne change aucune règle'. Elle présente bien les recommandations substantielles (sport, parentalité, santé, budget, définition pénale du viol). La fiche X commet une erreur factuelle en indiquant 'de juillet 2024 à juillet 2025' tout en mentionnant ensuite un colloque de mars 2024 (session 2023-2024), et elle omet la santé des femmes (précarité menstruelle) qui constitue une partie importante des travaux. Les deux fiches ont des lacunes de complétude (X omet la santé, Y omet l'activité événementielle et internationale), mais l'exactitude prime.",
+  "cout": 0.01133262
+ },
+ "DLR5L17N54767|mistral-large-4": {
+  "notes": {
+   "luna-v10": {
+    "exactitude": 10,
+    "completude": 9,
+    "neutralite": 10,
+    "clarte": 9,
+    "themes": 10
+   },
+   "haiku-v10": {
+    "exactitude": 10,
+    "completude": 8,
+    "neutralite": 10,
+    "clarte": 8,
+    "themes": 7
+   }
+  },
+  "erreurs": [],
+  "preference": "luna-v10",
+  "raison": "La fiche X est plus complète : elle précise que la ratification concerne la France (contexte essentiel pour un lecteur français) et choisit les deux thèmes les plus pertinents (Traités et conventions + Union européenne, l'accord étant conclu par l'UE). La fiche Y omet le thème 'Union européenne' pourtant justifié par la nature de l'accord, et sa formulation avec 'd'une part... d'autre part' est moins fluide pour un citoyen sans formation juridique. Les deux fiches respectent le conditionnel et sont factuellement exactes.",
+  "cout": 0.00724846
+ },
+ "DLR5L17N50590|mistral-large-4": {
+  "notes": {
+   "haiku-v10": {
+    "exactitude": 9,
+    "completude": 9,
+    "neutralite": 9,
+    "clarte": 9,
+    "themes": 8
+   },
+   "luna-v10": {
+    "exactitude": 8,
+    "completude": 8,
+    "neutralite": 9,
+    "clarte": 9,
+    "themes": 8
+   }
+  },
+  "erreurs": [
+   {
+    "fiche": "luna-v10",
+    "citation": "Cette résolution",
+    "gravite": "mineure"
+   },
+   {
+    "fiche": "haiku-v10",
+    "citation": "réaffirmerait leur liberté",
+    "gravite": "mineure"
+   }
+  ],
+  "preference": "haiku-v10",
+  "raison": "La fiche X mentionne le contexte historique précis (mort de Mahsa Amini en septembre 2022) qui est essentiel pour comprendre l'origine de la résolution, et elle précise correctement qu'il s'agit d'une 'proposition de résolution'. Elle couvre également des éléments factuels concrets comme l'âge du mariage (13 ans) qui illustrent la situation décrite. La fiche Y commet une légère inexactitude en parlant de 'résolution' au lieu de 'proposition de résolution' (le texte n'étant pas encore adopté), et elle est moins ancrée dans le contexte temporel précis.",
+  "cout": 0.01261712
+ },
+ "DLR5L17N54094|mistral-large-4": {
+  "notes": {
+   "luna-v10": {
+    "exactitude": 9,
+    "completude": 8,
+    "neutralite": 10,
+    "clarte": 9,
+    "themes": 6
+   },
+   "haiku-v10": {
+    "exactitude": 10,
+    "completude": 9,
+    "neutralite": 10,
+    "clarte": 10,
+    "themes": 8
+   }
+  },
+  "erreurs": [],
+  "preference": "haiku-v10",
+  "raison": "La fiche Y est plus précise sur le contenu des neuf règlements et de la directive, et emploie un vocabulaire plus accessible pour un citoyen non juriste (notamment « renvoi à la frontière » au lieu de « retour aux frontières »). Ses thèmes sont plus pertinents : « Police et sécurité » correspond exactement au contrôle aux frontières, au fichier Eurodac et à la gestion des migrations, tandis que « Affaires étrangères et coopération » dans la fiche X est hors sujet (il ne s'agit pas de diplomatie mais d'adaptation du droit interne à des règlements européens). La fiche Y mentionne également utilement que le texte ne détaille pas les mesures concrètes, ce qui prépare le lecteur à la nature législative du projet (habilitation par ordonnances).",
+  "cout": 0.01184381
+ },
+ "DLR5L17N53380|mistral-large-4": {
+  "notes": {
+   "haiku-v10": {
+    "exactitude": 8,
+    "completude": 7,
+    "neutralite": 10,
+    "clarte": 9,
+    "themes": 10
+   },
+   "luna-v10": {
+    "exactitude": 9,
+    "completude": 9,
+    "neutralite": 10,
+    "clarte": 9,
+    "themes": 10
+   }
+  },
+  "erreurs": [
+   {
+    "fiche": "haiku-v10",
+    "citation": "ressources temporaires",
+    "gravite": "mineure"
+   },
+   {
+    "fiche": "haiku-v10",
+    "citation": "objectif de dépenses de la sécurité sociale",
+    "gravite": "mineure"
+   }
+  ],
+  "preference": "luna-v10",
+  "raison": "La fiche Y est plus complète et fidèle au texte source. Elle mentionne l'objectif national de dépenses d'assurance maladie (ONDAM) que la fiche X omet, et elle couvre les trois hypothèses de déclenchement (non-dépôt à temps, rejet, impossibilité d'application en vertu de l'article 62) de manière synthétique. La fiche X utilise l'expression 'ressources temporaires' au lieu de 'ressources non permanentes', ce qui est moins précis juridiquement, et elle omet l'ONDAM dans la liste des objectifs concernés. Les deux fiches respectent correctement le conditionnel et la neutralité requise.",
+  "cout": 0.01378319
+ },
+ "DLR5L17N50449|mistral-large-4": {
+  "notes": {
+   "haiku-v10": {
+    "exactitude": 10,
+    "completude": 7,
+    "neutralite": 10,
+    "clarte": 9,
+    "themes": 9
+   },
+   "luna-v10": {
+    "exactitude": 9,
+    "completude": 8,
+    "neutralite": 10,
+    "clarte": 8,
+    "themes": 9
+   }
+  },
+  "erreurs": [],
+  "preference": "egal",
+  "raison": "Les deux fiches sont de bonne qualité et sans erreur factuelle. X est plus précise sur les mécanismes concrets de protection des services publics (évaluation sociale, environnementale et économique préalable, compensation stricte des transferts, mention explicite du préambule), tandis que Y couvre mieux la définition des services publics (article 1) et l'article 8 sur l'action européenne et internationale. Les deux respectent le conditionnel et l'attribution aux auteurs. Les thèmes choisis sont pertinents dans les deux cas (Budget pour les financements publics, Fonction publique pour les droits des agents).",
+  "cout": 0.01049355
+ },
+ "DLR5L17N54696|mistral-large-4": {
+  "notes": {
+   "haiku-v10": {
+    "exactitude": 9,
+    "completude": 9,
+    "neutralite": 10,
+    "clarte": 9,
+    "themes": 8
+   },
+   "luna-v10": {
+    "exactitude": 8,
+    "completude": 7,
+    "neutralite": 9,
+    "clarte": 8,
+    "themes": 6
+   }
+  },
+  "erreurs": [
+   {
+    "fiche": "haiku-v10",
+    "citation": "motivation raciste",
+    "gravite": "mineure"
+   },
+   {
+    "fiche": "haiku-v10",
+    "citation": "signalés par l'autorité administrative",
+    "gravite": "mineure"
+   },
+   {
+    "fiche": "luna-v10",
+    "citation": "renforcerait les sanctions",
+    "gravite": "mineure"
+   },
+   {
+    "fiche": "luna-v10",
+    "citation": "l'administration pourrait demander",
+    "gravite": "mineure"
+   }
+  ],
+  "preference": "haiku-v10",
+  "raison": "La fiche X est plus complète et précise : elle mentionne l'extension des droits des associations aux agressions physiques (article 1, II.2°), détaille les sanctions exactes pour les hébergeurs (6 mois et 150 000 €) et choisit des thèmes pertinents (Justice + Police et sécurité pour les mesures sur les OPJ et les missions de service public). La fiche Y est plus vague ('risqueraient des sanctions', 'l'administration') et réductrice ('renforcerait les sanctions' occulte les extensions de droits et de procédures). Les deux fiches respectent le conditionnel et la neutralité, mais X hiérarchise mieux l'information pour un citoyen.",
+  "cout": 0.01891752
+ },
+ "DLR5L17N50198|mistral-large-4": {
+  "notes": {
+   "luna-v10": {
+    "exactitude": 9,
+    "completude": 9,
+    "neutralite": 10,
+    "clarte": 9,
+    "themes": 9
+   },
+   "haiku-v10": {
+    "exactitude": 10,
+    "completude": 7,
+    "neutralite": 10,
+    "clarte": 7,
+    "themes": 7
+   }
+  },
+  "erreurs": [
+   {
+    "fiche": "luna-v10",
+    "citation": "contributions exceptionnelles sur les hauts revenus",
+    "gravite": "mineure"
+   }
+  ],
+  "preference": "luna-v10",
+  "raison": "La fiche X est plus complète : elle mentionne l'agriculture (gazole agricole, déductions), la fiscalité des véhicules (taxe CO2), les plafonds d'emplois de l'État et le fonds de réserve pour les collectivités, tous absents de Y. Elle est aussi plus claire pour un citoyen lambda en évitant le jargon technique ('mécanisme de capacité électrique', 'réductions de capital') au profit d'expressions accessibles ('rachats d'actions', 'impôts liés à l'électricité'). Enfin, ses thèmes sont mieux choisis : elle inclut 'Collectivités territoriales', crucial pour les citoyens (DGF, fonds de réserve), alors que Y l'omet malgré la mention de la DGF dans son résumé.",
+  "cout": 0.01061881
+ },
+ "DSNRAP2025N0235|mistral-large-4": {
+  "notes": {
+   "luna-v10": {
+    "exactitude": 9,
+    "completude": 7,
+    "neutralite": 10,
+    "clarte": 9,
+    "themes": 8
+   },
+   "haiku-v10": {
+    "exactitude": 10,
+    "completude": 9,
+    "neutralite": 9,
+    "clarte": 9,
+    "themes": 8
+   }
+  },
+  "erreurs": [],
+  "preference": "haiku-v10",
+  "raison": "La fiche Y est plus complète et utile pour un citoyen : elle mentionne l'accord de Turnberry et le taux concret de 15 % de droits de douane, informations essentielles pour comprendre la situation actuelle des échanges UE-États-Unis. Elle identifie également les secteurs menacés (acier, automobile). Les deux fiches sont exactes, neutres et claires, mais Y hiérarchise mieux les informations en mettant en avant les données chiffrées et les accords récents, tandis que X reste plus vague sur les mesures tarifaires américaines.",
+  "cout": 0.01037566
+ },
+ "DLR5L17N52922|mistral-large-4": {
+  "notes": {
+   "haiku-v10": {
+    "exactitude": 9,
+    "completude": 7,
+    "neutralite": 10,
+    "clarte": 9,
+    "themes": 9
+   },
+   "luna-v10": {
+    "exactitude": 10,
+    "completude": 9,
+    "neutralite": 10,
+    "clarte": 9,
+    "themes": 8
+   }
+  },
+  "erreurs": [],
+  "preference": "luna-v10",
+  "raison": "La fiche Y offre une vision plus complète et équilibrée du texte en couvrant à la fois les ajustements 2025 et les prévisions 2026, notamment l'excédent de 0,1 point de PIB pour les administrations de sécurité sociale (ASSO) en 2026, information essentielle absente de la fiche X. Elle explique avec clarté la distinction cruciale entre le périmètre des régimes obligatoires de base (ROBSS, déficitaires en 2025) et celui plus large des ASSO (excédentaires en 2026), permettant au citoyen de comprendre la trajectoire globale. La fiche X, bien que précise sur les mécanismes techniques de recouvrement, se concentre excessivement sur les rectifications 2025 et omet la dimension prospective 2026. Les deux fiches respectent les règles de neutralité (conditionnel, attribution aux auteurs) et sont factuellement exactes.",
+  "cout": 0.01124615
+ }
+}

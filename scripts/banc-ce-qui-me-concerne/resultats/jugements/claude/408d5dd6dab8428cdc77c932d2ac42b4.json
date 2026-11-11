@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "heritier_donateur",
+    "raison": "L'article rend applicable à des successions ouvertes depuis 2007 et non encore partagées la règle qui permet à une commune d'acquérir un bien sans maître après 15 ans au lieu de 30. Les héritiers de ces successions sont directement visés par leur situation successorale.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "elu_local",
+    "raison": "Le texte vise explicitement « le maire » et le président d'intercommunalité : ils peuvent demander à l'administration fiscale les informations nécessaires à la procédure d'acquisition des biens sans maître. C'est un nouveau droit d'accès ouvert directement à l'élu.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000745735,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

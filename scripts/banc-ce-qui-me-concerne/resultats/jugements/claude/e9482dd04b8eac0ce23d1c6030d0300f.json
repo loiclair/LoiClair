@@ -1,0 +1,29 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "mineur",
+    "raison": "Le texte vise directement l'embauche des enfants de moins de treize ans dans une entreprise de cinéma et la soumet à des avis conformes. Le profil est le bon et la phrase est fidèle, au conditionnel comme il convient pour un texte non adopté.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "parent",
+    "raison": "Le texte impose la présence d'un représentant légal lors de l'embauche, pendant le contrat et, si besoin, après. Un parent ou responsable légal d'un enfant mineur est donc visé directement, et la phrase est fidèle.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "secteur_culture",
+    "raison": "Le texte change la façon d'embaucher et de faire tourner des enfants dans le cinéma et la production audiovisuelle, avec des avis conformes sur le scénario, le rôle et les conditions de tournage. Le secteur est donc concerné, et la phrase est fidèle.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0005760349999999999,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

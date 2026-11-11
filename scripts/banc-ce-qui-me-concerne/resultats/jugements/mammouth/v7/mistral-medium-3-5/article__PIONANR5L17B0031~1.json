@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "forces_ordre",
+    "concerne": false,
+    "phrase_fidele": false,
+    "raison": "L'article modifie des termes (police municipale → police territoriale) et étend les compétences des agents de police territoriale, mais ne vise pas directement les forces de l'ordre (policiers, gendarmes, militaires). Les agents de police territoriale sont distincts des forces de l'ordre. La phrase proposée invente une transformation des agents de police municipale en forces de l'ordre, ce qui est faux."
+   }
+  ],
+  "oublis": [
+   "elu_local"
+  ]
+ },
+ "cout_usd": 0.0072405
+}

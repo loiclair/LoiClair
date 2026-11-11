@@ -1,0 +1,29 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "fonctionnaire",
+    "raison": "Le III modifie le calcul de la pension des personnels relevant du code des pensions civiles et militaires, donc des fonctionnaires de l'État, avec un coefficient de majoration propre à chaque territoire. Le IV le réserve à ceux qui résident dans ces territoires et remplissent des conditions de services. Leur statut de fonctionnaire déclenche la mesure.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "forces_ordre",
+    "raison": "Le texte vise nommément les militaires relevant du même code, dont les gendarmes. Ceux qui ont servi dans ces territoires et y résident voient leur pension calculée avec le coefficient de majoration. La citation porte sur la condition de six mois et non sur le coefficient, mais la mention des militaires et du coefficient reste fidèle au texte.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "outre_mer",
+    "raison": "Le IV conditionne la majoration à une résidence effective en Nouvelle-Calédonie, à Wallis-et-Futuna ou en Polynésie française à la date d'effet de la pension. Ces collectivités sont des collectivités d'outre-mer, donc le lieu de vie déclenche la mesure.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.001238185,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

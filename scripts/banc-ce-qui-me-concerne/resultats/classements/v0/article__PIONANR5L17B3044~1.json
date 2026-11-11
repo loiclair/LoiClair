@@ -1,0 +1,19 @@
+{
+ "impacts": [
+  {
+   "profil": "locataire",
+   "passage": "Le bailleur est tenu de fournir au locataire un logement garantissant un niveau minimal de confort thermique en période estivale.",
+   "certitude": "certain",
+   "phrase_en": "Your landlord would have to provide a home with minimum summer thermal comfort, and install outdoor solar shades and an air circulator on request.",
+   "phrase_fr": "Votre propriétaire devrait vous fournir un logement offrant un confort thermique minimal en été, et installer sur demande des protections solaires et un brasseur d'air."
+  },
+  {
+   "profil": "proprietaire_bailleur",
+   "passage": "D’installer, à la demande du locataire, des protections solaires mobiles extérieures et un brasseur d’air dans les pièces de vie.",
+   "certitude": "certain",
+   "phrase_en": "You would have to ensure minimum summer thermal comfort in your rented homes, installing on request outdoor solar shades and an air circulator, or else blinds and a fan.",
+   "phrase_fr": "Vous devriez garantir un confort thermique minimal en été dans vos logements loués, et installer sur demande protections solaires et brasseur d'air, ou à défaut occultation et ventilateur."
+  }
+ ],
+ "resume_fr": null
+}

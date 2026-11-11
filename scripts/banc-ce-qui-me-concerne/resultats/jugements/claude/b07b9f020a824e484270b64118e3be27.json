@@ -1,0 +1,74 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "salarie_particulier",
+    "raison": "Le texte subordonne explicitement l’obtention et le maintien de l’agrément d’assistant maternel à la détention du certificat ; le profil inclut les assistants maternels.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "particulier_employeur",
+    "raison": "Le texte impose à l’employeur une vérification préalable pour les salariés exerçant une activité auprès de mineurs, et mentionne expressément les particuliers employeurs. La proposition omet cette condition et paraît viser tous leurs salariés.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "chef_entreprise",
+    "raison": "L’obligation de vérification est imposée à l’employeur, ce qui concerne les dirigeants de petites et moyennes entreprises. La proposition omet la condition que le salarié exerce une activité auprès de mineurs.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "dirigeant_grande_entreprise",
+    "raison": "L’obligation de vérification est imposée à l’employeur, quelle que soit la taille de l’entreprise. La proposition omet la condition que le salarié exerce une activité auprès de mineurs.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "salarie_prive",
+    "raison": "Les salariés exerçant une activité auprès de mineurs doivent détenir le certificat ; l’employeur doit le vérifier avant l’embauche ou l’affectation.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "benevole",
+    "raison": "Le texte vise explicitement les interventions bénévoles et occasionnelles auprès d’élèves, et la règle générale couvre les activités auprès de mineurs.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "secteur_sante",
+    "raison": "Le texte soumet les activités de prévention, de diagnostic, de soins et d’accompagnement sanitaire auprès de mineurs à l’obligation, et vise aussi les professionnels et structures de santé.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "independant",
+    "raison": "Le texte mentionne expressément l’exercice « à titre libéral » d’activités de santé auprès de mineurs.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "etudiant",
+    "raison": "Le texte vise explicitement les étudiants intervenant auprès de mineurs dans les structures de santé concernées.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "apprenti_alternant",
+    "raison": "Le texte vise les stagiaires intervenant auprès de mineurs dans les structures de santé ; le profil inclut les stagiaires.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "secteur_education",
+   "secteur_culture",
+   "secteur_transport"
+  ]
+ },
+ "cout_usd": 0.00197465,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

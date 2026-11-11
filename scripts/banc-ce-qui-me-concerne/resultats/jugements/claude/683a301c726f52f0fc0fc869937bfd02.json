@@ -1,0 +1,19 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "veuf",
+    "raison": "Le texte ouvre la demi-part fiscale aux veuves de combattants (art. 195 CGI). Ce qui déclenche la mesure est d'être conjoint d'un titulaire de titre de combattant, et non le seul veuvage. Le profil veuf n'est donc pas visé, comme le conjoint d'une personne condamnée n'est pas visé par une mesure sur les personnes mariées.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "ancien_combattant"
+  ]
+ },
+ "cout_usd": 0.000860335,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

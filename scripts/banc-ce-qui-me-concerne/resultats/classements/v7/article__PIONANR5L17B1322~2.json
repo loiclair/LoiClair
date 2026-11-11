@@ -1,0 +1,19 @@
+{
+ "impacts": [
+  {
+   "profil": "salarie_prive",
+   "phrase_fr": "Des propos ou comportements imposés dans le cadre d'une politique d'entreprise pourraient être sanctionnés plus sévèrement comme harcèlement moral.",
+   "phrase_en": "Harassing words or conduct imposed under a company policy would be punished more severely as moral harassment.",
+   "passage": "c) Lorsque ces propos ou comportements sont imposés dans le cadre de la mise en œuvre d’une politique d’entreprise.",
+   "certitude": "probable"
+  },
+  {
+   "profil": "chef_entreprise",
+   "phrase_fr": "Les dirigeants qui imposent des propos ou comportements dans le cadre d'une politique d'entreprise pourraient être plus sévèrement sanctionnés pour harcèlement moral.",
+   "phrase_en": "Company managers who impose harassing words or conduct under a company policy would face harsher penalties for moral harassment.",
+   "passage": "c) Lorsque ces propos ou comportements sont imposés dans le cadre de la mise en œuvre d’une politique d’entreprise.",
+   "certitude": "possible"
+  }
+ ],
+ "cout_usd": 0.00076061
+}

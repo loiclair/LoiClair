@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "syndique",
+    "raison": "Le texte prévoit des représentants syndicaux de Vencorex dans un comité ponctuel, mais cette participation ne change pas les règles applicables aux syndiqués en général.",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "elu_local",
+    "raison": "Le président de l’agglomération et les maires concernés siègent au comité pour ce dossier particulier ; cela ne change pas les règles applicables aux élus locaux en général.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00022965,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

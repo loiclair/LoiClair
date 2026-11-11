@@ -1,0 +1,29 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_sante",
+    "raison": "L'article étend la suspension d'exercice à tout professionnel de santé mis en examen en lien avec sa profession, ce qui change directement les règles du métier dans la santé.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "etudiant",
+    "raison": "Le 3° vise expressément les élèves et étudiants des établissements préparant aux professions de santé, qui deviennent passibles de la suspension.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "independant",
+    "raison": "Le texte vise tout professionnel de santé sans distinguer le mode d'exercice, et mentionne « tout autre lieu où ils réalisent des soins ». Il ne cible pas les libéraux comme tels, et la phrase ajoute le « propre cabinet » que le texte ne dit pas.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0041056999999999995,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

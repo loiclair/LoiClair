@@ -1,0 +1,29 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etranger_hors_ue",
+    "raison": "Le texte modifie directement la durée des cartes de séjour délivrées à l'étranger conjoint d'un titulaire de carte de résident, donc à une personne hors UE qui vit en France.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "mineur",
+    "raison": "Le texte vise nommément l'étranger qui peut obtenir sa carte « entre ses seize et dix-huit ans », sous réserve de remplir les conditions de l'article L. 421-35. Cette condition est une vraie limite que la phrase de l'assistant omet.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "jeune",
+    "raison": "Le texte vise la personne dans l'année suivant son dix-huitième anniversaire, ce qui touche directement les 18-25 ans.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.001519235,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

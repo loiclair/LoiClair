@@ -1,0 +1,19 @@
+{
+ "impacts": [
+  {
+   "profil": "projet_achat",
+   "passage": "Il est perçu au profit de l’État une taxe additionnelle aux droits d’enregistrement ou à la taxe de publicité foncière exigibles sur les mutations à titre onéreux d’immeubles ou de droits immobiliers situés sur le territoire d’une commune littorale",
+   "certitude": "certain",
+   "phrase_en": "Buying property in a coastal commune would cost more: a 0.10% tax would be added to the transfer duties paid at purchase.",
+   "phrase_fr": "Acheter un bien immobilier dans une commune littorale serait plus coûteux : une taxe de 0,10 % s'ajouterait aux droits de mutation payés à l'achat."
+  },
+  {
+   "profil": "littoral",
+   "passage": "Il est perçu au profit de l’État une taxe additionnelle aux droits d’enregistrement ou à la taxe de publicité foncière exigibles sur les mutations à titre onéreux d’immeubles ou de droits immobiliers situés sur le territoire d’une commune littorale",
+   "certitude": "probable",
+   "phrase_en": "Property purchases made in your coastal commune would be subject to an extra 0.10% tax on top of transfer duties.",
+   "phrase_fr": "Les achats immobiliers faits dans votre commune littorale seraient soumis à une taxe supplémentaire de 0,10 % en plus des droits de mutation."
+  }
+ ],
+ "resume_fr": null
+}

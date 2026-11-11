@@ -1,0 +1,26 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "proprietaire_bailleur",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'amendement assouplit les conditions dans lesquelles l'obligation de décence énergétique d'un logement loué en copropriété est réputée satisfaite par le bailleur."
+   },
+   {
+    "profil": "locataire",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "La mesure modifie le seuil à partir duquel le locataire en copropriété peut faire valoir un manquement de son propriétaire aux critères de décence énergétique."
+   },
+   {
+    "profil": "coproprietaire",
+    "concerne": false,
+    "phrase_fidele": true,
+    "raison": "La disposition porte uniquement sur les critères de décence locative (loi de 1989) opposables entre bailleur et locataire. Elle n'emporte aucun droit ni obligation pour un copropriétaire qui n'est pas bailleur."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0090885
+}

@@ -1,0 +1,26 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "heritier_donateur",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article réforme en profondeur les droits de succession et de donation : barème unique, nouvel abattement, et prise en compte de toutes les donations passées sans la limite de quinze ans."
+   },
+   {
+    "profil": "epargnant",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article modifie la fiscalité de l'assurance-vie au décès en abrogeant notamment l'abattement spécifique de l'article 757 B du CGI."
+   },
+   {
+    "profil": "senior",
+    "concerne": false,
+    "phrase_fidele": false,
+    "raison": "L'article supprime la mention de l'âge de 70 ans pour harmoniser la taxation de l'assurance-vie au lieu d'instaurer une condition d'âge visant spécifiquement les seniors. Ce profil n'est pas ciblé en tant que tel."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.01360875
+}

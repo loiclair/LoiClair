@@ -1,0 +1,19 @@
+{
+ "impacts": [
+  {
+   "profil": "epargnant",
+   "passage": "Le livret nouvelle ruralité est ouvert par les personnes physiques ayant leur domicile fiscal en France dans les établissements et organismes autorisés à recevoir des dépôts.",
+   "certitude": "certain",
+   "phrase_en": "A new savings passbook, whose money would finance rural projects, would be open to individuals tax-resident in France.",
+   "phrase_fr": "Un nouveau livret d'épargne, dont l'argent financerait des projets ruraux, pourrait être ouvert par les particuliers fiscalement domiciliés en France."
+  },
+  {
+   "profil": "marie_pacse",
+   "passage": "Il ne peut être ouvert qu’un livret par contribuable ou un livret pour chacun des époux ou partenaires liés par un pacte civil de solidarité, soumis à une imposition commune.",
+   "certitude": "certain",
+   "phrase_en": "Each spouse or civil partner under joint taxation would be able to open their own passbook.",
+   "phrase_fr": "Chacun des époux ou partenaires de PACS soumis à une imposition commune pourrait ouvrir son propre livret."
+  }
+ ],
+ "resume_fr": null
+}

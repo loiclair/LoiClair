@@ -1,0 +1,120 @@
+# Fabrique l'image Docker du site et la pousse sur GHCR (le registre d'images
+# de GitHub), pour que Coolify la lance sur le VPS (D-325 à D-327).
+#
+# Next se compile ici, sur le runner, et non dans `docker build` : le VPS ne
+# tient pas un build Next.js, et les secrets de la base dont le build a
+# besoin pour fabriquer les pages statiques ne passent jamais dans l'image.
+# Le Dockerfile ne fait que copier `.next/standalone`, `.next/static` et
+# `public`.
+#
+# Deux déclenchements, deux étiquettes :
+# - un push sur `production` (fait par `/release`) pousse l'étiquette
+#   `production`, que suit l'app Coolify de loiclair.fr. Pousser l'image ne
+#   met pas le site à jour : `/release` demande ensuite le déploiement à
+#   Coolify, dont l'API reste fermée à GitHub ;
+# - un lancement manuel pousse l'étiquette `essai`, que suit l'app d'essai,
+#   depuis n'importe quelle branche :
+#     gh workflow run image-site.yml --ref <branche>
+# Les deux poussent aussi `sha-<commit>`, qui garde chaque image retrouvable
+# pour revenir en arrière.
+#
+# Le build lit la base du VPS par le tunnel SSH (`tunnel-base`, D-327). Aucune
+# action tierce : `docker` est présent sur les runners, et `GITHUB_TOKEN` suffit
+# pour écrire sur GHCR.
+name: Image du site
+on:
+  push:
+    branches: [production]
+  workflow_dispatch:
+
+# Deux images lancées coup sur coup : la seconde attend la première au lieu de
+# l'interrompre, pour qu'une étiquette ne pointe jamais vers une image poussée
+# à moitié. GitHub ne garde qu'un lancement en attente : un troisième lancé
+# pendant ce temps remplace le deuxième, qui est annulé sans s'exécuter.
+concurrency:
+  group: image-site
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+  packages: write
+
+jobs:
+  image:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: '24'
+          cache: npm
+      - run: npm ci --ignore-scripts
+
+      # La base du VPS se joint alors sur `127.0.0.1:5432` du runner.
+      - name: Tunnel vers la base du VPS
+        uses: ./.github/actions/tunnel-base
+        with:
+          host: ${{ secrets.VPS_HOST }}
+          key: ${{ secrets.VPS_TUNNEL_KEY }}
+          known_hosts: ${{ secrets.VPS_KNOWN_HOSTS }}
+
+      # `NEXT_OUTPUT=standalone` est lu par `next.config.ts` : sans lui, la
+      # sortie n'est pas autonome et le Dockerfile n'a rien à copier.
+      #
+      # Les `NEXT_PUBLIC_*` sont recopiées en dur dans le code au moment du
+      # build, pas lues au démarrage du serveur : les donner au conteneur dans
+      # Coolify ne sert à rien. Sans la clé Turnstile, aucun formulaire
+      # (newsletter, signalement, adhésion, désabonnement) n'obtient de jeton
+      # et tous restent bloqués sur « vérification en cours » : le build
+      # s'arrête plutôt que de produire cette image. Sans l'adresse du site, le
+      # code retombe sur `https://loiclair.fr`. Ce sont des variables du dépôt
+      # (`vars`), pas des secrets : la clé Turnstile publique est lue par tout
+      # navigateur.
+      - run: |
+          if [ -z "$NEXT_PUBLIC_TURNSTILE_SITE_KEY" ]; then
+            echo "::error::Variable de dépôt NEXT_PUBLIC_TURNSTILE_SITE_KEY absente : les formulaires de l'image seraient bloqués."
+            exit 1
+          fi
+          npm run build
+        env:
+          NEXT_OUTPUT: standalone
+          NEXT_PUBLIC_TURNSTILE_SITE_KEY: ${{ vars.NEXT_PUBLIC_TURNSTILE_SITE_KEY }}
+          NEXT_PUBLIC_SITE_URL: ${{ vars.NEXT_PUBLIC_SITE_URL }}
+          # Le build lit la base par `src/lib/db.ts`, qui lève sans les `PG*`.
+          # Sans TLS : le tunnel chiffre déjà, et Postgres n'écoute que sur
+          # `127.0.0.1` du VPS.
+          PGHOST: 127.0.0.1
+          PGPORT: '5432'
+          PGSSLMODE: disable
+          PGDATABASE: ${{ secrets.VPS_PGDATABASE }}
+          PGUSER: ${{ secrets.VPS_PGUSER }}
+          PGPASSWORD: ${{ secrets.VPS_PGPASSWORD }}
+
+      # GHCR n'accepte que des noms en minuscules, et le propriétaire du dépôt
+      # s'écrit avec une majuscule. Le label `revision` porte le commit : c'est
+      # lui que `/release` relit pour vérifier que Coolify sert la bonne image.
+      # Le label `source` rattache le paquet au dépôt sur GitHub.
+      - name: Construire et pousser l'image
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ETIQUETTE: ${{ github.event_name == 'push' && 'production' || 'essai' }}
+        run: |
+          image="ghcr.io/$(echo "$GITHUB_REPOSITORY" | tr '[:upper:]' '[:lower:]')"
+          echo "$GH_TOKEN" | docker login ghcr.io -u "$GITHUB_ACTOR" --password-stdin
+          docker build \
+            --label "org.opencontainers.image.source=https://github.com/$GITHUB_REPOSITORY" \
+            --label "org.opencontainers.image.revision=$GITHUB_SHA" \
+            -t "$image:sha-$GITHUB_SHA" -t "$image:$ETIQUETTE" .
+          docker push "$image:sha-$GITHUB_SHA"
+          docker push "$image:$ETIQUETTE"
+          docker logout ghcr.io
+          echo "Image poussée : $image:$ETIQUETTE (sha-$GITHUB_SHA)"
+
+  alerte:
+    needs: image
+    if: failure()
+    uses: ./.github/workflows/alerte-echec.yml
+    with:
+      quoi: "Construction de l'image du site"
+    secrets:
+      RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}

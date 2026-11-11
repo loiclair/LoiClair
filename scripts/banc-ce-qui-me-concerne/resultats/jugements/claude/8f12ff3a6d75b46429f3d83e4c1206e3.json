@@ -1,0 +1,28 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etranger_hors_ue",
+    "raison": "Le texte impose directement aux étrangers non ressortissants de l’UE une condition de deux ans de séjour régulier pour certaines prestations, avec des exceptions.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "parent",
+    "raison": "La condition vise les demandeurs étrangers non européens, pas les parents en tant que tels ; le texte ne définit pas la mesure par la situation parentale.",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "age_dependant",
+    "raison": "Le texte conditionne explicitement l’accès à l’allocation personnalisée d’autonomie (APA) pour certains étrangers non européens, ce qui touche directement les personnes âgées en perte d’autonomie qui la demandent.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00086215,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

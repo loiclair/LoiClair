@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "alsace_moselle",
+    "raison": "L'article vise nommément la Moselle, le Bas-Rhin et le Haut-Rhin et rend applicables aux terrains inscrits au cadastre de ces départements les règles de prescription du Code civil, ce qui change directement les droits des propriétaires qui y vivent.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000379485,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

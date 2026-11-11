@@ -1,0 +1,20 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "proprietaire_bailleur",
+    "raison": "L'article rétablit une déduction d'amortissement (dispositif Super-Denormandie/Louer abordable type) pour le contribuable qui acquiert un logement avec travaux et le loue nu en résidence principale : cela vise directement le propriétaire bailleur.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "imposable",
+   "projet_achat"
+  ]
+ },
+ "cout_usd": 0.0034097,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

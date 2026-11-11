@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_sante",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article modifie directement les conditions d'exercice en France des médecins diplômés au Royaume-Uni ayant commencé leurs études avant le 31 décembre 2020, ce qui concerne spécifiquement les professionnels du secteur de la santé."
+   }
+  ],
+  "oublis": [
+   "etranger_ue",
+   "etranger_hors_ue"
+  ]
+ },
+ "cout_usd": 0.0068055
+}

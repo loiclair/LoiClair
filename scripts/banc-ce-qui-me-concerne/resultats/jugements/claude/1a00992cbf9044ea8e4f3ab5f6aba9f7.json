@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "elu_local",
+    "raison": "Le texte fixe qui est conseiller communautaire suppléant (candidat élu conseiller municipal suivant, ou membre du conseil municipal suivant dans l'ordre du tableau) et lui permet de voter en cas d'absence du titulaire. Il vise donc directement les élus municipaux et intercommunaux.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0024097,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

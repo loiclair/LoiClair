@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "epargnant",
+    "raison": "Le texte crée un livret d'épargne ouvert aux personnes physiques domiciliées fiscalement en France : un épargnant est directement visé.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "marie_pacse",
+    "raison": "Le texte fixe une règle propre aux époux et partenaires de PACS soumis à imposition commune : un livret par contribuable, ou un par conjoint. Mais la phrase est inexacte : elle dit « un seul livret par couple » puis « un par conjoint », ce qui est contradictoire, et le texte prévoit un livret pour chacun des époux.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0029957,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

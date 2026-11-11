@@ -1,0 +1,12 @@
+{
+ "impacts": [
+  {
+   "profil": "residence_secondaire",
+   "phrase_fr": "Vous pourriez payer une taxe d’habitation majorée de 5 % à 60 % dans certaines communes ; les règles de taxation des logements vacants seraient aussi modifiées.",
+   "phrase_en": "You could pay a housing tax increased by 5% to 60% in certain municipalities; the rules for taxing vacant homes would also change.",
+   "passage": "majorer d’un pourcentage compris entre 5 % et 60 % la part lui revenant de la cotisation de taxe d’habitation sur les résidences secondaires",
+   "certitude": "certain"
+  }
+ ],
+ "cout_usd": 0.000358225
+}

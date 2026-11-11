@@ -1,0 +1,14 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "epargnant",
+    "concerne": false,
+    "phrase_fidele": false,
+    "raison": "L'article modifie des références réglementaires pour les crypto-actifs, mais ne change pas directement les règles fiscales applicables aux épargnants. La phrase proposée invente un effet concret (exclusion de la règle fiscale) qui n'est pas explicitement mentionné dans le texte. Le passage cité ne précise pas que la règle fiscale ne s'appliquerait plus, mais seulement qu'une exception est introduite pour certains crypto-actifs."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.010314
+}

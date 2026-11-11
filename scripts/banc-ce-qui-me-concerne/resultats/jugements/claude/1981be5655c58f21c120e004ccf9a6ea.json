@@ -1,0 +1,28 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_education",
+    "raison": "L’article modifie les règles disciplinaires du personnel de l’enseignement supérieur agricole public : il change directement le fonctionnement professionnel du secteur de l’éducation.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "fonctionnaire",
+    "raison": "La suspension peut viser un membre du personnel de l’enseignement supérieur agricole public, catégorie qui comprend des fonctionnaires et des contractuels publics.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "etudiant",
+    "raison": "La suppression des « usagers » de la composition des sections disciplinaires concerne directement les étudiants représentés comme usagers.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000819275,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

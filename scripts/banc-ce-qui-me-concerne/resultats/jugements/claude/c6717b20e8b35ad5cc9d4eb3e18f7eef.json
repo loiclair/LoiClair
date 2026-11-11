@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "residence_secondaire",
+    "raison": "Le I de l'article 1407 ter permet aux communes en forte tension de majorer de 5 % à 60 % la taxe d'habitation sur les résidences secondaires, ce qui touche directement leur propriétaire.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "meuble_tourisme",
+    "raison": "La règle des 90 jours vise tout logement dont l'occupation est inférieure à 90 jours, qu'il soit meublé ou loué ou non. Le texte ne mentionne ni meublé ni location courte durée : le critère déclencheur est la durée d'occupation, et non le statut de loueur en meublé.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000914935,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

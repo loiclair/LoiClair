@@ -1,0 +1,19 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etudiant",
+    "raison": "L'article oblige les unités de formation en santé à proposer dans chaque département la première année des études de médecine, pharmacie, odontologie et maïeutique. Cela change concrètement l'accès à ces études pour les étudiants de l'enseignement supérieur ou futurs étudiants. La phrase de l'assistant est fidèle et au conditionnel.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "secteur_education"
+  ]
+ },
+ "cout_usd": 0.0024657,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

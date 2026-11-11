@@ -1,0 +1,26 @@
+{
+ "impacts": [
+  {
+   "profil": "auto_entrepreneur",
+   "phrase_fr": "La franchise de TVA cesserait de s'appliquer dès le dépassement du plafond de chiffre d'affaires, avec des seuils abaissés à 25 000 € et 27 500 €.",
+   "phrase_en": "The VAT exemption would stop applying as soon as the revenue ceiling is exceeded, with lower thresholds of 25,000 € and 27,500 €.",
+   "passage": "Lorsque le plafond de chiffre d'affaires prévu pour les opérations de l'année en cours est dépassé, la franchise mentionnée au I cesse de s'appliquer aux opérations intervenant à compter de la date du dépassement.",
+   "certitude": "certain"
+  },
+  {
+   "profil": "proprietaire_occupant",
+   "phrase_fr": "Les travaux de rénovation énergétique avec une chaudière pouvant brûler des combustibles fossiles seraient taxés à la TVA normale de 20 %, et non au taux réduit.",
+   "phrase_en": "Energy renovation work including a boiler that can burn fossil fuels would be taxed at the standard 20% VAT rate, not the reduced rate.",
+   "passage": "III bis.-Par dérogation au I du présent article, le taux prévu à l'article 278 s'applique aux prestations de rénovation énergétique comprenant la fourniture ou l'installation d'une chaudière susceptible d'utiliser des combustibles fossiles.",
+   "certitude": "probable"
+  },
+  {
+   "profil": "secteur_btp",
+   "phrase_fr": "Les travaux avec une chaudière pouvant utiliser des combustibles fossiles seraient soumis au taux normal de TVA, ce qui change le prix facturé.",
+   "phrase_en": "Work involving a boiler that can use fossil fuels would be subject to the standard VAT rate, changing the price billed.",
+   "passage": "c) Les travaux comprenant la fourniture ou l'installation d'une chaudière susceptible d'utiliser des combustibles fossiles.",
+   "certitude": "possible"
+  }
+ ],
+ "cout_usd": 0.00136091
+}

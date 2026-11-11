@@ -1,0 +1,35 @@
+{
+ "jugement": {
+  "profils": [],
+  "oublis": [
+   "corse",
+   "alsace_moselle",
+   "outre_mer",
+   "grande_ville",
+   "rural",
+   "montagne",
+   "littoral",
+   "celibataire",
+   "concubin",
+   "marie_pacse",
+   "separe_divorce",
+   "veuf",
+   "parent",
+   "parent_isole",
+   "famille_nombreuse",
+   "futur_parent",
+   "mineur",
+   "jeune",
+   "senior",
+   "syndique",
+   "handicap",
+   "malade_chronique",
+   "age_dependant",
+   "etranger_ue",
+   "etranger_hors_ue"
+  ]
+ },
+ "cout_usd": 0.001518775,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

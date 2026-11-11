@@ -1,0 +1,14 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "proprietaire_bailleur",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article modifie le régime de déduction au titre de l'amortissement pour les logements que le contribuable acquiert en vue de les louer. Il stipule la condition de louer « nu à titre de résidence principale », ce qui vise directement un propriétaire-bailleur. La phrase résume correctement l'effet de la déduction et les conditions principales. L'utilisation du conditionnel est correcte puisque le projet de loi n'est pas encore adopté."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0028418
+}

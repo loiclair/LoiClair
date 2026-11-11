@@ -1,0 +1,19 @@
+{
+ "impacts": [
+  {
+   "profil": "salarie_prive",
+   "phrase_fr": "Des propos ou comportements imposés dans le cadre d'une politique d'entreprise pourraient être considérés comme du harcèlement moral.",
+   "phrase_en": "Comments or behaviour imposed under a company policy would be treated as moral harassment.",
+   "passage": "c) Lorsque ces propos ou comportements sont imposés dans le cadre de la mise en œuvre d’une politique d’entreprise.",
+   "certitude": "probable"
+  },
+  {
+   "profil": "chef_entreprise",
+   "phrase_fr": "Les propos ou comportements que vous imposez dans le cadre d'une politique d'entreprise pourraient relever du harcèlement moral.",
+   "phrase_en": "Comments or behaviour you impose under a company policy could fall under moral harassment.",
+   "passage": "c) Lorsque ces propos ou comportements sont imposés dans le cadre de la mise en œuvre d’une politique d’entreprise.",
+   "certitude": "possible"
+  }
+ ],
+ "cout_usd": 0.00088961
+}

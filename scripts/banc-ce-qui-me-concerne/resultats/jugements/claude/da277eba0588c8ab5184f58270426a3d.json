@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "imposable",
+    "raison": "L’article étend la réduction d’impôt prévue pour certains dons aux versements faits aux organismes décrits ; il vise donc les contribuables qui effectuent ces dons.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000322525,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

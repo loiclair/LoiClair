@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "elu_local",
+    "raison": "Le texte vise directement l'adjoint au maire ou le conseiller municipal chargé de la sécurité civile, qui recevrait une formation obligatoire à sa prise de fonction : cela change ses droits et obligations d'élu municipal.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0019267,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

@@ -1,0 +1,29 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "salarie_prive",
+    "raison": "L'amendement vise les salariés bénéficiaires du déblocage de participation et d'intéressement, qui recevront l'information sur les frais. Les salariés d'entreprises privées sont directement visés, et la mesure change leurs droits à l'information.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "chef_entreprise",
+    "raison": "Le texte impose à l'employeur (« Il informe également les salariés ») une obligation d'information supplémentaire. Selon la règle 11, une obligation imposée à tout employeur concerne les dirigeants de PME.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "dirigeant_grande_entreprise",
+    "raison": "L'obligation d'information pèse sur tout employeur, y compris les entreprises de 250 salariés ou plus (règle 11). Elles sont directement visées par « Il informe également les salariés ».",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0054617,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

@@ -1,0 +1,33 @@
+{
+ "impacts": [
+  {
+   "profil": "etudiant",
+   "phrase_fr": "Ouvre la possibilité de louer un logement meublé en résidence à vocation d'emploi pour une durée d'une semaine à dix-huit mois, si vous suivez des études supérieures.",
+   "phrase_en": "Allows you to rent a furnished home in a job-linked residence for one week to eighteen months, if you are pursuing higher education.",
+   "passage": "loués pour une durée d'une semaine à dix-huit mois à des locataires justifiant, à la date de prise d'effet du bail, suivre des études supérieures",
+   "certitude": "certain"
+  },
+  {
+   "profil": "apprenti_alternant",
+   "phrase_fr": "Ouvre la possibilité de louer un logement meublé en résidence à vocation d'emploi pour une durée d'une semaine à dix-huit mois, si vous êtes en apprentissage, en formation ou en stage.",
+   "phrase_en": "Allows you to rent a furnished home in a job-linked residence for one week to eighteen months, if you are an apprentice, in training or on an internship.",
+   "passage": "à des locataires justifiant, à la date de prise d'effet du bail, suivre des études supérieures ou être en formation professionnelle, en contrat d'apprentissage, en stage",
+   "certitude": "certain"
+  },
+  {
+   "profil": "benevole",
+   "phrase_fr": "Ouvre la possibilité de louer un logement meublé en résidence à vocation d'emploi, si vous êtes en service civique.",
+   "phrase_en": "Allows you to rent a furnished home in a job-linked residence, if you are doing civic service.",
+   "passage": "en engagement volontaire dans le cadre d'un service civique prévu au II de l'article L. 120-1 du code du service national",
+   "certitude": "probable"
+  },
+  {
+   "profil": "locataire",
+   "phrase_fr": "Permet de signer un bail mobilité d'une semaine à dix-huit mois dans une résidence à vocation d'emploi, avec des loyers à la nuitée encadrés par des plafonds.",
+   "phrase_en": "Allows a mobility lease of one week to eighteen months in a job-linked residence, with nightly rents capped by ceilings.",
+   "passage": "Par dérogation au premier alinéa, le bail mobilité peut être conclu pour une durée minimale d'une semaine et une durée maximale de dix-huit mois lorsque le logement sur lequel il porte fait partie d'une résidence à vocation d'emploi",
+   "certitude": "probable"
+  }
+ ],
+ "cout_usd": 0.00128115
+}

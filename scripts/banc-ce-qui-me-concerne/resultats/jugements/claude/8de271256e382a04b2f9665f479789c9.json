@@ -1,0 +1,12 @@
+{
+ "jugement": {
+  "profils": [],
+  "oublis": [
+   "animal",
+   "secteur_agriculture"
+  ]
+ },
+ "cout_usd": 0.001101275,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

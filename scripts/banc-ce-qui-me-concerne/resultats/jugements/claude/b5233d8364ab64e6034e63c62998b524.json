@@ -1,0 +1,29 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "handicap",
+    "raison": "Le nouvel article L. 146-11 CASF ouvre aux personnes handicapées une demande d'évaluation limitée à leur seule éligibilité au statut de travailleur handicapé et à la carte mobilité inclusion. Le profil est visé directement, et la démarche change pour lui.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "age_dependant",
+    "raison": "Le texte vise les bénéficiaires de l'allocation prévue à l'article L. 232-1 CASF, c'est-à-dire l'APA. Ils reçoivent la carte mobilité inclusion à titre définitif sur la seule décision d'attribution, ce qui change directement leurs démarches. La phrase nomme l'allocation « allocation d'autonomie » au lieu d'« allocation personnalisée d'autonomie », mais cela n'invente rien.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "senior",
+    "raison": "La mesure ne vise pas toutes les personnes de plus de 60 ans. Elle s'adresse aux personnes handicapées dont l'âge dépasse un seuil fixé par arrêté, qui ne peut être inférieur à 60 ans. Un senior sans handicap n'est pas concerné : c'est la condition de handicap qui déclenche la mesure. La phrase de l'assistant omet cette condition et généralise à tous les plus de 60 ans, ce qui est faux.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.001234885,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

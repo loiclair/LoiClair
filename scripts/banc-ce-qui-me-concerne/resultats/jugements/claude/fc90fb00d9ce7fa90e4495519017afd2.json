@@ -1,0 +1,18 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "imposable",
+    "raison": "Le crédit réduit l’impôt du cessionnaire, mais le texte ne vise pas les personnes parce qu’elles sont imposables : il faut être cessionnaire d’une entreprise répondant aux conditions prévues.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": [
+   "heritier_donateur"
+  ]
+ },
+ "cout_usd": 0.000815525,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

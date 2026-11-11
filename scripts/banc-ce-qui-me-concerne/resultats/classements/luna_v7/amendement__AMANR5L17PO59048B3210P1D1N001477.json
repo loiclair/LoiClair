@@ -1,0 +1,12 @@
+{
+ "resume_fr": "Porterait de 80 % à 100 % le taux du crédit d’impôt pour les dépenses de remplacement et limiterait son application aux sommes déduites de l’impôt dû.",
+ "resume_en": "Would raise the tax credit rate for replacement expenses from 80% to 100% and limit its application to amounts deducted from tax due.",
+ "impacts": [
+  {
+   "profil": "secteur_agriculture",
+   "passage": "« 100 % ».",
+   "certitude": "probable"
+  }
+ ],
+ "cout_usd": 0.0008611
+}

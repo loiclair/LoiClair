@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_btp",
+    "raison": "Le texte modifie l'article 3 de la loi de 1975 sur la sous-traitance, qui vaut pour tout contrat d'entreprise sans être limité au bâtiment. Il ne nomme aucun secteur : la mesure s'applique de la même façon dans tous les secteurs, donc elle ne vise pas le BTP en particulier.",
+    "concerne": false,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "chef_entreprise",
+    "raison": "La mesure oblige l'entrepreneur principal, dont le dirigeant d'une TPE ou PME est le premier concerné, à faire accepter ses sous-traitants dès que la sous-traitance dépasse un tiers du contrat. C'est une obligation professionnelle directe, sans seuil de taille.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000789535,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

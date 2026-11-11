@@ -1,0 +1,35 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "locataire",
+    "raison": "Le texte plafonne le loyer des baux conclus dans les communes tendues (loyer de référence majoré, puis plafond généralisé à partir de 2026) et ouvre une action en diminution au locataire. La mesure le vise directement par son logement loué.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "proprietaire_bailleur",
+    "raison": "Le texte fixe le plafond du loyer que le bailleur peut stipuler dans ses baux et permet au locataire d'agir en diminution. La mesure atteint directement celui qui loue ses logements à l'année.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "meuble_tourisme",
+    "raison": "Le II étend l'encadrement des loyers aux logements meublés touristiques de l'article L. 324-1-1 du code du tourisme, « dans les zones tendues comme sur le reste du territoire ». La mesure vise directement les loueurs de meublés en courte durée.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "etudiant",
+    "raison": "Le texte soumet les loyers des résidences étudiantes privées à l'encadrement, et ces résidences sont par définition destinées aux étudiants. Un étudiant qui y loge verrait le loyer qu'il paie encadré, ce qui le vise directement, même si le critère déclencheur est le type de logement.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0009362850000000001,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

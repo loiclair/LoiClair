@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "benevole",
+    "raison": "Le texte organise la liquidation des biens d’une association dissoute et la convocation d’une assemblée générale, mais ne vise pas les bénévoles en raison de leur statut.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0003124,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

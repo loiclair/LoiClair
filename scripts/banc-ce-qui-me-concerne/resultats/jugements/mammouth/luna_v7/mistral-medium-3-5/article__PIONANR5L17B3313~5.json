@@ -1,0 +1,14 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "forces_ordre",
+    "concerne": false,
+    "phrase_fidele": false,
+    "raison": "L'article ne vise pas directement les forces de l'ordre (policiers, gendarmes, militaires) en tant que groupe professionnel. Il définit une règle juridique sur le survol des zones militaires par des drones, mais ne modifie pas leurs droits, obligations ou démarches. De plus, la phrase proposée mentionne 'les militaires pourraient considérer', ce qui est une interprétation et non une traduction fidèle du texte, qui ne parle pas d'action des forces de l'ordre mais d'une qualification juridique."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0065415
+}

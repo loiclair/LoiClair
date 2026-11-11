@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "aidant",
+    "raison": "Le texte permet au juge de désigner, à l'avance, la ou les personnes qui reprendront une tutelle ou une curatelle en cas de décès de la personne désignée en premier. Ces personnes exercent alors pour un majeur protégé une mesure de protection juridique, ce qui correspond à la définition du profil. Le texte ne limite pas cette désignation aux proches.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000796035,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

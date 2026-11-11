@@ -1,0 +1,19 @@
+{
+ "impacts": [
+  {
+   "profil": "pompier_volontaire",
+   "phrase_fr": "Chaque sapeur-pompier volontaire exposé à un agent cancérogène lors d'une intervention aurait une fiche d'exposition établie par son autorité.",
+   "phrase_en": "Each volunteer firefighter exposed to a carcinogenic agent during an operation would have an exposure record drawn up by their authority.",
+   "passage": "L’autorité territoriale établit, pour chaque sapeur-pompier professionnel ou volontaire exposé, dans le cadre de ses fonctions, après une intervention présentant un risque d’exposition à un agent cancérogène, mutagène ou toxique pour la reproduction",
+   "certitude": "certain"
+  },
+  {
+   "profil": "fonctionnaire",
+   "phrase_fr": "Les sapeurs-pompiers professionnels exposés à un agent cancérogène lors d'une intervention auraient une fiche d'exposition établie par leur autorité territoriale.",
+   "phrase_en": "Professional firefighters exposed to a carcinogenic agent during an operation would have an exposure record drawn up by their territorial authority.",
+   "passage": "L’autorité territoriale établit, pour chaque sapeur-pompier professionnel ou volontaire exposé, dans le cadre de ses fonctions, après une intervention présentant un risque d’exposition à un agent cancérogène, mutagène ou toxique pour la reproduction",
+   "certitude": "probable"
+  }
+ ],
+ "cout_usd": 0.00084391
+}

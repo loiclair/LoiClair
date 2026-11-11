@@ -1,0 +1,26 @@
+{
+ "impacts": [
+  {
+   "profil": "secteur_sante",
+   "passage": "1° À l’hôpital de jour et aux courts séjours ;",
+   "certitude": "probable",
+   "phrase_en": "Day hospital and short hospital stays would be funded through a palliative care budget from 2024 to 2034.",
+   "phrase_fr": "Les soins de l'hôpital de jour et des courts séjours seraient financés par une enveloppe dédiée aux soins palliatifs, de 2024 à 2034."
+  },
+  {
+   "profil": "independant",
+   "passage": "10° Aux actes des professionnels de santé libéraux ;",
+   "certitude": "probable",
+   "phrase_en": "Acts performed by self-employed health professionals would be funded under this palliative care budget.",
+   "phrase_fr": "Les actes réalisés par les professionnels de santé libéraux seraient financés dans le cadre de cette enveloppe de soins palliatifs."
+  },
+  {
+   "profil": "malade_chronique",
+   "passage": "afin de garantir un accès équitable des malades aux soins d’accompagnement",
+   "certitude": "possible",
+   "phrase_en": "Patients could gain more equitable access to supportive care, depending on how the planned credits evolve.",
+   "phrase_fr": "Les malades pourraient obtenir un accès plus équitable aux soins d’accompagnement, selon l’évolution des crédits prévus."
+  }
+ ],
+ "resume_fr": null
+}

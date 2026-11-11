@@ -1,0 +1,42 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "handicap",
+    "raison": "Le texte vise explicitement certaines personnes atteintes d’une infirmité ou d’une invalidité, ainsi que des titulaires de l’AAH sous condition de revenus : cela concerne une partie des personnes en situation de handicap.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "senior",
+    "raison": "Les contribuables de plus de 60 ans peuvent bénéficier du dégrèvement sous condition de revenus et s’ils ne sont pas passibles de l’IFI.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "veuf",
+    "raison": "Les veuves et veufs sont explicitement visés par le dégrèvement, sous condition de revenus et s’ils ne sont pas passibles de l’IFI.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "outre_mer",
+    "raison": "Le texte prévoit des seuils particuliers pour certains territoires ultramarins, notamment pour l’accès au dégrèvement prévu au titre de l’AAH.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "age_dependant",
+    "raison": "Le texte vise certaines personnes hébergées durablement en établissement en raison de leur perte d’autonomie, qui conservent leur ancien logement, sous d’autres conditions.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": [
+   "patrimoine_ifi"
+  ]
+ },
+ "cout_usd": 0.002032275,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

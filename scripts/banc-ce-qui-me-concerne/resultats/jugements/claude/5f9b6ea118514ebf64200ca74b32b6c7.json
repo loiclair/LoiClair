@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "forces_ordre",
+    "raison": "Le texte vise directement les agents de police municipale, renommés police territoriale, et élargit leurs pouvoirs de constat par procès-verbal aux contraventions du code de la route et du livre VI du code pénal. Ce sont des policiers, donc ce changement touche leur métier.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000555685,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

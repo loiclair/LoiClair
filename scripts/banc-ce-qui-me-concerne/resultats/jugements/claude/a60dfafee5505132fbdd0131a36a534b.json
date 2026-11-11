@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "outre_mer",
+    "raison": "Le critère de lieu est bien ce qui déclenche la mesure (collectivités des articles 73 et 74 et Nouvelle-Calédonie), mais le texte n'oblige que l'État à élaborer un plan. Un habitant n'en tire aucun droit, aucune obligation ni démarche directe ; il n'est atteint que si l'État met ensuite le plan en œuvre.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000436935,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

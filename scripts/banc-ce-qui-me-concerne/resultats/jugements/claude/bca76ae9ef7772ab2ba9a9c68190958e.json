@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "usager_transports",
+    "raison": "Le dispositif autorisé filme la voie publique depuis des caméras frontales ; le texte n’indique pas que les voyageurs sont filmés. L’information du public ne vise pas spécifiquement les usagers des transports.",
+    "concerne": false,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "secteur_transport",
+    "raison": "Le texte vise directement les opérateurs de transports guidés urbains et prévoit des usages liés à la conduite et à la formation de leur personnel.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0005664,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

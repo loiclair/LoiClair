@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etudiant",
+    "raison": "Le texte vise le co-contractant d'un professionnel de la formation privée, sans le nommer étudiant : il s'agit de tout client du contrat. Le texte ne mentionne ni l'enseignement supérieur ni les étudiants (statut prêté). De plus, la phrase invente la précision « formation supérieure ».",
+    "concerne": false,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "chef_entreprise",
+    "raison": "L'amende et l'interdiction d'exercer l'activité de dirigeant d'un organisme de formation visent directement les dirigeants d'organismes de formation, donc des exploitants d'entreprises, y compris petites. La phrase est fidèle, mais « amende » est administrative, sans condamnation pénale. Le texte parle de « peine complémentaire » et de « sanctions pénales », donc l'écart est mineur. Le conditionnel est respecté.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0034917,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

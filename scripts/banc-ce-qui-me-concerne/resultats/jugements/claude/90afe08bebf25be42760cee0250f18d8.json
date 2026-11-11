@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_industrie",
+    "raison": "L’obligation vise les producteurs d’électricité et leurs offres, pas directement les personnes qui travaillent dans le secteur. Les règles excluent précisément ce type d’obligation technique ou commerciale imposée à l’entreprise.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00023665,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

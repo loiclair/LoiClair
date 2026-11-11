@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "heritier_donateur",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article modifie directement les règles de calcul des droits de succession et de donation, notamment en supprimant l'exception des donations de plus de 15 ans. Cela concerne directement les héritiers et donataires."
+   },
+   {
+    "profil": "epargnant",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "La suppression de la taxation des primes d'assurance-vie versées après 70 ans selon le lien de parenté impacte directement les épargnants détenteurs de tels contrats."
+   }
+  ],
+  "oublis": [
+   "imposable"
+  ]
+ },
+ "cout_usd": 0.0083445
+}

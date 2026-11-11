@@ -1,0 +1,29 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "locataire",
+    "raison": "L'article fixe des loyers de référence et ouvre une action en diminution de loyer si le loyer de base les dépasse : cela touche directement les locataires.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "proprietaire_bailleur",
+    "raison": "Le loyer de base à la conclusion du bail doit respecter le loyer de référence (ou majoré), sous peine d'action en diminution : obligation directe pour les bailleurs.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "meuble_tourisme",
+    "raison": "Le texte étend expressément l'encadrement des loyers aux logements meublés touristiques : les loueurs en courte durée sont visés.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0048937,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

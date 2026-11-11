@@ -1,0 +1,26 @@
+{
+ "jugement": {
+  "oublis": [],
+  "profils": [
+   {
+    "concerne": true,
+    "phrase_fidele": true,
+    "profil": "etranger_hors_ue",
+    "raison": "L'amendement vise directement les étrangers non-européens en ajoutant une condition de résidence d'un an pour les prestations familiales, sauf exceptions."
+   },
+   {
+    "concerne": false,
+    "phrase_fidele": true,
+    "profil": "parent",
+    "raison": "Le texte ne vise pas les parents en tant que tels, mais les étrangers extra‑UE. Le profil 'parent' n'est modifié que de manière indirecte, sans être lui‑même ciblé."
+   },
+   {
+    "concerne": true,
+    "phrase_fidele": true,
+    "profil": "outre_mer",
+    "raison": "La modification de l'ordonnance Mayotte allonge directement un délai de deux à trois ans pour les résidents de Mayotte, qui entrent dans le profil outre‑mer."
+   }
+  ]
+ },
+ "cout_usd": 0.0019474428
+}

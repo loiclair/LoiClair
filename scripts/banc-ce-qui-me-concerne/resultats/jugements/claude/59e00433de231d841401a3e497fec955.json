@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_numerique",
+    "raison": "L'article 6-1 de la LCEN permet à l'autorité administrative de demander aux hébergeurs et éditeurs de retirer les contenus pédopornographiques. En ajoutant « de façon vraisemblable », le texte change les conditions de cette demande de retrait, donc les obligations professionnelles des hébergeurs du numérique.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0020337,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

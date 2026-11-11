@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "heritier_donateur",
+    "raison": "L'amendement prolonge de six mois à toute l'année 2027 la période des dons d'argent en pleine propriété aux descendants ou collatéraux de moins de 50 ans, soumis au taux réduit de 6 %. Il touche directement donateurs et donataires, qui transmettent ou reçoivent un patrimoine par donation.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000423085,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "elu_local",
+    "raison": "Le texte désigne le maire, élu municipal, comme destinataire de l'information préalable sur toute fermeture d'agence dans sa commune. Cela crée un droit à être informé qui le vise directement, en tant qu'élu local.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0019187,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

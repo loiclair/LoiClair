@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "mineur",
+    "raison": "Le texte vise explicitement les infractions commises sur une personne mineure au moment des faits ; un lecteur mineur victime de telles infractions est directement visé.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000426275,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

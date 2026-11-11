@@ -1,0 +1,41 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "concubin",
+    "raison": "Le texte vise les violences commises par le concubin ou l'ancien concubin, mais c'est la relation avec l'auteur ou la victime de violences qui déclenche la mesure, pas le simple fait de vivre en couple. Être concubin n'est pas ce qui déclenche la compétence (règle 7).",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "marie_pacse",
+    "raison": "Le texte cite le conjoint et le partenaire de PACS, mais seulement comme auteur de violences. Le critère déclencheur est l'infraction, pas le statut marital (règle 7).",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "separe_divorce",
+    "raison": "Le texte vise les violences commises par un ancien conjoint, ancien partenaire ou ancien concubin. Une personne séparée ou divorcée victime de telles violences verrait ses procédures portées devant ce juge spécialisé. Le profil est visé par une catégorie qui lui appartient clairement.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "parent",
+    "raison": "Le juge des violences sexistes et sexuelles prendrait la place du juge aux affaires familiales pour fixer l'exercice de l'autorité parentale en cas de violences conjugales ou de violences sur un mineur. Cela change directement la juridiction compétente et les démarches des parents concernés.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "mineur",
+    "raison": "Un mineur victime de violences de la part d'un ascendant est expressément visé à l'art. L. 256-4, 2°. Le juge spécialisé statuerait sur l'autorité parentale le concernant, et il peut aussi être victime d'infractions relevant du tribunal.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0076457,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

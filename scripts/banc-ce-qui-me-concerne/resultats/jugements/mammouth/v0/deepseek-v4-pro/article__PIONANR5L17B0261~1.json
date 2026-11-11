@@ -1,0 +1,26 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etudiant",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'étudiant est directement concerné car le texte modifie les conditions d'attribution des bourses et logements étudiants. La phrase est fidèle."
+   },
+   {
+    "profil": "etranger_ue",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'étudiant ressortissant de l'UE est directement concerné par l'ordre de priorité établi dans le texte. La phrase est fidèle."
+   },
+   {
+    "profil": "etranger_hors_ue",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "Les étudiants hors UE voient leur accès conditionné à l'existence d'un accord international. La phrase est fidèle et n'invente pas de restriction qui ne soit pas dans le texte."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0020215
+}

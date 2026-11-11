@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_agriculture",
+    "raison": "L'amendement porte de 80 % à 100 % le taux du crédit d'impôt couvrant le remplacement des exploitants agricoles en cas de maladie, d'accident du travail ou de formation professionnelle (art. 200 undecies du CGI, alinéa 59). Le texte vise directement les agriculteurs, dont il change l'argent, et l'exposé des motifs parle des agriculteurs victimes d'accident ou de maladie.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000749485,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

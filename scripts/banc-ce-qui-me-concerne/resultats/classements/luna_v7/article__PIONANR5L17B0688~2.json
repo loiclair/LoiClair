@@ -1,0 +1,12 @@
+{
+ "impacts": [
+  {
+   "profil": "fonctionnaire",
+   "phrase_fr": "Ses proches pourraient bénéficier sans délai d’une protection conservatoire lorsque leur intégrité physique est gravement menacée en raison de ses fonctions.",
+   "phrase_en": "Their relatives could receive immediate temporary protection when their physical safety is seriously threatened because of their duties.",
+   "passage": "La protection de la collectivité publique peut être accordée, sans délai et à titre conservatoire, au conjoint, au concubin, au partenaire lié par un pacte civil de solidarité d’un agent public, à ses enfants et à ses ascendants directs, lorsque la collectivité publique est informée, par quelque moyen que ce soit, de l’existence d’un risque manifeste d’atteinte grave à l’intégrité physique de l’une de ces personnes du fait des fonctions exercées par l’agent public.",
+   "certitude": "certain"
+  }
+ ],
+ "cout_usd": 0.000339975
+}

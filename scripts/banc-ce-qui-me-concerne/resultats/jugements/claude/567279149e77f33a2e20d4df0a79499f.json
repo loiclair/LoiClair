@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "salarie_prive",
+    "raison": "La mesure vise les propos ou comportements imposés dans le cadre d’une politique d’entreprise, susceptibles de dégrader les conditions de travail des salariés.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0007779,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

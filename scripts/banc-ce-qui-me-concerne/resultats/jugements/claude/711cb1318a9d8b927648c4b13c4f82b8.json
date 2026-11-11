@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "epargnant",
+    "raison": "Le texte crée un livret d'épargne (livret nouvelle ruralité) que les personnes physiques fiscalement domiciliées en France peuvent ouvrir. Ce produit d'épargne vise directement le profil épargnant, même si l'ouverture reste facultative.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "marie_pacse",
+    "raison": "Le texte précise que les époux ou partenaires de PACS soumis à une imposition commune ont chacun droit à un livret. La condition de couple marié ou pacsé est explicitement visée et déclenche la règle.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00047928500000000003,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "proprietaire_bailleur",
+    "raison": "L'amendement remplace « établies ou contrôlées » par « attestées » pour les raisons qui rendent impossibles les travaux de décence énergétique. Le bailleur qui invoque cette impossibilité pour satisfaire à l'obligation de décence devra donc la justifier par une attestation écrite. La mesure change directement sa preuve.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "locataire",
+    "raison": "L'amendement ne donne aucun droit nouveau au locataire : il change la forme de la justification que doit produire le bailleur. L'avantage pour le locataire, pouvoir réclamer l'attestation, n'apparaît que dans l'exposé des motifs et passe par le bailleur. Le lien est indirect, donc non concerné.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000957885,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

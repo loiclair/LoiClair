@@ -1,0 +1,26 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "salarie_prive",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "Les personnes affiliées au régime général en vertu des articles L. 311-2 et L. 311-3 sont principalement les salariés de droit privé, qui devraient cotiser obligatoirement à ce nouveau fonds à hauteur d'une part salariale maximale de 1 %."
+   },
+   {
+    "profil": "chef_entreprise",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "En tant qu'employeurs, les chefs d'entreprise devraient obligatoirement financer la part patronale de cette nouvelle cotisation pour leurs salariés."
+   },
+   {
+    "profil": "dirigeant_grande_entreprise",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "En tant qu'employeurs, les dirigeants de grandes entreprises devraient obligatoirement financer la part patronale de cette nouvelle cotisation pour leurs salariés."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0066405
+}

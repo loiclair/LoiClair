@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "montagne",
+    "raison": "Le texte vise les communes situées en zone de montagne, qui conserveraient ou retrouveraient les compétences eau et assainissement ; le lieu de vie est le critère déclencheur.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "elu_local",
+    "raison": "Ce sont les communes qui décident par délibération de reprendre les compétences : les conseillers municipaux de ces communes voient leurs pouvoirs et leurs décisions modifiés directement, ce qui vise les élus municipaux.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0031016999999999998,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

@@ -1,0 +1,11 @@
+{
+ "jugement": {
+  "profils": [],
+  "oublis": [
+   "secteur_numerique"
+  ]
+ },
+ "cout_usd": 0.00040211,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

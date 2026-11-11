@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_sante",
+    "raison": "Le texte vise directement les médecins, chirurgiens-dentistes et sages-femmes : il limite les motifs de refus d'autorisation de leur remplacement, ce qui change les règles d'exercice de leur métier.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "independant",
+    "raison": "Le texte parle du « médecin » sans préciser le mode d'exercice ; il ne vise pas les libéraux en particulier. Le profil indépendant n'est pas ce qui déclenche la mesure (règle 7).",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0032637,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

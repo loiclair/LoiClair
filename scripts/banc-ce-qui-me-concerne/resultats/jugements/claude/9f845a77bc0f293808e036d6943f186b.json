@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "locataire",
+    "raison": "Le texte impose au bailleur de fournir au locataire un logement au confort thermique minimal en été et prévoit, à sa demande, des protections solaires et un brasseur d'air, ou à défaut un occultation et un ventilateur mobile. Ces droits visent directement le locataire.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "proprietaire_bailleur",
+    "raison": "L'obligation d'installer des protections solaires, un brasseur d'air ou un dispositif d'occultation et de fournir un ventilateur mobile pèse directement sur le bailleur, qui loue son logement. La phrase omet le ventilateur et présente l'occultation comme une alternative, alors que le bailleur doit fournir les deux dans le cas où l'installation est impossible, mais cela ne constitue pas un fait inventé ou faux.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000445635,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

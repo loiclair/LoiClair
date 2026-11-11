@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etranger_hors_ue",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article modifie directement les taxes pour la délivrance et le renouvellement des titres de séjour, ce qui concerne les étrangers hors UE résidant en France. La phrase est fidèle au texte et décrit correctement les montants (100 à 300 € pour la première délivrance, 50 à 200 € pour le renouvellement)."
+   },
+   {
+    "profil": "etranger_ue",
+    "concerne": true,
+    "phrase_fidele": false,
+    "raison": "L'article concerne aussi les étrangers de l'UE (ex. : articles L. 421-34, L. 422-1 à L. 422-6, etc. du CESEDA), mais l'assistant ne l'a pas inclus. La phrase pour 'etranger_hors_ue' est correcte, mais 'etranger_ue' est également concerné par les mêmes taxes, avec des montants réduits pour certains cas."
+   }
+  ],
+  "oublis": [
+   "etranger_ue"
+  ]
+ },
+ "cout_usd": 0.0109035
+}

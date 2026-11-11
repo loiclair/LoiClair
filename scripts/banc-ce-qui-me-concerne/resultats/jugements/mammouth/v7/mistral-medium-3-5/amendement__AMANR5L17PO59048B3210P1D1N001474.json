@@ -1,0 +1,28 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_agriculture",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'amendement vise explicitement les jeunes agriculteurs associés exploitants dans une société agricole, avec une dérogation fiscale spécifique pour eux. Le passage cité confirme que la mesure s'applique aux contribuables du secteur agricole."
+   },
+   {
+    "profil": "imposable",
+    "concerne": false,
+    "phrase_fidele": false,
+    "raison": "L'amendement ne concerne pas directement les contribuables imposables en général, mais uniquement les jeunes agriculteurs bénéficiaires d'aides à l'installation. La dérogation est ciblée et ne modifie pas les règles générales d'imposition des plus-values pour tous les imposables."
+   },
+   {
+    "profil": "jeune",
+    "concerne": true,
+    "phrase_fidele": false,
+    "raison": "L'amendement mentionne explicitement les 'jeunes agriculteurs' bénéficiaires des aides à l'installation. Le profil 'jeune' est donc concerné car la mesure cible cette catégorie d'âge."
+   }
+  ],
+  "oublis": [
+   "jeune"
+  ]
+ },
+ "cout_usd": 0.008376
+}

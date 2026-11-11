@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "apprenti_alternant",
+    "raison": "L'amendement ajoute la prévention des violences sexuelles et sexistes aux missions des CFA (art. L. 6231-2). L'obligation pèse sur l'organisme de formation, pas sur l'apprenti : l'effet n'atteint l'apprenti que si le CFA agit (effet indirect, règle 1), même si l'exposé des motifs dit viser les apprentis.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0021977,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_artisanat_commerce",
+    "raison": "Le texte prévoit la publication des commissions pour informer directement les commerçants qui acceptent les titres-restaurant, catégorie explicitement visée.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0004989,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

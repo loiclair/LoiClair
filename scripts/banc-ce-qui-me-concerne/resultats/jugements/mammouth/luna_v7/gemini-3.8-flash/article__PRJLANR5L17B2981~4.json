@@ -1,0 +1,14 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "proprietaire_bailleur",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article met en place un régime d'amortissement fiscal sur les revenus fonciers pour les propriétaires acquérant un logement à rénover ou transformé sous condition de le louer nu comme résidence principale."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00713025
+}

@@ -1,0 +1,19 @@
+{
+ "impacts": [
+  {
+   "profil": "imposable",
+   "passage": "lorsqu'une personne physique se prévaut d'une fausse domiciliation fiscale à l'étranger",
+   "certitude": "probable",
+   "phrase_en": "The period during which the tax administration can claim tax from you extends to ten years if you wrongly claim a tax residence abroad.",
+   "phrase_fr": "Le délai pendant lequel l'administration peut vous réclamer un impôt passe à dix ans si vous invoquez à tort un domicile fiscal à l'étranger."
+  },
+  {
+   "profil": "expat",
+   "passage": "lorsqu'une personne physique se prévaut d'une fausse domiciliation fiscale à l'étranger",
+   "certitude": "possible",
+   "phrase_en": "French residents abroad could face a ten-year tax review only if they wrongly claim a foreign tax domicile.",
+   "phrase_fr": "Les Français résidant à l'étranger risquent un contrôle fiscal sur dix ans seulement s'ils invoquent à tort un domicile fiscal à l'étranger."
+  }
+ ],
+ "resume_fr": null
+}

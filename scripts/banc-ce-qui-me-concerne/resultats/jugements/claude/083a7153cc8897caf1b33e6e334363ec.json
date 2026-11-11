@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_industrie",
+    "raison": "Le texte oblige les producteurs d'électricité au-dessus d'un seuil à mettre leur puissance disponible à la disposition du gestionnaire du réseau. C'est une obligation technique et commerciale de l'entreprise qui touche le secteur par ricochet, sans changer la façon d'y exercer le métier. Règle 12 : pas concerné.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000243185,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

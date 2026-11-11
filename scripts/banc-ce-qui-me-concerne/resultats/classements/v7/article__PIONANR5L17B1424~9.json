@@ -1,0 +1,12 @@
+{
+ "impacts": [
+  {
+   "profil": "secteur_sante",
+   "phrase_fr": "Un médecin, dentiste ou sage-femme qui demande un remplacement pourrait s'absenter pour exercer dans un territoire en manque de soins, sans que son remplacement soit refusé sauf motif impérieux.",
+   "phrase_en": "A doctor, dentist or midwife who requests a replacement would be able to leave to work in areas short of care, with the replacement refused only for a compelling reason.",
+   "passage": "Lorsque le médecin qui sollicite le remplacement s’absente pour concourir à l’amélioration de l’accès aux soins dans des territoires caractérisés par une offre de soins insuffisante",
+   "certitude": "certain"
+  }
+ ],
+ "cout_usd": 0.00098891
+}

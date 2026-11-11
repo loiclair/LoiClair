@@ -1,0 +1,26 @@
+{
+ "impacts": [
+  {
+   "profil": "etudiant",
+   "passage": "Le non‑respect des dispositions prévues de l’article L. 224‑103‑1 à L. 224‑103‑7 entraîne la nullité du contrat. Le professionnel rembourse à son co‑contractant le double des sommes qui ont été versées dans le cadre du contrat.",
+   "certitude": "probable",
+   "phrase_en": "A contract signed without following the rules would be cancelled, and the student could get back twice the sums paid.",
+   "phrase_fr": "Un contrat signé sans respecter les règles serait annulé, et l'étudiant pourrait récupérer le double des sommes versées."
+  },
+  {
+   "profil": "secteur_education",
+   "passage": "Tout manquement aux dispositions des articles L. 224‑103‑1 à L. 224‑103‑7 est passible d’une amende administrative dont le montant ne peut excéder 3 000 euros pour une personne physique et 15 000 euros pour une personne morale",
+   "certitude": "probable",
+   "phrase_en": "Private training providers that breach the rules could face an administrative fine of up to 3,000 euros for individuals and 15,000 euros for companies.",
+   "phrase_fr": "Les organismes de formation privés qui ne respectent pas les règles pourraient risquer une amende administrative pouvant atteindre 3 000 euros pour une personne physique et 15 000 euros pour une personne morale."
+  },
+  {
+   "profil": "chef_entreprise",
+   "passage": "peut être assortie, à titre de peine complémentaire, d’une interdiction d’exercer temporairement ou définitivement l’activité de dirigeant d’un organisme de formation professionnelle",
+   "certitude": "possible",
+   "phrase_en": "The head of a training provider found in breach could be banned from that role, temporarily or permanently.",
+   "phrase_fr": "Le dirigeant d'un organisme de formation en infraction pourrait se voir interdire, temporairement ou définitivement, d'exercer cette fonction."
+  }
+ ],
+ "resume_fr": null
+}

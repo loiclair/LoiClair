@@ -1,0 +1,14 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "outre_mer",
+    "concerne": false,
+    "phrase_fidele": true,
+    "raison": "L'article définit uniquement des critères et une méthodologie pour qu'un décret ultérieur détermine les communes d'outre-mer soumises à la taxe sur les logements vacants. Cet effet est indirect, hypothétique et relève d'une mesure de zonage réglementaire, sans impact direct et immédiat sur les habitants."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.008736
+}

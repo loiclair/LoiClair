@@ -1,0 +1,26 @@
+{
+ "impacts": [
+  {
+   "profil": "etranger_hors_ue",
+   "phrase_fr": "Les étrangers hors UE dont le conjoint a une carte de résident obtiendraient une carte pluriannuelle de quatre ans, au lieu d’une carte temporaire plus courte.",
+   "phrase_en": "Non-EU foreigners whose spouse holds a resident card would get a four-year multi-year residence permit instead of a shorter temporary one.",
+   "passage": "Si le conjoint est titulaire d’une carte de résident, l’étranger se voit délivrer une carte de séjour pluriannuelle “vie privée et familiale” d’une durée de quatre ans.",
+   "certitude": "certain"
+  },
+  {
+   "profil": "mineur",
+   "phrase_fr": "Un jeune étranger dont un parent a une carte de résident pourrait obtenir, entre seize et dix-huit ans, une carte pluriannuelle de quatre ans.",
+   "phrase_en": "A young foreigner whose parent holds a resident card would be able to get a four-year multi-year residence permit between sixteen and eighteen.",
+   "passage": "Si l’un des parents au moins est titulaire d’une carte de résident, l’étranger se voit délivrer, dans l’année suivant son dix-huitième anniversaire ou entre ses seize et dix-huit ans",
+   "certitude": "probable"
+  },
+  {
+   "profil": "jeune",
+   "phrase_fr": "Un jeune étranger de 18 ans ou plus, dont un parent a une carte de résident, pourrait obtenir une carte pluriannuelle de quatre ans.",
+   "phrase_en": "A foreigner aged 18 or over, whose parent holds a resident card, could get a four-year multi-year residence permit.",
+   "passage": "Si l’un des parents au moins est titulaire d’une carte de résident, l’étranger se voit délivrer, dans l’année suivant son dix-huitième anniversaire",
+   "certitude": "probable"
+  }
+ ],
+ "cout_usd": 0.00216968
+}

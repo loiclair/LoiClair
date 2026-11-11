@@ -1,0 +1,26 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etranger_hors_ue",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article modifie la condition de séjour pour les prestations familiales et l'APA pour les étrangers hors UE. La phrase décrit correctement le durcissement à deux ans et est au conditionnel."
+   },
+   {
+    "profil": "age_dependant",
+    "concerne": false,
+    "phrase_fidele": true,
+    "raison": "L'article ajoute une condition de séjour pour l'allocation personnalisée d'autonomie (APA) pour les étrangers non ressortissants de l'UE. La phrase décrit correctement ce changement pour une personne qui voudrait bénéficier de l'APA, mais le profil « age_dependant » n'est pas concerné car le changement ne vise que les étrangers hors UE parmi les personnes âgées dépendantes, et non les personnes âgées dépendantes en général."
+   },
+   {
+    "profil": "parent",
+    "concerne": false,
+    "phrase_fidele": true,
+    "raison": "L'article durcit l'accès aux prestations familiales pour les étrangers hors UE. La phrase décrit correctement l'impact sur les parents étrangers hors UE. Mais le profil « parent » n'est pas concerné car le changement ne porte que sur les parents étrangers hors UE, pas sur les parents en général."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.003133
+}

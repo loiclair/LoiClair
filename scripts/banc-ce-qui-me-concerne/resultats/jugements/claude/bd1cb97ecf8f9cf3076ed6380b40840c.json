@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "animal",
+    "raison": "Le texte prévoit des taux réduits pour la livraison d’équidés vivants et pour des services liés à leur exploitation ou à la pratique de l’équitation. Les personnes qui ont un cheval peuvent être directement concernées par ces achats et prestations.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "chef_entreprise",
+    "raison": "Les entreprises qui exploitent un centre équestre ou fournissent les prestations visées appliqueraient le taux de TVA prévu pour ces services. Cela peut concerner les dirigeants de petites ou moyennes entreprises de ce type.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.001207275,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

@@ -1,0 +1,25 @@
+{
+ "jugement": {
+  "oublis": [
+   "marie_pacse",
+   "concubin",
+   "separe_divorce",
+   "fonctionnaire"
+  ],
+  "profils": [
+   {
+    "concerne": true,
+    "phrase_fidele": true,
+    "profil": "mineur",
+    "raison": "Le texte cite explicitement « un mineur victime de violences ». La phrase explique correctement, au conditionnel, la nouvelle compétence du juge spécialisé pour l'autorité parentale, conformément à l’article L. 256‑4, 2°."
+   },
+   {
+    "concerne": true,
+    "phrase_fidele": true,
+    "profil": "parent",
+    "raison": "L’article L. 256‑4 transfère au juge des violences sexistes et sexuelles les modalités d’exercice de l’autorité parentale dans les cas de violences intrafamiliales. La phrase décrit correctement cette conséquence pour les parents concernés, au conditionnel, sans inventer de fait."
+   }
+  ]
+ },
+ "cout_usd": 0.0024080208
+}

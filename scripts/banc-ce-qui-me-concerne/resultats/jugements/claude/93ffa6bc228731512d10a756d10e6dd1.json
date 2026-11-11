@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_sante",
+    "raison": "Le texte prévoit directement que le secret médical n’est pas opposable lorsque des données sont recueillies par l’intermédiaire d’un professionnel de santé.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "etranger_hors_ue",
+    "raison": "Les demandeurs et bénéficiaires de l’AME et des soins urgents comprennent des étrangers hors UE, dont la nationalité et les pathologies figurent parmi les données recueillies. Mais le texte ne vise pas tous les étrangers hors UE.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.001018025,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

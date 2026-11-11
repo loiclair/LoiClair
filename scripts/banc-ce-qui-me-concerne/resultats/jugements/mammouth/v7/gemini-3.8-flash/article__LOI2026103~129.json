@@ -1,0 +1,20 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etranger_hors_ue",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article révise directement à la hausse les taxes perçues pour la délivrance et le renouvellement des titres de séjour des ressortissants étrangers."
+   },
+   {
+    "profil": "automobiliste",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article instaure ou modifie une taxe applicable lors du remplacement d'un permis de conduire détérioré ou non présenté (25 €) et lors de l'échange d'un permis étranger (40 €)."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.009135
+}

@@ -1,0 +1,29 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "veuf",
+    "raison": "Le dispositif vise les veuves de combattants : l'élargissement de la demi-part fiscale (art. 195 CGI) joue parce que la personne est veuve, et une veuve dont le mari détenait un titre de reconnaissance de la Nation est directement concernée. Le profil veuf (personne veuve) englobe ce sous-groupe.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "ancien_combattant",
+    "raison": "Le critère déclencheur est le statut du mari (carte du combattant ou titre de reconnaissance de la Nation). La veuve est un membre de la famille de l'ancien combattant, que le catalogue inclut dans ce profil. L'avantage fiscal lui revient directement.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "imposable",
+    "raison": "La demi-part supplémentaire réduit l'impôt sur le revenu des veuves concernées qui paient cet impôt. La mesure change donc directement leur impôt, pour les foyers imposables.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.001361535,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

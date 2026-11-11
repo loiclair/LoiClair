@@ -1,0 +1,34 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etudiant",
+    "raison": "Le texte vise explicitement les locataires qui justifient suivre des études supérieures et leur ouvre l’accès à un bail mobilité dans une résidence à vocation d’emploi.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "apprenti_alternant",
+    "raison": "Le texte vise les personnes en formation professionnelle, en contrat d’apprentissage ou en stage, qui relèvent de ce profil.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "benevole",
+    "raison": "Le texte vise les personnes en engagement volontaire dans le cadre d’un service civique, incluses dans la définition de ce profil.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "locataire",
+    "raison": "Le texte fixe directement les conditions du bail mobilité pour les locataires d’une résidence à vocation d’emploi, sous réserve de remplir les critères d’éligibilité prévus.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.001199775,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

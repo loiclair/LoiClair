@@ -1,0 +1,24 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "montagne",
+    "concerne": false,
+    "phrase_fidele": true,
+    "raison": "L'article insère une disposition dans la section du code de l'urbanisme dédiée à la montagne (articles L. 122). Le texte parle de 'protection de l'environnement montagnard' et renvoie aux règles des unités touristiques nouvelles qui s'appliquent en zone de montagne. Cependant, la dispense bénéficie au porteur de projet (et non à l'habitant), et un porteur de projet n'est pas nécessairement un habitant. L'effet pour l'habitant de la montagne est un effet sur son cadre de vie, ce qui est trop indirect selon la consigne qui exige un changement direct pour la personne de ce profil."
+   },
+   {
+    "profil": "secteur_hotellerie",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article vise explicitement les 'opération[s] de création ou d’extension d’un hébergement touristique'. Une personne travaillant dans l'hôtellerie, la restauration ou le tourisme est directement concernée par une simplification des procédures pour créer ou agrandir un hébergement touristique. La phrase dit que la dispense 'pourrait' être accordée, ce qui correspond bien au conditionnel requis pour une proposition de loi. La phrase est courte, claire et exacte."
+   }
+  ],
+  "oublis": [
+   "projet_achat",
+   "meuble_tourisme",
+   "elu_local"
+  ]
+ },
+ "cout_usd": 0.0024869
+}

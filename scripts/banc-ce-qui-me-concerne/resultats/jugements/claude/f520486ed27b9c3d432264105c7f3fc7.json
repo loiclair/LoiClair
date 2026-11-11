@@ -1,0 +1,18 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "fonctionnaire",
+    "raison": "La protection de leurs proches est expressément déclenchée par les fonctions exercées par l’agent public ; le statut de fonctionnaire vise donc la mesure.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "forces_ordre"
+  ]
+ },
+ "cout_usd": 0.001357275,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

@@ -1,0 +1,24 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "heritier_donateur",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article modifie les règles d'acquisition des biens sans maître, y compris pour les successions non partagées depuis 2007, ce qui impacte directement les héritiers ou donataires concernés par ces successions."
+   },
+   {
+    "profil": "elu_local",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "Le texte permet explicitement aux maires ou présidents d'EPCI de demander des informations fiscales pour engager une procédure d'acquisition, ce qui les concerne directement."
+   }
+  ],
+  "oublis": [
+   "proprietaire_occupant",
+   "proprietaire_bailleur",
+   "coproprietaire"
+  ]
+ },
+ "cout_usd": 0.007455
+}

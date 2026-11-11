@@ -1,0 +1,19 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "chef_entreprise",
+    "raison": "L'amendement permet à une entreprise exclue des stages et de l'apprentissage de demander à l'inspecteur du travail l'autorisation d'en accueillir à nouveau. Cela vise directement l'employeur, donc le dirigeant de PME. Le texte ne précise pas la taille de l'entreprise, mais ce profil est inclus.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": [
+   "dirigeant_grande_entreprise"
+  ]
+ },
+ "cout_usd": 0.0031566999999999997,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

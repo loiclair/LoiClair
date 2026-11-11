@@ -1,0 +1,28 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "cycliste",
+    "raison": "La vitesse maximale des trottinettes à assistance électrique est fixée à 20 km/h ; le profil inclut les usagers de trottinette.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "mineur",
+    "raison": "L’âge minimal de 14 ans vise directement les conducteurs mineurs de moins de 14 ans, qui font partie de ce profil.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "parent",
+    "raison": "Le texte vise les conducteurs selon leur âge, pas les parents en tant que tels.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00049915,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

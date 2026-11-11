@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_agriculture",
+    "raison": "Le texte interdit ces pratiques à toute personne dans les zones marines visées ; les pêcheurs professionnels relèvent du secteur agriculture, qui inclut la pêche.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "chasseur_pecheur",
+    "raison": "L’interdiction vise « toute personne » qui pratique la pêche dans les zones concernées, y compris les pêcheurs de loisir.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000400275,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

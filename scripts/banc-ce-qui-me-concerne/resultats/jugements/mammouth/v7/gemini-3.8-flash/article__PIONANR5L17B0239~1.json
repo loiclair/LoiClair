@@ -1,0 +1,26 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "salarie_prive",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article institue un régime obligatoire d'acquisition de droits à retraite pour les salariés relevant du régime général (articles L. 311-2 et L. 311-3 du code de la sécurité sociale), avec une cotisation salariale prélevée sur la rémunération."
+   },
+   {
+    "profil": "chef_entreprise",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "En tant qu'employeurs de salariés relevant du régime général, les chefs d'entreprise seraient redevables d'une cotisation patronale pouvant aller jusqu'à 1 % de la rémunération."
+   },
+   {
+    "profil": "dirigeant_grande_entreprise",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "En tant qu'employeurs, les dirigeants de grandes entreprises seraient soumis à l'obligation de s'acquitter de la part patronale de ces nouvelles cotisations."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00829575
+}

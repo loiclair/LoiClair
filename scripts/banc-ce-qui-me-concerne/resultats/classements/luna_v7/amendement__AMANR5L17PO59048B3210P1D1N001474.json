@@ -1,0 +1,12 @@
+{
+ "resume_fr": "Modifierait le calcul des plus-values pour certains jeunes agriculteurs associés exploitants bénéficiaires d’aides à l’installation.",
+ "resume_en": "Would change the calculation of capital gains for certain young farmer partners who receive installation assistance.",
+ "impacts": [
+  {
+   "profil": "secteur_agriculture",
+   "passage": "Lorsque le contribuable devient associé exploitant au sein d’une société exerçant une activité agricole depuis moins de vingt-quatre mois à la date de la cession générant une plus-value, et qu’il justifie de l’octroi des aides à l’installation des jeunes agriculteurs mentionnées au I de l’article 73 B",
+   "certitude": "certain"
+  }
+ ],
+ "cout_usd": 0.0002861
+}

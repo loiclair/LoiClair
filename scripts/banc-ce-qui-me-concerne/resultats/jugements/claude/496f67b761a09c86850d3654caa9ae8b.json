@@ -1,0 +1,28 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "mineur",
+    "raison": "Le texte vise expressément l’embauche et l’emploi des moins de treize ans, avec des avis conformes préalables en entreprise de cinéma.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "parent",
+    "raison": "L’emploi d’un mineur de moins de treize ans est subordonné à la présence de l’un de ses représentants légaux lors de l’embauche, pendant le contrat et, le cas échéant, à certains événements liés à celui-ci.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "secteur_culture",
+    "raison": "La mesure vise directement l’embauche de mineurs dans les entreprises de cinéma et encadre les conditions de cette activité de production audiovisuelle.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000585775,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

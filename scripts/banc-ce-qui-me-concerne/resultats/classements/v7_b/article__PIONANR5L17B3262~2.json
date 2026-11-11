@@ -1,0 +1,19 @@
+{
+ "impacts": [
+  {
+   "profil": "proprietaire_occupant",
+   "phrase_fr": "Les propriétaires de leur logement pourraient obtenir la prise en charge de travaux de réparation ou de stabilisation après des dégâts liés aux argiles, à condition d'avoir une assurance habitation.",
+   "phrase_en": "Homeowners living in their property would be able to get the fund to pay for repairs or stabilisation after clay-shrinkage damage, provided they hold home insurance.",
+   "passage": "sous réserve que le propriétaire ait souscrit une assurance multirisque habitation",
+   "certitude": "probable"
+  },
+  {
+   "profil": "proprietaire_bailleur",
+   "phrase_fr": "Les propriétaires qui louent leur bien pourraient aussi voir le fonds financer des travaux de stabilisation ou de réparation liés aux argiles.",
+   "phrase_en": "Landlords could also see the fund finance stabilisation or repair works linked to clay shrinkage on their property.",
+   "passage": "le Fonds peut prendre en charge ou cofinancer les travaux nécessaires à sa stabilisation et à sa sécurisation.",
+   "certitude": "possible"
+  }
+ ],
+ "cout_usd": 0.00119251
+}

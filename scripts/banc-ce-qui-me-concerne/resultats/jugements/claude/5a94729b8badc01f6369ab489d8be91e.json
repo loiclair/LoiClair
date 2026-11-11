@@ -1,0 +1,19 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "salarie_prive",
+    "raison": "L'amendement restreint le déblocage exceptionnel aux sommes de participation et d'intéressement affectées avant le 1er janvier 2026 ; cela change directement ce que peut débloquer un salarié d'entreprise privée, bénéficiaire de ces dispositifs.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "epargnant"
+  ]
+ },
+ "cout_usd": 0.0039087,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

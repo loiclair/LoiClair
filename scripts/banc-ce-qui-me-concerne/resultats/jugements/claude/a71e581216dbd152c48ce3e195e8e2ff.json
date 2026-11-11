@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_numerique",
+    "raison": "L'article modifie l'article 6-1 de la LCEN, qui oblige les hébergeurs à retirer les contenus illicites signalés. Ajouter « de façon vraisemblable » abaisse le seuil de retrait, ce qui change directement les obligations de retrait des hébergeurs, activité du secteur numérique. La règle s'applique aux hébergeurs eux-mêmes et non par ricochet.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000255685,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

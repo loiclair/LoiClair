@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "pompier_volontaire",
+    "raison": "Le texte vise explicitement les sapeurs-pompiers volontaires exposés dans le cadre de leurs fonctions et prévoit une fiche d’exposition pour eux.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00023815,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

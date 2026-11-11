@@ -1,0 +1,18 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "chef_entreprise",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'amendement modifie directement les règles pour les employeurs (dont les chefs d'entreprise) concernant l'emploi de mineurs dans des travaux réglementés : le silence de l'administration vaudrait désormais rejet. Le passage cité est exact et la phrase est fidèle au texte."
+   }
+  ],
+  "oublis": [
+   "parent",
+   "mineur",
+   "jeune"
+  ]
+ },
+ "cout_usd": 0.006369
+}

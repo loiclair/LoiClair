@@ -1,0 +1,25 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "residence_secondaire",
+    "raison": "L'article 1407 ter modifié permet au conseil municipal de majorer de 5 % à 60 % la taxe d'habitation sur les résidences secondaires : le propriétaire d'un logement qu'il n'habite pas à titre principal est directement visé.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "meuble_tourisme",
+    "raison": "Le texte définit la vacance par une occupation inférieure à 90 jours, sans viser la location meublée de courte durée. Un loueur de meublé de tourisme n'est pas désigné, et un logement loué n'est pas par nature vacant. La taxe sur les logements vacants vise les propriétaires de logements inoccupés, pas ce profil.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": [
+   "proprietaire_bailleur"
+  ]
+ },
+ "cout_usd": 0.0034717,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

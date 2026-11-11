@@ -1,0 +1,14 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "heritier_donateur",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'amendement change directement la période d'application d'un régime fiscal avantageux pour les donations. Une personne qui transmet (donateur) ou reçoit (donataire) un patrimoine est donc bien visée. La phrase décrit correctement le mécanisme (extension de la fenêtre) au conditionnel, sans rien inventer."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0021433
+}

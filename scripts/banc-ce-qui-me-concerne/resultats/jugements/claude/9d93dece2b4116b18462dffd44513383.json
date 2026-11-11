@@ -1,0 +1,47 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "imposable",
+    "raison": "Le texte institue une contribution à la charge des contribuables, dont le montant (de 10 à 350 €) dépend du revenu fiscal de référence, et la recouvre selon les règles de l'impôt sur le revenu. Un foyer imposable serait directement touché.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "outre_mer",
+    "raison": "Le 2° fixe pour la Martinique, la Guadeloupe, la Réunion, la Guyane et Mayotte des seuils de revenus différents pour le dégrèvement, et le 5° fait de même pour les demandeurs d'emploi. Le lieu de vie déclenche donc des montants propres.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "handicap",
+    "raison": "Le 2° vise les titulaires de l'AAH, et les 3° et 6° visent les personnes atteintes d'une infirmité ou d'une invalidité qui les empêche de subvenir par leur travail à leurs besoins. Ces dégrèvements ciblent directement les personnes en situation de handicap.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "retraite",
+    "raison": "Le 1° vise les titulaires de l'allocation de solidarité aux personnes âgées (ASPA), minimum vieillesse versé à des personnes déjà retraitées, qui seraient dégrevées de la contribution.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "senior",
+    "raison": "Le 4° vise les contribuables âgés de plus de 60 ans, soit un sous-groupe du profil senior (55 ans ou plus), sous condition de revenus et s'ils ne sont pas passibles de l'IFI.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "veuf",
+    "raison": "Le 4° vise nommément les veuves et veufs dont les revenus n'excèdent pas le seuil du 2°, ce qui correspond directement à la définition du profil veuf.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.001762085,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

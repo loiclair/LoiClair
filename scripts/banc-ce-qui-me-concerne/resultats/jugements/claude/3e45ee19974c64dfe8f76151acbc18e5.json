@@ -1,0 +1,32 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "salarie_prive",
+    "raison": "Le régime vise les personnes relevant des articles L. 311-2 et L. 311-3, et les salariés supportent une part des cotisations.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "chef_entreprise",
+    "raison": "Les employeurs doivent payer la moitié des cotisations dues pour les salariés concernés, dans la limite du taux global de 2 %.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "dirigeant_grande_entreprise",
+    "raison": "Les employeurs doivent payer la moitié des cotisations dues pour les salariés concernés, dans la limite du taux global de 2 %.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "cdd_interim",
+   "apprenti_alternant",
+   "particulier_employeur"
+  ]
+ },
+ "cout_usd": 0.001256525,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

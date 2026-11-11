@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "imposable",
+    "raison": "La mesure étend aux organismes d'aide aux victimes de violences domestiques la réduction d'impôt sur les dons (art. 200 CGI). Elle change donc directement l'impôt sur le revenu de celui qui donne et paie l'impôt, ce qui le vise en tant que foyer imposable.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000446135,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

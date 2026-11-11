@@ -1,0 +1,26 @@
+{
+ "impacts": [
+  {
+   "profil": "proprietaire_bailleur",
+   "passage": "de louer le logement nu à titre de résidence principale",
+   "certitude": "certain",
+   "phrase_en": "Would let landlords deduct depreciation on a home bought with works, if rented unfurnished as a main residence.",
+   "phrase_fr": "Pourrait permettre aux bailleurs de déduire l’amortissement d’un logement acheté avec travaux, à condition de le louer nu comme résidence principale."
+  },
+  {
+   "profil": "imposable",
+   "passage": "une déduction au titre de l’amortissement du prix d’acquisition du logement net de frais",
+   "certitude": "probable",
+   "phrase_en": "Could lower the taxable rental income of those who buy a home needing works to rent it out.",
+   "phrase_fr": "Pourrait réduire les revenus imposables de ceux qui achètent un logement avec travaux pour le louer."
+  },
+  {
+   "profil": "projet_achat",
+   "passage": "Pour les logements situés en France que le contribuable acquiert, qui font ou ont fait l’objet de travaux",
+   "certitude": "probable",
+   "phrase_en": "Could open a deduction to those buying a home or premises to convert, if works cost at least 20% of the price.",
+   "phrase_fr": "Pourrait ouvrir une déduction à ceux qui achètent un logement ou local à transformer, si les travaux représentent au moins 20 % du prix."
+  }
+ ],
+ "resume_fr": null
+}

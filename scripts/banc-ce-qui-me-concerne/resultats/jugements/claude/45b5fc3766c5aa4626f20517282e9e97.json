@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_culture",
+    "raison": "Le texte présume que les publications inscrites à la CPPAP sont des publications de presse au sens des droits voisins, et ouvre une saisine de l'Arcom aux éditeurs et agences. Il touche le statut des publications et les droits des entreprises de presse, pas la façon d'exercer le métier de journaliste ou d'auteur : effet indirect, donc pas concerné.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000371685,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

@@ -1,0 +1,20 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "montagne",
+    "concerne": false,
+    "phrase_fidele": true,
+    "raison": "La mesure concerne les porteurs de projets d'hébergement touristique et non les habitants d'une commune de montagne en général dans leur vie quotidienne, leurs droits ou leurs obligations."
+   },
+   {
+    "profil": "secteur_hotellerie",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "La dispense potentielle de la procédure d'unité touristique nouvelle locale allège directement les démarches administratives pour les professionnels créant ou agrandissant un hébergement touristique."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.008037
+}

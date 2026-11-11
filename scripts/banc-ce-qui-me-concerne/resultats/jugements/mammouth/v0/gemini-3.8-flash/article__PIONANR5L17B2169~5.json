@@ -1,0 +1,38 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "mineur",
+    "concerne": false,
+    "phrase_fidele": true,
+    "raison": "L'article relève de l'organisation judiciaire (création et compétence de juridictions spécialisées). Il n'a pas d'effet direct sur le quotidien des mineurs en général, mais vise une situation pénale et procédurale hypothétique."
+   },
+   {
+    "profil": "parent",
+    "concerne": false,
+    "phrase_fidele": true,
+    "raison": "Il s'agit d'une réforme institutionnelle attribuant le contentieux au juge des violences sexistes et sexuelles plutôt qu'au JAF en cas d'infraction, ce qui ne concerne pas les parents de manière directe et générale."
+   },
+   {
+    "profil": "separe_divorce",
+    "concerne": false,
+    "phrase_fidele": true,
+    "raison": "L'article organise les compétences des tribunaux. De plus, il vise indifféremment les conjoints actuels, concubins, pacsés et anciens partenaires : une règle qui s'applique quelle que soit la situation de couple ne retient aucun profil du groupe."
+   },
+   {
+    "profil": "concubin",
+    "concerne": false,
+    "phrase_fidele": true,
+    "raison": "Mesure d'organisation de la justice pénale. En outre, le texte visant l'ensemble des statuts de couple (mariés, pacsés, concubins, anciens partenaires), aucun profil de couple à réponse unique ne doit être sélectionné."
+   },
+   {
+    "profil": "marie_pacse",
+    "concerne": false,
+    "phrase_fidele": true,
+    "raison": "La création de tribunaux spécialisés est une mesure d'organisation institutionnelle. De plus, elle couvre toutes les formes d'union ou de rupture conjugale, sans viser spécifiquement ce statut."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0142725
+}

@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "oublis": [
+   "elu_local"
+  ],
+  "profils": [
+   {
+    "concerne": true,
+    "phrase_fidele": true,
+    "profil": "heritier_donateur",
+    "raison": "Le passage cité applique le nouveau délai de 15 ans aux successions non partagées ouvertes depuis 2007, donc un héritier défaillant pourrait perdre son bien plus vite. La phrase est au conditionnel, ne contient pas d'élément inventé et décrit correctement l'effet."
+   }
+  ]
+ },
+ "cout_usd": 0.0016969524
+}

@@ -1,0 +1,26 @@
+{
+ "impacts": [
+  {
+   "profil": "secteur_education",
+   "phrase_fr": "Les règles disciplinaires des établissements d'enseignement agricole changent : le ministre pourra suspendre un membre du personnel pour un an au maximum, sans perte de traitement.",
+   "phrase_en": "Disciplinary rules in agricultural teaching institutions change: the minister could suspend a staff member for up to one year, without loss of pay.",
+   "passage": "Le ministre chargé de l'agriculture peut prononcer la suspension d'un membre du personnel de l'enseignement supérieur agricole public pour une durée qui n'excède pas un an, sans privation de traitement.",
+   "certitude": "certain"
+  },
+  {
+   "profil": "fonctionnaire",
+   "phrase_fr": "Les agents de l'enseignement supérieur agricole public pourront être suspendus un an au maximum par le ministre, sans privation de traitement.",
+   "phrase_en": "Public agricultural higher education staff can be suspended by the minister for up to one year, without loss of pay.",
+   "passage": "Le ministre chargé de l'agriculture peut prononcer la suspension d'un membre du personnel de l'enseignement supérieur agricole public pour une durée qui n'excède pas un an, sans privation de traitement.",
+   "certitude": "probable"
+  },
+  {
+   "profil": "etudiant",
+   "phrase_fr": "Les étudiants ne siègent plus dans la section disciplinaire de leur établissement agricole, qui ne comprend désormais que des enseignants.",
+   "phrase_en": "Students no longer sit on their agricultural institution's disciplinary section, which now includes only teachers.",
+   "passage": "Au premier alinéa, les mots : «, enseignants et usagers » sont remplacés par les mots : « et des enseignants »",
+   "certitude": "probable"
+  }
+ ],
+ "cout_usd": 0.00125995
+}

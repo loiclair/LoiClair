@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "malade_chronique",
+    "raison": "Le droit vise directement les salariés atteints d’algie vasculaire de la face, une maladie chronique ; les personnes concernées par cette pathologie font partie de ce profil.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "salarie_prive",
+    "raison": "Le texte accorde ce droit aux salariés, sans exclure ceux du secteur privé ; il prévoit l’absence d’ancienneté et de préavis ainsi qu’une notification à l’employeur.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00065615,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

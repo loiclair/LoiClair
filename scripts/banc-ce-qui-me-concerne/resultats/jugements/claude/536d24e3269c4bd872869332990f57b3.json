@@ -1,0 +1,20 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "apprenti_alternant",
+    "raison": "L'amendement vise l'entreprise (« une entreprise concernée par le présent alinéa »), que l'inspecteur du travail pourrait autoriser à conclure une convention de stage ou un contrat d'apprentissage. L'apprenti ou le stagiaire n'est touché qu'indirectement, si l'entreprise recourt à cette autorisation. Il ne voit aucun de ses droits ou obligations changer directement.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "chef_entreprise",
+   "dirigeant_grande_entreprise"
+  ]
+ },
+ "cout_usd": 0.0053917,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

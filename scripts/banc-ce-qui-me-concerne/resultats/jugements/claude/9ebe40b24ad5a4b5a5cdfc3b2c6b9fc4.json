@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "expat",
+    "raison": "Le texte vise directement les contribuables sans résidence fiscale en France et prévoit de comparer certaines de leurs recettes à des revenus de même nature imposés dans leur État de résidence ; cela peut concerner les Français établis à l’étranger.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000440025,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

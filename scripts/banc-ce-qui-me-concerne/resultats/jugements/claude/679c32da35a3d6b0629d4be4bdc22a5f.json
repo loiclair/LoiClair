@@ -1,0 +1,29 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "animal",
+    "raison": "Le texte vise directement les équidés vivants : leurs livraisons et les prestations de préparation, d'entraînement, de location et de pension passent au taux réduit de TVA. Le propriétaire d'un cheval paie ces prestations, donc son coût change. Le mot « entretien » de la phrase n'est pas dans le texte, mais le sens reste fidèle.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "secteur_agriculture",
+    "raison": "Les livraisons d'équidés vivants sont des ventes faites par les éleveurs, et l'élevage relève de l'agriculture au sens du catalogue. Le taux de TVA sur leurs ventes change. Le texte ne nomme pas l'agriculture, mais la mesure touche directement l'élevage équin.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "chef_entreprise",
+    "raison": "La mesure modifie le taux de TVA applicable aux livraisons et prestations des professionnels qui vendent ou prennent en charge des chevaux. Ces professionnels sont souvent dirigeants de très petites ou petites entreprises, ce qui touche directement leur chiffre d'affaires et leurs prix.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0013334850000000001,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "proprietaire_bailleur",
+    "raison": "L'article modifie la déduction d'amortissement que le contribuable peut appliquer à ses revenus lorsqu'il acquiert un logement à rénover et s'engage à le louer nu comme résidence principale. Le texte vise directement l'investisseur qui loue, et l'effet fiscal change pour lui.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000526985,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

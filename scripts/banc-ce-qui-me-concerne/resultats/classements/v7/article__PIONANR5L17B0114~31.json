@@ -1,0 +1,26 @@
+{
+ "impacts": [
+  {
+   "profil": "animal",
+   "phrase_fr": "Les achats de chevaux, la pension, la location et les cours d'équitation pourraient être soumis à un taux de TVA réduit.",
+   "phrase_en": "Horse sales, boarding, rental and riding lessons would be taxed at a reduced VAT rate.",
+   "passage": "Les livraisons d’équidés vivants et les prestations de service relatives à leur exploitation, à savoir la préparation et l’entraînement, la location et la prise en pension",
+   "certitude": "certain"
+  },
+  {
+   "profil": "chef_entreprise",
+   "phrase_fr": "Les centres d'équitation et entraîneurs pourraient appliquer un taux de TVA réduit à leurs prestations.",
+   "phrase_en": "Riding centres and trainers would be able to apply a reduced VAT rate to their services.",
+   "passage": "Les prestations fournies en vue de la pratique de l’équitation.",
+   "certitude": "probable"
+  },
+  {
+   "profil": "secteur_agriculture",
+   "phrase_fr": "Les professionnels de l'élevage et de l'entraînement équin pourraient voir leur TVA réduite sur leurs activités.",
+   "phrase_en": "Equine breeders and trainers could see reduced VAT on their activities.",
+   "passage": "Les livraisons d’équidés vivants et les prestations de service relatives à leur exploitation, à savoir la préparation et l’entraînement, la location et la prise en pension",
+   "certitude": "possible"
+  }
+ ],
+ "cout_usd": 0.00114951
+}

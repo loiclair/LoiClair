@@ -1,0 +1,33 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "salarie_prive",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "Le régime s’applique aux personnes visées par les articles L. 311‑2 et L. 311‑3 du code de la sécurité sociale, ce qui inclut potentiellement les salariés du secteur privé. Le résumé décrit correctement l’obligation de cotisation et son partage. Le conditionnel est bien employé car le texte n’est pas adopté."
+   },
+   {
+    "profil": "chef_entreprise",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "Le régime prévoit une part de cotisation à la charge de l’employeur (« les employeurs »). Un chef d’entreprise employant des salariés est directement visé par cette charge nouvelle. Le résumé est conforme."
+   },
+   {
+    "profil": "dirigeant_grande_entreprise",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "La distinction entre type d’employeur n’est pas faite dans l’article. « Les employeurs » inclut donc aussi bien les dirigeants de PME que ceux de grandes entreprises. Le résumé est conforme à l’obligation créée."
+   }
+  ],
+  "oublis": [
+   "fonctionnaire",
+   "salarie_particulier",
+   "travailleur_plateforme",
+   "apprenti_alternant",
+   "cdd_interim",
+   "travailleur_frontalier"
+  ]
+ },
+ "cout_usd": 0.001961
+}

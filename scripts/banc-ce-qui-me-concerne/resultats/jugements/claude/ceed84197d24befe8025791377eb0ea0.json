@@ -1,0 +1,32 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_sante",
+    "raison": "L'article étend la suspension par l'ARS à tout professionnel de santé mis en examen en lien avec son activité : cela change les règles d'exercice du métier dans le secteur de la santé.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "independant",
+    "raison": "Le texte vise « tout professionnel de santé » et tout lieu de soins « à quelque titre que ce soit », ce qui inclut les professionnels libéraux (médecins, infirmiers, kinésithérapeutes en libéral), même si le mot libéral n'apparaît pas. Un indépendant de santé est directement visé par la suspension et l'interdiction d'exercer.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "etudiant",
+    "raison": "Le 3° du IV vise expressément les élèves et étudiants des établissements préparant aux professions de santé, soumis à la mesure de suspension. Les étudiants de l'enseignement supérieur en santé sont donc directement visés.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "salarie_prive",
+   "fonctionnaire"
+  ]
+ },
+ "cout_usd": 0.0044357,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "heritier_donateur",
+    "raison": "L’article 755 étend un régime fiscal lié aux avoirs non déclarés, mais le texte ne vise pas les personnes parce qu’elles transmettent ou reçoivent un patrimoine par donation ou succession. Ce profil ne convient donc pas.",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "epargnant",
+    "raison": "Le texte vise directement les actifs numériques détenus dans des portefeuilles qui auraient dû être déclarés et prévoit une majoration liée à ces actifs. Les cryptoactifs entrent dans ce profil.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.001386525,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

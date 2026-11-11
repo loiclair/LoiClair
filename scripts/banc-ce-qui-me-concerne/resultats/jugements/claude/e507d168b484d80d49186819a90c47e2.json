@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "cycliste",
+    "raison": "Le texte fixe directement la vitesse maximale des trottinettes à assistance électrique, utilisées par une partie des personnes couvertes par ce profil.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "mineur",
+    "raison": "L’âge minimal de quatorze ans vise directement les moins de quatorze ans, qui sont un sous-groupe des mineurs.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0004424,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

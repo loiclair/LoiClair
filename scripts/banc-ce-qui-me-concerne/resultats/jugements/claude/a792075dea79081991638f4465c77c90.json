@@ -1,0 +1,29 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "animal",
+    "raison": "Le texte baisse la TVA sur les prestations d'entraînement, de pension et de location d'équidés, et sur l'équitation. Un propriétaire de cheval paie ces prestations et est donc visé.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "secteur_agriculture",
+    "raison": "Les livraisons d'équidés vivants et les prestations liées à leur exploitation (entraînement, pension, location) changent de taux de TVA. Cela touche l'élevage équin et les activités d'exploitation des chevaux.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "chef_entreprise",
+    "raison": "Les exploitants de centres équestres, de pensions et d'écuries, qui sont des entreprises, facturent ces opérations avec un taux de TVA modifié. C'est une règle d'exploitation de leur activité.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0057447,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

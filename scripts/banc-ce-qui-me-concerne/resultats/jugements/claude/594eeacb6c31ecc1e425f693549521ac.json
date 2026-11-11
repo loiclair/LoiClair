@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "projet_achat",
+    "raison": "La taxe de 0,10 % est due à chaque mutation à titre onéreux d'un bien situé dans une commune littorale, donc par l'acheteur qui acquiert un bien là-bas. Le fait générateur est l'achat lui-même, ce qui vise directement la personne qui cherche à acheter. La phrase de l'assistant est exacte et son conditionnel (« serait ») convient à un texte non adopté.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "littoral",
+    "raison": "Le texte ne vise que les communes littorales (art. L. 321-2 du code de l'environnement), et la taxe ne s'applique que si le bien est situé dans une telle commune. Le lieu déclenche donc la mesure. La phrase de l'assistant est fidèle et conditionnelle, sans fait inventé.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000606235,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

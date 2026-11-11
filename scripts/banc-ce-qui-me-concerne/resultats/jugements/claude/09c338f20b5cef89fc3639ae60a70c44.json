@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_sante",
+    "raison": "L'article vise directement les professionnels de santé par leur métier : suspension possible après une mise en examen liée à l'exercice, interdiction d'exercer pour ceux qui ne relèvent pas d'un ordre, information de l'ARS. La mesure change les obligations professionnelles de ce secteur. La phrase de l'assistant reste fidèle, au conditionnel, même si « infraction » est une formulation approximative pour une mise en examen.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "etudiant",
+    "raison": "Le 3° vise nommément les élèves et étudiants des établissements préparant aux professions de santé, qui deviennent concernés par la suspension. Les étudiants de l'enseignement supérieur en santé sont couverts. La phrase de l'assistant reprend fidèlement ce mécanisme, au conditionnel.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000998335,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

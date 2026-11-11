@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "alsace_moselle",
+    "raison": "L’article 24 modifié concerne expressément le cadastre de la Moselle, du Bas-Rhin et du Haut-Rhin et prévoit que ses alinéas 1 et 2 ne font pas obstacle à l’application d’un titre du code civil.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000585775,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

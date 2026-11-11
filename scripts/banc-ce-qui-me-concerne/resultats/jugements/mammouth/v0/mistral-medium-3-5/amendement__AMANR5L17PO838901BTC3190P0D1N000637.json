@@ -1,0 +1,25 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "outre_mer",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'amendement impose explicitement à l'État d'élaborer un plan territorial dans les collectivités d'outre-mer (articles 73 et 74) et en Nouvelle-Calédonie, ce qui concerne directement les habitants de ces territoires."
+   },
+   {
+    "profil": "mineur",
+    "concerne": false,
+    "phrase_fidele": false,
+    "raison": "L'amendement ne crée pas d'obligation directe pour les mineurs eux-mêmes, mais pour l'État. Les mineurs sont les bénéficiaires indirects du plan, mais le profil 'mineur' n'est pas visé par une mesure qui change ses droits, obligations ou démarches. La phrase proposée est infidèle car elle suggère une obligation pour les mineurs, ce qui est incorrect."
+   }
+  ],
+  "oublis": [
+   "parent",
+   "parent_isole",
+   "famille_nombreuse",
+   "futur_parent"
+  ]
+ },
+ "cout_usd": 0.0074745
+}

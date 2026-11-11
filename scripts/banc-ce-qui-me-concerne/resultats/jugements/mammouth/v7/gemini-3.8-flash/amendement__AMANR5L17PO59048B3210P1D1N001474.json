@@ -1,0 +1,20 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_agriculture",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "La mesure modifie directement le régime fiscal des plus-values professionnelles pour les associés exploitants de sociétés agricoles bénéficiant des aides à l'installation des jeunes agriculteurs."
+   },
+   {
+    "profil": "imposable",
+    "concerne": false,
+    "phrase_fidele": true,
+    "raison": "La mesure ne vise pas les contribuables imposables en général, mais cible spécifiquement une catégorie professionnelle très précise (les exploitants agricoles associés s'installant en société)."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00860325
+}

@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "patrimoine_ifi",
+    "raison": "La contribution sur les hauts patrimoines vise les foyers dont le patrimoine net dépasse 5 millions d'euros, soit des foyers à fort patrimoine proches de l'IFI. Le texte désigne cette catégorie par son niveau de patrimoine. La phrase est fidèle, sauf que le taux de 0,5 % s'applique à la fraction entre 5 et 100 millions, et non au patrimoine total.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "parent",
+    "raison": "Le texte intègre les biens des enfants mineurs dans l'assiette des parents qui en ont l'administration légale, ce qui vise les parents d'enfants mineurs. Mais seuls les foyers dépassant 5 millions d'euros sont taxés. La phrase omet ce seuil et laisse penser que tout parent est visé, ce qui est trompeur.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0033916999999999997,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

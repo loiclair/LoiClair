@@ -1,0 +1,14 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "epargnant",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article crée des obligations déclaratives et des sanctions fiscales pour les actifs numériques. Le profil 'épargnant' couvre les personnes qui investissent, y compris dans ce type d'actifs. Le changement est direct et concret sur leurs obligations déclaratives et les sanctions encourues."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0011181
+}

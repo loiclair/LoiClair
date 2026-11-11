@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "mineur",
+    "raison": "L'article vise directement les mineurs victimes de prostitution ou d'exploitation sexuelle : repérage, orientation et accès garanti à un hébergement adapté, non mixte et sécurisé.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0019137,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

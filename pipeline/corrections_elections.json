@@ -1,0 +1,16 @@
+{
+  "corrections": [
+    {
+      "election": "SEN2026", "circonscription": "33", "nom": "BOST", "prenom": "Chistine",
+      "prenom_corrige": "Christine",
+      "source_url": "https://www.senat.fr/senateur/bost_christine21710p.html",
+      "source_nom": "Sénat"
+    },
+    {
+      "election": "LEG2024", "circonscription": "987-03", "nom": "REID ABERLOT", "prenom": "Mereana",
+      "nom_corrige": "REID ARBELOT",
+      "source_url": "https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA795240",
+      "source_nom": "Assemblée nationale"
+    }
+  ]
+}

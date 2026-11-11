@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "marie_pacse",
+    "raison": "Le dispositif ajoute les articles 227‑4‑2 et 227‑4‑3 à la définition des violences sexuelles et sexistes de l’article 222‑22 A, pas à celle des violences intrafamiliales. Le statut marital ne déclenche donc pas une mesure qui le concerne directement.",
+    "concerne": false,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "separe_divorce",
+    "raison": "Le dispositif ajoute les articles 227‑4‑2 et 227‑4‑3 à la définition des violences sexuelles et sexistes de l’article 222‑22 A, pas à celle des violences intrafamiliales. Le fait d’être séparé ou divorcé ne déclenche donc pas une mesure qui le concerne directement.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000406025,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

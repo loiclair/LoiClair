@@ -1,0 +1,12 @@
+{
+ "resume_fr": "Remplacerait « établies ou contrôlées » par « attestées » dans le quatrième alinéa, pour la preuve des raisons empêchant les travaux de décence énergétique.",
+ "resume_en": "Would replace \"established or verified\" with \"attested\" in the fourth paragraph, for proving the reasons that prevent energy decency works.",
+ "impacts": [
+  {
+   "profil": "proprietaire_bailleur",
+   "passage": "Au quatrième alinéa, substituer aux mots : « établies ou contrôlées » le mot : « attestées ».",
+   "certitude": "probable"
+  }
+ ],
+ "cout_usd": 0.00097127
+}

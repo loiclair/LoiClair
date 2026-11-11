@@ -1,0 +1,47 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "handicap",
+    "raison": "Le texte ouvre à la personne handicapée ou à son représentant légal une évaluation limitée à la reconnaissance travailleur handicapé et à la carte mobilité inclusion, sans plan personnalisé de compensation. Le profil est le déclencheur direct.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "age_dependant",
+    "raison": "Le II de l'article L. 241-3 vise les bénéficiaires de l'allocation prévue à l'article L. 232-1 du CASF, c'est-à-dire l'APA, qui reçoivent la carte mobilité inclusion à titre définitif sur la seule décision d'attribution. La phrase de l'assistant reflète ce passage avec le conditionnel.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "senior",
+    "raison": "L'âge de 60 ans ou plus ne sert de condition qu'à la personne handicapée qui demande l'évaluation. Le sous-groupe visé (handicapés au-delà d'un seuil d'âge) n'est pas contenu dans la catégorie des 55 ans et plus. La phrase de l'assistant omet la condition de handicap et laisse croire à un droit général pour les personnes âgées de 60 ans ou plus.",
+    "concerne": false,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "automobiliste",
+    "raison": "La carte mobilité inclusion avec mention stationnement est accordée selon le classement en groupes de la grille AGGIR, c'est-à-dire la perte d'autonomie. La possession ou l'utilisation d'un véhicule n'est pas le critère, donc le profil n'est pas le déclencheur de la mesure.",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "mineur",
+    "raison": "Le texte supprime, dans l'article L. 241-3 (IV bis), les mots qui limitaient la carte mobilité inclusion destinée à un mineur aux cas de maladie, de handicap ou d'accident d'une particulière gravité. Les règles d'attribution de la carte pour les moins de 18 ans changent directement.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "parent",
+    "raison": "Le texte vise la personne handicapée et son représentant légal, qui peut être un parent, un tuteur ou un autre représentant. Il ne mentionne ni parents ni enfants, et le profil parent n'est pas le critère déclencheur. La phrase de l'assistant est exacte mais présente la mesure comme propre aux parents.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.002159585,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

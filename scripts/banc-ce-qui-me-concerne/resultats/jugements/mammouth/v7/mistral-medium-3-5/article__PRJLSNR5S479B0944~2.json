@@ -1,0 +1,14 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "chef_entreprise",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article vise explicitement l'employeur (ici, le chef d'entreprise) qui commet une violation des règles d'égalité salariale envers plusieurs personnes, avec une sanction pénale directe (2 ans de prison et 7 500 € d'amende). Le passage cité est exact et la phrase reflète fidèlement le texte, avec le conditionnel adapté à l'étape du texte."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0063855
+}

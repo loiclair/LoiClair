@@ -1,0 +1,19 @@
+{
+ "impacts": [
+  {
+   "profil": "heritier_donateur",
+   "passage": "L'article 784 est ainsi modifié : a) Au deuxième alinéa, les mots : « à l'exception de celles passées depuis plus de quinze ans » sont remplacés par les mots : « quel que soit le donateur ou le défunt » ;",
+   "certitude": "certain",
+   "phrase_en": "Gifts made more than fifteen years ago would count when calculating duties, whatever the donor or deceased person.",
+   "phrase_fr": "Les donations datant de plus de quinze ans seraient prises en compte pour calculer les droits, quel que soit le donateur ou le défunt."
+  },
+  {
+   "profil": "epargnant",
+   "passage": "fin du premier alinéa, les mots : « suivant le degré de parenté existant entre le bénéficiaire à titre gratuit et l'assuré à concurrence de la fraction des primes versées après l'âge de soixante-dix ans » sont supprimés",
+   "certitude": "certain",
+   "phrase_en": "Life insurance premiums paid after age 70 would no longer be taxed according to the beneficiary's family relationship.",
+   "phrase_fr": "Les primes d'assurance-vie versées après 70 ans ne seraient plus taxées selon le lien de parenté avec le bénéficiaire."
+  }
+ ],
+ "resume_fr": null
+}

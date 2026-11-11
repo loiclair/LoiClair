@@ -1,0 +1,13 @@
+{
+ "jugement": {
+  "profils": [],
+  "oublis": [
+   "etudiant",
+   "secteur_education"
+  ]
+ },
+ "cout_usd": 0.0043267,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

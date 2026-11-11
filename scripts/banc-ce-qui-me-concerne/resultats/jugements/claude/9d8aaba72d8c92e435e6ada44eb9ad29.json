@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "parent",
+    "raison": "Le texte vise les relations familiales (conjoint, ascendant, descendant, enfant) et rattache à ces relations le non-versement de pension alimentaire (227-3, 227-4), qui concerne directement les parents débiteurs ou créanciers d'une pension. Les infractions économiques ajoutées s'appliqueraient donc aux parents dans ce cadre familial.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000966135,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

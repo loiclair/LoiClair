@@ -1,0 +1,34 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etudiant",
+    "raison": "Le texte vise expressément les locataires qui suivent des études supérieures et prévoit pour eux la location dans une résidence à vocation d’emploi.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "apprenti_alternant",
+    "raison": "Le texte vise les personnes en contrat d’apprentissage, en formation professionnelle ou en stage, qui appartiennent à ce profil.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "benevole",
+    "raison": "Le texte vise expressément les personnes en engagement volontaire dans le cadre d’un service civique, incluses dans ce profil.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "locataire",
+    "raison": "Le texte fixe le régime du bail et des loyers pour les locataires d’une résidence à vocation d’emploi. Toutefois, les plafonds de loyers ne concernent qu’au moins 80 % des logements.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000853025,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "mineur",
+    "raison": "Le texte vise directement les mineurs victimes de prostitution ou d'exploitation sexuelle : il demande de veiller à leur repérage et à leur orientation et de leur garantir, le cas échéant, un hébergement adapté, non mixte et sécurisé. C'est une mission confiée à l'aide sociale à l'enfance, donc l'effet passe par ce service, mais le texte désigne les mineurs comme bénéficiaires.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000354935,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

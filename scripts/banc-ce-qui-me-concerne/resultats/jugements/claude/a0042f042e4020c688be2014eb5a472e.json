@@ -1,0 +1,37 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etudiant",
+    "raison": "Le texte vise nommément les locataires justifiant suivre des études supérieures : ils peuvent accéder à ces résidences et à ce bail mobilité.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "apprenti_alternant",
+    "raison": "Le texte cite les personnes en contrat d'apprentissage, en formation professionnelle et en stage parmi les locataires éligibles, ce qui correspond au profil apprenti, alternant ou stagiaire.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "benevole",
+    "raison": "Le texte cite les personnes en engagement volontaire de service civique parmi les locataires éligibles ; le profil bénévole inclut les volontaires en service civique.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "locataire",
+    "raison": "Les locataires de ces résidences sont soumis à un bail mobilité d'une semaine à dix-huit mois, avec conditions de ressources et plafonds de loyers pour 80 % des logements.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "jeune"
+  ]
+ },
+ "cout_usd": 0.0047777,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

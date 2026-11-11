@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_agriculture",
+    "raison": "Le secteur agriculture inclut la pêche et le secteur maritime. L'interdiction des pratiques d'attraction des poissons change directement la façon dont les pêcheurs professionnels exercent leur métier.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "chasseur_pecheur",
+    "raison": "L'interdiction vise « toute personne », donc aussi les pêcheurs de loisir en mer, qui ne pourraient plus utiliser appâts concentrés, déversements ou lumières attractives.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0028377,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

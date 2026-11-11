@@ -1,0 +1,12 @@
+{
+ "impacts": [
+  {
+   "profil": "secteur_transport",
+   "phrase_fr": "Les professionnels du transport maritime pourraient bénéficier d’un avantage fiscal pour l’installation d’équipements neufs de propulsion vélique produits en France.",
+   "phrase_en": "Maritime transport professionals could benefit from a tax advantage for installing new wind-propulsion equipment made in France.",
+   "passage": "pour les navires et les bateaux de transport de marchandises ou de passagers ainsi que les navires spéciaux qui sont affectés à leur activité",
+   "certitude": "certain"
+  }
+ ],
+ "cout_usd": 0.00035535
+}

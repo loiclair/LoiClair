@@ -1,0 +1,14 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "jeune",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'élément recule la limite d'âge de 21 à 25 ans, ce qui concerne directement les jeunes de 18 à 25 ans en modifiant un droit à un accompagnement."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0012168
+}

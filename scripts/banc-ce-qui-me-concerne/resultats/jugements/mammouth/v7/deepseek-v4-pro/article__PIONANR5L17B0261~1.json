@@ -1,0 +1,25 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etudiant",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article modifie le système de bourses étudiantes. La condition de nationalité change l'ordre de priorité pour tous les étudiants, ce qui affecte directement leurs chances d'obtenir une aide. La phrase utilise bien le conditionnel (« seraient ») car le texte est une proposition de loi."
+   },
+   {
+    "profil": "etranger_hors_ue",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "Le texte instaure un ordre de priorité explicite. Les étudiants non-européens sont placés après les Français et les Européens dans cet ordre, ce qui les désavantage directement sauf s'ils viennent d'un pays avec un accord d'accueil. La phrase est fidèle et utilise le conditionnel (« passeraient »)."
+   }
+  ],
+  "oublis": [
+   "etranger_ue",
+   "allocataire",
+   "jeune",
+   "mineur"
+  ]
+ },
+ "cout_usd": 0.0019799
+}

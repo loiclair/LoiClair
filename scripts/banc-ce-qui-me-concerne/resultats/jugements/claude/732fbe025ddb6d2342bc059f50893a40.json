@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_artisanat_commerce",
+    "raison": "L'élément ne crée aucune obligation pour les commerçants : il impose aux émetteurs de titres-restaurant de publier leurs commissions, selon des modalités renvoyées à un décret. Le commerçant n'en tire qu'une information, sans changement de ses tarifs, de ses obligations ni de la façon d'exercer son métier. L'effet passe par les émetteurs, donc il est indirect.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000641635,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

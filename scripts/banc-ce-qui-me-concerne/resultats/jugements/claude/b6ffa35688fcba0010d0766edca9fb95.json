@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "heritier_donateur",
+    "raison": "Le texte réforme les droits de succession et de donation (abattements, barème, rappel fiscal des donations) : il vise directement ceux qui transmettent ou reçoivent un patrimoine.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "epargnant",
+    "raison": "L'article 757 B modifie la taxation des primes d'assurance-vie versées après 70 ans, ce qui touche directement les titulaires de contrats d'assurance-vie, donc des épargnants.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0038017,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

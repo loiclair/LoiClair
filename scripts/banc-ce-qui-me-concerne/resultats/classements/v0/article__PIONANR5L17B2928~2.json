@@ -1,0 +1,19 @@
+{
+ "impacts": [
+  {
+   "profil": "secteur_culture",
+   "passage": "Les publications de presse et les services de presse en ligne inscrits à la commission paritaire des publications et agences de presse sont, sauf preuve contraire, présumés constituer une publication de presse au sens du présent I.",
+   "certitude": "probable",
+   "phrase_en": "Press publications and online press services registered with the paritary commission would be presumed to be press publications unless proven otherwise, which would frame access to neighbouring rights.",
+   "phrase_fr": "Les publications et services de presse en ligne inscrits à la commission paritaire seraient présumés publications de presse, sauf preuve contraire, ce qui encadrerait l'accès aux droits voisins."
+  },
+  {
+   "profil": "chef_entreprise",
+   "passage": "L’Autorité de régulation de la communication audiovisuelle et numérique peut être saisie pour avis par un éditeur de presse, une agence de presse ou par un service de communication au public en ligne",
+   "certitude": "possible",
+   "phrase_en": "Press publishers, press agencies and online services would be able to ask ARCOM for an opinion on whether their publications count as press.",
+   "phrase_fr": "Les éditeurs de presse, agences de presse et services en ligne pourraient saisir l'Arcom pour avis sur l'identification de leurs publications."
+  }
+ ],
+ "resume_fr": null
+}

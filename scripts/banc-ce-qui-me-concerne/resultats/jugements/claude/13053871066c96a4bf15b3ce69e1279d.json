@@ -1,0 +1,29 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etranger_hors_ue",
+    "raison": "Le dispositif de l'amendement AS1122 n'est pas publié et l'exposé non plus. Seul le contexte de l'article 37 est connu, donc on ne sait pas ce que l'amendement change. Aucun passage ne vise ce profil.",
+    "concerne": false,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "parent",
+    "raison": "Le dispositif de l'amendement n'est pas publié, donc rien ne montre qu'il vise les parents. Le contenu décrit vient de l'article 37 et non de l'amendement.",
+    "concerne": false,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "outre_mer",
+    "raison": "Le dispositif de l'amendement n'est pas publié. La mention de Mayotte figure dans l'article visé, pas dans un texte de l'amendement. Rien ne permet d'affirmer que l'amendement modifie ce point.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0054237,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

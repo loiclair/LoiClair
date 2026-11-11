@@ -1,0 +1,75 @@
+{
+ "impacts": [
+  {
+   "profil": "benevole",
+   "phrase_fr": "Les bénévoles qui encadrent une activité sportive ou interviennent auprès d’élèves devraient détenir un certificat d’honorabilité pour l’enfance.",
+   "phrase_en": "Volunteers who supervise sports activities or work with pupils would need a certificate of honorability for children.",
+   "passage": "La détention du certificat d’honorabilité pour l’enfance est exigée pour tout encadrant d’activité sportive auprès de mineurs, y compris bénévole, saisonnier, prestataire ou intervenant occasionnel.",
+   "certitude": "certain"
+  },
+  {
+   "profil": "etudiant",
+   "phrase_fr": "Les étudiants intervenant auprès de mineurs dans des structures de santé devraient détenir un certificat d’honorabilité pour l’enfance.",
+   "phrase_en": "Students working with minors in health structures would need a certificate of honorability for children.",
+   "passage": "Elle s’applique également aux étudiants, stagiaires, volontaires et bénévoles intervenant auprès de mineurs dans ces structures.",
+   "certitude": "certain"
+  },
+  {
+   "profil": "apprenti_alternant",
+   "phrase_fr": "Les stagiaires intervenant auprès de mineurs dans des structures de santé devraient détenir un certificat d’honorabilité pour l’enfance.",
+   "phrase_en": "Trainees working with minors in health structures would need a certificate of honorability for children.",
+   "passage": "Elle s’applique également aux étudiants, stagiaires, volontaires et bénévoles intervenant auprès de mineurs dans ces structures.",
+   "certitude": "certain"
+  },
+  {
+   "profil": "salarie_particulier",
+   "phrase_fr": "Les assistants maternels devraient détenir un certificat d’honorabilité pour l’enfance pour obtenir et garder leur agrément.",
+   "phrase_en": "Childminders would need a certificate of honorability for children to obtain and keep their approval.",
+   "passage": "L’obtention et le maintien de l’agrément d’assistant maternel sont subordonnés à la détention d’un certificat d’honorabilité pour l’enfance.",
+   "certitude": "certain"
+  },
+  {
+   "profil": "particulier_employeur",
+   "phrase_fr": "Les particuliers employeurs devraient vérifier que leurs salariés à domicile détiennent un certificat d’honorabilité pour l’enfance avant de les embaucher.",
+   "phrase_en": "Private employers would need to check that their home employees hold a certificate of honorability for children before hiring them.",
+   "passage": "L’employeur vérifie préalablement à l’embauche ou à l’affectation la détention du certificat d’honorabilité pour l’enfance lorsque des salariés, y compris ceux employés par un particulier employeur",
+   "certitude": "certain"
+  },
+  {
+   "profil": "chef_entreprise",
+   "phrase_fr": "Les employeurs devraient vérifier, avant l’embauche ou l’affectation, que les salariés intervenant auprès de mineurs détiennent un certificat d’honorabilité pour l’enfance.",
+   "phrase_en": "Employers would need to check, before hiring or assigning staff, that employees working with minors hold a certificate of honorability for children.",
+   "passage": "L’employeur vérifie préalablement à l’embauche ou à l’affectation la détention du certificat d’honorabilité pour l’enfance lorsque des salariés, y compris ceux employés par un particulier employeur",
+   "certitude": "certain"
+  },
+  {
+   "profil": "dirigeant_grande_entreprise",
+   "phrase_fr": "Les employeurs de grandes entreprises devraient vérifier, avant l’embauche ou l’affectation, que les salariés intervenant auprès de mineurs détiennent un certificat d’honorabilité pour l’enfance.",
+   "phrase_en": "Employers of large companies would need to check, before hiring or assigning staff, that employees working with minors hold a certificate of honorability for children.",
+   "passage": "L’employeur vérifie préalablement à l’embauche ou à l’affectation la détention du certificat d’honorabilité pour l’enfance lorsque des salariés, y compris ceux employés par un particulier employeur",
+   "certitude": "certain"
+  },
+  {
+   "profil": "salarie_prive",
+   "phrase_fr": "Les salariés intervenant auprès de mineurs devraient détenir un certificat d’honorabilité pour l’enfance, que leur employeur vérifierait avant l’embauche.",
+   "phrase_en": "Employees working with minors would need a certificate of honorability for children, which their employer would check before hiring.",
+   "passage": "L’employeur vérifie préalablement à l’embauche ou à l’affectation la détention du certificat d’honorabilité pour l’enfance lorsque des salariés",
+   "certitude": "probable"
+  },
+  {
+   "profil": "secteur_sante",
+   "phrase_fr": "Les professionnels de santé et les personnes travaillant dans les structures de santé auprès de mineurs devraient détenir un certificat d’honorabilité pour l’enfance.",
+   "phrase_en": "Health professionals and staff in health structures working with minors would need a certificate of honorability for children.",
+   "passage": "L’exercice, à titre libéral, salarié, bénévole, occasionnel ou en qualité de remplaçant, de toute activité de prévention, de diagnostic, de soins",
+   "certitude": "certain"
+  },
+  {
+   "profil": "independant",
+   "phrase_fr": "Les professionnels de santé exerçant à titre libéral auprès de mineurs devraient détenir un certificat d’honorabilité pour l’enfance.",
+   "phrase_en": "Self-employed health professionals working with minors would need a certificate of honorability for children.",
+   "passage": "L’exercice, à titre libéral, salarié, bénévole, occasionnel ou en qualité de remplaçant, de toute activité de prévention, de diagnostic, de soins",
+   "certitude": "certain"
+  }
+ ],
+ "cout_usd": 0.00302511
+}

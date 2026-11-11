@@ -1,0 +1,26 @@
+{
+ "impacts": [
+  {
+   "profil": "fonctionnaire",
+   "phrase_fr": "Les accompagnants d'élèves en situation de handicap deviendraient fonctionnaires de catégorie B, après un stage d'un an accompagné d'une formation.",
+   "phrase_en": "School disability assistants would become category B civil servants, after a one-year probationary period with training.",
+   "passage": "intègrent le corps des accompagnants des élèves en situation de handicap qui est classé dans la catégorie B prévue à l'article L. 411-2 du code général de la fonction publique,",
+   "certitude": "certain"
+  },
+  {
+   "profil": "secteur_education",
+   "phrase_fr": "Les personnes qui accompagnent les élèves en situation de handicap seraient recrutées par concours et intégrées dans un corps de la fonction publique.",
+   "phrase_en": "People who support pupils with disabilities would be recruited by competitive exam and placed in a civil service corps.",
+   "passage": "Les accompagnants des élèves en situation de handicap sont recrutés par concours,",
+   "certitude": "certain"
+  },
+  {
+   "profil": "cdd_interim",
+   "phrase_fr": "Les accompagnants non titulaires qui ne remplissent pas les conditions se verraient proposer un CDI, aux mêmes salaire et temps de travail que les fonctionnaires.",
+   "phrase_en": "Non-permanent assistants who do not meet the conditions would be offered a permanent contract, on the same pay and hours as civil servants.",
+   "passage": "Ceux de ces agents qui ne remplissent pas les conditions posées par les articles L. 321-1 à L. 312-3 du code général de la fonction publique se voient proposer un contrat de travail à durée indéterminée",
+   "certitude": "probable"
+  }
+ ],
+ "cout_usd": 0.00132695
+}

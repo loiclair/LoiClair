@@ -1,0 +1,20 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "veuf",
+    "raison": "Le texte vise le conjoint survivant du fonctionnaire ou militaire décédé : majoration et maintien d'un an dans le logement de fonction. C'est la situation de veuvage. La phrase respecte le conditionnel et reste fidèle au texte.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "fonctionnaire",
+   "forces_ordre"
+  ]
+ },
+ "cout_usd": 0.0022757,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

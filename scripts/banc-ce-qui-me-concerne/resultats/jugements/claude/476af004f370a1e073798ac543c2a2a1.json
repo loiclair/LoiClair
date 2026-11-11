@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_numerique",
+    "raison": "Le texte vise les opérateurs de certains systèmes d’IA à haut risque associés à des équipements mentionnés à l’article L. 34-9, sans désigner les professionnels du numérique comme secteur.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000554525,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

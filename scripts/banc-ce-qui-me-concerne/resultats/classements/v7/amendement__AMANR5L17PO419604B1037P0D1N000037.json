@@ -1,0 +1,17 @@
+{
+ "resume_fr": "Supprimerait le troisième alinéa de l'article 4, qui permettrait à l'administration de retirer la protection fonctionnelle d'un agent victime en cas de faute personnelle.",
+ "resume_en": "Would delete the third paragraph of Article 4, which would let the administration withdraw an injured agent's protection in case of personal fault.",
+ "impacts": [
+  {
+   "profil": "secteur_education",
+   "passage": "",
+   "certitude": "certain"
+  },
+  {
+   "profil": "fonctionnaire",
+   "passage": "",
+   "certitude": "probable"
+  }
+ ],
+ "cout_usd": 0.00118247
+}

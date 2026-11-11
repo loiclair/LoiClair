@@ -1,0 +1,1156 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-ibm-plex-sans);
+  --font-mono: var(--font-geist-mono);
+  --color-sidebar-ring: var(--sidebar-ring);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar: var(--sidebar);
+  --color-chart-5: var(--chart-5);
+  --color-chart-4: var(--chart-4);
+  --color-chart-3: var(--chart-3);
+  --color-chart-2: var(--chart-2);
+  --color-chart-1: var(--chart-1);
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+  --color-gold: var(--gold);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --radius-2xl: calc(var(--radius) + 8px);
+  --radius-3xl: calc(var(--radius) + 12px);
+  --radius-4xl: calc(var(--radius) + 16px);
+}
+
+/* Smooth theme transition via View Transitions API */
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation-duration: 0.25s;
+  animation-timing-function: ease-in-out;
+}
+
+/* When sidebar is visible, container fills available width (desktop only) */
+@media (min-width: 1024px) {
+  main[data-has-sidebar] .container {
+    padding-left: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    max-width: none !important;
+  }
+}
+
+:root {
+  /* Hauteur de l'en-tête fixe : ses 4,5 rem plus son filet de 6 px (`TopNav.tsx`).
+     Sert de marge aux ancres, pour qu'une section ne s'arrête pas sous l'en-tête. */
+  --hauteur-entete: 78px;
+  --radius: 0.625rem;
+  --gold: oklch(0.73 0.12 80); /* Or Doux #D4A54A */
+  --background: oklch(1 0 0);
+  --foreground: oklch(0.22 0.01 75); /* Brun Profond #1C1917 */
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.37 0.01 60); /* Texte #44403C */
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.37 0.01 60); /* Texte #44403C */
+  --primary: oklch(0.71 0.15 195); /* Teal LoiClair #06B6D4 */
+  --primary-foreground: oklch(0.985 0 0);
+  --secondary: oklch(0.97 0.005 80); /* Gris Chaud #F7F5F2 */
+  --secondary-foreground: oklch(0.22 0.01 75); /* Brun Profond */
+  --muted: oklch(0.97 0.005 80); /* Gris Chaud #F7F5F2 */
+
+  --muted-foreground: oklch(0.7 0.01 75); /* Texte Léger #A8A29E */
+  --accent: oklch(0.97 0.005 80); /* Gris Chaud #F7F5F2 */
+  --accent-foreground: oklch(0.22 0.01 75); /* Brun Profond */
+  --destructive: oklch(0.577 0.245 27.325);
+  --border: oklch(0.94 0.005 80); /* Séparateur #F0EDEA */
+  --input: oklch(0.94 0.005 80); /* Séparateur #F0EDEA */
+  --ring: oklch(0.71 0.15 195); /* Teal LoiClair */
+  --chart-1: oklch(0.71 0.15 195); /* Teal */
+  --chart-2: oklch(0.73 0.12 80); /* Or Doux */
+  --chart-3: oklch(0.55 0.1 195); /* Teal foncé */
+  --chart-4: oklch(0.7 0.01 75); /* Gris chaud */
+  --chart-5: oklch(0.6 0.08 160); /* Teal-gris */
+  --sidebar: oklch(0.985 0.003 80); /* Blanc chaud */
+  --sidebar-foreground: oklch(0.22 0.01 75); /* Brun Profond */
+  --sidebar-primary: oklch(0.22 0.01 75); /* Brun Profond */
+  --sidebar-primary-foreground: oklch(0.985 0 0);
+  --sidebar-accent: oklch(0.97 0.005 80); /* Gris Chaud */
+  --sidebar-accent-foreground: oklch(0.22 0.01 75); /* Brun Profond */
+  --sidebar-border: oklch(0.94 0.005 80); /* Séparateur */
+  --sidebar-ring: oklch(0.71 0.15 195); /* Teal */
+  /* Surtitres du tiroir de « Ce qui me concerne » : teal plus sombre que le teal vif
+     des liens du site ; les petits liens du tiroir, eux, passent en gris. */
+  --surtitre: oklch(0.52 0.09 200);
+  /* Case du logo Lc (`LogoLc`) : le teal sombre, 5,3:1 sur le blanc ; le teal vif
+     des liens n'y tient que 2,4:1, sous le seuil de 3:1 d'un élément graphique. */
+  --logo: var(--surtitre);
+  /* Couleurs des éléments (`ui/Element`, `lib/elements.ts`) : une par rubrique,
+     comme des éléments chimiques différents. Toutes prises dans la palette
+     apolitique de BRAND_ID (teal, ardoise, taupe, brun, or, prune, violet, rose
+     ancien) : ni bleu, ni rouge, ni vert, ni jaune, ni orange. Distinctes aussi des
+     `--grad-*`, qui codent les types d'événements du Fil d'actu. Toutes portent du
+     texte blanc à 4,5:1 au moins, recalculé à chaque changement. */
+  --element-fil: #0E6468;
+  --element-textes: #3D7478;
+  --element-activite: #85650C;
+  --element-etat-des-lieux: #4D5357;
+  --element-elus: #6B5B4E;
+  --element-contact: #8A4A5E;
+  --element-pour-moi: #7A4B32;
+  --element-chiffres: #6D3A5D;
+  --element-processus: #5A4275;
+  --element-glossaire: #776538;
+  --element-quiz: #7D4F80;
+  --element-ia: #5E5A66;
+  /* Nl a la même couleur dans les deux thèmes : sa case est posée sur la carte
+     sombre fixe de /newsletter, où #57534E ne tenait que 2:1. */
+  --element-newsletter: #75726E;
+  --element-bilingue: #7E5E6E;
+  --element-modele: #46606A;
+  --element-prompts: #6E5B7B;
+  --element-conformite: #563E57;
+  --element-nous-aider: #80594F;
+  --element-corrections: #695F52;
+  --element-mentions: #5A473B;
+  --element-vie-privee: #665660;
+  /* Remplissage des lignes du bloc élection de la fiche élu (D-298) : turquoise pâle
+     pour la personne de la fiche, gris pâle pour les autres, jamais une couleur de
+     parti. Assez pâles pour que le texte posé dessus garde son contraste. */
+  --election-fond-moi: oklch(0.95 0.03 195);
+  --election-fond-autre: oklch(0.965 0.004 80);
+
+  /* /Month poster gradients (Instagram-like) — pastel doux */
+  --grad-pro:  linear-gradient(135deg, #ECFBF2 0%, #D9F4E5 55%, #C7ECD6 100%);
+  --grad-dec:  linear-gradient(135deg, #F3E9FF 0%, #E6D8F7 55%, #DCCBF0 100%);
+  --grad-nav:  linear-gradient(135deg, #F3F1ED 0%, #E4E0DA 55%, #D2CDC4 100%);
+  --grad-text: linear-gradient(135deg, #E4F4FA 0%, #D0EBF4 55%, #C0E2EE 100%);
+  --grad-rep:  linear-gradient(135deg, #EEF1F5 0%, #DCE2EA 55%, #CBD3DE 100%);
+  --grad-mot:  linear-gradient(135deg, #FDECE5 0%, #F8D6CA 55%, #F4C5B6 100%);
+  --grad-law:  linear-gradient(135deg, #FBF2D0 0%, #F6E5A9 55%, #EFDA93 100%);
+  --grad-decr: linear-gradient(135deg, #F4E6C7 0%, #E6D0A5 55%, #DBC08F 100%);
+  --grad-amb:  linear-gradient(135deg, #FDEFCE 0%, #F9DFA7 55%, #F2D18F 100%);
+  --grad-neutral: linear-gradient(135deg, #F3F1ED 0%, #E4E0DA 55%, #D2CDC4 100%);
+  --grad-com:  linear-gradient(135deg, #DDEEF8 0%, #C4E4F2 55%, #AEDAEB 100%);
+
+  --cream: oklch(0.95 0.012 80);
+  --cream-deep: oklch(0.93 0.018 75);
+
+  --footer-bg: #f5f4f0;
+  --footer-fg: rgba(44,40,37,0.6);
+  --footer-heading: #1c1917;
+  --footer-border: rgba(0,0,0,0.08);
+  --footer-pill-bg: #292524;
+  --footer-pill-fg: #FAFAF8;
+  --footer-share-border: rgba(0,0,0,0.12);
+  --footer-share-bg: rgba(0,0,0,0.04);
+  --footer-share-color: rgba(44,40,37,0.65);
+
+  /* Bandeau de l'en-tête commun (PageHero) et de tout ce qui s'y pose : bandes
+     de contact des fiches, portrait, marque-page, Partager. Crème en thème
+     clair, brun en sombre : ces jetons portent les deux, aucun composant du
+     bandeau n'écrit de blanc ni de noir en dur. Les teintes sont celles du
+     Brun Profond (#1C1917) en transparence. */
+  --bandeau: #F7F5F2;
+  --bandeau-vague: #EFECE8;
+  --bandeau-texte: #1C1917;
+  --bandeau-texte-doux: rgba(28, 25, 23, 0.68);
+  --bandeau-texte-pale: rgba(28, 25, 23, 0.52);
+  --bandeau-voile: rgba(28, 25, 23, 0.06);
+  --bandeau-voile-fort: rgba(28, 25, 23, 0.12);
+  --bandeau-trait: rgba(28, 25, 23, 0.18);
+  --bandeau-trait-fort: rgba(28, 25, 23, 0.45);
+  --bandeau-pied: rgba(28, 25, 23, 0.035);
+  --bandeau-filet: rgba(28, 25, 23, 0.1);
+  /* Second terme d'un `color-mix` sur la couleur de page : assombrie sur la
+     crème, éclaircie sur le brun, pour rester lisible sur les deux. */
+  --bandeau-accent-texte: black 28%;
+  --bandeau-accent-point: black 0%;
+  /* L'or des bandes de contact : #f5d68a disparaît sur la crème. */
+  --bandeau-or: #85601a;
+  --bandeau-or-fort: #5c420f;
+  --bandeau-pour: #15803d;
+  --bandeau-contre: #b91c1c;
+  --bandeau-logo: brightness(0) opacity(0.78);
+}
+
+.dark {
+  /* #2C2925 et non le Brun Profond : à #1C1917, le bandeau se fondait dans le
+     fond de page (oklch 0.18) et seule la vague le dessinait. */
+  --bandeau: #2C2925;
+  --bandeau-vague: #211E1B;
+  --bandeau-texte: #fff;
+  --bandeau-texte-doux: rgba(255, 255, 255, 0.7);
+  --bandeau-texte-pale: rgba(255, 255, 255, 0.45);
+  --bandeau-voile: rgba(255, 255, 255, 0.14);
+  --bandeau-voile-fort: rgba(255, 255, 255, 0.26);
+  --bandeau-trait: rgba(255, 255, 255, 0.3);
+  --bandeau-trait-fort: rgba(255, 255, 255, 0.6);
+  --bandeau-pied: rgba(255, 255, 255, 0.09);
+  --bandeau-filet: rgba(255, 255, 255, 0.18);
+  --bandeau-accent-texte: white 45%;
+  --bandeau-accent-point: white 30%;
+  --bandeau-or: #f5d68a;
+  --bandeau-or-fort: #fff5d8;
+  --bandeau-pour: #4ade80;
+  --bandeau-contre: #f87171;
+  --bandeau-logo: brightness(0) invert(1) opacity(0.92);
+  --gold: oklch(0.78 0.12 80); /* Or Doux plus clair en dark */
+  --background: oklch(0.18 0.005 60); /* Brun très foncé */
+  --foreground: oklch(0.96 0.005 80); /* Blanc chaud */
+  --card: oklch(0.24 0.005 60);
+  --card-foreground: oklch(0.96 0.005 80);
+  --popover: oklch(0.24 0.005 60);
+  --popover-foreground: oklch(0.96 0.005 80);
+  --primary: oklch(0.78 0.15 195); /* Teal clair #22D3EE */
+  --primary-foreground: oklch(0.18 0.005 60);
+  --secondary: oklch(0.28 0.005 60);
+  --secondary-foreground: oklch(0.96 0.005 80);
+  --muted: oklch(0.28 0.005 60);
+
+  --muted-foreground: oklch(0.65 0.01 75);
+  --accent: oklch(0.28 0.005 60);
+  --accent-foreground: oklch(0.96 0.005 80);
+  --destructive: oklch(0.704 0.191 22.216);
+  --border: oklch(1 0 0 / 10%);
+  --input: oklch(1 0 0 / 15%);
+  --ring: oklch(0.78 0.15 195); /* Teal clair */
+  --chart-1: oklch(0.78 0.15 195); /* Teal clair */
+  --chart-2: oklch(0.78 0.12 80); /* Or clair */
+  --chart-3: oklch(0.6 0.12 195); /* Teal moyen */
+  --chart-4: oklch(0.65 0.01 75); /* Gris chaud */
+  --chart-5: oklch(0.7 0.08 160); /* Teal-gris */
+  --sidebar: oklch(0.22 0.005 60);
+  --sidebar-foreground: oklch(0.96 0.005 80);
+  --sidebar-primary: oklch(0.78 0.15 195); /* Teal clair */
+  --sidebar-primary-foreground: oklch(0.96 0.005 80);
+  --sidebar-accent: oklch(0.28 0.005 60);
+  --sidebar-accent-foreground: oklch(0.96 0.005 80);
+  --sidebar-border: oklch(1 0 0 / 10%);
+  --sidebar-ring: oklch(0.78 0.15 195);
+  /* Sur fond sombre, moins clair et moins saturé que le teal des liens. */
+  --surtitre: oklch(0.7 0.08 195);
+  /* Sur fond sombre, le teal vif, comme le prévoit le kit du logo. */
+  --logo: var(--primary);
+  /* Chaque couleur du thème clair mêlée de blanc, au plus de 18 % et tant que le
+     texte blanc garde 4,5:1 : la case se détache mieux du fond sombre. */
+  --element-fil: #398083;
+  --element-textes: #4B7E81;
+  --element-activite: #907322;
+  --element-etat-des-lieux: #6D7275;
+  --element-elus: #817469;
+  --element-contact: #9D6778;
+  --element-pour-moi: #926B57;
+  --element-chiffres: #875D7A;
+  --element-processus: #78648E;
+  --element-glossaire: #85744C;
+  --element-quiz: #906993;
+  --element-ia: #78747E;
+  --element-newsletter: #75726E;
+  --element-bilingue: #8B6E7C;
+  --element-modele: #647982;
+  --element-prompts: #81708C;
+  --element-conformite: #746175;
+  --element-nous-aider: #8F6D64;
+  --element-corrections: #7E756A;
+  --element-mentions: #78685E;
+  --element-vie-privee: #80737B;
+  /* Translucides sur la carte sombre, pour ne pas peser plus que le texte. */
+  --election-fond-moi: oklch(0.78 0.15 195 / 16%);
+  --election-fond-autre: oklch(1 0 0 / 5%);
+
+  /* /Month poster gradients — dark variants (sombres, moins saturés) */
+  --grad-pro:  linear-gradient(135deg, #1B3428 0%, #22432F 55%, #2C5B3E 100%);
+  --grad-dec:  linear-gradient(135deg, #2D2140 0%, #3A2A52 55%, #4C3769 100%);
+  --grad-nav:  linear-gradient(135deg, #2A2824 0%, #35322E 55%, #444038 100%);
+  --grad-text: linear-gradient(135deg, #15323F 0%, #1C4051 55%, #265165 100%);
+  --grad-rep:  linear-gradient(135deg, #252A33 0%, #323945 55%, #434A59 100%);
+  --grad-mot:  linear-gradient(135deg, #3F1D17 0%, #4F271E 55%, #653328 100%);
+  --grad-law:  linear-gradient(135deg, #3D3218 0%, #4B3E1E 55%, #5E4E27 100%);
+  --grad-decr: linear-gradient(135deg, #30230F 0%, #3D2E15 55%, #503C1D 100%);
+  --grad-amb:  linear-gradient(135deg, #3D2F13 0%, #4D3B19 55%, #614B20 100%);
+  --grad-neutral: linear-gradient(135deg, #2A2824 0%, #35322E 55%, #444038 100%);
+  --grad-com:  linear-gradient(135deg, #0D2B38 0%, #143646 55%, #1D4759 100%);
+
+  --cream: oklch(0.22 0.008 60);
+  --cream-deep: oklch(0.24 0.01 60);
+
+  --footer-bg: #292524;
+  --footer-fg: rgba(255,255,255,0.6);
+  --footer-heading: #FAFAF8;
+  --footer-border: rgba(255,255,255,0.1);
+  --footer-pill-bg: #FAFAF8;
+  --footer-pill-fg: #1C1917;
+  --footer-share-border: rgba(255,255,255,0.15);
+  --footer-share-bg: rgba(255,255,255,0.05);
+  --footer-share-color: rgba(255,255,255,0.7);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    line-height: 1.6;
+  }
+  h1, h2, h3, h4 {
+    letter-spacing: -0.3px;
+    color: var(--foreground);
+  }
+}
+
+@keyframes blink-cursor {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+@keyframes pulse-live {
+  0%, 100% { box-shadow: 0 0 0 4px rgba(6,182,212,0.15); }
+  50% { box-shadow: 0 0 0 8px rgba(6,182,212,0); }
+}
+
+@keyframes progress-fill {
+  from { transform: scaleX(0); }
+  to   { transform: scaleX(1); }
+}
+
+@keyframes progress-circle {
+  to { stroke-dashoffset: 0; }
+}
+
+@keyframes fadeSlideIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.fade-slide-in { animation: fadeSlideIn 0.35s ease-out both; }
+
+/* Listes de /dossiers-legislatifs et /les-elus : les dix premières lignes entrent
+   l'une après l'autre, les suivantes ensemble. Un fondu sur le bloc entier ne se
+   voyait pas, la liste remplaçant d'un coup la ligne « Chargement… ». Posée sur
+   chaque ligne, l'animation rejoue pour les seules lignes nouvelles : celles
+   qu'apporte un filtre ou « Charger plus », pas celles déjà affichées. */
+.liste-cascade > li { animation: fadeSlideIn 0.35s ease-out both; }
+.liste-cascade > li:nth-child(2) { animation-delay: 35ms; }
+.liste-cascade > li:nth-child(3) { animation-delay: 70ms; }
+.liste-cascade > li:nth-child(4) { animation-delay: 105ms; }
+.liste-cascade > li:nth-child(5) { animation-delay: 140ms; }
+.liste-cascade > li:nth-child(6) { animation-delay: 175ms; }
+.liste-cascade > li:nth-child(7) { animation-delay: 210ms; }
+.liste-cascade > li:nth-child(8) { animation-delay: 245ms; }
+.liste-cascade > li:nth-child(9) { animation-delay: 280ms; }
+.liste-cascade > li:nth-child(n+10) { animation-delay: 315ms; }
+@media (prefers-reduced-motion: reduce) {
+  .liste-cascade > li { animation: none; }
+}
+
+/* Quiz d'affinité — la carte glisse hors de l'écran dans la direction du
+   choix (façon swipe), avec un tampon de confirmation diagonal, puis la
+   carte suivante entre avec un léger effet d'apparition. */
+@keyframes quizCardEnter {
+  from { opacity: 0; transform: translateY(14px) scale(0.98); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}
+.quiz-card-enter { animation: quizCardEnter 0.3s cubic-bezier(.2,.8,.3,1) both; }
+
+@keyframes quizExitPour {
+  to { transform: translate(160%, -8%) rotate(20deg); opacity: 0; }
+}
+@keyframes quizExitContre {
+  to { transform: translate(-160%, -8%) rotate(-20deg); opacity: 0; }
+}
+@keyframes quizExitAbstention {
+  to { transform: translate(0, -120%) rotate(-4deg); opacity: 0; }
+}
+.quiz-exit-pour { animation: quizExitPour 0.42s cubic-bezier(.4,0,.7,1) forwards; }
+.quiz-exit-contre { animation: quizExitContre 0.42s cubic-bezier(.4,0,.7,1) forwards; }
+.quiz-exit-abstention { animation: quizExitAbstention 0.42s cubic-bezier(.4,0,.7,1) forwards; }
+
+/* Quiz d'affinité — apparition du résultat en cascade (logo/nom → partage → graphique) */
+@keyframes quizResultReveal {
+  0% { opacity: 0; transform: scale(0.85) translateY(10px); }
+  60% { opacity: 1; transform: scale(1.04) translateY(0); }
+  100% { opacity: 1; transform: scale(1) translateY(0); }
+}
+.quiz-result-reveal { animation: quizResultReveal 0.5s cubic-bezier(.34,1.56,.64,1) both; }
+.quiz-result-reveal-delay-1 { animation: quizResultReveal 0.5s cubic-bezier(.34,1.56,.64,1) 0.15s both; }
+
+/* Carte résultat du quiz — effet "plaque de verre" translucide, teintée par --gcolor */
+.quiz-plaque-perspective {
+  perspective: 900px;
+}
+.quiz-plaque {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(155deg, rgba(255,255,255,.4), rgba(255,255,255,.14));
+  border: 1px solid rgba(255,255,255,.7) !important;
+  box-shadow: 0 0 0 1px rgba(255,255,255,.5), 0 1px 0 rgba(255,255,255,.7) inset, 0 6px 14px -10px rgba(28,25,23,.14), 0 2px 5px -3px rgba(28,25,23,.06);
+  transform: rotateX(var(--rx, 0deg)) rotateY(var(--ry, 0deg));
+  transition: transform .15s ease-out;
+  will-change: transform;
+}
+.quiz-plaque-content {
+  transform: translate(var(--tx, 0px), var(--ty, 0px));
+  transition: transform .15s ease-out;
+}
+.dark .quiz-plaque {
+  background: linear-gradient(155deg, rgba(50,45,40,.45), rgba(30,27,24,.28));
+  border-color: rgba(255,255,255,.2) !important;
+  box-shadow: 0 0 0 1px rgba(255,255,255,.08), 0 1px 0 rgba(255,255,255,.12) inset, 0 6px 14px -10px rgba(0,0,0,.28), 0 2px 5px -3px rgba(0,0,0,.15);
+}
+.quiz-plaque-wash {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background: linear-gradient(135deg, var(--gcolor, var(--primary)) 0%, color-mix(in srgb, var(--gcolor, var(--primary)) 6%, transparent) 100%);
+  opacity: .4;
+}
+.dark .quiz-plaque-wash { opacity: .5; }
+.quiz-plaque-frost {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background: rgba(255,255,255,.16);
+  backdrop-filter: blur(16px) saturate(170%);
+  -webkit-backdrop-filter: blur(16px) saturate(170%);
+}
+.dark .quiz-plaque-frost {
+  background: rgba(20,18,16,.2);
+}
+.quiz-plaque-sheen {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: linear-gradient(115deg, transparent 40%, rgba(255,255,255,.55) 50%, transparent 60%);
+  background-size: 250% 250%;
+  background-position: 120% 0;
+  animation: quizPlaqueSheen 1.3s ease-in-out .35s both;
+  animation-iteration-count: 2;
+}
+@keyframes quizPlaqueSheen {
+  0% { background-position: 130% 0; }
+  100% { background-position: -30% 0; }
+}
+.quiz-plaque-rim {
+  position: absolute;
+  top: 0;
+  left: 6%;
+  right: 6%;
+  height: 2px;
+  z-index: 2;
+  pointer-events: none;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,.95), transparent);
+  filter: blur(.3px);
+}
+.dark .quiz-plaque-rim {
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,.55), transparent);
+}
+
+/* Carte des départements */
+.departement-map {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  padding: 1rem;
+}
+.departement-map svg {
+  max-width: 100%;
+  height: auto;
+  flex-shrink: 0;
+}
+.departement.selected-dept {
+  fill: #7dd3e5 !important;
+}
+.departement.selected-dept:hover {
+  fill: #5cc5da !important;
+}
+
+.bg-cream { background-color: var(--cream); }
+.bg-cream-deep { background-color: var(--cream-deep); }
+
+/* Pilule Partager de l'en-tête (`ShareButton` en `compact`). Sous 768 px, elle
+   se réduit à un rond de 36 px, icône seule : avec le mot, elle ne tenait plus
+   en face d'un fil d'Ariane de trois maillons (« Chiffres / Les faits /
+   Alignement sur le groupe », 270 px) et passait à la ligne. Une classe et non
+   le style inline du bouton, qui ne connaît pas les largeurs d'écran ; le
+   padding vit donc ici, un padding inline l'emporterait sur la media query. */
+.partager-compact {
+  width: 2.25rem;
+  padding: 0;
+  justify-content: center;
+}
+.partager-compact .partager-libelle { display: none; }
+@media (min-width: 768px) {
+  .partager-compact {
+    width: auto;
+    padding: 0.4rem 0.9rem;
+  }
+  .partager-compact .partager-libelle { display: inline; }
+}
+
+/* Chiffres surlignés de « La réponse » des articles Facts (composant `Surligne`,
+   couleur de page dans `--surligne`). En clair : chiffre dans la teinte, fond à
+   12,5 % de la teinte. En sombre, le même fond ne se distinguait plus de la page
+   et la teinte foncée tombait vers 3:1 : fond à 35 %, et chiffre éclairci (45 %
+   de teinte, le reste en blanc), au moins 6:1 sur les onze teintes des articles.
+   `box-decoration-break` garde fond et coins sur chaque ligne quand le chiffre
+   passe à la ligne sur mobile. */
+.surligne {
+  color: var(--surligne);
+  background-color: color-mix(in srgb, var(--surligne) 12.5%, transparent);
+  padding: 0.1em 0.35em;
+  border-radius: 0.25em;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
+.dark .surligne {
+  color: color-mix(in srgb, var(--surligne) 45%, white);
+  background-color: color-mix(in srgb, var(--surligne) 35%, transparent);
+}
+
+/* Message de limite horaire des résumés IA (`RateLimitNotice`), dans le cyan qui
+   signale l'IA sur tout le site. Texte et icône héritent de `color` : rien n'est
+   posé en style inline, sinon la variante sombre ne pourrait pas s'appliquer.
+   En sombre, ce cyan foncé tombe sous le contraste minimum sur la page brune et
+   le fond à 6 % s'y confond : même éclaircissement que `.dark .surligne`, fond
+   remonté à 15 % (un bloc entier, pas un chiffre surligné, d'où moins que 35 %). */
+.avis-limite {
+  color: #0891b2;
+  background-color: rgba(6, 182, 212, 0.06);
+}
+.dark .avis-limite {
+  color: color-mix(in srgb, #0891b2 45%, white);
+  background-color: rgba(6, 182, 212, 0.15);
+}
+
+/* Highlighter effect — utilise box-decoration-break pour wrap multi-lignes (Safari OK) */
+.hl {
+  background-image: linear-gradient(
+    transparent 55%,
+    rgba(168, 85, 247, 0.35) 55%,
+    rgba(236, 72, 153, 0.35) 100%
+  );
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+  padding: 0 0.08em;
+}
+.hl-orange {
+  background-image: linear-gradient(
+    transparent 55%,
+    rgba(251, 146, 60, 0.40) 55%,
+    rgba(234, 88, 12, 0.40) 100%
+  );
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+  padding: 0 0.08em;
+}
+
+/* Voile flouté (VoileFlou, rendu pour NavigationOverlay, pour le saut de
+   mois du fil d'actualité et pour « Ce qui me concerne » avant la lecture des
+   profils).
+   Deux couches séparées, et jamais d'opacité sur leur parent : un ancêtre
+   à `opacity < 1` crée un groupe d'empilement, et le `backdrop-filter` de
+   l'enfant ne flouterait plus la page mais ce groupe vide.
+   L'apparition passe par ces classes, et non par un style inline, pour que
+   la règle prefers-reduced-motion puisse la neutraliser : un style inline
+   gagnerait sur elle. Les valeurs finales restent aussi en inline, ce sont
+   elles qui s'appliquent quand l'animation est coupée. */
+@keyframes navOverlayFlou {
+  from { -webkit-backdrop-filter: blur(0px); backdrop-filter: blur(0px); }
+  to   { -webkit-backdrop-filter: blur(8px); backdrop-filter: blur(8px); }
+}
+@keyframes navOverlayVoile {
+  from { opacity: 0; }
+  to   { opacity: 0.55; }
+}
+.nav-overlay-flou  { animation: navOverlayFlou 140ms ease-out both; }
+.nav-overlay-voile { animation: navOverlayVoile 140ms ease-out both; }
+
+@media (prefers-reduced-motion: reduce) {
+  .nav-overlay-flou,
+  .nav-overlay-voile { animation: none; }
+}
+
+/* Repli du menu quand on descend (TopNav). Pour la même raison que le voile
+   ci-dessus, la transition vit ici et non en style inline, qui gagnerait sur
+   prefers-reduced-motion. Le `translateY` reste inline : c'est l'état courant du
+   menu, pas son habillage. Animation coupée, le menu saute d'un état à l'autre,
+   ce qui reste le bon comportement.
+
+   Les barres de navigation interne des pages (onglets de section d'une fiche,
+   barre de mois du fil) ne se collent pas sous cet en-tête : elles défilent avec
+   la page, et `.fiche-remonter` prend le relais. Une barre collante ne pourrait
+   pas le suivre sans se décaler, les deux mouvements ne passant pas par le même
+   moteur, et Safari ne recalcule jamais le `top` d'un `position: sticky` une fois
+   la contrainte posée : vérifié au simulateur, la barre ne bougeait pas d'un
+   pixel pendant que l'en-tête glissait. Reste collant le seul rail de filtres du
+   fil, en desktop, qui ne recouvre rien. */
+.topnav-repli {
+  transition: transform 250ms ease;
+  will-change: transform;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .topnav-repli { transition: none; }
+}
+
+/* ── Grammaire partagée des deux fiches de détail (D-213, D-214) ──────────────
+   Ce qui ne peut pas s'écrire en style inline vit ici : les pseudo-éléments, les
+   survols, les points de rupture et les éléments décoratifs sans balise. Le
+   reste de l'habillage est dans `SectionRepliable.tsx` et `BarreAncres.tsx`, en
+   style inline (Tailwind v4 est peu fiable sur Safari).
+
+   `scroll-margin-top` place le haut d'une section juste sous l'en-tête quand on
+   saute dessus depuis la barre d'ancres (`--hauteur-entete`). La barre d'ancres n'entre pas dans le calcul, elle ne colle
+   pas ; et l'en-tête est toujours déployé à l'arrivée, que `gelerRepli`
+   (`lib/repli-nav.ts`) empêche de se replier en route. */
+.fiche-section { margin-top: 40px; scroll-margin-top: var(--hauteur-entete); }
+.fiche-section:first-of-type { margin-top: 32px; }
+.fiche-section > details > summary { display: flex; flex-wrap: wrap; align-items: center; gap: 9px; cursor: pointer; list-style: none; }
+.fiche-section > details > summary::-webkit-details-marker { display: none; }
+/* Le survol *éclaircit* le surtitre : il est déjà à `--foreground`, la teinte la
+   plus soutenue de la page, donc seul un cran plus clair peut le signaler. */
+.fiche-section > details > summary:hover .fiche-section-titre { color: var(--card-foreground); }
+
+/* Sous 640 px le badge passe sous le surtitre au lieu de partager sa ligne.
+   Côte à côte, la mention légale « Généré par IA depuis les sources
+   officielles » ne laissait qu'un tiers de la largeur au surtitre : celui-ci se
+   cassait en deux, et elle-même se cassait en trois dans sa pastille. */
+@media (max-width: 639px) {
+  .fiche-section-badge { order: 5; flex-basis: 100%; }
+}
+
+/* Panneau dépliant partagé (`components/ui/Depliable.tsx`). La rangée unique de
+   la grille passe de 0fr à 1fr, ce qui s'interpole vers une hauteur inconnue.
+   L'enfant porte l'overflow, sinon le contenu déborde de la rangée écrasée au
+   lieu d'être coupé ; `min-height: 0` le laisse descendre sous la hauteur de son
+   contenu. La transition vit ici et non en inline, pour que prefers-reduced-motion
+   puisse la couper : le panneau saute alors d'un état à l'autre. */
+.depliable { display: grid; grid-template-rows: 0fr; opacity: 0;
+             transition: grid-template-rows 220ms ease, opacity 180ms ease; }
+.depliable > div { overflow: hidden; min-height: 0; }
+.depliable[data-ouvert='true'] { grid-template-rows: 1fr; opacity: 1; }
+@media (prefers-reduced-motion: reduce) {
+  .depliable { transition: none; }
+}
+
+/* La barre d'ancres défile dans sa propre boîte : en fenêtre étroite elle ne
+   fait pas déborder la page. La boîte sert aussi d'appui au voile de
+   débordement, qui est en absolu.
+
+   Elle ne colle pas : une barre collante ne peut pas suivre l'en-tête qui se
+   replie sans se décaler, et Safari ne recalcule jamais le `top` d'un
+   `position: sticky` une fois la contrainte posée. Elle défile donc avec la
+   page, et `.fiche-remonter` prend le relais quand elle est sortie de l'écran.
+   Un fond reste nécessaire : le voile de débordement doit s'y fondre. C'est le
+   fond de la PAGE, pas `--background` : `AppShell` pose par-dessus un voile de
+   `--muted` à 30 %, donc `--background` seul dessinait un rectangle blanc.
+   `color-mix` recompose exactement ce que ce voile produit. */
+.fiche-ancres-boite {
+  --fiche-ancres-fond: color-mix(in oklab, var(--muted) 30%, var(--background));
+  position: relative;
+  /* La boîte peint elle-même le fond dans lequel le voile se fond. Sans ça, le
+     voile viserait ce qu'`AppShell` peint derrière, un `--muted` à 30 %
+     d'opacité composé en sRGB quand `color-mix` travaille en Oklab : deux
+     teintes voisines, et une couture de 36 px au bord droit de la barre. */
+  background-color: var(--fiche-ancres-fond);
+}
+.fiche-ancres { scrollbar-width: none; }
+.fiche-ancres::-webkit-scrollbar { display: none; }
+
+/* Le seul signe qu'une pastille se clique : aucune n'est mise en valeur, la
+   barre n'étant plus sous les yeux pendant la lecture. Le fond au survol est
+   celui que portait l'ancienne pastille active. `:active` double le signal pour
+   le tactile, qui n'a pas de survol. Écrit ici et non en style inline : les
+   pseudo-classes ne s'écrivent pas en inline, et `hover:` de Tailwind n'est pas
+   fiable sur Safari (`ARCHITECTURE.md` §Pièges Tailwind v4). */
+.fiche-ancres > button { transition: background-color 150ms ease; }
+.fiche-ancres > button:hover,
+.fiche-ancres > button:active { background-color: var(--muted); }
+
+/* Le relais des barres de navigation interne : un rond teal en bas à droite, qui
+   ramène en haut de page. Sa forme et son apparition sont en style inline dans
+   `BoutonRemonter.tsx` ; vivent ici le fond, parce qu'un fond inline
+   l'emporterait sur le survol juste en dessous, la glissade, qui doit pouvoir
+   être coupée par prefers-reduced-motion, et le survol lui-même, qui ne s'écrit
+   pas en inline. */
+.fiche-remonter {
+  background-color: var(--primary);
+  transition: background-color 150ms ease, opacity 180ms ease, transform 180ms ease, visibility 180ms;
+}
+.fiche-remonter:hover { background-color: color-mix(in oklab, var(--primary) 85%, black); }
+
+@media (prefers-reduced-motion: reduce) {
+  .fiche-remonter { transition: none; }
+}
+
+/* Le bord droit s'estompe tant qu'il reste des pastilles hors champ. La barre
+   masque son ascenseur, et sur mobile la dernière pastille visible tombe pile
+   au bord de l'écran : rien ne disait qu'elle défilait. Le voile est retiré du
+   DOM dès qu'on atteint le bout, pour ne pas ronger la dernière pastille. */
+.fiche-ancres-voile {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 36px;
+  pointer-events: none;
+  background-image: linear-gradient(to right, transparent, var(--fiche-ancres-fond));
+}
+
+/* ── Accueil `/fr`, `/en` ─────────────────────────────────────────────────────
+   Ce qui ne peut pas s'écrire en style inline : la variante sombre et les règles
+   sous garde de palier.
+
+   Fond crème et cartes blanches en clair ; en sombre, fond `--background` et
+   cartes `--card`, puisque `--muted` y est plus clair que les cartes. Le crème est
+   à mi-chemin entre `--muted` (#F7F5F2), jugé trop soutenu par Alex, et le blanc :
+   assez teinté pour que les cartes blanches s'en détachent encore. */
+.landing-page {
+  background-color: #FBFAF8;
+}
+.dark .landing-page {
+  background-color: var(--background);
+}
+
+/* Maquettes des sections illustrées (`components/Maquettes.tsx`). La surface qui
+   les porte est un cran plus soutenue que le fond de la page, comme les cartes grises
+   de Reachable sur fond blanc ; les cartes de la maquette restent en `--card`. En
+   sombre, `--muted` est plus clair que `--card` : la surface le prend, et les cartes
+   blanches deviennent les plus sombres. `.landing-ligne` figure une ligne de texte,
+   `.landing-carte-maquette` une forme pleine (portrait, tuile, date). */
+.landing-surface { background-color: #F1EDE6; }
+.dark .landing-surface { background-color: var(--muted); }
+.landing-ligne { background-color: #E6E1D9; }
+.dark .landing-ligne { background-color: rgba(255, 255, 255, 0.14); }
+.landing-carte-maquette { background-color: #EEEAE3; }
+.dark .landing-carte-maquette { background-color: rgba(255, 255, 255, 0.1); }
+
+/* Badge IA des maquettes : doré, comme le cadre des cartes IA de la fiche, et plus
+   appuyé que le badge gris de la fiche, puisque la maquette sert précisément à montrer
+   que tout texte écrit par une IA est signalé. */
+.landing-badge-ia {
+  color: #8A6A1F;
+  background-color: rgba(212, 165, 74, 0.12);
+  border: 1px solid rgba(212, 165, 74, 0.55);
+}
+.dark .landing-badge-ia { color: #E0B866; background-color: rgba(212, 165, 74, 0.14); }
+
+/* Carte « avant / après » (`LoiEnClair.tsx`) : un cycle de 11 s. Le texte officiel,
+   dense, s'affiche d'abord (`.landing-avant`). Puis un trait doré (`.landing-balayage`)
+   descend du haut au bas de la carte : le texte officiel se découpe au-dessus de lui
+   (`clip-path`), et le résumé (`.landing-apres`) apparaît dans la même découpe. Les
+   trois animations ont les mêmes étapes et la même courbe, donc le trait tombe
+   toujours pile sur la frontière entre les deux. Le résumé reste affiché, puis le
+   texte officiel revient en fondu. Les deux calques ont la hauteur de la case de
+   grille qu'ils partagent, ce qui aligne leurs découpes sur la position du trait.
+   Les animations vivent ici et non en style inline pour que
+   prefers-reduced-motion les coupe : seul le résumé s'affiche alors. */
+.landing-avant, .landing-apres, .landing-balayage {
+  animation-duration: 11s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+.landing-avant { animation-name: landing-avant; }
+.landing-apres { animation-name: landing-apres; }
+/* Chaque remise à zéro d'une découpe se fait pendant que le calque est invisible
+   (opacité 0 aux deux étapes qui l'encadrent) : interpolée pendant qu'il est visible,
+   elle faisait réapparaître une moitié du calque le temps d'un éclair, le « saut » au
+   retour du cycle. */
+@keyframes landing-avant {
+  0%, 30% { clip-path: inset(0 0 0 0); opacity: 1; }
+  50% { clip-path: inset(100% 0 0 0); opacity: 1; }
+  51%, 88% { clip-path: inset(100% 0 0 0); opacity: 0; }
+  88.5% { clip-path: inset(0 0 0 0); opacity: 0; }
+  96%, 100% { clip-path: inset(0 0 0 0); opacity: 1; }
+}
+@keyframes landing-apres {
+  0%, 30% { clip-path: inset(0 0 100% 0); opacity: 1; }
+  50%, 88% { clip-path: inset(0 0 0 0); opacity: 1; }
+  96% { clip-path: inset(0 0 0 0); opacity: 0; }
+  96.5% { clip-path: inset(0 0 100% 0); opacity: 0; }
+  100% { clip-path: inset(0 0 100% 0); opacity: 1; }
+}
+/* Le calque du trait couvre toute la hauteur de la carte, le trait posé sur son bord
+   haut : un `translateY(100%)` du calque le mène en bas. Une transformation, et non `top`,
+   pour que le navigateur ne recalcule pas la mise en page à chaque image. */
+.landing-balayage {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: -12px;
+  right: -12px;
+  pointer-events: none;
+  animation-name: landing-balayage;
+}
+.landing-balayage::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  border-radius: 999px;
+  background: linear-gradient(90deg, transparent, #D4A54A 15%, #D4A54A 85%, transparent);
+  box-shadow: 0 0 18px 4px rgba(212, 165, 74, 0.45);
+}
+@keyframes landing-balayage {
+  0%, 29% { transform: none; opacity: 0; }
+  30% { transform: none; opacity: 1; }
+  50% { transform: translateY(100%); opacity: 1; }
+  53%, 100% { transform: translateY(100%); opacity: 0; }
+}
+.landing-pastille-avant { animation: landing-pastille-avant 11s ease-in-out infinite; }
+.landing-pastille-apres { animation: landing-pastille-apres 11s ease-in-out infinite; }
+@keyframes landing-pastille-avant {
+  0%, 36% { background-color: var(--foreground); color: var(--background); }
+  42%, 90% { background-color: transparent; color: var(--muted-foreground); }
+  96%, 100% { background-color: var(--foreground); color: var(--background); }
+}
+@keyframes landing-pastille-apres {
+  0%, 36% { background-color: transparent; color: var(--muted-foreground); }
+  42%, 90% { background-color: var(--foreground); color: var(--background); }
+  96%, 100% { background-color: transparent; color: var(--muted-foreground); }
+}
+
+/* Chemin d'un résumé (`MethodeCard.tsx`) : un cycle de 9 s. Les quatre étapes restent
+   affichées, atténuées, et une mise en valeur passe de l'une à l'autre : l'étape active
+   devient nette, se soulève et prend un liseré (`--anneau`, posé par l'étape : cyan, ou
+   doré là où l'IA intervient), et la flèche vers l'étape suivante s'allume au passage.
+   Chaque rang a ses propres étapes de keyframes sur une horloge commune
+   (`.landing-actif-N`, `.landing-fleche-N`) : un `animation-delay` décalerait aussi la fin
+   du cycle de chacun, et les étapes se désynchroniseraient d'un tour à l'autre. Les
+   lignes du modèle IA scintillent pendant tout le cycle (`.landing-reflet`). */
+.landing-actif-0, .landing-actif-1, .landing-actif-2, .landing-actif-3,
+.landing-fleche-0, .landing-fleche-1, .landing-fleche-2 {
+  animation-duration: 9s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+.landing-actif-0 { animation-name: landing-actif-0; }
+@keyframes landing-actif-0 {
+  0%, 21% { opacity: 1; transform: translateY(-2px); box-shadow: 0 16px 32px -24px rgba(28, 25, 23, 0.25), 0 0 0 2px var(--anneau); }
+  27%, 94% { opacity: 0.45; transform: none; box-shadow: 0 16px 32px -24px rgba(28, 25, 23, 0.25), 0 0 0 0 transparent; }
+  100% { opacity: 1; transform: translateY(-2px); box-shadow: 0 16px 32px -24px rgba(28, 25, 23, 0.25), 0 0 0 2px var(--anneau); }
+}
+.landing-actif-1 { animation-name: landing-actif-1; }
+@keyframes landing-actif-1 {
+  0%, 21% { opacity: 0.45; transform: none; box-shadow: 0 16px 32px -24px rgba(28, 25, 23, 0.25), 0 0 0 0 transparent; }
+  27%, 46% { opacity: 1; transform: translateY(-2px); box-shadow: 0 16px 32px -24px rgba(28, 25, 23, 0.25), 0 0 0 2px var(--anneau); }
+  52%, 100% { opacity: 0.45; transform: none; box-shadow: 0 16px 32px -24px rgba(28, 25, 23, 0.25), 0 0 0 0 transparent; }
+}
+.landing-actif-2 { animation-name: landing-actif-2; }
+@keyframes landing-actif-2 {
+  0%, 46% { opacity: 0.45; transform: none; box-shadow: 0 16px 32px -24px rgba(28, 25, 23, 0.25), 0 0 0 0 transparent; }
+  52%, 71% { opacity: 1; transform: translateY(-2px); box-shadow: 0 16px 32px -24px rgba(28, 25, 23, 0.25), 0 0 0 2px var(--anneau); }
+  77%, 100% { opacity: 0.45; transform: none; box-shadow: 0 16px 32px -24px rgba(28, 25, 23, 0.25), 0 0 0 0 transparent; }
+}
+.landing-actif-3 { animation-name: landing-actif-3; }
+@keyframes landing-actif-3 {
+  0%, 71% { opacity: 0.45; transform: none; box-shadow: 0 16px 32px -24px rgba(28, 25, 23, 0.25), 0 0 0 0 transparent; }
+  77%, 94% { opacity: 1; transform: translateY(-2px); box-shadow: 0 16px 32px -24px rgba(28, 25, 23, 0.25), 0 0 0 2px var(--anneau); }
+  100% { opacity: 0.45; transform: none; box-shadow: 0 16px 32px -24px rgba(28, 25, 23, 0.25), 0 0 0 0 transparent; }
+}
+.landing-fleche-0 { animation-name: landing-fleche-0; }
+@keyframes landing-fleche-0 {
+  0%, 19% { color: var(--muted-foreground); transform: none; }
+  23% { color: var(--primary); transform: translateY(3px); }
+  28%, 100% { color: var(--muted-foreground); transform: none; }
+}
+.landing-fleche-1 { animation-name: landing-fleche-1; }
+@keyframes landing-fleche-1 {
+  0%, 44% { color: var(--muted-foreground); transform: none; }
+  48% { color: var(--primary); transform: translateY(3px); }
+  53%, 100% { color: var(--muted-foreground); transform: none; }
+}
+.landing-fleche-2 { animation-name: landing-fleche-2; }
+@keyframes landing-fleche-2 {
+  0%, 69% { color: var(--muted-foreground); transform: none; }
+  73% { color: var(--primary); transform: translateY(3px); }
+  78%, 100% { color: var(--muted-foreground); transform: none; }
+}
+.landing-reflet {
+  background-image: linear-gradient(90deg, transparent 0%, rgba(212, 165, 74, 0.45) 50%, transparent 100%);
+  background-size: 200% 100%;
+  background-repeat: no-repeat;
+  animation: landing-reflet 1.8s linear infinite;
+}
+@keyframes landing-reflet {
+  0% { background-position: 150% 0; }
+  100% { background-position: -50% 0; }
+}
+
+/* Mini-maquettes de « Aussi sur LoiClair » (`SectionsBand.tsx`), et blocs de la maquette
+   de `PourVousSection.tsx` pour `.landing-mini-entree` : un cycle de 7 s,
+   chaque forme entrant à son tour (`--ordre` fois 0,15 s), puis restant affichée avant
+   de repartir. `.landing-mini-entree` fait glisser et apparaître, `.landing-mini-x`
+   pousse une barre depuis la gauche, `.landing-mini-y` depuis le bas. */
+.landing-mini-entree, .landing-mini-x, .landing-mini-y {
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-out;
+  animation-fill-mode: both;
+  animation-delay: calc(var(--ordre, 0) * 0.15s);
+}
+.landing-mini-entree { animation-name: landing-mini-entree; }
+.landing-mini-x { animation-name: landing-mini-x; transform-origin: left center; }
+.landing-mini-y { animation-name: landing-mini-y; transform-origin: center bottom; }
+@keyframes landing-mini-entree {
+  0% { opacity: 0; transform: translateX(-8px); }
+  12%, 88% { opacity: 1; transform: none; }
+  96%, 100% { opacity: 0; transform: translateX(-8px); }
+}
+@keyframes landing-mini-x {
+  0% { transform: scaleX(0); }
+  16%, 88% { transform: scaleX(1); }
+  96%, 100% { transform: scaleX(0); }
+}
+@keyframes landing-mini-y {
+  0% { transform: scaleY(0); }
+  16%, 88% { transform: scaleY(1); }
+  96%, 100% { transform: scaleY(0); }
+}
+/* L'anneau de la jauge se remplit : le cercle SVG porte `pathLength="100"`, et son
+   tracé passe de vide à 62 % rempli. */
+.landing-mini-jauge { animation: landing-mini-jauge 7s ease-out infinite both; }
+@keyframes landing-mini-jauge {
+  0% { stroke-dashoffset: 100; }
+  20%, 88% { stroke-dashoffset: 38; }
+  96%, 100% { stroke-dashoffset: 100; }
+}
+/* La courbe de l'état des lieux se trace de gauche à droite (`pathLength="100"`). */
+.landing-mini-trace { animation: landing-mini-trace 7s ease-out infinite both; }
+@keyframes landing-mini-trace {
+  0% { stroke-dashoffset: 100; }
+  24%, 88% { stroke-dashoffset: 0; }
+  96%, 100% { stroke-dashoffset: 100; }
+}
+/* La réponse choisie du quiz : elle grossit d'un coup, puis garde l'anneau et la teinte
+   de sa couleur (`--choix`, posée en ligne). */
+.landing-mini-choix { animation: landing-mini-choix 7s ease-out infinite both; }
+@keyframes landing-mini-choix {
+  0%, 40% { transform: none; box-shadow: inset 0 0 0 1px var(--border); background-color: transparent; }
+  46% { transform: scale(1.08); }
+  52%, 88% { transform: none; box-shadow: inset 0 0 0 2px var(--choix); background-color: color-mix(in srgb, var(--choix) 14%, transparent); }
+  96%, 100% { transform: none; box-shadow: inset 0 0 0 1px var(--border); background-color: transparent; }
+}
+/* La navette du processus : le texte va au Sénat, s'y arrête, revient, puis le sceau de
+   la promulgation apparaît. Le texte repart de l'Assemblée, donc la boucle ne saute pas.
+   Le rail est déplacé par `transform` (voir `SectionsBand.tsx`), jamais par `left`. */
+.landing-mini-navette { animation: landing-mini-navette 7s ease-in-out infinite both; }
+@keyframes landing-mini-navette {
+  0%, 8% { transform: none; }
+  30%, 42% { transform: translateX(100%); }
+  64%, 100% { transform: none; }
+}
+/* Le numéro de la semaine arrive dans la boîte de réception de la carte Newsletter :
+   il descend d'au-dessus de la liste et apparaît, comme un nouveau message. */
+.landing-mini-arrivee { animation: landing-mini-arrivee 7s ease-out infinite both; }
+@keyframes landing-mini-arrivee {
+  0%, 6% { opacity: 0; transform: translateY(-10px); }
+  18%, 88% { opacity: 1; transform: none; }
+  96%, 100% { opacity: 0; transform: translateY(-10px); }
+}
+.landing-mini-tampon { animation: landing-mini-tampon 7s ease-out infinite both; }
+@keyframes landing-mini-tampon {
+  0%, 66% { opacity: 0; transform: scale(0.6); }
+  74%, 90% { opacity: 1; transform: none; }
+  97%, 100% { opacity: 0; transform: scale(0.6); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .landing-avant { animation: none; opacity: 0; }
+  .landing-apres { animation: none; }
+  .landing-balayage { animation: none; opacity: 0; }
+  .landing-actif-0, .landing-actif-1, .landing-actif-2, .landing-actif-3,
+  .landing-fleche-0, .landing-fleche-1, .landing-fleche-2, .landing-reflet { animation: none; }
+  .landing-pastille-avant { animation: none; color: var(--muted-foreground); }
+  .landing-pastille-apres { animation: none; background-color: var(--foreground); color: var(--background); }
+  .landing-mini-entree, .landing-mini-x, .landing-mini-y { animation: none; }
+  .landing-mini-jauge { animation: none; stroke-dashoffset: 38; }
+  .landing-mini-trace { animation: none; stroke-dashoffset: 0; }
+  .landing-mini-choix { animation: none; box-shadow: inset 0 0 0 2px var(--choix); }
+  .landing-mini-navette, .landing-mini-tampon, .landing-mini-arrivee { animation: none; }
+}
+
+/* Rangée de filtres de /dossiers-legislatifs et /les-elus (`ui/FilterBar.tsx`).
+   La mise en page vit ici et non en style inline : elle change sous 768 px, et
+   une bascule faite en JavaScript ne s'appliquerait qu'après l'hydratation, la
+   rangée passant à la ligne une fraction de seconde avant de se mettre à défiler.
+   Sur téléphone elle ne passe jamais à la ligne : elle défile à l'horizontale
+   jusqu'aux bords de l'écran, d'où les marges négatives qui annulent la
+   gouttière posée par `AppShell` sur `<main>`, reprise à l'identique. */
+.filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  /* Plus large que le champ de recherche (640 px) : une valeur longue active
+     (« Déposé - pas encore voté ») renvoyait sinon Thème seul sur une deuxième
+     ligne. */
+  max-width: 960px;
+  margin: 18px auto 0;
+}
+@media (max-width: 767px) {
+  .filter-bar {
+    --filter-bar-gouttiere: clamp(1rem, calc(6vw - 0.5rem), 5rem);
+    --filter-bar-max: 200px;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    overflow-x: auto;
+    max-width: none;
+    margin-left: calc(-1 * var(--filter-bar-gouttiere));
+    margin-right: calc(-1 * var(--filter-bar-gouttiere));
+    padding: 0 var(--filter-bar-gouttiere) 4px;
+    scrollbar-width: none;
+  }
+  .filter-bar::-webkit-scrollbar { display: none; }
+}
+/* Survols écrits ici : une pseudo-classe ne s'écrit pas en inline, et `hover:`
+   de Tailwind n'est pas fiable sur Safari (`ARCHITECTURE.md` §Pièges Tailwind v4). */
+.filter-bar-pill:not([data-actif]):hover { background-color: var(--muted) !important; }
+.filter-bar-clear:hover { background-color: color-mix(in srgb, var(--primary) 18%, transparent) !important; }
+.filter-bar-clear-all:hover { color: var(--foreground) !important; }
+.filter-bar-opt:hover { background-color: var(--muted) !important; }
+.filter-bar-input:focus { border-color: var(--primary) !important; }
+/* La carte d'un menu (Département) tient dans la hauteur du menu, sa largeur
+   suivant ses proportions. */
+.filter-bar-aside .departement-map { height: 100%; }
+.filter-bar-aside .departement-map svg { height: 100%; width: auto; max-width: 100%; }
+
+/* Logo de groupe sur une ligne de /les-elus (`ElusResultsClient`). En thème
+   sombre, les logos foncés (RN, LIOT, Horizons) disparaissent sur le fond : une
+   plaque claire discrète leur garde leurs couleurs, choix d'Alex du 2026-10-08
+   plutôt qu'un passage en blanc monochrome. Posée sur l'image et non sur son
+   conteneur, qui reste en place quand le groupe n'a pas de fichier de logo :
+   une plaque vide s'afficherait. `content-box` garde au logo ses 20 px de haut,
+   la plaque s'ajoutant autour. */
+.dark .elu-logo-groupe img {
+  box-sizing: content-box;
+  background-color: rgb(255 255 255 / 0.92);
+  border-radius: 4px;
+  padding: 2px 4px;
+}
+
+/* Boîte de Partager quand le titre de `PageHero` porte une case d'élément : la
+   hauteur de la case (`sm` 40 px, `md` 64 px dès 640 px, voir `usePageHero`),
+   pour que le bouton se centre sur elle. Une media query, qu'un style en ligne ne
+   sait pas porter. */
+.partage-case { height: 40px; }
+@media (min-width: 640px) {
+  .partage-case { height: 64px; }
+}
+
+/* Bleu « les plus opposés » de /Facts/alliances : chiffres, icône et pôle bas de la
+   matrice (`MatrixHeatmap`, prop `colorLow`). Le bleu foncé d'origine tombait à
+   2,2:1 sur le fond sombre, sous les 3:1 du gros texte ; en sombre, un bleu clair à
+   7,4:1 sur le fond, qui reste distinct du blanc du point neutre de la matrice.
+   Une variable, parce qu'un style en ligne ne peut pas changer avec le thème. */
+:root { --alliances-oppose: #1e40af; }
+.dark { --alliances-oppose: #60a5fa; }
+/* Chiffre écrit sur une case pleine du pôle bas (prop `textOnLow`) : blanc sur le
+   bleu foncé ; en sombre, le bleu clair reste plus clair que le seuil où le blanc
+   l'emporterait, donc le chiffre y reste foncé. */
+:root { --alliances-oppose-texte: #ffffff; }
+.dark { --alliances-oppose-texte: #1f2937; }
+
+/* Consigne du choix de « Ce qui me concerne » (`IntroProfils`) : trois cartes
+   titrées, empilées jusqu'à 1024 px, côte à côte au-delà. D'un seul tenant, elle
+   formait sur ordinateur un pavé de neuf lignes dans une colonne de 62ch, la
+   moitié droite vide. Des cartes à fond plutôt que des filets, choix d'Alex : avec de
+   simples filets, on ne distinguait plus la consigne des questions qui suivent.
+   Le fond est une teinte du texte et non `--muted`, presque blanc comme le fond
+   de la page en clair : il se voit ainsi sur la page comme dans la fenêtre
+   blanche, dans les deux thèmes. Une classe, parce qu'un style en ligne ne porte
+   pas de media query. Dans la fenêtre du choix (`intro-profils-empilee`), les
+   cartes restent empilées : à 44rem, des colonnes y seraient trop étroites. Le
+   seuil de 1024 px et non 768 px pour la même raison : entre les deux, la page
+   n'offre guère plus de largeur que la fenêtre. */
+.intro-profils {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+.intro-profils > * {
+  background: color-mix(in oklch, var(--foreground) 5%, transparent);
+  border-radius: 0.75rem;
+  padding: 1rem 1.125rem;
+}
+@media (min-width: 1024px) {
+  .intro-profils:not(.intro-profils-empilee) {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+/* La carte d'inscription de /newsletter (`newsletter/CarteInscription.tsx`). Papier
+   crème et textes à couleurs fixes dans les deux thèmes, comme la lettre elle-même
+   reste sur blanc (D-319) ; un filet or et des coins arrondis, sans ombre. Des
+   classes, parce qu'un style en ligne ne porte pas la marge d'ordinateur dans la
+   requête de conteneur plus bas. */
+.carte-nl {
+  background: #FFFDF7;
+  border: 1px solid #D4A54A;
+  border-radius: 12px;
+  padding: 26px 22px;
+  color: #44403C;
+  /* Contrôles natifs (case de consentement) en clair, même en thème sombre : sans
+     cela, la case sortait gris foncé sur la crème. */
+  color-scheme: light;
+}
+.carte-nl-titre { font-size: 24px; font-weight: 600; line-height: 1.2; letter-spacing: -0.015em; color: #1C1917; margin: 0 0 6px; }
+.carte-nl-sous { font-size: 15px; line-height: 1.6; color: #78716C; margin: 0 0 20px; }
+.carte-nl-compteur { display: flex; align-items: center; gap: 8px; font-size: 13.5px; line-height: 1.6; color: #44403C; margin: 0 0 20px; }
+.carte-nl-compteur b { color: #1C1917; font-weight: 600; font-variant-numeric: tabular-nums; }
+.carte-nl-compteur svg { color: #D4A54A; flex-shrink: 0; }
+/* De l'air entre la phrase (ou le compteur) et le champ, choix d'Alex. 32 px en
+   tout : cette marge se confond avec celle du bas de la phrase (20 px) au lieu de
+   s'y ajouter, seule la plus grande compte. */
+.carte-nl form { margin-top: 32px; }
+
+/* Page /newsletter : une colonne sur téléphone, la carte en premier ; deux dès
+   820 px de contenu, texte à gauche et carte à droite. La bascule suit la largeur
+   du contenu (`.nl-page` est le conteneur), pas celle de l'écran. */
+.nl-page { container-type: inline-size; }
+/* Numéro de « Qui est concerné » dans la liste des rubriques : un or plus marqué
+   que `--gold` dans chaque thème, plus foncé en clair, plus clair en sombre. Un or
+   fixe (#B8862F) ressortait en clair mais paraissait plus terne que les autres
+   numéros en sombre. Une variable, parce qu'un style en ligne ne suit pas le thème. */
+:root { --nl-or-fort: #B8862F; }
+.dark { --nl-or-fort: #F0CF84; }
+.nl-grille { display: grid; grid-template-columns: minmax(0, 1fr); max-width: 1120px; padding: 32px 0 64px; }
+/* Sur une colonne, la carte garde sa largeur d'ordinateur au plus : étirée sur une
+   tablette, elle laissait un grand vide à droite d'un formulaire plafonné à 30rem. */
+.nl-grille > .carte-nl { width: 100%; max-width: 440px; }
+.nl-contenu { margin-top: 40px; }
+@container (min-width: 820px) {
+  .nl-grille { grid-template-columns: minmax(0, 1fr) 440px; gap: 72px; padding-top: 48px; }
+  .nl-grille > .carte-nl { grid-column: 2; grid-row: 1; align-self: start; padding: 34px 32px; }
+  .nl-contenu { grid-column: 1; grid-row: 1; margin-top: 0; }
+}

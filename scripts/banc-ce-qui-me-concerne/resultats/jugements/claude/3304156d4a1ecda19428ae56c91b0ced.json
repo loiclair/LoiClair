@@ -1,0 +1,18 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "proprietaire_bailleur",
+    "raison": "L’amendement vise les raisons pour lesquelles les travaux nécessaires sont impossibles, dans une disposition qui encadre les obligations du propriétaire bailleur en matière de décence énergétique.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "locataire"
+  ]
+ },
+ "cout_usd": 0.0003909,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

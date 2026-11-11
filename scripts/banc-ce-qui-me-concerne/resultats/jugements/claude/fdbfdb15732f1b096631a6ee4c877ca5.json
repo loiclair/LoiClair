@@ -1,0 +1,19 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "forces_ordre",
+    "raison": "Le texte protège de la qualification d'incitation les actes des enquêteurs menant une infiltration ou une surveillance autorisée. Ces techniques sont conduites par des policiers et gendarmes, donc la mesure change directement leur situation juridique dans leur métier.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "fonctionnaire"
+  ]
+ },
+ "cout_usd": 0.0006981849999999999,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

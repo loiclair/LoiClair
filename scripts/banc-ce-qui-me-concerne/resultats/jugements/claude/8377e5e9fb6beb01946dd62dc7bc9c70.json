@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "elu_local",
+    "raison": "Le texte désigne directement le conseiller municipal suivant comme suppléant d’un conseiller communautaire et prévoit sa participation aux réunions en cas d’absence du titulaire.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00034015,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

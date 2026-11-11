@@ -1,0 +1,19 @@
+{
+ "impacts": [
+  {
+   "profil": "automobiliste",
+   "phrase_fr": "Dans certaines zones à faibles émissions, les restrictions de circulation pourraient ne plus s'appliquer aux voitures lorsque les alternatives sont presque aussi rapides.",
+   "phrase_en": "In some low-emission zones, car traffic restrictions would no longer apply where alternatives are almost as fast.",
+   "passage": "Dans le cas contraire, les restrictions de déplacement applicables au sein de la zone à faibles émissions mobilité ne s’y appliquent pas, on parle alors de zones à faibles émissions en devenir.",
+   "certitude": "possible"
+  },
+  {
+   "profil": "grande_ville",
+   "phrase_fr": "Les zones à faibles émissions de votre ville pourraient être réévaluées selon les temps de trajet en transports en commun, à pied ou à vélo.",
+   "phrase_en": "Low-emission zones in your city would be reassessed based on travel times by public transport, walking or cycling.",
+   "passage": "Au cours de l’instauration d’une zone à faibles émissions mobilité, l’autorité organisatrice de la mobilité, de concert avec les services de l’État, y mène une évaluation",
+   "certitude": "probable"
+  }
+ ],
+ "cout_usd": 0.00095151
+}

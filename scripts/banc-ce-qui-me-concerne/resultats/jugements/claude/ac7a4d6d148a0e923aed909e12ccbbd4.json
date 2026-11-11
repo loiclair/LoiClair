@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "elu_local",
+    "raison": "Le texte impose directement aux établissements d’informer le maire de la commune concernée avant la fermeture d’une succursale ; le rôle de maire est explicitement visé.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0003074,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

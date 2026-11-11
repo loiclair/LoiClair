@@ -1,0 +1,31 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etranger_hors_ue",
+    "raison": "Le texte modifie directement la durée des cartes « vie privée et familiale » (1 an devient 4 ans, et 2 ans dans un cas), qui ne sont délivrées qu'à des ressortissants hors UE. La phrase de l'assistant est inexacte : la durée passe à 4 ans dans certains cas (art. 1° et 5°) sans condition liée au conjoint ou aux parents, et le cas du 4° prévoit une durée de 2 ans, pas « un an ».",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "mineur",
+    "raison": "Un enfant de 16 à 18 ans dont un parent est titulaire d'une carte de résident pourrait obtenir une carte de 4 ans, mais seulement s'il remplit les conditions de l'article L. 421-35. L'assistant omet cette condition, ce qui élargit la portée de la mesure.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "jeune",
+    "raison": "Le texte vise les jeunes dont un parent est titulaire d'une carte de résident, pendant l'année suivant leur 18e anniversaire. C'est un sous-groupe des 18-25 ans, et la phrase de l'assistant le reproduit fidèlement.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "marie_pacse"
+  ]
+ },
+ "cout_usd": 0.0021538125,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

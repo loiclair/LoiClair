@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "fonctionnaire",
+    "raison": "L'article vise directement les agents des douanes et des services fiscaux (agents de l'État) habilités à mener des enquêtes judiciaires : il change leurs règles de métier, car ils peuvent désormais communiquer informations et documents aux agents de contrôle, sur autorisation du procureur ou du juge d'instruction.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0025416999999999996,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

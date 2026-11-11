@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "montagne",
+    "raison": "Le texte désigne directement les communes situées en zone de montagne comme bénéficiaires : elles conservent l'eau et l'assainissement sans transfert obligatoire à la communauté de communes. Le lieu de vie est le critère même de la mesure, et l'effet ne dépend pas d'une réaction de l'élu.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "elu_local",
+    "raison": "Le texte donne à « une ou plusieurs communes » de montagne le pouvoir de décider par délibération de retrouver l'eau et l'assainissement, après avis de l'intercommunalité. Ce pouvoir s'exerce par les conseils municipaux, donc par les élus municipaux de ces communes, qui sont directement visés.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000739285,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

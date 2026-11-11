@@ -1,0 +1,14 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "heritier_donateur",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'amendement prolonge de six mois le régime fiscal dérogatoire applicable aux donations de sommes d'argent consenties à des proches de moins de 50 ans."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.008118
+}

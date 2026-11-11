@@ -1,0 +1,28 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "proprietaire_bailleur",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'amendement modifie directement les conditions pour qu'un logement en copropriété soit considéré comme décent, ce qui impacte les obligations du propriétaire bailleur. Le passage cité est exact et la phrase est fidèle au texte."
+   },
+   {
+    "profil": "locataire",
+    "concerne": false,
+    "phrase_fidele": false,
+    "raison": "L'amendement ne modifie pas directement les droits ou obligations du locataire. Le locataire n'est pas visé par le changement de condition pour la décence énergétique, qui concerne uniquement la copropriété et son syndicat. La phrase proposée est donc infidèle car elle suggère un impact direct sur le locataire, ce qui n'est pas le cas."
+   },
+   {
+    "profil": "coproprietaire",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'amendement remplace la condition de vote des travaux par celle de la conclusion d'un contrat de maîtrise d'œuvre par le syndicat des copropriétaires. Cela concerne directement les copropriétaires, car c'est leur assemblée générale (via le syndicat) qui doit agir. Le passage cité est exact et la phrase est fidèle."
+   }
+  ],
+  "oublis": [
+   "meuble_tourisme"
+  ]
+ },
+ "cout_usd": 0.0088425
+}

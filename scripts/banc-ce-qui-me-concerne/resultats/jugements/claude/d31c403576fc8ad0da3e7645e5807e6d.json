@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "mineur",
+    "raison": "L'article 256-4 2° désigne expressément le mineur victime de violences d'un ascendant : sa situation relève du juge des violences sexistes et sexuelles, qui exerce l'autorité parentale à la place du juge aux affaires familiales. La phrase de l'assistant est exacte sur le fond, mais « à sa place » peut laisser croire que le juge remplacerait l'enfant, alors que le texte vise le juge aux affaires familiales.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "parent",
+    "raison": "L'article 256-4 1° confie au juge des violences sexistes et sexuelles les modalités de l'autorité parentale lorsque des violences sont commises au sein du couple ou par un ancien conjoint, en lieu et place du juge aux affaires familiales. Un parent dans cette situation voit directement changer le juge qui fixe ses règles d'autorité parentale. La phrase de l'assistant reprend fidèlement le texte ; « en conflit » est une précision non écrite mais sans fausseté.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0017191349999999999,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

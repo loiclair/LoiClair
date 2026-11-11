@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_agriculture",
+    "raison": "La mesure vise explicitement les associés exploitants d’une société exerçant une activité agricole, sous réserve notamment de bénéficier des aides à l’installation des jeunes agriculteurs.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "imposable",
+    "raison": "Le texte vise certains jeunes agriculteurs associés exploitants, pas les foyers qui paient l’impôt sur le revenu en tant que tels.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0007104,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

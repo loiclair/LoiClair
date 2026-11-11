@@ -1,0 +1,19 @@
+{
+ "impacts": [
+  {
+   "profil": "secteur_artisanat_commerce",
+   "passage": "de manière à assurer une information transparente et claire des commerçants acceptant le paiement par titres‑restaurant",
+   "certitude": "certain",
+   "phrase_en": "Commissions charged on titres-restaurant would be published under rules set by decree, so merchants who accept them get clear information.",
+   "phrase_fr": "Les commissions prélevées sur les titres-restaurant seraient publiées selon des modalités fixées par décret, pour informer clairement les commerçants qui les acceptent."
+  },
+  {
+   "profil": "secteur_hotellerie",
+   "passage": "de manière à assurer une information transparente et claire des commerçants acceptant le paiement par titres‑restaurant",
+   "certitude": "probable",
+   "phrase_en": "Commissions charged on titres-restaurant would be published under rules set by decree, so merchants who accept them get clear information.",
+   "phrase_fr": "Les commissions prélevées sur les titres-restaurant seraient publiées selon des modalités fixées par décret, pour informer clairement les commerçants qui les acceptent."
+  }
+ ],
+ "resume_fr": null
+}

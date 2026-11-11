@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "elu_local",
+    "raison": "Siéger dans un comité consacré à une affaire particulière (Vencorex) ne change pas les règles applicables à un élu local en général (règle 9).",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "syndique",
+    "raison": "Une place dans un comité ponctuel consacré à une entreprise ne change pas les règles applicables à un syndiqué en général (règle 9).",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.01126325,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

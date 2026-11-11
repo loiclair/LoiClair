@@ -1,0 +1,28 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "fonctionnaire",
+    "raison": "Le texte crée un corps de fonctionnaires de catégorie B pour les AESH et nomme fonctionnaires stagiaires les agents non titulaires concernés. Il vise une partie des personnes de ce profil, pas les fonctionnaires en général.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "secteur_education",
+    "raison": "Les mesures portent expressément sur les accompagnants d’élèves en situation de handicap et leur recrutement dans les établissements d’enseignement : elles touchent directement leur métier dans le secteur de l’éducation.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "cdd_interim",
+    "raison": "Le texte vise les AESH non titulaires, mais ne vise pas les personnes parce qu’elles sont en CDD ou en intérim. « Non titulaire » n’est pas synonyme de CDD ou d’intérim.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0018619,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

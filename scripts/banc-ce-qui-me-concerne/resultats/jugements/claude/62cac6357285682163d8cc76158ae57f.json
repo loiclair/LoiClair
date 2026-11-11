@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "imposable",
+    "raison": "L’article étend la réduction d’impôt sur le revenu à certains versements faits aux organismes qu’il désigne : les foyers imposables peuvent donc être directement concernés.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000432025,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

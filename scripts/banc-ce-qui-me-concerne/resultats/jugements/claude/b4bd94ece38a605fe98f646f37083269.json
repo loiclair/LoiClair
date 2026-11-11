@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "outre_mer",
+    "raison": "Le texte vise nommément les collectivités des articles 73 et 74 et la Nouvelle-Calédonie, mais il n'impose rien aux habitants. Il oblige l'État à élaborer un plan dans l'année, et tout effet pour les personnes passe par ce plan et son application, donc indirectement.",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "mineur",
+    "raison": "Le dispositif mentionne les mineurs victimes ou exposés, mais l'unique obligation opérationnelle pèse sur l'État, qui doit élaborer un plan. Les modalités de mise à l'abri et d'accompagnement n'existeront qu'une fois ce plan établi et mis en œuvre, donc l'effet pour les mineurs est indirect.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0007002849999999999,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

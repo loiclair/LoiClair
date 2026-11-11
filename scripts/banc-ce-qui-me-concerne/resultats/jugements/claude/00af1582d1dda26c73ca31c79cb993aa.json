@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "automobiliste",
+    "raison": "La majoration de la taxe régionale est payée par la personne qui immatricule un véhicule en Île-de-France. Le texte fixe 14 € pour mars à décembre 2026, puis 12 € à partir de 2027. Ce profil est donc directement visé.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "grande_ville",
+    "raison": "Le texte se fonde sur la région Île-de-France, non sur la taille de la commune ou de l'agglomération. Le profil grande_ville (plus de 50 000 habitants) n'est pas ce qui déclenche la mesure. La phrase de l'assistant remplace ce critère régional par « l'agglomération parisienne », ce qui n'est pas fidèle au texte.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000582735,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

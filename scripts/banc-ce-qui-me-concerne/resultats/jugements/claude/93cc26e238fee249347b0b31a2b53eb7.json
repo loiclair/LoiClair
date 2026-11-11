@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_culture",
+    "raison": "Le texte vise le statut des publications et donne à certains organismes le droit de saisir l’Arcom ; il ne modifie pas directement les droits ni les obligations des personnes qui travaillent dans la presse, l’édition ou l’audiovisuel.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000474025,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

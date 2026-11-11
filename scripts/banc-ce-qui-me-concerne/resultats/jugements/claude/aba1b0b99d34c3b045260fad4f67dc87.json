@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "jeune",
+    "raison": "Le texte porte de 21 à 25 ans la limite d'âge de l'accompagnement des jeunes sortis de l'aide sociale à l'enfance. Ces personnes, âgées de 21 à 25 ans, entrent dans la définition du catalogue (18 à 25 ans), et la mesure leur donne un droit concret supplémentaire.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000327235,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

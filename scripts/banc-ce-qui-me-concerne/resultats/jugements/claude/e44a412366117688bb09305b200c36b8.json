@@ -1,0 +1,19 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "salarie_prive",
+    "raison": "L'article vise directement « les salariés atteints d'algie vasculaire de la face » et leur ouvre un droit de trente jours d'arrêt de travail par an, sans condition d'ancienneté ni préavis. Le texte désigne la catégorie par sa situation de salarié et de malade, donc l'effet est direct.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "malade_chronique"
+  ]
+ },
+ "cout_usd": 0.000360635,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

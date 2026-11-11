@@ -1,0 +1,12 @@
+{
+ "impacts": [
+  {
+   "profil": "forces_ordre",
+   "phrase_fr": "Les militaires pourraient considérer comme une menace imminente le survol non autorisé d’une installation militaire par un aéronef sans pilote.",
+   "phrase_en": "Military personnel would be able to treat unauthorized flights over military sites by uncrewed aircraft as an imminent threat.",
+   "passage": "le survol sans autorisation, par un aéronef circulant sans personne à bord, d’une zone de défense hautement sensible mentionnée au I de l’article L. 4123‑12 du présent code ou de toute autre emprise affectée à l’autorité militaire ou placée sous son contrôle est regardé comme une menace imminente pour la défense nationale.",
+   "certitude": "probable"
+  }
+ ],
+ "cout_usd": 0.000299725
+}

@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "parent",
+    "raison": "Le texte vise expressément les parents qui ont l'administration légale des biens de leurs enfants mineurs : ces biens s'ajoutent à leur assiette pour la contribution sur les hauts patrimoines.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0048327,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

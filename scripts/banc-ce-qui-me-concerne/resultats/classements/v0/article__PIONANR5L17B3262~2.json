@@ -1,0 +1,26 @@
+{
+ "impacts": [
+  {
+   "profil": "proprietaire_occupant",
+   "passage": "pour toute construction située en zone d’exposition moyenne ou forte au retrait‑gonflement des argiles, sous réserve que le propriétaire ait souscrit une assurance multirisque habitation.",
+   "certitude": "probable",
+   "phrase_en": "Would let a homeowner in a clay shrink-swell zone get fund help to repair or stabilise the home, provided they hold multi-risk home insurance.",
+   "phrase_fr": "Pourrait permettre au propriétaire d'une maison en zone de retrait-gonflement des argiles d'obtenir une aide du fonds pour réparer ou stabiliser son logement, à condition d'avoir une assurance multirisque habitation."
+  },
+  {
+   "profil": "proprietaire_bailleur",
+   "passage": "pour toute construction située en zone d’exposition moyenne ou forte au retrait‑gonflement des argiles, sous réserve que le propriétaire ait souscrit une assurance multirisque habitation.",
+   "certitude": "possible",
+   "phrase_en": "Would let a landlord of a rented home in a clay shrink-swell zone have the fund pay for repair or stabilisation work.",
+   "phrase_fr": "Pourrait permettre au propriétaire d'un logement loué, situé en zone de retrait-gonflement des argiles, de faire financer par le fonds des travaux de réparation ou de stabilisation."
+  },
+  {
+   "profil": "residence_secondaire",
+   "passage": "pour toute construction située en zone d’exposition moyenne ou forte au retrait‑gonflement des argiles, sous réserve que le propriétaire ait souscrit une assurance multirisque habitation.",
+   "certitude": "possible",
+   "phrase_en": "Would open the possibility of fund help for work on a second home owned in a clay shrink-swell zone.",
+   "phrase_fr": "Pourrait ouvrir à un propriétaire d'une résidence secondaire, située en zone de retrait-gonflement des argiles, la possibilité d'une aide du fonds pour ses travaux."
+  }
+ ],
+ "resume_fr": null
+}

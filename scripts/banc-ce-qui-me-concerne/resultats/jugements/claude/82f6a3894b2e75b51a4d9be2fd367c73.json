@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "outre_mer",
+    "raison": "L'amendement vise expressément les résidents de Wallis-et-Futuna, collectivité d'outre-mer, pour l'application du moyen d'identification électronique de santé ; un habitant d'outre-mer est directement visé.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0029857,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

@@ -1,0 +1,19 @@
+{
+ "impacts": [
+  {
+   "profil": "chef_entreprise",
+   "phrase_fr": "Les petites et moyennes entreprises qui installent une propulsion vélique sur leurs navires pourraient bénéficier d'un avantage fiscal plus élevé, majoré de 20 % ou de 30 %.",
+   "phrase_en": "Small and medium businesses that install wind propulsion on their ships would receive a larger tax benefit, increased by 20% or 30%.",
+   "passage": "« b) De 20 % lorsque les coûts sont supportés par des moyennes entreprises au sens de l’annexe I du règlement (UE) n° 651/2014 de la Commission du 17 juin 2014 déclarant certaines catégories d’aides compatibles avec le marché intérieur",
+   "certitude": "certain"
+  },
+  {
+   "profil": "secteur_transport",
+   "phrase_fr": "Les entreprises de transport maritime de marchandises ou de passagers pourraient déduire une part plus importante du coût des équipements véliques installés sur leurs navires.",
+   "phrase_en": "Maritime freight and passenger transport companies would be able to deduct a larger share of the cost of wind propulsion equipment installed on their ships.",
+   "passage": "pour les navires et les bateaux de transport de marchandises ou de passagers ainsi que les navires spéciaux qui sont affectés à leur activité",
+   "certitude": "probable"
+  }
+ ],
+ "cout_usd": 0.00126611
+}

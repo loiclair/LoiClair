@@ -1,0 +1,18 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "parent",
+    "raison": "La suppression des alinéas de l’article L. 521-1 vise les règles de modulation des allocations familiales selon les ressources, ce qui peut modifier le montant versé aux familles ayant des enfants à charge.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "outre_mer"
+  ]
+ },
+ "cout_usd": 0.000886025,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "proprietaire_bailleur",
+    "raison": "Le texte vise les « bailleurs détenteurs d'un lot » dans l'établissement, donc des propriétaires loueurs de locaux d'EHPAD. Le catalogue définit ce profil comme le propriétaire qui loue des logements à l'année, et un lot d'établissement loué à un exploitant n'est pas un logement loué à l'année.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0005075850000000001,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

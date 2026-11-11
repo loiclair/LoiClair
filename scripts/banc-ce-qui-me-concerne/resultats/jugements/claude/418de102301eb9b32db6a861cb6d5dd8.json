@@ -1,0 +1,28 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etranger_hors_ue",
+    "raison": "L’article modifie directement la durée et la délivrance de cartes de séjour pour des étrangers, notamment lorsque leur conjoint ou l’un de leurs parents détient une carte de résident.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "mineur",
+    "raison": "Le texte prévoit une carte de quatre ans pour certains étrangers âgés de 16 à 18 ans, si un parent détient une carte de résident et si les conditions prévues sont remplies.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "jeune",
+    "raison": "La mesure couvre certains étrangers dans l’année suivant leur dix-huitième anniversaire, donc une partie des 18-25 ans.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.001054275,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

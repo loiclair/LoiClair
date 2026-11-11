@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "outre_mer",
+    "raison": "Le texte impose à l’État d’élaborer un plan dans ces territoires, mais ne crée pas directement de droit ou d’obligation pour leurs habitants : leur effet dépendra de la mise en œuvre du plan.",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "mineur",
+    "raison": "Les mineurs victimes ou exposés sont bien le public visé par le plan, mais l’amendement impose seulement son élaboration par l’État ; les effets pour les mineurs dépendront de sa mise en œuvre.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000794525,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

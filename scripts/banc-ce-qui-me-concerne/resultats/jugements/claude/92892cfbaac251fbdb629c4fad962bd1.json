@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "benevole",
+    "raison": "L'article vise les biens d'une association dissoute (liquidation par un curateur, dévolution à une autre personne morale). Il ne crée ni droit, ni obligation, ni dépense pour un bénévole en tant que tel. Le déclencheur est la dissolution de l'association, pas le statut de bénévole, et l'effet ne touche le dirigeant ou le membre bénévole que par l'intermédiaire de l'association.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000695635,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_agriculture",
+    "raison": "L'article fixe des prescriptions générales pour les installations d'élevage et prévoit une stratégie nationale pour l'élevage et l'attractivité du métier d'éleveur : cela change les règles d'exercice du métier d'éleveur.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "chef_entreprise",
+    "raison": "Les installations d'élevage sont exploitées par des éleveurs qui dirigent leur exploitation. La règle d'exploitation de l'installation (prescriptions, plan de modernisation) vise ceux qui l'exploitent (règle 11). Ce sont des exploitations petites ou moyennes, donc chef_entreprise et non grande entreprise.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0045207,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

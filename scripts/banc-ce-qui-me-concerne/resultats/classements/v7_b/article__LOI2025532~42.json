@@ -1,0 +1,12 @@
+{
+ "impacts": [
+  {
+   "profil": "forces_ordre",
+   "phrase_fr": "Policiers et gendarmes menant une infiltration ou une livraison surveillée ne commettent pas d'incitation à l'infraction quand ils poursuivent une infraction déjà engagée, même aggravée.",
+   "phrase_en": "Police and gendarmes running an undercover infiltration or controlled delivery do not commit incitement when continuing an offence already under way, even if it escalates.",
+   "passage": "Ne constituent pas une incitation à commettre une infraction les actes qui contribuent à la poursuite d'une infraction déjà préparée ou débutée au moment où l'autorisation mentionnée au présent article a été accordée par le magistrat compétent",
+   "certitude": "probable"
+  }
+ ],
+ "cout_usd": 0.00080931
+}

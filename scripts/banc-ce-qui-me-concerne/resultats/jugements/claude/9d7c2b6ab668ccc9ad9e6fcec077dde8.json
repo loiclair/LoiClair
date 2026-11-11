@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_industrie",
+    "raison": "L'article impose une obligation technique aux producteurs d'électricité au-delà d'un seuil de puissance, qui doivent mettre leur puissance disponible à la disposition du gestionnaire du réseau. Il s'agit d'une obligation technique de l'entreprise productrice, qui ne change pas la façon d'exercer le métier de l'ensemble du secteur industriel : pas concerné.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00025153500000000005,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

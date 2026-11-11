@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etranger_hors_ue",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article prévoit explicitement la possibilité de relever les empreintes digitales et de prendre des photographies d'un étranger lors d'un contrôle aux frontières ou d'identité, avec une retenue en cas de refus. Cela concerne directement les étrangers hors UE soumis à ces contrôles."
+   }
+  ],
+  "oublis": [
+   "forces_ordre"
+  ]
+ },
+ "cout_usd": 0.011712
+}

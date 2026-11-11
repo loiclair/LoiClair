@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etranger_hors_ue",
+    "raison": "Le dispositif vise directement les étrangers hors UE titulaires d'un document de séjour, en exigeant une année de résidence en France pour les prestations familiales, avec des exceptions pour les réfugiés, les protégés subsidiaires, les apatrides et certains ressortissants ayant l'égalité de traitement.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "parent",
+    "raison": "La mesure est déclenchée par la nationalité et la durée de séjour, pas par la parentalité : un parent français ou européen n'est pas visé. La parentalité n'est que la condition d'accès aux prestations familiales, elle n'est pas ce qui déclenche la restriction.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000784385,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

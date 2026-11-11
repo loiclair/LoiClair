@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "elu_local",
+    "raison": "Le texte précise qui remplace le conseiller communautaire et permet au suppléant de participer avec voix délibérative en son absence, ce qui vise directement les élus locaux.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000197525,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

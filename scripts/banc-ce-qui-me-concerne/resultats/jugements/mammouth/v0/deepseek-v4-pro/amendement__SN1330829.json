@@ -1,0 +1,14 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "outre_mer",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'amendement s'adresse explicitement aux résidents de Wallis-et-Futuna, une collectivité d'outre-mer, pour adapter un dispositif qui leur permet d'avoir un moyen d'identification électronique lors de leurs séjours dans l'Hexagone. C'est un effet direct sur leurs droits."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0023205
+}

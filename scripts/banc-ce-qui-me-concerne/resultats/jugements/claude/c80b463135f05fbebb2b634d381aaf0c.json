@@ -1,0 +1,19 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_sante",
+    "raison": "Le texte écarte l'opposabilité du secret médical lorsque des données AME ou soins urgents sont collectées par un professionnel de santé : cela change directement une obligation professionnelle de ceux qui soignent dans ce secteur.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "etranger_hors_ue"
+  ]
+ },
+ "cout_usd": 0.0029506999999999997,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

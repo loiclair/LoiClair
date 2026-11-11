@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "chef_entreprise",
+    "raison": "L'article impose à l'entrepreneur principal (« l'entrepreneur qui conclut un contrat de sous-traitance est tenu... ») de faire accepter ses sous-traitants quand la part sous-traitée dépasse le tiers : c'est une obligation d'employeur/dirigeant d'entreprise qui sous-traite, directement visé.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "secteur_btp",
+    "raison": "La loi de 1975 sur la sous-traitance, avec le maître de l'ouvrage et les parties de marché, vise les marchés de travaux ; cependant le texte cité ne nomme pas le bâtiment et s'applique à tout entrepreneur principal, et la phrase de l'assistant restreint à tort aux entreprises du BTP.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0030117,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

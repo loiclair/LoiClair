@@ -1,0 +1,47 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "outre_mer",
+    "raison": "Le texte maintient les droits et prestations sociales des assurés résidant à Mayotte, ce qui vise directement les habitants de Mayotte.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "handicap",
+    "raison": "Les droits de la CDAPH (PCH, carte mobilité inclusion, AEEH) sont prolongés de douze mois, ce qui vise directement les personnes en situation de handicap bénéficiaires de ces droits.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "age_dependant",
+    "raison": "L'allocation personnalisée d'autonomie (APA) est expressément citée au 2 a) et ses bénéficiaires âgés en perte d'autonomie voient leur droit prolongé de douze mois.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "parent",
+    "raison": "L'allocation d'éducation de l'enfant handicapé, versée aux parents, est prolongée, et les mesures d'insertion scolaire d'enfants handicapés sont reconduites ; ce sont les parents qui sont directement visés.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "allocataire",
+    "raison": "Les aides personnelles au logement (APL, ALF, ALS) sont visées par la dérogation à l'article L. 822-9, ce qui concerne directement leurs bénéficiaires.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "locataire",
+    "raison": "La dérogation permet de maintenir ou d'accorder les aides au logement même si le locataire loue ou sous-loue une partie du logement à des tiers, ce qui vise directement le locataire qui sous-loue.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.001833185,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

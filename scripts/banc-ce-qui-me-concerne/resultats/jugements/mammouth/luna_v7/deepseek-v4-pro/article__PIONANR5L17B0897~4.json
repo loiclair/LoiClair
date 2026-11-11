@@ -1,0 +1,14 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "heritier_donateur",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article modifie directement les droits de mutation à titre gratuit (règles de taxation, abattement, seuils, abattement de 200 000€), ce qui affecte toute personne qui transmet ou reçoit un patrimoine par donation ou succession."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0027443
+}

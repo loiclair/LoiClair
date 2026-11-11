@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "fonctionnaire",
+    "raison": "Le texte modifie directement les pouvoirs professionnels d’agents des douanes et des finances publiques, qui sont des agents publics, lorsqu’ils mènent des enquêtes judiciaires.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000493775,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

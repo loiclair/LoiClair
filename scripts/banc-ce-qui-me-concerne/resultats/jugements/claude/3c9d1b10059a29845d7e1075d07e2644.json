@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "expat",
+    "raison": "La publication sur les sites des ambassades et des postes consulaires vise directement les Français établis à l’étranger, en leur donnant accès à l’information prévue par le texte.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00133165,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

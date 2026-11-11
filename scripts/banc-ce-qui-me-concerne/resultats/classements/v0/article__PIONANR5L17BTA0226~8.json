@@ -1,0 +1,19 @@
+{
+ "impacts": [
+  {
+   "profil": "mineur",
+   "passage": "Les personnes mineures relevant des 2° et 3° de l’article 375‑3 du code civil peuvent bénéficier à titre personnel de la protection complémentaire dans les conditions définies à l’article L. 861‑3 du présent code.",
+   "certitude": "certain",
+   "phrase_en": "Minors placed in child welfare or with a trusted relative could personally receive complementary health protection.",
+   "phrase_fr": "Les mineurs confiés à l'aide sociale à l'enfance ou à un proche digne de confiance pourraient bénéficier à titre personnel de la protection complémentaire santé."
+  },
+  {
+   "profil": "allocataire",
+   "passage": "Les personnes mineures relevant des 2° et 3° de l’article 375‑3 du code civil peuvent bénéficier à titre personnel de la protection complémentaire dans les conditions définies à l’article L. 861‑3 du présent code.",
+   "certitude": "probable",
+   "phrase_en": "Placed minors could receive the solidarity health complement in their own name.",
+   "phrase_fr": "Les mineurs placés pourraient percevoir la complémentaire santé solidaire en leur nom propre."
+  }
+ ],
+ "resume_fr": null
+}

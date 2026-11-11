@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "expat",
+    "raison": "Le texte modifie une procédure de délimitation électorale et de consultation des conseils consulaires ; il ne change pas directement les droits, obligations ou démarches des Français établis à l’étranger.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000335025,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "elu_local",
+    "raison": "Le président de l'agglomération et les maires concernés siègent dans un comité créé pour une seule entreprise, Vencorex. Cela ne change pas les règles qui s'appliquent aux élus locaux en général (règle 9).",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "syndique",
+    "raison": "Les représentants des organisations syndicales de Vencorex France siègent dans un comité consacré à cette seule entreprise. Cela ne change pas les règles applicables aux syndiqués ou aux élus du CSE en général (règle 9).",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0007539125,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

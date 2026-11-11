@@ -1,0 +1,33 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "salarie_prive",
+    "raison": "Le régime vise les personnes des articles L. 311-2 et L. 311-3 (salariés) et la moitié de la cotisation (plafonnée à 2 % de la rémunération) est à leur charge : cela change directement leur cotisation et leur future retraite.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "chef_entreprise",
+    "raison": "Le texte répartit les cotisations à parts égales entre employeurs et salariés : c'est une obligation imposée à tout employeur, donc aux dirigeants de PME.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "dirigeant_grande_entreprise",
+    "raison": "L'obligation de cotiser pour moitié vise tout employeur, grandes entreprises comprises.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "retraite",
+   "senior",
+   "fonctionnaire"
+  ]
+ },
+ "cout_usd": 0.0044137,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etudiant",
+    "raison": "L'article fixe l'ordre de priorité des aides aux études (bourses) et du logement étudiant, qui relèvent directement de l'étudiant. La mesure vise la catégorie elle-même, par son statut, et change ses droits financiers.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "etranger_hors_ue",
+    "raison": "La priorité est fondée sur la nationalité : les ressortissants hors UE et hors EEE passent après les Français, les ressortissants de l'UE et de l'EEE, sauf accord d'accueil avec leur pays. La mesure désigne directement ce groupe par sa nationalité, ce qui la déclenche.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000712785,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

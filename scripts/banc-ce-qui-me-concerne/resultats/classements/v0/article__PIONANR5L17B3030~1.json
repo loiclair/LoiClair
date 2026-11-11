@@ -1,0 +1,26 @@
+{
+ "impacts": [
+  {
+   "profil": "parent",
+   "passage": "Les établissements d’enseignement du premier et du second degré, publics et privés sous contrat, sont tenus d’équiper l’ensemble de leurs locaux accueillant des élèves d’un système de climatisation active garantissant une température intérieure maximale définie par décret.",
+   "certitude": "probable",
+   "phrase_en": "Parents of pupils would see their children's classrooms equipped with air conditioning that keeps temperatures below a maximum set by decree.",
+   "phrase_fr": "Les parents d'élèves pourraient voir les salles de classe de leurs enfants équipées d'une climatisation à température maximale fixée par décret."
+  },
+  {
+   "profil": "mineur",
+   "passage": "Cette obligation s’applique à l’ensemble des salles de classe, des salles de restauration, des salles d’activités physiques couvertes et des locaux administratifs accueillant du public.",
+   "certitude": "probable",
+   "phrase_en": "Pupils would study and eat in classrooms, canteens and covered sports halls that are air-conditioned to a maximum temperature set by decree.",
+   "phrase_fr": "Les élèves pourraient travailler dans des salles de classe, de restauration et de sport climatisées, à température maximale fixée par décret."
+  },
+  {
+   "profil": "secteur_education",
+   "passage": "Les établissements d’enseignement du premier et du second degré, publics et privés sous contrat, sont tenus d’équiper l’ensemble de leurs locaux accueillant des élèves d’un système de climatisation active",
+   "certitude": "possible",
+   "phrase_en": "Schools and colleges would have to install air conditioning in their premises, with technical requirements set by ministerial order.",
+   "phrase_fr": "Les écoles et collèges pourraient être tenus d'installer une climatisation dans leurs locaux, avec des caractéristiques techniques fixées par arrêté."
+  }
+ ],
+ "resume_fr": null
+}

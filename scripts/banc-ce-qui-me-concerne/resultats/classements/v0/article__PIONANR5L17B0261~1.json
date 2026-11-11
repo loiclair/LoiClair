@@ -1,0 +1,26 @@
+{
+ "impacts": [
+  {
+   "profil": "etudiant",
+   "passage": "L’aide servie est attribuée par priorité aux étudiants possédant la nationalité française, ou d’un État membre de l’Union européenne, ou d’un État partie à l’accord sur l’Espace économique européen",
+   "certitude": "certain",
+   "phrase_en": "Student grants and housing would be allocated by nationality priority, with French students first, then EU and EEA nationals, then others.",
+   "phrase_fr": "Les bourses et logements étudiants seraient attribués en priorité selon la nationalité : les Français passeraient avant les autres, puis les ressortissants de l'UE et de l'EEE."
+  },
+  {
+   "profil": "etranger_ue",
+   "passage": "L’aide servie est attribuée par priorité aux étudiants possédant la nationalité française, ou d’un État membre de l’Union européenne, ou d’un État partie à l’accord sur l’Espace économique européen",
+   "certitude": "certain",
+   "phrase_en": "EU and EEA student nationals would be served after French students but before other foreign students.",
+   "phrase_fr": "Les étudiants ressortissants de l'UE ou de l'EEE seraient servis après les Français, mais avant les autres étudiants étrangers."
+  },
+  {
+   "profil": "etranger_hors_ue",
+   "passage": "puis d’un État avec lequel un accord ou une convention en matière d’accueil des étudiants est en vigueur.",
+   "certitude": "certain",
+   "phrase_en": "Students from non-EU countries would be served last, and only if France has a student-reception agreement with their country.",
+   "phrase_fr": "Les étudiants venus de pays hors UE seraient servis en dernier, et seulement si un accord d'accueil d'étudiants lie la France à leur pays."
+  }
+ ],
+ "resume_fr": null
+}

@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "marie_pacse",
+    "raison": "L'amendement ajoute aux VIF les violations d'ordonnance de protection commises par un conjoint. La qualité de conjoint (marié ou pacsé) est le critère qui déclenche la qualification, donc une personne mariée ou pacsée auteure ou victime de ces violations est directement visée.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "separe_divorce",
+    "raison": "L'amendement vise expressément les violations commises par un ancien conjoint. Une personne divorcée ou séparée qui est l'ancien conjoint de l'auteur ou de la victime est donc directement concernée par la qualification en VIF.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.001096535,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

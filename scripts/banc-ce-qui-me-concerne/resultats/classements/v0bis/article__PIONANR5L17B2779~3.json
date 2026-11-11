@@ -1,0 +1,19 @@
+{
+ "impacts": [
+  {
+   "profil": "fumeur",
+   "phrase_fr": "Les emballages des produits contenant de la nicotine pourraient changer de dimensions, de couleurs et de matériaux, avec des avertissements sanitaires.",
+   "phrase_en": "The packaging of nicotine products would change in size, colours and materials, with health warnings.",
+   "passage": "Les dimensions, couleurs, matériaux et caractéristiques précises des conditionnements",
+   "certitude": "probable"
+  },
+  {
+   "profil": "secteur_industrie",
+   "phrase_fr": "Les fabricants de produits nicotinés pourraient devoir adapter leurs emballages et la présentation de leurs cigarettes électroniques jetables, rechargeables ou préremplies.",
+   "phrase_en": "Manufacturers of nicotine products would have to adapt their packaging and the presentation of disposable, rechargeable or prefilled e-cigarettes.",
+   "passage": "Les règles encadrant la présentation des dispositifs rechargeables et jetables ainsi que des cartouches préremplies.",
+   "certitude": "possible"
+  }
+ ],
+ "cout_usd": 0.00076005
+}

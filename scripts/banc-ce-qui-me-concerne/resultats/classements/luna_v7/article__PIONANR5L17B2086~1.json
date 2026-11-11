@@ -1,0 +1,12 @@
+{
+ "impacts": [
+  {
+   "profil": "mineur",
+   "phrase_fr": "Le délai pour engager des poursuites pour certaines infractions commencerait à courir lorsque vous révéleriez les faits à une autorité, si vous étiez mineur au moment des faits.",
+   "phrase_en": "The time limit for prosecuting certain offences would start when you reported the facts to an authority, if you were a minor when they occurred.",
+   "passage": "lorsqu’elles sont commises soit sur une personne mineure au moment des faits",
+   "certitude": "certain"
+  }
+ ],
+ "cout_usd": 0.000252225
+}

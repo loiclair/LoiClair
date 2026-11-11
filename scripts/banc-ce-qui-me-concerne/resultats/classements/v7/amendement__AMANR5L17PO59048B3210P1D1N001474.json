@@ -1,0 +1,17 @@
+{
+ "resume_fr": "Ajouterait une dérogation pour jeunes agriculteurs aidés à l'installation, associés depuis moins de deux ans d'une société agricole : plus-value calculée sur le chiffre d'affaires moyen des deux exercices précédents.",
+ "resume_en": "Would add an exception for young farmers receiving installation aid, partners of a farm company under two years old: gain calculated on average turnover of the two previous years.",
+ "impacts": [
+  {
+   "profil": "secteur_agriculture",
+   "passage": "Lorsque le contribuable devient associé exploitant au sein d’une société exerçant une activité agricole depuis moins de vingt-quatre mois à la date de la cession générant une plus-value, et qu’il justifie de l’octroi des aides à l’installation des jeunes agriculteurs mentionnées au I de l’article 73 B",
+   "certitude": "certain"
+  },
+  {
+   "profil": "imposable",
+   "passage": "la fraction des plus-values qui lui revient est appréciée, pour l’application du présent article, en tenant compte de la moyenne des chiffres d’affaires des deux exercices précédents",
+   "certitude": "probable"
+  }
+ ],
+ "cout_usd": 0.00149307
+}

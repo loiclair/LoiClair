@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "imposable",
+    "raison": "L’article 200 du code général des impôts étend la réduction d’impôt pour dons aux versements faits aux organismes visés ; cela concerne directement les contribuables qui paient l’impôt sur le revenu et effectuent de tels dons.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000481525,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

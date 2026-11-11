@@ -1,0 +1,26 @@
+{
+ "impacts": [
+  {
+   "profil": "parent",
+   "passage": "I. – Le code de la sécurité sociale est ainsi modifié : 1° Les troisième, cinquième et dernier alinéas de l'article L. 521-1 sont supprimés ;",
+   "certitude": "probable",
+   "phrase_en": "Family allowances would no longer be reduced according to household income, changing the amounts paid to eligible families.",
+   "phrase_fr": "Les allocations familiales ne seraient plus réduites selon les revenus du foyer, ce qui changerait les sommes versées aux familles concernées."
+  },
+  {
+   "profil": "famille_nombreuse",
+   "passage": "I. – Le code de la sécurité sociale est ainsi modifié : 1° Les troisième, cinquième et dernier alinéas de l'article L. 521-1 sont supprimés ;",
+   "certitude": "probable",
+   "phrase_en": "Families with three or more children would no longer see their family allowances reduced based on income.",
+   "phrase_fr": "Les familles d’au moins trois enfants ne verraient plus leurs allocations familiales baisser en fonction de leurs revenus."
+  },
+  {
+   "profil": "outre_mer",
+   "passage": "2° Le second alinéa de l’article L. 755‑12 est supprimé.",
+   "certitude": "possible",
+   "phrase_en": "In the territories concerned, family allowances would no longer be reduced according to income under the local rules.",
+   "phrase_fr": "Dans les territoires concernés, les allocations familiales ne seraient plus réduites selon les revenus, selon les règles locales du code."
+  }
+ ],
+ "resume_fr": null
+}

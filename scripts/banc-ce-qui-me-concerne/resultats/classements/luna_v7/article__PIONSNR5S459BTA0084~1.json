@@ -1,0 +1,12 @@
+{
+ "impacts": [
+  {
+   "profil": "pompier_volontaire",
+   "phrase_fr": "L’autorité territoriale établirait une fiche d’exposition pour chaque sapeur-pompier volontaire exposé lors d’une intervention présentant un risque lié à certains agents dangereux.",
+   "phrase_en": "The local authority would prepare an exposure record for each volunteer firefighter exposed during an intervention involving a risk from certain hazardous agents.",
+   "passage": "pour chaque sapeur-pompier professionnel ou volontaire exposé",
+   "certitude": "certain"
+  }
+ ],
+ "cout_usd": 0.000123475
+}

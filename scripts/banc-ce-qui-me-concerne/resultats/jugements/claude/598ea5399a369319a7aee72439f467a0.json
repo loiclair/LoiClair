@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "aidant",
+    "raison": "Le texte vise les tuteurs et curateurs (dont des proches) : le juge pourrait désigner à l'avance un remplaçant, qui devrait informer et accomplir des formalités. La définition du catalogue inclut ceux qui exercent une mesure de protection juridique (tutelle, curatelle).",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0026477,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

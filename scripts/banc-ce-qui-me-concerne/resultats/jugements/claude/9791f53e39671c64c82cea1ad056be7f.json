@@ -1,0 +1,41 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "mineur",
+    "raison": "L'article fixe un âge minimal de 18 ans, qui écarte les mineurs d'un droit nouveau. Cette exclusion ne change rien pour eux, car le droit n'existait pas encore.",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "jeune",
+    "raison": "Le seuil de 18 ans est un critère d'âge adulte commun à tous les majeurs. Le texte ne vise pas les 18-25 ans en tant que tels, et la règle ne les distingue pas des autres adultes.",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "etranger_hors_ue",
+    "raison": "L'alternative « nationalité française ou résidence stable et régulière en France » ouvre l'accès aux non-Français, dont les étrangers hors UE titulaires d'un titre de séjour. Ils doivent satisfaire à la condition de résidence pour être éligibles.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "etranger_ue",
+    "raison": "Même alternative : un ressortissant de l'UE résidant en France n'a pas la nationalité française et doit remplir la condition de résidence stable et régulière pour être éligible.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "malade_chronique",
+    "raison": "Le texte vise une affection grave et incurable qui engage le pronostic vital, en phase avancée ou terminale. La définition stricte de malade_chronique exclut ce cas, qui n'est pas une maladie chronique suivie par des soins réguliers.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.001546285,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

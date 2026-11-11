@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "locataire",
+    "raison": "Le texte oblige le bailleur à fournir un logement au confort thermique minimal en été et ouvre au locataire le droit de demander des protections solaires et un brasseur d'air. La mesure le vise directement par son statut de locataire.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "proprietaire_bailleur",
+    "raison": "L'obligation pèse directement sur le bailleur (« Le bailleur est tenu… », « le bailleur installe… »), qui loue à l'année. Le texte ne passe pas par un tiers.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000346685,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

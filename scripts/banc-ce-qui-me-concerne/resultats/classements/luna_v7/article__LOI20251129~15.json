@@ -1,0 +1,33 @@
+{
+ "impacts": [
+  {
+   "profil": "locataire",
+   "phrase_fr": "Vous pourriez louer un logement meublé dans une résidence à vocation d'emploi pour une durée d'une semaine à dix-huit mois.",
+   "phrase_en": "You could rent furnished accommodation in an employment-oriented residence for one week to eighteen months.",
+   "passage": "loués pour une durée d'une semaine à dix-huit mois",
+   "certitude": "certain"
+  },
+  {
+   "profil": "etudiant",
+   "phrase_fr": "Vous pourriez louer un logement dans une résidence à vocation d'emploi si vous suivez des études supérieures.",
+   "phrase_en": "You could rent accommodation in an employment-oriented residence if you are pursuing higher education.",
+   "passage": "suivre des études supérieures",
+   "certitude": "certain"
+  },
+  {
+   "profil": "apprenti_alternant",
+   "phrase_fr": "Vous pourriez louer un logement dans une résidence à vocation d'emploi si vous êtes en formation professionnelle ou en contrat d'apprentissage.",
+   "phrase_en": "You could rent accommodation in an employment-oriented residence if you are in vocational training or an apprenticeship.",
+   "passage": "être en formation professionnelle, en contrat d'apprentissage",
+   "certitude": "certain"
+  },
+  {
+   "profil": "benevole",
+   "phrase_fr": "Vous pourriez louer un logement dans une résidence à vocation d'emploi si vous êtes engagé volontairement dans un service civique.",
+   "phrase_en": "You could rent accommodation in an employment-oriented residence if you are serving as a volunteer in civic service.",
+   "passage": "en engagement volontaire dans le cadre d'un service civique prévu au II de l'article L. 120-1 du code du service national",
+   "certitude": "certain"
+  }
+ ],
+ "cout_usd": 0.00042635
+}

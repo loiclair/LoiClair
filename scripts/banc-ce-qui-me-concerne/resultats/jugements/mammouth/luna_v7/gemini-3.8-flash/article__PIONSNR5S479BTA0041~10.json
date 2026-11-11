@@ -1,0 +1,20 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "heritier_donateur",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article réduit de trente à quinze ans le délai au terme duquel un bien issu d'une succession sans héritier s'étant présenté peut être incorporé dans le domaine communal, avec application rétroactive aux successions ouvertes depuis 2007."
+   },
+   {
+    "profil": "elu_local",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article ouvre un droit direct pour le maire ou le président d'EPCI d'obtenir des données de l'administration fiscale pour mener la procédure d'acquisition de biens sans maître."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00814575
+}

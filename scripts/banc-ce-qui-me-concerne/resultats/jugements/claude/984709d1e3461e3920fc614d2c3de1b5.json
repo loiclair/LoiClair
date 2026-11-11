@@ -1,0 +1,31 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "fonctionnaire",
+    "raison": "Le texte vise la liquidation de la pension des fonctionnaires, magistrats et militaires relevant du code des pensions civiles et militaires, avec un coefficient de majoration territorial. Le fonctionnaire est directement visé.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "outre_mer",
+    "raison": "Le dispositif ne s'applique qu'aux personnels justifiant d'une résidence effective en Nouvelle-Calédonie, à Wallis-et-Futuna ou en Polynésie française : le lieu de vie déclenche la mesure.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "retraite",
+    "raison": "Le texte porte sur le calcul de la pension au moment de la liquidation, donc des agents qui partent à la retraite et non de personnes déjà retraitées (règle 8). Le profil retraite vise les retraités actuels.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": [
+   "forces_ordre"
+  ]
+ },
+ "cout_usd": 0.0044487,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

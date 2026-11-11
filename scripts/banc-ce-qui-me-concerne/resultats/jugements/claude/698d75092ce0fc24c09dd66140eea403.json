@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "fonctionnaire",
+    "raison": "Le texte accorde la protection aux proches de l’agent public, pas à l’agent lui-même. Être fonctionnaire ne suffit donc pas à être visé directement.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000283025,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

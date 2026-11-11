@@ -1,0 +1,14 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "automobiliste",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article introduit une majoration spécifique du tarif régional pour l'immatriculation des véhicules en Île-de-France, ce qui concerne directement les automobilistes de cette région. Le passage cité est exact et la phrase reflète fidèlement le texte."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0069585
+}

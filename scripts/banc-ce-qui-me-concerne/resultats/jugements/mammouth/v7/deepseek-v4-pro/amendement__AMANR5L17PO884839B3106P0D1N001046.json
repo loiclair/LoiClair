@@ -1,0 +1,14 @@
+{
+ "jugement": {
+  "oublis": [],
+  "profils": [
+   {
+    "concerne": true,
+    "phrase_fidele": true,
+    "profil": "etranger_hors_ue",
+    "raison": "L'amendement modifie le CESEDA, et notamment le livre IV qui ne s'applique qu'aux étrangers non-UE (hors citoyens de l'UE). La mesure vise donc directement ce profil. La déduction est 'probable' car l'exclusion des citoyens de l'UE résulte du champ d'application du livre IV, que le texte ne rappelle pas explicitement, mais qui est certain pour un juriste. La phrase est fidèle : 'Ajouterait une autorisation provisoire de séjour d'un an, renouvelable, pour les étrangers victimes de violences sexuelles sans plainte déposée, avec droit de travailler.' Le conditionnel est correct car l'amendement n'est pas adopté définitivement."
+   }
+  ]
+ },
+ "cout_usd": 0.0016039146
+}

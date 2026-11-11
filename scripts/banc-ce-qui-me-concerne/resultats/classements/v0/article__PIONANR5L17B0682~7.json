@@ -1,0 +1,19 @@
+{
+ "impacts": [
+  {
+   "profil": "corse",
+   "passage": "Un décret, pris après avis de l’Assemblée de Corse, détermine les modalités d’application du même II en établissant le calendrier de la mise en place progressive d’un centre hospitalier régional puis d’un centre hospitalier universitaire au sein du chef‐lieu de la collectivité de Corse.",
+   "certitude": "certain",
+   "phrase_en": "Corsica's main town would progressively get a regional hospital and then a university hospital, on a timetable set by decree after the Corsican Assembly's opinion.",
+   "phrase_fr": "La Corse verrait son chef-lieu accueillir progressivement un centre hospitalier régional puis universitaire, selon un calendrier fixé par décret après avis de l'Assemblée de Corse."
+  },
+  {
+   "profil": "etudiant",
+   "passage": "Les unités de formation et de recherche en santé proposent dans chaque département des enseignements correspondant au minimum à la première année du premier cycle des formations de médecine, de pharmacie, d’odontologie et de maïeutique",
+   "certitude": "probable",
+   "phrase_en": "Health faculties would have to offer first-year medicine, pharmacy, dentistry or midwifery courses in every department.",
+   "phrase_fr": "Les facultés de santé devraient proposer dans chaque département la première année de médecine, pharmacie, odontologie ou maïeutique."
+  }
+ ],
+ "resume_fr": null
+}

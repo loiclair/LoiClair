@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "veuf",
+    "raison": "Le texte vise le conjoint survivant d'un fonctionnaire ou militaire décédé : majoration forfaitaire et maintien d'un an dans le logement de fonction. Le profil veuf est directement visé.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "forces_ordre",
+    "raison": "Le texte vise le conjoint survivant d'un militaire décédé, pas le militaire en activité. Le profil forces_ordre désigne policier, gendarme ou militaire, or l'effet atteint un survivant, pas eux.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0027476999999999996,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

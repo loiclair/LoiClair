@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "forces_ordre",
+    "raison": "Le texte vise directement les agents de police municipale, qui deviendraient la police territoriale, et élargit leurs pouvoirs de constatation par procès-verbal aux contraventions du code de la route et de certaines contraventions du code pénal. Ce sont des policiers, et leur métier change.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000607935,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "independant",
+    "raison": "Le texte modifie la durée de formation des certificateurs d'informations de durabilité sans préciser leur mode d'exercice. Rien n'indique qu'ils exercent en libéral, donc le profil indépendant n'est pas visé en tant que tel (règle 7).",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0041757,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

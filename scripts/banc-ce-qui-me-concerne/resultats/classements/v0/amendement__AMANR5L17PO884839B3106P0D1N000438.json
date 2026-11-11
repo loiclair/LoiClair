@@ -1,0 +1,20 @@
+{
+ "impacts": [
+  {
+   "profil": "etranger_hors_ue",
+   "passage": "avant l’âge de dix-huit ans se voit délivrer de plein droit une carte de séjour temporaire portant la mention « vie privée et familiale » d’une durée de quatre ans, sans que soit opposable la condition prévue à l’article L. 412‑1.",
+   "certitude": "certain"
+  },
+  {
+   "profil": "mineur",
+   "passage": "avant l’âge de dix-huit ans se voit délivrer de plein droit une carte de séjour temporaire portant la mention « vie privée et familiale » d’une durée de quatre ans",
+   "certitude": "certain"
+  },
+  {
+   "profil": "jeune",
+   "passage": "avant l’âge de dix-huit ans se voit délivrer de plein droit une carte de séjour temporaire portant la mention « vie privée et familiale » d’une durée de quatre ans, sans que soit opposable la condition prévue à l’article L. 412‑1.",
+   "certitude": "probable"
+  }
+ ],
+ "resume_fr": "Délivrerait de plein droit une carte de séjour de quatre ans aux jeunes étrangers confiés à l'Aide sociale à l'enfance avant 18 ans, sans exiger de visa."
+}

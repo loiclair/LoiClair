@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "chef_entreprise",
+    "raison": "L'article impose à l'entrepreneur principal, c'est-à-dire l'entreprise qui sous-traite, de faire accepter ses sous-traitants au maître de l'ouvrage et au donneur d'ordre dès que la part sous-traitée dépasse un tiers du contrat. L'obligation pèse directement sur le dirigeant d'une entreprise qui sous-traite.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "secteur_btp",
+    "raison": "L'article modifie la loi de 1975 sur la sous-traitance, qui encadre les marchés de travaux. Les notions de maître de l'ouvrage et de marché désignent la construction, et la mesure change les obligations des entreprises du bâtiment et des travaux publics lorsqu'elles sous-traitent.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000771085,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

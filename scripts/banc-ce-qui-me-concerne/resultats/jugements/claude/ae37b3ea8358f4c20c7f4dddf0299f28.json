@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_culture",
+    "raison": "Non concerné : la présomption porte sur la qualification des publications pour l'accès aux droits voisins, et son effet passe par les éditeurs et agences (entreprises), pas directement par les personnes qui travaillent dans la presse. Le texte ne mentionne ni journalistes ni salariés.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000341435,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

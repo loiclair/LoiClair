@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etudiant",
+    "raison": "L'article modifie l'article L. 632-5 du code de l'éducation, qui encadre les stages des étudiants en médecine. Ajouter les maisons de santé aux lieux de stage change directement où ces étudiants peuvent se former. Le texte n'est pas adopté, d'où le conditionnel.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000379685,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

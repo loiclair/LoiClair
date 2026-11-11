@@ -1,0 +1,26 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "forces_ordre",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article donne expressément de nouvelles prérogatives aux agents chargés des contrôles d'identité et de frontières pour relever les empreintes et prendre des photographies lors d'un signalement dans les fichiers européens."
+   },
+   {
+    "profil": "etranger_ue",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "Les dispositions du code de l'entrée et du séjour des étrangers et du droit d'asile (CESEDA) et du système Schengen s'appliquent à tout étranger contrôlé, y compris les ressortissants européens, qui s'exposent à une retenue et des sanctions en cas de refus de relevé biométrique."
+   },
+   {
+    "profil": "etranger_hors_ue",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "Les vérifications biométriques dans le cadre du CESEDA, du système d'information sur les visas (VIS) et du système d'entrée/sortie (EES) visent expressément et au premier chef les ressortissants de pays tiers."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.01232325
+}

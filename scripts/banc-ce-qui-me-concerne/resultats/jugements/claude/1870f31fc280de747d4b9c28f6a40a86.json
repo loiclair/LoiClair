@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "outre_mer",
+    "raison": "Le texte ne vise les habitants d'outre-mer qu'indirectement : il fixe une méthode de classement des communes des collectivités de l'article 73 pour la taxe sur les logements vacants. La personne n'est touchée que si elle possède un logement vacant dans une commune classée, et le décret fixe une méthodologie, sans changer ce qu'un habitant paie ou peut faire.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000858135,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

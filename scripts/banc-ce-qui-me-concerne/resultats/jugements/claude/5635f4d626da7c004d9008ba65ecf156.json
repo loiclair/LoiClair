@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_education",
+    "raison": "L’article modifie les règles disciplinaires de l’enseignement supérieur agricole public et permet la suspension de ses personnels.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000485275,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

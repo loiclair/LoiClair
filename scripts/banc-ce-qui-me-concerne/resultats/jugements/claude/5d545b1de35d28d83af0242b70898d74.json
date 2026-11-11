@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_culture",
+    "raison": "Le II modifie le point de départ du délai de la loi de 1949 sur les publications destinées à la jeunesse, qui vise directement les éditeurs de ces publications. Le I allonge aussi la prescription des délits de presse lorsque le moyen est destiné à un public mineur. Cela touche les obligations professionnelles de la presse et de l'édition.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0059616999999999995,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

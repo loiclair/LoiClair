@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "marie_pacse",
+    "raison": "Le texte vise les violations d'ordonnance de protection commises par un conjoint, mais le profil qui déclenche la mesure est l'auteur de violences ou la victime, pas la situation de couple (règle 7). Un lecteur marié ou pacsé n'est pas visé en tant que tel.",
+    "concerne": false,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "separe_divorce",
+    "raison": "La mention de l'ancien conjoint décrit la relation entre auteur et victime, pas le statut de personne séparée ou divorcée. Ce statut ne déclenche pas la mesure, qui vise les violations d'ordonnance de protection (règle 7).",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0033206999999999998,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

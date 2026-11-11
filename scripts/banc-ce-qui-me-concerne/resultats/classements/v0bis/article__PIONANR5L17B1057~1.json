@@ -1,0 +1,33 @@
+{
+ "impacts": [
+  {
+   "profil": "automobiliste",
+   "phrase_fr": "Dans certaines zones où les transports alternatifs ne sont pas plus d'une fois et demie plus longs qu'en voiture, les restrictions de la zone à faibles émissions ne s'appliqueraient pas.",
+   "phrase_en": "In some areas where alternatives take no more than one and a half times the car journey time, low-emission zone restrictions would not apply.",
+   "passage": "Dans le cas contraire, les restrictions de déplacement applicables au sein de la zone à faibles émissions mobilité ne s’y appliquent pas, on parle alors de zones à faibles émissions en devenir.",
+   "certitude": "possible"
+  },
+  {
+   "profil": "cycliste",
+   "phrase_fr": "Les infrastructures pour le vélo et la marche seraient priorisées, avec les transports en commun, dans les zones à faibles émissions mobilité.",
+   "phrase_en": "Cycling and walking infrastructure, along with public transport, would be prioritised in mobility low-emission zones.",
+   "passage": "Sur la base de l’évaluation mentionnée au sixième alinéa du présent I, les travaux de développement d’infrastructures de transport en commun ainsi que de mobilités actives sont priorisées",
+   "certitude": "probable"
+  },
+  {
+   "profil": "usager_transports",
+   "phrase_fr": "Les infrastructures de transport en commun seraient priorisées dans les zones à faibles émissions mobilité, sur la base d'une évaluation des temps de trajet.",
+   "phrase_en": "Public transport infrastructure would be prioritised in mobility low-emission zones, based on an assessment of travel times.",
+   "passage": "Sur la base de l’évaluation mentionnée au sixième alinéa du présent I, les travaux de développement d’infrastructures de transport en commun ainsi que de mobilités actives sont priorisées",
+   "certitude": "probable"
+  },
+  {
+   "profil": "grande_ville",
+   "phrase_fr": "Les zones à faibles émissions mobilité seraient évaluées au moment de leur mise en place, et certaines pourraient ne pas appliquer leurs restrictions.",
+   "phrase_en": "Mobility low-emission zones would be assessed when set up, and some could leave out their restrictions.",
+   "passage": "Au cours de l’instauration d’une zone à faibles émissions mobilité, l’autorité organisatrice de la mobilité, de concert avec les services de l’État, y mène une évaluation",
+   "certitude": "probable"
+  }
+ ],
+ "cout_usd": 0.00193335
+}

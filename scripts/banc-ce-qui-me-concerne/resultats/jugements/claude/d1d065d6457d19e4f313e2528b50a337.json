@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "proprietaire_bailleur",
+    "raison": "La modification impose que les raisons rendant les travaux impossibles soient attestées, ce qui touche directement le bailleur soumis à l’obligation de décence énergétique.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "locataire",
+    "raison": "L’exposé précise que l’attestation écrite sécurise le locataire, qui pourra la réclamer.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000452525,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

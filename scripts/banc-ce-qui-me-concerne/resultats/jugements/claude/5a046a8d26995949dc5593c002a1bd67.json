@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "chef_entreprise",
+    "raison": "Le texte distingue les moyennes et petites entreprises (majorations de 20 % et 30 %), qui correspondent à la définition de chef_entreprise. La déduction de 100 % vaut pour toute entreprise exploitant des navires, mais la phrase de l'assistant l'attribue à tort aux seules PME.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "secteur_transport",
+    "raison": "L'article vise explicitement les navires et bateaux de transport de marchandises ou de passagers, avec une incitation fiscale qui finance leur équipement vélique. Le secteur est donc visé directement, et non par ricochet.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000926085,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

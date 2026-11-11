@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etranger_hors_ue",
+    "raison": "Le texte vise « l'étranger » contrôlé aux frontières ou en séjour : relevé d'empreintes et photographies (VIS, EES), retenue en cas de refus, sanction pénale du refus. Il ne distingue pas ressortissants UE et hors UE, mais les systèmes VIS/EES visent les ressortissants de pays tiers, et le CESEDA s'applique aux étrangers, donc le profil est visé.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0073127,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

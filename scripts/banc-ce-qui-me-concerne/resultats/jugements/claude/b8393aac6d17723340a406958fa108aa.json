@@ -1,0 +1,25 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "handicap",
+    "raison": "L'article crée une procédure d'évaluation simplifiée pour « la personne handicapée » : éligibilité seule à la reconnaissance de travailleur handicapé ou à la carte mobilité inclusion, sans plan de compensation. Il vise donc directement ce profil.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "parent",
+    "raison": "Le passage supprime la restriction aux « mineurs » atteints d'une maladie ou d'un handicap grave. Il ne vise donc pas les parents en tant que tels, et la règle vaut désormais au-delà des enfants. Le profil n'est pas ce qui déclenche la mesure.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": [
+   "age_dependant"
+  ]
+ },
+ "cout_usd": 0.0093927,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

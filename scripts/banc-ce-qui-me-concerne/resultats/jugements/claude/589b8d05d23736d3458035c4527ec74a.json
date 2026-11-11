@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "veuf",
+    "raison": "Le conjoint survivant est une personne veuve, et c'est sa situation de veuvage qui déclenche les droits prévus : majoration forfaitaire (I) et maintien d'un an dans le logement de fonction (II). Concerné, même si la mesure est limitée aux veufs d'un agent logé par fonction.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "forces_ordre",
+    "raison": "Le texte vise le militaire décédé, pas un militaire vivant. Le lecteur concerné est le conjoint survivant, qui relève de veuf et non de forces_ordre. Un militaire vivant n'est pas touché par ces dispositions.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0006673849999999999,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

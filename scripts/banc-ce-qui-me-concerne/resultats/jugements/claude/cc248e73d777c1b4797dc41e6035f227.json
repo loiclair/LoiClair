@@ -1,0 +1,38 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "fonctionnaire",
+    "raison": "Le 1° du I modifie l'article L. 131-1 du code général de la fonction publique, qui interdit les discriminations envers les agents publics. L'allaitement y est ajouté, ce qui protège directement les fonctionnaires.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "salarie_prive",
+    "raison": "Le III 1° ajoute l'allaitement à l'article L. 1132-1 du code du travail, qui protège tous les salariés contre les discriminations. La mesure touche directement les salariés du privé.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "outre_mer",
+    "raison": "Le V ne vise que les fonctionnaires communaux de Polynésie française. Les autres dispositions valent partout en France de la même façon, sans lien avec le lieu de vie. Le lieu n'est pas ce qui déclenche la mesure.",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "parent",
+    "raison": "La mesure protège les femmes qui allaitent leur enfant. Allaiter son enfant est un acte parental, et le profil parent (parent d'un enfant mineur) est ce qui déclenche la protection.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "chef_entreprise",
+   "dirigeant_grande_entreprise"
+  ]
+ },
+ "cout_usd": 0.001090185,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

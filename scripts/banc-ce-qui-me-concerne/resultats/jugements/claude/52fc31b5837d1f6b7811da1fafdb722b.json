@@ -1,0 +1,73 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "benevole",
+    "raison": "L'article L. 212-9 du code du sport exige le certificat de tout encadrant d'activité sportive auprès de mineurs, « y compris bénévole ».",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "particulier_employeur",
+    "raison": "L'article L. 1221-8 vise les salariés « employés par un particulier employeur » et impose à l'employeur de vérifier le certificat avant l'embauche.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "salarie_particulier",
+    "raison": "L'assistant maternel, salarié d'un particulier, doit détenir le certificat pour obtenir et conserver son agrément (art. L. 421-3-1).",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "secteur_sante",
+    "raison": "L'article L. 4113-13-1 impose le certificat à tous les professionnels de santé et aux personnes intervenant dans les structures de santé auprès de mineurs.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "independant",
+    "raison": "L'article L. 4113-13-1 vise expressément l'exercice « à titre libéral » auprès de mineurs, donc les professionnels de santé libéraux.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "etudiant",
+    "raison": "Le III de l'article L. 4113-13-1 vise expressément les étudiants intervenant auprès de mineurs dans les structures de santé.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "apprenti_alternant",
+    "raison": "Le III de l'article L. 4113-13-1 vise expressément les stagiaires intervenant auprès de mineurs, et le profil inclut les stagiaires.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "secteur_education",
+    "raison": "L'article L. 911-5 IV du code de l'éducation impose le certificat à toute personne intervenant auprès des élèves, même ponctuellement.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "chef_entreprise",
+    "raison": "L'article L. 1221-8 du code du travail impose à tout employeur de vérifier le certificat avant l'embauche ou l'affectation, ce qui vise les dirigeants de PME.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "secteur_transport",
+    "raison": "L'article L. 133-6-1 inclut le transport, le convoyage et l'accompagnement à la mobilité de mineurs dans les activités soumises au certificat.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "dirigeant_grande_entreprise"
+  ]
+ },
+ "cout_usd": 0.0145777,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

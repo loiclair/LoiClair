@@ -1,0 +1,20 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "mineur",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'amendement encadre la procédure de dérogation autorisant l'affectation de travailleurs de moins de dix-huit ans à des travaux réglementés, en prévoyant qu'un silence de deux mois de l'administration vaut refus."
+   },
+   {
+    "profil": "chef_entreprise",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'employeur qui sollicite une autorisation pour affecter un mineur à des travaux réglementés verrait sa demande rejetée en l'absence de réponse expresse de l'inspection du travail au bout de deux mois."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00690825
+}

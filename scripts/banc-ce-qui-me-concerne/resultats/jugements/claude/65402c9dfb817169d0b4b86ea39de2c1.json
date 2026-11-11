@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "mineur",
+    "raison": "L'art. L. 256-4 2° vise explicitement le mineur victime de violences d'un ascendant : son affaire relèverait du juge des VSS, qui statuerait sur l'autorité parentale. La phrase reste fidèle au texte.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "parent",
+    "raison": "L'art. L. 256-4 déplace la compétence sur l'autorité parentale du JAF vers le juge des VSS en cas de violences dans le couple ou sur un mineur. Les parents concernés seraient directement visés (juridiction, procédure). La phrase est fidèle.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0050877,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

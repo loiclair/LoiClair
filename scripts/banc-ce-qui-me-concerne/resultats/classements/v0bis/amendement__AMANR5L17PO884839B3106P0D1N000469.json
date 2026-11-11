@@ -1,0 +1,12 @@
+{
+ "resume_fr": "Ajouterait la prévention des violences sexuelles et sexistes parmi les missions des centres de formation d'apprentis.",
+ "resume_en": "Would add the prevention of sexual and sexist violence to the missions of apprentice training centres.",
+ "impacts": [
+  {
+   "profil": "apprenti_alternant",
+   "passage": "À la première phrase du 7° de l’article L. 6231‑2 du code du travail, après la troisième occurrence du mot : « et », sont insérés les mots : « des violences sexuelles et sexistes »",
+   "certitude": "probable"
+  }
+ ],
+ "cout_usd": 0.00082221
+}

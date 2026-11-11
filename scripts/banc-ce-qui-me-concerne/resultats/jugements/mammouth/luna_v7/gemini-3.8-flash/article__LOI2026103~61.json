@@ -1,0 +1,14 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "automobiliste",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article instaure une majoration spécifique de la taxe régionale sur les certificats d'immatriculation (cartes grises) délivrés en Île-de-France, ce qui a un impact financier direct pour les automobilistes faisant immatriculer un véhicule dans cette région."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00647625
+}

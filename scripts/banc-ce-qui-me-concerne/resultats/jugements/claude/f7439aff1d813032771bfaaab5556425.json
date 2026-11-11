@@ -1,0 +1,32 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "handicap",
+    "raison": "L'article crée une procédure simplifiée d'évaluation pour la personne handicapée (RQTH, carte mobilité inclusion) et délivre des cartes à titre définitif : cela vise directement ce profil.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "mineur",
+    "raison": "Le c) supprime la restriction du IV bis visant la carte « destinée à un mineur atteint d'une maladie ou d'un handicap… », mais le texte ne dit pas que la carte serait ouverte à tout mineur ; le mineur n'est pas visé par l'élément, c'est un sous-groupe de mineurs handicapés. Cependant la mesure vise les mineurs malades ou handicapés, donc le profil mineur est un sous-groupe concerné.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "parent",
+    "raison": "Le IV bis concerne la carte demandée pour un mineur et la démarche est faite par le parent ou représentant légal ; la suppression de la condition de gravité change sa démarche. Mais la phrase affirme que la condition de maladie ou de handicap grave est supprimée, ce qui est inexact : seule la mention d'une destination à un mineur atteint de maladie, handicap ou accident grave est supprimée.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": [
+   "age_dependant",
+   "travailleur_frontalier"
+  ]
+ },
+ "cout_usd": 0.0052407,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

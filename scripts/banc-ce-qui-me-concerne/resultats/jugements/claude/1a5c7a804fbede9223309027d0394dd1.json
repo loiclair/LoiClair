@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_sante",
+    "raison": "Le texte vise directement les professionnels de santé et modifie les règles de suspension liées à leur exercice. La phrase omet toutefois l’exception à l’information de l’ARS lorsque celle-ci risque de nuire à la procédure judiciaire.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "etudiant",
+    "raison": "Les élèves et étudiants préparant aux professions de santé sont expressément inclus parmi les personnes concernées par la mesure de suspension. Mais le nouveau motif de suspension vise un « professionnel de santé » mis en examen, sans dire explicitement qu’il s’applique aux étudiants.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000917775,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

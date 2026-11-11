@@ -1,0 +1,19 @@
+{
+ "impacts": [
+  {
+   "profil": "salarie_prive",
+   "phrase_fr": "Les salariés atteints d'algie vasculaire de la face pourraient prendre trente jours d'arrêt de travail par an, sans ancienneté ni préavis.",
+   "phrase_en": "Employees with cluster headaches would be able to take thirty days of sick leave per year, with no seniority requirement or notice period.",
+   "passage": "les salariés atteints d’algie vasculaire de la face bénéficient d’un droit de trente jours d’arrêt de travail par an.",
+   "certitude": "certain"
+  },
+  {
+   "profil": "malade_chronique",
+   "phrase_fr": "Les personnes atteintes d'algie vasculaire de la face pourraient bénéficier de trente jours d'arrêt de travail par an, sur certificat médical.",
+   "phrase_en": "People with cluster headaches would be able to take thirty days of sick leave per year, backed by a medical certificate.",
+   "passage": "Sur présentation d’un certificat médical attestant de symptômes incapacitants liés à leur condition médicale, les salariés atteints d’algie vasculaire de la face",
+   "certitude": "probable"
+  }
+ ],
+ "cout_usd": 0.00082181
+}

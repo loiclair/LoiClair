@@ -1,0 +1,20 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "proprietaire_occupant",
+    "raison": "Le texte prévoit une prise en charge ou un cofinancement pour le propriétaire d’une construction touchée par le retrait-gonflement des argiles ; un propriétaire occupant entre dans cette catégorie.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": [
+   "proprietaire_bailleur",
+   "coproprietaire",
+   "residence_secondaire"
+  ]
+ },
+ "cout_usd": 0.0009594,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

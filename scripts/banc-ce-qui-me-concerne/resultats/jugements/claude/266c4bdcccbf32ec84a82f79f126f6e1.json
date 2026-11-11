@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_culture",
+    "raison": "Non concerné : le texte établit une présomption pour certaines publications et permet à des éditeurs, agences ou services en ligne de saisir l’Arcom ; il ne change pas directement les règles du métier des personnes travaillant dans la presse ou l’édition. La phrase de l’assistant résume fidèlement le texte et conserve le conditionnel.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000403775,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

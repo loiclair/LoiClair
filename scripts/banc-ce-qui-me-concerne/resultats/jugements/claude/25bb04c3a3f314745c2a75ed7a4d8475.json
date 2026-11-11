@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "travailleur_plateforme",
+    "raison": "L'article L. 7342-5-4 protège directement les travailleurs de plateforme : interdiction d'une désactivation fondée uniquement sur un algorithme, motivation, notification et procédure contradictoire.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0019427000000000001,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

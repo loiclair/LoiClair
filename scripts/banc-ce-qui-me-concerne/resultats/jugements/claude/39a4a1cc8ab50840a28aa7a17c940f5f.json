@@ -1,0 +1,19 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "chef_entreprise",
+    "raison": "L'amendement vise l'employeur qui demande à l'inspecteur du travail l'autorisation d'employer des moins de 18 ans à des travaux réglementés : son silence pendant deux mois vaudrait rejet, ce qui change directement sa démarche et ses droits.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "dirigeant_grande_entreprise"
+  ]
+ },
+ "cout_usd": 0.0023266999999999997,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

@@ -1,0 +1,38 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "salarie_prive",
+    "raison": "Le texte accorde directement aux salariés atteints d’algie vasculaire de la face un droit annuel à des jours d’arrêt, sans ancienneté ni préavis.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "malade_chronique",
+    "raison": "Le droit vise les salariés atteints de cette pathologie, pas les personnes ayant nécessairement une maladie de longue durée demandant des soins réguliers. La phrase élargit aussi le droit à toute personne atteinte, alors que le texte le réserve aux salariés.",
+    "concerne": false,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "chef_entreprise",
+    "raison": "Le droit à l’absence sans préavis impose directement une obligation à l’employeur, ce qui concerne les dirigeants ou employeurs de PME.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "dirigeant_grande_entreprise",
+    "raison": "Le droit à l’absence sans préavis impose directement une obligation à l’employeur, y compris à celui d’une grande entreprise.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "cdd_interim",
+   "apprenti_alternant",
+   "salarie_particulier"
+  ]
+ },
+ "cout_usd": 0.000736525,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

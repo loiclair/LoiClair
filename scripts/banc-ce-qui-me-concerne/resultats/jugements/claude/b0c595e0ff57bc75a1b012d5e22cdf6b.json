@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "travailleur_plateforme",
+    "raison": "Le texte vise directement le travailleur dont l’accès aux missions peut être suspendu, réduit ou désactivé par décision algorithmique.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000189775,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

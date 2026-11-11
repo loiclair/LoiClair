@@ -1,0 +1,13 @@
+{
+ "jugement": {
+  "profils": [],
+  "oublis": [
+   "benevole",
+   "fonctionnaire"
+  ]
+ },
+ "cout_usd": 0.0045577,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

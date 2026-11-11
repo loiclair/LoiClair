@@ -1,0 +1,12 @@
+{
+ "impacts": [
+  {
+   "profil": "expat",
+   "phrase_fr": "Vos recettes seront comparées à vos revenus de même nature soumis à un impôt équivalent dans votre pays de résidence pour déterminer leur traitement fiscal.",
+   "phrase_en": "Your receipts will be compared with income of the same kind subject to an equivalent tax in your country of residence to determine their tax treatment.",
+   "passage": "lorsque le contribuable n'a pas sa résidence fiscale en France, les recettes mentionnées au 2° du même 2 doivent excéder les revenus de même nature que ceux mentionnés au 3° dudit 2 et qui sont soumis à un impôt équivalent à l'impôt sur le revenu dans son Etat de résidence.",
+   "certitude": "probable"
+  }
+ ],
+ "cout_usd": 0.0003576
+}

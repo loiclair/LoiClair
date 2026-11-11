@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "heritier_donateur",
+    "raison": "L'article vise directement les dons d'argent entre un donateur et un descendant ou neveu, nièce ou petit-neveu, nièce, avec des droits de mutation réduits à 6 % dans la limite de 100 000 euros. Le texte désigne la personne qui transmet, donc le profil est concerné.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "jeune",
+    "raison": "Le texte ne vise pas les 18-25 ans : il retient les donataires de 18 ans révolus à moins de 50 ans, tranche d'âge qui ne correspond pas au profil jeune. Les jeunes adultes ne sont visés qu'incidemment, en tant que donataires, et leur âge n'est pas le critère de la mesure.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000770835,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

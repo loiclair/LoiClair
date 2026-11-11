@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_education",
+    "raison": "L’article vise directement le personnel de l’enseignement supérieur agricole public en permettant sa suspension disciplinaire.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "fonctionnaire",
+    "raison": "La mesure porte sur les membres du personnel d’un établissement public d’enseignement supérieur agricole, donc sur des agents publics, et prévoit une suspension sans privation de traitement.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00043915,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

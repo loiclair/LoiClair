@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "forces_ordre",
+    "raison": "L’article précise le cadre légal des actes accomplis dans des opérations d’enquête autorisées, notamment d’infiltration ou de livraison surveillée, ce qui concerne directement l’activité des policiers et gendarmes.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0004159,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_agriculture",
+    "raison": "Le texte modifie l’indemnisation des dégâts de grand gibier et fixe les valeurs des principales denrées et des frais de remise en état : cela vise directement les réclamants touchés dans leur activité agricole.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "chasseur_pecheur",
+    "raison": "Le texte confie un rôle aux fédérations départementales des chasseurs, mais ne modifie pas les droits ou obligations des chasseurs à titre individuel.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00082565,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

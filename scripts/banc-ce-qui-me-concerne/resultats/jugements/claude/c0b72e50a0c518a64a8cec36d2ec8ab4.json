@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "montagne",
+    "raison": "Le texte vise les compétences des communes et communautés de communes situées en zone de montagne, pas directement les habitants ; l’effet sur eux dépendrait des décisions de leur commune.",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "elu_local",
+    "raison": "La commune peut décider par délibération de reprendre l’exercice des compétences eau et assainissement, après avis de l’organe délibérant de la communauté de communes.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0007234,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

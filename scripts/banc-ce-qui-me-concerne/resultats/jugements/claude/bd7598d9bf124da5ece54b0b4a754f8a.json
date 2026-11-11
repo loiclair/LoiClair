@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "heritier_donateur",
+    "raison": "Le texte modifie directement les règles fiscales applicables aux donations et aux successions, notamment les tarifs et l’abattement mentionné à l’article 779.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00044465,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

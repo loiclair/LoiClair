@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "aidant",
+    "raison": "L'article permet au juge de désigner à l'avance la personne qui reprendra une tutelle ou curatelle, et oblige le tuteur ou curateur reprenant la mesure à informer sans délai et à accomplir les formalités des articles 503 et 510. Un proche qui exerce une tutelle ou curatelle familiale est donc directement visé. Le texte ne dit pas « proche » et vise aussi des personnes désignées sans lien familial, ce que la phrase de l'assistant ne précise pas.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000771535,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

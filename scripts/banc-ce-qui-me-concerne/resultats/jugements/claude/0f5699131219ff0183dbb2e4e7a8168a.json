@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "futur_parent",
+    "raison": "Le texte vise directement les femmes ou les couples engagés dans une tentative de fécondation in vitro, démarche de projet d’enfant ; l’examen peut leur être proposé sous certaines conditions.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000450275,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

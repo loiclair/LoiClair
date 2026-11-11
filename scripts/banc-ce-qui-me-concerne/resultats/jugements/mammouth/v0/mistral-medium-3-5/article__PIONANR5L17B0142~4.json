@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "benevole",
+    "concerne": false,
+    "phrase_fidele": false,
+    "raison": "Le profil 'benevole' n'est pas directement concerné par l'article. L'article modifie le code de la fonction publique pour inclure le temps de service civique dans certaines règles, ce qui vise les fonctionnaires, pas les bénévoles. De plus, la phrase proposée mentionne une prise en compte 'dans certaines règles de la fonction publique', ce qui n'est pas explicitement dit dans le texte."
+   }
+  ],
+  "oublis": [
+   "fonctionnaire"
+  ]
+ },
+ "cout_usd": 0.0061875
+}

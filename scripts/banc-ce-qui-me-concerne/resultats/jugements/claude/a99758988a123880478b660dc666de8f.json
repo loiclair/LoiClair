@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "travailleur_plateforme",
+    "raison": "L'article vise directement les travailleurs via une plateforme : il protège le travailleur contre une suspension, désactivation ou réduction d'accès aux missions décidée sur le seul fondement d'un algorithme, et impose motivation et procédure contradictoire. Le texte s'insère dans la section du code du travail consacrée à ces travailleurs.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00019543500000000002,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

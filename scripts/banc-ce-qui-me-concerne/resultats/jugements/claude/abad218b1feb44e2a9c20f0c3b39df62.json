@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "elu_local",
+    "raison": "L'article modifie les règles de désignation des adjoints au maire (art. L. 2122-7-2 CGCT) et de l'élection des conseillers : cela vise directement les élus municipaux.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0019607,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

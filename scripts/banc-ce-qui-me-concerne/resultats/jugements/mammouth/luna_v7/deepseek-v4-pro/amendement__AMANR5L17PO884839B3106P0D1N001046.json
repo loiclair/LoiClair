@@ -1,0 +1,27 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etranger_hors_ue",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "Le dispositif vise spécifiquement un étranger victime d'infractions qui n'a pas déposé plainte, ce qui correspond au profil 'étranger hors UE' (un ressortissant UE en situation régulière n'a pas besoin d'autorisation de séjour). La phrase résume correctement la nouvelle possibilité et le conditionnel est bien employé car le texte n'est pas adopté."
+   }
+  ],
+  "oublis": [
+   "salarie_prive",
+   "independant",
+   "auto_entrepreneur",
+   "chef_entreprise",
+   "demandeur_emploi",
+   "travailleur_plateforme",
+   "salarie_particulier",
+   "travailleur_frontalier",
+   "handicap",
+   "malade_chronique",
+   "concubin",
+   "marie_pacse"
+  ]
+ },
+ "cout_usd": 0.0030771
+}

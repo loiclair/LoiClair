@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_education",
+    "raison": "L'amendement supprime l'alinéa 3 et vise les « personnels de l'Éducation nationale » victimes de violences : cela change leurs droits à la protection fonctionnelle dans l'exercice de leur métier.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "fonctionnaire",
+    "raison": "Les personnels de l'éducation visés sont des agents publics qui bénéficient de la protection fonctionnelle (art. L. 134-5 du code général de la fonction publique) ; la suppression de la possibilité de retrait de cette protection les vise directement.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0033166999999999997,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

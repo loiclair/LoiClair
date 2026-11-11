@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "epargnant",
+    "raison": "Le texte crée un livret d’épargne et prévoit l’emploi des sommes déposées : cela vise directement les personnes qui épargnent. L’ouverture est réservée aux personnes ayant leur domicile fiscal en France.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "marie_pacse",
+    "raison": "Le texte prévoit explicitement un livret pour chacun des époux ou partenaires de PACS soumis à une imposition commune.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000619275,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

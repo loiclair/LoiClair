@@ -1,0 +1,38 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "concubin",
+    "concerne": false,
+    "phrase_fidele": true,
+    "raison": "Il s'agit d'une mesure d'organisation judiciaire créant des juridictions spécialisées et répartissant les compétences juridictionnelles. De plus, ces juridictions sont compétentes quel que soit le lien ou la situation de couple (et même indépendamment de tout lien)."
+   },
+   {
+    "profil": "marie_pacse",
+    "concerne": false,
+    "phrase_fidele": true,
+    "raison": "Il s'agit d'une mesure d'organisation judiciaire et de répartition des compétences entre juges, et non d'une mesure modifiant directement les droits ou obligations des personnes mariées ou pacsées."
+   },
+   {
+    "profil": "separe_divorce",
+    "concerne": false,
+    "phrase_fidele": true,
+    "raison": "La création de tribunaux spécialisés et la désignation du juge compétent relèvent de l'organisation judiciaire et institutionnelle, sans modifier directement les règles de fond."
+   },
+   {
+    "profil": "parent",
+    "concerne": false,
+    "phrase_fidele": true,
+    "raison": "Le transfert de compétence du juge aux affaires familiales vers le juge spécialisé pour certaines situations relève de l'organisation de la justice et ne modifie pas directement les droits des parents."
+   },
+   {
+    "profil": "mineur",
+    "concerne": false,
+    "phrase_fidele": true,
+    "raison": "Il s'agit d'une règle de compétence juridictionnelle (organisation de l'institution judiciaire) et non d'un droit ou d'une règle visant directement le profil du mineur au quotidien."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0115665
+}

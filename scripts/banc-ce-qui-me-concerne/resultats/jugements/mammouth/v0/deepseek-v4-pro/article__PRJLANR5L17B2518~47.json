@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etranger_hors_ue",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "Le texte vise directement les étrangers en créant un cadre légal pour le relevé d'empreintes et de photographies lors des contrôles d'identité et aux frontières, et en prévoyant une retenue en cas de refus. Le passage cité est correct et la phrase est fidèle, employant le conditionnel requis pour un texte non publié."
+   }
+  ],
+  "oublis": [
+   "forces_ordre",
+   "outre_mer"
+  ]
+ },
+ "cout_usd": 0.0063726
+}

@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "pompier_volontaire",
+    "raison": "Le texte vise expressément les sapeurs-pompiers volontaires : l'autorité territoriale doit établir pour chacun une fiche d'exposition après une intervention à risque.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "fonctionnaire",
+    "raison": "Les sapeurs-pompiers professionnels territoriaux sont visés (code général de la fonction publique, autorité territoriale) et sont des fonctionnaires, hors forces de l'ordre et militaires. Mais la phrase dit « votre collectivité serait tenue », ce qui présente l'obligation comme pesant sur la collectivité, alors que le texte prévoit une fiche établie pour l'agent. Le texte vise l'agent, la phrase se trompe donc de destinataire ; elle reste toutefois cohérente avec le texte (obligation de la collectivité).",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0032167,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

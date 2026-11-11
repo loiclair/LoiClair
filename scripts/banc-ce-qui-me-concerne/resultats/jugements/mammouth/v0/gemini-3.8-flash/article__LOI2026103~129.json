@@ -1,0 +1,32 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etranger_hors_ue",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article augmente directement le coût de la première délivrance et du renouvellement des titres de séjour et autorisations provisoires de séjour délivrés aux ressortissants de pays tiers."
+   },
+   {
+    "profil": "automobiliste",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article fixe une taxe directe sur la délivrance d'un permis de conduire de remplacement (25 €) ou lors de l'échange d'un permis étranger (40 €)."
+   },
+   {
+    "profil": "salarie_prive",
+    "concerne": false,
+    "phrase_fidele": true,
+    "raison": "La contribution pour l'aide juridique de 50 euros frappe de manière générale toute instance introduite en matière civile ou prud'homale par n'importe quel justiciable (employeurs compris devant le CPH). Elle ne vise pas spécifiquement les salariés de droit privé."
+   },
+   {
+    "profil": "independant",
+    "concerne": false,
+    "phrase_fidele": true,
+    "raison": "L'affectation de cette taxe au budget de l'aide juridictionnelle via les caisses des règlements pécuniaires des avocats relève d'un mécanisme de financement institutionnel et ne modifie pas les règles ou tarifs de la profession."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.01113525
+}

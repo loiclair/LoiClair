@@ -1,0 +1,40 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "mineur",
+    "raison": "Non concerné : la condition d’âge exclut les mineurs d’un droit nouveau, ce qui ne change rien pour eux (règle 10).",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "jeune",
+    "raison": "Concerné : les 18–25 ans sont inclus dans la catégorie des personnes âgées d’au moins 18 ans et peuvent accéder à l’aide s’ils remplissent les autres conditions.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "etranger_hors_ue",
+    "raison": "Non concerné : le critère de résidence stable et régulière ne vise pas spécifiquement les étrangers, mais s’applique aux personnes résidant en France (règle 7).",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "etranger_ue",
+    "raison": "Non concerné : le critère de résidence stable et régulière ne vise pas spécifiquement les étrangers, mais s’applique aux personnes résidant en France (règle 7).",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "malade_chronique",
+    "raison": "Non concerné : la condition porte sur une affection grave et incurable engageant le pronostic vital en phase avancée ou terminale, et non sur la maladie chronique au sens du profil.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0006744,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

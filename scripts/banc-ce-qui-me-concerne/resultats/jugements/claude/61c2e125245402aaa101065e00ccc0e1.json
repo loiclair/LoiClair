@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_culture",
+    "raison": "Le texte vise directement les journalistes professionnels fournissant articles, reportages ou photos à une agence ou entreprise de presse, et change leur affiliation à la sécurité sociale. La presse relève de ce secteur.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "expat",
+    "raison": "Le texte précise que l'affiliation vaut quel que soit le pays d'exercice ou de résidence, ce qui touche directement les journalistes établis hors de France.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0025537,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

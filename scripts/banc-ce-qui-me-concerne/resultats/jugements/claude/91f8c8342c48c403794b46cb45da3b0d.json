@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "age_dependant",
+    "raison": "La perte d'autonomie figure dans la liste des critères de discrimination, mais cette liste protège tout le monde de la même façon. Rien dans le texte ne montre qu'elle est ajoutée, et la nouveauté de l'article porte sur d'autres critères, comme l'expression de genre. L'article ne change donc rien de précis pour ce profil.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0058537,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

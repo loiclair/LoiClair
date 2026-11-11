@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "montagne",
+    "raison": "Le texte vise explicitement les communes situées en zone de montagne ; leurs habitants vivent dans le périmètre de la mesure sur l'organisation de l'eau et de l'assainissement.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "elu_local",
+    "raison": "Les communes de montagne décident par délibération, donc leurs conseillers municipaux et maires votent, de reprendre les compétences eau et assainissement, et les conseillers communautaires rendent un avis sous trois mois ; cela change directement leurs prérogatives d'élus.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0031666999999999997,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

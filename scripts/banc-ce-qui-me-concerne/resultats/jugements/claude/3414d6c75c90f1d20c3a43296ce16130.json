@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "elu_local",
+    "raison": "Le texte désigne le conseiller suppléant (élu municipal) et lui ouvre la possibilité de siéger avec voix délibérative aux réunions intercommunales en cas d'absence du titulaire, dans les communes à un seul siège. C'est un changement direct de ses droits d'élu.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00032998500000000003,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

@@ -1,0 +1,14 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "expat",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "Le passage cite explicitement le contribuable qui n’a pas sa résidence fiscale en France, ce qui correspond au profil expat tel que défini dans le catalogue. Le résumé reste fidèle au texte sans rien inventer."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0011241
+}

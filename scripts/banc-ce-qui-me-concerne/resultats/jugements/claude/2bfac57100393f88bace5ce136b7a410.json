@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "pompier_volontaire",
+    "raison": "Le texte vise expressément chaque sapeur-pompier « professionnel ou volontaire » exposé : le volontaire bénéficie directement d'une fiche d'exposition.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "fonctionnaire",
+    "raison": "Les sapeurs-pompiers professionnels sont des agents de la fonction publique territoriale, visés directement par l'obligation de fiche d'exposition (code général de la fonction publique). Ils ne sont ni policiers ni militaires.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0026736999999999998,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

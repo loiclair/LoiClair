@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etranger_hors_ue",
+    "raison": "Le texte vise l'étranger qui refuse le relevé d'empreintes ou la photo lors d'un contrôle, mais seulement après une concordance positive dans le SIS avec un signalement contenant des données biométriques. Le déclencheur est cette alerte, pas le statut de non-UE résidant en France, et les contrôles aux frontières visent surtout des personnes qui arrivent sur le territoire.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.001797385,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

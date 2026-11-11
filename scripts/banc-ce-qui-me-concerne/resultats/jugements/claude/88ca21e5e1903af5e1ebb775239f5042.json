@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "fonctionnaire",
+    "raison": "Le nouvel article L. 812-7 permet au ministre de suspendre jusqu'à un an un membre du personnel de l'enseignement supérieur agricole public, sans privation de traitement. Ces agents sont des agents publics de l'État, fonctionnaires ou contractuels, et la mesure les vise directement par leur emploi.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "secteur_education",
+    "raison": "Le texte modifie le régime disciplinaire des enseignants et enseignants-chercheurs de l'enseignement supérieur agricole : suspension possible par le ministre, et jugement par des pairs de rang égal ou supérieur. Ces règles changent les obligations professionnelles de ceux qui enseignent dans ce secteur.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.001271035,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

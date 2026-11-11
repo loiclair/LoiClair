@@ -1,0 +1,40 @@
+{
+ "impacts": [
+  {
+   "profil": "fonctionnaire",
+   "passage": "La protection de la collectivité publique peut être accordée, sans délai et à titre conservatoire, au conjoint, au concubin, au partenaire lié par un pacte civil de solidarité d’un agent public",
+   "certitude": "certain",
+   "phrase_en": "The authority would be able to quickly protect your spouse, partner, children or parents if they face a serious risk linked to your job.",
+   "phrase_fr": "Si ce texte était adopté, la collectivité pourrait protéger rapidement votre conjoint, concubin, partenaire de PACS, enfants ou parents en cas de risque grave lié à votre fonction."
+  },
+  {
+   "profil": "marie_pacse",
+   "passage": "au conjoint, au concubin, au partenaire lié par un pacte civil de solidarité d’un agent public, à ses enfants et à ses ascendants directs",
+   "certitude": "certain",
+   "phrase_en": "Your spouse or civil partner could be protected by the authority, without delay, if a serious risk to their physical safety arises from your public role.",
+   "phrase_fr": "Votre conjoint ou partenaire de PACS pourrait être protégé par la collectivité, sans délai, si un risque grave pèse sur son intégrité physique à cause de votre fonction publique."
+  },
+  {
+   "profil": "concubin",
+   "passage": "au conjoint, au concubin, au partenaire lié par un pacte civil de solidarité d’un agent public",
+   "certitude": "certain",
+   "phrase_en": "Your partner living with you could be protected by the authority, without delay, if a serious risk to their physical safety arises from your public role.",
+   "phrase_fr": "Votre concubin pourrait être protégé par la collectivité, sans délai, si un risque grave pèse sur son intégrité physique à cause de votre fonction publique."
+  },
+  {
+   "profil": "parent",
+   "passage": "à ses enfants et à ses ascendants directs, lorsque la collectivité publique est informée",
+   "certitude": "probable",
+   "phrase_en": "Your children could be protected by the authority, without delay, if a serious risk to them arises from your public role.",
+   "phrase_fr": "Vos enfants pourraient être protégés par la collectivité, sans délai, si un risque grave pèse sur eux à cause de votre fonction publique."
+  },
+  {
+   "profil": "forces_ordre",
+   "passage": "au conjoint, au concubin, au partenaire lié par un pacte civil de solidarité d’un agent public, à ses enfants et à ses ascendants directs",
+   "certitude": "possible",
+   "phrase_en": "If you are a police officer or gendarme, your family could receive this protection in case of a serious risk linked to your job.",
+   "phrase_fr": "Si vous êtes policier ou gendarme, votre famille pourrait bénéficier de cette protection en cas de risque grave lié à votre fonction."
+  }
+ ],
+ "resume_fr": null
+}

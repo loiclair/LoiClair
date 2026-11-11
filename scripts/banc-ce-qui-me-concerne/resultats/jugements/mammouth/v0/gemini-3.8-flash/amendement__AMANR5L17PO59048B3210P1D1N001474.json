@@ -1,0 +1,20 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_agriculture",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "La mesure modifie directement les règles d'imposition et d'exonération des plus-values pour les jeunes exploitants au sein d'une société agricole."
+   },
+   {
+    "profil": "imposable",
+    "concerne": false,
+    "phrase_fidele": true,
+    "raison": "Il s'agit d'une règle spécifique de fiscalité professionnelle agricole (article 151 septies du CGI) et non d'une mesure générale visant les foyers imposables à l'impôt sur le revenu."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00845475
+}

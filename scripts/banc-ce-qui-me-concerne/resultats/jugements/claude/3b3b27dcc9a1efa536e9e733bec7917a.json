@@ -1,0 +1,19 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "coproprietaire",
+    "raison": "Le texte vise les « bailleurs détenteurs d'un lot » dans l'établissement dont l'activité cesse, soit des propriétaires de lots en copropriété qui les louent à l'exploitant. Ils auraient un droit direct à indemnisation et à la transmission des conditions. Le profil coproprietaire couvre les propriétaires d'un lot, qu'ils l'habitent ou le louent.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "proprietaire_bailleur"
+  ]
+ },
+ "cout_usd": 0.0023076999999999998,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

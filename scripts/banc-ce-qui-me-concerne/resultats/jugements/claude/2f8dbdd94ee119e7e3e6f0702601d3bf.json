@@ -1,0 +1,37 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "locataire",
+    "raison": "L'article fixe un loyer de référence par arrêté et crée une action en diminution du loyer pour le locataire quand le loyer dépasse la référence : il vise directement les locataires.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "proprietaire_bailleur",
+    "raison": "Le loyer de base fixé par le bailleur lors de la conclusion du bail est limité au loyer de référence (ou majoré), avec risque d'action en diminution : il vise directement les bailleurs.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "meuble_tourisme",
+    "raison": "Le texte étend expressément l'encadrement des loyers aux logements meublés touristiques : les loueurs en courte durée sont visés.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "etudiant",
+    "raison": "Le texte étend l'encadrement aux résidences étudiantes privées, mais les loyers sont encadrés pour les locataires en général ; le profil étudiant n'est pas nommé comme tel et l'effet passe par le statut de locataire, pas par celui d'étudiant.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "grande_ville"
+  ]
+ },
+ "cout_usd": 0.0058107,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "montagne",
+    "raison": "Le texte prévoit une dérogation à une procédure d’urbanisme pour certains projets d’hébergement touristique ; il ne vise pas directement les habitants des communes de montagne du fait de leur lieu de vie.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000328025,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

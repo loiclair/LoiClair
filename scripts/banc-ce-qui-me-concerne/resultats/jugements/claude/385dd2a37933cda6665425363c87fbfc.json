@@ -1,0 +1,30 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "rural",
+    "raison": "L’ajout d’une mission de « police des campagnes » ne désigne pas les habitants des communes rurales et ne réserve pas la mesure à ces communes.",
+    "concerne": false,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "automobiliste",
+    "raison": "Le texte élargit le pouvoir de verbaliser les contraventions au code de la route, ce qui peut directement toucher les automobilistes.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "fonctionnaire",
+    "raison": "La mesure vise les agents de police municipale et leurs missions, pas les fonctionnaires en général.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "forces_ordre"
+  ]
+ },
+ "cout_usd": 0.001247525,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

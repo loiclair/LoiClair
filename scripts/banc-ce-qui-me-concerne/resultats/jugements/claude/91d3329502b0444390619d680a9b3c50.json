@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "montagne",
+    "raison": "Le texte concerne les unités touristiques nouvelles en montagne (sous-section du code de l'urbanisme sur la montagne, protection de l'environnement montagnard). Le lieu de vie est ici ce qui déclenche la règle, mais l'effet est surtout sur les porteurs de projets ; pour un habitant de montagne, la dérogation change les règles d'urbanisme applicables sur sa commune.",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "secteur_hotellerie",
+    "raison": "La dispense de procédure UTN locale pour créer ou étendre un hébergement touristique change les règles d'exercice et les démarches des exploitants d'hébergement touristique, donc du secteur hôtellerie-tourisme.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0032697,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

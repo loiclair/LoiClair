@@ -1,0 +1,25 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "locataire",
+    "raison": "Le texte impose au bailleur de fournir au locataire un logement offrant un confort thermique estival minimal, avec protections solaires ou ventilateur : il vise directement le locataire.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "proprietaire_bailleur",
+    "raison": "Le texte crée des obligations pour le bailleur : confort thermique estival, installation de protections solaires et d'un brasseur d'air à la demande, ou occultation et ventilateur si c'est impossible.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "coproprietaire"
+  ]
+ },
+ "cout_usd": 0.0026527,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

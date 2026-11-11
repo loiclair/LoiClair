@@ -1,0 +1,14 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "forces_ordre",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article qualifie directement de menace imminente le survol non autorisé d'installations militaires par un drone, ce qui modifie le cadre d'intervention opérationnel et les règles d'engagement des militaires chargés de la protection de ces zones."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00554925
+}

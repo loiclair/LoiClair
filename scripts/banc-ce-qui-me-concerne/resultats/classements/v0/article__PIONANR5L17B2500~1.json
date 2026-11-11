@@ -1,0 +1,75 @@
+{
+ "impacts": [
+  {
+   "profil": "benevole",
+   "passage": "La détention du certificat d’honorabilité pour l’enfance est exigée pour tout encadrant d’activité sportive auprès de mineurs, y compris bénévole, saisonnier, prestataire ou intervenant occasionnel.",
+   "certitude": "certain",
+   "phrase_en": "A volunteer supervising a sports activity with minors would need a certificate of good character for children, showing no incompatible criminal records or file entries.",
+   "phrase_fr": "Un bénévole encadrant une activité sportive auprès de mineurs devrait détenir un certificat d'honorabilité pour l'enfance, attestant l'absence d'inscriptions incompatibles au casier et aux fichiers."
+  },
+  {
+   "profil": "particulier_employeur",
+   "passage": "L’employeur vérifie préalablement à l’embauche ou à l’affectation la détention du certificat d’honorabilité pour l’enfance lorsque des salariés, y compris ceux employés par un particulier employeur",
+   "certitude": "certain",
+   "phrase_en": "A private individual employing a nanny, home carer or domestic worker would need to check that employee's certificate of good character before hiring.",
+   "phrase_fr": "Un particulier qui emploie une nounou, une aide à domicile ou un employé de maison devrait vérifier le certificat d'honorabilité de ce salarié avant de l'embaucher."
+  },
+  {
+   "profil": "salarie_particulier",
+   "passage": "L’obtention et le maintien de l’agrément d’assistant maternel sont subordonnés à la détention d’un certificat d’honorabilité pour l’enfance.",
+   "certitude": "certain",
+   "phrase_en": "A childminder would need a certificate of good character for children to obtain and keep their approval.",
+   "phrase_fr": "Un assistant maternel devrait détenir un certificat d'honorabilité pour l'enfance pour obtenir et conserver son agrément."
+  },
+  {
+   "profil": "secteur_sante",
+   "passage": "Cette obligation s’applique à l’ensemble des professionnels de santé mentionnés dans la quatrième partie du présent code",
+   "certitude": "certain",
+   "phrase_en": "Health professionals working with minors would need a certificate of good character for children, whatever their status.",
+   "phrase_fr": "Les professionnels de santé travaillant auprès de mineurs devraient détenir un certificat d'honorabilité pour l'enfance, quel que soit leur statut."
+  },
+  {
+   "profil": "independant",
+   "passage": "L’exercice, à titre libéral, salarié, bénévole, occasionnel ou en qualité de remplaçant",
+   "certitude": "certain",
+   "phrase_en": "A self-employed health professional working with minors would need a certificate of good character for children.",
+   "phrase_fr": "Un professionnel de santé exerçant à titre libéral auprès de mineurs devrait détenir un certificat d'honorabilité pour l'enfance."
+  },
+  {
+   "profil": "etudiant",
+   "passage": "Elle s’applique également aux étudiants, stagiaires, volontaires et bénévoles intervenant auprès de mineurs dans ces structures.",
+   "certitude": "certain",
+   "phrase_en": "A student working with minors in a health structure would need a certificate of good character for children.",
+   "phrase_fr": "Un étudiant intervenant auprès de mineurs dans une structure de santé devrait détenir un certificat d'honorabilité pour l'enfance."
+  },
+  {
+   "profil": "apprenti_alternant",
+   "passage": "Elle s’applique également aux étudiants, stagiaires, volontaires et bénévoles intervenant auprès de mineurs dans ces structures.",
+   "certitude": "certain",
+   "phrase_en": "A trainee working with minors in a health structure would need a certificate of good character for children.",
+   "phrase_fr": "Un stagiaire intervenant auprès de mineurs dans une structure de santé devrait détenir un certificat d'honorabilité pour l'enfance."
+  },
+  {
+   "profil": "secteur_education",
+   "passage": "toute personne intervenant ponctuellement, bénévolement ou à titre occasionnel auprès des élèves, quels que soient le cadre ou le lieu de l’intervention",
+   "certitude": "probable",
+   "phrase_en": "Anyone working with pupils, even occasionally, would need a certificate of good character for children, wherever the work takes place.",
+   "phrase_fr": "Toute personne intervenant auprès d'élèves, même ponctuellement, devrait détenir un certificat d'honorabilité pour l'enfance, quel que soit le lieu de l'intervention."
+  },
+  {
+   "profil": "chef_entreprise",
+   "passage": "L’employeur vérifie préalablement à l’embauche ou à l’affectation la détention du certificat d’honorabilité pour l’enfance",
+   "certitude": "probable",
+   "phrase_en": "An employer would need to check employees' certificates of good character for children before hiring or assigning them to work with minors.",
+   "phrase_fr": "Un employeur devrait vérifier le certificat d'honorabilité de ses salariés avant leur embauche ou leur affectation auprès de mineurs."
+  },
+  {
+   "profil": "secteur_transport",
+   "passage": "de transport, de convoyage ou d’accompagnement à la mobilité",
+   "certitude": "probable",
+   "phrase_en": "A person transporting or escorting minors would need a certificate of good character for children.",
+   "phrase_fr": "Une personne assurant le transport ou le convoyage de mineurs devrait détenir un certificat d'honorabilité pour l'enfance."
+  }
+ ],
+ "resume_fr": null
+}

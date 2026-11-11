@@ -1,0 +1,41 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "mineur",
+    "raison": "La condition « âgée d'au moins dix-huit ans » exclut les mineurs d'un droit nouveau (l'aide à mourir) : règle 10, rien ne change pour eux.",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "jeune",
+    "raison": "Le texte pose une condition d'âge minimale de 18 ans, qui n'est pas propre aux 18-25 ans. Elle vaut pour tous les adultes, et le profil jeune n'est pas ce qui déclenche la mesure.",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "etranger_hors_ue",
+    "raison": "La condition de nationalité française ou de résidence stable et régulière vaut pour tous les habitants : règle 7, elle ne vise pas spécifiquement les étrangers.",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "etranger_ue",
+    "raison": "La condition de résidence stable et régulière s'applique à tous les habitants. Les ressortissants de l'UE ne sont pas visés en tant que tels.",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "malade_chronique",
+    "raison": "Le texte exige une affection grave et incurable engageant le pronostic vital, en phase avancée ou terminale. Le profil malade_chronique ne couvre pas une maladie incurable en phase terminale (règle 8).",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0043457,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

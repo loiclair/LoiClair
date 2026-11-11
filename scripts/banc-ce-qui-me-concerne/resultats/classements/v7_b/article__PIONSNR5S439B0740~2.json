@@ -1,0 +1,54 @@
+{
+ "impacts": [
+  {
+   "profil": "handicap",
+   "phrase_fr": "Les titulaires de l'allocation aux adultes handicapés pourraient bénéficier d'un dégrèvement de la nouvelle contribution audiovisuelle si leurs revenus restent sous un certain plafond.",
+   "phrase_en": "Recipients of the adult disability allowance would could receive a reduction of the new audiovisual contribution if their income stays below a set ceiling.",
+   "passage": "Les titulaires de l’allocation aux adultes handicapés mentionnée à l’article L. 821-1 du code de la sécurité sociale, lorsque le montant de leurs revenus de l’année précédente n’excède pas 11 276 € pour la première part de quotient familial",
+   "certitude": "certain"
+  },
+  {
+   "profil": "senior",
+   "phrase_fr": "Les contribuables de plus de 60 ans pourraient bénéficier d'un dégrèvement de la nouvelle contribution audiovisuelle, sous conditions de revenus et d'absence d'IFI.",
+   "phrase_en": "Taxpayers over 60 would could receive a reduction of the new audiovisual contribution, subject to income limits and not paying the wealth tax on real estate.",
+   "passage": "Les contribuables âgés de plus de 60 ans, les veuves et veufs dont le montant des revenus de l’année précédente n’excède pas la limite prévue au 2° du présent II, lorsqu’ils ne sont pas passibles de l’impôt sur la fortune immobilière au titre de l’année précédant celle de l’imposition",
+   "certitude": "certain"
+  },
+  {
+   "profil": "veuf",
+   "phrase_fr": "Les veuves et veufs dont les revenus restent sous le plafond pourraient bénéficier d'un dégrèvement de la nouvelle contribution audiovisuelle.",
+   "phrase_en": "Widows and widowers whose income stays below the ceiling would could receive a reduction of the new audiovisual contribution.",
+   "passage": "les veuves et veufs dont le montant des revenus de l’année précédente n’excède pas la limite prévue au 2° du présent II",
+   "certitude": "certain"
+  },
+  {
+   "profil": "patrimoine_ifi",
+   "phrase_fr": "Les foyers assujettis à l'impôt sur la fortune immobilière seraient exclus du dégrèvement réservé aux plus de 60 ans.",
+   "phrase_en": "Households subject to the real estate wealth tax would be excluded from the reduction reserved for people over 60.",
+   "passage": "lorsqu’ils ne sont pas passibles de l’impôt sur la fortune immobilière au titre de l’année précédant celle de l’imposition",
+   "certitude": "probable"
+  },
+  {
+   "profil": "demandeur_emploi",
+   "phrase_fr": "Les enfants majeurs inscrits comme demandeurs d'emploi qui vivent avec un parent pourraient ouvrir droit à un dégrèvement pour ce parent.",
+   "phrase_en": "Adult children registered as jobseekers who live with a parent could open entitlement to a reduction for that parent.",
+   "passage": "lorsqu’ils occupent leur habitation principale avec leurs enfants majeurs et que ceux-ci sont inscrits comme demandeurs d’emploi",
+   "certitude": "certain"
+  },
+  {
+   "profil": "parent",
+   "phrase_fr": "Les parents vivant avec leurs enfants majeurs demandeurs d'emploi pourraient bénéficier d'un dégrèvement de la nouvelle contribution audiovisuelle.",
+   "phrase_en": "Parents living with adult children who are jobseekers could receive a reduction of the new audiovisual contribution.",
+   "passage": "lorsqu’ils occupent leur habitation principale avec leurs enfants majeurs et que ceux-ci sont inscrits comme demandeurs d’emploi",
+   "certitude": "probable"
+  },
+  {
+   "profil": "age_dependant",
+   "phrase_fr": "Les personnes hébergées durablement en établissement de soins de longue durée pourraient garder un dégrèvement si leurs revenus sont modestes.",
+   "phrase_en": "People housed long term in long-term care facilities could keep a reduction if their income is modest.",
+   "passage": "Les personnes qui conservent la jouissance exclusive de l’habitation qui constituait leur résidence principale avant qu’elles soient hébergées durablement dans un établissement ou un service mentionné au 6° du I de l’article L. 312-1 du code de l’action sociale et des familles",
+   "certitude": "possible"
+  }
+ ],
+ "cout_usd": 0.00353551
+}

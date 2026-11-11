@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "corse",
+    "raison": "Le texte nomme la Corse, mais il ne change rien directement pour ses habitants : un décret fixe le calendrier de création d'un CHR puis d'un CHU au chef-lieu. L'effet sur l'accès aux soins passe par la création d'établissements, ce qui relève de l'organisation de l'État et des établissements, donc indirect.",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "etudiant",
+    "raison": "L'obligation porte sur les UFR, mais elle désigne directement la première année du premier cycle de médecine, pharmacie, odontologie et maïeutique, que suivent les étudiants. Chaque étudiant de ces filières pourra suivre cette première année dans son département, et la phrase de l'assistant reprend fidèlement cette obligation.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000752385,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

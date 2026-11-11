@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etranger_hors_ue",
+    "raison": "L'article L. 423-22 du CESEDA vise les étrangers confiés à l'ASE avant 18 ans. Ils se voient délivrer de plein droit une carte de séjour de quatre ans, sans condition de visa (L. 412-1). Le texte désigne donc directement des ressortissants hors UE vivant en France, dont les personnes sans titre de séjour.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "jeune",
+    "raison": "La carte de séjour de quatre ans est délivrée à des personnes sorties de l'ASE après 18 ans, donc à des jeunes adultes. Le texte vise directement ce sous-groupe, qui relève de la tranche 18-25 ans.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000637885,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

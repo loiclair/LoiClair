@@ -1,0 +1,35 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etudiant",
+    "raison": "Le texte vise nommément les locataires qui justifient « suivre des études supérieures » pour accéder à ces logements.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "apprenti_alternant",
+    "raison": "Le texte cite l'apprentissage, la formation professionnelle et le stage parmi les situations qui ouvrent l'accès à la résidence.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "benevole",
+    "raison": "Le texte cite l'engagement volontaire en service civique, que le profil bénévole couvre (volontaire en service civique).",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "locataire",
+    "raison": "Le texte crée un bail mobilité de une semaine à dix-huit mois en résidence à vocation d'emploi, avec des conditions de ressources et des plafonds de loyer. Cela change directement les droits des locataires de ces logements.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0070677,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

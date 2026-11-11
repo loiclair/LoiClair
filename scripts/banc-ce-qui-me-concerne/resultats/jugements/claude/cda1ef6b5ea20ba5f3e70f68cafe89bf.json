@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "expat",
+    "raison": "L'article ne vise pas les Français établis hors de France. Il ajoute seulement une publication des mesures sanitaires sur les sites des ambassades et consulats, et une mise à jour hebdomadaire. Les mesures s'appliquent à tous et ne changent ni les droits, ni les obligations, ni les démarches de l'expatrié.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000488185,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "fumeur",
+    "raison": "L'article renvoie à un décret les règles de conditionnement, d'étiquetage et d'avertissements sanitaires des produits à nicotine (tabac, cigarette électronique) : les fumeurs et vapoteurs verraient directement changer l'aspect des produits qu'ils achètent.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0018797,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

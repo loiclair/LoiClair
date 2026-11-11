@@ -1,0 +1,29 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etranger_hors_ue",
+    "raison": "L'article L. 423-22 du CESEDA vise les étrangers confiés à l'ASE avant 18 ans : ils sont hors UE et demandent un titre de séjour. La carte de plein droit de quatre ans les vise directement.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "mineur",
+    "raison": "La carte est délivrée aux jeunes à leur majorité (régularisation « à leurs 18 ans »). Le fait d'avoir été confié avant 18 ans n'est qu'une condition d'entrée dans le dispositif. Un mineur n'est pas visé en tant que mineur.",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "jeune",
+    "raison": "Le texte régularise les jeunes issus de l'ASE à 18 ans, donc de jeunes majeurs de 18 à 25 ans. Le profil jeune recoupe ce groupe et le texte le vise par son âge et sa situation.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0041367,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

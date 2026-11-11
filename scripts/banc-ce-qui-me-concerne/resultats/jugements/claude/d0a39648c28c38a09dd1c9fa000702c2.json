@@ -1,0 +1,29 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etranger_hors_ue",
+    "raison": "L'amendement crée un droit direct : un étranger hors UE confié à l'ASE avant 18 ans obtient de plein droit une carte de séjour de quatre ans, sans que la condition de l'article L. 412-1 lui soit opposable. Le texte vise la situation de non-ressortissant de l'UE qui vit en France. La phrase de l'assistant est fidèle, et « sans exiger de visa » est une lecture raisonnable de la condition visée par L. 412-1, formulée au conditionnel.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "mineur",
+    "raison": "La minorité n'est qu'une condition de date de placement à l'ASE. La mesure ne change rien pour l'enfant en tant que mineur : la carte est délivrée à 18 ans ou plus, à une personne devenue majeure. Le profil n'est donc pas ce qui déclenche la mesure. La paraphrase de l'assistant reste fidèle au texte.",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "jeune",
+    "raison": "Les bénéficiaires de la carte de séjour sont des personnes qui deviennent majeures après un placement à l'ASE, et qui ont donc souvent entre 18 et 25 ans. La mesure les vise directement dans leur statut de jeune adulte, ce qui suffit pour un sous-groupe. La phrase de l'assistant est fidèle et respecte le conditionnel.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.001293335,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

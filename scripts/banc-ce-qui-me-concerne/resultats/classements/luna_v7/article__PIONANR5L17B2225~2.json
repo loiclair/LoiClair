@@ -1,0 +1,26 @@
+{
+ "impacts": [
+  {
+   "profil": "locataire",
+   "phrase_fr": "Votre loyer serait soumis à des plafonds de référence, et vous pourriez demander une diminution si le loyer de base les dépasse.",
+   "phrase_en": "Your rent would be subject to reference caps, and you could seek a reduction if the base rent exceeds them.",
+   "passage": "Le loyer de base des logements mis en location dans le territoire concerné est fixé librement entre les parties lors de la conclusion du contrat de bail dans la limite du loyer de référence.",
+   "certitude": "certain"
+  },
+  {
+   "profil": "proprietaire_bailleur",
+   "phrase_fr": "Vous devriez respecter les plafonds de loyer applicables lorsque vous louez un logement.",
+   "phrase_en": "You would have to comply with the applicable rent caps when renting out a home.",
+   "passage": "Le loyer de base des logements mis en location dans le territoire concerné est fixé librement entre les parties lors de la conclusion du contrat de bail dans la limite du loyer de référence.",
+   "certitude": "certain"
+  },
+  {
+   "profil": "meuble_tourisme",
+   "phrase_fr": "Les loyers des logements meublés que vous louez à des fins touristiques seraient soumis aux mêmes règles d’encadrement que ceux des résidences principales.",
+   "phrase_en": "Rents for furnished homes you rent to tourists would be subject to the same controls as rents for main residences.",
+   "passage": "Les dispositions du présent article relatives à l’encadrement des loyers sont étendues aux logements meublés touristiques définis à l’article L. 324‑1‑1 du code du tourisme, ainsi qu’aux résidences étudiantes privées, telles que définies à l’article L. 631‑12 du code de la construction et de l’habitation.",
+   "certitude": "certain"
+  }
+ ],
+ "cout_usd": 0.00053285
+}

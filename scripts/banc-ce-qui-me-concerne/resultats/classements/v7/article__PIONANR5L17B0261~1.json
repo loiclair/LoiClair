@@ -1,0 +1,19 @@
+{
+ "impacts": [
+  {
+   "profil": "etudiant",
+   "phrase_fr": "Les aides aux études seraient accordées en priorité aux étudiants de nationalité française ou européenne, puis à ceux de pays ayant un accord d'accueil.",
+   "phrase_en": "Student aid would go first to students of French or EU/EEA nationality, then to those from countries with a student-hosting agreement.",
+   "passage": "Elle privilégie l’aide servie aux étudiants sous conditions de nationalité et de ressources.",
+   "certitude": "certain"
+  },
+  {
+   "profil": "etranger_hors_ue",
+   "phrase_fr": "Les étudiants non européens passeraient après les Français et Européens pour les aides, sauf accord d'accueil entre la France et leur pays.",
+   "phrase_en": "Non-EU students would rank behind French and EU/EEA students for aid, unless France has a student-hosting agreement with their country.",
+   "passage": "L’aide servie est attribuée par priorité aux étudiants possédant la nationalité française, ou d’un État membre de l’Union européenne, ou d’un État partie à l’accord sur l’Espace économique européen, puis d’un État avec lequel",
+   "certitude": "probable"
+  }
+ ],
+ "cout_usd": 0.00117261
+}

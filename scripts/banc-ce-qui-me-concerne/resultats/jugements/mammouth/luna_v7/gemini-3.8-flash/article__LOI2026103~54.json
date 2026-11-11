@@ -1,0 +1,14 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "expat",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article adapte spécifiquement les critères fiscaux (qualification de loueur en meublé professionnel) pour les contribuables qui n'ont pas leur résidence fiscale en France."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.007197
+}

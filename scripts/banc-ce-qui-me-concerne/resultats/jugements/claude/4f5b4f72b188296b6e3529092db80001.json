@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "demandeur_emploi",
+    "raison": "Le texte vise directement les « personnes sans emploi rencontrant des difficultés sociales et professionnelles particulières », qui pourraient bénéficier d'un accompagnement par les entreprises d'insertion par le travail indépendant. Cela recoupe clairement les personnes inscrites à France Travail, même si l'éligibilité exacte sera fixée par décret.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0027546999999999997,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

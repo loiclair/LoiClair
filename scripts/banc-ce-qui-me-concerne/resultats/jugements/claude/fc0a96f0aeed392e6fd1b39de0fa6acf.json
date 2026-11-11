@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "corse",
+    "raison": "Le texte impose un calendrier de création d’un centre hospitalier en Corse, mais vise l’organisation hospitalière, pas directement les droits ou démarches des habitants ; leur effet éventuel passe par l’établissement.",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "etudiant",
+    "raison": "L’obligation de proposer des enseignements s’adresse aux unités de formation et de recherche, non directement aux étudiants ; l’effet sur eux passe par ces établissements.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000720275,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

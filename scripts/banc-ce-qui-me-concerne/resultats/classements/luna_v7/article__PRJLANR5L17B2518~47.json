@@ -1,0 +1,26 @@
+{
+ "impacts": [
+  {
+   "profil": "forces_ordre",
+   "phrase_fr": "Les policiers ou gendarmes pourraient relever les empreintes ou prendre une photo lors de certains contrôles d’identité liés au système Schengen.",
+   "phrase_en": "Police officers or gendarmes could take fingerprints or a photograph during certain identity checks linked to the Schengen system.",
+   "passage": "les agents mentionnés au premier alinéa de l’article 78‑2 peuvent procéder à la prise de ses empreintes ou de photographies",
+   "certitude": "certain"
+  },
+  {
+   "profil": "etranger_ue",
+   "phrase_fr": "Lors de certains contrôles, un étranger pourrait devoir faire relever ses empreintes ou prendre une photo ; un refus pourrait entraîner une retenue et des peines.",
+   "phrase_en": "During certain checks, a foreign national could have their fingerprints taken or be photographed; refusal could lead to detention and penalties.",
+   "passage": "En cas de refus par l’étranger de se soumettre au relevé des empreintes digitales ou à la prise de photographies mentionnés au premier alinéa du présent article, il peut faire l’objet de la retenue prévue à l’article L. 813‑1",
+   "certitude": "certain"
+  },
+  {
+   "profil": "etranger_hors_ue",
+   "phrase_fr": "Lors de certains contrôles, un étranger pourrait devoir faire relever ses empreintes ou prendre une photo ; un refus pourrait entraîner une retenue et des peines.",
+   "phrase_en": "During certain checks, a foreign national could have their fingerprints taken or be photographed; refusal could lead to detention and penalties.",
+   "passage": "En cas de refus par l’étranger de se soumettre au relevé des empreintes digitales ou à la prise de photographies mentionnés au premier alinéa du présent article, il peut faire l’objet de la retenue prévue à l’article L. 813‑1",
+   "certitude": "certain"
+  }
+ ],
+ "cout_usd": 0.0008921
+}

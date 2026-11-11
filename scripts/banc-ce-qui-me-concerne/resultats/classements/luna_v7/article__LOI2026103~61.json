@@ -1,0 +1,12 @@
+{
+ "impacts": [
+  {
+   "profil": "automobiliste",
+   "phrase_fr": "Lors de l’immatriculation d’un véhicule en Île-de-France, vous pourriez payer une majoration de 14 € en 2026, puis de 12 € à partir de 2027, sauf décision différente.",
+   "phrase_en": "When registering a vehicle in Île-de-France, you could pay a €14 surcharge in 2026, then €12 from 2027, unless a different amount is decided.",
+   "passage": "Pour la période du 1er mars 2026 au 31 décembre 2026, par dérogation à l'article L. 421-54-1 du code des impositions sur les biens et services, le montant de la majoration prévue au même article L. 421-54-1 est fixé à 14 €.",
+   "certitude": "certain"
+  }
+ ],
+ "cout_usd": 0.0002676
+}

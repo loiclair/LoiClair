@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "mineur",
+    "raison": "L'article vise directement les mineurs relevant des 2° et 3° de l'article 375-3 du code civil, qui pourraient bénéficier à titre personnel de la protection complémentaire et dont la prise en charge est modifiée.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "allocataire",
+    "raison": "Le profil allocataire désigne les personnes qui perçoivent la complémentaire santé solidaire. Or l'article vise des mineurs placés, qui relèvent du profil mineur. Il ne vise pas les adultes allocataires, et le mineur n'est pas allocataire au sens du catalogue du seul fait de cette ouverture de droit.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0028886999999999997,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

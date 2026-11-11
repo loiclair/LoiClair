@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_artisanat_commerce",
+    "raison": "Le texte vise expressément « les commerçants acceptant le paiement par titres-restaurant » : ils sont les destinataires de l'information sur les commissions, ce qui touche directement leurs conditions d'acceptation de ces titres.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0037776999999999997,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

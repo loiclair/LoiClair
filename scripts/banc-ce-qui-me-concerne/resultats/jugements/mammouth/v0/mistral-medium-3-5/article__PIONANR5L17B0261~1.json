@@ -1,0 +1,26 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etudiant",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article modifie directement les critères d'attribution des bourses et logements étudiants, ce qui concerne tous les étudiants, notamment via la priorité donnée à la nationalité."
+   },
+   {
+    "profil": "etranger_ue",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "Les étudiants ressortissants de l'UE ou de l'EEE sont explicitement mentionnés comme prioritaires après les Français, ce qui les concerne directement."
+   },
+   {
+    "profil": "etranger_hors_ue",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "Les étudiants hors UE sont concernés car leur accès aux aides dépendrait d'un accord entre la France et leur pays, ce qui change leurs droits."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.007191
+}

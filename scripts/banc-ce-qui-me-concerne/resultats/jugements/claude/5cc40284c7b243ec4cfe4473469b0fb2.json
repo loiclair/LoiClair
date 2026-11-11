@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "elu_local",
+    "raison": "Le texte vise directement les conseillers communautaires suppléants, qui sont des élus intercommunaux. Il leur ouvre le droit de participer avec voix délibérative aux réunions de l'organe délibérant en cas d'absence du titulaire, lorsque la commune n'a qu'un siège.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000310335,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

@@ -1,0 +1,40 @@
+{
+ "impacts": [
+  {
+   "profil": "outre_mer",
+   "passage": "le bénéfice des droits et des prestations sociales versés aux assurés résidant à Mayotte et à leurs ayants droit est maintenu jusqu'au 30 juin 2025",
+   "certitude": "certain",
+   "phrase_en": "Social rights and benefits for people living in Mayotte are kept until 30 June 2025, even without a renewal request or supporting documents.",
+   "phrase_fr": "Les droits et prestations sociales des personnes vivant à Mayotte sont maintenus jusqu'au 30 juin 2025, même sans demande de renouvellement ni pièces justificatives."
+  },
+  {
+   "profil": "allocataire",
+   "passage": "le bénéfice des aides personnelles au logement versées par la caisse de sécurité sociale de Mayotte peut être accordé ou maintenu même si le local est loué ou sous-loué en partie à des tiers",
+   "certitude": "certain",
+   "phrase_en": "Housing benefits paid in Mayotte can be granted or kept even if part of the home is rented or sublet to others.",
+   "phrase_fr": "Les aides au logement versées à Mayotte peuvent être accordées ou maintenues même si une partie du logement est louée ou sous-louée à des tiers."
+  },
+  {
+   "profil": "handicap",
+   "passage": "bénéficient d'une prolongation de douze mois au maximum de la durée de cet accord à compter de la date de son expiration",
+   "certitude": "certain",
+   "phrase_en": "Disability rights, such as the mobility inclusion card or the compensation benefit, are extended by up to twelve months.",
+   "phrase_fr": "Les droits liés au handicap, comme la carte mobilité inclusion ou la prestation de compensation, sont prolongés de douze mois au maximum."
+  },
+  {
+   "profil": "age_dependant",
+   "passage": "a) L'allocation personnalisée d'autonomie prévue à l'article L. 232-1 du code de l'action sociale et des familles ;",
+   "certitude": "certain",
+   "phrase_en": "Elderly people losing autonomy keep the personal autonomy allowance, with a possible extension of up to twelve months.",
+   "phrase_fr": "Les personnes âgées en perte d'autonomie gardent l'allocation personnalisée d'autonomie, avec une prolongation possible de douze mois."
+  },
+  {
+   "profil": "parent",
+   "passage": "e) L'allocation d'éducation de l'enfant handicapé et ses compléments prévus à l'article 10-1 de l'ordonnance n° 2002-149 du 7 février 2002",
+   "certitude": "probable",
+   "phrase_en": "Parents of a disabled child keep the allowance for disabled children and its supplements during the extension period.",
+   "phrase_fr": "Les parents d'un enfant handicapé gardent l'allocation d'éducation de l'enfant handicapé et ses compléments pendant la prolongation."
+  }
+ ],
+ "resume_fr": null
+}

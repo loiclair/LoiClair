@@ -1,0 +1,15 @@
+{
+ "impacts": [
+  {
+   "profil": "outre_mer",
+   "passage": "l’État élabore dans chacune des collectivités régies par les articles 73 et 74 de la Constitution ainsi qu’en Nouvelle-Calédonie, un plan territorial de prévention et de lutte contre l’exploitation sexuelle des mineurs.",
+   "certitude": "certain"
+  },
+  {
+   "profil": "mineur",
+   "passage": "Il définit les modalités de mise à l’abri et d’accompagnement (sanitaire, psychologique, social et judiciaire) des mineurs victimes ou exposés à un risque d’exploitation sexuelle.",
+   "certitude": "probable"
+  }
+ ],
+ "resume_fr": "Ajouterait l'obligation pour l'État d'élaborer, dans un délai d'un an, un plan de lutte contre l'exploitation sexuelle des mineurs dans chaque collectivité d'outre-mer et en Nouvelle-Calédonie."
+}

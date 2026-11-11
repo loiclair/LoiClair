@@ -1,0 +1,26 @@
+{
+ "impacts": [
+  {
+   "profil": "secteur_education",
+   "passage": "Les agents non titulaires exerçant dans des établissements d'enseignement publics ou privés sous contrat d'association au 1er septembre 2026 sont immédiatement nommés fonctionnaires stagiaires dans leur corps d'exercice.",
+   "certitude": "certain",
+   "phrase_en": "Accompaniment staff for pupils with disabilities would join a new civil-service category B corps, with a one-year probation period.",
+   "phrase_fr": "Les accompagnants d'élèves en situation de handicap seraient intégrés dans un nouveau corps de fonctionnaires de catégorie B, avec un stage d'un an."
+  },
+  {
+   "profil": "fonctionnaire",
+   "passage": "intègrent le corps des accompagnants des élèves en situation de handicap qui est classé dans la catégorie B prévue à l'article L. 411-2 du code général de la fonction publique,",
+   "certitude": "probable",
+   "phrase_en": "Current accompaniment staff would become civil servants on probation, then civil servants after a one-year training period.",
+   "phrase_fr": "Les accompagnants en poste deviendraient fonctionnaires stagiaires, puis fonctionnaires après un stage d'un an."
+  },
+  {
+   "profil": "cdd_interim",
+   "passage": "Ceux de ces agents qui ne remplissent pas les conditions posées par les articles L. 321-1 à L. 312-3 du code général de la fonction publique se voient proposer un contrat de travail à durée indéterminée dans les mêmes conditions de rémunération et de temps de travail que les fonctionnaires titulaires.",
+   "certitude": "possible",
+   "phrase_en": "Non-permanent staff who do not meet the status conditions would be offered a permanent contract on the same pay and hours as civil servants.",
+   "phrase_fr": "Les agents non titulaires qui ne remplissent pas les conditions d'accès au statut se verraient proposer un CDI aux mêmes conditions que les titulaires."
+  }
+ ],
+ "resume_fr": null
+}

@@ -1,0 +1,26 @@
+{
+ "jugement": {
+  "oublis": [],
+  "profils": [
+   {
+    "concerne": true,
+    "phrase_fidele": true,
+    "profil": "veuf",
+    "raison": "L’amendement étend le bénéfice de la demi‑part fiscale aux veuves dont l’époux possédait un titre de reconnaissance de la Nation, ce qui concerne directement les personnes veuves."
+   },
+   {
+    "concerne": false,
+    "phrase_fidele": true,
+    "profil": "ancien_combattant",
+    "raison": "L’amendement modifie les droits de la veuve, pas ceux de l’ancien combattant lui‑même. L’effet pour ce dernier est indirect et ne change rien pour lui de son vivant."
+   },
+   {
+    "concerne": true,
+    "phrase_fidele": true,
+    "profil": "imposable",
+    "raison": "La demi‑part fiscale bénéficie aux foyers redevables de l’impôt sur le revenu ; les veuves concernées qui sont imposables verront leur impôt modifié. La phrase ne contient ni fait inventé ni conditionnel manquant."
+   }
+  ]
+ },
+ "cout_usd": 0.0018375444
+}

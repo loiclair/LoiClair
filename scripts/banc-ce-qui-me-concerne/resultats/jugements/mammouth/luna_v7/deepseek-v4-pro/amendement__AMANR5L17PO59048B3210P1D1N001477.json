@@ -1,0 +1,14 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_agriculture",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'élément porte sur un crédit d'impôt pour remplacement en raison de maladie, accident du travail ou formation professionnelle. L'exposé le destine explicitement aux « agricultrices et aux agriculteurs », et la disposition elle-même modifie un taux dans un article du CGI (200 undecies) qui vise les exploitants agricoles. L'effet est direct sur le montant du crédit d'impôt. La phrase 'Porterait de 80 % à 100 % le taux du crédit d’impôt… et limiterait son application aux sommes déduites de l’impôt dû' est fidèle au dispositif. Certitude 'probable' acceptable, car l'amendement ne nomme pas les agriculteurs dans son dispositif mais modifie un article qui leur est réservé ; 'certain' serait aussi défendable vu le contexte. Aucun fait inventé."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0075955
+}

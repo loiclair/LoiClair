@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "travailleur_plateforme",
+    "raison": "L’article vise directement le travailleur concerné par une suspension, un déréférencement ou une réduction d’accès aux missions décidés uniquement par traitement algorithmique automatisé. Il prévoit aussi une motivation, une notification et une procédure contradictoire.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000202775,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

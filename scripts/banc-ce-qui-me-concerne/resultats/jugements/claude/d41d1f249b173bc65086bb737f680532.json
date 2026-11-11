@@ -1,0 +1,41 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "outre_mer",
+    "raison": "L'article vise les assurés résidant à Mayotte, un département d'outre-mer : leurs droits et prestations sociales sont maintenus.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "handicap",
+    "raison": "Le II prolonge de douze mois les droits liés au handicap (PCH, carte mobilité inclusion, AEEH), ce qui vise directement les personnes handicapées. La phrase omet que la prolongation peut être renouvelée par décret, mais ne dit rien de faux.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "age_dependant",
+    "raison": "L'allocation personnalisée d'autonomie figure à la liste du II.A.2 a) et sa durée est prolongée de douze mois au maximum, ce qui vise directement les personnes âgées dépendantes.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "parent",
+    "raison": "L'allocation d'éducation de l'enfant handicapé (II.A.2 e) est versée aux parents ou responsables légaux d'un enfant à charge, et sa durée est prolongée. Le texte concerne directement ces parents.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "allocataire",
+    "raison": "Le I vise les aides personnelles au logement versées par la caisse de Mayotte, qui peuvent être accordées ou maintenues malgré une location ou sous-location partielle. Les bénéficiaires d'APL relèvent de ce profil. La phrase est conforme au texte.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0066887,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

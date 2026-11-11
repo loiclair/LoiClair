@@ -1,0 +1,12 @@
+{
+ "impacts": [
+  {
+   "profil": "secteur_sante",
+   "phrase_fr": "Les médecins, chirurgiens-dentistes et sages-femmes pourraient plus facilement obtenir l’autorisation de remplacement lorsqu’ils contribuent à améliorer l’accès aux soins dans des territoires sous-dotés.",
+   "phrase_en": "Doctors, dentists and midwives could more easily obtain replacement authorisation when they help improve access to care in areas with insufficient healthcare provision.",
+   "passage": "Lorsque le médecin qui sollicite le remplacement s’absente pour concourir à l’amélioration de l’accès aux soins dans des territoires caractérisés par une offre de soins insuffisante",
+   "certitude": "certain"
+  }
+ ],
+ "cout_usd": 0.000267725
+}

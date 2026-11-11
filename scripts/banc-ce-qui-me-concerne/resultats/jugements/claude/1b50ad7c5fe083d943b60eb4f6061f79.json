@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "fumeur",
+    "raison": "Le texte règle les conditionnements et la présentation des produits avec nicotine, sans viser directement les personnes qui fument ; leur profil ne suffit pas à les rendre concernés.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000362775,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

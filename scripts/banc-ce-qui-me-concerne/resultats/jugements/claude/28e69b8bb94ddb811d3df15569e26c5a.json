@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "pompier_volontaire",
+    "raison": "Le texte vise expressément chaque sapeur-pompier volontaire exposé : une fiche d'exposition est établie pour lui après une intervention à risque.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "fonctionnaire",
+    "raison": "Le texte vise expressément les sapeurs-pompiers professionnels, agents des collectivités territoriales (code général de la fonction publique), et non des forces de l'ordre : le profil fonctionnaire correspond.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0026227,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

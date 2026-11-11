@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "expat",
+    "raison": "Le texte prévoit explicitement la publication de la liste sur les sites des ambassades et des postes consulaires, ce qui la rend directement accessible aux Français établis à l’étranger.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00061715,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

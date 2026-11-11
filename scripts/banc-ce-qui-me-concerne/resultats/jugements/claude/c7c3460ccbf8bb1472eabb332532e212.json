@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "proprietaire_bailleur",
+    "raison": "L'amendement change la preuve que le bailleur doit fournir pour être réputé satisfaire à l'obligation de décence énergétique lorsque des travaux sont impossibles : une attestation écrite remplace « établies ou contrôlées ». Le bailleur est directement visé par cette obligation de décence et par la démarche de preuve.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000666585,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

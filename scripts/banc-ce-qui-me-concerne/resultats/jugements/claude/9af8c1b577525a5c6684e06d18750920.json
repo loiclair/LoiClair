@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "heritier_donateur",
+    "raison": "Le texte instaure un taux réduit de droits de donation sur les dons d'argent à des descendants, neveux et nièces : il vise directement ceux qui donnent ou reçoivent.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "jeune",
+    "raison": "Le texte vise les donataires de 18 ans révolus (ou émancipés) et de moins de 50 ans ; ce sous-groupe inclut les 18-25 ans, qui bénéficieraient du taux réduit.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0030597,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

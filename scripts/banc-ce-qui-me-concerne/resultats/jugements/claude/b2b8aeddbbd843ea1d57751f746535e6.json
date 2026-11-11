@@ -1,0 +1,29 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "proprietaire_bailleur",
+    "raison": "Le texte modifie la déduction de l'amortissement pour les personnes qui acquièrent un logement avec travaux et le louent nu à titre de résidence principale (3° du I). L'avantage fiscal vise directement les bailleurs.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "imposable",
+    "raison": "La déduction réduit le revenu imposable, mais la mesure vise les acquéreurs-bailleurs, et non les contribuables en tant que tels. Le profil proprietaire_bailleur couvre déjà cette cible.",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "projet_achat",
+    "raison": "La déduction s'adresse aux acquéreurs qui louent le bien (investisseurs), pas à une personne qui cherche à acheter son propre logement. La phrase de l'assistant reprend fidèlement les conditions d'achat et de travaux, sans fait inventé.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0008638350000000001,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

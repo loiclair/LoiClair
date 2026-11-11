@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "usager_transports",
+    "raison": "Les caméras filment la voie publique depuis l'avant du véhicule. Le texte ne vise pas les voyageurs, ne prévoit pas de les filmer et ne leur impose rien. L'obligation de signalisation pèse sur l'opérateur. Les voyageurs ne sont donc pas visés en tant que tels.",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "secteur_transport",
+    "raison": "Le texte vise les opérateurs de transports guidés urbains (tramways, métros) et permet de filmer le personnel de conduite. Les enregistrements servent à former les conducteurs et leur hiérarchie et à analyser les accidents, ce qui change la façon d'exercer le métier de conducteur.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000978435,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

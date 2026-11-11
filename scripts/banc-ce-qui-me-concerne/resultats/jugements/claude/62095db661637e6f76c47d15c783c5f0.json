@@ -1,0 +1,55 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "handicap",
+    "raison": "Le 2° vise les titulaires de l'AAH et le 3° les personnes atteintes d'une infirmité ou d'une invalidité qui les empêche de travailler : le dégrèvement les cible directement.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "senior",
+    "raison": "Le 4° vise les contribuables de plus de 60 ans, sous conditions de revenus et d'absence d'IFI : sous-groupe des 55 ans et plus.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "veuf",
+    "raison": "Le 4° vise nommément les veuves et veufs, sous plafond de revenus et sans IFI, sans condition d'âge.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "patrimoine_ifi",
+    "raison": "Le texte fait de l'assujettissement à l'IFI la condition d'exclusion du dégrèvement du 4°, donc les foyers à l'IFI perdent ce dégrèvement. Mais la phrase dit « réservé aux plus de 60 ans », alors que le 4° couvre aussi les veuves et veufs.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "demandeur_emploi",
+    "raison": "Le demandeur d'emploi est l'enfant : le dégrèvement du 5° profite au parent-contribuable, et le statut de l'enfant ne sert qu'à fixer une condition.",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "parent",
+    "raison": "Le 5° vise les contribuables qui logent leurs enfants majeurs demandeurs d'emploi aux ressources limitées, donc à charge. Mais seuls les parents de plus de 60 ans ou veufs (4°), sous plafonds et sans IFI, peuvent en bénéficier.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "age_dependant",
+    "raison": "Le 7° vise les personnes hébergées durablement dans un établissement de soins de longue durée, sans autonomie de vie, qui gardent leur logement : ce sont des personnes âgées en perte d'autonomie en établissement.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "age_dependant"
+  ]
+ },
+ "cout_usd": 0.002574185,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

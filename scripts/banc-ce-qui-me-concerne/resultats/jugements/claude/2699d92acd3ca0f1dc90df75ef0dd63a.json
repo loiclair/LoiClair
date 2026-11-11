@@ -1,0 +1,29 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "auto_entrepreneur",
+    "raison": "L'art. 293 B fixe la franchise en base de TVA, qui vise les micro-entrepreneurs et indépendants en franchise. Mais le texte ne nomme pas le micro-entrepreneur ; il vise tout assujetti en franchise, donc le profil est voisin et non désigné par le texte.",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "secteur_btp",
+    "raison": "Le texte soumet au taux normal de TVA les prestations de rénovation énergétique avec chaudière fossile et les travaux de nettoyage et d'espaces verts. Cela change la facturation des entreprises du bâtiment.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "proprietaire_occupant",
+    "raison": "Le texte ne désigne pas les propriétaires occupants. Il fixe le taux de TVA applicable aux prestations, et le prix payé par le particulier ne change que par ricochet. Le passage cité ne parle que de rénovation énergétique, pas du logement du client.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0046187,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

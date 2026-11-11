@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "mineur",
+    "raison": "Le texte vise directement les personnes mineures placées au titre des 2° et 3° de l'article 375-3 du code civil (confiées à un tiers digne de confiance ou à l'ASE) et leur ouvre à titre personnel la protection complémentaire santé. C'est un sous-groupe de mineurs, donc le profil mineur est concerné.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000404185,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "fonctionnaire",
+    "raison": "Le texte vise les agents des douanes et des services fiscaux menant des enquêtes judiciaires, qui sont des fonctionnaires de l'État. Mais il ne touche ni leur statut, ni leur rémunération, ni leurs obligations d'agent : il organise l'échange d'informations entre services de l'État et une procédure pénale, ce qui relève de l'organisation de l'État. Pas concerné.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000998535,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

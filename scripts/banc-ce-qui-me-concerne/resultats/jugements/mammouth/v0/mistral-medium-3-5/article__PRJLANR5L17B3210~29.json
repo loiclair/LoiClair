@@ -1,0 +1,20 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "epargnant",
+    "concerne": false,
+    "phrase_fidele": false,
+    "raison": "L'article modifie une exclusion d'imposition pour certains crypto-actifs, mais cela ne concerne que les crypto-actifs spécifiques mentionnés dans le règlement (UE) 2023/1114. La phrase proposée par l'assistant est infidèle car elle suggère que l'exclusion s'applique à 'certains crypto-actifs' de manière générale, alors que le texte précise explicitement quels crypto-actifs sont concernés (ceux des points 3 et 4 de l'article 2 du règlement). De plus, l'effet est hypothétique (conditionnel non respecté dans la phrase)."
+   },
+   {
+    "profil": "chef_entreprise",
+    "concerne": false,
+    "phrase_fidele": false,
+    "raison": "L'article mentionne une condition pour l'application d'avantages fiscaux liés à des équipements de technologie 'zéro net', mais il ne vise pas spécifiquement les 'chefs d'entreprise'. Le texte s'applique à toute personne ou entreprise utilisant ces équipements, sans distinction de statut. La phrase proposée est infidèle car elle restreint l'application aux 'chefs d'entreprise', alors que le texte ne fait pas cette distinction."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0116475
+}

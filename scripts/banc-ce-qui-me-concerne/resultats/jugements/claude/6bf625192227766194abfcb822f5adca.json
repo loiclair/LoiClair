@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "elu_local",
+    "raison": "Le texte vise directement les adjoints au maire ou conseillers municipaux chargés de la sécurité civile, ainsi que le correspondant incendie et secours, et leur impose une formation lors de leur prise de fonction. C'est une obligation qui pèse sur eux par leur mandat, donc concerné.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000272485,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

@@ -1,0 +1,35 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "locataire",
+    "raison": "Le texte crée un bail mobilité spécifique aux résidences à vocation d'emploi, dont le locataire est le bénéficiaire direct. La phrase de l'assistant décrit fidèlement la location meublée d'une semaine à dix-huit mois.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "etudiant",
+    "raison": "Le texte désigne explicitement les locataires justifiant de la suite d'études supérieures comme publics de ces résidences, avec le bail mobilité correspondant.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "apprenti_alternant",
+    "raison": "Le texte vise les locataires en contrat d'apprentissage ou en formation professionnelle, ce qui recouvre le profil apprenti ou alternant.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "benevole",
+    "raison": "Le texte vise l'engagement volontaire en service civique, que le catalogue range dans le profil bénévole.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000769635,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

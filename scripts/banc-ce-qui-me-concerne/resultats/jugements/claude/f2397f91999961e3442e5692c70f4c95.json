@@ -1,0 +1,29 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_education",
+    "raison": "Le L. 812-7 vise directement le personnel de l'enseignement supérieur agricole public : le ministre peut le suspendre jusqu'à un an, sans privation de traitement. C'est une règle qui touche l'exercice du métier.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "fonctionnaire",
+    "raison": "Le texte vise le « personnel de l'enseignement supérieur agricole public », c'est-à-dire des agents publics de l'État. La suspension disciplinaire sans privation de traitement relève de leur statut. La phrase de l'assistant reprend fidèlement cette mesure.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "etudiant",
+    "raison": "Le texte retire les « usagers », c'est-à-dire les étudiants, de la composition de la section disciplinaire de l'établissement et du conseil national statuant en matière disciplinaire. Le profil est donc concerné. La phrase est inexacte : le texte ne nomme pas les étudiants, et le I n'entre en vigueur que le 1er janvier 2026, avec maintien des anciennes règles pour les procédures en cours. « Ne siègent plus » présente donc comme acquis un changement qui n'a pas encore commencé.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.001790435,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

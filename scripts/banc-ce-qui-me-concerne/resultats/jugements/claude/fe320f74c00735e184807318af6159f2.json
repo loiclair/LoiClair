@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "benevole",
+    "raison": "Le texte vise les associations déclarées, qui recevraient un accueil et un accompagnement spécifiques. Il ne modifie pas directement les droits ou obligations des bénévoles : leur éventuel bénéfice passe par l’association.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000270775,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

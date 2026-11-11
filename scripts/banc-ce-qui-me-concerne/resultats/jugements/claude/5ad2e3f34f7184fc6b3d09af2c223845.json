@@ -1,0 +1,29 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "apprenti_alternant",
+    "raison": "L'amendement rouvre la possibilité de conclure un contrat d'apprentissage ou une convention de stage avec une entreprise exclue ; les apprentis et stagiaires, visés par le profil, voient leurs possibilités d'accueil élargies.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "etudiant",
+    "raison": "Le texte vise les stagiaires et apprentis en général, sans nommer les étudiants du supérieur ; le stage n'est pas propre à ce profil et l'effet est indirect, via l'entreprise.",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "chef_entreprise",
+    "raison": "L'amendement permet à une entreprise exclue de redemander à l'inspecteur du travail l'autorisation de conclure conventions de stage et contrats d'apprentissage ; cela vise directement les employeurs concernés, y compris les PME.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0042197,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

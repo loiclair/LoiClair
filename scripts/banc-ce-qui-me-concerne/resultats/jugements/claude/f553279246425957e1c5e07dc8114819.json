@@ -1,0 +1,20 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "parent",
+    "raison": "L’ajout vise des infractions commises par les personnes des 1° à 4°, catégories qui comprennent notamment les relations parent-enfant (ascendant et enfant). Cela concerne les parents lorsque l’infraction est commise dans ce cadre familial.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "concubin",
+   "marie_pacse",
+   "separe_divorce"
+  ]
+ },
+ "cout_usd": 0.000922525,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

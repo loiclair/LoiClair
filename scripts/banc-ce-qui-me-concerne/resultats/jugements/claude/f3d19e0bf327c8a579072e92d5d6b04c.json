@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "benevole",
+    "raison": "L’ajout vise explicitement le temps effectif du service civique, et le profil inclut les volontaires en service civique.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00078415,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

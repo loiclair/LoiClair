@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etranger_hors_ue",
+    "raison": "Le texte vise les demandeurs et bénéficiaires de l'aide médicale de l'État, et non les étrangers hors UE en général. Le profil du catalogue désigne les titulaires d'un titre de séjour, les demandeurs d'asile et les réfugiés, catégories que l'AME ne vise pas en principe. La nationalité n'est qu'une donnée collectée, pas le critère qui déclenche la mesure.",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "secteur_sante",
+    "raison": "La mesure impose aux professionnels de santé qui collectent ces données que le secret médical ne soit pas opposable. Cela change directement leurs obligations de confidentialité dans l'exercice du métier, sans passer par un tiers.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000895635,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

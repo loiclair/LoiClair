@@ -1,0 +1,24 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etudiant",
+    "raison": "Les règles visées peuvent entraîner la nullité du contrat et le remboursement du double des sommes versées au cocontractant : cela touche directement l’étudiant qui a conclu ce contrat.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "chef_entreprise",
+    "raison": "Les dirigeants d’organismes de formation peuvent être visés par l’amende et l’interdiction d’exercer l’activité de dirigeant. Le texte prévoit toutefois une amende administrative, et non une condamnation à une amende au sens d’une condamnation pénale.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": [
+   "dirigeant_grande_entreprise"
+  ]
+ },
+ "cout_usd": 0.000743525,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

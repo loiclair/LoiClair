@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "veuf",
+    "raison": "Le texte vise explicitement le conjoint survivant d’un fonctionnaire civil ou d’un militaire décédé.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00034665,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

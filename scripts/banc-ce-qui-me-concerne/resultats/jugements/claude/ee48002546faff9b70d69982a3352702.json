@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "jeune",
+    "raison": "Le remplacement de 21 par 25 ans étend l’âge jusqu’auquel les jeunes majeurs concernés peuvent être accompagnés par l’aide sociale à l’enfance.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000330025,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

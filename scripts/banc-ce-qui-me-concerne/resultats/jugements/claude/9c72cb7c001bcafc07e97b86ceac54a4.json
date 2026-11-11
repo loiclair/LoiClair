@@ -1,0 +1,19 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "imposable",
+    "raison": "Le crédit ne vise pas tout foyer imposable mais le cessionnaire d'une entreprise (article 787 D, a à c). Être imposable n'est qu'une condition fiscale d'imputation, et l'article vise aussi l'impôt sur les sociétés.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "heritier_donateur"
+  ]
+ },
+ "cout_usd": 0.001034285,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

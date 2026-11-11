@@ -1,0 +1,20 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etranger_hors_ue",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article impose une condition de résidence d'un an aux étrangers hors UE pour bénéficier des prestations familiales, ce qui les concerne directement."
+   },
+   {
+    "profil": "parent",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article restreint l'accès aux prestations familiales, qui sont destinées aux parents (ou responsables légaux) d'enfants à charge."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0022646
+}

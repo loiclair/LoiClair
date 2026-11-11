@@ -1,0 +1,12 @@
+{
+ "impacts": [
+  {
+   "profil": "secteur_culture",
+   "phrase_fr": "Les publications inscrites à la commission paritaire seraient présumées être des publications de presse, et l'Arcom pourrait donner un avis sur leur identification.",
+   "phrase_en": "Publications registered with the commission paritaire would be presumed to be press publications, and Arcom could give an opinion on their identification.",
+   "passage": "Les publications de presse et les services de presse en ligne inscrits à la commission paritaire des publications et agences de presse sont, sauf preuve contraire, présumés constituer une publication de presse au sens du présent I.",
+   "certitude": "probable"
+  }
+ ],
+ "cout_usd": 0.00069701
+}

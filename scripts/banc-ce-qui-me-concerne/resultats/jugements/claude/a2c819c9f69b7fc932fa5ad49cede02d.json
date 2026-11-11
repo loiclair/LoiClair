@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "chef_entreprise",
+    "raison": "Le crédit d'impôt profite au cessionnaire, c'est-à-dire à celui qui reprend l'entreprise, et non au cédant. Un dirigeant qui vend sa société n'en tire rien. La phrase lui attribue à tort le crédit « lors de la cession de votre entreprise » et lui impose l'engagement de conservation de cinq ans, qui pèse sur le cessionnaire.",
+    "concerne": false,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "heritier_donateur",
+    "raison": "L'article vise les cessions à titre gratuit, c'est-à-dire les donations et successions d'entreprises. Le crédit réduit directement les droits de mutation à titre gratuit que paie le bénéficiaire qui reçoit l'entreprise. La phrase est juste dans son principe, même si elle omet le plafond de 100 000 euros et les conditions d'activité et de conservation.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000836335,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

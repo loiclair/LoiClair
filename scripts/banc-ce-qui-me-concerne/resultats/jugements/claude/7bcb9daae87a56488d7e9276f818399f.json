@@ -1,0 +1,41 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "outre_mer",
+    "raison": "Le texte vise les assurés résidant à Mayotte, département d'outre-mer : c'est leur lieu de vie qui déclenche le maintien des droits. La phrase de l'assistant est fidèle sur le fond et sur la date du 30 juin 2025. Elle omet la condition d'expiration à compter du 14 décembre 2024 et la prolongation possible par décret, sans les contredire.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "allocataire",
+    "raison": "Les aides personnelles au logement (APL, ALF, ALS) relèvent de la définition d'allocataire, et la dérogation change directement leur attribution à Mayotte. La phrase est infidèle : elle omet « pendant la période » du premier alinéa du I, si bien qu'une dérogation temporaire paraît permanente.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "handicap",
+    "raison": "Les droits des personnes handicapées (carte mobilité inclusion, PCH partielle, AEEH et autres droits de la CDAPH) sont visés directement, avec une prolongation de douze mois au maximum. La phrase est infidèle : elle présente comme général ce qui ne vaut qu'à Mayotte, pour les accords sans décision de la CDAPH, et elle ne précise pas que seules les charges 1°, 4° et 5° de la PCH sont visées.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "age_dependant",
+    "raison": "L'APA (a du 2 du II.A) est visée directement, et sa durée peut être prolongée de douze mois pour les personnes âgées en perte d'autonomie. La phrase est infidèle : elle omet que la mesure ne vaut qu'à Mayotte et que la prolongation cède devant un rejet ou une modification par la CDAPH ou le président du conseil départemental.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "parent",
+    "raison": "L'AEEH (e du 2 du II.A) est versée aux parents ou responsables légaux d'un enfant handicapé, et c'est eux qui en bénéficient ; la prolongation les vise donc par cet avantage. La phrase est infidèle sur le champ : elle ne précise pas qu'il s'agit de Mayotte ni la condition d'absence de décision de la CDAPH, et son énoncé est trop général.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.002188385,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

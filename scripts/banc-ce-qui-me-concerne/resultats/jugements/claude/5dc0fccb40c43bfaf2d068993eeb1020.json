@@ -1,0 +1,41 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "parent",
+    "raison": "Le texte protège la femme qui allaite son enfant, donc une mère de jeune enfant. La mesure vise directement une situation parentale, et le profil est bien le bon.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "salarie_prive",
+    "raison": "L'ajout à l'article L. 1132-1 du code du travail interdit la discrimination des salariées du privé en raison de l'allaitement, comme pour la grossesse. La mesure s'applique directement à elles.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "fonctionnaire",
+    "raison": "L'ajout à l'article L. 131-1 du code général de la fonction publique (« ou d'allaitement ») étend l'interdiction de discrimination aux fonctionnaires, sur le même modèle que la grossesse.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "chef_entreprise",
+    "raison": "L'interdiction de discrimination pèse sur tout employeur (article L. 1132-1 et article L. 1321-3 du code du travail), y compris les TPE et PME. Elle vaut aussi pour les commerçants qui refusent l'accès à un lieu ouvert au public, sous les sanctions de l'article 225-2 du code pénal.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "dirigeant_grande_entreprise",
+    "raison": "Même obligation pour les employeurs de 250 salariés ou plus : interdiction de discriminer en raison de l'allaitement en matière d'emploi, et sanctions de l'article 225-2 pour les exploitants de lieux ouverts au public.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.001054335,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

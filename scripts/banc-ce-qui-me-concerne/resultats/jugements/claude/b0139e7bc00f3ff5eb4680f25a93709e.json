@@ -1,0 +1,29 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "salarie_prive",
+    "raison": "Le texte du I et du VI vise les salariés : l'employeur doit les informer des frais, pénalités ou coûts de transaction liés au déblocage de leur épargne salariale, ce qui touche directement le montant qu'ils peuvent récupérer.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "chef_entreprise",
+    "raison": "L'amendement ajoute un contenu à l'obligation d'information imposée à tout employeur (article 1er, VI), donc aux dirigeants de TPE, PME et moyennes entreprises, qui doivent informer leurs salariés des frais de déblocage.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "dirigeant_grande_entreprise",
+    "raison": "Même obligation d'information imposée à tout employeur, applicable aux dirigeants d'entreprises de 250 salariés ou plus.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000920585,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

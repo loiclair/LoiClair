@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_industrie",
+    "raison": "L’amendement modifie la définition des aliments ultra-transformés ; il n’impose pas directement de règle professionnelle aux personnes travaillant dans l’industrie.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00048015,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

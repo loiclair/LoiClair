@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "chef_entreprise",
+    "raison": "Le crédit vise le cessionnaire d’une entreprise, mais le texte ne réserve pas le bénéfice aux dirigeants de petites ou moyennes entreprises et n’exige pas que le repreneur devienne chef d’entreprise. Le seul fait d’avoir ce profil ne suffit donc pas.",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "heritier_donateur",
+    "raison": "Le texte vise explicitement les cessions à titre gratuit et prévoit un crédit pour le cessionnaire : une personne qui reçoit une entreprise par donation ou succession peut donc être concernée, sous les conditions prévues.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00067215,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

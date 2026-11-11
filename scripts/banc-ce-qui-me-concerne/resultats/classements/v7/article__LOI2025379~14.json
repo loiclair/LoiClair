@@ -1,0 +1,19 @@
+{
+ "impacts": [
+  {
+   "profil": "usager_transports",
+   "phrase_fr": "Les voyageurs des tramways et métros pourront être filmés par des caméras frontales, pendant trois ans d'expérimentation, avec une signalétique spécifique.",
+   "phrase_en": "Tram and metro passengers may be filmed by front-facing cameras during a three-year trial, with signs announcing it.",
+   "passage": "Le public est informé, par une signalétique spécifique, que le moyen de transport est équipé d'une caméra.",
+   "certitude": "probable"
+  },
+  {
+   "profil": "secteur_transport",
+   "phrase_fr": "Les conducteurs de tramways et métros seront filmés par des caméras frontales, leurs images étant effacées après trente jours sauf procédure disciplinaire.",
+   "phrase_en": "Tram and metro drivers will be filmed by front-facing cameras, with footage deleted after thirty days unless used in a disciplinary procedure.",
+   "passage": "Les enregistrements comportant des données à caractère personnel, hors les cas où ils sont utilisés dans le cadre d'une procédure judiciaire, administrative ou disciplinaire, sont effacés au bout de trente jours.",
+   "certitude": "probable"
+  }
+ ],
+ "cout_usd": 0.00214907
+}

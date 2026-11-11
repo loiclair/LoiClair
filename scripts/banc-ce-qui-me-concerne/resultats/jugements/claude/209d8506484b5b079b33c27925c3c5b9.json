@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "imposable",
+    "raison": "L'article 200 du CGI ouvre une réduction d'impôt sur le revenu pour les dons aux organismes d'intérêt général. Le texte étend cette réduction aux dons aux organismes d'aide aux victimes de violence domestique : le foyer qui paie l'impôt sur le revenu et fait ces dons est directement visé.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0020567,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

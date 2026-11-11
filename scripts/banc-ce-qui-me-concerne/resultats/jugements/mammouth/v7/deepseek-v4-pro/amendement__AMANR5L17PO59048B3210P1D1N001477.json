@@ -1,0 +1,14 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_agriculture",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'assistant identifie correctement le seul profil concerné : le dispositif modifie un crédit d'impôt propre aux agriculteurs (l'article 200 undecies du CGI vise exclusivement les dépenses de remplacement des exploitants agricoles), et la phrase décrit fidèlement l'objet de l'amendement sans rien inventer."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0075725
+}

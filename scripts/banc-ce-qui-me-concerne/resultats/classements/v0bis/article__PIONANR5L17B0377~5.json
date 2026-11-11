@@ -1,0 +1,19 @@
+{
+ "impacts": [
+  {
+   "profil": "secteur_culture",
+   "phrase_fr": "Les journalistes et assimilés qui écrivent, photographient ou dessinent pour une agence ou un journal français seraient affiliés à la Sécurité sociale, quel que soit leur statut.",
+   "phrase_en": "Journalists who write, photograph or draw for a French press agency or newspaper would be covered by French social security, whatever their employment status.",
+   "passage": "Les journalistes professionnels et assimilés, au sens des articles L. 7111‑3 et L. 7111‑4 du code du travail, fournissant des articles, des informations, des reportages, des dessins ou des photographies à une agence de presse ou à une entreprise de presse quotidienne ou périodique",
+   "certitude": "certain"
+  },
+  {
+   "profil": "expat",
+   "phrase_fr": "Les journalistes installés hors de France pourraient être affiliés à la Sécurité sociale française, quel que soit leur pays de résidence.",
+   "phrase_en": "Journalists living abroad would be covered by French social security, whatever their country of residence.",
+   "passage": "quel que soit leur pays d’exercice et leur pays de résidence",
+   "certitude": "probable"
+  }
+ ],
+ "cout_usd": 0.00093885
+}

@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "littoral",
+    "raison": "Le texte vise les mutations d'immeubles situés dans les communes littorales, ce qui touche directement leurs habitants, notamment s'ils achètent ou vendent sur place. Les communes riveraines de plans d'eau intérieurs de plus de 1 000 hectares sont exclues, mais l'habitant du littoral reste visé.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "projet_achat",
+    "raison": "La taxe additionnelle de 0,10 % s'ajoute aux droits de mutation à titre onéreux et est due par la personne tenue de payer ces droits, donc l'acquéreur. Cela change directement le coût d'achat d'un logement en commune littorale.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0033136999999999997,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "residence_secondaire",
+    "raison": "Le texte permet aux communes concernées de majorer la taxe d’habitation sur les résidences secondaires, ce qui vise directement les détenteurs d’une résidence secondaire. La phrase est toutefois imprécise : la majoration porte sur la part de la cotisation revenant à la commune, et non sur la taxe entière.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000773525,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

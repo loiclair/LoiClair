@@ -1,0 +1,19 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "grande_ville",
+    "raison": "Les zones à faibles émissions concernent les grandes agglomérations (le catalogue les cite pour grande_ville). Le texte conditionne l'application des restrictions de circulation dans la ZFE aux temps de trajet : là où l'alternative à la voiture est trop longue, les restrictions ne s'appliquent pas. Cela change directement les règles pour les habitants de ces zones.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "automobiliste"
+  ]
+ },
+ "cout_usd": 0.0028236999999999997,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

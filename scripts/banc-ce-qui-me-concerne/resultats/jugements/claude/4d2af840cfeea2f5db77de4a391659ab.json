@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "epargnant",
+    "raison": "Le texte exclut certains crypto-actifs (ceux visés aux 3 et 4 de l'article 2 du règlement MiCA) de la règle fiscale sur les gains de cession de l'article 150 VH bis du CGI. Une personne qui détient et vend de tels actifs est directement visée, et le profil epargnant mentionne explicitement les cryptoactifs.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.001262135,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

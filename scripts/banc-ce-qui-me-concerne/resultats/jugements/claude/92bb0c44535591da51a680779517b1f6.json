@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "handicap",
+    "raison": "Le texte cite expressément « du handicap » parmi les motifs de discrimination réprimés, donc une personne handicapée est visée en tant que telle.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "malade_chronique",
+    "raison": "Le motif « de l’état de santé » protège notamment les personnes atteintes d’une maladie de longue durée, ce qui les vise clairement.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0058977,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

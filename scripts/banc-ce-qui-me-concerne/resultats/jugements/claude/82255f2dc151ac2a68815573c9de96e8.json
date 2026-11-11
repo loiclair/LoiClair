@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "salarie_prive",
+    "raison": "Le texte vise « les salariés atteints d'algie vasculaire de la face » et leur donne un droit à 30 jours d'arrêt sans ancienneté ni préavis, notifié à l'employeur ; un salarié de droit privé est directement visé.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "malade_chronique",
+    "raison": "L'algie vasculaire de la face est une maladie de longue durée demandant des soins réguliers, et la mesure vise précisément les personnes qui en sont atteintes ; l'arrêt est conditionné à un certificat médical. La phrase est fidèle, mais elle omet que seuls les salariés sont visés.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0030126999999999997,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

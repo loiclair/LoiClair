@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "alsace_moselle",
+    "raison": "L'article modifie une loi cadastrale propre à la Moselle, au Bas-Rhin et au Haut-Rhin, mais il s'agit d'une coordination technique avec le code civil (titre XXI du livre III, prescription acquisitive). Cela ne change rien de direct et concret pour l'habitant, qui n'est donc pas visé en tant que tel.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0021206999999999997,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

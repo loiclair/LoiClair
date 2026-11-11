@@ -1,0 +1,12 @@
+{
+ "impacts": [
+  {
+   "profil": "fonctionnaire",
+   "phrase_fr": "Les agents des douanes et des services fiscaux peuvent désormais transmettre aux agents de contrôle les informations recueillies pendant leurs enquêtes judiciaires.",
+   "phrase_en": "Customs and tax investigators can now pass information gathered during their criminal investigations to control agents.",
+   "passage": "les agents des douanes et les agents des services fiscaux effectuant des enquêtes judiciaires et habilités à cet effet en application des articles 28-1 et 28-2 peuvent communiquer",
+   "certitude": "certain"
+  }
+ ],
+ "cout_usd": 0.00081565
+}

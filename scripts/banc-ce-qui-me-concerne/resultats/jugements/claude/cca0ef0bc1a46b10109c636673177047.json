@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "heritier_donateur",
+    "raison": "Le II vise explicitement les successions ouvertes depuis 2007 et non partagées : les héritiers de ces successions sont directement touchés, car un bien en abandon pourrait revenir à la commune après 15 ans au lieu de 30, sans réaction d'un tiers. La mesure désigne la situation de succession, donc l'héritier entre dans le profil.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000686285,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

@@ -1,0 +1,25 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "salarie_prive",
+    "raison": "Le texte accorde explicitement ce droit aux salariés atteints d’algie vasculaire de la face ; les salariés du privé sont directement visés.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "malade_chronique",
+    "raison": "Le texte vise les salariés atteints d’une pathologie précise, mais ne dit pas que toute personne atteinte d’algie vasculaire de la face bénéficie du droit : il faut aussi être salarié. Le profil « malade chronique » ne suffit donc pas à déclencher la mesure.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": [
+   "cdd_interim",
+   "salarie_particulier"
+  ]
+ },
+ "cout_usd": 0.001112775,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

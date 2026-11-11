@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etranger_hors_ue",
+    "raison": "Les demandeurs et bénéficiaires de l’AME et des soins urgents sont directement visés par les traitements prévus, notamment par la collecte de leur nationalité et des pathologies prises en charge.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "secteur_sante",
+    "raison": "Le texte prévoit que le secret médical n’est pas opposable lorsque les données sont collectées par l’intermédiaire d’un professionnel de santé : cela modifie directement les règles applicables à ces professionnels.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0007589,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

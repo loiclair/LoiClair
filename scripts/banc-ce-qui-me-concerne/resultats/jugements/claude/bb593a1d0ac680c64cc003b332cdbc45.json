@@ -1,0 +1,28 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "auto_entrepreneur",
+    "raison": "L'art. 293 B fixe la franchise en base de TVA (seuil unique de 25 000 € / 27 500 €, fin immédiate au dépassement), qui vise directement les micro-entrepreneurs et petits assujettis.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "proprietaire_occupant",
+    "raison": "Le III bis de l'art. 278-0 bis A exclut du taux réduit les travaux avec chaudière pouvant utiliser des combustibles fossiles, ce qui augmente le coût pour un propriétaire occupant qui fait ces travaux dans son logement.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": [
+   "independant",
+   "chef_entreprise",
+   "secteur_btp",
+   "secteur_artisanat_commerce"
+  ]
+ },
+ "cout_usd": 0.0039016999999999997,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

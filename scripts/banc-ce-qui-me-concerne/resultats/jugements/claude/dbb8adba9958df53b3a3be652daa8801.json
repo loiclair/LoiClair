@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "independant",
+    "raison": "La disposition règle le décompte des heures de formation pour les personnes concernées par les formations de certification des informations de durabilité. Elle ne vise pas les travailleurs indépendants en raison de leur statut ni ne précise leur mode d’exercice.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0005609,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

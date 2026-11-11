@@ -1,0 +1,24 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etudiant",
+    "raison": "L’article vise directement les étudiants : l’aide qui leur est servie est soumise à des conditions de nationalité et de ressources, avec une priorité selon certaines nationalités.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "etranger_ue",
+    "raison": "La nationalité d’un autre État membre de l’Union européenne est explicitement citée parmi celles donnant priorité aux étudiants concernés.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "etranger_hors_ue"
+  ]
+ },
+ "cout_usd": 0.000907775,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

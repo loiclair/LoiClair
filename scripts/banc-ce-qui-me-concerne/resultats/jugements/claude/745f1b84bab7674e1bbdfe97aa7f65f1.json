@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "mineur",
+    "raison": "Le texte vise directement les infractions commises sur une personne mineure au moment des faits ; un mineur victime de telles infractions est concerné, même si la règle s’applique aussi aux victimes devenues majeures.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000384775,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

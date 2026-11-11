@@ -1,0 +1,33 @@
+{
+ "impacts": [
+  {
+   "profil": "handicap",
+   "phrase_fr": "Les personnes handicapées pourraient demander une évaluation limitée à leur seule éligibilité au statut de travailleur handicapé ou à la carte mobilité inclusion.",
+   "phrase_en": "Disabled people would be able to request an assessment limited to their eligibility for disabled worker status or the mobility inclusion card.",
+   "passage": "La personne handicapée ou son représentant légal peut, par dérogation à l’article L. 146‑8, solliciter l’évaluation par l’équipe pluridisciplinaire de sa seule éligibilité à la reconnaissance de la qualité de travailleur handicapé mentionnée à l’article L. 5213‑2 du code du travail, à la carte “mobilité inclusion”",
+   "certitude": "certain"
+  },
+  {
+   "profil": "age_dependant",
+   "phrase_fr": "Les bénéficiaires de l'allocation d'autonomie pourraient recevoir la carte mobilité inclusion à titre définitif, sur la seule décision d'attribution de l'allocation.",
+   "phrase_en": "Recipients of the autonomy allowance would be able to receive the mobility inclusion card permanently, based only on the allowance award decision.",
+   "passage": "Par dérogation au I, est délivrée à titre définitif aux bénéficiaires de l’allocation prévue à l’article L. 232‑1, au vu de la seule décision d’attribution de l’allocation :",
+   "certitude": "probable"
+  },
+  {
+   "profil": "senior",
+   "phrase_fr": "Les personnes de plus de 60 ans pourraient demander une évaluation pour certaines mentions de la carte mobilité inclusion, selon un seuil d'âge fixé par arrêté.",
+   "phrase_en": "People over 60 would be able to request an assessment for certain mobility inclusion card entries, according to an age threshold set by decree.",
+   "passage": "si le demandeur a un âge supérieur à un âge fixé par arrêté du ministre chargé de l’autonomie, qui ne peut être inférieur à 60 ans",
+   "certitude": "probable"
+  },
+  {
+   "profil": "parent",
+   "phrase_fr": "Les parents d'un enfant malade, handicapé ou victime d'un accident grave pourraient être concernés par la carte mobilité inclusion, la condition liée au mineur étant retirée.",
+   "phrase_en": "Parents of a sick, disabled or seriously injured child could be affected by the mobility inclusion card, as the minor-related condition would be removed.",
+   "passage": "À la première phrase du IV bis, les mots : « destinée à un mineur atteint d’une maladie ou d’un handicap ou victime d’un accident d’une particulière gravité » sont supprimés.",
+   "certitude": "possible"
+  }
+ ],
+ "cout_usd": 0.00199971
+}

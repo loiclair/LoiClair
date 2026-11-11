@@ -1,0 +1,19 @@
+{
+ "impacts": [
+  {
+   "profil": "secteur_agriculture",
+   "passage": "Les prescriptions générales peuvent comprendre un plan de modernisation des bâtiments d’élevage, visant notamment à :",
+   "certitude": "certain",
+   "phrase_en": "Livestock farmers would possibly have to modernise their buildings, better manage effluents and strengthen biosecurity under general national rules.",
+   "phrase_fr": "Les éleveurs pourraient devoir moderniser leurs bâtiments, mieux gérer leurs effluents et renforcer la biosécurité selon des règles générales nationales."
+  },
+  {
+   "profil": "chef_entreprise",
+   "passage": "Les installations d’élevage soumises à enregistrement ou à autorisation conformément à l’article L. 511‑2 font l’objet, eu égard à leurs caractéristiques, à leur impact potentiel et à la concentration des activités sur un territoire donné",
+   "certitude": "probable",
+   "phrase_en": "Operators of livestock installations subject to authorisation or registration would possibly be subject to general national prescriptions.",
+   "phrase_fr": "Les exploitants d’installations d’élevage soumises à autorisation ou à enregistrement pourraient être soumis à des prescriptions générales nationales."
+  }
+ ],
+ "resume_fr": null
+}

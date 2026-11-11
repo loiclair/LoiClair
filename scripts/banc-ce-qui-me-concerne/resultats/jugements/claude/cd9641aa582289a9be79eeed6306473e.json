@@ -1,0 +1,43 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "parent",
+    "raison": "L’amendement vise les personnes qui allaitent ; cela concerne notamment des parents qui allaitent leur enfant.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "salarie_prive",
+    "raison": "L’article L. 1132-1 du code du travail étend aux personnes qui allaitent la protection contre les discriminations dans l’emploi.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "fonctionnaire",
+    "raison": "L’article L. 131-1 du code général de la fonction publique ajoute explicitement l’allaitement parmi les motifs protégés.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "chef_entreprise",
+    "raison": "L’interdiction de discrimination dans l’emploi impose directement une obligation aux employeurs concernés.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "dirigeant_grande_entreprise",
+    "raison": "L’interdiction de discrimination dans l’emploi impose directement une obligation aux employeurs concernés.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "salarie_particulier",
+   "particulier_employeur"
+  ]
+ },
+ "cout_usd": 0.002071525,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

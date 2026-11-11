@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "chef_entreprise",
+    "raison": "L'obligation pèse sur l'entrepreneur principal, c'est-à-dire l'entreprise titulaire qui sous-traite plus du tiers du contrat. Elle vise donc directement le dirigeant de ce type d'entreprise, sans limite de taille, et la phrase de l'assistant reste fidèle au texte.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "secteur_btp",
+    "raison": "Le texte ne nomme ni le bâtiment ni les travaux publics : il parle de contrat, de marché et de sous-traitance en général, dans le cadre de la loi de 1975. La phrase de l'assistant restreint donc la mesure au bâtiment, ce qui n'est pas dans le texte, et ne relève pas d'un secteur nommé par la mesure.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000793635,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

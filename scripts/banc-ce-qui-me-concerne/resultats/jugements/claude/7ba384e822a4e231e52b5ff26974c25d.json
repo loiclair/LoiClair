@@ -1,0 +1,19 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etudiant",
+    "raison": "Le texte sanctionne le non-respect des règles sur les contrats de formation privée par la nullité et le remboursement du double au co-contractant. Le dossier porte sur l'enseignement supérieur privé, mais l'article parle de « co-contractant » et de « formation privée » sans viser les étudiants. Ce co-contractant peut être n'importe quel stagiaire ou apprenant, pas seulement un étudiant du supérieur.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "chef_entreprise"
+  ]
+ },
+ "cout_usd": 0.0026227,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

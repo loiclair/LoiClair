@@ -1,0 +1,28 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "heritier_donateur",
+    "raison": "Les dons admissibles relèvent explicitement des donations : leur fiscalité est allégée et le donataire doit les déclarer ou les enregistrer dans le mois.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "jeune",
+    "raison": "Le texte vise les donataires âgés de 18 ans révolus à moins de 50 ans ; les 18-25 ans qui reçoivent un don admissible sont inclus.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "mineur",
+    "raison": "Le texte inclut expressément les donataires mineurs ayant fait l’objet d’une mesure d’émancipation, s’ils remplissent les autres conditions.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000597275,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

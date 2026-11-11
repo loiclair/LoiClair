@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "elu_local",
+    "raison": "Le texte change les règles de désignation des adjoints au maire, avec une dérogation pour les communes de moins de 1 000 habitants en cas de vacance, et modifie le mode de scrutin des conseillers municipaux. Ces règles visent directement les élus municipaux.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00046658500000000005,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

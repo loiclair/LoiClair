@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_agriculture",
+    "raison": "Les prescriptions visent directement les installations d’élevage et leur exploitation ; les personnes qui travaillent dans l’élevage relèvent du secteur agricole.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000557775,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

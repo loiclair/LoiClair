@@ -1,0 +1,41 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "outre_mer",
+    "raison": "L'article vise les assurés résidant à Mayotte, département d'outre-mer, et maintient leurs droits jusqu'au 30 juin 2025. La phrase reprend fidèlement cette date.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "handicap",
+    "raison": "La prolongation de douze mois au maximum vise la PCH, la carte mobilité inclusion et l'AEEH, droits des personnes en situation de handicap. La phrase garde la limite de douze mois et l'exception en cas de refus de la commission.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "age_dependant",
+    "raison": "Le II.A.2.a vise l'APA, prestation des personnes âgées en perte d'autonomie. La phrase présente le maintien comme acquis, alors que le texte l'écarte en cas de décision de rejet du président du conseil départemental.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "allocataire",
+    "raison": "Les APL, citées dans la définition de l'allocataire, peuvent être accordées ou maintenues malgré la sous-location, mais seulement pendant la période transitoire. La phrase présente cette règle comme permanente.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "parent",
+    "raison": "L'AEEH et ses compléments, versés aux parents d'un enfant handicapé, sont inclus dans la prolongation (II.A.2.e). La phrase est juste sur le fond, la limite de douze mois étant omise sans fausseté.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.002132885,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

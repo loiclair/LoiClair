@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_agriculture",
+    "raison": "Les installations d’élevage soumises à enregistrement ou à autorisation sont directement visées par des prescriptions générales, qui peuvent inclure un plan de modernisation. Cela concerne le secteur de l’élevage.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000479025,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

@@ -1,0 +1,12 @@
+{
+ "resume_fr": "Créerait une autorisation provisoire de séjour d’un an, renouvelable et ouvrant droit au travail, pour certains étrangers victimes de violences qui n’ont pas porté plainte ni témoigné.",
+ "resume_en": "Would create a renewable one-year temporary residence permit with the right to work for certain foreign victims of violence who have not filed a complaint or testified.",
+ "impacts": [
+  {
+   "profil": "etranger_hors_ue",
+   "passage": "L’étranger qui fait état de faits susceptibles de constituer l’une des infractions mentionnées au premier alinéa de l’article L. 425‑1 et qui, sans avoir déposé plainte ou témoigné dans une procédure pénale, produit des éléments sérieux et concordants permettant d’en présumer la réalité, après un examen individualisé de sa situation tenant compte de la gravité des faits, de sa vulnérabilité et de sa dépendance éventuelle à l’égard de la personne mise en cause, se voit délivrer une autorisation provisoire de séjour d’une durée d’un an.",
+   "certitude": "certain"
+  }
+ ],
+ "cout_usd": 0.00037735
+}

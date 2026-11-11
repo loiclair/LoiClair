@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_culture",
+    "raison": "Le texte vise explicitement les journalistes professionnels et assimilés, qui relèvent du secteur de la culture, et modifie leur rattachement à la sécurité sociale.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "expat",
+    "raison": "Le texte prévoit expressément que le pays d’exercice et le pays de résidence n’y font pas obstacle, ce qui vise aussi les journalistes français établis à l’étranger. En revanche, il ne limite pas la mesure aux journalistes français.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0005639,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

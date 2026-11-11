@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "chef_entreprise",
+    "raison": "L’article vise les pratiques commerciales en ligne mentionnées à l’article L. 121-20, pas les dirigeants de petites ou moyennes entreprises en raison de leur statut. Le fait qu’un dirigeant puisse organiser de telles pratiques ne suffit pas à viser ce profil.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.001001025,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

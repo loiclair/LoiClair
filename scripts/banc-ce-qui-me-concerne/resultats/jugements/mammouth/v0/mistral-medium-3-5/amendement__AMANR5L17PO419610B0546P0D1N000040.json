@@ -1,0 +1,28 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "proprietaire_bailleur",
+    "concerne": false,
+    "phrase_fidele": true,
+    "raison": "L'amendement modifie une condition pour que l'obligation de décence énergétique soit réputée satisfaite en copropriété, mais il ne change rien directement pour le propriétaire bailleur en tant que tel. Le passage cité ne vise pas spécifiquement les propriétaires bailleurs, mais le syndicat des copropriétaires (qui peut inclure des propriétaires bailleurs, mais aussi des occupants)."
+   },
+   {
+    "profil": "coproprietaire",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'amendement remplace explicitement la condition du vote de travaux en AG par la conclusion d’un contrat de maîtrise d’œuvre fondé sur un audit énergétique. Cela concerne directement les copropriétaires, car c’est leur assemblée (via le syndicat) qui doit désormais agir ainsi pour satisfaire l’obligation de décence énergétique."
+   },
+   {
+    "profil": "locataire",
+    "concerne": false,
+    "phrase_fidele": true,
+    "raison": "L'amendement ne modifie pas directement les droits ou obligations du locataire. Il change une condition pour que le bailleur (ou la copropriété) soit considéré comme conforme à l'obligation de décence énergétique, mais cela n’a pas d’effet direct et immédiat sur le locataire."
+   }
+  ],
+  "oublis": [
+   "proprietaire_occupant"
+  ]
+ },
+ "cout_usd": 0.0090345
+}

@@ -1,0 +1,12 @@
+{
+ "impacts": [
+  {
+   "profil": "salarie_prive",
+   "phrase_fr": "Pourrait permettre aux salariés couverts par une complémentaire ou une prévoyance de branche de bénéficier d'un financement d'activité physique hors travail.",
+   "phrase_en": "Would allow employees covered by branch-level health or provident insurance to access funding for physical activity outside work hours.",
+   "passage": "Cette contribution est facultative pour chaque salarié couvert par un contrat souscrit dans le champ de la branche concernée.",
+   "certitude": "possible"
+  }
+ ],
+ "cout_usd": 0.00085631
+}

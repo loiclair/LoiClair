@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_culture",
+    "raison": "Le texte vise directement les éditeurs de presse et agences de presse : leurs publications inscrites à la CPPAP sont présumées être des publications de presse (droits voisins) et ils peuvent saisir l'Arcom pour avis. Cela change leurs règles professionnelles, et la presse relève du profil.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0020786999999999997,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

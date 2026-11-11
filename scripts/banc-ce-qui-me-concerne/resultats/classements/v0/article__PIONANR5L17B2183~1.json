@@ -1,0 +1,19 @@
+{
+ "impacts": [
+  {
+   "profil": "secteur_agriculture",
+   "passage": "L’usage d’appâts concentrés, tels que des granulés, liquides ou gels attractifs, volontairement disséminés dans le milieu marin pour attirer les poissons vers une embarcation ou un engin de pêche",
+   "certitude": "certain",
+   "phrase_en": "Professional fishers would no longer be allowed to attract fish at sea with bait, lights or fish waste.",
+   "phrase_fr": "Les pêcheurs professionnels ne pourraient plus attirer les poissons en mer avec des appâts, des lumières ou des rejets de poissons."
+  },
+  {
+   "profil": "chasseur_pecheur",
+   "passage": "Il est interdit à toute personne de mettre en œuvre les pratiques suivantes :",
+   "certitude": "probable",
+   "phrase_en": "Recreational anglers would no longer be allowed to use concentrated bait, lights or fish waste to attract fish at sea.",
+   "phrase_fr": "Les pêcheurs de loisir ne pourraient plus utiliser d’appâts concentrés, de lumières ou de débris de poissons pour attirer les poissons en mer."
+  }
+ ],
+ "resume_fr": null
+}

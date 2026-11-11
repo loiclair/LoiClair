@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "alsace_moselle",
+    "raison": "Le texte vise nommément la Moselle, le Bas-Rhin et le Haut-Rhin et écarte pour ces départements le droit local du cadastre : les règles de prescription du code civil pourraient s'y appliquer aux terrains, ce qui changerait les droits des habitants sur leurs biens.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000438385,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_finance",
+    "raison": "L'article vise directement les entreprises d'assurance (prévoyance, complémentaire santé) : il leur permet d'abonder un fonds de branche et leur interdit de répercuter cette contribution sur les primes ou les garanties. Cela change leurs règles d'exercice.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "salarie_prive",
+    "raison": "Les salariés des branches ayant un dispositif conventionnel de financement de l'activité physique sont visés. Ils sont couverts par les contrats concernés, et la contribution ne peut pas être répercutée sur leurs primes. L'article ne parle pas de bénéficier directement du financement, mais de contribution facultative de l'assureur.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0031057,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

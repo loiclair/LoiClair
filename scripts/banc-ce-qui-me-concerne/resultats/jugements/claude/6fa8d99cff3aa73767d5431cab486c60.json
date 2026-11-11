@@ -1,0 +1,29 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "malade_chronique",
+    "raison": "La condition vise une affection grave et incurable en phase avancée ou terminale, ce que le catalogue exclut explicitement de malade_chronique. Le texte ne désigne pas les personnes atteintes d'une maladie de longue durée en général.",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "etranger_hors_ue",
+    "raison": "La condition de nationalité française ou de résidence stable et régulière ne s'applique réellement qu'aux non-Français, dont les titulaires d'un titre de séjour, qui peuvent ainsi accéder à l'aide à mourir. Le texte ne réserve toutefois rien aux pays hors UE.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "etranger_ue",
+    "raison": "La même clause de résidence stable et régulière s'applique aux non-Français, y compris aux ressortissants de l'UE résidant en France. Le texte ne fait aucune distinction selon l'origine européenne.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.001510735,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

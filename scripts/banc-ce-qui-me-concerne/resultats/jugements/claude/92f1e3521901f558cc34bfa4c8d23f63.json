@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "benevole",
+    "raison": "Le texte vise les procédures de dissolution d'associations par l'autorité administrative et la liquidation de leurs biens par un curateur. Les dirigeants bénévoles et les membres convoqués à l'assemblée générale pour décider de la dévolution des biens y sont directement concernés : ils votent à la majorité des suffrages exprimés, quel que soit le nombre de présents. Le profil « benevole » inclut les dirigeants bénévoles d'association. Cependant, la mesure ne cible pas les bénévoles en tant que tels, mais l'association dissoute, c'est-à-dire un tiers, et l'effet sur la personne passe par l'association. La phrase de l'assistant dit que les bénévoles pourraient voir « ses » biens liquidés, ce qui est approximatif, mais reste fidèle au texte : liquidation par curateur et dévolution décidée en assemblée générale convoquée par lui, au conditionnel.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0045176999999999995,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

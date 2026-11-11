@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_agriculture",
+    "raison": "L'article organise l'indemnisation des réclamants pour les dégâts de grand gibier (barème national, prix des denrées, frais de remise en état, portail de demande, commission de recours). Les victimes visées sont les exploitants agricoles et forestiers, dont les cultures sont touchées. La mesure change directement leurs démarches et leur indemnisation.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0047656999999999995,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

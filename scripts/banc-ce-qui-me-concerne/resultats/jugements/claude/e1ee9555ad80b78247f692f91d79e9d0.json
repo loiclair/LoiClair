@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "epargnant",
+    "raison": "Le texte crée un livret d'épargne ouvert aux personnes physiques domiciliées fiscalement en France, avec plafond : cela vise directement les personnes qui épargnent via des livrets.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "marie_pacse",
+    "raison": "Le texte prévoit expressément un livret pour chacun des époux ou partenaires de PACS soumis à une imposition commune, au lieu d'un seul livret par contribuable : la situation de couple déclenche une règle spécifique.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0028487,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

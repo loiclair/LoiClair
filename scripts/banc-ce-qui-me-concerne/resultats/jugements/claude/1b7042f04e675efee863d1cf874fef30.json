@@ -1,0 +1,18 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "aidant",
+    "raison": "L’article modifie les règles applicables aux personnes qui exercent une mesure de tutelle ou de curatelle, rôle expressément inclus dans le profil aidant.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "parent"
+  ]
+ },
+ "cout_usd": 0.001076025,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_sante",
+    "raison": "Le texte lève le secret médical pour les professionnels de santé qui collectent les données : cela change directement leurs obligations professionnelles.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "etranger_hors_ue",
+    "raison": "L'AME et les soins urgents visent des étrangers en situation irrégulière, mais le profil du catalogue (titre de séjour, demandeur d'asile, réfugié) ne correspond pas à des personnes sans titre de séjour. De plus, la phrase affirme que « votre nationalité » serait enregistrée, ce qui est trop large.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0036377,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

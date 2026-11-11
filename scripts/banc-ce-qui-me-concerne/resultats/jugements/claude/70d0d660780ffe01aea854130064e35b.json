@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "mineur",
+    "raison": "L’article vise expressément les personnes mineures confiées dans les situations prévues aux 2° et 3° de l’article 375-3 et leur ouvre la possibilité de bénéficier personnellement de la complémentaire santé solidaire.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "allocataire",
+    "raison": "La complémentaire santé solidaire fait partie des prestations visées par la définition du profil allocataire ; l’article prévoit qu’un mineur concerné peut en bénéficier à titre personnel.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000795025,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

@@ -1,0 +1,19 @@
+{
+ "impacts": [
+  {
+   "profil": "littoral",
+   "phrase_fr": "Acheter un bien immobilier dans une commune littorale serait assorti d'une taxe additionnelle de 0,10 % en plus des droits de mutation.",
+   "phrase_en": "Buying property in a coastal commune would carry an extra 0.10% tax on top of transfer duties.",
+   "passage": "Il est perçu au profit de l’État une taxe additionnelle aux droits d’enregistrement ou à la taxe de publicité foncière exigibles sur les mutations à titre onéreux d’immeubles ou de droits immobiliers situés sur le territoire d’une commune littorale",
+   "certitude": "probable"
+  },
+  {
+   "profil": "projet_achat",
+   "phrase_fr": "Une personne qui achète un bien dans une commune littorale serait tenue de payer une taxe de 0,10 % en plus des droits de mutation.",
+   "phrase_en": "A person buying property in a coastal commune would have to pay an extra 0.10% tax on top of transfer duties.",
+   "passage": "Elle est due par la personne tenue au paiement de ces droits ou de cette taxe.",
+   "certitude": "probable"
+  }
+ ],
+ "cout_usd": 0.00100131
+}

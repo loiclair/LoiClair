@@ -1,0 +1,29 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "futur_parent",
+    "raison": "Le texte vise la femme ou le couple engagés dans une FIV, donc des personnes avec un projet d'enfant, et change leurs droits : accès à l'examen des aneuploïdies des embryons.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "concubin",
+    "raison": "Le texte parle de « couple » sans préciser le statut (mariage, PACS ou union libre) ; prêter le statut de concubin est un statut prêté, la mesure ne dépend pas de la situation de couple.",
+    "concerne": false,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "marie_pacse",
+    "raison": "Le texte parle de « couple » ou de « femme » seule, sans mentionner mariage ou PACS ; le statut est prêté et ne déclenche pas la mesure.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0037207,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_culture",
+    "raison": "Le texte vise directement les journalistes professionnels (presse, agences) et change leur affiliation à la sécurité sociale, quel que soit leur lien juridique : le secteur presse est bien concerné.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "expat",
+    "raison": "Le texte déroge à la condition de résidence en France : les journalistes sont affiliés quel que soit leur pays de résidence ou d'exercice, ce qui change directement leurs droits sociaux s'ils sont établis à l'étranger.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0026327,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

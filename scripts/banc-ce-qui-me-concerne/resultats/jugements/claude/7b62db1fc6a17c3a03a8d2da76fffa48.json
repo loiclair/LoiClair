@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "pompier_volontaire",
+    "raison": "Le texte vise nommément les sapeurs-pompiers volontaires exposés lors d'une intervention et prévoit une fiche d'exposition établie pour chacun d'eux.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "fonctionnaire",
+    "raison": "Le texte vise les sapeurs-pompiers professionnels, qui relèvent du statut de fonctionnaire territorial, et il s'insère dans le code général de la fonction publique.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000694635,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

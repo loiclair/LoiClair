@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "salarie_prive",
+    "raison": "L’amendement remplace 2027 par 2026 pour les droits à participation et les sommes d’intéressement placés par un salarié : il modifie directement la date limite applicable aux salariés concernés.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "epargnant",
+    "raison": "Le texte vise les sommes placées au titre de la participation et de l’intéressement, c’est-à-dire l’épargne salariale. La définition du profil epargnant exclut cette épargne.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000649775,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

@@ -1,0 +1,14 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "expat",
+    "concerne": true,
+    "phrase_fidele": false,
+    "raison": "La mesure vise expressément les contribuables n'ayant pas leur résidence fiscale en France. En revanche, la phrase utilise le conditionnel alors qu'il s'agit d'une loi publiée, et affirme inexactement qu'il s'agit du calcul de l'impôt sur les revenus de source étrangère (il s'agit des conditions d'appréciation des revenus pour le régime fiscal de la location meublée)."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00819375
+}

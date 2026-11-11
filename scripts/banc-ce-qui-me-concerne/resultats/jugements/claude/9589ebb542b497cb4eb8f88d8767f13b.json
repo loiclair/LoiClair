@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "heritier_donateur",
+    "raison": "L’amendement étendrait jusqu’au 31 décembre 2027 la période pendant laquelle certains dons de sommes d’argent bénéficient de l’allègement fiscal : il vise directement les personnes qui transmettent ou reçoivent un patrimoine par donation.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000354025,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

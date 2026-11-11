@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "emprunteur",
+    "raison": "Le texte vise toute victime d'usurpation d'identité qui conteste une obligation, quelle qu'en soit la nature. Le profil « emprunteur » (qui rembourse un crédit) n'est pas ce qui déclenche la mesure : c'est l'usurpation d'identité. La phrase présente aussi à tort un emprunteur ordinaire qui conteste sa dette, alors que la mesure ne vaut que pour une dette issue d'une usurpation d'identité.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0035207,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

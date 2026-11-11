@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "mineur",
+    "raison": "L’âge minimal de 14 ans vise directement les conducteurs de moins de 14 ans, qui font partie du profil mineur.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "cycliste",
+    "raison": "Le profil inclut les personnes qui se déplacent en trottinette ; le texte limite directement la vitesse de ces engins à 20 km/h.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000284275,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

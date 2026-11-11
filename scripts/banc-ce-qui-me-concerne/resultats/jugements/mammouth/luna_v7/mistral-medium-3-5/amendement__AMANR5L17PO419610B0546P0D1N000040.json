@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "locataire",
+    "concerne": false,
+    "phrase_fidele": false,
+    "raison": "L'amendement modifie une condition pour que le bailleur soit réputé satisfaire à l'obligation de décence énergétique en copropriété. Cela ne change rien directement pour le locataire : son droit à un logement décent ou à une réduction de loyer reste inchangé. La phrase proposée décrit l'amendement, pas son effet sur le locataire."
+   },
+   {
+    "profil": "proprietaire_bailleur",
+    "concerne": true,
+    "phrase_fidele": false,
+    "raison": "L'amendement modifie directement les conditions pour qu'un propriétaire bailleur en copropriété puisse justifier du respect de l'obligation de décence énergétique. Cependant, la phrase proposée ne décrit pas l'effet concret pour le propriétaire bailleur (ex: 'Devrait justifier d’un contrat de maîtrise d’œuvre avec audit énergétique pour prouver la conformité'). Le passage cité est correct mais la phrase n'est pas fidèle à l'effet direct."
+   }
+  ],
+  "oublis": [
+   "coproprietaire"
+  ]
+ },
+ "cout_usd": 0.0083895
+}

@@ -1,0 +1,18 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "chef_entreprise",
+    "raison": "Le texte prévoit une peine pour l’employeur qui commet la violation à l’égard de plusieurs personnes. Cela vise directement les employeurs, dont les dirigeants de TPE, PME et petites entreprises.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "dirigeant_grande_entreprise"
+  ]
+ },
+ "cout_usd": 0.00025965,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

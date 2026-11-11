@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "montagne",
+    "raison": "Non : le texte vise les compétences des communes situées en zone de montagne, pas leurs habitants en raison de leur lieu de vie.",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "elu_local",
+    "raison": "Oui : les communes peuvent décider par délibération de reprendre ces compétences, après avis de l’organe délibérant de la communauté de communes.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000505525,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

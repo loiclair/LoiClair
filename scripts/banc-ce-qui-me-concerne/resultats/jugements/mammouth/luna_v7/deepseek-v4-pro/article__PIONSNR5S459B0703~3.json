@@ -1,0 +1,20 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "handicap",
+    "concerne": false,
+    "phrase_fidele": false,
+    "raison": "L'article ne crée pas de nouveau motif de discrimination, il remplace la liste existante par une liste qui inclut toujours le handicap. Aucun changement concret pour une personne handicapée : la discrimination fondée sur le handicap était déjà interdite."
+   },
+   {
+    "profil": "malade_chronique",
+    "concerne": false,
+    "phrase_fidele": false,
+    "raison": "La discrimination fondée sur l'état de santé figure déjà dans le code pénal. L'article ne change rien pour un malade chronique."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0018304
+}

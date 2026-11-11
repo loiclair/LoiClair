@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "locataire",
+    "raison": "Le texte impose au bailleur de fournir au locataire un logement garantissant un confort thermique minimal en été.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "proprietaire_bailleur",
+    "raison": "Le texte impose directement au bailleur des travaux ou la mise à disposition d’équipements, à la demande du locataire.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0003289,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

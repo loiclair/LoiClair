@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "elu_local",
+    "raison": "L’article modifie les règles de désignation des adjoints, qui concernent directement les élus municipaux.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "rural",
+    "raison": "Le texte vise les communes de moins de 1 000 habitants, pas les communes rurales en tant que telles ; ces catégories ne se confondent pas, et la règle porte sur la désignation des adjoints.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00053115,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

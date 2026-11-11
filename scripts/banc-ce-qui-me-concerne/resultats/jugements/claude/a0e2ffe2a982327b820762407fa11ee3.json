@@ -1,0 +1,18 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "locataire",
+    "raison": "L’amendement remplace, pour les raisons techniques rendant les travaux impossibles, « établies ou contrôlées » par « attestées ». Cette exigence touche directement les locataires, dont le logement et les droits sont concernés par l’obligation de décence énergétique.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "proprietaire_bailleur"
+  ]
+ },
+ "cout_usd": 0.000404275,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

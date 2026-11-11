@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "veuf",
+    "raison": "L'article vise le conjoint survivant d'un fonctionnaire ou militaire décédé qui occupait un logement de fonction : majoration forfaitaire et maintien dans le logement un an. Le conjoint survivant correspond au profil veuf.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0020807,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

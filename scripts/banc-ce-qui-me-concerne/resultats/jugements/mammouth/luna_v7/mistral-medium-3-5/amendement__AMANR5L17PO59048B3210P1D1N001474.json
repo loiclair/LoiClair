@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_agriculture",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'amendement modifie directement le calcul des plus-values pour les jeunes agriculteurs associés exploitants bénéficiaires d’aides à l’installation, ce qui impacte leur fiscalité. Le passage cité est exact et fidèle au texte."
+   }
+  ],
+  "oublis": [
+   "jeune"
+  ]
+ },
+ "cout_usd": 0.00696
+}

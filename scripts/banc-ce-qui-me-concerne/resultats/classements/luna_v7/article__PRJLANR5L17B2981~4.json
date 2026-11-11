@@ -1,0 +1,12 @@
+{
+ "impacts": [
+  {
+   "profil": "proprietaire_bailleur",
+   "phrase_fr": "Pourrait déduire de ses revenus le prix amorti d’un logement acheté avec les travaux requis, à condition de le louer nu comme résidence principale et de respecter les critères énergétiques.",
+   "phrase_en": "Would be able to deduct the amortised purchase price of a home bought with the required works, provided it is rented unfurnished as a main residence and meets the energy standards.",
+   "passage": "de louer le logement nu à titre de résidence principale",
+   "certitude": "certain"
+  }
+ ],
+ "cout_usd": 0.000450975
+}

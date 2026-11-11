@@ -1,0 +1,43 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "outre_mer",
+    "raison": "L'article vise les assurés résidant à Mayotte, un département d'outre-mer : le lieu de vie est ce qui déclenche la mesure.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "handicap",
+    "raison": "Le II prolonge de douze mois au maximum les droits liés au handicap (PCH, carte mobilité inclusion, AEEH), sauf décision contraire de la commission (CDAPH).",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "age_dependant",
+    "raison": "L'allocation personnalisée d'autonomie figure parmi les prestations prolongées (II.A.2.a), ce qui vise les personnes âgées en perte d'autonomie.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "allocataire",
+    "raison": "Le texte permet d'accorder ou de maintenir les aides personnelles au logement même si le local est partiellement sous-loué, et suspend le recouvrement des indus : cela vise directement les bénéficiaires d'aides au logement.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "parent",
+    "raison": "L'allocation d'éducation de l'enfant handicapé est citée parmi les prestations prolongées (II.A.2.e), ce qui vise les parents d'un enfant handicapé.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "aidant"
+  ]
+ },
+ "cout_usd": 0.0062927,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

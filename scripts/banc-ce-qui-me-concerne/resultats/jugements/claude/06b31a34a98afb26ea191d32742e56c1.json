@@ -1,0 +1,35 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "futur_parent",
+    "raison": "L'examen est proposé aux personnes engagées dans une tentative de fécondation in vitro, donc en projet d'enfant. Le texte les vise directement par cette situation.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "marie_pacse",
+    "raison": "Le texte vise « la femme ou les deux membres du couple », sans distinguer le mariage ou le PACS de l'union libre. Les couples mariés ou pacsés sont donc visés, mais l'examen est proposé par l'équipe médicale et décidé par elle au cas par cas, et non demandé par le couple.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "concubin",
+    "raison": "Le texte vise « les deux membres du couple » sans exclure l'union libre, donc les concubins sont visés. Mais la phrase dit que le couple pourrait demander l'examen, alors que le texte prévoit une proposition et une décision de l'équipe médicale.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "celibataire",
+    "raison": "Le titre vise « des femmes engagées dans une démarche d'assistance médicale à la procréation », et le texte mentionne « la femme » seule. Une femme seule en fécondation in vitro est donc visée.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.001029235,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

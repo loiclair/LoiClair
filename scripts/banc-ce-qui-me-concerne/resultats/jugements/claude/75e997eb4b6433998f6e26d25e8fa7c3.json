@@ -1,0 +1,40 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "outre_mer",
+    "raison": "Le texte vise explicitement les assurés résidant à Mayotte et leurs ayants droit, donc des habitants d’outre-mer. La prolongation est toutefois limitée aux droits qui expirent à compter du 14 décembre 2024 et comporte des exceptions.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "allocataire",
+    "raison": "Les aides personnelles au logement, qui font partie des aides visées par la définition du profil, peuvent être accordées ou maintenues malgré la location ou sous-location partielle du logement.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "handicap",
+    "raison": "Le texte prolonge notamment la carte mobilité inclusion et certaines prestations de compensation du handicap, sous conditions de période et de renouvellement.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "age_dependant",
+    "raison": "L’allocation personnalisée d’autonomie est expressément visée par la prolongation, pour les bénéficiaires remplissant les conditions prévues.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "parent",
+    "raison": "L’allocation d’éducation de l’enfant handicapé et ses compléments figurent expressément parmi les droits susceptibles d’être prolongés.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00154215,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

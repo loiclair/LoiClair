@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_finance",
+    "raison": "La peine complémentaire d'interdiction d'exercer les fonctions d'agent de change vise une profession financière, mais seulement pour les personnes condamnées pour des délits douaniers. Le critère déclencheur est la condamnation, pas l'appartenance au secteur : règle 7.",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "chef_entreprise",
+    "raison": "Le texte vise les personnes condamnées, pas les dirigeants de PME en tant que tels. Le droit de vote ou d'éligibilité aux chambres de commerce et tribunaux de commerce n'est retiré qu'en raison de la condamnation, donc chef_entreprise n'est pas ce qui déclenche la mesure. De plus, la phrase est infidèle : l'interdiction porte aussi sur les fonctions d'agent de change et ne vise pas spécialement ces élections, et elle est formulée comme certaine alors qu'il s'agit d'une peine encourue.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0036817,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

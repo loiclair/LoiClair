@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_culture",
+    "raison": "Le texte vise expressément les droits patrimoniaux reconnus aux auteurs d’œuvres de l’esprit et modifie leur traitement fiscal ; les auteurs relèvent du secteur de la culture.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000584025,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

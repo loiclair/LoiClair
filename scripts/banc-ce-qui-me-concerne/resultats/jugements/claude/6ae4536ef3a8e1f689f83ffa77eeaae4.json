@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "outre_mer",
+    "raison": "L’amendement vise explicitement les résidents de Wallis-et-Futuna, collectivité d’outre-mer, et adapte pour eux l’application du dispositif.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0002804,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

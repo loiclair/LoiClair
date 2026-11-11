@@ -1,0 +1,12 @@
+{
+ "impacts": [
+  {
+   "profil": "automobiliste",
+   "phrase_fr": "Dans certaines zones jugées non pertinentes, les restrictions de circulation des zones à faibles émissions ne s'appliqueraient plus à votre voiture.",
+   "phrase_en": "In some zones judged not relevant, low-emission zone traffic restrictions would no longer apply to your car.",
+   "passage": "Dans le cas contraire, les restrictions de déplacement applicables au sein de la zone à faibles émissions mobilité ne s’y appliquent pas",
+   "certitude": "possible"
+  }
+ ],
+ "cout_usd": 0.00069851
+}

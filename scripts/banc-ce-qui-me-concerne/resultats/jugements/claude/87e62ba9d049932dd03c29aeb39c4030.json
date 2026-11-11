@@ -1,0 +1,11 @@
+{
+ "jugement": {
+  "profils": [],
+  "oublis": [
+   "alsace_moselle"
+  ]
+ },
+ "cout_usd": 0.00094415,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

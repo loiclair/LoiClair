@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "demandeur_emploi",
+    "raison": "Le texte vise les personnes sans emploi rencontrant des difficultés, mais ne vise pas leur inscription à France Travail, qui définit ce profil.",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "independant",
+    "raison": "Le texte vise des personnes sans emploi accompagnées vers une activité indépendante, pas des travailleurs indépendants déjà en activité.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000795525,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

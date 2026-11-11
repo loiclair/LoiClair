@@ -1,0 +1,19 @@
+{
+ "impacts": [
+  {
+   "profil": "secteur_transport",
+   "phrase_fr": "Les entreprises de transport maritime de marchandises ou de passagers pourraient bénéficier d'une somme égale à 100 % des coûts d'équipements véliques neufs fabriqués en France.",
+   "phrase_en": "Maritime transport companies carrying goods or passengers would be able to claim an amount equal to 100% of the costs of new, French-made wind propulsion equipment.",
+   "passage": "pour les navires et les bateaux de transport de marchandises ou de passagers ainsi que les navires spéciaux qui sont affectés à leur activité",
+   "certitude": "certain"
+  },
+  {
+   "profil": "chef_entreprise",
+   "phrase_fr": "Les petites et moyennes entreprises pourraient bénéficier d'un taux majoré de 20 % ou de 30 % sur les coûts d'équipements véliques.",
+   "phrase_en": "Small and medium-sized companies would get a higher rate, of 20% or 30%, on wind propulsion equipment costs.",
+   "passage": "« b) De 20 % lorsque les coûts sont supportés par des moyennes entreprises au sens de l’annexe I du règlement (UE) n° 651/2014 de la Commission du 17 juin 2014",
+   "certitude": "probable"
+  }
+ ],
+ "cout_usd": 0.00120611
+}

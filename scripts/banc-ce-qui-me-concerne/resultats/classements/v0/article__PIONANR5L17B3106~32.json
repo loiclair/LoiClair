@@ -1,0 +1,19 @@
+{
+ "impacts": [
+  {
+   "profil": "mineur",
+   "passage": "Veiller au repérage et à l’orientation des mineurs victimes de prostitution ou d’exploitation sexuelle et leur garantir, le cas échéant, l’accès à un hébergement adapté, non mixte et sécurisé",
+   "certitude": "certain",
+   "phrase_en": "Minors who are victims of prostitution or sexual exploitation would be identified and referred, with guaranteed access to secure accommodation.",
+   "phrase_fr": "Les mineurs victimes de prostitution ou d'exploitation sexuelle seraient repérés et orientés, avec un accès garanti à un hébergement sécurisé."
+  },
+  {
+   "profil": "heberge",
+   "passage": "leur garantir, le cas échéant, l’accès à un hébergement adapté, non mixte et sécurisé",
+   "certitude": "probable",
+   "phrase_en": "Minors who are victims of prostitution and housed in a shelter would be able to access single-sex, secure accommodation.",
+   "phrase_fr": "Les mineurs victimes de prostitution hébergés en foyer pourraient accéder à un hébergement non mixte et sécurisé."
+  }
+ ],
+ "resume_fr": null
+}

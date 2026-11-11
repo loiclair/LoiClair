@@ -1,0 +1,18 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "veuf",
+    "raison": "Le dispositif ajoute le titre de reconnaissance de la Nation parmi les titres ouvrant droit à la demi-part prévue pour les veuves de combattants.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "ancien_combattant"
+  ]
+ },
+ "cout_usd": 0.0008004,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_agriculture",
+    "raison": "Le crédit d’impôt visé concerne les dépenses de remplacement des personnes dont les revenus sont imposés en bénéfices agricoles ; le taux de 80 % pour maladie, accident du travail ou formation passerait à 100 %.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.001053525,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

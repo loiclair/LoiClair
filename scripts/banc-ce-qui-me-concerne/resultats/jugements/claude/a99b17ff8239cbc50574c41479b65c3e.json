@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "elu_local",
+    "raison": "Le texte modifie directement les règles de désignation des adjoints au maire, qui sont des élus municipaux. Il supprime le régime de parité propre aux communes de 1 000 habitants et plus et écarte la parité lors d'une vacance dans les communes de moins de 1 000 habitants. Ces règles visent les élus locaux par leur fonction.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000617485,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

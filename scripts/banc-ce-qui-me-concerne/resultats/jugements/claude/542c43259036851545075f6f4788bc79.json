@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "elu_local",
+    "raison": "L'article modifie les règles d'élection des adjoints au maire et de remplacement en cas de vacance (parité, dérogation dans les communes de moins de 1 000 habitants) : cela vise directement les élus municipaux, conseillers et adjoints.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0020846999999999997,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

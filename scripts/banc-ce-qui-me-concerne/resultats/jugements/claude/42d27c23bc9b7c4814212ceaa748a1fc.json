@@ -1,0 +1,29 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "elu_local",
+    "raison": "Le texte désigne directement le maire de la commune d'implantation comme destinataire de l'information préalable, ce qui crée un droit d'être informé pour ce profil.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "rural",
+    "raison": "La mesure vaut pour toute commune disposant d'une succursale, sans distinction de type de commune ; le texte ne vise pas les communes rurales. La phrase prête aussi aux habitants une information qui est en fait donnée au maire.",
+    "concerne": false,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "secteur_finance",
+    "raison": "L'obligation pèse sur les établissements bancaires en tant qu'entreprises (information du maire, moyens de continuité d'accès), c'est une obligation commerciale de l'entité et non une règle qui change la façon d'exercer le métier des salariés de la banque.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000577685,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

@@ -1,0 +1,20 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "mineur",
+    "concerne": false,
+    "phrase_fidele": false,
+    "raison": "L'article relève de l'organisation judiciaire et institutionnelle de l'État (création de juridictions et attribution de compétences spécialisées au sein du tribunal). Il ne modifie pas directement les droits ou obligations de fond des mineurs."
+   },
+   {
+    "profil": "parent",
+    "concerne": false,
+    "phrase_fidele": true,
+    "raison": "Il s'agit d'une mesure d'organisation de la justice (transfert de compétence du juge aux affaires familiales vers un juge spécialisé), qui ne change pas directement les droits et devoirs des parents sur le fond."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.008949
+}

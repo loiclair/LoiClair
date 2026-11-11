@@ -1,0 +1,35 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "fonctionnaire",
+    "raison": "Le texte vise l'agent public dont les fonctions créent le risque : la protection de sa famille dépend de son statut d'agent, et la mesure touche directement les règles de la protection qu'il peut demander pour les siens. La phrase reste au conditionnel, comme il convient pour un texte non adopté.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "marie_pacse",
+    "raison": "Le texte désigne explicitement le conjoint et le partenaire de PACS comme bénéficiaires de la protection, sans délai, en cas de risque grave lié aux fonctions de l'agent. La mesure leur donne un droit direct, et la phrase est au conditionnel.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "concubin",
+    "raison": "Le texte cite nommément le concubin comme bénéficiaire de la protection de la collectivité, dans les mêmes conditions que le conjoint. La mesure lui ouvre un droit direct, et la phrase est au conditionnel.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "parent",
+    "raison": "Le texte vise les enfants et ascendants directs de l'agent public, quel que soit leur âge, et non le parent en tant que tel. Le profil parent (enfant mineur ou à charge) ne déclenche pas la mesure : c'est le lien avec un agent qui la déclenche. Le lecteur parent n'est visé que s'il est lui-même agent, ce que couvre déjà le profil fonctionnaire.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.001733885,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

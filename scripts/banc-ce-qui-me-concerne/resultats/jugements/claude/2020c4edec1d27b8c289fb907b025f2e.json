@@ -1,0 +1,29 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "proprietaire_bailleur",
+    "raison": "Le texte définit quand l'obligation de décence énergétique du bailleur est réputée satisfaite. Pour un logement en copropriété, la condition passerait d'un vote de travaux à la conclusion d'un contrat de maîtrise d'œuvre, ce qui modifie directement les obligations du bailleur.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "locataire",
+    "raison": "La décence énergétique est un droit du locataire. Si la condition de copropriété est remplie, le manquement du bailleur n'est plus invocable pour ce logement, et la réduction de loyer de l'article 20-1 est liée à cette obligation. Le texte vise donc directement le logement loué.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "coproprietaire",
+    "raison": "Le passage ne change ni les droits de vote ni les obligations du copropriétaire. Il remplace le vote de travaux par la conclusion d'un contrat par le syndicat, action qui n'est pas attribuée au copropriétaire. L'effet vise le bailleur et le locataire, pas le copropriétaire en tant que tel.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.001104185,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "elu_local",
+    "raison": "L'article change les règles de désignation des adjoints au maire (parité, vacance) ; les conseillers municipaux et adjoints sont directement visés.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "rural",
+    "raison": "La règle vise les communes de moins de 1 000 habitants, mais c'est une règle d'organisation du conseil municipal, qui ne change rien de direct pour l'habitant ; le critère de taille de commune ne fait pas de l'habitant un concerné.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0025997,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

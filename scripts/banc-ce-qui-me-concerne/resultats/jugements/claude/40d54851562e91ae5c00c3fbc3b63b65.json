@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "forces_ordre",
+    "raison": "Le texte modifie les règles des techniques d'enquête (infiltration, enquête sous pseudonyme, livraison surveillée) que conduisent policiers et gendarmes. Il dit que les actes qui prolongent une infraction déjà commencée ne constituent pas une incitation, ce qui protège directement ceux qui les accomplissent.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000574235,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

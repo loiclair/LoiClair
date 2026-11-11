@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "veuf",
+    "raison": "Le texte vise expressément le conjoint survivant d’un fonctionnaire civil ou d’un militaire décédé et lui accorde un avantage lié au logement de fonction : cela concerne les personnes veuves.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0004714,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

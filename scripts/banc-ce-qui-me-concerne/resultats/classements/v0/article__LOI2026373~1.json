@@ -1,0 +1,19 @@
+{
+ "impacts": [
+  {
+   "profil": "secteur_sante",
+   "passage": "Soit les titres de formation de médecin délivrés par le Royaume-Uni, figurant sur une liste établie par arrêté des ministres chargés de l'enseignement supérieur et de la santé, qui sanctionnent une formation de base et de spécialité de médecin commencée avant le 31 décembre 2020",
+   "certitude": "probable",
+   "phrase_en": "Doctors with UK medical diplomas, whose training began before the end of 2020, will be able to legally practise medicine in France.",
+   "phrase_fr": "Les médecins diplômés au Royaume-Uni, dont la formation a commencé avant fin 2020, pourront exercer légalement la médecine en France."
+  },
+  {
+   "profil": "etranger_hors_ue",
+   "passage": "Le présent 3° s'applique aux ressortissants de nationalité française, de citoyenneté andorrane, d'un Etat membre de l'Union européenne ou partie à l'accord sur l'Espace économique européen ou du Royaume-Uni.",
+   "certitude": "possible",
+   "phrase_en": "UK nationals living in France can have their UK medical diploma recognised to practise, under the conditions set out.",
+   "phrase_fr": "Les ressortissants britanniques vivant en France peuvent faire reconnaître leur diplôme de médecin britannique pour exercer, sous les conditions prévues."
+  }
+ ],
+ "resume_fr": null
+}

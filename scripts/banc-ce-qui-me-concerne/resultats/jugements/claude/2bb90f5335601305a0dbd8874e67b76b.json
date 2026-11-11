@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "chasseur_pecheur",
+    "raison": "L'interdiction vise toute personne qui met en œuvre les pratiques d'attraction (appâts concentrés, dispositifs lumineux, déchets de poissons). Les pêcheurs de loisir qui utilisent ces procédés sont directement touchés par leur activité.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "secteur_agriculture",
+    "raison": "Le catalogue inclut la pêche et le secteur maritime. L'interdiction change directement la façon d'exercer la pêche professionnelle, en retirant certains procédés d'attraction aux pêcheurs qui y travaillent.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000638185,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

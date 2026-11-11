@@ -1,0 +1,35 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "locataire",
+    "raison": "L'article 17 fixe un loyer de base librement négocié mais plafonné par le loyer de référence fixé par arrêté préfectoral, et ouvre une action en diminution. Le montant du loyer payé par le locataire change directement.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "proprietaire_bailleur",
+    "raison": "Le loyer de base des logements mis en location est plafonné par le loyer de référence, ce qui limite directement le loyer que le bailleur peut fixer à la signature du bail.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "meuble_tourisme",
+    "raison": "Le II b étend l'encadrement des loyers aux logements meublés touristiques de l'article L. 324-1-1 du code du tourisme, dans les zones tendues comme sur le reste du territoire. Le loyer de ces locations de courte durée est directement visé.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "etudiant",
+    "raison": "Le texte vise les résidences étudiantes privées en tant que type de bâtiment, défini par son exploitation et non par le statut de ses occupants, qui ne sont pas tous étudiants. L'étudiant n'est touché qu'en tant que locataire, ce que couvre déjà le profil locataire.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.001341535,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "mineur",
+    "raison": "L'article vise explicitement les mineurs victimes de prostitution ou d'exploitation sexuelle : repérage, orientation et droit à un hébergement adapté. Le mineur est la catégorie désignée, donc concerné. La phrase reste fidèle au texte et emploie le conditionnel.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0020656999999999997,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

@@ -1,0 +1,19 @@
+{
+ "impacts": [
+  {
+   "profil": "malade_chronique",
+   "phrase_fr": "Les salariés atteints d'algie vasculaire de la face pourraient bénéficier de trente jours d'arrêt de travail par an, sur présentation d'un certificat médical.",
+   "phrase_en": "Employees with cluster headache would be able to take thirty days of sick leave per year, with a medical certificate.",
+   "passage": "les salariés atteints d’algie vasculaire de la face bénéficient d’un droit de trente jours d’arrêt de travail par an",
+   "certitude": "certain"
+  },
+  {
+   "profil": "salarie_prive",
+   "phrase_fr": "Les salariés du privé pourraient prendre ces jours d'arrêt sans ancienneté ni préavis, sur simple notification à leur employeur.",
+   "phrase_en": "Private-sector employees would be able to take these sick days without seniority or notice, by simply notifying their employer.",
+   "passage": "Ces jours d’arrêt peuvent être pris sans condition d’ancienneté et sans préavis, sur simple notification à l’employeur.",
+   "certitude": "probable"
+  }
+ ],
+ "cout_usd": 0.00063665
+}

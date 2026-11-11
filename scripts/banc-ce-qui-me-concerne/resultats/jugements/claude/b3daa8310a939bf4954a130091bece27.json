@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "marie_pacse",
+    "raison": "La définition des violences intrafamiliales vise les infractions commises par le conjoint ou le partenaire de PACS de la victime ; l’amendement y ajoute les violations des ordonnances de protection.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "separe_divorce",
+    "raison": "La définition vise aussi les infractions commises par l’ancien conjoint ou ancien partenaire de PACS de la victime ; l’amendement y ajoute les violations des ordonnances de protection.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000842025,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

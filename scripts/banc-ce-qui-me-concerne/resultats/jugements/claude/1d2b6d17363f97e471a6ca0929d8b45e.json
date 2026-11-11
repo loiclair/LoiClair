@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_education",
+    "raison": "L'article réforme la discipline des enseignants et enseignants-chercheurs de l'enseignement supérieur agricole public (sections disciplinaires, récusation, suspension par le ministre) : ce sont les règles de leur métier.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "fonctionnaire",
+    "raison": "Les personnels de l'enseignement supérieur agricole public sont des agents publics, visés par la suspension ministérielle et la procédure disciplinaire. Ils relèvent bien du profil fonctionnaire (État).",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0043707,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

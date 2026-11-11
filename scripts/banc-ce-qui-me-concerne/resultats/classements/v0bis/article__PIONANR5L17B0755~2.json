@@ -1,0 +1,12 @@
+{
+ "impacts": [
+  {
+   "profil": "proprietaire_bailleur",
+   "phrase_fr": "Si l'activité de l'établissement dont vous louez un local cesse pour être transférée ailleurs, vous seriez indemnisé par le bénéficiaire de l'autorisation, selon des conditions qui vous seraient transmises.",
+   "phrase_en": "If the care home where you lease a unit stops operating to move elsewhere, you would be compensated by the licence holder, under conditions that would be sent to you.",
+   "passage": "les bailleurs détenteurs d’un lot dans l’établissement dont l’activité cesse sont indemnisés par son bénéficiaire",
+   "certitude": "probable"
+  }
+ ],
+ "cout_usd": 0.00089255
+}

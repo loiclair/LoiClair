@@ -1,0 +1,12 @@
+{
+ "impacts": [
+  {
+   "profil": "secteur_sante",
+   "phrase_fr": "Un médecin, dentiste ou sage-femme qui part en remplacement dans un territoire sous-doté ne pourrait se voir refuser son autorisation que pour un motif lié à la sécurité des soins.",
+   "phrase_en": "A doctor, dentist or midwife who takes up a replacement post in an under-served area would only be refused authorisation for a compelling safety-of-care reason.",
+   "passage": "l’autorisation ne peut être refusée que pour un motif impérieux tenant à la qualité et à la sécurité des soins",
+   "certitude": "certain"
+  }
+ ],
+ "cout_usd": 0.00136141
+}

@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etudiant",
+    "raison": "Le dossier vise les arnaques de l'enseignement supérieur privé lucratif, et l'article fait du contrat de formation signé avec un organisme non conforme une cause de nullité, avec remboursement du double des sommes versées au co-contractant, qui est en pratique l'étudiant ou sa famille. Le texte ne nomme pas les étudiants, mais la mesure touche directement leur argent et leurs contrats.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000492635,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

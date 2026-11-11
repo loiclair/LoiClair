@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etranger_hors_ue",
+    "raison": "Le dispositif modifie une règle du CESEDA et vise explicitement « l’étranger » confié à l’ASE avant 18 ans : il lui ouvrirait directement un droit à une carte de séjour. La phrase de l’assistant est toutefois trop large en parlant des jeunes sans préciser qu’il s’agit d’étrangers ; de plus, l’article L. 412-1 concerne la condition de visa de long séjour, pas une condition générale de séjour régulier.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "jeune",
+    "raison": "La carte est délivrée dans le cadre de l’article L. 423-22, qui concerne les personnes à la sortie de leur minorité ; elles appartiennent au profil des jeunes de 18 à 25 ans. Mais la mesure vise les étrangers confiés à l’ASE, et non tous les jeunes concernés par la formulation proposée. En outre, l’article L. 412-1 porte sur le visa de long séjour, pas sur une condition générale de séjour régulier.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000946275,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

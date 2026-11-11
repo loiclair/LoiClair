@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "salarie_prive",
+    "raison": "Le texte ne nomme pas les salariés. Il ajoute une circonstance aggravante de harcèlement moral liée à une « politique d'entreprise », un critère d'organisation et non un statut de salarié. Le profil n'est donc pas le déclencheur de la mesure (règles 3 et 7), et l'effet passe par la politique de l'entreprise.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0005827849999999999,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

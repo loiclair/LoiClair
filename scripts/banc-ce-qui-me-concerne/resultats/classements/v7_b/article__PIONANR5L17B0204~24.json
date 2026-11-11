@@ -1,0 +1,26 @@
+{
+ "impacts": [
+  {
+   "profil": "malade_chronique",
+   "phrase_fr": "Une personne atteinte d'une affection grave et incurable, en phase avancée ou terminale, pourrait accéder à une aide à mourir si elle remplit les conditions fixées.",
+   "phrase_en": "A person with a serious, incurable illness in an advanced or terminal stage would be able to access medical assistance in dying if they meet the set conditions.",
+   "passage": "Être atteinte d’une affection grave et incurable, qui engage le pronostic vital, en phase avancée ou terminale",
+   "certitude": "probable"
+  },
+  {
+   "profil": "etranger_hors_ue",
+   "phrase_fr": "Une personne étrangère hors Union européenne vivant en France de façon stable et régulière pourrait accéder à l'aide à mourir.",
+   "phrase_en": "A non-EU foreign national living in France in a stable and lawful way would be able to access medical assistance in dying.",
+   "passage": "Être de nationalité française ou résider de façon stable et régulière en France",
+   "certitude": "probable"
+  },
+  {
+   "profil": "etranger_ue",
+   "phrase_fr": "Un ressortissant de l'Union européenne vivant en France de façon stable et régulière pourrait accéder à l'aide à mourir.",
+   "phrase_en": "An EU national living in France in a stable and lawful way would be able to access medical assistance in dying.",
+   "passage": "Être de nationalité française ou résider de façon stable et régulière en France",
+   "certitude": "probable"
+  }
+ ],
+ "cout_usd": 0.00112531
+}

@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "salarie_prive",
+    "raison": "L'amendement change la date limite (2027 vers 2026) de l'article 1er qui ouvre le déblocage de la participation et de l'intéressement placés sur un plan d'épargne salariale. Ces droits appartiennent directement au salarié, qui perd la possibilité de débloquer les sommes placées en 2026. Le lien est direct et visé par le texte.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "epargnant",
+    "raison": "Le profil épargnant ne couvre pas l'épargne salariale (règle 8). L'amendement ne vise que les sommes placées sur un plan d'épargne salariale, donc pas l'épargnant au sens du catalogue.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000559035,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

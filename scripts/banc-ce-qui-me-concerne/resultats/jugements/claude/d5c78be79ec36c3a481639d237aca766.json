@@ -1,0 +1,34 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etranger_hors_ue",
+    "raison": "Les modifications portent sur des cartes de séjour délivrées à des étrangers et changent directement leur durée ou leur type.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "marie_pacse",
+    "raison": "Le texte vise directement l’étranger dont le conjoint détient une carte de résident ; le mariage est donc une situation déclenchant la mesure.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "parent",
+    "raison": "La carte est délivrée à l’enfant étranger, pas au parent ; le parent n’est concerné qu’indirectement par le droit de son enfant.",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "mineur",
+    "raison": "La mesure couvre notamment les étrangers de 16 à 17 ans, sous réserve des conditions prévues à l’article L. 421-35.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0011464,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

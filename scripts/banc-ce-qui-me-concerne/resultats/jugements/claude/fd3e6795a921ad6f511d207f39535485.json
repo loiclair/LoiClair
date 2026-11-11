@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etranger_hors_ue",
+    "raison": "L'article 37 restreint l'accès aux prestations familiales pour les étrangers extra-UE (condition d'un an de résidence, documents de séjour) : ce profil est directement visé, même si le dispositif de l'amendement n'est pas publié.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "parent",
+    "raison": "Les prestations familiales bénéficient aux parents d'enfants à charge, mais la restriction cible les étrangers extra-UE et non les parents en général. Le parent n'est pas visé par ce critère ; seul le sous-groupe étranger l'est.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0034777,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

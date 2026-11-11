@@ -1,0 +1,14 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "epargnant",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article 150 VH bis du code général des impôts régit l'imposition des plus-values de cession de crypto-actifs réalisées par les particuliers. La modification exclut expressément certains crypto-actifs (visés par le règlement européen MiCA) de ce régime d'imposition."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00999675
+}

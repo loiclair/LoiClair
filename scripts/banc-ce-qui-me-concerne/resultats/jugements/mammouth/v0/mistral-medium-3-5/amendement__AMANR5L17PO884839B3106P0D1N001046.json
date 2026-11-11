@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etranger_hors_ue",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'amendement vise explicitement les étrangers (hors UE, car les ressortissants UE n'ont pas besoin de titre de séjour pour résider en France) victimes de violences, leur accordant une autorisation provisoire de séjour et le droit de travailler. Le passage cité est exact et justifie le profil."
+   }
+  ],
+  "oublis": [
+   "etranger_ue"
+  ]
+ },
+ "cout_usd": 0.0074535
+}

@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "jeune",
+    "raison": "Le remplacement de 21 par 25 ans élargirait directement la limite d’âge de l’accompagnement des jeunes sortant de l’aide sociale à l’enfance ; ce public relève du profil jeune.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00033415,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

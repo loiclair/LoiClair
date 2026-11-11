@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "pompier_volontaire",
+    "raison": "Le texte vise nommément « sapeur-pompier professionnel ou volontaire exposé » après une intervention à risque : chaque sapeur-pompier volontaire concerné reçoit une fiche d'exposition établie par l'autorité territoriale.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "fonctionnaire",
+    "raison": "Le texte s'insère dans le code général de la fonction publique et vise les sapeurs-pompiers professionnels, qui sont des fonctionnaires territoriaux ; ce sous-groupe est contenu dans le profil fonctionnaire. Ils ne relèvent ni des forces de l'ordre ni des militaires.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0007429349999999999,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

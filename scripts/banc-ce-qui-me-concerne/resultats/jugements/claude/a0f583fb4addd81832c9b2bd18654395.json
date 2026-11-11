@@ -1,0 +1,26 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_education",
+    "raison": "Le texte crée un corps de fonctionnaires pour les accompagnants d'élèves en situation de handicap, qui travaillent dans les écoles et établissements. Il change leur statut, leur recrutement par concours et leur formation, donc les règles de leur métier dans l'enseignement.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "fonctionnaire",
+    "raison": "Les accompagnants sont intégrés dans un corps de catégorie B de la fonction publique. Les agents non titulaires sont nommés fonctionnaires stagiaires, ou reçoivent un CDI s'ils ne remplissent pas les conditions. Le profil est visé directement.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": [
+   "salarie_prive",
+   "cdd_interim"
+  ]
+ },
+ "cout_usd": 0.0036837,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

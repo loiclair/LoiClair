@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "coproprietaire",
+    "raison": "Le texte vise directement les « bailleurs détenteurs d'un lot » dans l'établissement qui ferme, et leur ouvre un droit à indemnisation fixé par l'autorisation. « Lot » est le vocabulaire de la copropriété, donc le profil est visé, même si le texte ne dit pas explicitement « immeuble en copropriété ».",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000537135,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

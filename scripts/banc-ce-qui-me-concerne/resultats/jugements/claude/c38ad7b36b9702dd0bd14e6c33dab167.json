@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "chef_entreprise",
+    "raison": "L'article étend les compétences de l'autorité des jeux à des pratiques commerciales en ligne, mais il vise les opérateurs de jeux d'argent déjà régulés, par leur activité et non par leur taille ou leur statut de dirigeant. Il ne désigne pas les organisateurs de jeux-concours, que la phrase de l'assistant ajoute sans appui dans le passage cité.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000846835,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

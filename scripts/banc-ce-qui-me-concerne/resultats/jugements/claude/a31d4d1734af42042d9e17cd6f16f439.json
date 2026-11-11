@@ -1,0 +1,32 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "salarie_prive",
+    "raison": "Le régime vise les personnes des art. L. 311-2 et L. 311-3 (salariés) et leur impose une cotisation partagée à parts égales avec l'employeur, plafonnée à 2 % de la rémunération.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "chef_entreprise",
+    "raison": "Le texte répartit les cotisations à parts égales entre employeurs et salariés : c'est une obligation imposée à tout employeur, donc aux dirigeants de PME.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "dirigeant_grande_entreprise",
+    "raison": "Obligation imposée à tout employeur, donc aussi aux dirigeants d'entreprises de 250 salariés ou plus (règle 11).",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "fonctionnaire",
+   "retraite"
+  ]
+ },
+ "cout_usd": 0.0044417,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

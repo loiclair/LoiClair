@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etranger_hors_ue",
+    "raison": "L'article 1018 A du CGI fixe les droits payés pour la délivrance de titres administratifs, dont les titres de séjour. Doubler ces montants touche directement les ressortissants hors UE qui paient ces droits pour obtenir ou renouveler leur titre. Le passage cité ne nomme pas le titre de séjour, mais la mesure le vise par le code.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000603385,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

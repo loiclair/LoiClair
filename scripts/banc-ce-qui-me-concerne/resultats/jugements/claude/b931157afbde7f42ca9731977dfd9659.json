@@ -1,0 +1,47 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "handicap",
+    "raison": "L'article crée une procédure d'évaluation simplifiée pour la personne handicapée (travailleur handicapé, carte mobilité inclusion) : elle est directement visée.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "age_dependant",
+    "raison": "Les bénéficiaires de l'APA (art. L. 232-1) reçoivent la carte mobilité inclusion à titre définitif sur la seule décision d'attribution, de même que les résidents d'établissements expérimentateurs : personnes âgées en perte d'autonomie visées.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "senior",
+    "raison": "L'âge de 60 ans ou plus n'est qu'un seuil d'accès à l'évaluation simplifiée pour certaines mentions de la carte ; le texte vise les personnes handicapées à partir de cet âge, ce qui touche des personnes de 60 ans et plus. Mais le senior défini à 55 ans n'est pas le critère déclencheur : c'est le handicap. De plus, la phrase dit que les personnes de 60 ans pourraient demander alors que le seuil est fixé par arrêté « supérieur à un âge fixé », ce qui est approximatif.",
+    "concerne": false,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "automobiliste",
+    "raison": "La mention « stationnement pour personnes handicapées » vise les titulaires de la carte, définie par le handicap et non par l'usage d'un véhicule ; le profil n'est pas ce qui déclenche la mesure.",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "mineur",
+    "raison": "Le texte supprime la restriction de la carte mobilité inclusion destinée à un mineur aux cas de maladie, handicap ou accident grave : les mineurs sont directement visés par ce changement de condition.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "parent",
+    "raison": "Le représentant légal peut solliciter l'évaluation simplifiée pour la personne handicapée, mais le texte ne vise pas spécifiquement les parents d'enfants ; de plus la phrase déforme le texte (la dispense d'audition vise la personne ou son représentant, pas seulement un enfant) et le représentant légal n'est pas forcément un parent.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0074167,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

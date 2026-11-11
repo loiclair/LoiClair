@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "chef_entreprise",
+    "raison": "Le texte prévoit une majoration lorsque les coûts sont supportés par des petites ou moyennes entreprises, qui correspondent à ce profil.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "secteur_transport",
+    "raison": "La mesure vise les équipements de propulsion vélique installés sur des navires et bateaux affectés au transport de marchandises ou de passagers ; les opérateurs concernés peuvent bénéficier de la déduction s’ils supportent les coûts éligibles.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00081415,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

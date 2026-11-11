@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "alsace_moselle",
+    "raison": "L'article modifie une loi de 1884 propre à la Moselle, au Bas-Rhin et au Haut-Rhin. Il précise que le cadastre local n'empêche pas la prescription acquisitive du code civil, ce qui change les droits fonciers des habitants de ces départements.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0040627,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

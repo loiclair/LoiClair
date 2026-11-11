@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "veuf",
+    "raison": "Le texte vise directement le conjoint survivant d'un fonctionnaire civil ou militaire décédé qui occupait un logement de fonction. Il lui ouvre une majoration forfaitaire (pour le civil) et un maintien d'un an dans le logement. C'est le statut de conjoint survivant qui déclenche la mesure.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000432735,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

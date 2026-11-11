@@ -1,0 +1,14 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "expat",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article modifie explicitement les règles fiscales pour les contribuables n'ayant pas leur résidence fiscale en France, ce qui correspond directement au profil 'expat'. La phrase proposée est fidèle au texte et décrit correctement l'effet concret pour ce profil."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.006114
+}

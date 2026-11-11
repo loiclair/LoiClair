@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "alsace_moselle",
+    "raison": "L’article 24 modifié appartient à une loi applicable au Bas-Rhin, au Haut-Rhin et à la Moselle, et précise que ses dispositions ne font pas obstacle à la prescription civile, susceptible d’affecter des droits fonciers.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0003684,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

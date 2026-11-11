@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "heritier_donateur",
+    "raison": "Le II vise directement les successions ouvertes depuis le 1er janvier 2007 et non encore partagées. Les héritiers de ces successions peuvent perdre le bien au profit de la commune après le délai réduit de 15 ans, ce qui touche leur patrimoine hérité.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000827635,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

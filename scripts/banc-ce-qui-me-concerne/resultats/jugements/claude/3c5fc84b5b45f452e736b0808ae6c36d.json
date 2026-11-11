@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "alsace_moselle",
+    "raison": "L'article vise directement les départements de la Moselle, du Bas-Rhin et du Haut-Rhin, où s'applique la loi locale de 1884 sur le cadastre. Il change les règles qui s'appliquent aux biens fonciers de ces départements en permettant l'application des règles civiles de possession et de prescription acquisitive, ce qui touche les propriétaires et possesseurs de terrains sur ce territoire. La phrase de l'assistant reste au conditionnel, comme il convient pour un texte non encore adopté définitivement.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000554135,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

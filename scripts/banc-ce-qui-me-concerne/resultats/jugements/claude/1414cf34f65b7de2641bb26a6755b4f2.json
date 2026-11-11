@@ -1,0 +1,32 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "proprietaire_occupant",
+    "raison": "Le texte vise les prestations de rénovation énergétique avec chaudière fossile sans désigner les propriétaires occupants ; ils sont clients, et locataires ou bailleurs pourraient l'être aussi. Le statut est prêté.",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "secteur_btp",
+    "raison": "Les 4° et 5° changent le taux de TVA applicable aux travaux (chaudières fossiles, nettoyage, espaces verts) : règles de facturation des professionnels du bâtiment qui réalisent ces travaux.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "auto_entrepreneur",
+    "raison": "La franchise en base de TVA (seuils 25 000 / 27 500 €) vise les petites entreprises, dont les micro-entrepreneurs, mais le texte ne les nomme pas et la mesure vaut pour tout assujetti en franchise, pas spécifiquement pour ce profil.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": [
+   "chef_entreprise",
+   "independant"
+  ]
+ },
+ "cout_usd": 0.0045587,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

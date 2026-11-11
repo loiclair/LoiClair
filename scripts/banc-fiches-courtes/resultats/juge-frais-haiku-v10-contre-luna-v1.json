@@ -1,0 +1,502 @@
+{
+ "DLR5L17N52115|mistral-large-4": {
+  "notes": {
+   "haiku-v10": {
+    "exactitude": 1,
+    "completude": 0,
+    "neutralite": 5,
+    "clarte": 0,
+    "themes": 6
+   },
+   "luna": {
+    "exactitude": 10,
+    "completude": 9,
+    "neutralite": 10,
+    "clarte": 9,
+    "themes": 7
+   }
+  },
+  "erreurs": [
+   {
+    "fiche": "haiku-v10",
+    "citation": "Résumé : (vide)",
+    "gravite": "grave"
+   }
+  ],
+  "preference": "luna",
+  "raison": "La fiche X est inutilisable car elle ne contient aucun résumé (champ vide), ce qui viole la structure obligatoire de la fiche et la rend inopérante pour la newsletter et la recherche. La fiche Y respecte toutes les règles maison : elle utilise le conditionnel pour les mesures non promulguées (« demanderait », « serait créée »), précise qu'il s'agit d'une résolution sans changement de règle (« ne prévoit pas de changement direct »), ne mentionne aucun nom d'auteur, et présente les faits de manière exacte, neutre et claire pour un citoyen sans formation juridique. Le thème « Justice » est pertinent pour une commission d'enquête parlementaire, bien que « Questions sociales et santé » aurait aussi été justifié.",
+  "cout": 0.00472359
+ },
+ "DLR5L17N54854|mistral-large-4": {
+  "notes": {
+   "haiku-v10": {
+    "exactitude": 9,
+    "completude": 9,
+    "neutralite": 9,
+    "clarte": 9,
+    "themes": 10
+   },
+   "luna": {
+    "exactitude": 8,
+    "completude": 6,
+    "neutralite": 9,
+    "clarte": 8,
+    "themes": 10
+   }
+  },
+  "erreurs": [
+   {
+    "fiche": "luna",
+    "citation": "dont la peine restante est courte",
+    "gravite": "mineure"
+   }
+  ],
+  "preference": "haiku-v10",
+  "raison": "La fiche X est nettement plus complète et précise : elle indique le quantum exact de la réduction de peine (jusqu'à six mois), la durée maximale du reliquat concerné (neuf mois), la condition d'unicité (une seule fois par détention) et la référence à l'arrêt de la CEDH. Elle respecte parfaitement le conditionnel et attribue correctement les constats chiffrés aux auteurs. La fiche Y, bien que neutre et claire, reste trop vague sur la durée de la peine ('courte' au lieu de 'neuf mois maximum') et omet des détails essentiels du dispositif (quantum, unicité, référence CEDH), ce qui limite la compréhension réelle de la mesure pour le citoyen.",
+  "cout": 0.00942148
+ },
+ "DLR5L17N54250|mistral-large-4": {
+  "notes": {
+   "luna": {
+    "exactitude": 9,
+    "completude": 7,
+    "neutralite": 9,
+    "clarte": 9,
+    "themes": 6
+   },
+   "haiku-v10": {
+    "exactitude": 10,
+    "completude": 9,
+    "neutralite": 9,
+    "clarte": 8,
+    "themes": 9
+   }
+  },
+  "erreurs": [
+   {
+    "fiche": "luna",
+    "citation": "Thèmes : Énergie, Environnement, Économie et finances, fiscalité",
+    "gravite": "mineure"
+   }
+  ],
+  "preference": "haiku-v10",
+  "raison": "La fiche Y est plus complète : elle intègre les données chiffrées essentielles (6 milliards d'euros annuels, 164 euros par ménage) et les critiques motivant la proposition (fraudes, gonflement artificiel des volumes), ce qui aide le citoyen à comprendre l'enjeu. Elle respecte la limite de 3 thèmes (contrairement à X qui en propose 4) et détaille avec précision les modifications législatives prévues (abrogation du titre du code de l'énergie, deux règles fiscales du CGI, une disposition du code monétaire et financier).",
+  "cout": 0.01031031
+ },
+ "DSNRAP2025N0235|mistral-large-4": {
+  "notes": {
+   "luna": {
+    "exactitude": 8,
+    "completude": 7,
+    "neutralite": 9,
+    "clarte": 8,
+    "themes": 7
+   },
+   "haiku-v10": {
+    "exactitude": 9,
+    "completude": 8,
+    "neutralite": 9,
+    "clarte": 9,
+    "themes": 8
+   }
+  },
+  "erreurs": [
+   {
+    "fiche": "luna",
+    "citation": "menaces de droits de douane américains",
+    "gravite": "mineure"
+   }
+  ],
+  "preference": "haiku-v10",
+  "raison": "La fiche Y respecte la règle maison indiquant qu'un rapport d'information ne change aucune règle, elle est plus précise sur les faits concrets (taux de 15% de l'accord de Turnberry, secteurs acier et automobile) et ses thèmes (Affaires étrangères et coopération) reflètent mieux la dimension géopolitique centrale du rapport que le thème Entreprises de la fiche X. La fiche X omet également des recommandations importantes comme la préférence européenne et le filtrage des investissements.",
+  "cout": 0.01198798
+ },
+ "DLR5L17N53710|mistral-large-4": {
+  "notes": {
+   "haiku-v10": {
+    "exactitude": 10,
+    "completude": 9,
+    "neutralite": 10,
+    "clarte": 9,
+    "themes": 9
+   },
+   "luna": {
+    "exactitude": 8,
+    "completude": 6,
+    "neutralite": 9,
+    "clarte": 8,
+    "themes": 9
+   }
+  },
+  "erreurs": [
+   {
+    "fiche": "luna",
+    "citation": "limiterait la présence des écrans",
+    "gravite": "mineure"
+   }
+  ],
+  "preference": "haiku-v10",
+  "raison": "La fiche X est nettement supérieure. Elle est plus précise sur la nature de la mesure (interdiction d'installation de nouveaux appareils puis retrait total, et non simple 'limitation'), elle mentionne les espaces extérieurs où les écrans restent possibles (cinéma, musée, médiathèque) — information essentielle pour comprendre le périmètre de la loi — et elle résume les enjeux de santé (sommeil, sédentarité, myopie, développement cognitif) qui motivent la proposition. La fiche Y omet ces éléments importants, ce qui appauvrit la compréhension du citoyen. Les deux fiches respectent les règles de conditionnel et d'attribution aux auteurs.",
+  "cout": 0.01302345
+ },
+ "DLR5L17N51541|mistral-large-4": {
+  "notes": {
+   "luna": {
+    "exactitude": 8,
+    "completude": 7,
+    "neutralite": 9,
+    "clarte": 8,
+    "themes": 7
+   },
+   "haiku-v10": {
+    "exactitude": 9,
+    "completude": 9,
+    "neutralite": 9,
+    "clarte": 9,
+    "themes": 8
+   }
+  },
+  "erreurs": [
+   {
+    "fiche": "luna",
+    "citation": "taxe carbone aux frontières",
+    "gravite": "mineure"
+   }
+  ],
+  "preference": "haiku-v10",
+  "raison": "La fiche Y respecte la règle maison essentielle sur la non-force de loi des résolutions (« qui n'a pas force de loi »), utilise les termes exacts du texte source (mécanisme d'ajustement carbone aux frontières, objectifs chiffrés de 55 % d'ici 2030 et neutralité climatique 2050), et couvre davantage de mesures importantes (étude d'impact indépendante, pouvoir d'achat, délocalisations). Elle attribue correctement les constats aux auteurs. La fiche X contient une erreur de terminologie (« taxe carbone » au lieu de « mécanisme d'ajustement carbone »), omet la mention de la non-force de loi et plusieurs éléments clés (étude d'impact, chiffres précis). Sur les thèmes, Y privilégie « Environnement » (sujet central du Pacte vert) tandis que X privilégie « Entreprises » ; les deux sont défendables mais « Environnement » est plus fidèle à la nature du texte.",
+  "cout": 0.01162158
+ },
+ "DSNRAP2025N0855|mistral-large-4": {
+  "notes": {
+   "luna": {
+    "exactitude": 10,
+    "completude": 7,
+    "neutralite": 9,
+    "clarte": 9,
+    "themes": 8
+   },
+   "haiku-v10": {
+    "exactitude": 10,
+    "completude": 8,
+    "neutralite": 10,
+    "clarte": 9,
+    "themes": 8
+   }
+  },
+  "erreurs": [],
+  "preference": "haiku-v10",
+  "raison": "La fiche Y respecte mieux la règle maison sur les rapports en indiquant explicitement qu'il 'ne change aucune règle'. Elle offre une meilleure complétude en citant des exemples concrets d'auditions (Judith Godrèche, avocats de Gisèle Pelicot, prix Nobel) et d'activités (colloques, prix de la délégation) qui illustrent l'ampleur du travail parlementaire. Les thèmes choisis (Questions sociales et santé, Justice) sont pertinents, notamment 'Justice' pour les violences sexuelles et la récidive traitées dans le texte. La fiche X, bien que correcte, est plus générique et la formulation sur l'absence de nouvelles règles est moins directe.",
+  "cout": 0.01320289
+ },
+ "DLR5L17N51468|mistral-large-4": {
+  "notes": {
+   "haiku-v10": {
+    "exactitude": 9,
+    "completude": 8,
+    "neutralite": 9,
+    "clarte": 8,
+    "themes": 10
+   },
+   "luna": {
+    "exactitude": 8,
+    "completude": 8,
+    "neutralite": 6,
+    "clarte": 9,
+    "themes": 10
+   }
+  },
+  "erreurs": [
+   {
+    "fiche": "luna",
+    "citation": "Cette simplification s'appliquerait dans le but d'atteindre les objectifs nationaux d'arrêt de la production d'électricité à partir du charbon",
+    "gravite": "mineure"
+   },
+   {
+    "fiche": "luna",
+    "citation": "une énergie moins polluante",
+    "gravite": "mineure"
+   }
+  ],
+  "preference": "haiku-v10",
+  "raison": "La fiche X respecte la règle maison d'attribution des objectifs aux auteurs ('Selon les auteurs du texte') et évite tout jugement de valeur. La fiche Y présente les objectifs comme des faits établis par la loi sans les attribuer explicitement aux auteurs, et emploie une appréciation subjective ('moins polluante') qui n'est pas dans le texte source, qui ne fixe qu'un seuil chiffré de CO2.",
+  "cout": 0.00838888
+ },
+ "DLR5L17N54094|mistral-large-4": {
+  "notes": {
+   "haiku-v10": {
+    "exactitude": 4,
+    "completude": 8,
+    "neutralite": 9,
+    "clarte": 9,
+    "themes": 6
+   },
+   "luna": {
+    "exactitude": 9,
+    "completude": 7,
+    "neutralite": 9,
+    "clarte": 9,
+    "themes": 7
+   }
+  },
+  "erreurs": [
+   {
+    "fiche": "haiku-v10",
+    "citation": "sans nouveau vote du Parlement",
+    "gravite": "grave"
+   }
+  ],
+  "preference": "luna",
+  "raison": "La fiche X contient une erreur factuelle grave : elle affirme que le gouvernement pourrait modifier le code 'sans nouveau vote du Parlement', alors que le texte prévoit explicitement un projet de loi de ratification déposé devant le Parlement dans un délai de deux mois (article unique, alinéas 1d, 1f et 1h). Cette erreur dénature la procédure législative prévue par l'article 38 de la Constitution. La fiche Y est factuellement exacte, respecte le conditionnel pour les mesures non promulguées, mentionne correctement la ratification parlementaire et présente l'objet du texte de manière neutre et claire.",
+  "cout": 0.01005086
+ },
+ "DLR5L17N54767|mistral-large-4": {
+  "notes": {
+   "luna": {
+    "exactitude": 9,
+    "completude": 8,
+    "neutralite": 10,
+    "clarte": 9,
+    "themes": 10
+   },
+   "haiku-v10": {
+    "exactitude": 10,
+    "completude": 7,
+    "neutralite": 10,
+    "clarte": 8,
+    "themes": 10
+   }
+  },
+  "erreurs": [],
+  "preference": "luna",
+  "raison": "La fiche X est plus pédagogique : elle explique clairement le mécanisme de ratification (autorisation parlementaire, adhésion de la France) et précise que le texte ne crée pas directement de nouvelles règles pour les entreprises, ce qui est essentiel pour un citoyen sans formation juridique. La fiche Y est factuellement irréprochable (date, lieu, annexe) mais trop succincte et manque d'explications sur la portée concrète du texte. Les deux respectent le conditionnel et la neutralité.",
+  "cout": 0.00657317
+ },
+ "DLR5L17N52465|mistral-large-4": {
+  "notes": {
+   "haiku-v10": {
+    "exactitude": 9,
+    "completude": 7,
+    "neutralite": 9,
+    "clarte": 9,
+    "themes": 6
+   },
+   "luna": {
+    "exactitude": 9,
+    "completude": 8,
+    "neutralite": 10,
+    "clarte": 8,
+    "themes": 7
+   }
+  },
+  "erreurs": [],
+  "preference": "luna",
+  "raison": "La fiche Y respecte la règle maison en précisant qu'il s'agit d'un bilan d'activité parlementaire sans effet juridique, ce que la fiche X omet. Elle couvre également des thématiques importantes absentes de la fiche X (santé des femmes, précarité menstruelle, égalité professionnelle). La fiche X, bien que plus détaillée sur certaines missions (proposition de loi, colloques), néglige le thème Sports pourtant central dans le rapport et ne mentionne pas la nature non législative du document.",
+  "cout": 0.01411626
+ },
+ "DLR5L17N54696|mistral-large-4": {
+  "notes": {
+   "haiku-v10": {
+    "exactitude": 9,
+    "completude": 8,
+    "neutralite": 9,
+    "clarte": 9,
+    "themes": 9
+   },
+   "luna": {
+    "exactitude": 7,
+    "completude": 6,
+    "neutralite": 9,
+    "clarte": 8,
+    "themes": 9
+   }
+  },
+  "erreurs": [
+   {
+    "fiche": "luna",
+    "citation": "Il élargirait aussi les sanctions liées à la négation ou à la banalisation outrancière de crimes contre l'humanité.",
+    "gravite": "mineure"
+   }
+  ],
+  "preference": "haiku-v10",
+  "raison": "La fiche X est nettement supérieure : elle détaille les mesures concrètes qui concernent directement les citoyens (doublement des amendes pour contraventions, délai de 24 heures et peines précises pour les hébergeurs, possibilité pour l'employeur de porter plainte). Elle respecte le conditionnel et ne contient pas d'erreur factuelle. La fiche Y, bien que neutre et claire, est trop vague (elle omet les délais et montants des sanctions pour les hébergeurs, la mesure sur la plainte de l'employeur, et la comparution immédiate) et contient une erreur juridique : l'article 4 élargit la définition du délit de négationnisme (en remplaçant « contesté » par « nié, minoré ou banalisé »), et non pas seulement les sanctions encourues.",
+  "cout": 0.01145833
+ },
+ "DLR5L17N50590|mistral-large-4": {
+  "notes": {
+   "haiku-v10": {
+    "exactitude": 10,
+    "completude": 9,
+    "neutralite": 10,
+    "clarte": 9,
+    "themes": 10
+   },
+   "luna": {
+    "exactitude": 8,
+    "completude": 6,
+    "neutralite": 9,
+    "clarte": 8,
+    "themes": 7
+   }
+  },
+  "erreurs": [
+   {
+    "fiche": "luna",
+    "citation": "Cette proposition de résolution dénonce",
+    "gravite": "mineure"
+   },
+   {
+    "fiche": "luna",
+    "citation": "demande que les forces qui y participent soient considérées",
+    "gravite": "mineure"
+   }
+  ],
+  "preference": "haiku-v10",
+  "raison": "La fiche X est plus complète : elle mentionne les mariages autorisés dès 13 ans, la persécution fondée sur le genre, les restrictions d'accès aux banques et transports, et précise explicitement la milice des bassidji. Elle respecte strictement la règle du conditionnel pour les mesures d'un texte non promulgué et précise qu'elle n'a pas force de loi. Les thèmes choisis (Union européenne) sont plus pertinents que ceux de Y (Pouvoirs publics et Constitution) car le texte demande spécifiquement l'inscription sur la liste des organisations terroristes de l'UE. La fiche Y commet des erreurs de temps (présent au lieu du conditionnel pour une proposition non adoptée) et omet des éléments importants du texte source.",
+  "cout": 0.01169316
+ },
+ "DLR5L17N53380|mistral-large-4": {
+  "notes": {
+   "luna": {
+    "exactitude": 8,
+    "completude": 7,
+    "neutralite": 9,
+    "clarte": 8,
+    "themes": 10
+   },
+   "haiku-v10": {
+    "exactitude": 9,
+    "completude": 8,
+    "neutralite": 9,
+    "clarte": 9,
+    "themes": 10
+   }
+  },
+  "erreurs": [
+   {
+    "fiche": "luna",
+    "citation": "emprunter pour couvrir leurs besoins de trésorerie",
+    "gravite": "mineure"
+   },
+   {
+    "fiche": "luna",
+    "citation": "certains régimes et organismes de Sécurité sociale",
+    "gravite": "mineure"
+   }
+  ],
+  "preference": "haiku-v10",
+  "raison": "La fiche Y est plus fidèle au texte source : elle évite l'erreur de X qui réduit les 'ressources non permanentes' à de simples 'emprunts', et elle précise que la loi fixerait une liste exhaustive plutôt que de viser vaguement 'certains' régimes. Elle est aussi plus complète en mentionnant la procédure accélérée et les renvois législatifs prévus à l'article 2, tout en conservant une excellente clarté pour un lecteur non juriste.",
+  "cout": 0.01017018
+ },
+ "DLR5L17N50198|mistral-large-4": {
+  "notes": {
+   "haiku-v10": {
+    "exactitude": 10,
+    "completude": 8,
+    "neutralite": 10,
+    "clarte": 9,
+    "themes": 9
+   },
+   "luna": {
+    "exactitude": 4,
+    "completude": 7,
+    "neutralite": 9,
+    "clarte": 7,
+    "themes": 8
+   }
+  },
+  "erreurs": [
+   {
+    "fiche": "luna",
+    "citation": "Ce projet de loi fixe les recettes et les dépenses prévues par l’État pour 2025",
+    "gravite": "grave"
+   },
+   {
+    "fiche": "luna",
+    "citation": "Il établirait enfin les budgets des services publics",
+    "gravite": "mineure"
+   }
+  ],
+  "preference": "haiku-v10",
+  "raison": "La fiche X respecte scrupuleusement la règle du conditionnel pour un texte non promulgué et attribue correctement les objectifs de redressement aux auteurs du texte. La fiche Y commet une erreur grave en présentant le projet comme déjà adopté (« fixe » au présent au lieu de « fixerait ») et contient une formulation juridiquement imprécise : le projet de loi de finances autorise des crédits, il n'établit pas les budgets opérationnels des services publics.",
+  "cout": 0.01063745
+ },
+ "DLR5L17N51899|mistral-large-4": {
+  "notes": {
+   "haiku-v10": {
+    "exactitude": 9,
+    "completude": 9,
+    "neutralite": 10,
+    "clarte": 8,
+    "themes": 10
+   },
+   "luna": {
+    "exactitude": 9,
+    "completude": 8,
+    "neutralite": 10,
+    "clarte": 9,
+    "themes": 10
+   }
+  },
+  "erreurs": [],
+  "preference": "haiku-v10",
+  "raison": "La fiche X est plus complète et mieux contextualisée : elle précise l'origine du rapport (commission de la défense de l'Assemblée nationale), mentionne le contexte historique essentiel de la fin du service national en 1996, et rapporte l'avis des auteurs sur l'impossibilité du retour au service militaire d'antan. Elle respecte également la règle maison en plaçant la mention 'ne change aucune règle' en début de texte, ce qui est plus visible pour le lecteur. La fiche Y est correcte et fluide, mais moins informative sur le contexte et les positions des auteurs.",
+  "cout": 0.01236937
+ },
+ "DLR5L17N50449|mistral-large-4": {
+  "notes": {
+   "luna": {
+    "exactitude": 8,
+    "completude": 7,
+    "neutralite": 9,
+    "clarte": 9,
+    "themes": 8
+   },
+   "haiku-v10": {
+    "exactitude": 10,
+    "completude": 9,
+    "neutralite": 10,
+    "clarte": 9,
+    "themes": 9
+   }
+  },
+  "erreurs": [
+   {
+    "fiche": "luna",
+    "citation": "principes d’égalité, de continuité, de neutralité, d’adaptation et d’accès pour tous",
+    "gravite": "mineure"
+   }
+  ],
+  "preference": "haiku-v10",
+  "raison": "La fiche Y est plus complète : elle inclut l'article 6 (évaluation sociale, environnementale et économique préalable à toute modification du périmètre d'un service public), mesure essentielle pour les citoyens, que la fiche X omet. Elle est également plus exacte sur la terminologie juridique (utilise « adaptabilité » et « accessibilité » comme le texte source, contre « adaptation » et « accès pour tous » dans X). Elle respecte mieux la règle d'attribution des constats aux auteurs (« socle du contrat social ») et couvre les enjeux budgétaires via le thème Budget, pertinent pour l'article 4 sur les financements publics.",
+  "cout": 0.01066281
+ },
+ "DLR5L17N52922|mistral-large-4": {
+  "notes": {
+   "luna": {
+    "exactitude": 8,
+    "completude": 6,
+    "neutralite": 9,
+    "clarte": 9,
+    "themes": 7
+   },
+   "haiku-v10": {
+    "exactitude": 10,
+    "completude": 9,
+    "neutralite": 10,
+    "clarte": 9,
+    "themes": 10
+   }
+  },
+  "erreurs": [
+   {
+    "fiche": "luna",
+    "citation": "répartirait les dépenses d'assurance maladie entre soins de ville, hôpitaux et établissements pour personnes âgées ou handicapées",
+    "gravite": "mineure"
+   }
+  ],
+  "preference": "haiku-v10",
+  "raison": "La fiche Y est nettement supérieure : elle fournit les chiffres clés indispensables à un citoyen (déficit porté à 23 milliards d'euros, ONDAM maintenu à 265,9 milliards, réduction de 60 millions), attribue correctement les constats aux auteurs du texte, et couvre les trois thèmes pertinents (Sécurité sociale, Budget, Questions sociales et santé). La fiche X reste trop générale, omet les données chiffrées essentielles, et contient une formulation imprécise : l'article 2 rectifie les sous-objectifs existants de l'ONDAM, il ne crée pas une nouvelle répartition des dépenses.",
+  "cout": 0.00994858
+ }
+}

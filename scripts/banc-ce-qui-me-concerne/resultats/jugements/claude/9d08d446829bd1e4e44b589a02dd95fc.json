@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etranger_hors_ue",
+    "raison": "Le dispositif modifie le droit au séjour des étrangers confiés à l’aide sociale à l’enfance avant 18 ans et leur accorde, sous cette condition, une carte de séjour de quatre ans.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "jeune",
+    "raison": "Le texte vise les étrangers selon leur placement antérieur à l’ASE, pas les personnes parce qu’elles ont aujourd’hui entre 18 et 25 ans. Le mot « jeunes » dans l’exposé ne suffit pas à faire du profil jeune le critère de la mesure.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.001229275,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

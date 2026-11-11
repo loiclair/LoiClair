@@ -1,0 +1,19 @@
+{
+ "impacts": [
+  {
+   "profil": "pompier_volontaire",
+   "passage": "L’autorité territoriale établit, pour chaque sapeur-pompier professionnel ou volontaire exposé, dans le cadre de ses fonctions, après une intervention présentant un risque d’exposition à un agent cancérogène, mutagène ou toxique pour la reproduction",
+   "certitude": "certain",
+   "phrase_en": "An exposure record would be drawn up by the territorial authority after a risky intervention, for each volunteer firefighter exposed to carcinogenic, mutagenic or toxic agents.",
+   "phrase_fr": "Une fiche d'exposition serait établie par l'autorité territoriale après une intervention à risque, pour chaque sapeur-pompier volontaire exposé à des agents cancérogènes, mutagènes ou toxiques."
+  },
+  {
+   "profil": "fonctionnaire",
+   "passage": "L’autorité territoriale établit, pour chaque sapeur-pompier professionnel ou volontaire exposé, dans le cadre de ses fonctions, après une intervention présentant un risque d’exposition à un agent cancérogène, mutagène ou toxique pour la reproduction",
+   "certitude": "probable",
+   "phrase_en": "An exposure record would be drawn up by the territorial authority after a risky intervention, for each professional firefighter exposed to carcinogenic or toxic agents.",
+   "phrase_fr": "Une fiche d'exposition serait établie par l'autorité territoriale après une intervention à risque, pour chaque sapeur-pompier professionnel exposé à des agents cancérogènes ou toxiques."
+  }
+ ],
+ "resume_fr": null
+}

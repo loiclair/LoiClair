@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "forces_ordre",
+    "raison": "Les dispositions encadrent des actes d’enquête autorisés, notamment ceux réalisés par les forces de l’ordre, en précisant quand ils ne constituent pas une incitation à l’infraction.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0004029,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

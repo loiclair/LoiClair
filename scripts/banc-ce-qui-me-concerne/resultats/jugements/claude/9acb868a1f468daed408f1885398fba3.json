@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_sante",
+    "raison": "Le I remplace « un médecin, un chirurgien-dentiste ou une sage-femme » par « tout professionnel de santé » et le 1° soumet à la suspension les soignants qui interviennent dans un établissement ou dans tout lieu de soins. La mesure change directement leurs obligations et leur exposition à une suspension.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "etudiant",
+    "raison": "Le 3° de l'article soumet expressément les élèves et étudiants des formations aux professions de santé à la suspension. Les étudiants en médecine, pharmacie, odontologie ou maïeutique relèvent de l'enseignement supérieur, donc le profil est concerné en partie. La phrase de l'assistant déclenche la suspension par une mise en examen « liée à leur formation », alors que le texte vise une mise en examen « en lien avec l'exercice de sa profession ».",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.001090335,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

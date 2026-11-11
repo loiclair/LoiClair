@@ -1,0 +1,35 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_education",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'amendement supprime la réserve de retrait de la protection fonctionnelle pour les personnels de l'Éducation nationale, ce qui change directement leurs droits. Le résumé est fidèle à l'effet de l'amendement et emploie correctement le conditionnel."
+   },
+   {
+    "profil": "fonctionnaire",
+    "concerne": false,
+    "phrase_fidele": true,
+    "raison": "L'article cible spécifiquement « un personnel de l'éducation mentionné au livre IX de la quatrième partie », ce qui inclut une majorité de fonctionnaires mais n'est pas limité à ce statut. Un contractuel de l'éducation nationale serait aussi concerné. L'effet n'est pas propre au statut de fonctionnaire, donc le profil n'est pas directement visé par sa qualité de fonctionnaire. Le résumé reste toutefois fidèle car il décrit correctement l'effet de l'amendement pour ces personnels, et le passage cité est vide dans les deux cas."
+   },
+   {
+    "profil": "salarie_prive",
+    "concerne": false,
+    "phrase_fidele": false,
+    "raison": "Les personnels travaillant dans des établissements privés sous contrat sont mentionnés au livre IX de la quatrième partie du code de l'éducation et peuvent être salariés de droit privé. Ils entrent dans le champ de l'article et seraient donc potentiellement concernés. L'assistant ne les a pas proposés."
+   },
+   {
+    "profil": "chef_entreprise",
+    "concerne": false,
+    "phrase_fidele": false,
+    "raison": "Tout comme les salariés du privé, les chefs d'établissement privés sous contrat mentionnés au livre IX sont concernés. L'assistant ne les a pas proposés."
+   }
+  ],
+  "oublis": [
+   "salarie_prive",
+   "chef_entreprise"
+  ]
+ },
+ "cout_usd": 0.0030979
+}

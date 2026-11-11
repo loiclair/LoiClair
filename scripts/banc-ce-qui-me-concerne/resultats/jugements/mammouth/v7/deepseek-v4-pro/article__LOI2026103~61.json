@@ -1,0 +1,14 @@
+{
+ "jugement": {
+  "oublis": [],
+  "profils": [
+   {
+    "concerne": true,
+    "phrase_fidele": true,
+    "profil": "automobiliste",
+    "raison": "L'article instaure une majoration de la taxe régionale sur les certificats d'immatriculation délivrés en Île-de-France, ce qui augmente directement le coût pour toute personne faisant immatriculer un véhicule dans cette région."
+   }
+  ]
+ },
+ "cout_usd": 0.0004291362
+}

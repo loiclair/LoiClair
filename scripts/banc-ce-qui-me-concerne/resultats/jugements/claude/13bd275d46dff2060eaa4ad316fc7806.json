@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "travailleur_plateforme",
+    "raison": "L'article insère dans le code du travail, à la suite de L. 7342-5, une protection visant directement le travailleur de plateforme : suspension, désactivation, déréférencement ou réduction d'accès aux missions ne peuvent plus être décidés uniquement par un algorithme, et doivent être motivés, notifiés et précédés d'une procédure contradictoire. Le texte désigne lui-même cette catégorie.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000209585,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

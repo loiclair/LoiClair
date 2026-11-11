@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_agriculture",
+    "raison": "Le I.2° crée l'article L. 511-3 du code de l'environnement, qui permet d'imposer des prescriptions générales aux installations d'élevage soumises à enregistrement ou autorisation. Ces prescriptions visent directement l'exploitation d'élevage, donc le secteur agricole, et leur contenu (modernisation des bâtiments, gestion des effluents, biosécurité) change la façon d'exercer l'élevage. Le texte n'est pas encore adopté, ce qui n'affecte pas le verdict.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00048583500000000005,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

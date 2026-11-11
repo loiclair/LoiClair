@@ -1,0 +1,19 @@
+{
+ "impacts": [
+  {
+   "profil": "etranger_hors_ue",
+   "phrase_fr": "Le premier titre de séjour coûtera 300 euros et son renouvellement 200 euros, avec des montants réduits pour certaines cartes.",
+   "phrase_en": "The first residence permit will cost 300 euros and its renewal 200 euros, with reduced amounts for some cards.",
+   "passage": "La première délivrance d'un titre de séjour donne lieu à la perception d'une taxe dont le montant est fixé à 300 euros.",
+   "certitude": "certain"
+  },
+  {
+   "profil": "automobiliste",
+   "phrase_fr": "Le remplacement d'un permis de conduire perdu ou abîmé coûtera 25 euros, et l'échange d'un permis étranger 40 euros.",
+   "phrase_en": "Replacing a lost or damaged driving licence will cost 25 euros, and exchanging a foreign licence 40 euros.",
+   "passage": "1° 25 euros dans le cas mentionné au 1° de l'article L. 421-169 ; « 2° 40 euros dans le cas mentionné au 2° du même article L. 421-169.",
+   "certitude": "probable"
+  }
+ ],
+ "cout_usd": 0.00152221
+}

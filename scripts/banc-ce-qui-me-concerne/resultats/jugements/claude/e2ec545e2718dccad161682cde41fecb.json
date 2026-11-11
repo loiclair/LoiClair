@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "proprietaire_bailleur",
+    "raison": "L'amendement change la preuve que le bailleur doit fournir pour justifier l'impossibilité technique des travaux (« attestées »), donc sa démarche et son obligation de décence énergétique.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "locataire",
+    "raison": "L'exposé précise que l'attestation écrite est plus sécurisante pour le locataire, qui pourra la réclamer : cela touche directement ses droits liés à la décence énergétique de son logement.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0035526999999999998,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

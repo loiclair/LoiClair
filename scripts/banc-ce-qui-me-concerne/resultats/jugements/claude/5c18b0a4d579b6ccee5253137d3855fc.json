@@ -1,0 +1,35 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etranger_hors_ue",
+    "raison": "Le I du nouvel article L. 436-1 fixe à 300 euros la taxe due à la première délivrance d'un titre de séjour, payée par la personne qui obtient le titre. Le montant est ramené à 100 euros pour certaines cartes, et le renouvellement passe à 200 euros. La mesure vise directement les titulaires de titres de séjour.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "automobiliste",
+    "raison": "Le 4° modifie l'article L. 421-171 : 25 euros pour le remplacement d'un permis non présenté ou détérioré, et 40 euros pour l'échange d'un permis délivré par une autorité étrangère. Le titulaire du permis qui le remplace ou l'échange paie directement. La phrase de l'assistant reprend ces montants ; « perdu » est une lecture de « non présenté », sans changer le fait.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "salarie_prive",
+    "raison": "La contribution de 50 euros est due par la partie qui introduit une instance devant le conseil de prud'hommes, la saisine prud'homale étant la voie de recours habituelle du salarié contre son employeur. Les bénéficiaires de l'aide juridictionnelle sont exclus. La phrase présente la contribution comme déjà applicable (« coûte désormais »), alors que le VI du texte la fait entrer en vigueur à une date fixée par décret en Conseil d'Etat, au plus tard le 1er mars 2026. Ce point rend la phrase inexacte.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "independant",
+    "raison": "Le produit de la contribution est affecté à la Caisse nationale des règlements pécuniaires des avocats, puis versé aux avocats par l'intermédiaire de leurs caisses. L'effet passe par un organisme tiers et ne modifie ni les droits ni les obligations de l'avocat en tant qu'indépendant. Il ne concerne donc pas directement le profil.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.002919235,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

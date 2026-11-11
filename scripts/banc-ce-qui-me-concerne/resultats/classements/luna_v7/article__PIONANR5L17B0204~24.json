@@ -1,0 +1,19 @@
+{
+ "impacts": [
+  {
+   "profil": "etranger_ue",
+   "phrase_fr": "Les ressortissants étrangers pourraient accéder à l’aide à mourir s’ils résident de façon stable et régulière en France et remplissent les autres conditions.",
+   "phrase_en": "Foreign nationals could access assisted dying if they reside stably and lawfully in France and meet the other conditions.",
+   "passage": "Être de nationalité française ou résider de façon stable et régulière en France ;",
+   "certitude": "certain"
+  },
+  {
+   "profil": "etranger_hors_ue",
+   "phrase_fr": "Les ressortissants étrangers pourraient accéder à l’aide à mourir s’ils résident de façon stable et régulière en France et remplissent les autres conditions.",
+   "phrase_en": "Foreign nationals could access assisted dying if they reside stably and lawfully in France and meet the other conditions.",
+   "passage": "Être de nationalité française ou résider de façon stable et régulière en France ;",
+   "certitude": "certain"
+  }
+ ],
+ "cout_usd": 0.000379725
+}

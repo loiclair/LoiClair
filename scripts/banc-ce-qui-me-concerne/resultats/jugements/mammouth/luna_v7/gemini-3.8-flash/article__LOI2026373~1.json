@@ -1,0 +1,20 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_sante",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article autorise directement les médecins titulaires de titres de formation délivrés par le Royaume-Uni (commencés avant le 31 décembre 2020) à exercer leur profession en France."
+   },
+   {
+    "profil": "etranger_hors_ue",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article mentionne expressément les ressortissants du Royaume-Uni (ressortissants d'un pays hors UE), leur permettant d'exercer la médecine en France sous réserve des conditions de diplôme fixées."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00817875
+}

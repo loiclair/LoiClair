@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "expat",
+    "raison": "L'article impose de publier l'information sur le site des ambassades et postes consulaires, ce qui vise directement les Français établis à l'étranger, qui la consultent.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0064137,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

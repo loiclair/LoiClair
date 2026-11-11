@@ -1,0 +1,21 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_culture",
+    "raison": "Le 6° ne fait que remplacer un renvoi à l'article 293 B par la mention des droits patrimoniaux des auteurs d'œuvres de l'esprit. C'est une coordination de références, rendue nécessaire par la réécriture du II de l'article 293 B, et elle ne change rien pour les artistes ou les auteurs. L'article porte pour l'essentiel sur la franchise de TVA et sur les taux de TVA de certains travaux.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": [
+   "auto_entrepreneur",
+   "independant",
+   "chef_entreprise"
+  ]
+ },
+ "cout_usd": 0.0067427,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

@@ -1,0 +1,19 @@
+{
+ "impacts": [
+  {
+   "profil": "secteur_transport",
+   "phrase_fr": "Les entreprises de transport maritime de marchandises ou de passagers pourraient déduire 100 % des coûts d'équipements véliques neufs achetés en France, pour des contrats signés entre 2025 et 2030.",
+   "phrase_en": "Shipping companies carrying goods or passengers would be able to deduct 100% of extra costs for new, French-made wind propulsion equipment, for contracts signed between 2025 and 2030.",
+   "passage": "pour les navires et les bateaux de transport de marchandises ou de passagers ainsi que les navires spéciaux qui sont affectés à leur activité",
+   "certitude": "certain"
+  },
+  {
+   "profil": "chef_entreprise",
+   "phrase_fr": "Les petites et moyennes entreprises pourraient bénéficier d'un taux majoré, de 20 % pour les moyennes et de 30 % pour les petites, sur ces mêmes dépenses.",
+   "phrase_en": "Medium-sized and small companies would get a higher rate on these costs: 20% for medium firms and 30% for small ones.",
+   "passage": "« c) De 30 % lorsque les coûts sont supportés par des petites entreprises au sens de la même annexe I ; »",
+   "certitude": "probable"
+  }
+ ],
+ "cout_usd": 0.00122045
+}

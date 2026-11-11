@@ -1,0 +1,14 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "forces_ordre",
+    "concerne": false,
+    "phrase_fidele": false,
+    "raison": "L'article ne concerne pas le profil forces_ordre (policiers nationaux, gendarmes, militaires). Il modifie les compétences de la police municipale/territoriale, qui ne fait pas partie de ce profil. La phrase proposée est infidèle car elle attribue l'élargissement à 'les policiers territoriaux' (formulation absente du texte) et parle de 'leurs missions' comme si le profil était visé, alors qu'il ne l'est pas."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0024284
+}

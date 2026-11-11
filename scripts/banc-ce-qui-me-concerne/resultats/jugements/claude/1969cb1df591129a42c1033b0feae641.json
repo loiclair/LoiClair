@@ -1,0 +1,11 @@
+{
+ "jugement": {
+  "profils": [],
+  "oublis": [
+   "forces_ordre"
+  ]
+ },
+ "cout_usd": 0.0004124,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "chasseur_pecheur",
+    "raison": "L'interdiction vise « toute personne » qui attire des poissons en mer pour les capturer (appâts concentrés, lumières, déversements). Elle change directement les pratiques d'un pêcheur de loisir en mer.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "secteur_agriculture",
+    "raison": "Le profil couvre aussi la pêche et le secteur maritime. L'interdiction vise toute personne, donc les pêcheurs professionnels, dont elle change les techniques de pêche en mer. La phrase reste fidèle au texte, au conditionnel.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0029697,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

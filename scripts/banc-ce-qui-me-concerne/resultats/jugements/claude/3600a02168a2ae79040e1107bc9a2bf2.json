@@ -1,0 +1,25 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "handicap",
+    "raison": "L'article ouvre aux personnes handicapées ou à leur représentant légal une procédure d'évaluation simplifiée (travailleur handicapé, carte mobilité inclusion) ; elles sont directement visées.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "age_dependant",
+    "raison": "Le II de l'art. L. 241-3 vise les bénéficiaires de l'APA (art. L. 232-1), c'est-à-dire les personnes âgées en perte d'autonomie, qui recevraient la carte mobilité inclusion à titre définitif selon leur groupe GIR. Le texte n'étant pas adopté, le conditionnel est respecté.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "aidant"
+  ]
+ },
+ "cout_usd": 0.0040866999999999995,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

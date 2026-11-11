@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "mineur",
+    "raison": "Le texte vise directement les mineurs confiés à l'aide sociale à l'enfance ou à un membre de la famille ou tiers digne de confiance (art. 375-3 du code civil, 2° et 3°) et leur ouvre à titre personnel la protection complémentaire. La phrase de l'assistant restreint toutefois le tiers digne de confiance à un « proche », ce qui n'est pas fidèle au texte.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "allocataire",
+    "raison": "La mesure désigne ses bénéficiaires par leur placement (art. 375-3, 2° et 3°), non par la perception d'une aide. Le fait de bénéficier de la complémentaire santé solidaire est l'effet de la mesure, pas son critère, donc le profil allocataire n'est pas visé. La phrase de l'assistant reste fidèle au texte.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0009698350000000001,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

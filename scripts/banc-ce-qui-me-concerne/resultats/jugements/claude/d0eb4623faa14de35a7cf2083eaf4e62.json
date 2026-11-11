@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "ancien_combattant",
+    "raison": "Le profil couvre les anciens combattants, rapatriés, harkis « ou membre de leur famille ». Les pupilles de la Nation, enfants de « Morts pour la France », sont des proches de victimes de guerre et sont visés directement par le droit à la reconnaissance de la Nation.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0019467,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

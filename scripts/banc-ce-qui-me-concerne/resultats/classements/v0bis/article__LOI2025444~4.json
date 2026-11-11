@@ -1,0 +1,19 @@
+{
+ "impacts": [
+  {
+   "profil": "elu_local",
+   "phrase_fr": "Les élus municipaux ne sont plus tenus de respecter la parité femmes-hommes pour désigner les adjoints quand un poste est vacant dans une commune de moins de 1 000 habitants.",
+   "phrase_en": "Municipal councillors would no longer have to respect gender parity when appointing deputy mayors to a vacant post in communes under 1,000 inhabitants.",
+   "passage": "en cas de vacance dans les communes de moins de 1 000 habitants, le ou les adjoints sont désignés parmi les conseillers, sans tenir compte du sexe de ces derniers.",
+   "certitude": "certain"
+  },
+  {
+   "profil": "rural",
+   "phrase_fr": "Dans les petites communes de moins de 1 000 habitants, le remplacement d'un adjoint vacant se fait sans règle de parité entre femmes et hommes.",
+   "phrase_en": "In small communes under 1,000 inhabitants, replacing a vacant deputy mayor would no longer follow any gender parity rule.",
+   "passage": "en cas de vacance dans les communes de moins de 1 000 habitants, le ou les adjoints sont désignés parmi les conseillers, sans tenir compte du sexe de ces derniers.",
+   "certitude": "probable"
+  }
+ ],
+ "cout_usd": 0.00065705
+}

@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_industrie",
+    "raison": "Le texte impose une obligation d'offre sur le mécanisme d'ajustement aux producteurs d'électricité (seuil d'au moins 12 MW). C'est une obligation technique et commerciale de l'entreprise productrice, pas une règle qui change le métier des personnes travaillant dans le secteur. La règle 12 exclut ce cas (puissance mise à disposition par un producteur d'électricité).",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0023036999999999997,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

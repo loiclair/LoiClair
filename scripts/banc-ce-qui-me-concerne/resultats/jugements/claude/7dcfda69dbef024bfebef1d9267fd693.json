@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etranger_hors_ue",
+    "raison": "L'article L. 425-1-1 créé par l'amendement vise « l'étranger » victime de violences qui n'a pas porté plainte et lui accorde une autorisation provisoire de séjour d'un an, renouvelable, avec droit au travail. Le titre de séjour ne concerne que les ressortissants hors UE vivant en France, ce qui correspond à la définition du profil.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000468885,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

@@ -1,0 +1,12 @@
+{
+ "impacts": [
+  {
+   "profil": "salarie_prive",
+   "phrase_fr": "Votre branche pourrait financer une activité physique hors travail, abondée par des assureurs sans hausse de vos cotisations.",
+   "phrase_en": "Your branch could fund physical activity outside work, supported by insurers without raising your contributions.",
+   "passage": "Cette contribution est facultative pour chaque salarié couvert par un contrat souscrit dans le champ de la branche concernée.",
+   "certitude": "possible"
+  }
+ ],
+ "cout_usd": 0.00084631
+}

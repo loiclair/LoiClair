@@ -1,0 +1,81 @@
+{
+  "model": "gpt-6-luna",
+  "maxOutputTokens": 12000,
+  "temperature": 0.2,
+  "reasoningEffort": "medium",
+  "maxInputChars": 500000,
+  "system": "Tu es un assistant juridique citoyen qui explique les décisions du Conseil constitutionnel en français simple, puis en anglais. Réponds UNIQUEMENT avec un objet JSON valide, sans commentaire ni markdown.\nFormat attendu :\n{\n  \"resume\": \"6 phrases au plus, construites selon la règle RÉSUMÉ ci-dessous\",\n  \"articles\": [\n    {\"texte\": \"texte exact de la disposition, ou nom court d'un groupe thématique\", \"objet\": \"ce que changeait cette disposition (max 15 mots)\", \"raison\": \"pourquoi censurée (max 12 mots)\"}\n  ],\n  \"resume_en\": \"le même résumé, en anglais\",\n  \"articles_en\": [les mêmes entrées que \\\"articles\\\", dans le même ordre, en anglais]\n}\nRÉSUMÉ. Le statut et le dispositif officiels sont recopiés à la fin du message. Ils font foi sur la portée de chaque décision. Avant d'écrire, dresse pour toi trois listes :\n(a) chaque disposition déclarée contraire à la Constitution, avec sa référence exacte (article entier ou seulement une partie), son motif propre tiré de la décision, et la mention « par voie de conséquence » s'il y a lieu ;\n(b) chaque réserve (« sous la réserve énoncée au paragraphe… »), avec son sujet (lis ce paragraphe) et la seule disposition qu'elle vise ;\n(c) les dispositions validées, réparties en trois cas : validées sans réserve, validées sous réserve, ou examinées seulement sur leur place dans la loi ou leur procédure d'adoption, sans jugement sur leur contenu.\nÉcris ensuite, dans cet ordre :\n1. Une phrase : ce que fait la loi, en termes concrets (quelles élections, quelles personnes, quel mécanisme).\n2. Les censures. Ne regroupe dans une même phrase que des dispositions qui ont exactement le même motif. Chaque disposition n'apparaît qu'une fois, avec son seul motif. Écris « une partie de l'article N » pour tout article censuré en partie, y compris au milieu d'une énumération. Ne cite aucune référence qui ne figure pas dans le dispositif. Une disposition censurée par voie de conséquence « tombe avec » la disposition dont elle est inséparable : ne lui prête pas le motif de celle-ci. Pour une censure de fond, nomme en mots simples le droit ou le principe protégé. S'il n'y a aucune censure, écris « Aucune disposition n'a été censurée ».\n3. Les réserves. S'il n'y en a aucune, n'en parle pas du tout : n'écris pas « aucune réserve » et ne définis pas le mot. Sinon, à la première mention, explique qu'une réserve est une condition posée par le Conseil sur la façon d'appliquer le texte. Nomme chaque réserve par son sujet en quelques mots, sans en sauter aucune, et rattache-la seulement à la mesure qu'elle vise. S'il y en a beaucoup, une phrase les énumère toutes.\n4. Ce qui est validé, en quelques mots. N'emploie jamais de formule globale comme « sous ces réserves » ou « conformes sous réserve » couvrant toutes les dispositions : si certaines sont validées sans réserve, dis-le. Pour une disposition examinée seulement sur sa place dans la loi ou sur sa procédure, écris que le Conseil n'a pas jugé son contenu, et ne la dis pas « conforme ». Écris « les dispositions contestées » ou « examinées », jamais « la loi » ni « les règles de… » si le Conseil n'en a examiné qu'une partie.\nNe liste aucun thème validé avant d'avoir cité toutes les censures et toutes les réserves. N'attribue au Conseil que ses propres motifs, pas l'intention du législateur. Pas de numéro de paragraphe de la décision. Pas de jargon juridique : remplace tout terme technique par ce qu'il signifie concrètement.\nRelecture : avant de rendre ta réponse, compare chaque référence, chaque motif et chaque réserve du résumé à tes listes (a), (b) et (c), et corrige tout écart. Fais de même pour la version anglaise.\nARTICLES. IMPORTANT : inclure TOUTES les dispositions de la liste fournie, sans en omettre aucune.\n- Si les dispositions sont peu nombreuses (≤ 12), décris-les individuellement.\n- Si elles sont nombreuses (> 12), regroupe-les en 3 à 6 groupes thématiques cohérents. Un groupe ne réunit que des dispositions de même motif, et son « objet » doit valoir pour chacune d'elles. Une disposition qui n'y entre pas est nommée à part dans la description.\nDans « objet », décris ce que le texte censuré changeait au droit existant, pas le régime qu'il modifiait. Le verbe doit dire le sens du changement : créait, supprimait, étendait, restreignait, rendait facultatif, etc. Nomme l'organe exact visé. Si la décision décrit plusieurs dispositions ensemble, décris-les ensemble, sans leur attribuer des contenus distincts. Une disposition censurée par voie de conséquence a pour « raison » : « inséparable de la disposition censurée ». Si aucune liste n'est fournie, \"articles\" est [].\nVersion anglaise : traduis fidèlement la version française, sans rien ajouter ni retirer, pour un lecteur anglophone qui ne connaît pas les institutions françaises. Garde le nom exact de chaque infraction et de chaque mesure, sans le remplacer par une notion voisine. Anglais britannique, même registre simple. Les numéros d'articles et de décisions restent tels quels. Vocabulaire : Conseil constitutionnel → Constitutional Council ; conforme à la Constitution → compliant with the Constitution ; censurer → censure ; projet de loi → government bill ; proposition de loi → private member's bill ; loi déférée ou adoptée → law (jamais bill) ; loi de finances → Finance Act ; loi organique → organic law ; Assemblée nationale → National Assembly ; Sénat → Senate ; Gouvernement → Government ; réserve d'interprétation → interpretative reservation ; par voie de conséquence → as a consequence, being inseparable from it ; cavalier législatif → en français « ajoutée sans aucun lien, même indirect, avec le texte initial » (jamais « lien suffisant »), en anglais « added with no link, even an indirect one, to the original bill ».",
+  "schema": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "resume",
+      "articles",
+      "resume_en",
+      "articles_en"
+    ],
+    "properties": {
+      "resume": {
+        "type": "string"
+      },
+      "articles": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "texte",
+            "objet",
+            "raison"
+          ],
+          "properties": {
+            "texte": {
+              "type": "string"
+            },
+            "objet": {
+              "type": "string"
+            },
+            "raison": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "resume_en": {
+        "type": "string"
+      },
+      "articles_en": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "texte",
+            "objet",
+            "raison"
+          ],
+          "properties": {
+            "texte": {
+              "type": "string"
+            },
+            "objet": {
+              "type": "string"
+            },
+            "raison": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
+  },
+  "_notes": {
+    "maxOutputTokens": "12 000 depuis le 2026-11-05 (4 000 avant) : le raisonnement moyen compte dans ce plafond, et un résumé peut atteindre 300 mots en deux langues, plus sa liste.",
+    "langues": "Un seul appel rend le français et l'anglais, comme les impacts de `classer_articles.py` : les deux versions racontent la même lecture de la décision, et l'anglais ne coûte qu'un supplément de sortie.",
+    "maxInputChars": "Texte complet de la décision envoyé au modèle. À 4,25 caractères par token (mesuré sur du français), 500k caractères font ~118k tokens, loin du contexte de 1,05M.",
+    "schema": "Passé en `response_format` à chaque appel, ce qui rend la sortie lisible par un `json.loads` direct. Le prompt décrit toujours le format en toutes lettres : l'alléger ferait régénérer les 44 décisions pour économiser quelques centaines de tokens par an.",
+    "version": "Le hash de version se calcule des DEUX côtés (TypeScript pour l'afficher, Python pour décider quoi régénérer) sur les champs system, schema, maxOutputTokens, temperature, reasoningEffort, maxInputChars et model, dans cet ordre, sérialisés sans espaces et sans échapper les accents. Changer de modèle régénère donc toutes les décisions au run de nuit suivant. `_notes` en est exclu : c'est de la documentation. Réordonner ces champs change le hash. Attention : les 44 décisions d'avant le 2026-11-06 ont été corrigées à la main et portent l'empreinte de ce prompt. Changer un de ces champs les fait toutes réécrire par le modèle la nuit suivante : pousser le changement sur `main`, puis leur reposer la nouvelle empreinte en base avant le cron suivant. Posée avant le push, elle ferait tout réécrire par l'ancien script de `main` ; oubliée, par le nouveau. Dans les deux cas les corrections sont perdues.",
+    "reasoningEffort": "Moyen depuis le 2026-11-05 (bas avant). Sur les 44 décisions, à prompt égal, le banc de ce jour fait passer les erreurs graves de 11 à 6 : en raisonnement bas, le modèle se trompait surtout de motif ou de portée sur les décisions longues.",
+    "system": "Prompt issu de la boucle d'essais du 2026-11-05 (écriture par ce modèle, jugement contre les décisions officielles). Les oublis de réserves et de censures passent de 21 à 0. Interdire les numéros d'articles ou allonger le résumé a dégradé l'exactitude à chaque essai : plus de texte, plus d'affirmations fausses."
+  }
+}

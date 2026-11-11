@@ -1,0 +1,35 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etudiant",
+    "raison": "Le texte désigne lui-même les étudiants : la location en résidence à vocation d'emploi est ouverte aux locataires qui suivent des études supérieures, ce qui change directement leur accès au logement.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "apprenti_alternant",
+    "raison": "Le texte vise nommément les personnes en contrat d'apprentissage et en stage, qui relèvent de la définition du profil. La formulation « en formation » raccourcit « formation professionnelle » sans inventer de fait.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "benevole",
+    "raison": "Le texte vise les personnes en engagement volontaire dans le cadre d'un service civique, qui entrent dans le profil benevole (volontaires en service civique).",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "locataire",
+    "raison": "Le texte parle de locataires, mais seulement de ceux qui remplissent une condition de situation (études, formation, mutation, mission). Ce statut de locataire ne déclenche pas la mesure, et un locataire ordinaire n'en tire aucun changement. La phrase de l'assistant décrit fidèlement le bail mobilité en résidence à vocation d'emploi.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.001453385,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

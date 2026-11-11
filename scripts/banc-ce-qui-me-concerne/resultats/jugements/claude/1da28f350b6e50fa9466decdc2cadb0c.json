@@ -1,0 +1,19 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_education",
+    "raison": "L'amendement supprime l'alinéa 3, qui permet de retirer la protection en cas de faute personnelle ; il vise les personnels de l'Éducation nationale, donc ceux qui travaillent dans l'enseignement et dont les droits professionnels changent.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "fonctionnaire"
+  ]
+ },
+ "cout_usd": 0.0027546999999999997,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

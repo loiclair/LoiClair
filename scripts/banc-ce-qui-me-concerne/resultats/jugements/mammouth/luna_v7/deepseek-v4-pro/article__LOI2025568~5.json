@@ -1,0 +1,14 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "parent",
+    "concerne": false,
+    "phrase_fidele": true,
+    "raison": "L'article est intégralement déclaré non conforme par le Conseil constitutionnel. Il ne produit aucun effet juridique. Aucun profil n'est donc concrètement concerné. Pour mémoire, même si la disposition initiale concernait sans doute les parents de mineurs délinquants, le texte est aujourd'hui vide de tout contenu applicable."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0011596
+}

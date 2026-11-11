@@ -1,0 +1,26 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etranger_hors_ue",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article impose directement une condition d'ancienneté de titre de séjour de deux ans aux ressortissants non européens pour accéder à certaines prestations familiales et à l'APA."
+   },
+   {
+    "profil": "age_dependant",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "Le II modifie les conditions d'octroi de l'allocation personnalisée d'autonomie (APA), qui s'adresse spécifiquement aux personnes âgées en perte d'autonomie."
+   },
+   {
+    "profil": "parent",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "La restriction porte sur les prestations familiales (code de la sécurité sociale), qui concernent directement les parents ayant des enfants à charge."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0079335
+}

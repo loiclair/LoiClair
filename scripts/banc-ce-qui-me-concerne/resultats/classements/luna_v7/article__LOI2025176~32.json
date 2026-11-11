@@ -1,0 +1,33 @@
+{
+ "impacts": [
+  {
+   "profil": "outre_mer",
+   "phrase_fr": "À Mayotte, vos droits et prestations sociales qui expirent à partir du 14 décembre 2024 seraient maintenus jusqu’au 30 juin 2025, même sans renouvellement.",
+   "phrase_en": "In Mayotte, your social rights and benefits expiring from 14 December 2024 would be maintained until 30 June 2025, even without renewal.",
+   "passage": "le bénéfice des droits et des prestations sociales versés aux assurés résidant à Mayotte et à leurs ayants droit est maintenu jusqu'au 30 juin 2025 lorsqu'il vient à expiration à compter du 14 décembre 2024",
+   "certitude": "certain"
+  },
+  {
+   "profil": "allocataire",
+   "phrase_fr": "À Mayotte, vos aides personnelles au logement pourraient être accordées ou maintenues même si votre logement est loué ou sous-loué en partie à des tiers.",
+   "phrase_en": "In Mayotte, your personal housing benefit could be granted or maintained even if part of your home is rented or sublet to others.",
+   "passage": "le bénéfice des aides personnelles au logement versées par la caisse de sécurité sociale de Mayotte peut être accordé ou maintenu même si le local est loué ou sous-loué en partie à des tiers.",
+   "certitude": "certain"
+  },
+  {
+   "profil": "handicap",
+   "phrase_fr": "À Mayotte, certains droits liés au handicap pourraient être prolongés jusqu’à douze mois si leur renouvellement n’a pas encore été décidé.",
+   "phrase_en": "In Mayotte, some disability-related rights could be extended for up to twelve months if their renewal has not yet been decided.",
+   "passage": "les bénéficiaires des droits et prestations énumérés au 2 du présent A pour lesquels l'accord sur ces droits et prestations expire entre le 14 décembre 2024 et le 31 décembre 2025",
+   "certitude": "certain"
+  },
+  {
+   "profil": "age_dependant",
+   "phrase_fr": "À Mayotte, votre allocation personnalisée d’autonomie pourrait être prolongée jusqu’à douze mois si son renouvellement n’a pas encore été décidé.",
+   "phrase_en": "In Mayotte, your personalized autonomy allowance could be extended for up to twelve months if its renewal has not yet been decided.",
+   "passage": "L'allocation personnalisée d'autonomie prévue à l'article L. 232-1 du code de l'action sociale et des familles",
+   "certitude": "certain"
+  }
+ ],
+ "cout_usd": 0.00062485
+}

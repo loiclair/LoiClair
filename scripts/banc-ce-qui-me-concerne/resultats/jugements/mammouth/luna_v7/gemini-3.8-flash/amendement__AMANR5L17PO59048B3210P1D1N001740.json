@@ -1,0 +1,14 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "heritier_donateur",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'amendement prolonge de 6 mois le dispositif d'allègement fiscal des dons familiaux de sommes d'argent, ce qui concerne directement les donateurs et les donataires (héritiers)."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00650475
+}

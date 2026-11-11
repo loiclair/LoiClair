@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "mineur",
+    "raison": "Le texte vise directement les mineurs relevant des 2° et 3° de l'article 375-3 du code civil (confiés à un membre de la famille, à un tiers digne de confiance ou à l'aide sociale à l'enfance) et leur ouvre personnellement la protection complémentaire. C'est un sous-groupe des mineurs, donc le profil est concerné.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "allocataire",
+    "raison": "La mesure ne vise pas les allocataires : elle est déclenchée par le placement du mineur, et la complémentaire santé solidaire n'est qu'une conséquence pour un groupe qui n'en bénéficie pas encore. Le texte n'accorde ni ne modifie de prestation pour les allocataires actuels.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000772885,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "heritier_donateur",
+    "raison": "Le texte modifie l’acquisition communale de certains biens relevant de successions et rend ces règles applicables à des successions ouvertes depuis le 1er janvier 2007 et non encore partagées : cela peut affecter les droits liés à une succession.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "elu_local",
+    "raison": "Le texte prévoit que le maire ou le président de l’EPCI peut demander à l’administration fiscale les informations nécessaires à la procédure d’acquisition de certains biens.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00071915,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

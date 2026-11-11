@@ -1,0 +1,19 @@
+{
+ "impacts": [
+  {
+   "profil": "demandeur_emploi",
+   "phrase_fr": "Des personnes sans emploi pourraient être accompagnées par ces entreprises vers une activité indépendante ou un emploi salarié.",
+   "phrase_en": "Jobseekers could be supported by these companies towards independent work or paid employment.",
+   "passage": "Les entreprises d’insertion par le travail indépendant accompagnent, dans le cadre d’une activité exercée à titre indépendant, des personnes sans emploi rencontrant des difficultés sociales et professionnelles particulières",
+   "certitude": "probable"
+  },
+  {
+   "profil": "independant",
+   "phrase_fr": "Des personnes pourraient être accompagnées pour lancer une activité indépendante, avec une aide au développement commercial et des mises en relation avec des clients.",
+   "phrase_en": "People could receive support to start an independent activity, including introductions to clients.",
+   "passage": "ou d’un accompagnement dans le cadre d’une activité exercée à titre indépendant",
+   "certitude": "possible"
+  }
+ ],
+ "cout_usd": 0.00098481
+}

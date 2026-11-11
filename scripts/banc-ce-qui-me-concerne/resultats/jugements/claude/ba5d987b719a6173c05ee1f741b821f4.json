@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "proprietaire_occupant",
+    "raison": "Le Niveau 2 du guichet « fonds national d'appui » vise tout propriétaire d'une construction en zone d'exposition moyenne ou forte qui a souscrit une multirisque habitation, ce qui inclut le propriétaire qui habite son bien et y fait financer les travaux. La phrase de l'assistant reste au conditionnel et ne contient pas de fait inventé.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "proprietaire_bailleur",
+    "raison": "Le texte vise « le propriétaire » de toute construction en zone moyenne ou forte, sans distinguer selon l'occupation, donc un bailleur propriétaire de son bien est visé en tant que propriétaire. La phrase de l'assistant ajoute toutefois un cadre absent du texte, « logements loués », alors que le texte ne parle ni de location ni de logements loués.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0014712350000000002,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

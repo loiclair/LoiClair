@@ -1,0 +1,26 @@
+{
+ "impacts": [
+  {
+   "profil": "secteur_education",
+   "phrase_fr": "Les membres du personnel de l'enseignement supérieur agricole public peuvent être suspendus par le ministre de l'agriculture pour un an au plus, sans privation de traitement.",
+   "phrase_en": "Staff of public agricultural higher education can be suspended by the agriculture minister for up to one year, without losing their pay.",
+   "passage": "Le ministre chargé de l'agriculture peut prononcer la suspension d'un membre du personnel de l'enseignement supérieur agricole public pour une durée qui n'excède pas un an, sans privation de traitement.",
+   "certitude": "certain"
+  },
+  {
+   "profil": "fonctionnaire",
+   "phrase_fr": "Les agents publics de l'enseignement supérieur agricole peuvent être suspendus pour un an au plus par le ministre de l'agriculture, en gardant leur traitement.",
+   "phrase_en": "Public officials in agricultural higher education can be suspended for up to one year by the agriculture minister, while keeping their salary.",
+   "passage": "Le ministre chargé de l'agriculture peut prononcer la suspension d'un membre du personnel de l'enseignement supérieur agricole public pour une durée qui n'excède pas un an, sans privation de traitement.",
+   "certitude": "probable"
+  },
+  {
+   "profil": "etudiant",
+   "phrase_fr": "Les étudiants ne siègent plus dans la section disciplinaire qui juge les affaires disciplinaires de leur établissement.",
+   "phrase_en": "Students no longer sit on the disciplinary section that judges disciplinary cases at their school.",
+   "passage": "Au premier alinéa, les mots : «, enseignants et usagers » sont remplacés par les mots : « et des enseignants »",
+   "certitude": "probable"
+  }
+ ],
+ "cout_usd": 0.00155911
+}

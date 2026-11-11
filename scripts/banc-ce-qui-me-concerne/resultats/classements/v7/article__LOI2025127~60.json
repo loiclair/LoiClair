@@ -1,0 +1,19 @@
+{
+ "impacts": [
+  {
+   "profil": "heritier_donateur",
+   "phrase_fr": "Les actifs numériques d'un portefeuille entrent désormais dans les règles de succession applicables aux avoirs, comme les comptes bancaires.",
+   "phrase_en": "Digital assets in a portfolio now fall under the inheritance rules that apply to holdings, such as bank accounts.",
+   "passage": "ainsi que les actifs numériques figurant dans un portefeuille d'actifs numériques, au sens de l'article 1649 bis C,",
+   "certitude": "probable"
+  },
+  {
+   "profil": "epargnant",
+   "phrase_fr": "Les cryptoactifs non déclarés dans un portefeuille entraînent une majoration d'impôt, dont le montant ne peut être inférieur à celui de l'amende prévue.",
+   "phrase_en": "Undeclared cryptoassets held in a portfolio now trigger a tax surcharge, which cannot be lower than the fine provided for.",
+   "passage": "Des actifs figurant ou ayant figuré dans un ou plusieurs portefeuilles d'actifs numériques qui auraient dû être déclarés en application de l'article 1649 bis C.",
+   "certitude": "certain"
+  }
+ ],
+ "cout_usd": 0.00124531
+}

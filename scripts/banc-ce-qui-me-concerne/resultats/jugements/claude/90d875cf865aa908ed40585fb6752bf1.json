@@ -1,0 +1,12 @@
+{
+ "jugement": {
+  "profils": [],
+  "oublis": [
+   "parent"
+  ]
+ },
+ "cout_usd": 0.01528425,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

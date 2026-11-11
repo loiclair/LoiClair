@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_culture",
+    "raison": "Le II modifie, pour les publications destinées à la jeunesse, le point de départ d’un délai lié à leur dépôt auprès de la commission de contrôle : cela vise directement les éditeurs.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00031315,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

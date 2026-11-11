@@ -1,0 +1,12 @@
+{
+ "impacts": [
+  {
+   "profil": "futur_parent",
+   "phrase_fr": "Une recherche d’anomalies chromosomiques pourrait vous être proposée lors d’une tentative de fécondation in vitro, sous certaines conditions et avec votre consentement.",
+   "phrase_en": "Chromosome testing could be offered during an in vitro fertilisation attempt, under certain conditions and with your consent.",
+   "passage": "la recherche d’anomalies du nombre et de la structure de chromosomes affectant l’embryon in vitro peut être proposée à la femme ou aux deux membres du couple engagés dans une tentative de fécondation in vitro",
+   "certitude": "certain"
+  }
+ ],
+ "cout_usd": 0.000298725
+}

@@ -1,0 +1,19 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "residence_secondaire",
+    "raison": "Le texte permet aux communes de majorer de 5 % à 60 % la taxe d'habitation sur les résidences secondaires, ce qui vise directement leurs propriétaires. La phrase est fidèle : le conditionnel est respecté, « certaines communes » correspond à la liste fixée par décret, et la modification du régime des logements vacants figure bien dans le texte.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "proprietaire_bailleur"
+  ]
+ },
+ "cout_usd": 0.0027167,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

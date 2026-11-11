@@ -1,0 +1,47 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "handicap",
+    "raison": "Le 3° vise les contribuables atteints d'une infirmité ou invalidité les empêchant de subvenir à leurs besoins, et le 2° les titulaires de l'AAH : dégrèvement direct.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "senior",
+    "raison": "Le 4° dégrève les contribuables de plus de 60 ans sous plafond de revenus ; le profil senior (55 ans et plus) recoupe ce sous-groupe.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "veuf",
+    "raison": "Le 4° vise expressément les veuves et veufs sous plafond de revenus, hors assujettis à l'IFI.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "outre_mer",
+    "raison": "Le texte fixe des seuils de revenus spécifiques pour la Martinique, la Guadeloupe, La Réunion, la Guyane et Mayotte.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "age_dependant",
+    "raison": "Le 7° vise les personnes hébergées durablement en EHPAD ou en établissement de soins de longue durée qui gardent leur ancienne résidence principale.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "imposable",
+   "allocataire",
+   "retraite",
+   "patrimoine_ifi",
+   "parent"
+  ]
+ },
+ "cout_usd": 0.0067407,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "salarie_prive",
+    "raison": "Le texte supprime le délai de carence pour une incapacité faisant suite à une IVG, mais ne vise pas les salariés du privé en raison de leur statut ; le critère est la situation médicale.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0005839,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

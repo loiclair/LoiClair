@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_sante",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article modifie directement les conditions d'exercice des médecins, y compris ceux diplômés au Royaume-Uni avant le Brexit, ce qui concerne spécifiquement les professionnels du secteur de la santé."
+   }
+  ],
+  "oublis": [
+   "etranger_ue"
+  ]
+ },
+ "cout_usd": 0.0067005
+}

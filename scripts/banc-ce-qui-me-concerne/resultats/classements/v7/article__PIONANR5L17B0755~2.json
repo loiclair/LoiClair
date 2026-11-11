@@ -1,0 +1,12 @@
+{
+ "impacts": [
+  {
+   "profil": "proprietaire_bailleur",
+   "phrase_fr": "Les bailleurs détenant un lot dans un établissement pour personnes âgées fermé pourraient être indemnisés par le nouveau gestionnaire lors d'un transfert d'activité.",
+   "phrase_en": "Landlords holding a unit in a care home that closes would be compensated by the new operator when its activity is transferred.",
+   "passage": "les bailleurs détenteurs d’un lot dans l’établissement dont l’activité cesse sont indemnisés par son bénéficiaire",
+   "certitude": "probable"
+  }
+ ],
+ "cout_usd": 0.00073171
+}

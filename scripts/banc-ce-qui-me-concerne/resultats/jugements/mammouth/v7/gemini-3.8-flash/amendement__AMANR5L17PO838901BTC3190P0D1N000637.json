@@ -1,0 +1,14 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "outre_mer",
+    "concerne": false,
+    "phrase_fidele": true,
+    "raison": "L'amendement impose à l'État d'élaborer un plan territorial de politique publique : il s'agit d'une mesure institutionnelle qui ne modifie pas directement les droits, obligations ou démarches des particuliers."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0067635
+}

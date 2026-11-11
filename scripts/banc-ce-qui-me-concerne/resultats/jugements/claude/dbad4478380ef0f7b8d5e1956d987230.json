@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etudiant",
+    "raison": "L’article prévoit la nullité du contrat et le remboursement du double des sommes versées par le professionnel en cas de manquement aux règles encadrant la formation privée : cela vise directement l’étudiant cocontractant.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00030715,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

@@ -1,0 +1,33 @@
+name: Newsletter hebdomadaire
+
+on:
+  schedule:
+    - cron: '0 8 * * 1'  # Chaque lundi à 8h UTC
+  workflow_dispatch:  # Déclenchement manuel possible
+
+permissions:
+  contents: read
+
+jobs:
+  send:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Envoyer la newsletter
+        # `--fail-with-body` à la place de `-f` : avec `-f`, un 500 fait
+        # sortir curl en 22 SANS afficher le corps, donc le run est rouge et muet.
+        # Or c'est ce corps qui dit lequel des échecs a eu lieu. Même motif que
+        # cleanup-newsletter-subscribers.yml. Jamais les deux ensemble : curl
+        # refuse la combinaison et sort en 2 avant d'envoyer la requête.
+        run: |
+          curl -L --fail-with-body -X POST ${{ secrets.SITE_URL }}/api/newsletter/send \
+            -H "Authorization: Bearer ${{ secrets.NEWSLETTER_SEND_SECRET }}" \
+            -H "Content-Type: application/json"
+
+  alerte:
+    needs: send
+    if: failure()
+    uses: ./.github/workflows/alerte-echec.yml
+    with:
+      quoi: "Newsletter hebdomadaire"
+    secrets:
+      RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}

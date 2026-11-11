@@ -1,0 +1,28 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "veuf",
+    "raison": "Le dispositif modifie les conditions de la demi-part fiscale visée pour les veuves de combattants : le profil de personne veuve est directement concerné.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "ancien_combattant",
+    "raison": "Le texte vise les veuves de combattants ; la définition du profil inclut les membres de leur famille. La mesure leur ouvre potentiellement la demi-part si le combattant avait le titre prévu.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "imposable",
+    "raison": "Le texte modifie un avantage fiscal, mais l’éligibilité dépend du statut de veuve d’un combattant et du titre de celui-ci, pas du fait de payer l’impôt sur le revenu.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0013659,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

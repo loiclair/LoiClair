@@ -1,0 +1,18 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_agriculture",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'amendement modifie directement le taux du crédit d'impôt pour le remplacement des exploitants agricoles en cas de maladie, d'accident du travail ou de formation professionnelle, ce qui concerne spécifiquement le secteur agricole. Le passage cité est exact et la phrase est fidèle au texte."
+   }
+  ],
+  "oublis": [
+   "chef_entreprise",
+   "independant",
+   "auto_entrepreneur"
+  ]
+ },
+ "cout_usd": 0.012972
+}

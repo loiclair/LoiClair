@@ -1,0 +1,14 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "forces_ordre",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article modifie directement les missions et compétences des policiers municipaux (devenant policiers territoriaux), relevant du profil forces_ordre. La phrase est fidèle et rédigée au conditionnel."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.005805
+}

@@ -1,0 +1,19 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "salarie_prive",
+    "raison": "L'article vise les « salariés atteints d'algie vasculaire de la face » et leur donne un droit à trente jours d'arrêt de travail par an, sans ancienneté, sur notification à l'employeur. Un salarié d'une entreprise privée est directement visé.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "malade_chronique"
+  ]
+ },
+ "cout_usd": 0.0022277,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

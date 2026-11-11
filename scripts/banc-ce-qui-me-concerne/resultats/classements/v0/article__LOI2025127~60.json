@@ -1,0 +1,19 @@
+{
+ "impacts": [
+  {
+   "profil": "heritier_donateur",
+   "passage": "ainsi que les actifs numériques figurant dans un portefeuille d'actifs numériques, au sens de l'article 1649 bis C, ",
+   "certitude": "certain",
+   "phrase_en": "Crypto-assets held in a digital asset portfolio are now covered by the tax rules that apply to inheritances, like accounts and assets.",
+   "phrase_fr": "Les actifs numériques figurant dans un portefeuille de cryptomonnaies sont désormais visés par les règles fiscales applicables aux successions, comme les comptes et avoirs."
+  },
+  {
+   "profil": "epargnant",
+   "passage": "Des actifs figurant ou ayant figuré dans un ou plusieurs portefeuilles d'actifs numériques qui auraient dû être déclarés en application de l'article 1649 bis C.",
+   "certitude": "certain",
+   "phrase_en": "Undeclared crypto-assets in a portfolio now expose you to a tax surcharge, which cannot be lower than the amount of the fine provided for.",
+   "phrase_fr": "Les cryptoactifs non déclarés dans un portefeuille vous exposent désormais à une majoration d'impôt, dont le montant ne peut être inférieur à celui de l'amende prévue."
+  }
+ ],
+ "resume_fr": null
+}

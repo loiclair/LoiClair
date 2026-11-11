@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etudiant",
+    "raison": "Le texte impose aux unités de formation et de recherche en santé de proposer ces enseignements ; il ne vise pas directement les étudiants, dont l’accès dépendra de la mise en place de cette offre par les établissements.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00040615,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

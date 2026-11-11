@@ -1,0 +1,19 @@
+{
+ "impacts": [
+  {
+   "profil": "etudiant",
+   "phrase_fr": "Un contrat signé avec un organisme de formation non conforme serait annulé, et l'organisme devrait rembourser le double des sommes versées.",
+   "phrase_en": "A contract signed with a non-compliant training provider would be cancelled, and the provider would have to repay double the sums paid.",
+   "passage": "Le non‑respect des dispositions prévues de l’article L. 224‑103‑1 à L. 224‑103‑7 entraîne la nullité du contrat. Le professionnel rembourse à son co‑contractant le double des sommes qui ont été versées dans le cadre du contrat.",
+   "certitude": "probable"
+  },
+  {
+   "profil": "chef_entreprise",
+   "phrase_fr": "Un dirigeant d'organisme de formation qui ne respecte pas les règles pourrait recevoir une amende et être interdit de diriger un tel organisme.",
+   "phrase_en": "A director of a training provider who breaks the rules could be fined and banned from running such a provider.",
+   "passage": "Tout manquement aux dispositions des articles L. 224‑103‑1 à L. 224‑103‑7 est passible d’une amende administrative dont le montant ne peut excéder 3 000 euros pour une personne physique et 15 000 euros pour une personne morale et peut être assortie, à titre de peine complémentaire, d’une interdiction d’exercer temporairement ou définitivement l’activité de dirigeant d’un organisme de formation professionnelle",
+   "certitude": "possible"
+  }
+ ],
+ "cout_usd": 0.00109071
+}

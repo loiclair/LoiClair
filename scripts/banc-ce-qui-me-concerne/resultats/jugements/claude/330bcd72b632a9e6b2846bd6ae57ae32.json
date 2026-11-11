@@ -1,0 +1,19 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "proprietaire_bailleur",
+    "raison": "L'amendement précise comment le bailleur doit justifier que les travaux de décence énergétique sont impossibles : ces raisons devraient être « attestées » (par écrit) au lieu d'être « établies ou contrôlées ». Cela change ses démarches de preuve pour être réputé satisfaire l'obligation de décence.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "locataire"
+  ]
+ },
+ "cout_usd": 0.0031536999999999997,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

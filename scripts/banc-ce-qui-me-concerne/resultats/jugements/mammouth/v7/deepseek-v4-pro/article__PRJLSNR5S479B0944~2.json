@@ -1,0 +1,14 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "chef_entreprise",
+    "concerne": false,
+    "phrase_fidele": true,
+    "raison": "Le passage cité ne concerne pas le chef d'entreprise en tant que profil protégé ou bénéficiaire. Il définit une sanction pénale à l'encontre de l'employeur auteur d'une discrimination multiple. C'est un changement qui affecte la situation pénale de l'employeur, mais le profil 'chef_entreprise' dans le catalogue est défini comme 'Dirigeant ou employeur d'une très petite, petite ou moyenne entreprise', et non comme 'auteur d'une infraction'. Par ailleurs, l'effet est indirect : la mesure ne change pas les règles du métier de dirigeant, mais la sanction d'un comportement illégal. La consigne demande de ne retenir que les profils pour qui l'article change directement quelque chose (argent, droits, obligations, règles du métier). Ici, l'obligation de ne pas discriminer existe déjà ; seul le quantum de la peine est modifié. Aucun profil du catalogue n'est directement concerné par cette aggravation de sanction."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0019084
+}

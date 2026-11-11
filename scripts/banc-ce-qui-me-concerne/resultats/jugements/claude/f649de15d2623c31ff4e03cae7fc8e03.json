@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "demandeur_emploi",
+    "raison": "L'article vise directement « des personnes sans emploi rencontrant des difficultés sociales et professionnelles particulières », qui pourront être accompagnées par ces entreprises. C'est un droit nouveau à un accompagnement, et la phrase de l'assistant reste fidèle, au conditionnel comme il convient pour un texte non adopté.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "independant",
+    "raison": "Le texte ne vise pas les travailleurs indépendants déjà établis : les bénéficiaires sont des « personnes sans emploi » que l'entreprise accompagne vers une activité indépendante. Le fait d'être indépendant n'est pas ce qui déclenche la mesure, et l'activité de l'indépendant établi n'est pas modifiée.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0006520349999999999,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

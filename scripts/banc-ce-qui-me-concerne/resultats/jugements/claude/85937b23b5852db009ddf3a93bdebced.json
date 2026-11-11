@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etranger_hors_ue",
+    "raison": "Concerné : la taxe vise directement les étrangers auxquels un titre de séjour est délivré ou renouvelé, avec des exceptions et des montants réduits selon le titre.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "automobiliste",
+    "raison": "Concerné : le texte fixe une taxe pour le remplacement d’un permis non présenté ou détérioré et pour l’échange d’un permis délivré par une autorité étrangère.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00076615,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

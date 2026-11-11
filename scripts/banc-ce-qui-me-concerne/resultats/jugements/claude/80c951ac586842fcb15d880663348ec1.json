@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "salarie_prive",
+    "raison": "Le texte crée une circonstance aggravante du harcèlement moral lorsque les comportements sont imposés par une politique d'entreprise, ce qui vise les salariés d'entreprises privées victimes de ce harcèlement. Toutefois, la phrase suppose une \"sanction plus sévère\", cohérente avec l'ajout d'un c) aux circonstances aggravantes (l'alinéa renvoyé passe de quatrième à cinquième).",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0022297,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

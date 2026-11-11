@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "futur_parent",
+    "raison": "L'article vise directement les femmes et couples engagés dans une tentative de fécondation in vitro, donc des personnes qui ont un projet d'enfant. L'examen peut leur être proposé, avec un consentement écrit, et il influence le choix des embryons transférés.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000537135,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

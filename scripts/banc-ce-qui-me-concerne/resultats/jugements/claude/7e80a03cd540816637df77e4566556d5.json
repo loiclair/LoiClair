@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "salarie_prive",
+    "raison": "La nouvelle hypothèse c) vise des propos ou comportements imposés par une politique d'entreprise, donc subis au travail. Le salarié en est la victime typique et la protection pénale change directement pour lui, sans passer par une réaction de l'entreprise. Le texte ne nomme pas les salariés, mais la mesure désigne bien cette situation.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0005294350000000001,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

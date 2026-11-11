@@ -1,0 +1,28 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "fonctionnaire",
+    "raison": "Le texte vise les personnels relevant du code des pensions, dont les fonctionnaires, et modifie le calcul de leur pension sous conditions.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "forces_ordre",
+    "raison": "Le texte cite explicitement les militaires et modifie le calcul de leur pension. La mesure reste soumise aux conditions prévues, notamment de résidence et de services.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "outre_mer",
+    "raison": "Le texte vise explicitement les personnels résidant effectivement en Nouvelle-Calédonie, à Wallis-et-Futuna ou en Polynésie française à la date d’effet de leur pension.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0006959,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

@@ -1,0 +1,19 @@
+{
+ "impacts": [
+  {
+   "profil": "pompier_volontaire",
+   "phrase_fr": "Un sapeur-pompier volontaire exposé à une substance cancérogène, mutagène ou toxique pour la reproduction pourrait recevoir une fiche d'exposition établie par l'autorité territoriale après une intervention.",
+   "phrase_en": "A volunteer firefighter exposed to a carcinogenic, mutagenic or reprotoxic substance during an intervention would receive an exposure record drawn up by the local authority.",
+   "passage": "pour chaque sapeur-pompier professionnel ou volontaire exposé, dans le cadre de ses fonctions, après une intervention présentant un risque d’exposition à un agent cancérogène, mutagène ou toxique pour la reproduction",
+   "certitude": "certain"
+  },
+  {
+   "profil": "fonctionnaire",
+   "phrase_fr": "Un sapeur-pompier professionnel, agent de la fonction publique territoriale, pourrait recevoir une fiche d'exposition après une intervention à risque, retraçant son exposition à certaines substances dangereuses.",
+   "phrase_en": "A professional firefighter, a territorial civil servant, would receive an exposure record after a risky intervention, tracking his or her exposure to certain hazardous substances.",
+   "passage": "Après l’article L. 813-1 du code général de la fonction publique, il est inséré un article L. 813-1-1 ainsi rédigé",
+   "certitude": "probable"
+  }
+ ],
+ "cout_usd": 0.00105175
+}

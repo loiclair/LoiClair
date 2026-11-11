@@ -1,0 +1,12 @@
+{
+ "impacts": [
+  {
+   "profil": "proprietaire_bailleur",
+   "phrase_fr": "Les bailleurs qui détiennent un lot dans un établissement dont l’activité cesse seraient indemnisés selon les conditions fixées dans l’autorisation.",
+   "phrase_en": "Landlords who own a unit in a facility that ceases operating would be compensated under the terms set out in the authorisation.",
+   "passage": "les bailleurs détenteurs d’un lot dans l’établissement dont l’activité cesse sont indemnisés par son bénéficiaire.",
+   "certitude": "certain"
+  }
+ ],
+ "cout_usd": 0.0002501
+}

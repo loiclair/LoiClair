@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "epargnant",
+    "raison": "Le texte exclut certains crypto-actifs de la règle fiscale de l’article 150 VH bis sur les gains de cession ; les crypto-actifs sont explicitement compris dans le profil épargnant.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000540775,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

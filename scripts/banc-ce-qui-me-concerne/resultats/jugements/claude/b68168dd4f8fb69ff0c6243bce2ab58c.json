@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etranger_hors_ue",
+    "raison": "Le texte vise « l'étranger » victime de violences, qui obtiendrait une autorisation provisoire de séjour. Cela change directement son droit au séjour et au travail. Le régime des titres de séjour de l'article L. 425-1 concerne les personnes hors UE, car les ressortissants de l'UE n'ont pas besoin de titre de séjour. Le profil est donc concerné.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0035477,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

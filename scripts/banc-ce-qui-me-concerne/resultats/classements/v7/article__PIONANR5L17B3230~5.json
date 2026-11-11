@@ -1,0 +1,19 @@
+{
+ "impacts": [
+  {
+   "profil": "chef_entreprise",
+   "phrase_fr": "Un repreneur d'entreprise pourrait obtenir un crédit d'impôt de 50 % des droits de mutation, plafonné à 100 000 euros, s'il maintient l'activité cinq ans.",
+   "phrase_en": "A business buyer would could get a 50% tax credit on transfer duties, capped at 100,000 euros, if they keep the business running for five years.",
+   "passage": "Le cessionnaire doit s’engager à maintenir l’activité de l’entreprise pendant une durée minimale de cinq ans à compter de la date de la transmission",
+   "certitude": "probable"
+  },
+  {
+   "profil": "heritier_donateur",
+   "phrase_fr": "La transmission gratuite d'une entreprise pourrait ouvrir au repreneur un crédit d'impôt couvrant la moitié des droits de mutation.",
+   "phrase_en": "A free transfer of a business could give the buyer a tax credit covering half the transfer duties.",
+   "passage": "Les cessions d’entreprises, réalisées à titre gratuit ou onéreux, ouvrent droit à un crédit d’impôt égal à 50 % des droits de mutation à titre gratuit ou onéreux dus",
+   "certitude": "probable"
+  }
+ ],
+ "cout_usd": 0.00094881
+}

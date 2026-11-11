@@ -1,0 +1,29 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "locataire",
+    "raison": "Le texte fixe un loyer de référence et ouvre une action en diminution de loyer lorsque le loyer de base du bail dépasse ce plafond. Cela vise directement le locataire dans les zones concernées.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "proprietaire_bailleur",
+    "raison": "Le loyer de base des logements mis en location doit être fixé dans la limite du loyer de référence, ce qui oblige directement le bailleur qui loue à l'année.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "meuble_tourisme",
+    "raison": "Le texte étend l'encadrement des loyers aux logements meublés utilisés à des fins touristiques, définis à l'article L. 324-1-1 du code du tourisme, dans les zones tendues comme sur le reste du territoire.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000587685,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

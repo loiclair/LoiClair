@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "independant",
+    "raison": "La mesure modifie le décompte des heures de formation des commissaires aux comptes. Le texte ne vise pas leur mode d'exercice : ils peuvent être libéraux ou salariés d'un cabinet. Le profil indépendant n'est donc pas ce qui déclenche la mesure.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000555135,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

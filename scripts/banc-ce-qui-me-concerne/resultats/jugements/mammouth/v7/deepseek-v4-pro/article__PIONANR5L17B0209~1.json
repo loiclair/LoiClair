@@ -1,0 +1,14 @@
+{
+ "jugement": {
+  "oublis": [],
+  "profils": [
+   {
+    "concerne": true,
+    "phrase_fidele": true,
+    "profil": "jeune",
+    "raison": "L'article modifie l'âge limite de l'accompagnement des jeunes sortant de l'aide sociale à l'enfance de 21 à 25 ans, ce qui vise directement les jeunes de 18 à 25 ans. Le passage ne nomme pas le profil 'jeune', donc une certitude 'probable' est adaptée."
+   }
+  ]
+ },
+ "cout_usd": 0.0007822518
+}

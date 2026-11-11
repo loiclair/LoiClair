@@ -1,0 +1,12 @@
+{
+ "impacts": [
+  {
+   "profil": "chef_entreprise",
+   "phrase_fr": "Un entrepreneur principal devrait faire accepter ses sous-traitants par le maître d'ouvrage et le donneur d'ordre quand plus du tiers du contrat est sous-traité.",
+   "phrase_en": "A main contractor would have to get its subcontractors approved by the project owner and the client when over a third of the contract is subcontracted.",
+   "passage": "de faire accepter ses sous‑traitants au maître de l’ouvrage et au donneur d’ordre lorsque la part sous‑traitée représente plus du tiers du contrat ou de la partie de marché dont il est chargé et",
+   "certitude": "possible"
+  }
+ ],
+ "cout_usd": 0.00068991
+}

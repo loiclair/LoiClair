@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "chef_entreprise",
+    "raison": "La majoration de 20 % pour les moyennes entreprises et de 30 % pour les petites entreprises vise directement les dirigeants de PME, qui sont les exploitants de ces entreprises (définition du catalogue : moins de 250 salariés).",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "secteur_transport",
+    "raison": "La déduction porte sur les navires et bateaux de transport de marchandises ou de passagers équipés de propulsion vélique : elle vise directement les armateurs et opérateurs du transport maritime.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0031666999999999997,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

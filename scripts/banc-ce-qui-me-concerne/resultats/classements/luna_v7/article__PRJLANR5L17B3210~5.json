@@ -1,0 +1,26 @@
+{
+ "impacts": [
+  {
+   "profil": "heritier_donateur",
+   "phrase_fr": "Les dons d’argent admissibles reçus ou transmis entre janvier et juin 2027 bénéficieraient d’un taux de taxation réduit et devraient être déclarés dans le mois.",
+   "phrase_en": "Eligible cash gifts received or made between January and June 2027 would benefit from a reduced tax rate and would have to be declared within one month.",
+   "passage": "Les dons de sommes d’argent consentis en pleine propriété entre le 1er janvier 2027 et le 30 juin 2027",
+   "certitude": "certain"
+  },
+  {
+   "profil": "jeune",
+   "phrase_fr": "Si vous avez entre 18 et 25 ans et recevez un don admissible, celui-ci bénéficierait d’un taux de taxation réduit.",
+   "phrase_en": "If you are aged 18 to 25 and receive an eligible gift, it would benefit from a reduced tax rate.",
+   "passage": "âgé de dix-huit ans révolus ou ayant fait l’objet d’une mesure d’émancipation et de moins de cinquante ans au jour de la transmission",
+   "certitude": "certain"
+  },
+  {
+   "profil": "mineur",
+   "phrase_fr": "Un mineur émancipé qui reçoit un don admissible bénéficierait du taux de taxation réduit.",
+   "phrase_en": "An emancipated minor receiving an eligible gift would benefit from the reduced tax rate.",
+   "passage": "ou ayant fait l’objet d’une mesure d’émancipation",
+   "certitude": "certain"
+  }
+ ],
+ "cout_usd": 0.0003956
+}

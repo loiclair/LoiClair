@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "mineur",
+    "raison": "L'article vise les mineurs relevant des 2° et 3° de l'article 375-3 du code civil (confiés à un tiers de confiance ou à l'ASE) : ils peuvent bénéficier à titre personnel de la protection complémentaire, ce qui change directement leurs droits.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "allocataire",
+    "raison": "Le profil allocataire inclut les personnes qui perçoivent la complémentaire santé solidaire. Les mineurs placés visés pourraient en bénéficier en leur nom propre, mais ce sont des mineurs, pas des adultes allocataires. Le profil qui déclenche la mesure est la minorité avec placement, donc le lecteur « allocataire » n'est pas visé.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0030367,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

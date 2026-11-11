@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "forces_ordre",
+    "concerne": false,
+    "phrase_fidele": false,
+    "raison": "L'article ne concerne pas les 'forces_ordre' (policiers, gendarmes, militaires) mais les agents des polices territoriales (ex-polices municipales). Les missions élargies visent ces derniers, pas les forces de l'ordre nationales. La phrase proposée invente un fait en associant les policiers territoriaux aux 'forces_ordre'."
+   }
+  ],
+  "oublis": [
+   "elu_local"
+  ]
+ },
+ "cout_usd": 0.0072225
+}

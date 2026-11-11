@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "parent",
+    "raison": "Le texte supprime les alinéas de l'article L. 521-1 qui réduisent les allocations familiales selon les ressources du foyer. Les parents dont les revenus dépassent les plafonds verraient le montant de leurs allocations changer, ce qui les vise directement.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "famille_nombreuse",
+    "raison": "Le texte ne mentionne pas le nombre d'enfants. La réduction selon les revenus vise le foyer en fonction de ses ressources, pas les familles de trois enfants ou plus en tant que telles. La phrase de l'assistant restreint donc la mesure à tort à ce groupe.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000722385,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

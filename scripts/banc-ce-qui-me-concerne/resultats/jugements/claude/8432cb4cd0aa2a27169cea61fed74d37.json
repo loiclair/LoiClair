@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_culture",
+    "raison": "Le texte désigne directement les journalistes professionnels et assimilés par leur métier et les rattache au régime de sécurité sociale, ce qui touche leur couverture et leurs droits. Le secteur de la presse est couvert par secteur_culture.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000292185,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

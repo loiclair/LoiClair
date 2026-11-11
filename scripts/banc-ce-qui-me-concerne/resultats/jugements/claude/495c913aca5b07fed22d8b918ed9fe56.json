@@ -1,0 +1,46 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "outre_mer",
+    "raison": "Mayotte est un territoire d’outre-mer visé expressément. Le maintien ne concerne toutefois que les droits arrivant à expiration à compter du 14 décembre 2024.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "handicap",
+    "raison": "Le II vise expressément plusieurs droits liés au handicap, dont la carte mobilité inclusion et la prestation de compensation du handicap, sous conditions de dates et de renouvellement.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "age_dependant",
+    "raison": "L’allocation personnalisée d’autonomie figure parmi les prestations prolongées, sous les conditions prévues au II.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "parent",
+    "raison": "Le texte vise l’allocation d’éducation de l’enfant handicapé et reconduit certaines mesures d’insertion scolaire pour l’année 2025-2026.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "allocataire",
+    "raison": "Les aides personnelles au logement, qui font partie des aides visées par la définition du profil, peuvent être accordées ou maintenues dans les cas prévus.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "locataire",
+    "raison": "Le texte prévoit expressément le maintien ou l’octroi de l’aide au logement lorsque le local est loué ou sous-loué en partie à des tiers.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.002438275,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

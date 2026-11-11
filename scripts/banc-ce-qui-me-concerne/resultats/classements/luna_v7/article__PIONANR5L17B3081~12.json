@@ -1,0 +1,12 @@
+{
+ "impacts": [
+  {
+   "profil": "travailleur_plateforme",
+   "phrase_fr": "Les plateformes ne pourraient pas suspendre, désactiver ou réduire l’accès à ses missions sur le seul fondement d’un traitement algorithmique automatisé ; toute décision devrait être motivée et précédée d’un échange contradictoire.",
+   "phrase_en": "Platforms would not be able to suspend, deactivate or reduce access to their assignments solely on the basis of automated algorithmic processing; any such decision would have to be explained and preceded by an opportunity to respond.",
+   "passage": "Aucune suspension, désactivation, déréférencement, réduction d’accès aux missions ou décision produisant des effets comparables ne peut être prise exclusivement sur le fondement d’un traitement algorithmique automatisé.",
+   "certitude": "certain"
+  }
+ ],
+ "cout_usd": 0.00017435
+}

@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "imposable",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article étend explicitement la réduction d'impôt sur le revenu pour les investissements productifs à Wallis-et-Futuna, la Nouvelle-Calédonie et les Terres australes et antarctiques françaises, ce qui concerne directement les foyers imposables réalisant ces investissements."
+   },
+   {
+    "profil": "outre_mer",
+    "concerne": true,
+    "phrase_fidele": false,
+    "raison": "L'article cible spécifiquement des territoires d'outre-mer (Wallis-et-Futuna, Nouvelle-Calédonie, Terres australes et antarctiques françaises), mais la phrase proposée pour 'imposable' ne mentionne pas explicitement ces territoires comme concernés pour ce profil. La phrase devrait préciser que les habitants de ces territoires peuvent bénéficier de la réduction d'impôt s'ils sont imposables."
+   }
+  ],
+  "oublis": [
+   "outre_mer"
+  ]
+ },
+ "cout_usd": 0.006987
+}

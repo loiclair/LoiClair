@@ -1,0 +1,29 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "proprietaire_bailleur",
+    "raison": "Le texte modifie la condition qui réputerait satisfaite l'obligation de décence énergétique du bailleur d'un logement situé en copropriété : le bailleur est directement visé par cette obligation.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "locataire",
+    "raison": "L'amendement change la condition qui écarte le manquement à la décence énergétique, donc l'étendue des recours du locataire (réduction de loyer, délivrance d'un logement décent) dans un logement en copropriété.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "coproprietaire",
+    "raison": "Le dispositif vise le syndicat des copropriétaires, qui doit conclure un contrat de maîtrise d'œuvre fondé sur un audit énergétique, en remplacement du vote de travaux en assemblée générale ; les copropriétaires sont directement touchés.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0043736999999999995,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

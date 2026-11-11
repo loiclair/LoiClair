@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etudiant",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article modifie directement les critères d'attribution des bourses et logements étudiants, qui concernent spécifiquement les étudiants. La phrase est fidèle au texte et utilise le conditionnel car le texte n'est pas adopté."
+   },
+   {
+    "profil": "etranger_hors_ue",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article établit une priorité pour les étudiants de nationalité française, UE ou EEE, puis ceux de pays ayant un accord. Les étudiants hors UE (et hors EEE/accords) sont donc explicitement concernés par cette hiérarchie. La phrase est fidèle et utilise le conditionnel."
+   }
+  ],
+  "oublis": [
+   "etranger_ue"
+  ]
+ },
+ "cout_usd": 0.006915
+}

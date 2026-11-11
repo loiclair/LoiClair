@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "automobiliste",
+    "raison": "L'article majore la taxe régionale sur le certificat d'immatriculation en Île-de-France (14 € en 2026, 12 € dès 2027) : ceux qui possèdent ou immatriculent un véhicule sont directement visés.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0026257,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

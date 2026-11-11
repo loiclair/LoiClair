@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "fonctionnaire",
+    "raison": "Non : le texte vise des agents des douanes et des finances publiques exerçant des fonctions d’enquête judiciaire, sous habilitation et autorisation. Le statut de fonctionnaire, à lui seul, ne déclenche pas la mesure.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00044515,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

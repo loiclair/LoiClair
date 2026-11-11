@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "veuf",
+    "raison": "Le texte vise directement le conjoint survivant, c'est-à-dire la personne veuve. Il lui ouvre une majoration forfaitaire (partie I) et un maintien d'un an dans le logement de fonction (partie II). Le sous-groupe concerné est celui des veufs qui occupaient un logement de fonction, ce qui reste dans le profil.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000574785,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

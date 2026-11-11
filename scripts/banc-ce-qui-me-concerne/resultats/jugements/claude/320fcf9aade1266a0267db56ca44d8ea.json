@@ -1,0 +1,13 @@
+{
+ "jugement": {
+  "profils": [],
+  "oublis": [
+   "usager_transports",
+   "secteur_transport"
+  ]
+ },
+ "cout_usd": 0.00028778500000000004,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

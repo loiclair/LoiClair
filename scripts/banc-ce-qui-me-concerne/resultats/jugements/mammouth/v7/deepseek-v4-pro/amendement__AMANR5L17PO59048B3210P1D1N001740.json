@@ -1,0 +1,14 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "heritier_donateur",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'amendement étend la durée d'un allègement fiscal sur les dons d'argent. Les personnes qui transmettent ou reçoivent ce type de donation sont donc directement et concrètement concernées."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0023556
+}

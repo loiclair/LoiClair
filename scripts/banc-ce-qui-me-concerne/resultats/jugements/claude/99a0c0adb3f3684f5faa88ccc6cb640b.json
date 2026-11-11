@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "imposable",
+    "raison": "Le texte vise toute personne physique qui se prévaut d'une fausse domiciliation fiscale à l'étranger, pas les foyers payant l'impôt sur le revenu en tant que tels. Le profil « imposable » n'est pas ce qui déclenche la mesure ; le groupe visé est défini par la fraude à la domiciliation, donc la mesure ne s'adresse pas à ce profil.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0023667,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

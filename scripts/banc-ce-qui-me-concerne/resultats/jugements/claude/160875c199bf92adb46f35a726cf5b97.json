@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "jeune",
+    "raison": "L'article porte de 21 à 25 ans la limite d'âge de l'accompagnement vers l'autonomie des jeunes sortant de l'ASE. Il vise directement les 18-25 ans, et le profil jeune couvre cette tranche d'âge.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000292485,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

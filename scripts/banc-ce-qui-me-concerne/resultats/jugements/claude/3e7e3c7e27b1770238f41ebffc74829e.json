@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "fonctionnaire",
+    "raison": "Le texte vise directement les agents des douanes et des services fiscaux, qui sont des fonctionnaires de l'État, et fixe les règles de transmission des informations de leurs enquêtes judiciaires à leurs collègues chargés du contrôle. C'est une règle de leur métier.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000655335,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

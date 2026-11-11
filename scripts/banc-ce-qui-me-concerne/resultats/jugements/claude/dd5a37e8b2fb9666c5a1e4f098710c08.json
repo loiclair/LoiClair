@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "benevole",
+    "raison": "Le texte ne mentionne ni bénévoles ni dirigeants. Il régit les biens de l'association une fois dissoute (curateur, assemblée générale, dévolution des actifs), et ce qui déclenche la mesure est la dissolution pour motif terroriste, pas le statut de bénévole. L'effet passe par l'association et n'atteint un bénévole que s'il dirige ou fait partie d'une association dissoute.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.001031835,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

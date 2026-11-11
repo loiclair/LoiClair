@@ -1,0 +1,41 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "handicap",
+    "raison": "Le 3° dispense du dégrèvement les contribuables atteints d'une infirmité ou d'une invalidité qui les empêche de travailler, sous condition de faibles revenus. Le 2° vise aussi les titulaires de l'AAH. Le texte cible directement la situation de handicap.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "senior",
+    "raison": "Le 4° dispense du dégrèvement les contribuables âgés de plus de 60 ans à faibles revenus, hors IFI. Les seniors de 60 ans et plus forment un sous-groupe des seniors (55 ans et plus).",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "veuf",
+    "raison": "Le 4° vise nommément les veuves et veufs à faibles revenus, hors IFI. Le texte désigne directement cette catégorie.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "outre_mer",
+    "raison": "Le 2° et le 5° fixent des seuils de revenus propres à la Martinique, à la Guadeloupe, à La Réunion, à la Guyane et à Mayotte. Le dégrèvement dépend donc directement du lieu de vie.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "age_dependant",
+    "raison": "Le 7° vise les personnes hébergées durablement dans un établissement de soins de longue durée, sans autonomie, qui gardent leur ancien logement. La phrase omet pourtant la condition de remplir aussi les conditions des 1° à 6° (ressources, allocations, âge ou handicap), ce qui élargit la portée.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0021122849999999998,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

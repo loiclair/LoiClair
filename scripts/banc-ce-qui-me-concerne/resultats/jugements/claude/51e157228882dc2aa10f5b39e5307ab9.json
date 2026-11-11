@@ -1,0 +1,30 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "forces_ordre",
+    "raison": "L’article 78‑2‑2‑1 habilite les agents chargés des contrôles d’identité à relever les empreintes ou prendre une photo dans certains cas liés au SIS : cela modifie directement leurs pouvoirs professionnels.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "etranger_ue",
+    "raison": "L’article L. 142‑7 vise explicitement l’étranger contrôlé et prévoit une retenue possible en cas de refus. Les contrôles concernés peuvent toucher des ressortissants de l’UE vivant en France.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "etranger_hors_ue",
+    "raison": "L’article L. 142‑7 vise explicitement l’étranger contrôlé et prévoit une retenue possible en cas de refus. Les contrôles concernés peuvent toucher des ressortissants de pays hors UE vivant en France.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": [
+   "outre_mer"
+  ]
+ },
+ "cout_usd": 0.00165915,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

@@ -1,0 +1,12 @@
+{
+ "impacts": [
+  {
+   "profil": "etudiant",
+   "phrase_fr": "Des enseignements de première année en médecine, pharmacie, odontologie et maïeutique seraient proposés dans chaque département.",
+   "phrase_en": "First-year courses in medicine, pharmacy, dentistry and midwifery would be offered in every department.",
+   "passage": "Les unités de formation et de recherche en santé proposent dans chaque département des enseignements correspondant au minimum à la première année du premier cycle des formations de médecine, de pharmacie, d’odontologie et de maïeutique en particulier dans les zones caractérisées par une offre de soins insuffisante ou des difficultés dans l’accès aux soins telles que définies au 1° de l’article L. 1434‑4 du code de la santé publique",
+   "certitude": "probable"
+  }
+ ],
+ "cout_usd": 0.000331225
+}

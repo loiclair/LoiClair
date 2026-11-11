@@ -1,0 +1,26 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "proprietaire_bailleur",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "La mesure modifie directement les critères selon lesquels un logement loué situé en copropriété est réputé respecter l'obligation de décence énergétique."
+   },
+   {
+    "profil": "coproprietaire",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "Le syndicat des copropriétaires est directement visé puisque la conclusion d'un contrat de maîtrise d'œuvre par la copropriété devient la condition retenue."
+   },
+   {
+    "profil": "locataire",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'assouplissement de la présomption de décence énergétique a un impact direct sur les droits du locataire à contester l'indécence de son logement ou à demander une réduction de loyer."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0136245
+}

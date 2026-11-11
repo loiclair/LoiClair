@@ -1,0 +1,32 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "salarie_prive",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "Le texte crée un régime de retraite obligatoire pour les salariés (mentionnés aux articles L. 311-2 et L. 311-3 du code de la sécurité sociale, qui incluent les salariés du privé). Les cotisations sont prélevées sur leur rémunération et réparties à parts égales avec l'employeur."
+   },
+   {
+    "profil": "chef_entreprise",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "Le texte impose aux employeurs (y compris les chefs d'entreprise) de contribuer à hauteur de 50 % des cotisations pour leurs salariés, ce qui les concerne directement."
+   },
+   {
+    "profil": "dirigeant_grande_entreprise",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "Les dirigeants de grandes entreprises, en tant qu'employeurs, sont également tenus de payer la moitié des cotisations pour leurs salariés, comme le prévoit le texte."
+   }
+  ],
+  "oublis": [
+   "fonctionnaire",
+   "travailleur_frontalier",
+   "retraite",
+   "emprunteur",
+   "epargnant"
+  ]
+ },
+ "cout_usd": 0.008913
+}

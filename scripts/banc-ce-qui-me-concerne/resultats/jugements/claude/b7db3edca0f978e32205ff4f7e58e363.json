@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "epargnant",
+    "raison": "Le texte crée et encadre un livret d’épargne destiné à financer des projets conventionnés : il concerne directement les personnes qui épargnent. En revanche, l’accès est réservé aux personnes ayant leur domicile fiscal en France.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "marie_pacse",
+    "raison": "Le texte prévoit expressément une règle de nombre de livrets pour les époux ou partenaires de PACS soumis à une imposition commune.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0010394,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

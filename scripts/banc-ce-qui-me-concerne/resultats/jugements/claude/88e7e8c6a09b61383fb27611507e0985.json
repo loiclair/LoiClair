@@ -1,0 +1,43 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "parent",
+    "raison": "L'amendement vise les femmes qui allaitent leur enfant, donc des mères d'un enfant en bas âge, protégées contre la discrimination du fait de l'allaitement.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "salarie_prive",
+    "raison": "L'article L. 1132-1 du code du travail ajoute l'allaitement aux motifs de discrimination interdits, ce qui protège directement les salariées du privé qui allaitent.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "fonctionnaire",
+    "raison": "L'article L. 131-1 du code général de la fonction publique est modifié pour interdire la discrimination du fait de l'allaitement, ce qui protège directement les agents publics.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "chef_entreprise",
+    "raison": "L'interdiction de discriminer du fait de l'allaitement dans le code du travail (L. 1132-1, L. 1321-3 sur le règlement intérieur) s'impose à tout employeur, dont les dirigeants de PME.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "dirigeant_grande_entreprise",
+    "raison": "La même obligation, inscrite au code du travail, s'impose à tout employeur, y compris les dirigeants d'entreprises de 250 salariés ou plus.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "futur_parent"
+  ]
+ },
+ "cout_usd": 0.01471825,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

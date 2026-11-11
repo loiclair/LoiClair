@@ -1,0 +1,29 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "proprietaire_bailleur",
+    "raison": "Le 3° définit quand l'obligation de décence énergétique du bailleur est réputée satisfaite pour un logement en copropriété. L'amendement remplace la condition du vote de travaux en AG par la conclusion d'un contrat de maîtrise d'œuvre fondé sur un audit énergétique, ce qui change directement ce que le bailleur doit faire pour être en règle.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "coproprietaire",
+    "raison": "Le texte ne change ni les droits de vote ni les obligations du copropriétaire en tant que tel. Il modifie la condition qui protège le bailleur face à son locataire, et n'atteint le copropriétaire que par l'intermédiaire du syndicat. Le copropriétaire qui habite son logement n'est pas visé par la décence énergétique.",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "locataire",
+    "raison": "Le 3° détermine quand le locataire peut invoquer un manquement du bailleur à la décence énergétique. Pour un logement en copropriété, la condition change : le locataire voit donc ses recours et la réduction de loyer possibles modifiés directement.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000876485,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

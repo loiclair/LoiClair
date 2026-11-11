@@ -1,0 +1,34 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "parent",
+    "raison": "Le texte vise les infractions commises dans certaines relations familiales, notamment entre ascendants et enfants ; le statut de parent est donc directement visé, dans ces relations.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "separe_divorce",
+    "raison": "Le texte nomme les anciens conjoints, partenaires pacsés et concubins ; les personnes séparées ou divorcées sont directement visées lorsqu’elles sont dans l’une de ces relations.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "marie_pacse",
+    "raison": "Le texte nomme expressément le conjoint et le partenaire lié par un PACS parmi les personnes concernées.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "concubin",
+    "raison": "Le texte nomme expressément le concubin et l’ancien concubin parmi les personnes concernées.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0011034,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

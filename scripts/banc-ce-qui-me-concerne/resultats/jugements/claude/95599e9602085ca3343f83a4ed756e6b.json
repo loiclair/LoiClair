@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_transport",
+    "raison": "Le texte autorise les opérateurs de transports guidés urbains (tramway, métro) à filmer depuis l'avant des rames, et ces images servent à former et évaluer le personnel de conduite. Il peut aussi être utilisé dans une procédure disciplinaire. Le métier de conducteur change donc directement.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0006189349999999999,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

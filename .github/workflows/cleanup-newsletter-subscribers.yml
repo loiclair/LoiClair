@@ -1,0 +1,46 @@
+name: Cleanup newsletter subscribers non confirmés
+
+on:
+  schedule:
+    - cron: '0 6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    steps:
+      # Seulement pour l'action locale `tunnel-base`, que GitHub lit dans le dépôt.
+      - name: Checkout du code
+        uses: actions/checkout@v7
+
+      - name: Tunnel vers la base du VPS
+        uses: ./.github/actions/tunnel-base
+        with:
+          host: ${{ secrets.VPS_HOST }}
+          key: ${{ secrets.VPS_TUNNEL_KEY }}
+          known_hosts: ${{ secrets.VPS_KNOWN_HOSTS }}
+
+      - name: Supprimer les inscriptions non confirmées après 48h
+        # psql lit les variables PG* lui-même. `ON_ERROR_STOP` fait échouer l'étape si
+        # la fonction lève, comme `--fail-with-body` le faisait pour l'appel REST (D-325).
+        # La base du VPS, au bout du tunnel (D-327). Sans TLS : le tunnel chiffre déjà.
+        env:
+          PGHOST: 127.0.0.1
+          PGPORT: '5432'
+          PGSSLMODE: disable
+          PGDATABASE: ${{ secrets.VPS_PGDATABASE }}
+          PGUSER: ${{ secrets.VPS_PGUSER }}
+          PGPASSWORD: ${{ secrets.VPS_PGPASSWORD }}
+        run: psql -v ON_ERROR_STOP=1 -c "select cleanup_expired_tokens()"
+
+  alerte:
+    needs: cleanup
+    if: failure()
+    uses: ./.github/workflows/alerte-echec.yml
+    with:
+      quoi: "Nettoyage des abonnés non confirmés"
+    secrets:
+      RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}

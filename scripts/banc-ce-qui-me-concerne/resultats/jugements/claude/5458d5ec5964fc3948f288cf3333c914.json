@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_artisanat_commerce",
+    "raison": "Le texte vise explicitement les commerçants acceptant les titres-restaurant et prévoit la publication d’informations sur les commissions qui les concernent.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "secteur_hotellerie",
+    "raison": "Le texte vise les commerçants acceptant les titres-restaurant en général, sans désigner le secteur de l’hôtellerie-restauration.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000731525,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

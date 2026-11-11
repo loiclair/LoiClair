@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etranger_hors_ue",
+    "raison": "Le texte vise « l'étranger » victime de faits de l'article L. 425-1 du CESEDA, qui reçoit une autorisation provisoire de séjour : c'est un titre de séjour pour une personne hors UE vivant en France, donc le profil est directement visé.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0033447,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

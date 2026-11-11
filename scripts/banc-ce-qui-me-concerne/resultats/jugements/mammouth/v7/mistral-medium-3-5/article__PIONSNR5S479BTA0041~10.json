@@ -1,0 +1,14 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "heritier_donateur",
+    "concerne": false,
+    "phrase_fidele": false,
+    "raison": "L'article modifie les règles de prescription pour les biens sans maître ou abandonnés, mais ne vise pas directement les héritiers ou donateurs. Le passage cité concerne l'application rétroactive de la réduction du délai de prescription pour les successions non partagées, mais cela ne change rien pour les héritiers eux-mêmes (droits, obligations ou démarches). La phrase proposée invente un effet concret ('une commune pourrait devenir propriétaire') qui n'est pas explicitement décrit dans le texte. De plus, le profil 'heritier_donateur' n'est pas directement ciblé par l'article."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0072345
+}

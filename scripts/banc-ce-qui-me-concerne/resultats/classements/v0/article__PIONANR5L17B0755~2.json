@@ -1,0 +1,19 @@
+{
+ "impacts": [
+  {
+   "profil": "coproprietaire",
+   "passage": "les bailleurs détenteurs d’un lot dans l’établissement dont l’activité cesse sont indemnisés par son bénéficiaire",
+   "certitude": "probable",
+   "phrase_en": "Owners of a unit in an establishment that closes during a transfer of activity would be compensated by the operator, under conditions set in the licence.",
+   "phrase_fr": "Les propriétaires d'un lot dans un établissement qui ferme lors d'un transfert d'activité seraient indemnisés par l'exploitant selon des conditions fixées dans l'autorisation."
+  },
+  {
+   "profil": "proprietaire_bailleur",
+   "passage": "Ces conditions doivent obligatoirement être transmises aux bailleurs.",
+   "certitude": "possible",
+   "phrase_en": "Landlords would have to be formally told the compensation terms, with the licence withdrawn if this is not done.",
+   "phrase_fr": "Les bailleurs seraient obligatoirement informés des conditions d'indemnisation, l'autorisation étant retirée en cas de manquement."
+  }
+ ],
+ "resume_fr": null
+}

@@ -1,0 +1,19 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_education",
+    "raison": "Le texte réforme la discipline des enseignants-chercheurs et enseignants de l'enseignement supérieur agricole public (sections disciplinaires, récusation, suspension d'un an par le ministre) : cela change leurs règles professionnelles.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "fonctionnaire"
+  ]
+ },
+ "cout_usd": 0.0037497,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

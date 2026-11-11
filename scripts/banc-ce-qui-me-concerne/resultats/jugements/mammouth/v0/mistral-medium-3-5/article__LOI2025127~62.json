@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "imposable",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article modifie le droit de reprise de l'administration fiscale pour les contribuables imposables qui se prévalent d'une fausse domiciliation fiscale à l'étranger, prolongeant le délai à 10 ans. Le passage cité est exact et la phrase résume correctement l'impact direct sur ce profil."
+   },
+   {
+    "profil": "expat",
+    "concerne": true,
+    "phrase_fidele": false,
+    "raison": "Le profil 'expat' est concerné car l'article vise explicitement les personnes physiques se prévalant d'une fausse domiciliation fiscale à l'étranger. Cependant, la phrase proposée par l'assistant pour 'imposable' ne couvre pas ce profil, et aucune phrase n'a été fournie pour 'expat'. La raison est que l'article impacte directement les expatriés qui pourraient être tentés de falsifier leur domiciliation fiscale."
+   }
+  ],
+  "oublis": [
+   "expat"
+  ]
+ },
+ "cout_usd": 0.0072885
+}

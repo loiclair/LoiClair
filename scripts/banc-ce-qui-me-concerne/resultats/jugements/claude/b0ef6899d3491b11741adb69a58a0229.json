@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "animal",
+    "raison": "Les prestations liées à l’exploitation des équidés, notamment la pension, l’entraînement et la location, changent de régime de TVA ; cela peut affecter directement les personnes qui ont un cheval et recourent à ces services.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "chef_entreprise",
+    "raison": "Les centres équestres et entraîneurs qui exploitent une activité et fournissent ces prestations doivent appliquer le régime de TVA prévu par le texte à leurs factures.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.002072525,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

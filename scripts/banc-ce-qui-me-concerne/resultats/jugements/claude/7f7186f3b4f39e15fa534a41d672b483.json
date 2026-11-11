@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "parent",
+    "raison": "Le texte vise directement les personnes qui ont l'administration légale des biens de leurs enfants mineurs : ces biens sont ajoutés à leur propre assiette de la contribution sur les hauts patrimoines. C'est le statut de parent administrateur qui déclenche l'inclusion, donc le profil est concerné.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000530435,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

@@ -1,0 +1,82 @@
+{
+ "impacts": [
+  {
+   "profil": "secteur_sante",
+   "phrase_fr": "Les professionnels de santé et les personnes intervenant dans leurs structures auprès de mineurs devraient détenir un certificat d’honorabilité pour l’enfance.",
+   "phrase_en": "Health professionals and anyone working with minors in their facilities would need a childhood fitness certificate (certificat d’honorabilité pour l’enfance).",
+   "passage": "Cette obligation s’applique à l’ensemble des professionnels de santé mentionnés dans la quatrième partie du présent code",
+   "certitude": "certain"
+  },
+  {
+   "profil": "independant",
+   "phrase_fr": "Les professionnels de santé exerçant à titre libéral auprès de mineurs devraient détenir un certificat d’honorabilité pour l’enfance.",
+   "phrase_en": "Self-employed health professionals working with minors would need a childhood fitness certificate (certificat d’honorabilité pour l’enfance).",
+   "passage": "L’exercice, à titre libéral, salarié, bénévole, occasionnel ou en qualité de remplaçant, de toute activité de prévention, de diagnostic, de soins, de suivi thérapeutique ou d’accompagnement sanitaire auprès de mineurs est subordonné à la détention d’un certificat d’honorabilité pour l’enfance",
+   "certitude": "certain"
+  },
+  {
+   "profil": "salarie_prive",
+   "phrase_fr": "Les salariés travaillant auprès de mineurs devraient détenir un certificat d’honorabilité pour l’enfance, que leur employeur devrait vérifier avant l’embauche ou l’affectation.",
+   "phrase_en": "Employees working with minors would need a childhood fitness certificate, which their employer would have to check before hiring or assignment.",
+   "passage": "L’employeur vérifie préalablement à l’embauche ou à l’affectation la détention du certificat d’honorabilité pour l’enfance lorsque des salariés",
+   "certitude": "probable"
+  },
+  {
+   "profil": "salarie_particulier",
+   "phrase_fr": "Les assistants maternels devraient détenir un certificat d’honorabilité pour l’enfance pour obtenir et garder leur agrément.",
+   "phrase_en": "Childminders would need a childhood fitness certificate to obtain and keep their approval (agrément).",
+   "passage": "L’obtention et le maintien de l’agrément d’assistant maternel sont subordonnés à la détention d’un certificat d’honorabilité pour l’enfance.",
+   "certitude": "certain"
+  },
+  {
+   "profil": "particulier_employeur",
+   "phrase_fr": "Les particuliers employeurs devraient vérifier que leurs salariés à domicile auprès de mineurs détiennent un certificat d’honorabilité pour l’enfance avant l’embauche.",
+   "phrase_en": "Household employers would need to check that home employees working with minors hold a childhood fitness certificate before hiring.",
+   "passage": "L’employeur vérifie préalablement à l’embauche ou à l’affectation la détention du certificat d’honorabilité pour l’enfance lorsque des salariés, y compris ceux employés par un particulier employeur ou déclarés au moyen du chèque emploi‑service universel",
+   "certitude": "certain"
+  },
+  {
+   "profil": "chef_entreprise",
+   "phrase_fr": "Les employeurs devraient vérifier le certificat d’honorabilité pour l’enfance de leurs salariés travaillant auprès de mineurs avant embauche ou affectation.",
+   "phrase_en": "Employers would need to check the childhood fitness certificate of employees working with minors before hiring or assignment.",
+   "passage": "L’employeur vérifie préalablement à l’embauche ou à l’affectation la détention du certificat d’honorabilité pour l’enfance lorsque des salariés",
+   "certitude": "probable"
+  },
+  {
+   "profil": "benevole",
+   "phrase_fr": "Les bénévoles encadrant une activité sportive auprès de mineurs devraient détenir un certificat d’honorabilité pour l’enfance.",
+   "phrase_en": "Volunteers supervising sports activities with minors would need a childhood fitness certificate (certificat d’honorabilité pour l’enfance).",
+   "passage": "La détention du certificat d’honorabilité pour l’enfance est exigée pour tout encadrant d’activité sportive auprès de mineurs, y compris bénévole, saisonnier, prestataire ou intervenant occasionnel.",
+   "certitude": "certain"
+  },
+  {
+   "profil": "etudiant",
+   "phrase_fr": "Les étudiants intervenant auprès de mineurs dans des structures de santé devraient détenir un certificat d’honorabilité pour l’enfance.",
+   "phrase_en": "Students working with minors in health structures would need a childhood fitness certificate (certificat d’honorabilité pour l’enfance).",
+   "passage": "Elle s’applique également aux étudiants, stagiaires, volontaires et bénévoles intervenant auprès de mineurs dans ces structures.",
+   "certitude": "certain"
+  },
+  {
+   "profil": "apprenti_alternant",
+   "phrase_fr": "Les stagiaires intervenant auprès de mineurs dans des structures de santé devraient détenir un certificat d’honorabilité pour l’enfance.",
+   "phrase_en": "Trainees working with minors in health structures would need a childhood fitness certificate (certificat d’honorabilité pour l’enfance).",
+   "passage": "Elle s’applique également aux étudiants, stagiaires, volontaires et bénévoles intervenant auprès de mineurs dans ces structures.",
+   "certitude": "probable"
+  },
+  {
+   "profil": "secteur_education",
+   "phrase_fr": "Les personnes intervenant ponctuellement auprès des élèves, même bénévolement, devraient détenir un certificat d’honorabilité pour l’enfance.",
+   "phrase_en": "Anyone intervening occasionally with pupils, even as a volunteer, would need a childhood fitness certificate (certificat d’honorabilité pour l’enfance).",
+   "passage": "s’applique également à toute personne intervenant ponctuellement, bénévolement ou à titre occasionnel auprès des élèves, quels que soient le cadre ou le lieu de l’intervention.",
+   "certitude": "probable"
+  },
+  {
+   "profil": "secteur_transport",
+   "phrase_fr": "Les personnes assurant le transport ou le convoyage de mineurs devraient détenir un certificat d’honorabilité pour l’enfance.",
+   "phrase_en": "People transporting or driving minors would need a childhood fitness certificate (certificat d’honorabilité pour l’enfance).",
+   "passage": "dans un cadre éducatif, sportif, culturel, cultuel, social, médical, médico‑social, de garde, d’animation, d’enseignement, d’accompagnement, de soins, de transport, de convoyage ou d’accompagnement à la mobilité.",
+   "certitude": "probable"
+  }
+ ],
+ "cout_usd": 0.00372795
+}

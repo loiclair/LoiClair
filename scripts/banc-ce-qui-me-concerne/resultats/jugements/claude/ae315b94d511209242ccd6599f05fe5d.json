@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "chef_entreprise",
+    "raison": "Le texte vise les cessions d'entreprises (individuelles, sociétés de personnes ou de capitaux) : le cédant exerçant depuis cinq ans et le cessionnaire repreneur sont des chefs d'entreprise, directement concernés par le crédit d'impôt.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "heritier_donateur",
+    "raison": "Le crédit d'impôt couvre les cessions à titre gratuit, donc les donations d'entreprise, et s'applique aux droits de mutation à titre gratuit : le donateur ou le bénéficiaire d'une transmission est visé.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0031187,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

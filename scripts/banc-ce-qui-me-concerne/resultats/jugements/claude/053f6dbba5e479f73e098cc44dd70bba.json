@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_numerique",
+    "raison": "Le texte vise les opérateurs de certains systèmes d’IA à haut risque liés à des équipements, selon leur rôle au regard du règlement, et non les personnes parce qu’elles travaillent dans le numérique.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0007409,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

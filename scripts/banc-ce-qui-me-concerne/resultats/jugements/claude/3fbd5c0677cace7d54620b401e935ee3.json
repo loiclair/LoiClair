@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "marie_pacse",
+    "raison": "Le texte vise les conjoints de personnes ayant commis un acte menaçant la souveraineté d'un pays, mais seulement parce qu'ils sont liés à une personne visée par la mesure, pas parce qu'ils sont mariés ou pacsés en général. Le critère déclencheur est l'acte commis par un tiers, et l'article ne mentionne pas le PACS. Le profil n'est donc pas concerné (règle 7).",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0029186999999999998,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

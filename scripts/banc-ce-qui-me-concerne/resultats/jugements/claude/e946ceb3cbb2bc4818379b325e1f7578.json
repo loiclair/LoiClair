@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_sante",
+    "raison": "Le texte dispense expressément les données collectées « par l'intermédiaire d'un professionnel de santé » de l'obligation de secret médical. Cela modifie directement une obligation professionnelle des soignants, qui devraient transmettre des données de patients sans que le secret médical leur soit opposable.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000441385,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

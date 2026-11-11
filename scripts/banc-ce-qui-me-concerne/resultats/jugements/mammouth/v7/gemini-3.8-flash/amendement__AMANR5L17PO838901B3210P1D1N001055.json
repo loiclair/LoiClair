@@ -1,0 +1,26 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "veuf",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article 195, 1, f du CGI vise expressément les personnes veuves dont le conjoint était titulaire de la carte de combattant, et l'amendement élargit l'octroi de la demi-part fiscale aux veuves de titulaires du titre de reconnaissance de la Nation."
+   },
+   {
+    "profil": "ancien_combattant",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "Le profil inclut les membres de la famille des anciens combattants, et la mesure vise directement les conjoints survivants des personnes titulaires de titres militaires et de reconnaissance nationale."
+   },
+   {
+    "profil": "imposable",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'octroi d'une demi-part supplémentaire réduit directement le montant de l'impôt sur le revenu pour les foyers imposables concernés."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00860325
+}

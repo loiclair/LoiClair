@@ -1,0 +1,22 @@
+{
+ "resume_fr": "Ajouterait le titre de reconnaissance de la Nation aux conditions donnant une demi-part fiscale aux veuves de combattants.",
+ "resume_en": "Would add the title of recognition of the Nation to the conditions giving combatants' widows a tax half-share.",
+ "impacts": [
+  {
+   "profil": "veuf",
+   "passage": "Au f du 1 de l’article 195 du code général des impôts, après la seconde occurrence du mot : « combattant », sont insérés les mots : « ou du titre de reconnaissance de la Nation ».",
+   "certitude": "certain"
+  },
+  {
+   "profil": "ancien_combattant",
+   "passage": "Au f du 1 de l’article 195 du code général des impôts, après la seconde occurrence du mot : « combattant », sont insérés les mots : « ou du titre de reconnaissance de la Nation ».",
+   "certitude": "probable"
+  },
+  {
+   "profil": "imposable",
+   "passage": "Au f du 1 de l’article 195 du code général des impôts, après la seconde occurrence du mot : « combattant », sont insérés les mots : « ou du titre de reconnaissance de la Nation ».",
+   "certitude": "probable"
+  }
+ ],
+ "cout_usd": 0.00093027
+}

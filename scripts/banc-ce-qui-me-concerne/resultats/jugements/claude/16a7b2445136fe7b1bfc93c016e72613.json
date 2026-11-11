@@ -1,0 +1,35 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etudiant",
+    "raison": "Le texte ouvre la location en résidence à vocation d'emploi aux personnes justifiant suivre des études supérieures, ce qui vise directement les étudiants dans leur accès au logement meublé de courte durée.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "apprenti_alternant",
+    "raison": "Le texte nomme explicitement le contrat d'apprentissage, la formation professionnelle et le stage comme motifs de location ; le profil couvre apprentis, alternants et stagiaires.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "benevole",
+    "raison": "Le texte vise l'engagement volontaire en service civique, que le catalogue range dans le profil bénévole ; les volontaires peuvent louer dans ces résidences.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "locataire",
+    "raison": "Le texte définit un bail mobilité pour les personnes qui louent dans ces résidences, sous-ensemble des locataires ; la mesure vise directement leur bail, qui est le fait même de louer.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000992385,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

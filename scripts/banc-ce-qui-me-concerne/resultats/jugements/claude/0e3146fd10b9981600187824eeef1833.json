@@ -1,0 +1,11 @@
+{
+ "jugement": {
+  "profils": [],
+  "oublis": [
+   "ancien_combattant"
+  ]
+ },
+ "cout_usd": 0.000543775,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

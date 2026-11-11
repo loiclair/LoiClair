@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_sante",
+    "raison": "L'article vise directement les médecins, chirurgiens-dentistes et sages-femmes qui sollicitent un remplacement. Il change les règles d'exercice de leur métier : le refus d'autorisation n'est possible que pour un motif impérieux ou un manquement déontologique. Le profil est donc concerné.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000445585,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

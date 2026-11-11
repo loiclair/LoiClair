@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_artisanat_commerce",
+    "raison": "Le texte vise les commerçants qui acceptent les titres-restaurant : les modalités de publication des commissions visent à les informer clairement. Ils sont directement visés comme destinataires de l'information.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "secteur_hotellerie",
+    "raison": "Le texte parle des « commerçants acceptant » les titres-restaurant sans nommer la restauration ni l'hôtellerie. Le secteur n'est pas nommé, c'est un statut prêté.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0024647,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

@@ -1,0 +1,41 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "mineur",
+    "raison": "Le 2° de l'article L. 256-4 vise directement le mineur victime de violences d'un ascendant : les modalités de son autorité parentale seraient fixées par le juge des VSS au lieu du juge aux affaires familiales.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "parent",
+    "raison": "Le parent auteur de violences sur son enfant relève du tribunal spécialisé (L. 255-1, 3° et 4°), et les modalités de son autorité parentale passeraient du juge aux affaires familiales au juge des VSS (L. 256-4, 2°).",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "separe_divorce",
+    "raison": "Le texte vise l'ancien conjoint, l'ancien concubin et l'ancien partenaire de PACS (L. 255-1, 2° ; L. 256-2 ; L. 256-4, 1°), donc une personne divorcée ou séparée, victime ou mise en cause, relève du tribunal spécialisé et du juge des VSS.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "concubin",
+    "raison": "Le 1° de L. 255-1 vise nommément le concubin, y compris sans cohabitation : les violences commises par un concubin relèvent du tribunal spécialisé.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "marie_pacse",
+    "raison": "Le 1° de L. 255-1 vise le conjoint et le partenaire de PACS, y compris sans cohabitation : les violences commises par eux relèvent du tribunal spécialisé.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.001939285,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

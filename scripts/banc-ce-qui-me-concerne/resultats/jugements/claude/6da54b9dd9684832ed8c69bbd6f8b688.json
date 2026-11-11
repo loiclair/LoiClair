@@ -1,0 +1,18 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "chef_entreprise",
+    "raison": "Le texte encadre la possibilité, pour une entreprise visée par l’interdiction, de conclure des conventions de stage ou des contrats d’apprentissage : cela affecte directement l’activité de son dirigeant ou employeur.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "dirigeant_grande_entreprise"
+  ]
+ },
+ "cout_usd": 0.000856775,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

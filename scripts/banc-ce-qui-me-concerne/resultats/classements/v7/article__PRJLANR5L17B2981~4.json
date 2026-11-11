@@ -1,0 +1,19 @@
+{
+ "impacts": [
+  {
+   "profil": "proprietaire_bailleur",
+   "phrase_fr": "Les bailleurs ne pourraient bénéficier de la déduction d'amortissement que s'ils louent le logement nu comme résidence principale.",
+   "phrase_en": "Landlords would only get the depreciation deduction if they rent the home unfurnished as their main residence.",
+   "passage": "de louer le logement nu à titre de résidence principale",
+   "certitude": "certain"
+  },
+  {
+   "profil": "imposable",
+   "phrase_fr": "Les foyers imposables pourraient déduire de leurs revenus locatifs l'amortissement du prix d'achat et des travaux, sous conditions de chauffage et de performance énergétique.",
+   "phrase_en": "Taxpayers could deduct depreciation of purchase and works costs from rental income, subject to heating and energy performance conditions.",
+   "passage": "une déduction au titre de l’amortissement du prix d’acquisition du logement net de frais, majoré, le cas échéant, du montant des travaux.",
+   "certitude": "probable"
+  }
+ ],
+ "cout_usd": 0.00112131
+}

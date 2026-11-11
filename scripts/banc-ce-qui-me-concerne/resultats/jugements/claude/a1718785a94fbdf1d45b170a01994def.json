@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_agriculture",
+    "raison": "Le texte vise explicitement les installations d’élevage et prévoit des prescriptions pouvant imposer leur modernisation et limiter leurs incidences environnementales ; cela concerne directement les personnes travaillant dans l’élevage.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0004179,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

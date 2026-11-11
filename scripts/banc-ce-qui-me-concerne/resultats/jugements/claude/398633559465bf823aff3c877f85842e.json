@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "independant",
+    "raison": "La mesure concerne les commissaires aux comptes en raison de leur profession, pas du fait qu’ils exercent à titre indépendant ; elle peut aussi viser des commissaires aux comptes salariés.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000366775,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

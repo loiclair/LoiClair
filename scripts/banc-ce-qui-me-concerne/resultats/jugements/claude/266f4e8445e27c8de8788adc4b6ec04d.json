@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "salarie_prive",
+    "raison": "Le texte accorde directement un droit d’arrêt de travail aux salariés atteints d’algie vasculaire de la face, sans distinguer les salariés du privé.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00058365,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

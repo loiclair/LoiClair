@@ -1,0 +1,14 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_sante",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article modifie directement les conditions d'exercice des médecins diplômés au Royaume-Uni dans le code de la santé publique, ce qui a un effet concret sur l'activité des professionnels de santé déjà en exercice ou souhaitant s'installer en France."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0020787
+}

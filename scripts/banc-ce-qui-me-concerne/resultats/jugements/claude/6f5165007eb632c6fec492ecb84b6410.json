@@ -1,0 +1,18 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "chef_entreprise",
+    "raison": "L’amendement permet à l’inspecteur du travail d’autoriser une entreprise concernée à conclure des conventions de stage ou des contrats d’apprentissage : cela touche directement les dirigeants-employeurs des petites et moyennes entreprises concernées.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": [
+   "dirigeant_grande_entreprise"
+  ]
+ },
+ "cout_usd": 0.000713275,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

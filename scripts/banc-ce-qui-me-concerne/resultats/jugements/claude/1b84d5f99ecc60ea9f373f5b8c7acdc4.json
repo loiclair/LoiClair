@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "epargnant",
+    "raison": "Le texte crée un nouveau livret d'épargne ouvert aux personnes physiques domiciliées fiscalement en France. Son ouverture est facultative, mais la mesure vise directement les personnes qui épargnent.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "marie_pacse",
+    "raison": "Le texte nomme explicitement les époux et partenaires de PACS soumis à une imposition commune : chacun peut ouvrir son propre livret, ce qui change la règle d'un livret par foyer fiscal.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0005565349999999999,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

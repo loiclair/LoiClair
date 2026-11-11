@@ -1,0 +1,33 @@
+{
+ "impacts": [
+  {
+   "profil": "etranger_hors_ue",
+   "phrase_fr": "Les titres de séjour pour vie privée et familiale pourraient être délivrés pour quatre ans au lieu d'un an, sous forme de carte pluriannuelle.",
+   "phrase_en": "Family-life residence permits would be issued for four years instead of one, as multi-year cards.",
+   "passage": "Si le conjoint est titulaire d’une carte de résident, l’étranger se voit délivrer une carte de séjour pluriannuelle “vie privée et familiale” d’une durée de quatre ans.",
+   "certitude": "certain"
+  },
+  {
+   "profil": "marie_pacse",
+   "phrase_fr": "Si votre conjoint est titulaire d'une carte de résident, vous pourriez obtenir une carte de séjour pluriannuelle de quatre ans pour vie privée et familiale.",
+   "phrase_en": "If your spouse holds a resident card, you would be able to receive a four-year multi-year family residence permit.",
+   "passage": "Si le conjoint est titulaire d’une carte de résident, l’étranger se voit délivrer une carte de séjour pluriannuelle “vie privée et familiale” d’une durée de quatre ans.",
+   "certitude": "probable"
+  },
+  {
+   "profil": "parent",
+   "phrase_fr": "Si vous êtes titulaire d'une carte de résident, votre enfant étranger pourrait obtenir une carte de séjour de quatre ans à sa majorité.",
+   "phrase_en": "If you hold a resident card, your foreign child could obtain a four-year residence permit when they come of age.",
+   "passage": "Si l’un des parents au moins est titulaire d’une carte de résident, l’étranger se voit délivrer, dans l’année suivant son dix-huitième anniversaire",
+   "certitude": "certain"
+  },
+  {
+   "profil": "mineur",
+   "phrase_fr": "Un enfant étranger de 16 à 18 ans, dont un parent a une carte de résident, pourrait obtenir une carte de séjour de quatre ans.",
+   "phrase_en": "A foreign child aged 16 to 18 whose parent holds a resident card could get a four-year residence permit.",
+   "passage": "entre ses seize et dix-huit ans s’il remplit les conditions prévues à l’article L. 421-35",
+   "certitude": "certain"
+  }
+ ],
+ "cout_usd": 0.00233168
+}

@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_agriculture",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'amendement modifie directement le taux du crédit d’impôt pour les dépenses de remplacement liées à une maladie, un accident du travail ou une formation professionnelle, ce qui concerne spécifiquement les agriculteurs (mentionnés dans l'exposé des auteurs). Le passage 'Porterait de 80 % à 100 % le taux du crédit d’impôt' est fidèle au dispositif (remplacement de '80 %' par '100 %'). La limitation aux sommes déduites de l’impôt dû est également mentionnée dans le dispositif (alinéa VI ajouté)."
+   }
+  ],
+  "oublis": [
+   "chef_entreprise",
+   "independant"
+  ]
+ },
+ "cout_usd": 0.0133845
+}

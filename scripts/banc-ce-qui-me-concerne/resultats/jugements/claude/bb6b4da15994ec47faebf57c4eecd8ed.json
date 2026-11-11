@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "salarie_prive",
+    "raison": "Le texte vise directement « les salariés atteints d'algie vasculaire de la face » et leur ouvre trente jours d'arrêt de travail par an, sans condition d'ancienneté ni préavis. La phrase de l'assistant reprend fidèlement ce droit et garde le conditionnel, le texte n'étant pas encore adopté.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "malade_chronique",
+    "raison": "Le texte désigne la catégorie par sa pathologie, l'algie vasculaire de la face, maladie à crises récurrentes qui demande des soins réguliers. Mais le droit n'est ouvert qu'aux salariés atteints de cette affection. La phrase de l'assistant omet cette condition et laisse croire que toute personne atteinte serait concernée, y compris les non-salariés, ce que le texte ne dit pas.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000610135,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

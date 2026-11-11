@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "imposable",
+    "raison": "Le I étend la réduction d'impôt pour dons de l'article 200 CGI aux dons faits à ces organismes. Elle s'impute sur l'impôt sur le revenu, donc elle change directement l'impôt des foyers imposables qui donnent. La phrase de l'assistant omet la branche « ou contribuent à favoriser leur relogement », alors que le texte vise aussi ces organismes. Elle restreint donc à tort le champ de la mesure.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000374985,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

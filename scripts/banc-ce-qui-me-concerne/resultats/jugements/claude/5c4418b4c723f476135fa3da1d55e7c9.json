@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etudiant",
+    "raison": "L'article oblige les unités de formation et de recherche en santé à proposer la première année de médecine, pharmacie, odontologie et maïeutique dans chaque département. Le texte vise ces établissements, pas les étudiants eux-mêmes : tout effet pour un étudiant passe par la réaction de l'UFR, donc indirect.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00035603500000000004,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

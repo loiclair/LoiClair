@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "heritier_donateur",
+    "raison": "Le dispositif allège directement la fiscalité des dons d'argent entre générations (donateurs et donataires de moins de 50 ans). L'amendement I-CF1740 change la date du 30 juin à la date du 31 décembre aux alinéas 1 et 6 de l'article 4, ce qui prolonge la période de l'allègement pour ceux qui transmettent ou reçoivent une somme d'argent.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000429485,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

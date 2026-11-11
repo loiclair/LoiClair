@@ -1,0 +1,25 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "auto_entrepreneur",
+    "raison": "Le II de l'article 293 B fait cesser la franchise de TVA dès le dépassement du plafond, et le tableau ramène les seuils à 25 000 et 27 500 euros. Les micro-entrepreneurs sont directement visés.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "proprietaire_occupant",
+    "raison": "Le III bis applique le taux normal de 20 % aux prestations de rénovation énergétique avec chaudière fossile. Le propriétaire qui fait réaliser ces travaux pour son logement paie directement la TVA plus élevée sur sa facture.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "chef_entreprise"
+  ]
+ },
+ "cout_usd": 0.0017383350000000001,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

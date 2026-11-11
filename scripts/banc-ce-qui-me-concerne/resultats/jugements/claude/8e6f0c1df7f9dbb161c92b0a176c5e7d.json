@@ -1,0 +1,28 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "animal",
+    "raison": "Le texte modifie la TVA sur certaines ventes et prestations concernant les équidés, mais ne vise pas les personnes du seul fait qu’elles possèdent un animal ou un cheval.",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "secteur_agriculture",
+    "raison": "Les livraisons d’équidés vivants et les prestations liées à leur exploitation sont visées ; cela concerne notamment les personnes qui élèvent des équidés dans le cadre de leur activité agricole.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "chef_entreprise",
+    "raison": "Le texte vise des opérations concernant les équidés, pas les dirigeants de petites entreprises en tant que tels ; leur éventuel effet dépend de l’activité de leur entreprise.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00072015,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

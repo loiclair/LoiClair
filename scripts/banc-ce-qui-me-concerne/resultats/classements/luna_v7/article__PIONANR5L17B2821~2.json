@@ -1,0 +1,26 @@
+{
+ "impacts": [
+  {
+   "profil": "fonctionnaire",
+   "phrase_fr": "La pension des fonctionnaires concernés serait calculée avec un coefficient de majoration territorial, sous réserve de remplir les conditions prévues.",
+   "phrase_en": "The pension of eligible civil servants would be calculated using a territory-specific increase coefficient, subject to meeting the stated conditions.",
+   "passage": "– Aux fins de liquidation de la pension des personnels relevant du présent code et visés à l'article premier du décret n° 67-600 du 23 juillet 1967, le montant de celle-ci est calculé en multipliant le pourcentage de liquidation tel qu'il résulte de l'application de l'article L. 13 par le traitement ou la solde, afférents à l'indice correspondant à l'emploi, au grade, à la classe et à l'échelon multiplié par un coefficient de majoration propre à chaque territoire,",
+   "certitude": "certain"
+  },
+  {
+   "profil": "forces_ordre",
+   "phrase_fr": "La pension des militaires concernés serait calculée avec un coefficient de majoration territorial, sous réserve de remplir les conditions prévues.",
+   "phrase_en": "The pension of eligible military personnel would be calculated using a territory-specific increase coefficient, subject to meeting the stated conditions.",
+   "passage": "– Aux fins de liquidation de la pension des personnels relevant du présent code et visés à l'article premier du décret n° 67-600 du 23 juillet 1967, le montant de celle-ci est calculé en multipliant le pourcentage de liquidation tel qu'il résulte de l'application de l'article L. 13 par le traitement ou la solde, afférents à l'indice correspondant à l'emploi, au grade, à la classe et à l'échelon multiplié par un coefficient de majoration propre à chaque territoire,",
+   "certitude": "certain"
+  },
+  {
+   "profil": "outre_mer",
+   "phrase_fr": "Les personnels concernés résidant en Nouvelle-Calédonie, à Wallis-et-Futuna ou en Polynésie française pourraient bénéficier d’un calcul de pension majoré s’ils remplissent les conditions prévues.",
+   "phrase_en": "Eligible personnel residing in New Caledonia, Wallis and Futuna, or French Polynesia could receive a pension calculated with an increase, if they meet the stated conditions.",
+   "passage": "– Le III du présent article est applicable aux personnels qui, à la date d'effet de leur pension, justifient d'une résidence effective en Nouvelle-Calédonie, à Wallis-et-Futuna ou en Polynésie française et qui remplissent les conditions suivantes :",
+   "certitude": "certain"
+  }
+ ],
+ "cout_usd": 0.000555975
+}

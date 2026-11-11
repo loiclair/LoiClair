@@ -1,0 +1,29 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etranger_hors_ue",
+    "raison": "L'article modifie la durée des cartes de séjour « vie privée et familiale » (quatre ans au lieu d'un an) pour les étrangers titulaires d'un titre de séjour, ce qui vise directement ce profil.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "mineur",
+    "raison": "Le texte prévoit la délivrance d'une carte pluriannuelle entre seize et dix-huit ans pour les jeunes remplissant les conditions de l'article L. 421-35, ce qui vise des mineurs de 16 à 18 ans.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "jeune",
+    "raison": "Le texte vise l'étranger dont un parent est titulaire d'une carte de résident, qui reçoit une carte de quatre ans dans l'année suivant ses 18 ans : cela concerne les jeunes de 18 à 25 ans.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0039897,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

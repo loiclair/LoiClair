@@ -1,0 +1,35 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "salarie_prive",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article vise les salariés mentionnés aux articles L.311-2 et L.311-3, ce qui inclut les salariés du secteur privé. Le taux de cotisation est un maximum de 2% réparti à parts égales entre employeur et salarié."
+   },
+   {
+    "profil": "chef_entreprise",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "En tant qu'employeur, il devra payer la moitié des cotisations pour ses salariés, comme tout autre employeur."
+   },
+   {
+    "profil": "dirigeant_grande_entreprise",
+    "concerne": false,
+    "phrase_fidele": false,
+    "raison": "L'article parle des 'employeurs' sans distinction de taille d'entreprise. Le profil dirigeant_grande_entreprise est une variante du profil chef_entreprise, qui est déjà couvert. Aucune disposition spécifique ne vise les grandes entreprises."
+   }
+  ],
+  "oublis": [
+   "salarie_particulier",
+   "independant",
+   "apprenti_alternant",
+   "cdd_interim",
+   "travailleur_frontalier",
+   "fonctionnaire",
+   "retraite",
+   "senior"
+  ]
+ },
+ "cout_usd": 0.0033293
+}

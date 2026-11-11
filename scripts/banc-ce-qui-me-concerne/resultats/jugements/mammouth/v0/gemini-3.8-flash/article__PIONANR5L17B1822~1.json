@@ -1,0 +1,14 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "salarie_prive",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article L. 323-1-2 du code de la sécurité sociale concerne les indemnités journalières maladie du régime général, dont bénéficient directement les salariés du secteur privé."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00531
+}

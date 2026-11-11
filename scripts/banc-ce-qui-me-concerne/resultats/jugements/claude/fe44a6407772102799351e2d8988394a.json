@@ -1,0 +1,46 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "handicap",
+    "raison": "Le texte vise directement les personnes handicapées et leur ouvre une procédure d’évaluation limitée à certaines demandes, sans plan personnalisé de compensation.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "age_dependant",
+    "raison": "Les bénéficiaires de l’allocation prévue à l’article L. 232-1 (l’APA) reçoivent une carte mobilité inclusion définitive selon leur classement dans la grille.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "senior",
+    "raison": "La procédure mentionne directement un âge minimal fixé par arrêté, qui ne peut être inférieur à 60 ans ; elle concerne donc une partie des seniors.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "automobiliste",
+    "raison": "Le texte prévoit une carte comportant parfois la mention « stationnement », mais le fait d’être automobiliste ne déclenche pas la mesure : les critères portent sur le handicap ou le classement lié à l’APA.",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "mineur",
+    "raison": "Le texte supprime une mention qui limitait le dispositif prévu au IV bis aux mineurs atteints d’une maladie, d’un handicap ou victimes d’un accident grave.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "parent",
+    "raison": "La procédure peut être demandée par un représentant légal, mais le texte vise la personne handicapée et son représentant légal, pas les parents en tant que tels.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0014014,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

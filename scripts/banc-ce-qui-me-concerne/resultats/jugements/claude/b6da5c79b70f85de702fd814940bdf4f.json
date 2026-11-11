@@ -1,0 +1,28 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "salarie_prive",
+    "raison": "Le texte vise explicitement les salariés assurés : leurs cotisations ou primes ne peuvent pas être augmentées pour répercuter la contribution, ni leurs garanties réduites en compensation.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "chef_entreprise",
+    "raison": "Le texte protège explicitement les primes ou cotisations versées par les employeurs ; cela vise aussi les employeurs dirigeants de TPE, PME ou entreprises sans salarié.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "dirigeant_grande_entreprise",
+    "raison": "Le texte protège explicitement les primes ou cotisations versées par les employeurs ; cela vise aussi les dirigeants d’entreprises de 250 salariés ou plus.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000607525,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

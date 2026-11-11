@@ -1,0 +1,26 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "salarie_prive",
+    "raison": "L'amendement vise « les salariés » bénéficiaires du déblocage de la participation et de l'intéressement : ils recevraient une information sur les frais et pénalités avant de débloquer leurs sommes. Le salarié d'une entreprise privée est directement visé.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "epargnant",
+    "raison": "Le catalogue précise que « epargnant » ne couvre pas l'épargne salariale. Or le texte ne porte que sur les sommes d'un plan d'épargne salariale (participation, intéressement), donc pas concerné.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "chef_entreprise",
+   "dirigeant_grande_entreprise"
+  ]
+ },
+ "cout_usd": 0.0049837,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

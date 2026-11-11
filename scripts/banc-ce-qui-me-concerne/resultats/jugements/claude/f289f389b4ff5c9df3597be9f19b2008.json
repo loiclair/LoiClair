@@ -1,0 +1,19 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "parent",
+    "raison": "Le texte vise directement les contribuables qui assument la charge d'au moins deux enfants, ce qui correspond à la définition de parent (responsable d'enfants à charge).",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "imposable"
+  ]
+ },
+ "cout_usd": 0.000317685,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

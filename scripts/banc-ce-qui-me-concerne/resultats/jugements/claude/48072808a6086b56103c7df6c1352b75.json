@@ -1,0 +1,30 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "auto_entrepreneur",
+    "raison": "L’article modifie les seuils de franchise de TVA selon le chiffre d’affaires, pas selon le statut de micro-entrepreneur. Le critère qui déclenche la mesure est le chiffre d’affaires et le régime de franchise.",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "secteur_btp",
+    "raison": "Le texte soumet au taux normal de TVA certaines prestations de rénovation énergétique comprenant une chaudière utilisant des combustibles fossiles, ce qui vise directement des travaux du BTP.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "proprietaire_occupant",
+    "raison": "Le taux s’applique selon la nature des travaux, quel que soit le statut du client. Le texte ne vise pas les propriétaires occupants en tant que tels.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "secteur_culture"
+  ]
+ },
+ "cout_usd": 0.0014639,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

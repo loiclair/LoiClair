@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etudiant",
+    "raison": "L'article 7 donne au co-contractant d'un organisme privé de formation la nullité du contrat et le remboursement du double des sommes versées. L'étudiant qui a payé ses frais de scolarité est ce co-contractant, et le dossier porte sur l'enseignement supérieur privé lucratif. Le texte ne nomme pas l'étudiant, mais l'effet le touche directement dans son argent.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "chef_entreprise",
+    "raison": "Le texte vise personnellement le dirigeant d'un organisme de formation en infraction : amende administrative jusqu'à 3 000 euros pour une personne physique, et interdiction d'exercer comme dirigeant, prononçable à titre de peine complémentaire. Le dirigeant d'une petite structure est donc directement visé. Le texte ne précise pas la taille de l'organisme.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.001604585,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

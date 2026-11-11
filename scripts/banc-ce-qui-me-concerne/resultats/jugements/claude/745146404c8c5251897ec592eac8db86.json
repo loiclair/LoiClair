@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etranger_hors_ue",
+    "raison": "L'amendement modifie l'article L. 423-22 du CESEDA : il crée un droit de plein droit à une carte de séjour « vie privée et familiale » de quatre ans pour les jeunes confiés à l'ASE avant 18 ans. Il vise donc des étrangers hors UE titulaires ou demandeurs d'un titre de séjour.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0027936999999999997,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

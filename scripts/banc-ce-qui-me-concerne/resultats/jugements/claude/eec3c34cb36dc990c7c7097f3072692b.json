@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "epargnant",
+    "raison": "Le texte écarterait certains crypto-actifs de la règle fiscale applicable aux cessions ; cela vise directement les personnes qui détiennent ou investissent dans ces actifs.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000764275,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

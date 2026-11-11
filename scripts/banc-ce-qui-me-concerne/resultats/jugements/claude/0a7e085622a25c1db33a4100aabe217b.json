@@ -1,0 +1,19 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "salarie_prive",
+    "raison": "Le dispositif vise les salariés et les sommes de participation ou d’intéressement affectées à un plan d’épargne salariale ; l’amendement réduit de 2027 à 2026 la date limite d’affectation des sommes éligibles au déblocage.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "cdd_interim",
+   "apprenti_alternant"
+  ]
+ },
+ "cout_usd": 0.000878525,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

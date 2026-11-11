@@ -1,0 +1,38 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "salarie_prive",
+    "concerne": false,
+    "phrase_fidele": false,
+    "raison": "Le texte modifie l'article L. 323-1-2 du Code de la sécurité sociale, qui prévoit la suppression du délai de carence pour les arrêts maladie liés à une interruption médicale de grossesse (IMG). La proposition étend cette mesure aux interruptions volontaires de grossesse (IVG). Cette disposition s'applique à tous les salariés relevant du régime général, qu'ils soient du secteur privé ou d'un autre statut (fonctionnaire, indépendant, etc., bien que le régime détaillé puisse différer, l'article L. 323-1-2 s'inscrit dans les dispositions communes aux assurances sociales). Réduire ce public au seul profil 'salarie_prive' est trompeur et trop restrictif. De plus, l'assistant omet le conditionnel ('serait indemnisé') dans la phrase anglaise absente ici, mais surtout, la phrase française est rédigée comme une certitude alors que le texte n'est pas une loi promulguée."
+   },
+   {
+    "profil": "futur_parent",
+    "concerne": false,
+    "phrase_fidele": false,
+    "raison": "Le texte ne crée aucun fait concernant les 'futurs parents'. L'IVG n'est pas une situation liée à un projet d'enfant. Ce profil n'était pas dans la liste proposée par l'assistant, mais il a été analysé par votre demande de lister les profils manquants. Il n'est pas concerné."
+   },
+   {
+    "profil": "parent_isole",
+    "concerne": false,
+    "phrase_fidele": false,
+    "raison": "Le texte ne cible pas spécifiquement les parents isolés. Il s'applique à toute personne en arrêt maladie suite à une IVG. Ce profil, non proposé, n'est pas concerné."
+   },
+   {
+    "profil": "fonctionnaire",
+    "concerne": false,
+    "phrase_fidele": false,
+    "raison": "Le régime des salariés du privé est potentiellement différent de celui des fonctionnaires. L'article L. 323-1-2 du CSS est générique. L'assistant a limité le profil à 'salarie_prive' alors que le texte est plus large. Ce profil, non proposé, pourrait être concerné mais le texte ne le précise pas. Non concerné selon la consigne stricte."
+   },
+   {
+    "profil": "independant",
+    "concerne": false,
+    "phrase_fidele": false,
+    "raison": "Le texte ne vise pas les indépendants. Ils ne sont pas concernés."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0027404
+}

@@ -1,0 +1,29 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "salarie_prive",
+    "raison": "Le texte interdit de répercuter la contribution de l'assureur sur les primes versées par les salariés assurés, et de la compenser par une baisse des garanties ou une hausse des franchises. Cela vise directement les salariés couverts par un contrat de branche.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "chef_entreprise",
+    "raison": "Le texte interdit la répercussion sur les cotisations ou primes versées par les employeurs. Les employeurs de PME qui paient ces contrats de prévoyance ou de complémentaire santé sont donc visés.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "dirigeant_grande_entreprise",
+    "raison": "Le texte interdit la répercussion sur les cotisations ou primes versées par les employeurs, ce qui vise aussi les employeurs de grandes entreprises qui paient ces contrats.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0059647,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

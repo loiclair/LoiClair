@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "outre_mer",
+    "raison": "Le texte vise expressément les collectivités régies par l’article 73 de la Constitution et modifie la détermination des zones d’application de la taxe sur les logements vacants.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00051815,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

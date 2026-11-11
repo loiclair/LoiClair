@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_sante",
+    "raison": "Le texte désigne lui-même les professionnels de santé comme canal de collecte des données et écarte pour eux le secret médical, ce qui change directement leurs obligations professionnelles.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00033778499999999995,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

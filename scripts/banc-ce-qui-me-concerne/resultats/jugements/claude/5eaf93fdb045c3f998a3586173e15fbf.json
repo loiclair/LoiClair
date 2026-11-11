@@ -1,0 +1,25 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "projet_achat",
+    "raison": "La taxe additionnelle de 0,10 % est due par la personne tenue au paiement des droits de mutation, donc l'acquéreur d'un bien dans une commune littorale ; elle renchérit directement son achat.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "littoral",
+    "raison": "Le texte vise les mutations d'immeubles situés dans les communes littorales ; ce sont des opérations immobilières, pas une charge pesant sur tout habitant du littoral. Un habitant du littoral qui n'achète ni ne vend n'est pas touché, et le profil ne déclenche pas la mesure. Par ailleurs la phrase parle de « votre commune » et exclut mal les communes riveraines de grands plans d'eau intérieurs.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": [
+   "proprietaire_occupant"
+  ]
+ },
+ "cout_usd": 0.0035597,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

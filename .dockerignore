@@ -1,0 +1,7 @@
+# Le contexte de `docker build` se limite aux trois dossiers que copie le
+# Dockerfile. Tout le reste (sources, `.env*`, `.git`, cache de build) n'entre
+# jamais dans l'image, même par erreur d'un futur `COPY . .`.
+*
+!.next/standalone
+!.next/static
+!public

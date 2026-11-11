@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "locataire",
+    "raison": "Le texte impose au bailleur de garantir au locataire un confort thermique minimal en été et prévoit des équipements ou solutions de remplacement.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "proprietaire_bailleur",
+    "raison": "Le texte impose directement au bailleur d’installer des protections solaires et un brasseur d’air à la demande du locataire, ou des équipements de remplacement si l’installation est impossible.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000387025,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

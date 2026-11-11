@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "expat",
+    "raison": "Le texte vise le contribuable sans résidence fiscale en France, ce qui correspond à un Français établi hors de France, et change la condition sur les recettes pour l'application du régime de l'article 155. En revanche, la phrase de l'assistant est inexacte : elle parle d'« impôt sur ses revenus de source étrangère » et de « règle de calcul », alors que le texte traite d'une condition sur les recettes et les revenus soumis à un impôt équivalent dans l'État de résidence. Elle emploie aussi le conditionnel alors que la loi est publiée.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0025226999999999997,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

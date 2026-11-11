@@ -1,0 +1,33 @@
+{
+ "impacts": [
+  {
+   "profil": "etranger_hors_ue",
+   "phrase_fr": "Les étrangers hors Union européenne devraient avoir un titre de séjour depuis au moins deux ans pour toucher les prestations familiales.",
+   "phrase_en": "Non-EU foreigners would need to have held a residence document for at least two years to receive family benefits.",
+   "passage": "qui sont titulaires, depuis au moins deux ans, d’un titre ou d’un document qui atteste de la régularité de leur situation au regard du droit au séjour.",
+   "certitude": "certain"
+  },
+  {
+   "profil": "age_dependant",
+   "phrase_fr": "Les personnes âgées en perte d'autonomie non ressortissantes de l'UE devraient justifier de deux ans de séjour régulier pour recevoir l'APA.",
+   "phrase_en": "Elderly people losing autonomy who are non-EU nationals would need two years of regular residence to receive the APA allowance.",
+   "passage": "Pour bénéficier de l’allocation mentionnée au premier alinéa, l’étranger non ressortissant de l’Union européenne doit être titulaire, depuis au moins deux ans, d’un titre ou d’un document qui atteste de la régularité de sa situation au regard du droit au séjour.",
+   "certitude": "probable"
+  },
+  {
+   "profil": "parent",
+   "phrase_fr": "Les parents étrangers hors UE devraient attendre deux ans de séjour régulier pour que leurs enfants ouvrent droit aux allocations familiales.",
+   "phrase_en": "Foreign parents from outside the EU would need to wait two years of regular residence before their children qualify for family allowances.",
+   "passage": "qui sont titulaires, depuis au moins deux ans, d’un titre ou d’un document qui atteste de la régularité de leur situation au regard du droit au séjour.",
+   "certitude": "probable"
+  },
+  {
+   "profil": "allocataire",
+   "phrase_fr": "Les étrangers hors UE demandant certaines aides au logement devraient justifier de deux ans de séjour régulier, sauf exceptions prévues.",
+   "phrase_en": "Non-EU foreigners applying for certain housing aid would need two years of regular residence, with some exceptions.",
+   "passage": "qui sont titulaires, depuis au moins deux ans, d’un titre ou d’un document qui atteste de la régularité de leur situation au regard du droit au séjour.",
+   "certitude": "possible"
+  }
+ ],
+ "cout_usd": 0.00176091
+}

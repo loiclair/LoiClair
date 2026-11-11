@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "chasseur_pecheur",
+    "raison": "L'interdiction vise « toute personne » qui attire des poissons en mer pour les capturer (appâts concentrés, lumières, débris de poissons) : cela touche directement le pêcheur de loisir en mer, dont les pratiques et obligations changent.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "secteur_agriculture",
+    "raison": "Le secteur agriculture inclut la pêche et le secteur maritime. L'interdiction s'applique à toute personne, donc aux pêcheurs professionnels, dont la façon d'exercer le métier change (appâts, lumières, procédés d'attraction interdits).",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0030286999999999996,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

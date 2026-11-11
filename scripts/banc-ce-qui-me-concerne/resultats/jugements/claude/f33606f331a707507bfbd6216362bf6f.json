@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "parent",
+    "raison": "La suppression des alinéas de l'article L. 521-1 (modulation des allocations familiales selon les revenus) change directement le montant perçu par les parents d'enfants à charge ; le profil parent est visé. La phrase reste fidèle à l'objet du texte (titre : caractère universel) et utilise le conditionnel.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0019287,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

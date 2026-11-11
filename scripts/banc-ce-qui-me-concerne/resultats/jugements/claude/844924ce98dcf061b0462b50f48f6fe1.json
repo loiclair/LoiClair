@@ -1,0 +1,20 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "proprietaire_occupant",
+    "raison": "Le texte vise le propriétaire d'une construction touchée par le retrait-gonflement des argiles (aide du fonds, condition d'assurance multirisque habitation) ; le propriétaire de sa maison fissurée est directement visé, ce qui change son argent et ses droits.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "proprietaire_bailleur",
+   "coproprietaire"
+  ]
+ },
+ "cout_usd": 0.0044187,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

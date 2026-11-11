@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "pompier_volontaire",
+    "raison": "Le texte vise explicitement les sapeurs-pompiers volontaires exposés dans le cadre de leurs fonctions ; ils appartiennent à ce profil.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "fonctionnaire",
+    "raison": "La mesure vise les sapeurs-pompiers professionnels en raison de leur métier, pas les fonctionnaires en tant que catégorie ; le chevauchement de statut ne suffit pas.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000625525,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

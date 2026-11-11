@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "locataire",
+    "raison": "Le texte désigne directement le locataire : le bailleur doit lui fournir un logement garantissant un confort thermique minimal en été, et il peut demander l'installation de protections solaires et d'un brasseur d'air. C'est un droit qui le vise par son statut.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "proprietaire_bailleur",
+    "raison": "Le texte impose directement au bailleur, qui loue un logement, d'installer à la demande du locataire des protections solaires et un brasseur d'air, ou à défaut un dispositif d'occultation et un ventilateur mobile. C'est une obligation qui le vise par son rôle de loueur.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00033183500000000005,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

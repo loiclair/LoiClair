@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etranger_hors_ue",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'amendement vise explicitement les étrangers (hors UE, car les ressortissants UE ont des règles spécifiques) victimes de violences sexuelles ou sexistes, en leur accordant une autorisation provisoire de séjour sous conditions. Le passage cité est exact et justifie le profil."
+   }
+  ],
+  "oublis": [
+   "etranger_ue"
+  ]
+ },
+ "cout_usd": 0.0074085
+}

@@ -1,0 +1,19 @@
+{
+ "impacts": [
+  {
+   "profil": "etudiant",
+   "phrase_fr": "Les contrats signés avec un organisme privé de formation supérieure pourraient être annulés en cas de non-respect des règles, avec remboursement du double des sommes versées.",
+   "phrase_en": "Contracts signed with a private higher education provider would be cancelled if the rules are breached, and the provider would repay double the sums paid.",
+   "passage": "Le non‑respect des dispositions prévues de l’article L. 224‑103‑1 à L. 224‑103‑7 entraîne la nullité du contrat. Le professionnel rembourse à son co‑contractant le double des sommes qui ont été versées dans le cadre du contrat.",
+   "certitude": "probable"
+  },
+  {
+   "profil": "chef_entreprise",
+   "phrase_fr": "Les dirigeants d'organismes de formation en infraction pourraient être condamnés à une amende et interdits de diriger un tel organisme.",
+   "phrase_en": "Managers of training providers who breach the rules would face fines and could be banned from running a training organisation.",
+   "passage": "peut être assortie, à titre de peine complémentaire, d’une interdiction d’exercer temporairement ou définitivement l’activité de dirigeant d’un organisme de formation professionnelle",
+   "certitude": "probable"
+  }
+ ],
+ "cout_usd": 0.00129105
+}

@@ -1,0 +1,19 @@
+{
+ "impacts": [
+  {
+   "profil": "mineur",
+   "phrase_fr": "Les victimes mineures de violences sexuelles au moment des faits pourraient voir leur délai de prescription courir à partir de la date où elles révèlent les faits, avec des délais allongés.",
+   "phrase_en": "Minors who suffer sexual violence at the time of the facts would see the limitation period start only when they reveal the facts, with longer deadlines.",
+   "passage": "Par dérogation aux articles 7 et 8 du présent code, le délai de prescription de l’action publique des infractions prévues aux articles 222‑22 à 222‑33‑2‑3 du code pénal, lorsqu’elles sont commises soit sur une personne mineure au moment des faits",
+   "certitude": "certain"
+  },
+  {
+   "profil": "handicap",
+   "phrase_fr": "Les personnes majeures en situation de vulnérabilité ou de dépendance envers leur agresseur pourraient, selon leur situation, bénéficier du même délai allongé qui court à partir de la révélation des faits.",
+   "phrase_en": "Adults in a vulnerable or dependent situation toward their attacker, which could include some disabled people, would see the same extended limitation period starting from the revelation of the facts.",
+   "passage": "soit sur une personne majeure se trouvant, au moment des faits, dans une situation d’emprise psychologique, de contrainte morale, de dépendance ou de vulnérabilité particulière à l’égard de l’auteur présumé des faits",
+   "certitude": "possible"
+  }
+ ],
+ "cout_usd": 0.00091575
+}

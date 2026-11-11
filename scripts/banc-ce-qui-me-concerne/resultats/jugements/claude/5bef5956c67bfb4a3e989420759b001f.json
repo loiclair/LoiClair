@@ -1,0 +1,18 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "grande_ville",
+    "raison": "Le texte vise les zones à faibles émissions et les autorités qui les organisent, pas les habitants des grandes villes en tant que tels.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": [
+   "automobiliste"
+  ]
+ },
+ "cout_usd": 0.0007974,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

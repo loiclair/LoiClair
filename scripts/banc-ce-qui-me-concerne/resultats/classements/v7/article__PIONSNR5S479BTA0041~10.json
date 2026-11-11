@@ -1,0 +1,12 @@
+{
+ "impacts": [
+  {
+   "profil": "heritier_donateur",
+   "phrase_fr": "Une commune pourrait devenir propriétaire d'un bien sans maître après 15 ans d'abandon au lieu de 30, y compris dans certaines successions non partagées.",
+   "phrase_en": "A commune would be able to take over an abandoned property after 15 years instead of 30, including in some unshared inheritances.",
+   "passage": "Le 1° de l’article L. 1123-1 du code général de la propriété des personnes publiques, dans sa rédaction résultant du I du présent article, est applicable aux successions ouvertes à compter du 1er janvier 2007 et non encore partagées.",
+   "certitude": "probable"
+  }
+ ],
+ "cout_usd": 0.00067961
+}

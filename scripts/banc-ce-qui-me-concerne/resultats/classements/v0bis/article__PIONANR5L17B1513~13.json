@@ -1,0 +1,26 @@
+{
+ "impacts": [
+  {
+   "profil": "residence_secondaire",
+   "phrase_fr": "La commune pourrait augmenter de 5 % à 60 % la taxe d'habitation sur les résidences secondaires qu'elle est autorisée à majorer, dans les communes où le logement est très tendu.",
+   "phrase_en": "The commune would be able to raise the housing tax on second homes by 5% to 60% in areas where housing is very tight.",
+   "passage": "majorer d’un pourcentage compris entre 5 % et 60 % la part lui revenant de la cotisation de taxe d’habitation sur les résidences secondaires",
+   "certitude": "probable"
+  },
+  {
+   "profil": "grande_ville",
+   "phrase_fr": "Les communes où le logement est très tendu pourraient majorer la taxe d'habitation sur les résidences secondaires, et la taxe sur les logements vacants s'appliquerait plus tôt.",
+   "phrase_en": "Communes where housing is very tight would be able to raise the housing tax on second homes, and the vacant housing tax would apply sooner.",
+   "passage": "un déséquilibre marqué entre l’offre et la demande de logements entraînant des difficultés sérieuses d’accès au logement",
+   "certitude": "possible"
+  },
+  {
+   "profil": "proprietaire_bailleur",
+   "phrase_fr": "Un logement occupé moins de 90 jours sur la période de référence pourrait être considéré comme vacant, et la taxe pourrait s'appliquer après un an de vacance au lieu de deux.",
+   "phrase_en": "A home occupied for fewer than 90 days in the reference period could be treated as vacant, and the tax could apply after one year of vacancy instead of two.",
+   "passage": "est considéré comme vacant un logement dont la durée d’occupation est inférieure à quatre‑vingt‑dix jours au cours de la période de référence",
+   "certitude": "possible"
+  }
+ ],
+ "cout_usd": 0.00117835
+}

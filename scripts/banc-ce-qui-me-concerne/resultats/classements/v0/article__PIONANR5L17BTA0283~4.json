@@ -1,0 +1,26 @@
+{
+ "impacts": [
+  {
+   "profil": "chef_entreprise",
+   "passage": "De 30 % lorsque les coûts sont supportés par des petites entreprises au sens de la même annexe I",
+   "certitude": "certain",
+   "phrase_en": "Small and medium companies would get a 100% tax deduction on wind-propulsion equipment costs, increased by 20 to 30%.",
+   "phrase_fr": "Les petites et moyennes entreprises pourraient bénéficier d'une déduction fiscale de 100 % sur les coûts d'équipements véliques, majorée de 20 à 30 %."
+  },
+  {
+   "profil": "secteur_transport",
+   "passage": "Une somme égale à 100 % des coûts supplémentaires immobilisés, hors frais financiers, directement liés à l’installation d’équipements, acquis à l’état neuf et produits en France",
+   "certitude": "probable",
+   "phrase_en": "Maritime transport operators would be able to claim a tax deduction for installing wind-propulsion equipment.",
+   "phrase_fr": "Les opérateurs de transport maritime pourraient bénéficier d'une déduction fiscale pour l’installation d’équipements de propulsion vélique."
+  },
+  {
+   "profil": "dirigeant_grande_entreprise",
+   "passage": "pour les navires et les bateaux de transport de marchandises ou de passagers",
+   "certitude": "possible",
+   "phrase_en": "Large shipping companies could also claim the 100% deduction for wind-propelled ships.",
+   "phrase_fr": "Les grandes entreprises de transport maritime pourraient aussi bénéficier de la déduction de 100 % pour leurs navires à propulsion vélique."
+  }
+ ],
+ "resume_fr": null
+}

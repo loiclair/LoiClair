@@ -1,0 +1,37 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "outre_mer",
+    "raison": "Le texte vise les assurés résidant à Mayotte, département d'outre-mer : le maintien des droits sociaux jusqu'au 30 juin 2025 les concerne directement et par leur lieu de vie.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "allocataire",
+    "raison": "Les aides personnelles au logement versées par la caisse de Mayotte (APL, ALF, ALS) relèvent de la définition d'allocataire, et une dérogation change directement les conditions de leur versement pendant la période.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "handicap",
+    "raison": "Les droits visés au 2 (PCH, carte mobilité inclusion, allocation d'éducation de l'enfant handicapé, prestations de l'ordonnance de 2002) sont destinés aux personnes en situation de handicap ; leur accord peut être prolongé de douze mois au maximum.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "age_dependant",
+    "raison": "L'allocation personnalisée d'autonomie (a du 2 du A) est une prestation des personnes âgées en perte d'autonomie ; son accord peut être prolongé de douze mois au maximum.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "parent"
+  ]
+ },
+ "cout_usd": 0.0012929850000000002,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

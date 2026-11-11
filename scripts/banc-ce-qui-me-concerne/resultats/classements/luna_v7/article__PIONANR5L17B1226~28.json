@@ -1,0 +1,12 @@
+{
+ "impacts": [
+  {
+   "profil": "secteur_industrie",
+   "phrase_fr": "Les producteurs d’électricité devraient proposer au gestionnaire du réseau toute la puissance disponible de leurs installations dépassant le seuil fixé par décret.",
+   "phrase_en": "Electricity producers would have to offer the grid operator all available capacity from installations exceeding the threshold set by decree.",
+   "passage": "La totalité de la puissance techniquement disponible à la hausse et à la baisse, sur chacune des installations de production, dont la puissance installée est supérieure à un seuil fixé par décret, raccordées au réseau public de transport ou de distribution d’électricité, est mise à la disposition du gestionnaire du réseau public de transport d’électricité par les producteurs dans leurs offres sur le mécanisme d’ajustement.",
+   "certitude": "certain"
+  }
+ ],
+ "cout_usd": 0.00024985
+}

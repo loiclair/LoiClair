@@ -1,0 +1,24 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "proprietaire_bailleur",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "Le passage cité vise explicitement la condition de location 'nu à titre de résidence principale', ce qui concerne directement les propriétaires bailleurs. La phrase est fidèle et au conditionnel, conformément au statut du texte (projet de loi non adopté)."
+   },
+   {
+    "profil": "imposable",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "Le passage cité mentionne une 'déduction au titre de l’amortissement', qui s'applique aux foyers imposables. La phrase est fidèle et au conditionnel, et la déduction est bien conditionnée par des critères énergétiques."
+   }
+  ],
+  "oublis": [
+   "proprietaire_occupant",
+   "projet_achat",
+   "outre_mer"
+  ]
+ },
+ "cout_usd": 0.0083355
+}

@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "chasseur_pecheur",
+    "raison": "L’interdiction vise toute personne qui utilise ces techniques pour capturer des poissons, y compris lors d’une pêche de loisir.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "secteur_agriculture",
+    "raison": "Le profil inclut les personnes qui travaillent dans la pêche ou le secteur maritime, et l’interdiction modifie directement leurs pratiques de pêche.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00039165,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

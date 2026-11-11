@@ -1,0 +1,14 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "epargnant",
+    "concerne": false,
+    "phrase_fidele": false,
+    "raison": "Le II.B modifie l'article 150 VH bis du CGI pour exclure certains crypto-actifs d'une règle fiscale existante. Le profil 'epargnant' n'est pas directement visé par cette modification technique, qui ne change rien à sa situation concrète : les crypto-actifs mentionnés sont déjà soumis au régime fiscal des plus-values. La phrase proposée invente un effet ('pourraient être exclus') qui ne figure pas dans le texte, ce qui est infidèle."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.004966
+}

@@ -1,0 +1,14 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "heritier_donateur",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "La réduction de 30 à 15 ans du délai au terme duquel les biens d'une succession sans héritier s'étant manifesté sont réputés sans maître et reviennent à la collectivité affecte directement les héritiers de successions ouvertes depuis 2007."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00716625
+}

@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "chef_entreprise",
+    "raison": "Le taux de la déduction est majoré de 20 % pour les moyennes entreprises et de 30 % pour les petites, au sens du règlement UE 651/2014. Le dirigeant d'une PME du secteur est donc visé par la majoration, même si l'avantage passe par la société.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "secteur_transport",
+    "raison": "La déduction vise nommément les navires de transport de marchandises ou de passagers et les navires spéciaux affectés à leur activité. C'est une incitation fiscale directe au secteur du transport maritime, et non un effet par ricochet.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.001554585,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

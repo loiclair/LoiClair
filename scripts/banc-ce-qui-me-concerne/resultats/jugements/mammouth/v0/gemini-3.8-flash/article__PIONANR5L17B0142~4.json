@@ -1,0 +1,14 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "benevole",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "La définition du profil benevole inclut explicitement les volontaires en service civique, dont le temps effectif est désormais pris en compte dans le code général de la fonction publique (conditions d'accès au troisième concours)."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00539625
+}

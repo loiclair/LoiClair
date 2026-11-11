@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "handicap",
+    "raison": "L’article vise explicitement la personne handicapée et lui ouvre la possibilité de demander une évaluation limitée à certaines reconnaissances et mentions de la carte mobilité inclusion.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "age_dependant",
+    "raison": "Les bénéficiaires de l’allocation prévue à l’article L. 232-1 (l’APA) peuvent recevoir définitivement une carte mobilité inclusion selon leur groupe de classement ; ces bénéficiaires constituent un sous-groupe des personnes âgées en perte d’autonomie.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00057065,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

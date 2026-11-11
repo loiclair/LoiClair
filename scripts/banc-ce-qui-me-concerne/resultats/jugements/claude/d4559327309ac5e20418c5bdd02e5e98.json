@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etranger_hors_ue",
+    "raison": "Le dispositif vise directement « l’étranger » qui remplit les conditions et lui accorde une autorisation provisoire de séjour, avec droit au travail. Cela concerne clairement les étrangers hors UE auxquels s’applique ce régime.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00048865,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

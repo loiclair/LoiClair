@@ -1,0 +1,19 @@
+{
+ "jugement": {
+  "profils": [],
+  "oublis": [
+   "salarie_prive",
+   "fonctionnaire",
+   "independant",
+   "auto_entrepreneur",
+   "cdd_interim",
+   "salarie_particulier",
+   "travailleur_frontalier",
+   "jeune",
+   "senior",
+   "malade_chronique",
+   "etranger_hors_ue"
+  ]
+ },
+ "cout_usd": 0.0011557
+}

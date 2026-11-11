@@ -1,0 +1,156 @@
+# Import quotidien des données officielles (Assemblée, Sénat, Légifrance, HATVP, presse).
+#
+# Le travail tient dans `pipeline/nightly.py`, qui lance les imports un par un
+# dans l'ordre de sa liste `ETAPES`. Ce fichier ne fait qu'installer Python, lancer
+# l'orchestrateur, puis rendre le verdict et rafraîchir le site. Ajouter ou retirer un
+# import se fait dans `nightly.py`, jamais ici.
+name: Mise à jour quotidienne des données LoiClair
+
+on:
+  # Chaque jour, parce que le site promet une mise à jour quotidienne. Tant que le
+  # dépôt est privé, le quota gratuit de 2 000 minutes par mois est serré : environ
+  # 1 400 minutes au total, pour un run d'environ 35 minutes. Si un mois le dépasse,
+  # le levier le plus simple est `1-5` (du lundi au vendredi, le Parlement ne siégeant
+  # pas le week-end), à condition de revoir les textes du site qui disent « chaque nuit ».
+  #
+  # L'heure écrite ici n'est pas l'heure de démarrage : GitHub prend les crons avec
+  # environ quatre heures et demie de retard, à un quart d'heure près d'un jour à
+  # l'autre. Un `0 2` démarrait vers 06h30 UTC.
+  #
+  # D'où ce `0 9`, qui vise un démarrage vers 13h30 UTC. Le Sénat publie chaque nuit
+  # vers 01h26 UTC un export_sens.zip qui est un pg_dump complet et valide, mais sans
+  # aucune table : leur base d'export est vide au moment du dump. Le vrai fichier de
+  # 8,5 Mo n'arrive que vers 10h58 UTC. À 06h30, le cron tombait en plein dans ce trou
+  # tous les jours (constaté du 2026-09-02 au 2026-09-07).
+  #
+  # Le prix payé est la fraîcheur : les données du site se rafraîchissent en début
+  # d'après-midi, heure française, au lieu du matin.
+  schedule:
+    - cron: '0 9 * * *'
+  # Relance à la main : « Run workflow » sur GitHub, ou
+  #   gh workflow run sync-data-nightly.yml -f etapes=senat,questions
+  # L'email d'échec donne cette commande toute prête.
+  workflow_dispatch:
+    inputs:
+      etapes:
+        description: "Étapes à relancer, séparées par des virgules (vide : toutes). Liste dans pipeline/nightly.py"
+        required: false
+        default: ''
+      verif_complete:
+        description: "Forcer les vérifications hebdomadaires (faites d'office le lundi)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+# Une relance lancée pendant le run du jour attend sa fin au lieu d'écrire en même
+# temps que lui dans les mêmes tables.
+concurrency:
+  group: sync-data
+  cancel-in-progress: false
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+
+    # Le job n'avait d'abord aucune borne et héritait des 6 heures par défaut : un
+    # téléchargement qui pend brûlait six heures de runner avant de rendre la main.
+    # Un run complet dure environ 35 minutes, mais le Sénat peut en faire attendre 20 de
+    # plus (dump des sénateurs pas encore prêt) et des runs de 78 minutes ont été vus.
+    # Chaque étape est en outre bornée à 45 minutes par `nightly.py`, et chaque gros
+    # téléchargement à 15 par `_telechargement.py`. 90 minutes n'ont pas suffi le
+    # 2026-10-12 : l'Assemblée, lente toute la nuit, avait ajouté 25 minutes aux
+    # premières étapes avant que les amendements n'en prennent 45, et le job a été tué
+    # avant les huit dernières.
+    timeout-minutes: 120
+
+    # Tous les secrets au même endroit : chaque script ne lit que ceux dont il a besoin.
+    env:
+      # Connexion Postgres de `_db.connexion` (P1, D-325), variables libpq standard :
+      # la base du VPS, au bout du tunnel ouvert plus bas (D-327). Sans TLS : le
+      # tunnel chiffre déjà, et Postgres n'écoute que sur 127.0.0.1 du VPS.
+      PGHOST: 127.0.0.1
+      PGPORT: '5432'
+      PGSSLMODE: disable
+      PGDATABASE: ${{ secrets.VPS_PGDATABASE }}
+      PGUSER: ${{ secrets.VPS_PGUSER }}
+      PGPASSWORD: ${{ secrets.VPS_PGPASSWORD }}
+      LEGIFRANCE_CLIENT_ID: ${{ secrets.LEGIFRANCE_CLIENT_ID }}
+      LEGIFRANCE_CLIENT_SECRET: ${{ secrets.LEGIFRANCE_CLIENT_SECRET }}
+      MAMMOUTH_API_KEY: ${{ secrets.MAMMOUTH_API_KEY }}
+      ANTHROPIC_API_KEY_DOSSIER_SUMMARIES: ${{ secrets.ANTHROPIC_API_KEY_DOSSIER_SUMMARIES }}
+      RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+      # Lues par `nightly.py` et par `bilan_nightly.py`, qui doivent voir la même
+      # sélection. Vides sur le cron.
+      ETAPES: ${{ inputs.etapes }}
+      VERIF_COMPLETE: ${{ inputs.verif_complete && '1' || '' }}
+      PYTHONUNBUFFERED: '1'
+
+    steps:
+      - name: Checkout du code
+        uses: actions/checkout@v7
+
+      - name: Installer Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: pipeline/requirements.txt
+
+      # Sans dépendances, rien ne peut tourner : cet échec-là doit arrêter le job.
+      - name: Installer les dépendances
+        run: pip install -r pipeline/requirements.txt
+
+      # Sans tunnel, aucune étape ne joint la base : cet échec-là arrête aussi le
+      # job. Le battement de l'action garde le tunnel ouvert les 120 minutes.
+      - name: Tunnel vers la base du VPS
+        uses: ./.github/actions/tunnel-base
+        with:
+          host: ${{ secrets.VPS_HOST }}
+          key: ${{ secrets.VPS_TUNNEL_KEY }}
+          known_hosts: ${{ secrets.VPS_KNOWN_HOSTS }}
+
+      # Sort toujours en 0 : le verdict appartient à l'étape suivante.
+      - name: Imports
+        run: python pipeline/nightly.py
+
+      # Étape à part, et `always()`, pour tourner même quand le job a été tué par son
+      # timeout : les étapes qui n'ont rien déposé comptent alors comme échouées. C'est
+      # la seule étape qui fait échouer le job, et la seule qui écrit la date de
+      # fraîcheur affichée par le site (jamais après une relance partielle, D-082).
+      - name: Bilan
+        if: always()
+        env:
+          GITHUB_RUN_ID: ${{ github.run_id }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: python pipeline/bilan_nightly.py
+
+      # Rafraîchit les pages figées du site (liste dans src/app/api/revalidate/route.ts).
+      # Après le Bilan, parce que c'est lui qui écrit la date du badge « Dernière mise à
+      # jour » : avant, la page régénérée afficherait celle de la veille. `!cancelled()`
+      # et non `success()` : le Bilan fait échouer le job dès qu'une étape a raté, mais
+      # les données des étapes réussies sont valides et méritent d'être affichées.
+      # `--fail-with-body` pour garder le corps d'un 401 ou d'un 500 dans le log.
+      - name: Rafraîchir le site
+        if: ${{ !cancelled() }}
+        run: |
+          curl -L --fail-with-body -X POST "${{ secrets.SITE_URL }}/api/revalidate" \
+            -H "Authorization: Bearer ${{ secrets.VPS_REVALIDATE_SECRET }}"
+
+      # La sélection des scrutins du quiz "affinité politique" tourne mensuellement,
+      # dans son propre workflow (select-quiz-scrutins-monthly.yml).
+
+  # Un job et non une étape : `purge-cloudflare.yml` sert aussi à `/release`, et ce job
+  # part à la fin d'`update-data`, donc après `/api/revalidate`, y compris si cet appel
+  # a échoué ou n'a pas eu lieu (job tué par son timeout). Même règle `!cancelled()` que l'étape
+  # « Rafraîchir le site », pour la même raison : le Bilan fait échouer le job dès
+  # qu'une étape a raté, et les données réussies doivent arriver aux lecteurs.
+  purge-cache:
+    needs: update-data
+    if: ${{ !cancelled() }}
+    uses: ./.github/workflows/purge-cloudflare.yml
+    secrets:
+      CLOUDFLARE_ZONE_ID: ${{ secrets.CLOUDFLARE_ZONE_ID }}
+      CLOUDFLARE_PURGE_TOKEN: ${{ secrets.CLOUDFLARE_PURGE_TOKEN }}
+      RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}

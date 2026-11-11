@@ -1,0 +1,28 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "salarie_prive",
+    "raison": "Le texte vise explicitement les salariés : l’employeur doit les informer des frais et coûts applicables au déblocage des sommes de participation ou d’intéressement.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "chef_entreprise",
+    "raison": "L’obligation d’information est imposée à l’employeur ; elle concerne donc aussi les dirigeants ou employeurs de petites et moyennes entreprises.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "dirigeant_grande_entreprise",
+    "raison": "L’obligation d’information est imposée à l’employeur ; elle concerne aussi les dirigeants d’entreprises de 250 salariés ou plus.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000647025,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

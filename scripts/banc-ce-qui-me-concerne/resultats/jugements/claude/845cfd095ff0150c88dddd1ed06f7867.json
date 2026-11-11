@@ -1,0 +1,35 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "futur_parent",
+    "raison": "Le texte vise les personnes engagées dans une FIV, donc un projet d'enfant (définition : « a un projet d'enfant »). L'examen leur est directement proposé.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "marie_pacse",
+    "raison": "Le texte parle de « couple » sans préciser le statut conjugal (mariage, PACS ou concubinage). Statut prêté : la situation de couple n'est pas mentionnée.",
+    "concerne": false,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "concubin",
+    "raison": "Le texte parle seulement de « couple » ou de « la femme », sans distinguer union libre, mariage ou PACS. Statut prêté, la mesure vaut quelle que soit la situation de couple.",
+    "concerne": false,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "celibataire",
+    "raison": "Le texte dit « la femme ou les deux membres du couple » sans mentionner le célibat. La mesure vaut quelle que soit la situation de couple, donc elle ne vise pas cette réponse en particulier.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0043947,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

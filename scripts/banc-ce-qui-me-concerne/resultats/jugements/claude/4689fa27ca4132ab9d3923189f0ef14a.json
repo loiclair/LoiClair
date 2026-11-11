@@ -1,0 +1,32 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "proprietaire_occupant",
+    "raison": "Le III bis de l'article 278-0 bis A écarte le taux réduit pour les prestations de rénovation énergétique incluant une chaudière fossile. Le propriétaire qui fait réaliser ces travaux dans son logement paie le taux normal. Le texte ne nomme pas le propriétaire, mais ces travaux sont achetés par les propriétaires.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "secteur_btp",
+    "raison": "Le 2 bis de l'article 279-0 bis fixe le taux normal pour les travaux d'installation de chaudières fossiles, qui relèvent du bâtiment. Les entreprises du secteur facturent ces travaux à un autre taux de TVA. La phrase omet l'exception des devis acceptés et acomptés avant le 1er mars 2025, sans la rendre fausse.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "auto_entrepreneur",
+    "raison": "Le 7° b du I de l'article 293 B fixe le plafond de la franchise en base de TVA à 25 000 euros (année précédente) et 27 500 euros (année en cours), et la franchise cesse dès le dépassement. Ces règles s'appliquent aux micro-entrepreneurs, qui relèvent de cette franchise dans le régime de la micro-entreprise.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "chef_entreprise",
+   "independant"
+  ]
+ },
+ "cout_usd": 0.002933435,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

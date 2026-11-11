@@ -1,0 +1,33 @@
+{
+ "impacts": [
+  {
+   "profil": "etranger_hors_ue",
+   "passage": "La première délivrance d'un titre de séjour donne lieu à la perception d'une taxe dont le montant est fixé à 300 euros.",
+   "certitude": "certain",
+   "phrase_en": "The first residence permit now costs 300 euros, and its renewal 200 euros, with reduced amounts for some cards.",
+   "phrase_fr": "La première délivrance d'un titre de séjour coûte désormais 300 euros, et son renouvellement 200 euros, avec des montants réduits pour certaines cartes."
+  },
+  {
+   "profil": "automobiliste",
+   "passage": "« 1° 25 euros dans le cas mentionné au 1° de l'article L. 421-169 ;",
+   "certitude": "certain",
+   "phrase_en": "Replacing a lost, unpresented or damaged driving licence now costs 25 euros, and exchanging a foreign licence costs 40 euros.",
+   "phrase_fr": "Le remplacement d'un permis de conduire perdu, non présenté ou détérioré coûte désormais 25 euros, et l'échange d'un permis étranger 40 euros."
+  },
+  {
+   "profil": "salarie_prive",
+   "passage": "Une contribution pour l'aide juridique de 50 euros est perçue par instance introduite en matière civile et prud'homale devant un tribunal judiciaire ou un conseil des prud'hommes.",
+   "certitude": "probable",
+   "phrase_en": "Bringing a claim before the labour tribunal now requires a 50-euro contribution, except for legal aid beneficiaries.",
+   "phrase_fr": "Saisir les prud'hommes coûte désormais une contribution de 50 euros, sauf pour les bénéficiaires de l'aide juridictionnelle."
+  },
+  {
+   "profil": "independant",
+   "passage": "Ce produit est affecté au paiement des avocats par l'intermédiaire des caisses des règlements pécuniaires des avocats.",
+   "certitude": "probable",
+   "phrase_en": "Proceeds from the new contribution are now used to pay lawyers who handle legal aid cases, through their payment funds.",
+   "phrase_fr": "Le produit de la nouvelle contribution sert désormais à payer les avocats qui assurent l'aide juridictionnelle, par l'intermédiaire de leurs caisses."
+  }
+ ],
+ "resume_fr": null
+}

@@ -1,0 +1,26 @@
+{
+ "impacts": [
+  {
+   "profil": "etranger_hors_ue",
+   "passage": "Si le conjoint est titulaire d’une carte de résident, l’étranger se voit délivrer une carte de séjour pluriannuelle “vie privée et familiale” d’une durée de quatre ans.",
+   "certitude": "certain",
+   "phrase_en": "The spouse of a resident card holder would be able to get a four-year 'private and family life' residence permit.",
+   "phrase_fr": "Le conjoint d'un titulaire de carte de résident pourrait obtenir une carte de séjour « vie privée et familiale » de quatre ans."
+  },
+  {
+   "profil": "mineur",
+   "passage": "Si l’un des parents au moins est titulaire d’une carte de résident, l’étranger se voit délivrer, dans l’année suivant son dix-huitième anniversaire ou entre ses seize et dix-huit ans",
+   "certitude": "certain",
+   "phrase_en": "Between 16 and 18, a foreign child with a resident parent would be able to get a four-year residence permit, under conditions.",
+   "phrase_fr": "Entre 16 et 18 ans, un enfant étranger dont un parent est résident pourrait obtenir une carte de séjour de quatre ans, sous conditions."
+  },
+  {
+   "profil": "jeune",
+   "passage": "dans l’année suivant son dix-huitième anniversaire",
+   "certitude": "probable",
+   "phrase_en": "Within a year of turning 18, a young foreigner with a resident parent would be able to receive a four-year residence permit.",
+   "phrase_fr": "Dans l'année suivant ses 18 ans, un jeune étranger dont un parent est résident pourrait recevoir une carte de séjour de quatre ans."
+  }
+ ],
+ "resume_fr": null
+}

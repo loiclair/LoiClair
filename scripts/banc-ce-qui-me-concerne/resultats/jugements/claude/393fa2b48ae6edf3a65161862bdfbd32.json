@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "fonctionnaire",
+    "raison": "Le texte vise expressément les membres du personnel de l’enseignement supérieur agricole public et permet leur suspension par le ministre, sans privation de traitement.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "secteur_education",
+    "raison": "Le texte modifie directement la composition et le fonctionnement des instances disciplinaires de l’enseignement supérieur agricole, qui concernent les personnels de l’enseignement et de la recherche. Toutefois, la phrase généralise la règle : le Conseil national comprend aussi un président conseiller d’État, et la condition de rang égal ou supérieur ne vaut pas pour toutes les instances.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00077265,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

@@ -1,0 +1,28 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "veuf",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'amendement modifie l'article 195 du CGI qui accorde une demi-part fiscale aux 'veuves'. Le profil 'veuf' est donc directement visé et le résumé est fidèle au dispositif et à l'exposé. Le conditionnel est bien utilisé."
+   },
+   {
+    "profil": "ancien_combattant",
+    "concerne": false,
+    "phrase_fidele": false,
+    "raison": "L'amendement modifie les conditions d'octroi de la demi-part pour les veuves, en ajoutant un titre qui peut être détenu par le conjoint décédé. Cela ne change rien de concret et directement pour le descendant ou le conjoint survivant qui serait lui-même un 'ancien combattant' vivant. Le profil n'est donc pas concerné par cette modification."
+   },
+   {
+    "profil": "imposable",
+    "concerne": false,
+    "phrase_fidele": false,
+    "raison": "L'octroi ou l'extension d'une demi-part fiscale supplémentaire ne concerne que les personnes effectivement imposables. Cependant, la consigne précise qu'un article qui concerne 'tout le monde de la même façon ne concerne aucun profil en particulier'. Parmi les veuves, certaines ne sont pas imposables car leurs revenus sont en dessous du seuil. L'effet sur les seules veuves imposables est une sous-catégorie des personnes visées par l'article. Le profil 'imposable' n'est donc pas directement et exclusivement ciblé par cette mesure qui s'applique uniformément à toutes les veuves éligibles."
+   }
+  ],
+  "oublis": [
+   "senior"
+  ]
+ },
+ "cout_usd": 0.0027452
+}

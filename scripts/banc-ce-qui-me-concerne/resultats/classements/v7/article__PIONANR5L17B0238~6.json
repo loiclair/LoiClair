@@ -1,0 +1,12 @@
+{
+ "impacts": [
+  {
+   "profil": "secteur_sante",
+   "phrase_fr": "Les professionnels de santé ne pourraient plus opposer le secret médical lorsqu'ils collectent les données de l'aide médicale de l'État ou des soins urgents.",
+   "phrase_en": "Health professionals would no longer be able to invoke medical confidentiality when collecting data for state medical aid or urgent care.",
+   "passage": "Lorsque ces données sont collectées par l’intermédiaire d’un professionnel de santé, le secret médical n’est pas opposable.",
+   "certitude": "probable"
+  }
+ ],
+ "cout_usd": 0.00093231
+}

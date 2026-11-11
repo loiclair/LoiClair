@@ -1,0 +1,19 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_education",
+    "raison": "L'article impose une obligation d'équipement aux établissements scolaires du premier et du second degré, ce qui change les obligations professionnelles et les conditions d'exercice de ceux qui y travaillent (règle d'exploitation d'un établissement). Les enseignants et personnels de ces établissements sont visés.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "chef_entreprise"
+  ]
+ },
+ "cout_usd": 0.0021506999999999997,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

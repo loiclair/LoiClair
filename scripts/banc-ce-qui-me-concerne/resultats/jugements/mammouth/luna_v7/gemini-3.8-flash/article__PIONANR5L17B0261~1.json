@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etudiant",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article modifie directement les critères d'attribution des aides destinées aux étudiants en introduisant une condition de priorité liée à la nationalité."
+   },
+   {
+    "profil": "etranger_ue",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "Les ressortissants d'un État membre de l'Union européenne sont expressément visés parmi les bénéficiaires prioritaires de l'aide servie aux étudiants."
+   }
+  ],
+  "oublis": [
+   "etranger_hors_ue"
+  ]
+ },
+ "cout_usd": 0.007041
+}

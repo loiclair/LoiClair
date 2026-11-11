@@ -1,0 +1,29 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etranger_hors_ue",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article conditionne clairement l'accès à plusieurs prestations et allocations pour les étrangers non ressortissants de l'UE à une durée de séjour régulier, et prévoit des exceptions explicites pour certains statuts. La phrase résume parfaitement ce changement sans rien inventer."
+   },
+   {
+    "profil": "parent",
+    "concerne": false,
+    "phrase_fidele": false,
+    "raison": "L'article ne vise pas les 'parents' en tant que tels, mais les allocataires de prestations familiales selon leur nationalité. La condition s'applique à la personne qui demande la prestation, qui peut ne pas être un parent (ex: tuteur). La phrase est infidèle car elle restreint le changement à une catégorie qui n'est pas directement visée par le texte. Un parent étranger hors UE est déjà concerné par le profil 'etranger_hors_ue', un parent français ne l'est pas du tout. Le profil 'parent' n'est donc pas directement concerné par cette mesure."
+   },
+   {
+    "profil": "age_dependant",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article II modifie le code de l'action sociale et des familles pour l'allocation personnalisée d'autonomie (APA), qui est bien l'allocation pour la perte d'autonomie des personnes âgées. La condition de séjour de deux ans est explicitement ajoutée pour les étrangers non-UE. La phrase est correcte et fidèle."
+   }
+  ],
+  "oublis": [
+   "locataire",
+   "heberge"
+  ]
+ },
+ "cout_usd": 0.0034229
+}

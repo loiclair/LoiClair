@@ -1,0 +1,11 @@
+{
+ "jugement": {
+  "profils": [],
+  "oublis": [
+   "automobiliste"
+  ]
+ },
+ "cout_usd": 0.0003199,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "forces_ordre",
+    "raison": "Le texte précise le régime des actes d'infiltration, de surveillance et de provocation autorisés (code de procédure pénale, douanes) : il protège les agents autorisés (policiers, gendarmes, douaniers) en précisant que leurs actes ne sont pas une incitation à l'infraction. Cela modifie leurs règles de métier ; les policiers et gendarmes sont directement visés.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0026016999999999998,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

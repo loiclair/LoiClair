@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "demandeur_emploi",
+    "raison": "Le texte vise des personnes « sans emploi », mais le profil demandeur_emploi exige d’être inscrit à France Travail. Cette inscription n’est pas mentionnée : le profil n’est donc pas directement visé.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000317025,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

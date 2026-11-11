@@ -1,0 +1,47 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "outre_mer",
+    "raison": "L'article vise les assurés résidant à Mayotte, collectivité d'outre-mer : le maintien des droits sociaux les concerne directement en raison de leur lieu de vie.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "handicap",
+    "raison": "Le II prolonge les droits liés au handicap (PCH, carte mobilité inclusion, AEEH) accordés par la CDAPH : les personnes handicapées sont visées directement. La phrase est fidèle, même si elle omet que la mesure ne vaut qu'à Mayotte ; elle est à l'indicatif alors que la loi est publiée.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "age_dependant",
+    "raison": "L'allocation personnalisée d'autonomie (APA) est expressément citée au II.A.2.a parmi les droits prolongés : les personnes âgées dépendantes sont visées.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "parent",
+    "raison": "L'allocation d'éducation de l'enfant handicapé et ses compléments sont prolongés et les mesures d'insertion scolaire sont reconduites : cela touche directement les parents d'enfants handicapés. La phrase indique que les mesures scolaires sont reconduites sans décision de la commission, ce qui est conforme au texte.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "allocataire",
+    "raison": "Le I prévoit le maintien des prestations sociales et l'aide personnelle au logement (APL) peut être versée malgré le non-respect de certaines exigences : les allocataires d'aides au logement sont visés. La phrase est approximative, car la sous-location partielle est une dérogation distincte de l'absence de respect des exigences de l'art. L822-9, mais elle reste globalement fidèle (« par exemple »). Elle est toutefois légèrement inexacte puisque la sous-location relève d'un autre alinéa de dérogation.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "locataire",
+    "raison": "Le texte vise les bénéficiaires d'aides personnelles au logement dont le local est loué ou sous-loué en partie ; cette situation concerne les occupants du logement qui peuvent être locataires, mais le texte ne mentionne pas explicitement le statut de locataire. L'effet repose sur la qualité de bénéficiaire d'aide, pas sur celle de locataire.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0083637,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

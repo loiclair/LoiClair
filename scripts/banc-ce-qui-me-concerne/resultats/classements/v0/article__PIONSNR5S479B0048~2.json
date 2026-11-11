@@ -1,0 +1,26 @@
+{
+ "impacts": [
+  {
+   "profil": "etranger_hors_ue",
+   "passage": "qui sont titulaires, depuis au moins deux ans, d’un titre ou d’un document qui atteste de la régularité de leur situation au regard du droit au séjour.",
+   "certitude": "certain",
+   "phrase_en": "Non-EU foreigners living in France would need a residence permit held for at least two years to receive certain family benefits; refugees, protected persons and stateless people would be exempt.",
+   "phrase_fr": "Les étrangers hors UE vivant en France devraient avoir un titre de séjour depuis au moins deux ans pour recevoir certaines aides familiales ; réfugiés, protégés et apatrides en seraient dispensés."
+  },
+  {
+   "profil": "parent",
+   "passage": "qui sont titulaires, depuis au moins deux ans, d’un titre ou d’un document qui atteste de la régularité de leur situation au regard du droit au séjour.",
+   "certitude": "probable",
+   "phrase_en": "Certain family benefits would only be granted to non-EU foreign parents after two years of legal residence in France.",
+   "phrase_fr": "Certaines prestations familiales pourraient n’être accordées aux parents étrangers hors UE qu’après deux ans de séjour régulier en France."
+  },
+  {
+   "profil": "age_dependant",
+   "passage": "Pour bénéficier de l’allocation mentionnée au premier alinéa, l’étranger non ressortissant de l’Union européenne doit être titulaire, depuis au moins deux ans, d’un titre ou d’un document qui atteste de la régularité de sa situation au regard du droit au séjour.",
+   "certitude": "probable",
+   "phrase_en": "An allowance for loss of autonomy in older people would require non-EU foreigners to have held legal residence for two years before applying.",
+   "phrase_fr": "Une allocation pour la perte d’autonomie des personnes âgées pourrait exiger deux ans de séjour régulier aux étrangers hors UE qui la demandent."
+  }
+ ],
+ "resume_fr": null
+}

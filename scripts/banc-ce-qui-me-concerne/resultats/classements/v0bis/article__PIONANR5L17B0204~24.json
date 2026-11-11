@@ -1,0 +1,40 @@
+{
+ "impacts": [
+  {
+   "profil": "mineur",
+   "phrase_fr": "Les personnes mineures ne pourraient pas accéder à l’aide à mourir, réservée aux personnes âgées d’au moins dix-huit ans.",
+   "phrase_en": "Minors would not be able to access assisted dying, which would be reserved for people aged at least eighteen.",
+   "passage": "Être âgée d’au moins dix‑huit ans ;",
+   "certitude": "certain"
+  },
+  {
+   "profil": "jeune",
+   "phrase_fr": "Les personnes de 18 à 25 ans pourraient accéder à l’aide à mourir, à condition d’avoir au moins dix-huit ans et de remplir les autres conditions.",
+   "phrase_en": "People aged 18 to 25 could access assisted dying, provided they are at least eighteen and meet the other conditions.",
+   "passage": "Être âgée d’au moins dix‑huit ans ;",
+   "certitude": "probable"
+  },
+  {
+   "profil": "etranger_hors_ue",
+   "phrase_fr": "Les étrangers hors Union européenne vivant en France pourraient y accéder à condition d’y résider de façon stable et régulière, par exemple avec un titre de séjour.",
+   "phrase_en": "Non-EU foreigners living in France could access it if they reside there in a stable and lawful way, for example with a residence permit.",
+   "passage": "Être de nationalité française ou résider de façon stable et régulière en France ;",
+   "certitude": "probable"
+  },
+  {
+   "profil": "etranger_ue",
+   "phrase_fr": "Les ressortissants d’un autre pays de l’Union européenne vivant en France pourraient y accéder s’ils y résident de façon stable et régulière.",
+   "phrase_en": "EU nationals living in France could access it if they reside there in a stable and lawful way.",
+   "passage": "Être de nationalité française ou résider de façon stable et régulière en France ;",
+   "certitude": "probable"
+  },
+  {
+   "profil": "malade_chronique",
+   "phrase_fr": "Les personnes atteintes d’une affection grave et incurable, en phase avancée ou terminale, pourraient demander l’aide à mourir si elles remplissent les autres conditions.",
+   "phrase_en": "People with a serious, incurable illness in an advanced or terminal stage could request assisted dying if they meet the other conditions.",
+   "passage": "Être atteinte d’une affection grave et incurable, qui engage le pronostic vital, en phase avancée ou terminale ;",
+   "certitude": "probable"
+  }
+ ],
+ "cout_usd": 0.00138915
+}

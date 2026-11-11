@@ -1,0 +1,29 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "heritier_donateur",
+    "raison": "Le texte vise directement les dons entre donateur et donataire (taux de 6 % ou 5 % sous condition, déclaration dans le mois), pour celui qui transmet comme pour celui qui reçoit.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "jeune",
+    "raison": "La mesure s'applique aux donataires de 18 ans à moins de 50 ans. L'âge de 18 à 25 ans n'est pas le critère retenu, le texte ne vise pas les jeunes en tant que tels.",
+    "concerne": false,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "mineur",
+    "raison": "L'émancipation n'existe que pour les mineurs. Un mineur émancipé de moins de 50 ans, donataire, entre donc dans le champ de la mesure, ce qui en fait un sous-groupe des mineurs.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.001632335,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

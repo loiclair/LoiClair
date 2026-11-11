@@ -1,0 +1,30 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "fonctionnaire",
+    "raison": "Le texte modifie le calcul de la pension des personnels relevant du code, dont les fonctionnaires de l’État, en appliquant un coefficient territorial au traitement retenu.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "outre_mer",
+    "raison": "Le dispositif vise explicitement les personnels résidant effectivement en Nouvelle-Calédonie, à Wallis-et-Futuna ou en Polynésie française, sous conditions.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "retraite",
+    "raison": "La mesure concerne la liquidation de pensions à venir, pas les personnes déjà retraitées ; le profil retraite est strictement limité à ces dernières.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "forces_ordre"
+  ]
+ },
+ "cout_usd": 0.001174775,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

@@ -1,0 +1,41 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "mineur",
+    "raison": "L'art. L. 256-4 2° vise expressément le mineur victime de violences d'un ascendant : sa situation d'autorité parentale passe au juge spécialisé.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "parent",
+    "raison": "Les parents auteurs ou victimes de violences voient leur autorité parentale et leurs poursuites relever du juge spécialisé (L. 256-4, L. 255-1 4°). Mais la phrase dit « accusé de violences sur son enfant » alors que le texte vise aussi les violences au sein du couple ; reste fidèle pour le cas cité.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "separe_divorce",
+    "raison": "Le texte vise expressément les violences commises par un ancien conjoint, concubin ou partenaire (L. 255-1 2°, L. 256-4 1°), donc les personnes séparées ou divorcées.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "concubin",
+    "raison": "Le texte vise expressément le concubin, y compris sans cohabitation (L. 255-1 1°) : la juridiction compétente change pour les violences dans le couple.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "marie_pacse",
+    "raison": "Le texte vise expressément le conjoint et le partenaire de PACS, même sans cohabitation (L. 255-1 1°).",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0068607,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

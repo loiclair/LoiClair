@@ -1,0 +1,28 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "animal",
+    "raison": "Le texte vise explicitement les livraisons d’équidés et les prestations liées à leur exploitation ou à la pratique de l’équitation ; les propriétaires de chevaux peuvent donc être concernés par le prix de ces achats ou services.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "secteur_agriculture",
+    "raison": "Le texte fixe des taux selon les transactions, sans viser les agriculteurs ou les éleveurs en tant que secteur professionnel.",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "chef_entreprise",
+    "raison": "La mesure concerne les prestations et livraisons visées, quel que soit le statut ou la taille de leur fournisseur ; elle ne désigne pas les dirigeants de petites entreprises comme tels.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0009449,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

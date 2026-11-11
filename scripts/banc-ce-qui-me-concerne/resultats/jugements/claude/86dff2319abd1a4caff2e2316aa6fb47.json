@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etranger_hors_ue",
+    "raison": "L'article L. 423-22 du CESEDA vise les étrangers confiés à l'ASE avant 18 ans, qui obtiendraient de plein droit une carte de séjour de quatre ans : un étranger hors UE vivant en France est directement visé.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "jeune",
+    "raison": "Le texte vise les jeunes arrivant à 18 ans issus de l'ASE (l'exposé parle de les régulariser à leurs 18 ans), ce qui recoupe la tranche 18-25 ans. Il y a un petit flou : la phrase de l'assistant ne précise pas l'élément d'extranéité.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0034926999999999996,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

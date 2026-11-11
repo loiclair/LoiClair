@@ -1,0 +1,12 @@
+{
+ "impacts": [
+  {
+   "profil": "elu_local",
+   "phrase_fr": "Le conseiller municipal suivant sur la liste pourrait devenir suppléant d'un conseiller communautaire et siéger à sa place en cas d'absence.",
+   "phrase_en": "The next municipal councillor on the list would become a substitute for an intercommunal councillor and could sit in their place when they are absent.",
+   "passage": "le conseiller suppléant mentionné au dernier alinéa de l’article L. 5211‑6 du code général des collectivités territoriales est le candidat élu conseiller municipal suivant",
+   "certitude": "certain"
+  }
+ ],
+ "cout_usd": 0.00166847
+}

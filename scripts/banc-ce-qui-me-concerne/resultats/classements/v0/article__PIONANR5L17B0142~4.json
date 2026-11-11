@@ -1,0 +1,19 @@
+{
+ "impacts": [
+  {
+   "profil": "benevole",
+   "passage": "sont insérés les mots : « ainsi que le temps effectif du service civique »",
+   "certitude": "certain",
+   "phrase_en": "Effective civic service time would be counted under certain public service rules, alongside professional training.",
+   "phrase_fr": "Le temps effectif de service civique pourrait être pris en compte dans certaines règles de la fonction publique, en plus de la formation professionnelle."
+  },
+  {
+   "profil": "fonctionnaire",
+   "passage": "sont insérés les mots : « ainsi que le temps effectif du service civique »",
+   "certitude": "possible",
+   "phrase_en": "Public service rules would possibly count effective civic service time, alongside professional training.",
+   "phrase_fr": "Les règles de la fonction publique pourraient prendre en compte le temps effectif de service civique, à côté de la formation professionnelle."
+  }
+ ],
+ "resume_fr": null
+}

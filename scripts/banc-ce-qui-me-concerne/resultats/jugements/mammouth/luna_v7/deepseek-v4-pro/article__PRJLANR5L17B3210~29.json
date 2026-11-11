@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "epargnant",
+    "concerne": false,
+    "phrase_fidele": false,
+    "raison": "L'article modifie le champ d'application d'une règle fiscale en excluant certains crypto-actifs. Cela concerne un épargnant qui détient ou cède ces actifs spécifiques, et pas l'ensemble du groupe. Cependant, le texte ne crée pas d'effet direct et concret pour tous les épargnants : seuls ceux possédant ces crypto-actifs précis seraient touchés, et l'exclusion est trop technique pour être un changement significatif des droits ou obligations sans autre précision. L'effet est trop indirect ou hypothétique pour être retenu comme 'concret'. De plus, la phrase proposée est fidèle au texte (conditionnel respecté, fait exact), mais le profil ne remplit pas le critère de l'effet direct et concret."
+   }
+  ],
+  "oublis": [
+   "automobiliste"
+  ]
+ },
+ "cout_usd": 0.005187
+}

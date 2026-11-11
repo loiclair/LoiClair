@@ -1,0 +1,33 @@
+{
+ "impacts": [
+  {
+   "profil": "locataire",
+   "passage": "Le loyer de base des logements mis en location dans le territoire concerné est fixé librement entre les parties lors de la conclusion du contrat de bail dans la limite du loyer de référence.",
+   "certitude": "certain",
+   "phrase_en": "The rent of your rented home would be capped by a reference rent set each year by decree, and you could ask for a reduction if the rent exceeds this cap.",
+   "phrase_fr": "Le loyer de votre logement loué serait limité par un loyer de référence fixé chaque année par arrêté, et une baisse pourrait être demandée si le loyer dépasse ce plafond."
+  },
+  {
+   "profil": "proprietaire_bailleur",
+   "passage": "Une action en diminution de loyer peut être engagée si le loyer de base prévu dans le contrat de bail est supérieur au loyer de référence en vigueur à la date de sa publication par arrêté.",
+   "certitude": "certain",
+   "phrase_en": "The rent you set for your rental homes would be capped by a reference rent, and the tenant could request a reduction if the rent exceeds this cap.",
+   "phrase_fr": "Le loyer que vous fixez pour vos logements loués serait plafonné par un loyer de référence, et le locataire pourrait demander une baisse si le loyer dépasse ce plafond."
+  },
+  {
+   "profil": "meuble_tourisme",
+   "passage": "Les dispositions du présent article relatives à l’encadrement des loyers sont étendues aux logements meublés touristiques définis à l’article L. 324‑1‑1 du code du tourisme",
+   "certitude": "certain",
+   "phrase_en": "Rent control rules would also apply to your furnished short-term rental, including outside tight housing areas.",
+   "phrase_fr": "Les règles d'encadrement des loyers s'appliqueraient aussi à votre logement meublé loué en courte durée, y compris hors zones tendues."
+  },
+  {
+   "profil": "etudiant",
+   "passage": "Les loyers des logements meublés utilisés à des fins touristiques et ceux des résidences étudiantes privées sont soumis aux mêmes règles d’encadrement des loyers que les logements à usage d’habitation principale",
+   "certitude": "probable",
+   "phrase_en": "If you live in a private student residence, your rent could be controlled under the same rules as main residential homes.",
+   "phrase_fr": "Si vous logez dans une résidence étudiante privée, le loyer pourrait être encadré par les mêmes règles que les logements d'habitation principale."
+  }
+ ],
+ "resume_fr": null
+}

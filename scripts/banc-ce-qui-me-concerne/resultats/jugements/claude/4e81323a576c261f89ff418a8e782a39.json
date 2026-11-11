@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "imposable",
+    "raison": "Le texte ajoute une demi-part au quotient familial pour le contribuable qui assume la charge d'au moins deux enfants. Cela modifie directement l'impôt sur le revenu des foyers concernés.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "parent",
+    "raison": "La mesure vise le contribuable qui assume la charge d'au moins deux enfants, donc un parent ou responsable légal d'enfants à charge. Le 2° répartit aussi la majoration entre les deux parents d'un enfant réputé à charge égale.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00038933500000000004,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

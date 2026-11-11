@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "chef_entreprise",
+    "raison": "L'amendement vise l'entreprise elle-même, selon sa sinistralité, son manquement à l'obligation de sécurité ou sa responsabilité pénale, et non le dirigeant en tant que tel. Le dirigeant n'est atteint que par ricochet, si son entreprise est exclue puis autorisée à reprendre des stagiaires ou apprentis (règle 1 : effet passant par l'entreprise).",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000652785,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

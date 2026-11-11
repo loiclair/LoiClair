@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "elu_local",
+    "raison": "Le texte désigne le conseiller suppléant (conseiller municipal) qui siège avec voix délibérative en cas d'absence du conseiller communautaire titulaire. Cela change les règles pour les élus municipaux et intercommunaux.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0023066999999999996,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

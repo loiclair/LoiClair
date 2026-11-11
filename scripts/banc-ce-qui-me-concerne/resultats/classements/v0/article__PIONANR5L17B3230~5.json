@@ -1,0 +1,26 @@
+{
+ "impacts": [
+  {
+   "profil": "chef_entreprise",
+   "passage": "Les cessions d’entreprises, réalisées à titre gratuit ou onéreux, ouvrent droit à un crédit d’impôt égal à 50 % des droits de mutation à titre gratuit ou onéreux dus, dans la limite d’un plafond de 100 000 euros par cession.",
+   "certitude": "certain",
+   "phrase_en": "A tax credit would cover half of the transfer duties when you sell or buy a business, capped at 100,000 euros, if the buyer keeps it running for five years.",
+   "phrase_fr": "Un crédit d'impôt pourrait couvrir la moitié des droits de mutation lors de la cession de votre entreprise, plafonné à 100 000 euros, à condition de la garder cinq ans."
+  },
+  {
+   "profil": "heritier_donateur",
+   "passage": "Les cessions d'entreprises, réalisées à titre gratuit ou onéreux, ouvrent droit à un crédit d'impôt égal à 50 % des droits de mutation à titre gratuit ou onéreux dus,",
+   "certitude": "probable",
+   "phrase_en": "Receiving a business by gift or inheritance would entitle the recipient to a tax credit covering half of the transfer duties due.",
+   "phrase_fr": "Recevoir une entreprise par donation ou succession pourrait donner droit à un crédit d'impôt couvrant la moitié des droits de mutation dus."
+  },
+  {
+   "profil": "independant",
+   "passage": "La cession doit porter sur des entreprises individuelles, des sociétés de personnes, ou des sociétés de capitaux, sous réserve que le cédant ait exercé son activité pendant au moins cinq ans ;",
+   "certitude": "possible",
+   "phrase_en": "Taking over a sole-trader business whose seller ran it for at least five years would open access to the tax credit.",
+   "phrase_fr": "Reprendre une entreprise individuelle dont le cédant a exercé l'activité au moins cinq ans pourrait ouvrir droit au crédit d'impôt."
+  }
+ ],
+ "resume_fr": null
+}

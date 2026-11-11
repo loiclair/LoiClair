@@ -1,0 +1,33 @@
+{
+ "impacts": [
+  {
+   "profil": "parent",
+   "passage": "Le nombre de parts de quotient familial est augmenté d’une demi‑part lorsque le contribuable assume la charge exclusive ou principale d’au moins deux enfants ;",
+   "certitude": "certain",
+   "phrase_en": "A parent with at least two children in their charge would be granted an extra half-share of family quotient for income tax calculation.",
+   "phrase_fr": "Un parent d'au moins deux enfants à charge se verrait accorder une demi-part supplémentaire de quotient familial pour le calcul de son impôt sur le revenu."
+  },
+  {
+   "profil": "imposable",
+   "passage": "Le nombre de parts de quotient familial est augmenté d’une demi‑part lorsque le contribuable assume la charge exclusive ou principale d’au moins deux enfants ;",
+   "certitude": "probable",
+   "phrase_en": "Income-tax-paying households would get an extra half-share in the calculation, which could reduce the tax they owe.",
+   "phrase_fr": "Le foyer qui paie l'impôt sur le revenu compterait une demi-part de plus dans le calcul, ce qui pourrait réduire l'impôt à payer."
+  },
+  {
+   "profil": "parent_isole",
+   "passage": "lorsque le contribuable assume la charge exclusive ou principale d’au moins deux enfants ;",
+   "certitude": "probable",
+   "phrase_en": "A parent raising at least two children alone could benefit from the extra half-share.",
+   "phrase_fr": "Un parent qui élève seul au moins deux enfants pourrait bénéficier de la demi-part supplémentaire, si le texte est appliqué à sa situation."
+  },
+  {
+   "profil": "separe_divorce",
+   "passage": "Pour les enfants réputés être à la charge égale de leurs parents, la majoration prévue au 1° est répartie par moitié entre ceux‑ci. »",
+   "certitude": "probable",
+   "phrase_en": "For children equally in both parents' charge, the extra half-share would be split equally between separated or divorced parents.",
+   "phrase_fr": "Pour des enfants à charge égale, la demi-part supplémentaire serait partagée à moitié entre les deux parents séparés ou divorcés."
+  }
+ ],
+ "resume_fr": null
+}

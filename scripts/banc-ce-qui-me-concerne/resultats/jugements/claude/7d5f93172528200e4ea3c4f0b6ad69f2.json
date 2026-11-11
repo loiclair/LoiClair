@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "montagne",
+    "raison": "Le texte vise bien les communes de zone de montagne, mais il règle la répartition de la compétence eau et assainissement entre commune et communauté de communes. Un habitant n'est atteint que si la collectivité change ensuite ses services ou ses tarifs : effet indirect, passant par une collectivité.",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "elu_local",
+    "raison": "Le texte donne à la commune, par délibération, la faculté de reprendre la compétence après avis de l'intercommunalité. Ce pouvoir appartient à la commune et non aux élus en tant que personnes ; leurs droits et obligations ne changent pas directement.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000924585,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

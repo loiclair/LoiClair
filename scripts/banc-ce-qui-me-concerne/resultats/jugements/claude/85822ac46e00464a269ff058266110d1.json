@@ -1,0 +1,31 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "cycliste",
+    "raison": "Le texte prévoit de prioriser les travaux d'infrastructures de mobilités actives (vélo, marche), ce qui vise directement ceux qui se déplacent à vélo.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "usager_transports",
+    "raison": "Le texte prévoit de prioriser les travaux d'infrastructures de transport en commun sur la base de l'évaluation, ce qui vise les usagers des transports en commun.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "grande_ville",
+    "raison": "Les zones à faibles émissions concernent les grandes agglomérations ; le texte change l'application des restrictions dans ces zones (zones en devenir sans restrictions), ce qui touche directement leurs habitants.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "automobiliste"
+  ]
+ },
+ "cout_usd": 0.0037627,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

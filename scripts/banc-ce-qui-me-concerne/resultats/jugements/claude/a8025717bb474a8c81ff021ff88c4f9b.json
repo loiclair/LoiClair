@@ -1,0 +1,31 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "outre_mer",
+    "raison": "Le IV vise les personnels justifiant d'une résidence effective en Nouvelle-Calédonie, à Wallis-et-Futuna ou en Polynésie française : le lieu de vie déclenche la mesure.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "fonctionnaire",
+    "raison": "Le texte modifie le calcul de la pension civile des fonctionnaires relevant du code des pensions et du décret de 1967. Il s'agit de fonctionnaires de l'État, visés directement.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "forces_ordre",
+    "raison": "Le texte mentionne expressément les militaires (« fonctionnaire, magistrat ou militaire », « la solde ») et le code des pensions civiles et militaires. Les militaires résidant dans ces collectivités sont visés.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "retraite"
+  ]
+ },
+ "cout_usd": 0.0042457,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

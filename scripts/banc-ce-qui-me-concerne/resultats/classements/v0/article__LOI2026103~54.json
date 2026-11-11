@@ -1,0 +1,19 @@
+{
+ "impacts": [
+  {
+   "profil": "expat",
+   "passage": "lorsque le contribuable n'a pas sa résidence fiscale en France, les recettes mentionnées au 2° du même 2 doivent excéder les revenus de même nature que ceux mentionnés au 3° dudit 2 et qui sont soumis à un impôt équivalent à l'impôt sur le revenu dans son Etat de résidence",
+   "certitude": "probable",
+   "phrase_en": "For a person without French tax residence, the rule for calculating tax on their foreign-source income would be clarified.",
+   "phrase_fr": "Pour une personne sans résidence fiscale en France, la règle de calcul de l'impôt sur ses revenus de source étrangère serait précisée."
+  },
+  {
+   "profil": "imposable",
+   "passage": "Par dérogation au 3° du présent 2, lorsque le contribuable n'a pas sa résidence fiscale en France",
+   "certitude": "possible",
+   "phrase_en": "The income tax calculation for people without French tax residence could change for their foreign-source income.",
+   "phrase_fr": "Le calcul de l'impôt sur le revenu des personnes sans résidence fiscale en France pourrait changer pour leurs revenus de source étrangère."
+  }
+ ],
+ "resume_fr": null
+}

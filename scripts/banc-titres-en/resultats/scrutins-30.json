@@ -1,0 +1,183 @@
+{
+ "prompt": "27effea1fd21",
+ "cout": 0.00386835,
+ "duree": 22.5,
+ "titres": [
+  {
+   "uid": "VTSNR2026V8",
+   "titre": "sur les amendements identiques n° 3, présenté par M. Akli Mellouli et plusieurs de ses collègues, n° 9 rectifié, présenté par Mme Silvana Silvani et les membres du groupe Communiste Républicain Citoyen et Écologiste  Kanaky, n° 12, présenté par M. Patrick Kanner et les membres du groupe Socialiste, Écologiste et Républicain, n° 15 rectifié, présenté par Mme Annick Girardin et plusieurs de ses collègues, et n° 18 rectifié, présenté par M. Lafaele Tukumuli et les membres du groupe Rassemblement des Démocrates, Progressistes et Indépendants, tendant à supprimer l'article 1er ter de la proposition de loi pour l'égalité d'accès aux soins des Ultramarins sur l'ensemble du territoire national",
+   "cas": "titre le plus long"
+  },
+  {
+   "uid": "VTSNR2026V6",
+   "titre": "sur les amendements identiques n° 2, présenté par M. Akli Mellouli et plusieurs de ses collègues, n° 8 rectifié, présenté par Mme Silvana Silvani et les membres du groupe Communiste Républicain Citoyen et Écologiste  Kanaky, n° 11, présenté par M. Patrick Kanner et les membres du groupe Socialiste, Écologiste et Républicain, n° 14 rectifié, présenté par Mme Annick Girardin et plusieurs de ses collègues, et n° 17 rectifié, présenté par M. Lafaele Tukumuli et les membres du groupe Rassemblement des Démocrates, Progressistes et Indépendants, tendant à rétablir l'article 1er bis de la proposition de loi pour l'égalité d'accès aux soins des Ultramarins sur l'ensemble du territoire national",
+   "cas": "amendement"
+  },
+  {
+   "uid": "VTSNR2026V2",
+   "titre": "sur les amendements identiques n° 1, présenté par M. Akli Mellouli et plusieurs de ses collègues, n° 7 rectifié bis, présenté par Mme Silvana Silvani et les membres du groupe Communiste Républicain Citoyen et Écologiste  Kanaky, n° 10, présenté par M. Patrick Kanner et les membres du groupe Socialiste, Écologiste et Républicain, n° 13 rectifié, présenté par Mme Annick Girardin et plusieurs de ses collègues, et n° 16 rectifié, présenté par M. Lafaele Tukumuli et les membres du groupe Rassemblement des Démocrates, Progressistes et Indépendants, à l'article 1er de la proposition de loi pour l'égalité d'accès aux soins des Ultramarins sur l'ensemble du territoire national",
+   "cas": "amendement"
+  },
+  {
+   "uid": "VTANR5L17V5731",
+   "titre": "la motion de censure, déposée en application de l'article 49, alinéa 2, de la Constitution, par Mme Mathilde Panot et 57 députés.",
+   "cas": "motion de censure"
+  },
+  {
+   "uid": "VTANR5L17V842",
+   "titre": "la motion de censure, déposée en application de l'article 49, alinéa 2, de la Constitution, par M. Boris Vallaud et 65 députés.",
+   "cas": "motion de censure"
+  },
+  {
+   "uid": "VTANR5L17V1",
+   "titre": "la motion de censure déposée en application de l'article 49, alinéa 2, de la Constitution par M. Boris Vallaud, Mme Mathilde Panot, Mme Cyrielle Chatelain, M. André Chassaigne et 188 de leurs collègues.",
+   "cas": "motion de censure"
+  },
+  {
+   "uid": "VTANR5L17V2105",
+   "titre": "la motion de rejet préalable, déposée par MM. Julien Dive, Laurent Wauquiez, Gabriel Attal, Marc Fesneau et Paul Christophe de la proposition de loi visant à lever les contraintes à l’exercice du métier d’agriculteur (première lecture).",
+   "cas": "motion de rejet"
+  },
+  {
+   "uid": "VTANR5L17V6133",
+   "titre": "la motion de rejet préalable, déposée par Mme Dubré-Chirat, de la proposition de loi visant à permettre aux salariés de certains établissements et services de travailler le 1er mai (première lecture).",
+   "cas": "motion de rejet"
+  },
+  {
+   "uid": "VTANR5L17V456",
+   "titre": "la déclaration du Gouvernement portant sur les négociations en cours relatives à l'accord d'association entre l'Union européenne et le Mercosur (application de l'article 50-1 de la Constitution).",
+   "cas": "déclaration"
+  },
+  {
+   "uid": "VTSNR2023V79",
+   "titre": "sur l'ensemble de la première partie du projet de loi de finances pour 2024",
+   "cas": "partie de PLF"
+  },
+  {
+   "uid": "VTSNR2023V46",
+   "titre": "sur l'ensemble de la deuxième partie du projet de loi de financement de la sécurité sociale pour 2024",
+   "cas": "partie de PLF"
+  },
+  {
+   "uid": "VTSNR2023V169",
+   "titre": "sur l'ensemble du texte élaboré par la commission mixte paritaire sur le projet de loi visant à sécuriser et réguler l'espace numérique",
+   "cas": "CMP"
+  },
+  {
+   "uid": "VTSNR2024V147",
+   "titre": "sur l'ensemble du texte élaboré par la commission mixte paritaire sur le projet de loi de finances de fin de gestion pour 2024",
+   "cas": "CMP"
+  },
+  {
+   "uid": "VTANR5L17V7494",
+   "titre": "l’ensemble de la proposition de loi visant à réduire l’impact environnemental de l’industrie textile (texte de la commission mixte paritaire).",
+   "cas": "CMP"
+  },
+  {
+   "uid": "VTSNR2024V195",
+   "titre": "sur l'ensemble du projet de loi de financement de la sécurité sociale pour 2025 (nouvelle lecture)\\r\\n",
+   "cas": "lecture définitive / nouvelle"
+  },
+  {
+   "uid": "VTSNR2024V194",
+   "titre": "sur l'ensemble de la deuxième partie du projet de loi de financement de la sécurité sociale pour 2025 (nouvelle lecture)",
+   "cas": "lecture définitive / nouvelle"
+  },
+  {
+   "uid": "VTSNR2023V100",
+   "titre": "sur l'article unique constituant l'ensemble de la proposition de loi visant à lutter contre la précarité de la jeunesse par l'instauration d'une allocation autonomie universelle d'études",
+   "cas": "article unique"
+  },
+  {
+   "uid": "VTANR5L17V946",
+   "titre": "l'article unique de la proposition de loi créant une dérogation à la participation minimale pour la maîtrise d'ouvrage  pour les communes rurales (première lecture).",
+   "cas": "article unique"
+  },
+  {
+   "uid": "VTSNR2024V332",
+   "titre": "sur l'article 3 constituant l'ensemble du projet de loi d'approbation des comptes de la sécurité sociale de l'année 2024",
+   "cas": "article N constituant"
+  },
+  {
+   "uid": "VTANR5L17V1192",
+   "titre": "l'ensemble de la proposition de résolution pour une stratégie nationale de prévention sur le chemsex (article 34-1 de la Constitution).",
+   "cas": "résolution"
+  },
+  {
+   "uid": "VTANR5L17V2283",
+   "titre": "l'article unique de la proposition de résolution européenne appelant à la régulation des réseaux sociaux face aux ingérences étrangères.",
+   "cas": "résolution"
+  },
+  {
+   "uid": "VTSNR2025V231",
+   "titre": "sur l'ensemble du projet de loi organique relatif au renforcement des juridictions criminelles",
+   "cas": "organique / constitutionnelle"
+  },
+  {
+   "uid": "VTANR5L17V1304",
+   "titre": "l'ensemble de la proposition de loi organique visant à harmoniser le mode de scrutin aux élections municipales afin de garantir la vitalité démocratique, la cohésion municipale et la parité (première lecture).",
+   "cas": "organique / constitutionnelle"
+  },
+  {
+   "uid": "VTSNR2024V30",
+   "titre": "sur l'ensemble du projet de loi autorisant la ratification de l'accord se rapportant à la convention des Nations unies sur le droit de la mer et portant sur la conservation et l'utilisation durable de la diversité biologique marine des zones ne relevant pas de la juridiction nationale",
+   "cas": "ratification"
+  },
+  {
+   "uid": "VTSNR2025V171",
+   "titre": "sur l'ensemble du projet de loi autorisant l'approbation de l'accord entre le Gouvernement de la République française et le Gouvernement de la République du Kazakhstan sur la réadmission des personnes\\r\\n",
+   "cas": "ratification"
+  },
+  {
+   "uid": "VTSNR2024V225",
+   "titre": "sur l'ensemble de la proposition de loi visant à renforcer la parité dans les fonctions électives et exécutives du bloc communal",
+   "cas": "sénat ensemble"
+  },
+  {
+   "uid": "VTSNR2024V343",
+   "titre": "sur l'ensemble de la proposition de loi visant à permettre aux salariés de certains établissements et services de travailler le 1er mai",
+   "cas": "sénat ensemble"
+  },
+  {
+   "uid": "VTANR5L17V4836",
+   "titre": "l'ensemble de la proposition de loi portant réparation des personnes condamnées pour homosexualité entre 1945 et 1982 (deuxième lecture).",
+   "cas": "AN ensemble"
+  },
+  {
+   "uid": "VTANR5L17V4287",
+   "titre": "l'ensemble de la proposition de loi relative à l’établissement de l’égalité d’accès au service public postal en outre-mer (première lecture).",
+   "cas": "AN ensemble"
+  }
+ ],
+ "traductions": {
+  "VTSNR2026V8": "on identical amendments no. 3, tabled by Mr Akli Mellouli and several of his colleagues, no. 9 rectified, tabled by Ms Silvana Silvani and the members of the Communist, Republican, Citizen and Ecologist – Kanaky group, no. 12, tabled by Mr Patrick Kanner and the members of the Socialist, Ecologist and Republican group, no. 15 rectified, tabled by Ms Annick Girardin and several of her colleagues, and no. 18 rectified, tabled by Mr Lafaele Tukumuli and the members of the Rassemblement des Démocrates, Progressistes et Indépendants group, to delete Article 1 ter of the private member's bill on equal access to healthcare for overseas residents across the entire national territory",
+  "VTSNR2026V6": "on identical amendments no. 2, tabled by Mr Akli Mellouli and several of his colleagues, no. 8 rectified, tabled by Ms Silvana Silvani and the members of the Communist, Republican, Citizen and Ecologist – Kanaky group, no. 11, tabled by Mr Patrick Kanner and the members of the Socialist, Ecologist and Republican group, no. 14 rectified, tabled by Ms Annick Girardin and several of her colleagues, and no. 17 rectified, tabled by Mr Lafaele Tukumuli and the members of the Rassemblement des Démocrates, Progressistes et Indépendants group, to reinstate Article 1 bis of the private member's bill on equal access to healthcare for overseas residents across the entire national territory",
+  "VTSNR2026V2": "on identical amendments no. 1, tabled by Mr Akli Mellouli and several of his colleagues, no. 7 rectified bis, tabled by Ms Silvana Silvani and the members of the Communist, Republican, Citizen and Ecologist – Kanaky group, no. 10, tabled by Mr Patrick Kanner and the members of the Socialist, Ecologist and Republican group, no. 13 rectified, tabled by Ms Annick Girardin and several of her colleagues, and no. 16 rectified, tabled by Mr Lafaele Tukumuli and the members of the Rassemblement des Démocrates, Progressistes et Indépendants group, on Article 1 of the private member's bill on equal access to healthcare for overseas residents across the entire national territory",
+  "VTANR5L17V5731": "the censure motion, tabled under Article 49(2) of the Constitution, by Ms Mathilde Panot and 57 deputies.",
+  "VTANR5L17V842": "the censure motion, tabled under Article 49(2) of the Constitution, by Mr Boris Vallaud and 65 deputies.",
+  "VTANR5L17V1": "the censure motion tabled under Article 49(2) of the Constitution by Mr Boris Vallaud, Ms Mathilde Panot, Ms Cyrielle Chatelain, Mr André Chassaigne and 188 of their colleagues.",
+  "VTANR5L17V2105": "the motion to reject at the outset, tabled by Messrs Julien Dive, Laurent Wauquiez, Gabriel Attal, Marc Fesneau and Paul Christophe, on the private member's bill to lift constraints on the practice of farming (first reading).",
+  "VTANR5L17V6133": "the motion to reject at the outset, tabled by Ms Dubré-Chirat, on the private member's bill to allow employees of certain establishments and services to work on 1 May (first reading).",
+  "VTANR5L17V456": "the Government statement on the ongoing negotiations on the association agreement between the European Union and Mercosur (under Article 50-1 of the Constitution).",
+  "VTSNR2023V79": "on the whole of the first part of the finance bill for 2024",
+  "VTSNR2023V46": "on the whole of the second part of the social security financing bill for 2024",
+  "VTSNR2023V169": "on the whole text drawn up by the joint committee on the government bill to secure and regulate the digital space",
+  "VTSNR2024V147": "on the whole text drawn up by the joint committee on the end-of-year finance bill for 2024",
+  "VTANR5L17V7494": "the whole of the private member's bill to reduce the environmental impact of the textile industry (joint committee text).",
+  "VTSNR2024V195": "on the whole of the social security financing bill for 2025 (new reading)",
+  "VTSNR2024V194": "on the whole of the second part of the social security financing bill for 2025 (new reading)",
+  "VTSNR2023V100": "on the single article constituting the whole of the private member's bill to combat youth precarity through the introduction of a universal study autonomy allowance",
+  "VTANR5L17V946": "the single article of the private member's bill creating an exemption from the minimum participation requirement for project ownership for rural municipalities (first reading).",
+  "VTSNR2024V332": "on Article 3 constituting the whole of the government bill approving the social security accounts for 2024",
+  "VTANR5L17V1192": "the whole of the draft resolution for a national strategy on chemsex prevention (Article 34-1 of the Constitution).",
+  "VTANR5L17V2283": "the single article of the draft European resolution calling for the regulation of social media in the face of foreign interference.",
+  "VTSNR2025V231": "on the whole of the government organic law bill on strengthening criminal courts",
+  "VTANR5L17V1304": "the whole of the private member's organic law bill to harmonise the voting system for municipal elections in order to guarantee democratic vitality, municipal cohesion and parity (first reading).",
+  "VTSNR2024V30": "on the whole of the government bill authorising the ratification of the agreement relating to the United Nations Convention on the Law of the Sea on the conservation and sustainable use of marine biological diversity of areas beyond national jurisdiction",
+  "VTSNR2025V171": "on the whole of the government bill authorising the approval of the agreement between the Government of the French Republic and the Government of the Republic of Kazakhstan on the readmission of persons",
+  "VTSNR2024V225": "on the whole of the private member's bill to strengthen parity in elected and executive office within the communal bloc",
+  "VTSNR2024V343": "on the whole of the private member's bill to allow employees of certain establishments and services to work on 1 May",
+  "VTANR5L17V4836": "the whole of the private member's bill making reparation for people convicted of homosexuality between 1945 and 1982 (second reading).",
+  "VTANR5L17V4287": "the whole of the private member's bill on establishing equal access to the public postal service in the overseas territories (first reading)."
+ }
+}

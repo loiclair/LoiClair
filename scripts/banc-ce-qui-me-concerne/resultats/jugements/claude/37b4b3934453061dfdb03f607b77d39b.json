@@ -1,0 +1,41 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etudiant",
+    "raison": "Le texte vise nommément ceux qui suivent des études supérieures comme locataires éligibles à la résidence à vocation d'emploi.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "apprenti_alternant",
+    "raison": "Les personnes en contrat d'apprentissage, en formation professionnelle ou en stage sont expressément éligibles.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "benevole",
+    "raison": "Les volontaires en service civique sont cités comme locataires éligibles, et le catalogue inclut les volontaires en service civique dans le profil bénévole.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "locataire",
+    "raison": "Le texte crée un régime de bail mobilité de une semaine à dix-huit mois, avec conditions de ressources et plafonds de loyers, qui s'applique directement aux locataires de ces résidences.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "salarie_prive",
+    "raison": "Le texte vise les personnes en mutation ou en mission temporaire, mais sans préciser s'il s'agit de salariés du privé ; ce statut est prêté. La phrase de l'assistant ajoute des salariés non mentionnés.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0052626999999999995,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

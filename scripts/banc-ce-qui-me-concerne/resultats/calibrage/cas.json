@@ -1,0 +1,1058 @@
+[
+ {
+  "cle": "article|PIONANR5L17B0976#5",
+  "profil": "elu_local",
+  "certitude": "certain",
+  "phrase": "Le président de l'agglomération et les maires des communes concernées siégeraient dans un comité qui présenterait un plan de transition industrielle pour Vencorex.",
+  "passage": "du président de l’agglomération et des maires des communes concernés",
+  "user": "Dossier : Nationalisation temporaire de Vencorex\nÉtape du texte : Proposition de loi déposée par des parlementaires, pas encore adoptée\nÉlément : Art. 5\n\n--- Texte ---\nI. – Un an au plus tard après la promulgation de la présente loi, un comité stratégique, composé du ministre chargé de l’économie et des finances, de quatre parlementaires, des représentants du conseil d’administration de la société « Vencorex France », des représentants des organisations syndicales de salariés de la société, du président de l’agglomération et des maires des communes concernés, présente un plan de transition industrielle pour la société et ses filiales.\nCe projet peut faire l’objet d’un débat au Parlement.\nII. – Trois ans au plus tard à compter de la promulgation de la présente loi, le comité stratégique mentionné au I, présente l’état d’avancement du plan de transition industrielle, notamment sur la recherche de potentiels nouveaux actionnaires.\nCette présentation peut faire l’objet d’un débat au Parlement.\nIII. – Les modalités de constitution de ce comité stratégique sont fixées par décret.\n",
+  "avis": {
+   "deepseek-v4-pro": {
+    "concerne": true,
+    "raison": "L'article prévoit que le président de l'agglomération et les maires des communes concernés siègent au comité stratégique. C'est un effet direct sur leurs prérogatives (participation à un organe de gouvernance) visant explicitement leur statut."
+   },
+   "gemini-3.8-flash": {
+    "concerne": false,
+    "raison": "La participation à un comité stratégique chargé d'élaborer et de présenter un plan de transition pour une entreprise spécifique relève de la gouvernance institutionnelle et ne modifie pas les règles, droits ou obligations des élus locaux au sens de la consigne."
+   },
+   "mistral-medium-3-5": {
+    "concerne": false,
+    "raison": "L'article ne change rien pour les élus locaux : ils sont seulement invités à siéger dans un comité consultatif, sans effet direct sur leurs droits, obligations ou démarches. C'est une mesure institutionnelle."
+   }
+  }
+ },
+ {
+  "cle": "article|PIONANR5L17B0976#5",
+  "profil": "syndique",
+  "certitude": "probable",
+  "phrase": "Les représentants syndicaux de Vencorex France siégeraient dans le comité qui préparerait le plan de transition industrielle de l'entreprise.",
+  "passage": "des représentants des organisations syndicales de salariés de la société",
+  "user": "Dossier : Nationalisation temporaire de Vencorex\nÉtape du texte : Proposition de loi déposée par des parlementaires, pas encore adoptée\nÉlément : Art. 5\n\n--- Texte ---\nI. – Un an au plus tard après la promulgation de la présente loi, un comité stratégique, composé du ministre chargé de l’économie et des finances, de quatre parlementaires, des représentants du conseil d’administration de la société « Vencorex France », des représentants des organisations syndicales de salariés de la société, du président de l’agglomération et des maires des communes concernés, présente un plan de transition industrielle pour la société et ses filiales.\nCe projet peut faire l’objet d’un débat au Parlement.\nII. – Trois ans au plus tard à compter de la promulgation de la présente loi, le comité stratégique mentionné au I, présente l’état d’avancement du plan de transition industrielle, notamment sur la recherche de potentiels nouveaux actionnaires.\nCette présentation peut faire l’objet d’un débat au Parlement.\nIII. – Les modalités de constitution de ce comité stratégique sont fixées par décret.\n",
+  "avis": {
+   "deepseek-v4-pro": {
+    "concerne": true,
+    "raison": "L'article prévoit que des représentants des organisations syndicales de salariés de la société siègent au comité stratégique. C'est un effet direct sur leurs droits (participation à un organe de pilotage) visant explicitement leur activité syndicale."
+   },
+   "gemini-3.8-flash": {
+    "concerne": false,
+    "raison": "La présence de représentants syndicaux au sein d'un comité stratégique ponctuel est une mesure de gouvernance d'entreprise et institutionnelle, sans impact direct sur les droits ou l'exercice de l'activité syndicale en général."
+   },
+   "mistral-medium-3-5": {
+    "concerne": false,
+    "raison": "Les représentants syndicaux sont invités à siéger dans un comité, mais l'article ne modifie pas leurs droits, obligations ou conditions de travail. Aucun effet direct concret."
+   }
+  }
+ },
+ {
+  "cle": "amendement|AMANR5L17PO838901BTC3190P0D1N000734",
+  "profil": "parent",
+  "certitude": "probable",
+  "phrase": "Ajouterait l'allaitement aux motifs de discrimination interdits, au pénal, au travail et dans la fonction publique.",
+  "passage": "II. – Au premier alinéa de l’article 225‑1 du code pénal, après le mot : « grossesse », sont insérés les mots : « , du fait qu’elles allaitent ».",
+  "user": "Dossier : Apporter une réponse intégrale au phénomène des violences sexuelles et sexistes contre les femmes et les enfants\nÉtape du texte : Amendement adopté en séance publique (Assemblée nationale), sur un texte pas encore adopté définitivement ; cite le passage dans son dispositif\nÉlément : Amendement n° 734 (Après art. 18)\n\n--- Texte ---\nDispositif :\nI. – Au premier alinéa de l’article L. 131‑1 du code général de la fonction publique, après le mot : « grossesse », sont insérés les mots : « ou d’allaitement ».\nII. – Au premier alinéa de l’article 225‑1 du code pénal, après le mot : « grossesse », sont insérés les mots : « , du fait qu’elles allaitent ».\nIII. – Le code du travail est ainsi modifié :\n1° Au premier alinéa de l’article L. 1132‑1, après le mot : « grossesse », sont insérés les mots : « , du fait qu’elle allaite ».\n2° Au 3° de l’article L. 1321‑3, après le mot : « grossesse, », sont insérés les mots : « du fait qu’elles allaitent ».\nIV. – Au premier alinéa de l’article 1er de la loi n° 2008‑496 du 27 mai 2008 portant diverses dispositions d’adaptation au droit communautaire dans le domaine de la lutte contre les discriminations, après le mot : « grossesse », sont insérés les mots : « , du fait qu’elle allaite ».\nV. – Au deuxième alinéa de l’article 10 de l’ordonnance n° 2005‑10 du 4 janvier 2005 portant statut général des fonctionnaires des communes et des groupements de communes de la Polynésie française ainsi que de leurs établissements publics administratifs, après le mot : « grossesse, », sont insérés les mots : « du fait qu’elles allaitent, ».\nExposé de ses auteurs :\nNourrir son enfant ne devrait jamais conduire une femme à être humiliée, exclue ou empêchée d’accéder à un lieu ouvert au public. Pourtant, en France, de nombreuses mères témoignent encore de remarques déplacées, d’injonctions à se cacher, de refus de service ou même d’exclusions au seul motif qu’elles allaitent leur enfant.\nCes dernières années, plusieurs affaires ont mis en lumière les discriminations dont sont victimes des femmes allaitantes : une mère invitée à quitter le musée du Louvre, une autre de cesser d’allaiter dans une piscine municipale, une visiteuse renvoyée vers un « espace dédié » à Disneyland Paris, ou encore une mère allaitante exclue du site des Francofolies. De nombreux témoignages font aussi état d’insultes, d’humiliations, voire d’agressions physiques subies par des femmes qui ne faisaient pourtant qu’exercer leur rôle de mère.\nCes pratiques relèvent d’une logique indéniablement sexiste que la présente proposition de loi entend combattre sans angle mort.\nOr, en l’état, notre législation pénale ne prévoit aucune mesure spécifique pour protéger les femmes allaitantes et leurs enfants dans ces situations.\nPlutôt que de créer une infraction nouvelle, cet amendement propose d'inscrire l’allaitement parmi les motifs de discrimination de l’article 225-1 du code pénal, aux côtés de la grossesse. L'amendement propose également de compléter en ce sens le code du travail et le code de la fonction publique.\nIl rend ainsi explicitement applicables à ces situations les sanctions de l’article 225-2 du code pénal, notamment en cas de refus d’accès à un lieu accueillant du public. Il sécurise un fondement aujourd’hui seulement implicite, qui repose sur le sexe ou la grossesse, et adresse à tous les citoyens et professionnels le message selon lequel toute femme est libre d’allaiter son enfant dans tout lieu public ou privé ouvert au public. Cette liberté ne saurait être limitée en raison du seul fait de l’allaitement.\nEnfin, si cet amendement vise à créer un nouveau fondement de discrimination dans le code pénal, il ne constitue en aucun cas une injonction à l'allaitement. Chaque femme est libre de choisir le mode l'alimentation de son enfant. Lorsque ce choix est celui de l’allaitement, la loi doit garantir qu’aucune femme ne puisse être stigmatisée, humiliée ou écartée d’un lieu ouvert au public pour cette seule raison.\n",
+  "avis": {
+   "deepseek-v4-pro": {
+    "concerne": false,
+    "raison": "Le profil 'parent' n'est pas directement concerné par cet amendement. Être parent n'est pas un critère qui déclenche une modification de droits ici. Le dispositif protège les femmes qui allaitent, pas les parents en général. Une mère qui allaite peut être parent, mais le lien n'est pas direct : l'amendement ne change rien aux droits des parents en tant que parents, mais aux droits des personnes qui allaitent. L'amendement ne vise pas le profil 'parent' du catalogue (défini comme parent ou responsable légal d'un enfant mineur ou à charge)."
+   },
+   "gemini-3.8-flash": {
+    "concerne": true,
+    "raison": "L'inscription de l'allaitement dans le code pénal protège directement les mères d'un jeune enfant contre les refus d'accès aux lieux publics ou toute discrimination."
+   },
+   "mistral-medium-3-5": {
+    "concerne": false,
+    "raison": "L'amendement ne vise pas spécifiquement les parents en général, mais uniquement les femmes allaitantes. Le profil 'parent' est trop large et inclut des personnes non concernées (pères, parents non allaitants). Le passage cité ne justifie pas ce profil."
+   }
+  }
+ },
+ {
+  "cle": "article|PIONANR5L17B0225#2",
+  "profil": "etudiant",
+  "certitude": "probable",
+  "phrase": "Les étudiants en médecine pourraient aussi effectuer leurs stages dans des maisons de santé.",
+  "passage": "À la seconde phrase du second alinéa de l'article L. 632-5 du code de l'éducation, après le mot : « santé », sont insérés les mots : « , de maisons de santé",
+  "user": "Dossier : Lutter contre les déserts médicaux\nÉtape du texte : Proposition de loi déposée par des parlementaires, pas encore adoptée\nÉlément : Art. 2\n\n--- Texte ---\nÀ la seconde phrase du second alinéa de l’article L. 632‑5 du code de l’éducation, après le mot : « santé », sont insérés les mots : « , de maisons de santé ».\n",
+  "avis": {
+   "deepseek-v4-pro": {
+    "concerne": true,
+    "raison": "L'article L. 632-5 du code de l'éducation régit le stage de formation pratique des étudiants en médecine (troisième cycle). L'article proposé ajoute les « maisons de santé » comme lieu de stage possible. Un étudiant en médecine de troisième cycle est directement concerné. La phrase thématiquement correcte, mais elle ne respecte pas le catalogue (le profil 'etudiant' est un étudiant du supérieur au sens large) et omet la précision sur le cycle des études. Surtout, la phrase n'est pas fidèle car elle ne reflète pas le texte (une modification d'un alinéa précis). En réalité, l'assistant ne pouvait proposer de phrase par profil pour un amendement, car la consigne demande alors un résumé unique de l'amendement, ce que l'assistant n'a pas fourni. La phrase est donc un résumé de profil, ce qui n'est pas le format demandé. En l'état, elle est imprécise mais fondamentalement non contradictoire avec le texte. Nous notons l'erreur de format."
+   },
+   "gemini-3.8-flash": {
+    "concerne": true,
+    "raison": "L'article L. 632-5 du code de l'éducation régit les stages des étudiants de troisième cycle des études de médecine (internes), en ouvrant ces stages aux maisons de santé."
+   },
+   "mistral-medium-3-5": {
+    "concerne": false,
+    "raison": "L'article modifie une disposition du code de l'éducation concernant les lieux de stage, mais il ne vise pas spécifiquement les étudiants en médecine. De plus, la phrase proposée par l'assistant invente une information ('pourraient aussi effectuer leurs stages') qui n'est pas présente dans le texte. Le texte se contente d'ajouter 'de maisons de santé' à une liste existante, sans préciser qui est concerné."
+   }
+  }
+ },
+ {
+  "cle": "article|PIONANR5L17B2824#5",
+  "profil": "secteur_culture",
+  "certitude": "certain",
+  "phrase": "Les entreprises de cinéma et de production audiovisuelle ne pourraient embaucher un enfant de moins de treize ans qu'avec des avis conformes sur le scénario, le rôle et les conditions de tournage.",
+  "passage": "l’embauche d’un mineur de moins de treize ans dans une entreprise de cinéma est soumise à l’avis conforme d’un médecin de l’organisme Thalie Santé",
+  "user": "Dossier : Lutter contre les violences morales sexistes et sexuelles dans la culture\nÉtape du texte : Proposition de loi déposée par des parlementaires, pas encore adoptée\nÉlément : Art. 5\n\n--- Texte ---\nLa section 1 du chapitre IV du titre II de la septième partie du code du travail est complétée par deux articles L. 7124‑3‑1 et L. 7124‑3‑2 ainsi rédigés :\n« Art. L. 7124‑3‑1. – Sans préjudice des dispositions de l’article L. 7124‑1 du présent code, l’embauche d’un mineur de moins de treize ans dans une entreprise de cinéma est soumise à l’avis conforme d’un médecin de l’organisme Thalie Santé, d’un psychologue agréé par ce même organisme et du comité compétent en matière de santé, de sécurité et de conditions de travail dans le secteur de la production cinématographique et audiovisuelle.\n« Ces avis conformes portent sur le scénario, le rôle de l’enfant, compte tenu de ses difficultés et de sa moralité, les conditions d’emploi de l’enfant au regard du rythme et de la durée de travail, des conditions de tournage et des interactions de l’enfant avec les autres professionnels et artistes.\n« Art. L. 7124‑3‑2. – L’emploi d’un mineur de moins de treize ans est subordonné à la présence de l’un de ses représentants légaux lors de son embauche, durant l’exécution de son contrat de travail et, le cas échéant, lors de la participation à des évènements en lien avec ce contrat après son exécution. »\n",
+  "avis": {
+   "deepseek-v4-pro": {
+    "concerne": false,
+    "raison": "La phrase décrit un effet sur 'les entreprises de cinéma et de production audiovisuelle', ce qui correspond au secteur. Cependant, selon la consigne, un secteur est concerné quand l'article change les règles, les aides, les taxes ou les obligations propres aux personnes qui y travaillent. Ici, l'article impose une nouvelle condition d'embauche à l'entreprise. Même si le profil 'secteur_culture' est défini comme 'Artiste, auteur, intermittent... personne qui travaille dans... l'audiovisuel', ce profil inclut les salariés. Or la contrainte pèse directement sur l'employeur (l'entreprise), pas sur les travailleurs eux-mêmes, dont les conditions d'emploi ne changent pas, sauf pour ceux de moins de treize ans (déjà couverts par 'mineur'). Le profil 'chef_entreprise' serait plus approprié mais n'a pas été proposé. La phrase elle-même est fidèle au texte, mais le profil retenu est incorrect."
+   },
+   "gemini-3.8-flash": {
+    "concerne": true,
+    "raison": "La mesure modifie directement les règles d'embauche et de tournage dans les entreprises du cinéma et de la production audiovisuelle."
+   },
+   "mistral-medium-3-5": {
+    "concerne": true,
+    "raison": "L'article cible spécifiquement les entreprises de cinéma et de production audiovisuelle (secteur_culture) avec des obligations pour l'embauche des mineurs. La phrase est fidèle et utilise le conditionnel."
+   }
+  }
+ },
+ {
+  "cle": "article|PIONANR5L17B3230#5",
+  "profil": "heritier_donateur",
+  "certitude": "probable",
+  "phrase": "Recevoir une entreprise par donation ou succession pourrait donner droit à un crédit d'impôt couvrant la moitié des droits de mutation dus.",
+  "passage": "Les cessions d'entreprises, réalisées à titre gratuit ou onéreux, ouvrent droit à un crédit d'impôt égal à 50 % des droits de mutation à titre gratuit ou onéreux dus,",
+  "user": "Dossier : Réformer le droit des successions et des donations\nÉtape du texte : Proposition de loi déposée par des parlementaires, pas encore adoptée\nÉlément : Art. 5\n\n--- Texte ---\nAprès l’article 787 C du code général des impôts, il est inséré un article 787 D ainsi rédigé :\n« Art. 787 D. – Les cessions d’entreprises, réalisées à titre gratuit ou onéreux, ouvrent droit à un crédit d’impôt égal à 50 % des droits de mutation à titre gratuit ou onéreux dus, dans la limite d’un plafond de 100 000 euros par cession.\n« Le crédit d’impôt est applicable sous les conditions suivantes :\n« a) La cession doit porter sur des entreprises individuelles, des sociétés de personnes, ou des sociétés de capitaux, sous réserve que le cédant ait exercé son activité pendant au moins cinq ans ;\n« b) Le cessionnaire doit s’engager à maintenir l’activité de l’entreprise pendant une durée minimale de cinq ans à compter de la date de la transmission ;\n« c) Le cessionnaire doit être une personne physique ou morale, et ne pas avoir été associé ou actionnaire de l’entreprise cédée dans les cinq années précédant la cession ;\n« d) Le crédit d’impôt est imputable sur l’impôt sur le revenu ou l’impôt sur les sociétés dû par le cessionnaire au titre de l’année de la transmission. En cas de montant excédentaire, le surplus peut être reporté sur les années suivantes, dans la limite de trois ans.\n« Un décret en Conseil d’État précise les modalités d’application du présent article. »\n",
+  "avis": {
+   "deepseek-v4-pro": {
+    "concerne": false,
+    "raison": "Le texte parle de « droits de mutation à titre gratuit », qui peuvent s'appliquer aux donations et successions. Cependant, le crédit d'impôt est accordé pour les « cessions » et est imputable sur l'impôt dû par le « cessionnaire », pas par le donataire ou l'héritier. Le crédit d'impôt ne réduit donc pas les droits de mutation eux-mêmes, mais l'impôt sur le revenu ou les sociétés du repreneur. L'effet direct sur l'héritier/donateur (diminution des droits à payer) n'existe pas ici. Le crédit d'impôt bénéficie au repreneur, pas au transmetteur. La phrase est donc trompeuse et crée un fait inexact (un crédit d'impôt pour les droits dus par l'héritier/donateur)."
+   },
+   "gemini-3.8-flash": {
+    "concerne": true,
+    "raison": "Le crédit d'impôt s'applique aux transmissions d'entreprises réalisées à titre gratuit (donations et successions) sur les droits de mutation dus par le bénéficiaire."
+   },
+   "mistral-medium-3-5": {
+    "concerne": false,
+    "raison": "Le texte concerne les cessions d'entreprises (transmissions), mais le crédit d'impôt s'applique au cessionnaire (celui qui reçoit ou achète), pas au cédant (donateur/heritier). De plus, la phrase propose un effet pour le donateur, alors que le texte vise le cessionnaire. La condition 'a' exige que le cédant ait exercé son activité pendant 5 ans, mais le crédit d'impôt est pour le cessionnaire."
+   }
+  }
+ },
+ {
+  "cle": "article|PIONANR5L17B3228#7",
+  "profil": "emprunteur",
+  "certitude": "probable",
+  "phrase": "Un emprunteur qui conteste une dette pourrait voir le recouvrement suspendu pendant 90 jours, sans pénalité ni déchéance du terme pour ce seul motif.",
+  "passage": "Pendant cette période, aucune pénalité, majoration, indemnité de retard, déchéance du terme ou autre mesure défavorable ne peut être fondée sur le seul défaut de paiement de l’obligation contestée.",
+  "user": "Dossier : Mieux réprimer l’usurpation d’identité et garantir l’accompagnement le rétablissement rapide des victimes\nÉtape du texte : Proposition de loi déposée par des parlementaires, pas encore adoptée\nÉlément : Art. 7\n\n--- Texte ---\nLe chapitre IV du titre II du livre Ier du code des procédures civiles d’exécution est complété par un article L. 124‑2 ainsi rédigé :\n« Art. L. 124‑2. – La notification au créancier ou à la personne chargée du recouvrement de l’attestation prévue à l’article 15‑3‑5 du code de procédure pénale suspend de plein droit, pendant quatre‑vingt‑dix jours à compter de sa réception, toute mesure de recouvrement amiable relative à l’obligation précisément contestée dans cette attestation ainsi que toute mesure d’exécution forcée qui n’est pas fondée sur une décision de justice exécutoire.\n« La notification est effectuée par tout moyen permettant de conférer date certaine à sa réception. La transmission effectuée par le service mentionné à l’article 48‑2 de la loi n° 78‑17 du 6 janvier 1978 relative à l’informatique, aux fichiers et aux libertés vaut notification et produit un justificatif horodaté de l’envoi et de la réception.\n« Pendant cette période, aucune pénalité, majoration, indemnité de retard, déchéance du terme ou autre mesure défavorable ne peut être fondée sur le seul défaut de paiement de l’obligation contestée. Les intérêts échus au cours de la période de suspension ne peuvent être capitalisés du seul fait de ce défaut de paiement. La créance ne peut être cédée sans que le cessionnaire soit informé de la contestation et de la suspension qui lui demeure opposable.\n« Lorsque la personne concernée saisit la juridiction compétente avant l’expiration du délai mentionné au premier alinéa, la suspension est prolongée de plein droit jusqu’à la notification de la décision exécutoire statuant sur sa contestation. Elle est également prolongée jusqu’à la communication complète des pièces et de la décision motivée prévues à l’article L. 124‑3. La saisine, avant l’expiration du même délai, du médiateur national de l’usurpation d’identité ou d’un médiateur compétent prolonge la suspension pour une durée maximale de soixante jours.\n« À la demande motivée de la personne concernée présentée avant l’expiration du délai initial, la suspension est renouvelée une fois pour quatre‑vingt‑dix jours lorsque l’examen du dossier n’est pas achevé pour une cause qui ne lui est pas imputable.\n« Le créancier peut demander au juge compétent de lever totalement ou partiellement la suspension s’il établit que la contestation est manifestement infondée ou frauduleuse, ou que l’obligation a été personnellement souscrite ou expressément ratifiée par la personne concernée. La demande est instruite contradictoirement.\n« Le présent article ne remet pas en cause l’autorité de la chose jugée et ne suspend pas de plein droit l’exécution d’une décision de justice. Lorsque le recouvrement est fondé sur une telle décision, la personne concernée peut en demander la suspension au juge compétent dans les conditions prévues par les voies de recours et les règles de procédure qui lui sont applicables.\n« Lorsqu’une décision de justice exécutoire établit que l’obligation résulte d’une usurpation d’identité ou lorsque le créancier reconnaît par écrit que la personne concernée ne l’a ni souscrite ni ratifiée, aucune somme résultant de cette obligation ne peut lui être réclamée. Le créancier procède sans délai à l’annulation des sommes correspondantes et en informe les personnes auxquelles il en avait confié le recouvrement.\n« Le présent article ne fait pas obstacle aux mesures conservatoires autorisées dans les conditions prévues au livre V lorsque le créancier établit que les circonstances sont susceptibles d’en menacer le recouvrement.\n« Il s’applique sans préjudice des dispositions relatives aux procédures collectives et au traitement des situations de surendettement. »\n",
+  "avis": {
+   "deepseek-v4-pro": {
+    "concerne": true,
+    "raison": "Le texte protège toute personne qui conteste une obligation, notamment contre la déchéance du terme, ce qui vise directement les emprunteurs sans avoir à déduire un autre profil."
+   },
+   "gemini-3.8-flash": {
+    "concerne": false,
+    "raison": "L'article concerne toute personne victime d'usurpation d'identité faisant l'objet d'un recouvrement pour une obligation qu'elle conteste. Il ne vise pas spécifiquement les emprunteurs (personnes remboursant un crédit immobilier ou à la consommation) : la mesure s'applique à tout type d'obligation contestée et protège justement les personnes qui contestent avoir souscrit la dette."
+   },
+   "mistral-medium-3-5": {
+    "concerne": false,
+    "raison": "L'article ne vise pas spécifiquement les emprunteurs. Il concerne toute personne (créancier ou débiteur) impliquée dans une contestation d'obligation de paiement, sans distinction de statut (emprunteur, locataire, etc.). La phrase proposée invente un lien avec les emprunteurs alors que le texte est général."
+   }
+  }
+ },
+ {
+  "cle": "article|PIONANR5L17B0204#24",
+  "profil": "mineur",
+  "certitude": "certain",
+  "phrase": "Les personnes de moins de 18 ans ne pourraient pas accéder à l'aide à mourir.",
+  "passage": "Être âgée d’au moins dix‑huit ans ;",
+  "user": "Dossier : Accompagnement des malades et de la fin de vie\nÉtape du texte : Proposition de loi déposée par des parlementaires, pas encore adoptée\nÉlément : Art. 24\n\n--- Texte ---\nLa section 2 bis du chapitre Ier du titre Ier du livre Ier de la première partie du code de la santé publique, telle qu’elle résulte de l’article 22 de la présente loi, est complétée par une sous‑section 2 ainsi rédigée :\n« Sous‑section 2\n« Conditions d’accès\n« Art. L. 1111‑12‑2. – Pour accéder à l’aide à mourir, une personne doit répondre à toutes les conditions suivantes :\n« 1° Être âgée d’au moins dix‑huit ans ;\n« 2° Être de nationalité française ou résider de façon stable et régulière en France ;\n« 3° Être atteinte d’une affection grave et incurable, qui engage le pronostic vital, en phase avancée ou terminale ;\n« 4° Présenter une souffrance physique ou psychologique liée à cette affection, qui est soit réfractaire aux traitements, soit insupportable selon la personne lorsqu’elle a choisi de ne pas recevoir ou d’arrêter de recevoir un traitement ;\n« 5° Être apte à manifester sa volonté de façon libre et éclairée. »\n",
+  "avis": {
+   "deepseek-v4-pro": {
+    "concerne": false,
+    "raison": "L'article fixe la condition d'âge à 18 ans pour accéder à l'aide à mourir. Il exclut donc les mineurs, mais cela ne change rien de concret pour eux : avant ce texte, l'aide à mourir n'existait pas. Il n'y a pas d'effet direct sur leur situation actuelle, seulement une absence de nouveau droit. La consigne demande un changement concret, pas la simple mention d'une exclusion. De plus, la phrase proposée (« ne pourraient pas accéder ») suggère un refus d'un droit existant, ce qui est trompeur car le droit n'existe pas encore. La phrase est infidèle car elle présente comme une modification de leurs droits ce qui n'est que la définition du champ de la nouvelle loi."
+   },
+   "gemini-3.8-flash": {
+    "concerne": false,
+    "raison": "La condition de majorité (avoir au moins 18 ans) ne crée pas de droit ni ne modifie la situation juridique des mineurs, qui n'ont pas accès à ce nouveau dispositif réservé aux adultes malades."
+   },
+   "mistral-medium-3-5": {
+    "concerne": true,
+    "raison": "Le texte exclut explicitement les mineurs (moins de 18 ans) de l'accès à l'aide à mourir. La phrase est fidèle et au conditionnel, conformément à l'étape du texte."
+   }
+  }
+ },
+ {
+  "cle": "article|PIONANR5L17B0204#24",
+  "profil": "etranger_hors_ue",
+  "certitude": "probable",
+  "phrase": "Les étrangers hors Union européenne résidant en France de façon stable et régulière pourraient accéder à l'aide à mourir.",
+  "passage": "Être de nationalité française ou résider de façon stable et régulière en France",
+  "user": "Dossier : Accompagnement des malades et de la fin de vie\nÉtape du texte : Proposition de loi déposée par des parlementaires, pas encore adoptée\nÉlément : Art. 24\n\n--- Texte ---\nLa section 2 bis du chapitre Ier du titre Ier du livre Ier de la première partie du code de la santé publique, telle qu’elle résulte de l’article 22 de la présente loi, est complétée par une sous‑section 2 ainsi rédigée :\n« Sous‑section 2\n« Conditions d’accès\n« Art. L. 1111‑12‑2. – Pour accéder à l’aide à mourir, une personne doit répondre à toutes les conditions suivantes :\n« 1° Être âgée d’au moins dix‑huit ans ;\n« 2° Être de nationalité française ou résider de façon stable et régulière en France ;\n« 3° Être atteinte d’une affection grave et incurable, qui engage le pronostic vital, en phase avancée ou terminale ;\n« 4° Présenter une souffrance physique ou psychologique liée à cette affection, qui est soit réfractaire aux traitements, soit insupportable selon la personne lorsqu’elle a choisi de ne pas recevoir ou d’arrêter de recevoir un traitement ;\n« 5° Être apte à manifester sa volonté de façon libre et éclairée. »\n",
+  "avis": {
+   "deepseek-v4-pro": {
+    "concerne": false,
+    "raison": "Le texte vise toute personne résidant 'de façon stable et régulière en France', sans distinction de nationalité hors le critère alternatif de la nationalité française. La mention de la résidence stable et régulière englobe tous les résidents légaux, quelle que soit leur nationalité, y compris les citoyens français. Le profil 'etranger_hors_ue' n'est pas visé spécifiquement ; la règle s'applique à un ensemble plus large. La phrase est infidèle car elle suggère une ouverture spécifique pour ce sous-groupe, alors que le texte ne le distingue pas."
+   },
+   "gemini-3.8-flash": {
+    "concerne": false,
+    "raison": "La condition de nationalité ou de résidence stable est un critère de rattachement territorial pour éviter le tourisme médical, elle ne vise pas spécifiquement les étrangers."
+   },
+   "mistral-medium-3-5": {
+    "concerne": true,
+    "raison": "Le texte inclut les étrangers résidant de façon stable et régulière en France, sans distinction de nationalité. La phrase est fidèle et au conditionnel."
+   }
+  }
+ },
+ {
+  "cle": "article|PIONANR5L17B0204#24",
+  "profil": "etranger_ue",
+  "certitude": "probable",
+  "phrase": "Les étrangers de l'Union européenne résidant en France de façon stable et régulière pourraient accéder à l'aide à mourir.",
+  "passage": "Être de nationalité française ou résider de façon stable et régulière en France",
+  "user": "Dossier : Accompagnement des malades et de la fin de vie\nÉtape du texte : Proposition de loi déposée par des parlementaires, pas encore adoptée\nÉlément : Art. 24\n\n--- Texte ---\nLa section 2 bis du chapitre Ier du titre Ier du livre Ier de la première partie du code de la santé publique, telle qu’elle résulte de l’article 22 de la présente loi, est complétée par une sous‑section 2 ainsi rédigée :\n« Sous‑section 2\n« Conditions d’accès\n« Art. L. 1111‑12‑2. – Pour accéder à l’aide à mourir, une personne doit répondre à toutes les conditions suivantes :\n« 1° Être âgée d’au moins dix‑huit ans ;\n« 2° Être de nationalité française ou résider de façon stable et régulière en France ;\n« 3° Être atteinte d’une affection grave et incurable, qui engage le pronostic vital, en phase avancée ou terminale ;\n« 4° Présenter une souffrance physique ou psychologique liée à cette affection, qui est soit réfractaire aux traitements, soit insupportable selon la personne lorsqu’elle a choisi de ne pas recevoir ou d’arrêter de recevoir un traitement ;\n« 5° Être apte à manifester sa volonté de façon libre et éclairée. »\n",
+  "avis": {
+   "deepseek-v4-pro": {
+    "concerne": false,
+    "raison": "Même raison que pour 'etranger_hors_ue'. Le texte ne mentionne ni ne distingue les ressortissants de l'UE. La condition de 'résider de façon stable et régulière en France' s'applique uniformément à tous les non-nationaux. La phrase est infidèle car elle présente ce profil comme spécifiquement concerné par une disposition qui ne le nomme pas et ne lui est pas propre."
+   },
+   "gemini-3.8-flash": {
+    "concerne": false,
+    "raison": "La condition de résidence stable et régulière est un critère territorial d'accès et ne vise pas spécifiquement les ressortissants de l'Union européenne en tant que profil."
+   },
+   "mistral-medium-3-5": {
+    "concerne": true,
+    "raison": "Même raison que pour 'etranger_hors_ue' : le texte ne distingue pas les ressortissants UE des autres étrangers. La phrase est fidèle et au conditionnel."
+   }
+  }
+ },
+ {
+  "cle": "article|PIONANR5L17B0204#24",
+  "profil": "malade_chronique",
+  "certitude": "probable",
+  "phrase": "Les personnes atteintes d'une affection grave et incurable, en phase avancée ou terminale, pourraient accéder à l'aide à mourir.",
+  "passage": "Être atteinte d’une affection grave et incurable, qui engage le pronostic vital, en phase avancée ou terminale",
+  "user": "Dossier : Accompagnement des malades et de la fin de vie\nÉtape du texte : Proposition de loi déposée par des parlementaires, pas encore adoptée\nÉlément : Art. 24\n\n--- Texte ---\nLa section 2 bis du chapitre Ier du titre Ier du livre Ier de la première partie du code de la santé publique, telle qu’elle résulte de l’article 22 de la présente loi, est complétée par une sous‑section 2 ainsi rédigée :\n« Sous‑section 2\n« Conditions d’accès\n« Art. L. 1111‑12‑2. – Pour accéder à l’aide à mourir, une personne doit répondre à toutes les conditions suivantes :\n« 1° Être âgée d’au moins dix‑huit ans ;\n« 2° Être de nationalité française ou résider de façon stable et régulière en France ;\n« 3° Être atteinte d’une affection grave et incurable, qui engage le pronostic vital, en phase avancée ou terminale ;\n« 4° Présenter une souffrance physique ou psychologique liée à cette affection, qui est soit réfractaire aux traitements, soit insupportable selon la personne lorsqu’elle a choisi de ne pas recevoir ou d’arrêter de recevoir un traitement ;\n« 5° Être apte à manifester sa volonté de façon libre et éclairée. »\n",
+  "avis": {
+   "deepseek-v4-pro": {
+    "concerne": false,
+    "raison": "Le texte crée les conditions pour une nouvelle aide. Une personne doit remplir CINQ conditions cumulatives, dont celle d'être atteinte d'une affection grave et incurable en phase avancée ou terminale (condition n°3). Or, le profil 'malade_chronique' est défini comme 'Personne atteinte d'une maladie de longue durée... qui demande des soins réguliers'. Cela ne correspond pas à la phase avancée ou terminale d'une maladie incurable engageant le pronostic vital. La phrase est infidèle car elle assimile à tort 'malade chronique' à la condition médicale très restrictive du texte."
+   },
+   "gemini-3.8-flash": {
+    "concerne": true,
+    "raison": "L'article définit directement les conditions d'accès à l'aide à mourir pour les personnes atteintes d'une affection grave et incurable dont le pronostic vital est engagé."
+   },
+   "mistral-medium-3-5": {
+    "concerne": false,
+    "raison": "Le texte vise une 'affection grave et incurable, qui engage le pronostic vital, en phase avancée ou terminale', ce qui est plus restrictif qu'une simple maladie chronique. La phrase étend indûment le champ d'application."
+   }
+  }
+ },
+ {
+  "cle": "article|PIONANR5L17B2752#11",
+  "profil": "secteur_culture",
+  "certitude": "probable",
+  "phrase": "Pourrait porter à trois ans le délai pour poursuivre certains délits de presse visant un public mineur, dans les publications qui s'adressent aux enfants.",
+  "passage": "Ce délai de prescription est porté à trois ans lorsque l’un des moyens énoncés à l’article 23 par lequel le délit a été commis apparaît, par son caractère, sa présentation ou son objet, comme principalement destiné ou adressé à un public mineur.",
+  "user": "Dossier : Proposition de loi visant à lutter contre l’entrisme islamiste en France\nÉtape du texte : Texte adopté par le Sénat, transmis à l'Assemblée nationale, pas encore adopté définitivement\nÉlément : Art. 13\n\n--- Texte ---\nI. – La loi du 29 juillet 1881 sur la liberté de la presse est ainsi modifiée :\n1° Après le premier alinéa de l’article 65‑3, il est inséré un alinéa ainsi rédigé :\n« Ce délai de prescription est porté à trois ans lorsque l’un des moyens énoncés à l’article 23 par lequel le délit a été commis apparaît, par son caractère, sa présentation ou son objet, comme principalement destiné ou adressé à un public mineur. » ;\n2° Le début de l’article 65‑4 est ainsi rédigé : « L’article 54‑1, les premier et dernier alinéas de l’article 65‑3… (le reste sans changement). »\nII. – À la fin de la première phrase du septième alinéa de l’article 14 de la loi n° 49‑956 du 16 juillet 1949 sur les publications destinées à la jeunesse, les mots : « de la parution » sont remplacés par les mots : « à laquelle ils ont été déposés auprès de la commission de contrôle en application de l’article 6 ».\n",
+  "avis": {
+   "deepseek-v4-pro": {
+    "concerne": false,
+    "raison": "Cet article modifie des règles de prescription et de point de départ pour les actions en justice, ce qui concerne les magistrats, les avocats ou les justiciables, mais ne change rien pour le secteur de la culture (presse, édition, audiovisuel) lui-même. La phrase proposée invente un effet (« délai pour poursuivre… dans les publications qui s'adressent aux enfants ») qui ne figure pas dans le texte."
+   },
+   "gemini-3.8-flash": {
+    "concerne": true,
+    "raison": "L'article modifie la loi sur la liberté de la presse et la loi sur les publications destinées à la jeunesse en allongeant le délai de prescription pour certains délits de presse, ce qui modifie directement le cadre juridique et les risques de poursuites pour les professionnels de la presse et de l'édition."
+   },
+   "mistral-medium-3-5": {
+    "concerne": false,
+    "raison": "L'article modifie les délais de prescription pour les délits de presse visant un public mineur, mais il ne cible pas spécifiquement le secteur de la culture. Les professionnels de la culture (artistes, auteurs, etc.) ne sont pas directement visés par cette mesure, qui concerne plutôt les auteurs ou éditeurs de contenus destinés aux mineurs, quel que soit leur secteur. De plus, la phrase proposée mentionne 'dans les publications qui s'adressent aux enfants', ce qui n'est pas présent dans le texte de loi."
+   }
+  }
+ },
+ {
+  "cle": "article|PIONANR5L17B3171#1",
+  "profil": "secteur_education",
+  "certitude": "certain",
+  "phrase": "Les accompagnants d'élèves en situation de handicap seraient intégrés dans un nouveau corps de fonctionnaires de catégorie B, avec un stage d'un an.",
+  "passage": "Les agents non titulaires exerçant dans des établissements d'enseignement publics ou privés sous contrat d'association au 1er septembre 2026 sont immédiatement nommés fonctionnaires stagiaires dans leur corps d'exercice.",
+  "user": "Dossier : Créer un corps de fonctionnaires de catégorie B pour les accompagnants d’élèves en situation de handicap\nÉtape du texte : Proposition de loi déposée par des parlementaires, pas encore adoptée\nÉlément : Art. 1er\n\n--- Texte ---\nI. – L’article L. 917‑1 du code de l’éducation est ainsi modifié :\n1° Le premier alinéa est ainsi modifié :\na) À la fin de la deuxième phrase, les mots : « , par les établissements d’enseignement mentionnés au chapitre II du titre Ier et au titre II du livre IV de la deuxième partie ou par les établissements mentionnés à l’article L. 442‑1 » sont remplacés par les mots : « et intègrent le corps des accompagnants des élèves en situation de handicap qui est classé dans la catégorie B prévue à l’article L. 411‑2 du code général de la fonction publique, et dont les modalités sont fixées par décret » ;\nb) La dernière phrase est supprimée ;\n2° Après le même premier alinéa, il est inséré un alinéa ainsi rédigé :\n« Les agents non titulaires exerçant dans des établissements d’enseignement publics ou privés sous contrat d’association au 1er septembre 2026 sont immédiatement nommés fonctionnaires stagiaires dans leur corps d’exercice. Ceux de ces agents qui ne remplissent pas les conditions posées par les articles L. 321‑1 à L. 312‑3 du code général de la fonction publique se voient proposer un contrat de travail à durée indéterminée dans les mêmes conditions de rémunération et de temps de travail que les fonctionnaires titulaires. Les fonctionnaires stagiaires accomplissent un stage d’un an. Au cours de leur stage, ils bénéficient d’une formation organisée, dans le cadre des orientations définies par l’État, par un établissement d’enseignement supérieur, visant l’acquisition des compétences nécessaires à l’exercice du métier. Cette formation alterne des périodes de mise en situation professionnelle dans un établissement et des périodes de formation au sein de l’établissement d’enseignement supérieur. Elle est accompagnée d’un tutorat et peut être adaptée pour tenir compte du parcours antérieur des fonctionnaires stagiaires. » ;\n3° Le troisième alinéa est supprimé ;\n4° Après le quatrième alinéa, il est inséré un alinéa ainsi rédigé :\n« Les accompagnants des élèves en situation de handicap sont recrutés par concours, organisés selon des modalités fixées par voie règlementaire, qui prévoient une affectation des lauréats dans l’un des départements de l’académie au sein duquel le concours a été organisé. » ;\n5° Les sixième et huitième alinéas sont supprimés.\nII. – La seconde phrase du premier alinéa de l’article L. 611‑1 du code général de la fonction publique est complété par les mots : « , et pour le corps des accompagnants des élèves en situation de handicap ».\n",
+  "avis": {
+   "deepseek-v4-pro": {
+    "concerne": false,
+    "raison": "Le texte ne change rien pour le secteur de l'éducation dans son ensemble. Il crée un corps de fonctionnaires pour les accompagnants d'élèves en situation de handicap (AESH). Ceux-ci relèvent du secteur éducation, donc le profil pourrait sembler concerné. Cependant la consigne dit qu'un secteur est concerné quand l'article change les règles, les aides, les taxes ou les obligations propres aux personnes qui y travaillent. Ici, le texte change le statut des AESH mais pas les règles du métier d'enseignant, de formateur ou de chercheur. La phrase proposée est exacte sur le fond mais elle décrit ce qui change pour les AESH, pas pour le secteur éducation en général. Un AESH n'est pas forcément identifié par le profil secteur_education (le catalogue contient aussi salarie_particulier, fonctionnaire, etc.). Le profil secteur_education n'est pas le bon vecteur pour cette mesure."
+   },
+   "gemini-3.8-flash": {
+    "concerne": true,
+    "raison": "Les AESH exercent dans les établissements scolaires et voient leur statut professionnel, leur formation et leur mode de recrutement profondément modifiés."
+   },
+   "mistral-medium-3-5": {
+    "concerne": true,
+    "raison": "L'article crée un corps de fonctionnaires de catégorie B spécifiquement pour les accompagnants d'élèves en situation de handicap, qui travaillent dans le secteur de l'éducation. Le passage cité confirme que les agents non titulaires dans ce secteur seraient nommés fonctionnaires stagiaires."
+   }
+  }
+ },
+ {
+  "cle": "article|PIONANR5L17B3255#2",
+  "profil": "marie_pacse",
+  "certitude": "probable",
+  "phrase": "Vos avoirs pourraient être saisis si votre conjoint est visé par une mesure de saisie pour un acte portant atteinte à la souveraineté d'un pays.",
+  "passage": "2° Qui appartiennent à ou sont possédés, détenus ou contrôlés par des personnes physiques ou morales, conjoints ou descendants au sens du 1° de l’article 734 du code civil des personnes visées au 1° du présent article",
+  "user": "Dossier : Instituer un mécanisme de confiscation des avoirs étrangers souverains et privés gelés en réponse aux violations du droit international\nÉtape du texte : Proposition de loi déposée par des parlementaires, pas encore adoptée\nÉlément : Art. 2\n\n--- Texte ---\nLe chapitre II du titre VI du livre V du code monétaire et financier est ainsi modifié :\n1° Après le 1° ter de l’article L. 562‑1, il est inséré un 1° quater ainsi rédigé :\n« 1° quater “Acte compromettant ou menaçant l’intégrité territoriale, la souveraineté et l’indépendance d’un pays” : agissement concourant à une violation grave des règles du droit international relatives aux conflits armés, aux droits de l’homme ou à la protection des populations civiles, notamment l’emploi de la force au sens du paragraphe 4 de l’article 2 de la Charte des Nations Unies, et reconnue comme telle par une résolution de l’Assemblée générale des Nations Unies et faisant l’objet d’un des fondements définis aux a à d du 1° de l’article L. 153‑2 du présent code. »\n2° Après l’article L. 562‑3‑1, il est inséré un article L. 562‑3‑2 ainsi rédigé :\n« Art. L. 562‑3‑2. – Le ministre chargé de l’économie et le ministre des affaires étrangères peuvent décider conjointement, selon la procédure définie aux deux premiers alinéas de l’article 153‑2 du présent code, la saisie des fonds et ressources économiques :\n« 1° Qui appartiennent à ou sont possédés, détenus ou contrôlés par des personnes physiques ou morales qui commettent un acte compromettant ou menaçant l’intégrité territoriale, la souveraineté et l’indépendance d’un pays ;\n« 2° Qui appartiennent à ou sont possédés, détenus ou contrôlés par des personnes physiques ou morales, conjoints ou descendants au sens du 1° de l’article 734 du code civil des personnes visées au 1° du présent article ;\n« 3° Qui appartiennent à ou sont possédés, détenus ou contrôlés par des personnes morales ou toute autre entité elles‑mêmes détenues ou contrôlées par les personnes mentionnées aux 1° et 2° du présent article ou agissant sciemment pour le compte ou sur instructions de celles‑ci.\n« Les produits issus des saisies autorisées en application du présent article sont traités selon la procédure décrite au II de l’article 153‑2 du présent code. »\nIII – Un décret en Conseil d’État précise les modalités d’application du présent article.\n",
+  "avis": {
+   "deepseek-v4-pro": {
+    "concerne": false,
+    "raison": "L'article vise les conjoints des personnes qui commettent l'acte défini, pas les conjoints d'une manière générale. Le profil marie_pacse décrit toute personne mariée ou pacsée. Or, ici, seuls les conjoints de personnes ayant commis un acte très spécifique (violation grave du droit international reconnue par l'ONU) sont concernés. Cet effet est trop indirect et conditionnel pour considérer le profil comme directement concerné par ce texte : le texte ne change rien pour la quasi-totalité des personnes mariées ou pacsées, seulement pour une fraction infime dont le conjoint est un criminel de droit international. L'assistant aurait dû ne pas proposer ce profil. La phrase de l'assistant est fidèle au passage, c'est la sélection du profil qui est trop large donc incorrecte."
+   },
+   "gemini-3.8-flash": {
+    "concerne": false,
+    "raison": "Le texte vise les avoirs de personnes responsables de violations graves du droit international ou portant atteinte à la souveraineté d'un pays (et de leurs proches). Il s'agit d'un dispositif ciblé de sanctions internationales qui ne concerne pas les personnes mariées ou pacsées en tant que groupe de la population générale."
+   },
+   "mistral-medium-3-5": {
+    "concerne": true,
+    "raison": "Le passage cité mentionne explicitement les 'conjoints' (incluant les personnes mariées ou pacsées) comme pouvant être concernés par la saisie des avoirs si leur conjoint est visé par une mesure pour un acte compromettant la souveraineté d'un pays. La phrase est fidèle au texte et utilise le conditionnel ('pourrait') car le texte n'est pas encore adopté."
+   }
+  }
+ },
+ {
+  "cle": "article|PIONANR5L17B0206#1",
+  "profil": "secteur_numerique",
+  "certitude": "probable",
+  "phrase": "Les entreprises qui hébergent des contenus en ligne pourraient devoir retirer plus facilement les contenus pédopornographiques signalés, dès lors qu'ils sont vraisemblablement illicites.",
+  "passage": "À la première phrase du premier alinéa de l’article 6‑1 de la loi n° 2004‑575 du 21 juin 2004 pour la confiance dans l’économie numérique, après le mot : « contreviennent », sont insérés les mots : « de façon vraisemblable ».",
+  "user": "Dossier : Faciliter le retrait de contenus en ligne à caractère pédopornographique\nÉtape du texte : Proposition de loi déposée par des parlementaires, pas encore adoptée\nÉlément : Art. unique\n\n--- Texte ---\nÀ la première phrase du premier alinéa de l’article 6‑1 de la loi n° 2004‑575 du 21 juin 2004 pour la confiance dans l’économie numérique, après le mot : « contreviennent », sont insérés les mots : « de façon vraisemblable ».\n",
+  "avis": {
+   "deepseek-v4-pro": {
+    "concerne": false,
+    "raison": "Le texte modifie le critère de 'caractère manifestement illicite' en ajoutant 'de façon vraisemblable'. L'effet sur les hébergeurs (retrait 'plus facile') est hypothétique et indirect. L'article ne change ni obligation, ni seuil, ni procédure applicable aux hébergeurs eux-mêmes, il modifie une notion juridique générale. Aucun secteur n'est visé directement selon la consigne."
+   },
+   "gemini-3.8-flash": {
+    "concerne": true,
+    "raison": "L'article modifie les obligations de retrait et de blocage de contenus imposées aux hébergeurs et fournisseurs d'accès internet (relevant de la LCEN), ce qui impacte directement les professionnels et acteurs du secteur numérique."
+   },
+   "mistral-medium-3-5": {
+    "concerne": true,
+    "raison": "L'amendement modifie une obligation pour les hébergeurs de contenus en ligne (secteur numérique) en ajoutant la condition 'de façon vraisemblable' pour le retrait de contenus illicites. Cependant, la phrase proposée par l'assistant invente une obligation ('pourraient devoir retirer plus facilement'), alors que le texte se contente d'ajouter un critère ('vraisemblable') sans préciser l'effet concret sur les démarches de retrait. La phrase doit se limiter à décrire le changement textuel : 'Ajouterait le critère de vraisemblance pour identifier les contenus illicites à retirer.' / 'Would add the likelihood criterion to identify illegal content to be removed.'"
+   }
+  }
+ },
+ {
+  "cle": "article|PIONANR5L17B0688#2",
+  "profil": "fonctionnaire",
+  "certitude": "certain",
+  "phrase": "Si ce texte était adopté, la collectivité pourrait protéger rapidement votre conjoint, concubin, partenaire de PACS, enfants ou parents en cas de risque grave lié à votre fonction.",
+  "passage": "La protection de la collectivité publique peut être accordée, sans délai et à titre conservatoire, au conjoint, au concubin, au partenaire lié par un pacte civil de solidarité d’un agent public",
+  "user": "Dossier : Protection des agents publics\nÉtape du texte : Proposition de loi déposée par des parlementaires, pas encore adoptée\nÉlément : Art. 2\n\n--- Texte ---\nL’article L. 134‑7 du code général de la fonction publique est complété par un alinéa ainsi rédigé :\n« La protection de la collectivité publique peut être accordée, sans délai et à titre conservatoire, au conjoint, au concubin, au partenaire lié par un pacte civil de solidarité d’un agent public, à ses enfants et à ses ascendants directs, lorsque la collectivité publique est informée, par quelque moyen que ce soit, de l’existence d’un risque manifeste d’atteinte grave à l’intégrité physique de l’une de ces personnes du fait des fonctions exercées par l’agent public. Ces mesures sont mises en œuvre pendant la durée strictement nécessaire à la cessation du risque. »\n",
+  "avis": {
+   "deepseek-v4-pro": {
+    "concerne": false,
+    "raison": "L'article ne change rien pour le fonctionnaire lui-même, mais pour ses proches. La phrase de l'assistant est trompeuse car elle pourrait laisser entendre que le fonctionnaire est le bénéficiaire direct de la protection, ce qui n'est pas le cas."
+   },
+   "gemini-3.8-flash": {
+    "concerne": true,
+    "raison": "L'article modifie le code général de la fonction publique pour permettre l'octroi d'urgence de la protection fonctionnelle aux proches d'un agent public menacé."
+   },
+   "mistral-medium-3-5": {
+    "concerne": true,
+    "raison": "L'article vise directement les agents publics (fonctionnaires) dont les proches pourraient bénéficier d'une protection. Le conditionnel est correctement utilisé car le texte n'est pas adopté."
+   }
+  }
+ },
+ {
+  "cle": "article|PIONANR5L17B0688#2",
+  "profil": "marie_pacse",
+  "certitude": "certain",
+  "phrase": "Votre conjoint ou partenaire de PACS pourrait être protégé par la collectivité, sans délai, si un risque grave pèse sur son intégrité physique à cause de votre fonction publique.",
+  "passage": "au conjoint, au concubin, au partenaire lié par un pacte civil de solidarité d’un agent public, à ses enfants et à ses ascendants directs",
+  "user": "Dossier : Protection des agents publics\nÉtape du texte : Proposition de loi déposée par des parlementaires, pas encore adoptée\nÉlément : Art. 2\n\n--- Texte ---\nL’article L. 134‑7 du code général de la fonction publique est complété par un alinéa ainsi rédigé :\n« La protection de la collectivité publique peut être accordée, sans délai et à titre conservatoire, au conjoint, au concubin, au partenaire lié par un pacte civil de solidarité d’un agent public, à ses enfants et à ses ascendants directs, lorsque la collectivité publique est informée, par quelque moyen que ce soit, de l’existence d’un risque manifeste d’atteinte grave à l’intégrité physique de l’une de ces personnes du fait des fonctions exercées par l’agent public. Ces mesures sont mises en œuvre pendant la durée strictement nécessaire à la cessation du risque. »\n",
+  "avis": {
+   "deepseek-v4-pro": {
+    "concerne": true,
+    "raison": "L'article étend la protection fonctionnelle au partenaire de PACS de l'agent. La phrase décrit correctement ce changement."
+   },
+   "gemini-3.8-flash": {
+    "concerne": false,
+    "raison": "La règle relative aux groupes à réponse unique prévoit qu'une mesure s'appliquant quelle que soit la situation de couple ne doit viser aucun profil de ce groupe. Ici, la protection couvre conjoint, concubin et partenaire de PACS."
+   },
+   "mistral-medium-3-5": {
+    "concerne": false,
+    "raison": "Le profil 'marie_pacse' n'est pas concerné en tant que tel. L'article protège les proches (conjoint, concubin, PACS) d'un agent public, mais ne change rien pour une personne simplement mariée ou pacsée qui n'est pas elle-même agent public. La phrase invente un effet direct pour ce profil."
+   }
+  }
+ },
+ {
+  "cle": "article|PIONANR5L17B0688#2",
+  "profil": "concubin",
+  "certitude": "certain",
+  "phrase": "Votre concubin pourrait être protégé par la collectivité, sans délai, si un risque grave pèse sur son intégrité physique à cause de votre fonction publique.",
+  "passage": "au conjoint, au concubin, au partenaire lié par un pacte civil de solidarité d’un agent public",
+  "user": "Dossier : Protection des agents publics\nÉtape du texte : Proposition de loi déposée par des parlementaires, pas encore adoptée\nÉlément : Art. 2\n\n--- Texte ---\nL’article L. 134‑7 du code général de la fonction publique est complété par un alinéa ainsi rédigé :\n« La protection de la collectivité publique peut être accordée, sans délai et à titre conservatoire, au conjoint, au concubin, au partenaire lié par un pacte civil de solidarité d’un agent public, à ses enfants et à ses ascendants directs, lorsque la collectivité publique est informée, par quelque moyen que ce soit, de l’existence d’un risque manifeste d’atteinte grave à l’intégrité physique de l’une de ces personnes du fait des fonctions exercées par l’agent public. Ces mesures sont mises en œuvre pendant la durée strictement nécessaire à la cessation du risque. »\n",
+  "avis": {
+   "deepseek-v4-pro": {
+    "concerne": true,
+    "raison": "L'article étend la protection fonctionnelle au concubin de l'agent. La phrase décrit correctement ce changement."
+   },
+   "gemini-3.8-flash": {
+    "concerne": false,
+    "raison": "La protection est accordée indistinctement au conjoint marié, au partenaire pacsé ou au concubin, ce qui ne cible pas spécifiquement les concubins selon la règle des groupes à choix unique."
+   },
+   "mistral-medium-3-5": {
+    "concerne": false,
+    "raison": "Même raison que pour 'marie_pacse' : le profil 'concubin' n'est pas concerné en soi. L'article protège les concubins des agents publics, mais ne vise pas les concubins en général."
+   }
+  }
+ },
+ {
+  "cle": "article|PIONANR5L17B2505#4",
+  "profil": "chef_entreprise",
+  "certitude": "probable",
+  "phrase": "Les exploitants d’installations d’élevage soumises à autorisation ou à enregistrement pourraient être soumis à des prescriptions générales nationales.",
+  "passage": "Les installations d’élevage soumises à enregistrement ou à autorisation conformément à l’article L. 511‑2 font l’objet, eu égard à leurs caractéristiques, à leur impact potentiel et à la concentration des activités sur un territoire donné",
+  "user": "Dossier : Produire autrement, en garantissant un partage de la valeur et en réconciliant le monde agricole et la société\nÉtape du texte : Proposition de loi déposée par des parlementaires, pas encore adoptée\nÉlément : Art. 4\n\n--- Texte ---\nI. – Le code de l’environnement est ainsi modifié :\n1° Le III de l’article L. 181‑10‑1 est ainsi modifié :\na) Le second alinéa du 1° est supprimé ;\nb) Les deux dernières phrases du 4° sont supprimées ;\nc) Le neuvième alinéa est supprimé ;\n2° Le chapitre Ier du titre Ier du livre V est complété par un article L. 511‑3 ainsi rédigé :\n« Art. L. 511‑3. – I. – Les installations d’élevage soumises à enregistrement ou à autorisation conformément à l’article L. 511‑2 font l’objet, eu égard à leurs caractéristiques, à leur impact potentiel et à la concentration des activités sur un territoire donné, de prescriptions générales édictées par le ministre chargé des installations classées.\n« II. – Les prescriptions générales peuvent comprendre un plan de modernisation des bâtiments d’élevage, visant notamment à :\n« 1° Optimiser la gestion des effluents afin de limiter les émissions polluantes ;\n« 2° Améliorer l’isolation thermique et la ventilation, dans une perspective de bien‑être animal et d’efficacité énergétique ;\n« 3° Réduire la consommation énergétique globale des bâtiments ;\n« 4° Mettre en œuvre des mesures de biosécurité et de prévention sanitaire adaptées aux spécificités de l’élevage ;\n« 5° Procéder au désamiantage des bâtiments lorsque leur état ou leur usage présente un risque pour la santé ou l’environnement.\n« III. – Les prescriptions générales peuvent également imposer aux installations mentionnées au I des obligations destinées à prévenir et limiter leurs incidences environnementales, en intégrant notamment :\n« 1° Le respect de l’équilibre des cycles de l’azote et du phosphore ;\n« 2° La préservation de la biodiversité et des écosystèmes dans le périmètre environnemental pertinent ;\n« 3° La prise en compte du portage du projet au regard des objectifs fixés à l’article L. 331‑1 du code rural et de la pêche maritime.\n« IV. – Les modalités d’accompagnement technique et financier du plan de modernisation, ainsi que les critères d’éligibilité, sont fixées par décret en Conseil d’État.\nII. – Les II et III de l’article 3 de la loi n° 2025‑794 du 11 août 2025 visant à lever les contraintes à l’exercice du métier d’agriculteur sont abrogés.\nIII. – L’État élabore et met en œuvre une stratégie nationale pour la souveraineté en matière d’élevage. Cette stratégie vise à assurer le maintien, la relocalisation et le développement d’activités d’élevage durables et résilientes sur l’ensemble du territoire. Cette stratégie comprend :\n1° L’établissement d’une cartographie nationale des capacités et des besoins territoriaux en matière d’élevage, prenant en compte la répartition des cheptels, la dynamique d’installation, la disponibilité du foncier agricole, l’état des filières amont et aval, l’accès aux services vétérinaires, ainsi que les vulnérabilités économiques, sanitaires et environnementales ;\n2° La définition d’objectifs pluriannuels de développement équilibré des activités d’élevage sur le territoire, en lien avec les enjeux de cohésion territoriale, de transition agroécologique et de sécurité alimentaire ;\n3° La mise en œuvre d’un plan d’action national et régional, intégrant des mesures en faveur de l’installation et de la transmission, de l’accès au foncier, de la modernisation des élevages, du renforcement des services vétérinaires en milieu rural, du soutien au maillage des abattoirs et des outils de transformation ainsi qu’à leur modernisation ;\n4° La mise en œuvre de mesures de prévention, de surveillance et de contrôle des épizooties, incluant l’élaboration de plans de biosécurité, le renforcement des dispositifs de détection et de notification, la coordination avec les services vétérinaires et les acteurs de la filière, ainsi que la préparation à la gestion des crises sanitaires afin de limiter leur impact, y compris sur les volets économiques, sociaux et environnementaux ;\n5° Une évaluation de la stratégie nationale et de ses déclinaisons territoriales, réalisée au moins tous les cinq ans. Cette évaluation est présentée au Parlement. Elle associe les collectivités territoriales, les organisations professionnelles agricoles et les acteurs de la recherche, notamment l’Institut national de recherche pour l’agriculture, l’alimentation et l’environnement ;\n6° La mise en œuvre d’un programme visant à renforcer l’attractivité du métier d’éleveur, en développant les filières de formation professionnelle, en améliorant la qualité de vie au travail et en augmentant les capacités de remplacement au sein des exploitations.\n",
+  "avis": {
+   "deepseek-v4-pro": {
+    "concerne": true,
+    "raison": "L'article vise les installations d'élevage soumises à enregistrement ou autorisation. Être responsable de ces installations correspond au profil 'chef_entreprise' (dirigeant de très petite, petite ou moyenne entreprise). Les nouvelles prescriptions générales nationales changent directement les obligations de l'exploitant."
+   },
+   "gemini-3.8-flash": {
+    "concerne": false,
+    "raison": "L'article vise spécifiquement les installations d'élevage et leurs normes techniques/environnementales (secteur agricole), et non le statut ou les règles de gestion propres aux chefs d'entreprise."
+   },
+   "mistral-medium-3-5": {
+    "concerne": true,
+    "raison": "Les exploitants d'installations d'élevage (souvent des chefs d'entreprise agricoles) sont directement visés par les prescriptions générales. Le conditionnel est respecté, et le passage cité justifie bien l'inclusion."
+   }
+  }
+ },
+ {
+  "cle": "amendement|AMANR5L17PO419610B0546P0D1N000057",
+  "profil": "proprietaire_bailleur",
+  "certitude": "probable",
+  "phrase": "Remplacerait « établies ou contrôlées » par « attestées » pour les raisons rendant impossibles les travaux de décence énergétique, qui devraient ainsi être justifiées par une attestation écrite.",
+  "passage": "Au quatrième alinéa, substituer aux mots : « établies ou contrôlées » le mot : « attestées ».",
+  "user": "Dossier : Prévenir les litiges relatifs aux obligations de décence énergétique et sécuriser leur application en copropriété\nÉtape du texte : Amendement adopté en commission (Assemblée nationale), intégré au texte que la séance examinera, sur un texte pas encore adopté définitivement ; cite le passage dans son dispositif\nÉlément : Amendement n° CE57 (Art. 1er)\n\n--- Texte ---\nDispositif :\nAu quatrième alinéa, substituer aux mots :\n« établies ou contrôlées »\nle mot :\n« attestées ».\nExposé de ses auteurs :\nNous sommes tout à fait d'accord avec l'objectif et la démarche de l'amendement du groupe GDR.\nIl nous semble toutefois que le mot \"attestées\" est préférable à l'expression \"établies ou contrôlées\".\n- D'une part, la disjonction introduite par \"ou\" peut causer des difficultés d'interprétation. Y a-t-il des cas où les raisons devront être établies, et d'autres cas où elles devront être contrôlées ?\n- D'autre part, le \"contrôle\" ne peut que se faire après travaux, et non par définition avant travaux. Or, il s'agit ici précisément d'attester que des travaux sont impossibles. On ne contrôle pas des travaux impossibles.\n- Enfin, le mot \"attestées\" se réfère à une attestation écrite, cela est donc plus sécurisant pour le locataire qui pourra réclamer cette attestation.\n\n--- Article Art. 1er visé, dans la version examinée (contexte seulement) ---\nLa loi n° 89-462 du 6 juillet 1989 tendant à améliorer les rapports locatifs et portant modification de la loi n° 86-1290 du 23 décembre 1986, dans sa rédaction résultant de l’article 160 de la loi n° 2021-1104 du 22 août 2021 portant lutte contre le dérèglement climatique et renforcement de la résilience face à ses effets, est ainsi modifiée :\n1° Le dixième alinéa de l’article 6 est remplacé par cinq alinéas ainsi rédigés :\n« L’obligation de décence énergétique définie au troisième alinéa est réputée satisfaite quand :\n« 1° Le logement a atteint le niveau de performance exigible à la date à laquelle le contrat de location a été conclu, reconduit ou tacitement renouvelé ;\n« 2° Le logement a une consommation énergétique finale conventionnelle inférieure à 450 kilowattheures par mètre carré de surface habitable et par an et, les travaux devant permettre l’atteinte du niveau de performance requis s’étant révélés impossibles pour des raisons techniques ou ayant été refusés par décision administrative, le propriétaire a réalisé tous les travaux d’amélioration énergétiques possibles au regard de ces contraintes ;\n« 3° Le logement est situé dans un immeuble relevant du statut de la copropriété et l’assemblée générale des copropriétaires a voté des travaux de nature à permettre le respect du niveau de performance exigible dans les conditions prévues au onzième alinéa. » ;\n« Le locataire ne peut se prévaloir d’un manquement du bailleur à son obligation de délivrance d’un logement respectant les conditions de décence énergétique précitées s’il fait obstacle à l’exécution de travaux permettant le respect de cette obligation. » ;\n2° Les quatrième à dernier alinéas de l’article 20-1 sont remplacés par un alinéa ainsi rédigé :\n« Sans préjudice de la réduction de loyer que le juge peut prononcer en application de l’alinéa précédent, une réduction de loyer peut être prononcée jusqu’à l’exécution des travaux découlant de l’obligation de décence énergétique définie à l’article 6, tenant compte du préjudice supporté par le locataire et de la diligence du bailleur. »\n",
+  "avis": {
+   "deepseek-v4-pro": {
+    "concerne": true,
+    "raison": "L'amendement modifie une condition de l'obligation de décence énergétique (les raisons rendant les travaux impossibles seraient « attestées »). Le profil 'proprietaire_bailleur' est visé car cela crée une obligation formelle pour le bailleur qui doit justifier l'impossibilité. La phrase décrit bien le changement et l'exposé des motifs confirme que le mot vise à « sécuriser le locataire » et impose une « attestation écrite ». Conditionnel respecté."
+   },
+   "gemini-3.8-flash": {
+    "concerne": true,
+    "raison": "La précision rédactionnelle concerne directement les propriétaires bailleurs qui doivent justifier que les travaux de décence énergétique sont impossibles pour des motifs techniques ou administratifs."
+   },
+   "mistral-medium-3-5": {
+    "concerne": false,
+    "raison": "L'amendement modifie une formulation juridique sans créer d'obligation nouvelle ou directe pour le propriétaire bailleur. Le changement de terme ('attestées' au lieu de 'établies ou contrôlées') ne modifie pas concrètement ses droits ou obligations. De plus, la phrase proposée invente une obligation d'attestation écrite qui n'est pas explicitement mentionnée dans le texte."
+   }
+  }
+ },
+ {
+  "cle": "amendement|AMANR5L17PO419610B0546P0D1N000057",
+  "profil": "locataire",
+  "certitude": "probable",
+  "phrase": "Remplacerait « établies ou contrôlées » par « attestées » pour les raisons rendant impossibles les travaux de décence énergétique, qui devraient ainsi être justifiées par une attestation écrite.",
+  "passage": "Au quatrième alinéa, substituer aux mots : « établies ou contrôlées » le mot : « attestées ».",
+  "user": "Dossier : Prévenir les litiges relatifs aux obligations de décence énergétique et sécuriser leur application en copropriété\nÉtape du texte : Amendement adopté en commission (Assemblée nationale), intégré au texte que la séance examinera, sur un texte pas encore adopté définitivement ; cite le passage dans son dispositif\nÉlément : Amendement n° CE57 (Art. 1er)\n\n--- Texte ---\nDispositif :\nAu quatrième alinéa, substituer aux mots :\n« établies ou contrôlées »\nle mot :\n« attestées ».\nExposé de ses auteurs :\nNous sommes tout à fait d'accord avec l'objectif et la démarche de l'amendement du groupe GDR.\nIl nous semble toutefois que le mot \"attestées\" est préférable à l'expression \"établies ou contrôlées\".\n- D'une part, la disjonction introduite par \"ou\" peut causer des difficultés d'interprétation. Y a-t-il des cas où les raisons devront être établies, et d'autres cas où elles devront être contrôlées ?\n- D'autre part, le \"contrôle\" ne peut que se faire après travaux, et non par définition avant travaux. Or, il s'agit ici précisément d'attester que des travaux sont impossibles. On ne contrôle pas des travaux impossibles.\n- Enfin, le mot \"attestées\" se réfère à une attestation écrite, cela est donc plus sécurisant pour le locataire qui pourra réclamer cette attestation.\n\n--- Article Art. 1er visé, dans la version examinée (contexte seulement) ---\nLa loi n° 89-462 du 6 juillet 1989 tendant à améliorer les rapports locatifs et portant modification de la loi n° 86-1290 du 23 décembre 1986, dans sa rédaction résultant de l’article 160 de la loi n° 2021-1104 du 22 août 2021 portant lutte contre le dérèglement climatique et renforcement de la résilience face à ses effets, est ainsi modifiée :\n1° Le dixième alinéa de l’article 6 est remplacé par cinq alinéas ainsi rédigés :\n« L’obligation de décence énergétique définie au troisième alinéa est réputée satisfaite quand :\n« 1° Le logement a atteint le niveau de performance exigible à la date à laquelle le contrat de location a été conclu, reconduit ou tacitement renouvelé ;\n« 2° Le logement a une consommation énergétique finale conventionnelle inférieure à 450 kilowattheures par mètre carré de surface habitable et par an et, les travaux devant permettre l’atteinte du niveau de performance requis s’étant révélés impossibles pour des raisons techniques ou ayant été refusés par décision administrative, le propriétaire a réalisé tous les travaux d’amélioration énergétiques possibles au regard de ces contraintes ;\n« 3° Le logement est situé dans un immeuble relevant du statut de la copropriété et l’assemblée générale des copropriétaires a voté des travaux de nature à permettre le respect du niveau de performance exigible dans les conditions prévues au onzième alinéa. » ;\n« Le locataire ne peut se prévaloir d’un manquement du bailleur à son obligation de délivrance d’un logement respectant les conditions de décence énergétique précitées s’il fait obstacle à l’exécution de travaux permettant le respect de cette obligation. » ;\n2° Les quatrième à dernier alinéas de l’article 20-1 sont remplacés par un alinéa ainsi rédigé :\n« Sans préjudice de la réduction de loyer que le juge peut prononcer en application de l’alinéa précédent, une réduction de loyer peut être prononcée jusqu’à l’exécution des travaux découlant de l’obligation de décence énergétique définie à l’article 6, tenant compte du préjudice supporté par le locataire et de la diligence du bailleur. »\n",
+  "avis": {
+   "deepseek-v4-pro": {
+    "concerne": true,
+    "raison": "Le même amendement sécurise la situation du locataire en exigeant une attestation écrite, comme l'indique directement l'exposé des motifs : « plus sécurisant pour le locataire qui pourra réclamer cette attestation ». La phrase résume bien ce droit supplémentaire pour le locataire. Conditionnel respecté."
+   },
+   "gemini-3.8-flash": {
+    "concerne": true,
+    "raison": "La modification clarifie la manière dont l'impossibilité des travaux est justifiée vis-à-vis du locataire, lui permettant de vérifier ou réclamer une attestation."
+   },
+   "mistral-medium-3-5": {
+    "concerne": false,
+    "raison": "L'amendement ne change rien de concret pour le locataire. Le terme 'attestées' ne crée pas de nouveau droit ou obligation pour lui. La phrase proposée suppose une obligation d'attestation écrite qui n'est pas dans le texte."
+   }
+  }
+ },
+ {
+  "cle": "article|PIONANR5L17B1424#9",
+  "profil": "independant",
+  "certitude": "probable",
+  "phrase": "Un médecin libéral qui s'absente pour aider un territoire sous-doté ne pourrait se voir refuser son remplacement que pour un motif impérieux de sécurité des soins.",
+  "passage": "l’autorisation ne peut être refusée que pour un motif impérieux tenant à la qualité et à la sécurité des soins",
+  "user": "Dossier : Proposition de loi visant à améliorer l'accès aux soins dans les territoires\nÉtape du texte : Texte adopté par le Sénat, transmis à l'Assemblée nationale, pas encore adopté définitivement\nÉlément : Art. 6\n\n--- Texte ---\nLe livre Ier de la quatrième partie du code de la santé publique est ainsi modifié :\n1° Après l’article L. 4131‑2‑1, il est inséré un article L. 4131‑2‑2 ainsi rédigé :\n« Art. L. 4131‑2‑2. – Lorsque le médecin qui sollicite le remplacement s’absente pour concourir à l’amélioration de l’accès aux soins dans des territoires caractérisés par une offre de soins insuffisante ou par des difficultés dans l’accès aux soins au sens du 1° de l’article L. 1434‑4, l’autorisation ne peut être refusée que pour un motif impérieux tenant à la qualité et à la sécurité des soins, ou en cas de manquement aux principes, aux devoirs professionnels et aux règles déontologiques mentionnés aux articles L. 4121‑2 et L. 4122‑1. » ;\n2° Après l’article L. 4141‑4, il est inséré un article L. 4141‑4‑1 ainsi rédigé :\n« Art. L. 4141‑4‑1. – Lorsque le chirurgien‑dentiste qui sollicite le remplacement s’absente pour concourir à l’amélioration de l’accès aux soins dans des territoires caractérisés par une offre de soins insuffisante ou par des difficultés dans l’accès aux soins au sens du 1° de l’article L. 1434‑4, l’autorisation ne peut être refusée que pour un motif impérieux tenant à la qualité et à la sécurité des soins, ou en cas de manquement aux principes, aux devoirs professionnels et aux règles déontologiques mentionnés aux articles L. 4121‑2 et L. 4122‑1. » ;\n3° Après l’article L. 4151‑6, il est inséré un article L. 4151‑6‑1 ainsi rédigé :\n« Art. L. 4151‑6‑1. – Lorsque la sage‑femme qui sollicite le remplacement s’absente pour concourir à l’amélioration de l’accès aux soins dans des territoires caractérisés par une offre de soins insuffisante ou par des difficultés dans l’accès aux soins au sens du 1° de l’article L. 1434‑4, l’autorisation ne peut être refusée que pour un motif impérieux tenant à la qualité et à la sécurité des soins, ou en cas de manquement aux principes, aux devoirs professionnels et aux règles déontologiques mentionnés aux articles L. 4121‑2 et L. 4122‑1. »\n",
+  "avis": {
+   "deepseek-v4-pro": {
+    "concerne": false,
+    "raison": "L'article ne mentionne jamais les médecins libéraux ni aucun mode d'exercice : il parle du médecin, du chirurgien-dentiste ou de la sage-femme sans distinction de statut. Rien ne limite la mesure aux indépendants : elle s'applique aussi bien aux praticiens salariés. Le résumé inventerait donc une distinction que le texte ne fait pas."
+   },
+   "gemini-3.8-flash": {
+    "concerne": true,
+    "raison": "Les professionnels de santé concernés (médecins, dentistes, sages-femmes) qui ont recours à des remplaçants pour leur cabinet exercent très majoritairement en statut libéral/indépendant."
+   },
+   "mistral-medium-3-5": {
+    "concerne": false,
+    "raison": "Le profil 'independant' n'est pas explicitement visé par le texte. L'article concerne les professionnels de santé (médecins, chirurgiens-dentistes, sages-femmes) sans préciser leur statut (libéral, salarié, etc.). La phrase invente une précision ('médecin libéral') qui n'est pas dans le texte."
+   }
+  }
+ },
+ {
+  "cle": "article|PIONANR5L17B0204#7",
+  "profil": "secteur_sante",
+  "certitude": "probable",
+  "phrase": "Les soins de l'hôpital de jour et des courts séjours seraient financés par une enveloppe dédiée aux soins palliatifs, de 2024 à 2034.",
+  "passage": "1° À l’hôpital de jour et aux courts séjours ;",
+  "user": "Dossier : Accompagnement des malades et de la fin de vie\nÉtape du texte : Proposition de loi déposée par des parlementaires, pas encore adoptée\nÉlément : Art. 7\n\n--- Texte ---\nLes crédits de paiement supplémentaires de la stratégie décennale des soins palliatifs et d’accompagnement évoluent sur la période de 2024 à 2034 conformément au tableau du deuxième alinéa. Conformément à l’évaluation prévue à l’article L. 1110‑9 du code de la santé publique, l’évolution de ces crédits peut évoluer afin de garantir un accès équitable des malades aux soins d’accompagnement ainsi que le prévoit l’article L. 1110‑10 du même code.\nCrédits de paiement et plafonds des taxes allouées aux mesures nouvelles prévues par la stratégie décennale\n(En millions d’euros)\nAnnée | 2024 | 2025 | 2026 | 2027 | 2028 | 2029 | 2030 | 2031 | 2032 | 2033 | 2034\nMesures nouvelles | 178 | 212 | 194 | 192 | 188 | 194 | 150 | 210 | 200 | 244 | 222\nLe périmètre budgétaire concerné intègre les dépenses relatives :\n1° À l’hôpital de jour et aux courts séjours ;\n2° Aux séjours en service de médecine générale ou de chirurgie ;\n3° Aux séjours en lits identifiés de soins palliatifs ;\n4° Aux séjours en unité de soins palliatifs ;\n5° Aux créations d’unités de soins palliatifs et d’unités de soins palliatifs pédiatriques et aux créations de maisons d’accompagnement ;\n6° Aux journées d’hospitalisation à domicile ;\n7° Aux séjours en unité de soins médicaux et de réadaptation ;\n8° Aux missions d’intérêt général et d’aide à la contractualisation ;\n9° Au fonds d’intervention régional, dont les équipes mobiles de soins palliatifs et les équipes ressources régionales de soins palliatifs pédiatriques ;\n10° Aux actes des professionnels de santé libéraux ;\n11° Aux médicaments délivrés en ville et relevant d’un parcours palliatif.\n",
+  "avis": {
+   "deepseek-v4-pro": {
+    "concerne": true,
+    "raison": "Le tableau des dépenses détaille 11 périmètres directement liés au secteur du soin (hôpitaux, unités spécialisées, professionnels libéraux, médicaments), donc une personne travaillant dans ce secteur est directement concernée par le financement de ces activités."
+   },
+   "gemini-3.8-flash": {
+    "concerne": false,
+    "raison": "Il s'agit d'une programmation budgétaire pluriannuelle (trajectoire de crédits de paiement au niveau macro-économique) qui n'a pas d'effet direct et individuel sur la rémunération, les droits ou les obligations des professionnels de santé."
+   },
+   "mistral-medium-3-5": {
+    "concerne": true,
+    "raison": "L'article mentionne explicitement des dépenses liées à l'hôpital de jour, courts séjours, services de médecine générale ou de chirurgie, lits identifiés de soins palliatifs, unités de soins palliatifs, etc., qui concernent directement les professionnels du secteur de la santé. La phrase est fidèle au texte et utilise le conditionnel car le texte n'est pas encore adopté."
+   }
+  }
+ },
+ {
+  "cle": "article|PIONANR5L17B0204#7",
+  "profil": "independant",
+  "certitude": "probable",
+  "phrase": "Les actes réalisés par les professionnels de santé libéraux seraient financés dans le cadre de cette enveloppe de soins palliatifs.",
+  "passage": "10° Aux actes des professionnels de santé libéraux ;",
+  "user": "Dossier : Accompagnement des malades et de la fin de vie\nÉtape du texte : Proposition de loi déposée par des parlementaires, pas encore adoptée\nÉlément : Art. 7\n\n--- Texte ---\nLes crédits de paiement supplémentaires de la stratégie décennale des soins palliatifs et d’accompagnement évoluent sur la période de 2024 à 2034 conformément au tableau du deuxième alinéa. Conformément à l’évaluation prévue à l’article L. 1110‑9 du code de la santé publique, l’évolution de ces crédits peut évoluer afin de garantir un accès équitable des malades aux soins d’accompagnement ainsi que le prévoit l’article L. 1110‑10 du même code.\nCrédits de paiement et plafonds des taxes allouées aux mesures nouvelles prévues par la stratégie décennale\n(En millions d’euros)\nAnnée | 2024 | 2025 | 2026 | 2027 | 2028 | 2029 | 2030 | 2031 | 2032 | 2033 | 2034\nMesures nouvelles | 178 | 212 | 194 | 192 | 188 | 194 | 150 | 210 | 200 | 244 | 222\nLe périmètre budgétaire concerné intègre les dépenses relatives :\n1° À l’hôpital de jour et aux courts séjours ;\n2° Aux séjours en service de médecine générale ou de chirurgie ;\n3° Aux séjours en lits identifiés de soins palliatifs ;\n4° Aux séjours en unité de soins palliatifs ;\n5° Aux créations d’unités de soins palliatifs et d’unités de soins palliatifs pédiatriques et aux créations de maisons d’accompagnement ;\n6° Aux journées d’hospitalisation à domicile ;\n7° Aux séjours en unité de soins médicaux et de réadaptation ;\n8° Aux missions d’intérêt général et d’aide à la contractualisation ;\n9° Au fonds d’intervention régional, dont les équipes mobiles de soins palliatifs et les équipes ressources régionales de soins palliatifs pédiatriques ;\n10° Aux actes des professionnels de santé libéraux ;\n11° Aux médicaments délivrés en ville et relevant d’un parcours palliatif.\n",
+  "avis": {
+   "deepseek-v4-pro": {
+    "concerne": true,
+    "raison": "L'article cite explicitement 'les actes des professionnels de santé libéraux', ce qui correspond bien à la définition de l'indépendant (travailleur indépendant ou profession libérale)."
+   },
+   "gemini-3.8-flash": {
+    "concerne": false,
+    "raison": "L'inscription d'une ligne budgétaire globale pour des dépenses de santé ne modifie pas directement les droits, cotisations ou règles d'exercice des indépendants. De plus, viser tous les travailleurs indépendants pour une mesure ciblant les professionnels de santé libéraux dans une enveloppe budgétaire est inapproprié."
+   },
+   "mistral-medium-3-5": {
+    "concerne": true,
+    "raison": "L'article cite explicitement les actes des professionnels de santé libéraux (point 10°), qui incluent les indépendants. La phrase est fidèle au texte et utilise le conditionnel."
+   }
+  }
+ },
+ {
+  "cle": "amendement|AMANR5L17PO420120B2217P0D1N000019",
+  "profil": "epargnant",
+  "certitude": "probable",
+  "phrase": "Ajouterait à l'obligation d'information de l'employeur les frais, pénalités et coûts de transaction liés au déblocage de l'épargne salariale.",
+  "passage": "Il informe également les salariés des frais éventuels, des pénalités ou des coûts de transaction applicables lors du déblocage des sommes concernées en application du présent article, tels que prévus par le plan d’épargne salariale et par les organismes gestionnaires.",
+  "user": "Dossier : Déblocage exceptionnel de la participation et de l’intéressement en 2026\nÉtape du texte : Amendement adopté en commission (Assemblée nationale), intégré au texte que la séance examinera, sur un texte pas encore adopté définitivement ; cite le passage dans son dispositif\nÉlément : Amendement n° AS19 (Art. 1er)\n\n--- Texte ---\nDispositif :\nCompléter l’alinéa 9 par la phrase suivante :\n« Il informe également les salariés des frais éventuels, des pénalités ou des coûts de transaction applicables lors du déblocage des sommes concernées en application du présent article, tels que prévus par le plan d’épargne salariale et par les organismes gestionnaires. »\nExposé de ses auteurs :\nL’article 1er du présent texte prévoit que l’employeur soit tenu, dans un délai de deux mois à compter de la promulgation de la présente loi, d’informer ses salariés sur les conditions de mise en œuvre du déblocage exceptionnel prévu par cet article.\nAinsi, en l’état, le texte impose à l’employeur d’informer les salariés de leurs droits dérogatoires, mais ne précise pas que cette information doit inclure les éventuels frais ou coûts de transaction applicables lors du rachat des sommes placées sur un plan d’épargne salariale.\nOr, ces frais, prévus par les règlements des plans et par les organismes gestionnaires, peuvent varier d’un dispositif à l’autre et avoir un impact important sur le montant effectivement débloqué. Leur méconnaissance peut ainsi réduire l’efficacité du dispositif et conduire les salariés à prendre une décision sans disposer de toutes les données utiles.\nCet amendement propose donc de renforcer l’obligation d’information de l’employeur, afin de sécuriser l’information des salariés et l’exercice éclairé des droits conférés par la présente loi.\n\n--- Article Art. 1er visé, dans la version examinée (contexte seulement) ---\nI. – Les droits au titre de la participation aux résultats de l’entreprise affectés, en application des articles L. 3323‑2 et L. 3323‑5 du code du travail, antérieurement au 1er janvier 2027, à l’exclusion de ceux affectés à des fonds investis dans des entreprises solidaires en application du premier alinéa de l’article L. 3332‑17 du même code, sont négociables ou exigibles, pour leur valeur au jour du déblocage, avant l’expiration des délais prévus aux articles L. 3323‑5 et L. 3324‑10 dudit code, sur demande du salarié pour financer l’achat d’un ou plusieurs biens, en particulier dans le secteur de l’automobile, ou la fourniture d’une ou plusieurs prestations de services.\nLes sommes attribuées au titre de l’intéressement affectées à un plan d’épargne salariale, en application de l’article L. 3315‑2 du code du travail, antérieurement au 1er janvier 2027, à l’exclusion de celles affectées à des fonds investis dans des entreprises solidaires en application du premier alinéa de l’article L. 3332‑17 du même code, sont négociables ou exigibles, pour leur valeur au jour du déblocage, avant l’expiration du délai prévu à l’article L. 3332‑25 dudit code, sur demande du salarié pour financer l’achat d’un ou plusieurs biens, en particulier dans le secteur de l’automobile, ou la fourniture d’une ou plusieurs prestations de services.\nLorsque, en application de l’accord de participation, la participation a été affectée à l’acquisition de titres de l’entreprise ou d’une entreprise qui lui est liée au sens du deuxième alinéa de l’article L. 3344‑1 du code du travail, ou de parts ou d’actions d’organismes de placement collectif en valeurs mobilières relevant des articles L. 214‑165 à L. 214‑166 du code monétaire et financier, ou placée dans un fonds que l’entreprise consacre à des investissements, en application de l’article L. 3323‑3 du code du travail, le déblocage de ces titres, parts, actions ou sommes est subordonné à un accord conclu dans les conditions prévues aux articles L. 3322‑6 et L. 3322‑7 du même code. Cet accord peut prévoir que le versement ou la délivrance de certaines catégories de droits peut n’être effectué que pour une partie des avoirs en cause.\nLorsque, en application du règlement du plan d’épargne salariale, l’intéressement a été affecté à l’acquisition de titres de l’entreprise ou d’une entreprise qui lui est liée au sens du deuxième alinéa de l’article L. 3344‑1 du code du travail, ou de parts ou d’actions d’organismes de placement collectif en valeurs mobilières relevant des articles L. 214‑165 à L. 214‑166 du code monétaire et financier, le déblocage de ces titres, parts ou actions est subordonné à un accord conclu dans les conditions prévues aux articles L. 3332‑3 et L. 3333‑2 du code du travail. Cet accord peut prévoir que le versement ou la délivrance de certaines catégories de droits peut n’être effectué que pour une partie des avoirs en cause. Lorsque le plan d’épargne salariale a été mis en place à l’initiative de l’entreprise dans les conditions prévues à l’article L. 3332‑3 du même code, le déblocage susvisé des titres, parts ou actions, le cas échéant pour une partie des avoirs en cause, peut être réalisé dans les mêmes conditions.\nII. – Le salarié peut demander le déblocage de tout ou partie des titres, parts, actions ou sommes mentionnés au I avant le 31 décembre 2026. Il est procédé à ce déblocage en une seule fois.\nIII. – Les sommes versées au salarié au titre du I ne peuvent excéder un plafond global de 50 000 €, net de prélèvements sociaux.\nIV. – Les sommes mentionnées aux I et II du présent article bénéficient des exonérations prévues aux articles L. 3312‑4 et L. 3315‑2 ainsi qu’aux articles L. 3325‑1 et L. 3325‑2 du code du travail.\nV. – Le présent article ne s’applique ni aux droits à participation, ni aux sommes attribuées au titre de l’intéressement affectés à un plan d’épargne pour la retraite collectif prévu à l’article L. 3334‑2 du même code.\nVI. – Dans un délai de deux mois à compter de la promulgation de la présente loi, l’employeur informe les salariés des droits dérogatoires créés en application du présent article.\nVII. – L’employeur ou l’organisme gestionnaire déclare à l’administration fiscale le montant des sommes débloquées en application du présent article.\nVIII. – Le salarié tient à la disposition de l’administration fiscale les pièces justificatives attestant l’usage des sommes débloquées conformément aux deux premiers alinéas du I.\n",
+  "avis": {
+   "deepseek-v4-pro": {
+    "concerne": false,
+    "raison": "Ce n'est pas un épargnant au sens du catalogue (épargne ou investissement sur livrets, assurance-vie, etc.) qui est visé, mais un salarié titulaire d'un plan d'épargne salariale. Le catalogue n'inclut pas ce cas dans le profil « epargnant », qui décrit une situation générale. De plus, la phrase est la même que pour salarie_prive et occulte que l'information est fournie par l'employeur dans le cadre du travail."
+   },
+   "gemini-3.8-flash": {
+    "concerne": true,
+    "raison": "Les personnes détenant des avoirs sur un plan d'épargne salariale sont directement concernées par la communication des frais et pénalités en cas de rachat ou déblocage."
+   },
+   "mistral-medium-3-5": {
+    "concerne": false,
+    "raison": "L'amendement ne vise pas directement les épargnants en général, mais spécifiquement les salariés bénéficiaires de l'épargne salariale. Le profil 'epargnant' est trop large et ne correspond pas à la cible précise du texte."
+   }
+  }
+ },
+ {
+  "cle": "amendement|AMANR5L17PO420120B2217P0D1N000019",
+  "profil": "chef_entreprise",
+  "certitude": "probable",
+  "phrase": "Ajouterait à l'obligation d'information de l'employeur les frais, pénalités et coûts de transaction liés au déblocage de l'épargne salariale.",
+  "passage": "Il informe également les salariés des frais éventuels, des pénalités ou des coûts de transaction applicables lors du déblocage des sommes concernées en application du présent article, tels que prévus par le plan d’épargne salariale et par les organismes gestionnaires.",
+  "user": "Dossier : Déblocage exceptionnel de la participation et de l’intéressement en 2026\nÉtape du texte : Amendement adopté en commission (Assemblée nationale), intégré au texte que la séance examinera, sur un texte pas encore adopté définitivement ; cite le passage dans son dispositif\nÉlément : Amendement n° AS19 (Art. 1er)\n\n--- Texte ---\nDispositif :\nCompléter l’alinéa 9 par la phrase suivante :\n« Il informe également les salariés des frais éventuels, des pénalités ou des coûts de transaction applicables lors du déblocage des sommes concernées en application du présent article, tels que prévus par le plan d’épargne salariale et par les organismes gestionnaires. »\nExposé de ses auteurs :\nL’article 1er du présent texte prévoit que l’employeur soit tenu, dans un délai de deux mois à compter de la promulgation de la présente loi, d’informer ses salariés sur les conditions de mise en œuvre du déblocage exceptionnel prévu par cet article.\nAinsi, en l’état, le texte impose à l’employeur d’informer les salariés de leurs droits dérogatoires, mais ne précise pas que cette information doit inclure les éventuels frais ou coûts de transaction applicables lors du rachat des sommes placées sur un plan d’épargne salariale.\nOr, ces frais, prévus par les règlements des plans et par les organismes gestionnaires, peuvent varier d’un dispositif à l’autre et avoir un impact important sur le montant effectivement débloqué. Leur méconnaissance peut ainsi réduire l’efficacité du dispositif et conduire les salariés à prendre une décision sans disposer de toutes les données utiles.\nCet amendement propose donc de renforcer l’obligation d’information de l’employeur, afin de sécuriser l’information des salariés et l’exercice éclairé des droits conférés par la présente loi.\n\n--- Article Art. 1er visé, dans la version examinée (contexte seulement) ---\nI. – Les droits au titre de la participation aux résultats de l’entreprise affectés, en application des articles L. 3323‑2 et L. 3323‑5 du code du travail, antérieurement au 1er janvier 2027, à l’exclusion de ceux affectés à des fonds investis dans des entreprises solidaires en application du premier alinéa de l’article L. 3332‑17 du même code, sont négociables ou exigibles, pour leur valeur au jour du déblocage, avant l’expiration des délais prévus aux articles L. 3323‑5 et L. 3324‑10 dudit code, sur demande du salarié pour financer l’achat d’un ou plusieurs biens, en particulier dans le secteur de l’automobile, ou la fourniture d’une ou plusieurs prestations de services.\nLes sommes attribuées au titre de l’intéressement affectées à un plan d’épargne salariale, en application de l’article L. 3315‑2 du code du travail, antérieurement au 1er janvier 2027, à l’exclusion de celles affectées à des fonds investis dans des entreprises solidaires en application du premier alinéa de l’article L. 3332‑17 du même code, sont négociables ou exigibles, pour leur valeur au jour du déblocage, avant l’expiration du délai prévu à l’article L. 3332‑25 dudit code, sur demande du salarié pour financer l’achat d’un ou plusieurs biens, en particulier dans le secteur de l’automobile, ou la fourniture d’une ou plusieurs prestations de services.\nLorsque, en application de l’accord de participation, la participation a été affectée à l’acquisition de titres de l’entreprise ou d’une entreprise qui lui est liée au sens du deuxième alinéa de l’article L. 3344‑1 du code du travail, ou de parts ou d’actions d’organismes de placement collectif en valeurs mobilières relevant des articles L. 214‑165 à L. 214‑166 du code monétaire et financier, ou placée dans un fonds que l’entreprise consacre à des investissements, en application de l’article L. 3323‑3 du code du travail, le déblocage de ces titres, parts, actions ou sommes est subordonné à un accord conclu dans les conditions prévues aux articles L. 3322‑6 et L. 3322‑7 du même code. Cet accord peut prévoir que le versement ou la délivrance de certaines catégories de droits peut n’être effectué que pour une partie des avoirs en cause.\nLorsque, en application du règlement du plan d’épargne salariale, l’intéressement a été affecté à l’acquisition de titres de l’entreprise ou d’une entreprise qui lui est liée au sens du deuxième alinéa de l’article L. 3344‑1 du code du travail, ou de parts ou d’actions d’organismes de placement collectif en valeurs mobilières relevant des articles L. 214‑165 à L. 214‑166 du code monétaire et financier, le déblocage de ces titres, parts ou actions est subordonné à un accord conclu dans les conditions prévues aux articles L. 3332‑3 et L. 3333‑2 du code du travail. Cet accord peut prévoir que le versement ou la délivrance de certaines catégories de droits peut n’être effectué que pour une partie des avoirs en cause. Lorsque le plan d’épargne salariale a été mis en place à l’initiative de l’entreprise dans les conditions prévues à l’article L. 3332‑3 du même code, le déblocage susvisé des titres, parts ou actions, le cas échéant pour une partie des avoirs en cause, peut être réalisé dans les mêmes conditions.\nII. – Le salarié peut demander le déblocage de tout ou partie des titres, parts, actions ou sommes mentionnés au I avant le 31 décembre 2026. Il est procédé à ce déblocage en une seule fois.\nIII. – Les sommes versées au salarié au titre du I ne peuvent excéder un plafond global de 50 000 €, net de prélèvements sociaux.\nIV. – Les sommes mentionnées aux I et II du présent article bénéficient des exonérations prévues aux articles L. 3312‑4 et L. 3315‑2 ainsi qu’aux articles L. 3325‑1 et L. 3325‑2 du code du travail.\nV. – Le présent article ne s’applique ni aux droits à participation, ni aux sommes attribuées au titre de l’intéressement affectés à un plan d’épargne pour la retraite collectif prévu à l’article L. 3334‑2 du même code.\nVI. – Dans un délai de deux mois à compter de la promulgation de la présente loi, l’employeur informe les salariés des droits dérogatoires créés en application du présent article.\nVII. – L’employeur ou l’organisme gestionnaire déclare à l’administration fiscale le montant des sommes débloquées en application du présent article.\nVIII. – Le salarié tient à la disposition de l’administration fiscale les pièces justificatives attestant l’usage des sommes débloquées conformément aux deux premiers alinéas du I.\n",
+  "avis": {
+   "deepseek-v4-pro": {
+    "concerne": false,
+    "raison": "L'amendement crée une obligation d'information pour « l'employeur ». Le profil « chef_entreprise » vise le dirigeant d'une TPE/PME. Or, un employeur peut aussi être le dirigeant d'une grande entreprise, d'une association, etc. Le texte ne vise pas spécifiquement le dirigeant de PME ; l'obligation s'impose à tout employeur, sans distinction de taille. Le profil « chef_entreprise » n'est donc pas spécifiquement concerné. De plus, la phrase est identique à celle de salarie_prive et n'indique pas qu'il s'agit d'une nouvelle obligation pour les employeurs."
+   },
+   "gemini-3.8-flash": {
+    "concerne": true,
+    "raison": "L'amendement impose à l'employeur une obligation d'information supplémentaire envers ses salariés sur les frais et coûts applicables au déblocage."
+   },
+   "mistral-medium-3-5": {
+    "concerne": true,
+    "raison": "L'amendement impose une obligation supplémentaire à l'employeur, qui peut être un chef d'entreprise. Le passage cité est exact et l'effet est probable (car l'employeur peut être un chef d'entreprise)."
+   }
+  }
+ },
+ {
+  "cle": "amendement|AMANR5L17PO420120B2217P0D1N000019",
+  "profil": "dirigeant_grande_entreprise",
+  "certitude": "probable",
+  "phrase": "Ajouterait à l'obligation d'information de l'employeur les frais, pénalités et coûts de transaction liés au déblocage de l'épargne salariale.",
+  "passage": "Il informe également les salariés des frais éventuels, des pénalités ou des coûts de transaction applicables lors du déblocage des sommes concernées en application du présent article, tels que prévus par le plan d’épargne salariale et par les organismes gestionnaires.",
+  "user": "Dossier : Déblocage exceptionnel de la participation et de l’intéressement en 2026\nÉtape du texte : Amendement adopté en commission (Assemblée nationale), intégré au texte que la séance examinera, sur un texte pas encore adopté définitivement ; cite le passage dans son dispositif\nÉlément : Amendement n° AS19 (Art. 1er)\n\n--- Texte ---\nDispositif :\nCompléter l’alinéa 9 par la phrase suivante :\n« Il informe également les salariés des frais éventuels, des pénalités ou des coûts de transaction applicables lors du déblocage des sommes concernées en application du présent article, tels que prévus par le plan d’épargne salariale et par les organismes gestionnaires. »\nExposé de ses auteurs :\nL’article 1er du présent texte prévoit que l’employeur soit tenu, dans un délai de deux mois à compter de la promulgation de la présente loi, d’informer ses salariés sur les conditions de mise en œuvre du déblocage exceptionnel prévu par cet article.\nAinsi, en l’état, le texte impose à l’employeur d’informer les salariés de leurs droits dérogatoires, mais ne précise pas que cette information doit inclure les éventuels frais ou coûts de transaction applicables lors du rachat des sommes placées sur un plan d’épargne salariale.\nOr, ces frais, prévus par les règlements des plans et par les organismes gestionnaires, peuvent varier d’un dispositif à l’autre et avoir un impact important sur le montant effectivement débloqué. Leur méconnaissance peut ainsi réduire l’efficacité du dispositif et conduire les salariés à prendre une décision sans disposer de toutes les données utiles.\nCet amendement propose donc de renforcer l’obligation d’information de l’employeur, afin de sécuriser l’information des salariés et l’exercice éclairé des droits conférés par la présente loi.\n\n--- Article Art. 1er visé, dans la version examinée (contexte seulement) ---\nI. – Les droits au titre de la participation aux résultats de l’entreprise affectés, en application des articles L. 3323‑2 et L. 3323‑5 du code du travail, antérieurement au 1er janvier 2027, à l’exclusion de ceux affectés à des fonds investis dans des entreprises solidaires en application du premier alinéa de l’article L. 3332‑17 du même code, sont négociables ou exigibles, pour leur valeur au jour du déblocage, avant l’expiration des délais prévus aux articles L. 3323‑5 et L. 3324‑10 dudit code, sur demande du salarié pour financer l’achat d’un ou plusieurs biens, en particulier dans le secteur de l’automobile, ou la fourniture d’une ou plusieurs prestations de services.\nLes sommes attribuées au titre de l’intéressement affectées à un plan d’épargne salariale, en application de l’article L. 3315‑2 du code du travail, antérieurement au 1er janvier 2027, à l’exclusion de celles affectées à des fonds investis dans des entreprises solidaires en application du premier alinéa de l’article L. 3332‑17 du même code, sont négociables ou exigibles, pour leur valeur au jour du déblocage, avant l’expiration du délai prévu à l’article L. 3332‑25 dudit code, sur demande du salarié pour financer l’achat d’un ou plusieurs biens, en particulier dans le secteur de l’automobile, ou la fourniture d’une ou plusieurs prestations de services.\nLorsque, en application de l’accord de participation, la participation a été affectée à l’acquisition de titres de l’entreprise ou d’une entreprise qui lui est liée au sens du deuxième alinéa de l’article L. 3344‑1 du code du travail, ou de parts ou d’actions d’organismes de placement collectif en valeurs mobilières relevant des articles L. 214‑165 à L. 214‑166 du code monétaire et financier, ou placée dans un fonds que l’entreprise consacre à des investissements, en application de l’article L. 3323‑3 du code du travail, le déblocage de ces titres, parts, actions ou sommes est subordonné à un accord conclu dans les conditions prévues aux articles L. 3322‑6 et L. 3322‑7 du même code. Cet accord peut prévoir que le versement ou la délivrance de certaines catégories de droits peut n’être effectué que pour une partie des avoirs en cause.\nLorsque, en application du règlement du plan d’épargne salariale, l’intéressement a été affecté à l’acquisition de titres de l’entreprise ou d’une entreprise qui lui est liée au sens du deuxième alinéa de l’article L. 3344‑1 du code du travail, ou de parts ou d’actions d’organismes de placement collectif en valeurs mobilières relevant des articles L. 214‑165 à L. 214‑166 du code monétaire et financier, le déblocage de ces titres, parts ou actions est subordonné à un accord conclu dans les conditions prévues aux articles L. 3332‑3 et L. 3333‑2 du code du travail. Cet accord peut prévoir que le versement ou la délivrance de certaines catégories de droits peut n’être effectué que pour une partie des avoirs en cause. Lorsque le plan d’épargne salariale a été mis en place à l’initiative de l’entreprise dans les conditions prévues à l’article L. 3332‑3 du même code, le déblocage susvisé des titres, parts ou actions, le cas échéant pour une partie des avoirs en cause, peut être réalisé dans les mêmes conditions.\nII. – Le salarié peut demander le déblocage de tout ou partie des titres, parts, actions ou sommes mentionnés au I avant le 31 décembre 2026. Il est procédé à ce déblocage en une seule fois.\nIII. – Les sommes versées au salarié au titre du I ne peuvent excéder un plafond global de 50 000 €, net de prélèvements sociaux.\nIV. – Les sommes mentionnées aux I et II du présent article bénéficient des exonérations prévues aux articles L. 3312‑4 et L. 3315‑2 ainsi qu’aux articles L. 3325‑1 et L. 3325‑2 du code du travail.\nV. – Le présent article ne s’applique ni aux droits à participation, ni aux sommes attribuées au titre de l’intéressement affectés à un plan d’épargne pour la retraite collectif prévu à l’article L. 3334‑2 du même code.\nVI. – Dans un délai de deux mois à compter de la promulgation de la présente loi, l’employeur informe les salariés des droits dérogatoires créés en application du présent article.\nVII. – L’employeur ou l’organisme gestionnaire déclare à l’administration fiscale le montant des sommes débloquées en application du présent article.\nVIII. – Le salarié tient à la disposition de l’administration fiscale les pièces justificatives attestant l’usage des sommes débloquées conformément aux deux premiers alinéas du I.\n",
+  "avis": {
+   "deepseek-v4-pro": {
+    "concerne": false,
+    "raison": "Même raison que pour « chef_entreprise » : l'obligation d'information pèse sur tout employeur, sans viser spécifiquement les dirigeants de grandes entreprises. Le profil ne peut être retenu comme directement concerné. La phrase est également inappropriée."
+   },
+   "gemini-3.8-flash": {
+    "concerne": true,
+    "raison": "Les dirigeants de grandes entreprises employeurs sont directement soumis à cette nouvelle précision dans l'obligation légale d'information des salariés."
+   },
+   "mistral-medium-3-5": {
+    "concerne": true,
+    "raison": "L'amendement impose une obligation supplémentaire à l'employeur, qui peut être un dirigeant de grande entreprise. Le passage cité est exact et l'effet est probable (car l'employeur peut être un dirigeant de grande entreprise)."
+   }
+  }
+ },
+ {
+  "cle": "article|PIONANR5L17B1749#7",
+  "profil": "secteur_education",
+  "certitude": "probable",
+  "phrase": "Les organismes de formation privés qui ne respectent pas les règles pourraient risquer une amende administrative pouvant atteindre 3 000 euros pour une personne physique et 15 000 euros pour une personne morale.",
+  "passage": "Tout manquement aux dispositions des articles L. 224‑103‑1 à L. 224‑103‑7 est passible d’une amende administrative dont le montant ne peut excéder 3 000 euros pour une personne physique et 15 000 euros pour une personne morale",
+  "user": "Dossier : Lutter contre les arnaques de l’enseignement supérieur privé lucratif\nÉtape du texte : Proposition de loi déposée par des parlementaires, pas encore adoptée\nÉlément : Art. 7\n\n--- Texte ---\nLa sous‑section 10 de la section 4 du chapitre II du titre IV du livre II du code de la consommation est ainsi modifiée :\n1° L’intitulé est complété par les mots : « et formation privée » ;\n2° Après l’intitulé, est insérée la division suivante :\n« Paragraphe 1\n« Sanctions civiles » ;\n3° L’article L. 242‑43 est ainsi rédigé :\n« Art. L. 242‑43. – Le non‑respect des dispositions prévues de l’article L. 224‑103‑1 à L. 224‑103‑7 entraîne la nullité du contrat. Le professionnel rembourse à son co‑contractant le double des sommes qui ont été versées dans le cadre du contrat. » ;\n4° Après le même article L. 242‑43, il est inséré un paragraphe 2 ainsi rédigé :\n« Paragraphe 2\n« Sanctions pénales\n« Art. L. 242‑43‑1. – Tout manquement aux dispositions des articles L. 224‑103‑1 à L. 224‑103‑7 est passible d’une amende administrative dont le montant ne peut excéder 3 000 euros pour une personne physique et 15 000 euros pour une personne morale et peut être assortie, à titre de peine complémentaire, d’une interdiction d’exercer temporairement ou définitivement l’activité de dirigeant d’un organisme de formation professionnelle..\n« Cette amende est prononcée dans les conditions prévues au chapitre II du titre II du livre V. »\n",
+  "avis": {
+   "deepseek-v4-pro": {
+    "concerne": false,
+    "raison": "La phrase parle d''organismes de formation privés', mais le profil 'secteur_education' du catalogue désigne une personne qui *travaille* dans l'enseignement. L'article sanctionne un *dirigeant* d'organisme de formation (profil 'chef_entreprise'). Un salarié d'un tel organisme n'est pas directement concerné par une sanction visant la personne morale ou son dirigeant. Le profil 'chef_entreprise' serait le profil correct pour cette situation."
+   },
+   "gemini-3.8-flash": {
+    "concerne": true,
+    "raison": "Le texte modifie directement les sanctions civiles et administratives applicables aux professionnels et dirigeants d'organismes de formation privée."
+   },
+   "mistral-medium-3-5": {
+    "concerne": false,
+    "raison": "Le profil 'secteur_education' vise les personnes travaillant dans l'enseignement public ou privé sous contrat. Ici, l'article cible les organismes de formation *privée* (hors secteur public ou sous contrat), donc le profil 'secteur_education' n'est pas concerné. De plus, la phrase invente un fait : elle omet que l'amende s'applique aux *organismes de formation professionnelle* (et non à tous les acteurs du secteur éducation)."
+   }
+  }
+ },
+ {
+  "cle": "article|PIONANR5L17B3030#1",
+  "profil": "mineur",
+  "certitude": "probable",
+  "phrase": "Les élèves pourraient travailler dans des salles de classe, de restauration et de sport climatisées, à température maximale fixée par décret.",
+  "passage": "Cette obligation s’applique à l’ensemble des salles de classe, des salles de restauration, des salles d’activités physiques couvertes et des locaux administratifs accueillant du public.",
+  "user": "Dossier : Climatisation des établissements recevant un public vulnérable\nÉtape du texte : Proposition de loi déposée par des parlementaires, pas encore adoptée\nÉlément : Art. 1er\n\n--- Texte ---\nL’article L. 541‑1 du code de l’éducation est complété par trois alinéas ainsi rédigés :\n« Les établissements d’enseignement du premier et du second degré, publics et privés sous contrat, sont tenus d’équiper l’ensemble de leurs locaux accueillant des élèves d’un système de climatisation active garantissant une température intérieure maximale définie par décret.\n« Cette obligation s’applique à l’ensemble des salles de classe, des salles de restauration, des salles d’activités physiques couvertes et des locaux administratifs accueillant du public.\n« Les caractéristiques techniques minimales des systèmes de climatisation requis sont fixées par arrêté conjoint du ministre chargé de l’éducation nationale et du ministre chargé de l’énergie, au regard des critères de performance énergétique et de capacité de refroidissement. »\n",
+  "avis": {
+   "deepseek-v4-pro": {
+    "concerne": false,
+    "raison": "La mesure change l'équipement des locaux, pas directement les droits ou obligations des élèves. La phrase décrit fidèlement un effet indirect sur les élèves."
+   },
+   "gemini-3.8-flash": {
+    "concerne": false,
+    "raison": "Selon les règles, un profil d'âge n'est concerné que si le texte fixe lui-même une condition d'âge explicite, ce qui n'est pas le cas ici (le texte mentionne les établissements du premier et second degré et les élèves)."
+   },
+   "mistral-medium-3-5": {
+    "concerne": true,
+    "raison": "L'article impose une obligation directe aux établissements accueillant des élèves (mineurs), ce qui change concrètement leur environnement scolaire. La phrase est fidèle et utilise le conditionnel adapté à l'étape du texte."
+   }
+  }
+ },
+ {
+  "cle": "article|PIONANR5L17B1555#2",
+  "profil": "marie_pacse",
+  "certitude": "certain",
+  "phrase": "Chacun des époux ou partenaires de PACS soumis à une imposition commune pourrait ouvrir son propre livret.",
+  "passage": "Il ne peut être ouvert qu’un livret par contribuable ou un livret pour chacun des époux ou partenaires liés par un pacte civil de solidarité, soumis à une imposition commune.",
+  "user": "Dossier : Pour la reconquête du bâti rural\nÉtape du texte : Proposition de loi déposée par des parlementaires, pas encore adoptée\nÉlément : Art. 2\n\n--- Texte ---\nLe chapitre Ier du titre II du livre II du code monétaire et financier est complété par une section 9 ainsi rédigée :\n« Section 9\n« Livret nouvelle ruralité\n« Art. L.221‑39. – I. – Le livret nouvelle ruralité est ouvert par les personnes physiques ayant leur domicile fiscal en France dans les établissements et organismes autorisés à recevoir des dépôts. Les sommes déposées sur ce livret sont employées pour le financement des projets et programmes bénéficiant d’une convention visée à l’article L. 144‑1 du code rural et de la pêche maritime. Une partie des sommes peut être utilisée pour l’acquisition et la gestion d’instruments financiers définis à l’article L. 211‑1.\n« Les versements effectués sur un livret nouvelle ruralité ne peuvent porter le montant inscrit sur le livret au‑delà d’un plafond fixé par voie réglementaire.\n« Il ne peut être ouvert qu’un livret par contribuable ou un livret pour chacun des époux ou partenaires liés par un pacte civil de solidarité, soumis à une imposition commune.\n« II. – Les modalités de fonctionnement du livret nouvelle ruralité, notamment ses conditions d’ouverture et ses modalités de gestion, sont déterminées par décret en Conseil d’État.\n« III. – Les établissements distribuant le livret nouvelle ruralité rendent public annuellement un rapport présentant l’emploi des ressources collectées au titre de ce livret.\n",
+  "avis": {
+   "deepseek-v4-pro": {
+    "concerne": true,
+    "raison": "La règle d'ouverture d'un livret par contribuable ou par époux/pacse soumis à imposition commune concerne spécifiquement le profil des couples mariés ou pacsés, car elle définit une modalité d'ouverture propre à leur statut matrimonial."
+   },
+   "gemini-3.8-flash": {
+    "concerne": false,
+    "raison": "La règle permet à tout contribuable d'ouvrir un livret (et un par conjoint en cas d'imposition commune). La mesure est générale et ne cible pas spécifiquement les couples par rapport aux célibataires ; selon la consigne, les questions à réponse unique ne s'appliquent pas quand la mesure s'applique à tous."
+   },
+   "mistral-medium-3-5": {
+    "concerne": true,
+    "raison": "L'article précise explicitement que chaque époux ou partenaire de PACS soumis à une imposition commune peut ouvrir un livret, ce qui vise directement ce profil."
+   }
+  }
+ },
+ {
+  "cle": "article|PIONANR5L17B0682#7",
+  "profil": "etudiant",
+  "certitude": "probable",
+  "phrase": "Les facultés de santé devraient proposer dans chaque département la première année de médecine, pharmacie, odontologie ou maïeutique.",
+  "passage": "Les unités de formation et de recherche en santé proposent dans chaque département des enseignements correspondant au minimum à la première année du premier cycle des formations de médecine, de pharmacie, d’odontologie et de maïeutique",
+  "user": "Dossier : Contre les déserts médicaux, d'initiative transpartisane\nÉtape du texte : Proposition de loi déposée par des parlementaires, pas encore adoptée\nÉlément : Art. 7\n\n--- Texte ---\nI. – L’article L. 632‑1 du code de l’éducation est ainsi modifié :\n1° La première phrase du premier alinéa est complétée par les mots : « de manière à garantir un accès démocratique, déconcentré et de proximité sur l’ensemble du territoire national » ;\n2° Après le même premier alinéa, il est inséré un alinéa ainsi rédigé :\n« Les unités de formation et de recherche en santé proposent dans chaque département des enseignements correspondant au minimum à la première année du premier cycle des formations de médecine, de pharmacie, d’odontologie et de maïeutique en particulier dans les zones caractérisées par une offre de soins insuffisante ou des difficultés dans l’accès aux soins telles que définies au 1° de l’article L. 1434‑4 du code de la santé publique ».\nII. – L’article L. 6141‐2 du code de la santé publique est complété par un alinéa ainsi rédigé :\n« Chaque région comprend au moins un centre hospitalier universitaire. »\nIII. – Le II du présent article entre en vigueur le 1er janvier 2030. Un décret, pris après avis de l’Assemblée de Corse, détermine les modalités d’application du même II en établissant le calendrier de la mise en place progressive d’un centre hospitalier régional puis d’un centre hospitalier universitaire au sein du chef‐lieu de la collectivité de Corse.\n",
+  "avis": {
+   "deepseek-v4-pro": {
+    "concerne": false,
+    "raison": "L'article impose une nouvelle obligation aux universités, non un droit nouveau pour les étudiants. L'effet sur un étudiant (plus de places en première année) est une conséquence indirecte ou hypothétique, pas un changement direct de ses droits ou obligations."
+   },
+   "gemini-3.8-flash": {
+    "concerne": true,
+    "raison": "L'article oblige à déployer dans chaque département la première année des études de santé (médecine, pharmacie, odontologie, maïeutique), ce qui élargit l'offre d'enseignement de proximité pour les étudiants."
+   },
+   "mistral-medium-3-5": {
+    "concerne": true,
+    "raison": "Le passage cité impose aux unités de formation et de recherche en santé de proposer dans chaque département la première année des formations de santé, ce qui concerne directement les étudiants en médecine, pharmacie, odontologie ou maïeutique. La phrase est fidèle au texte et utilise le conditionnel implicite."
+   }
+  }
+ },
+ {
+  "cle": "article|PIONANR5L17B1057#1",
+  "profil": "grande_ville",
+  "certitude": "probable",
+  "phrase": "Les zones à faibles émissions de votre agglomération pourraient être redessinées, avec des secteurs sans restrictions de circulation selon le temps de trajet des alternatives à la voiture.",
+  "passage": "Au cours de l’instauration d’une zone à faibles émissions mobilité, l’autorité organisatrice de la mobilité, de concert avec les services de l’État, y mène une évaluation sur les temps de trajets",
+  "user": "Dossier : Bon développement des zones à faibles émissions-mobilité\nÉtape du texte : Proposition de loi déposée par des parlementaires, pas encore adoptée\nÉlément : Art. 1er\n\n--- Texte ---\nI. – Après le troisième alinéa du I de l’article L. 2213‑4‑1 du code général des collectivités territoriales, sont insérés cinq alinéas ainsi rédigés :\n« Au cours de l’instauration d’une zone à faibles émissions mobilité, l’autorité organisatrice de la mobilité, de concert avec les services de l’État, y mène une évaluation sur les temps de trajets réalisés au moyen de transports en commun de mobilités actives, au sens de l’article L. 1271‑1 du code des transports, comme le vélo ou la marche à pied, et de la voiture individuelle. Cette évaluation définit les zones dans lesquelles le temps de déplacement par un mode de transport alternatif à l’automobile individuelle n’excède pas une fois et demie le temps de déplacement au moyen d’une voiture individuelle.\n« Dans le cas où ces zones sont continues et jugées pertinentes par l’autorité compétente, les prescriptions applicables au sein de la zone à faibles émissions initialement prévue s’y appliquent.\n« Dans le cas contraire, les restrictions de déplacement applicables au sein de la zone à faibles émissions mobilité ne s’y appliquent pas, on parle alors de zones à faibles émissions en devenir.\n« Sur la base de l’évaluation mentionnée au sixième alinéa du présent I, les travaux de développement d’infrastructures de transport en commun ainsi que de mobilités actives sont priorisées de consort entre les autorités en charge du déploiement des zones à faibles émissions mobilité et par les services de l’État.\n« Tous les trois ans, le Gouvernement remet un rapport au Parlement sur l’avancée du déploiement des infrastructures de transport en commun et de mobilités actives au sein des zones à faibles émissions ainsi que sur les zones à faibles émissions mobilité en devenir respectant les conditions prévues au présent I. Ce rapport détermine le coût du déploiement d’infrastructures de transports en commun et de mobilités actives permettant de respecter les conditions prévues au même I et les investissements nécessaires à la re‑catégorisation des zones à faibles émissions mobilité en devenir en zones à faibles émissions, tel que précisé audit I. Il traite également d’éventuels freins réglementaires dans le déploiement d’infrastructures permettant l’atteinte de ce même objectif. »\nII. – Un décret précise les conditions d’application du présent article.\n",
+  "avis": {
+   "deepseek-v4-pro": {
+    "concerne": false,
+    "raison": "L'implantation des ZFE-m est réservée aux agglomérations de plus de 150 000 habitants (article L. 2213-4-1 du CGCT modifié). Le profil 'grande_ville' vise les habitants de communes de plus de 50 000 habitants. Beaucoup de villes de 50 000 à 150 000 habitants ne seront pas concernées. Le texte ne nomme ni ne vise directement une 'grande ville' en ces termes, et le lien est trop lâche : l'effet n'est pas direct sur ce seul profil (une ZFE concerne aussi des communes rurales de l'agglomération). De plus, la phrase 'votre agglomération pourraient être redessinées' présente l'effet comme probable alors qu'il dépend d'une condition (l'évaluation) et ne concerne que certaines agglomérations, pas toutes les grandes villes. La logique sélective pour ce profil n'est pas respectée."
+   },
+   "gemini-3.8-flash": {
+    "concerne": true,
+    "raison": "Les zones à faibles émissions concernent directement les agglomérations et grandes villes (mentionnées explicitement dans la définition du profil), et le texte au conditionnel décrit fidèlement le mécanisme d'exemption géographique."
+   },
+   "mistral-medium-3-5": {
+    "concerne": true,
+    "raison": "Les zones à faibles émissions-mobilité (ZFE-m) sont typiquement instaurées dans les grandes villes ou leurs agglomérations. L'article décrit un processus d'évaluation et d'ajustement des ZFE-m, ce qui impacte directement les habitants de ces zones."
+   }
+  }
+ },
+ {
+  "cle": "article|PIONANR5L17B0346#1",
+  "profil": "montagne",
+  "certitude": "certain",
+  "phrase": "Les communes de montagne garderaient l'eau et l'assainissement comme compétences facultatives de leur communauté de communes.",
+  "passage": "« 7° Eau dans les communes situées en zone de montagne au sens de l’article 3 de la loi n° 85‑30 du 9 janvier 1985 relative au développement et à la protection de la montagne ; »",
+  "user": "Dossier : Maintien des compétences « eau » et « assainissement » dans les compétences facultatives des communautés de communes situées en zone de montagne\nÉtape du texte : Proposition de loi déposée par des parlementaires, pas encore adoptée\nÉlément : Art. unique\n\n--- Texte ---\nL’article L. 5214‑16 du code général des collectivités territoriales est ainsi modifié :\n1° Le I est ainsi modifié :\na) Le 6° est complété par les mots : « , à l’exception des communes situées en zone de montagne au sens de l’article 3 de la loi n° 85‑30 du 9 janvier 1985 relative au développement et à la protection de la montagne ; » ;\nb) Le 7° est complété par les mots : « , à l’exception des communes situées en zone de montagne au sens de l’article 3 de la loi n° 85‑30 du 9 janvier 1985 relative au développement et à la protection de la montagne ; »\nc) Le I est complété par un alinéa ainsi rédigé :\n« Une ou plusieurs communes situées en zone de montagne au sens de l’article 3 de la loi n° 85‑30 du 9 janvier 1985 relative au développement et à la protection de la montagne, peuvent décider, par délibération et après avis de l’organe délibérant de la communauté de communes, de retrouver l’exercice des compétences visées aux 6° et 7° du présent I. L’organe délibérant de l’établissement public de coopération intercommunale rend son avis dans un délai de trois mois à compter de sa saisine par la commune concernée. »\n2° Les 6° et 7° du II sont ainsi rétablis :\n« 6° Assainissement des eaux usées, dans les conditions prévues à l’article L. 2224‑8, dans les communes situées en zone de montagne au sens de l’article 3 de la loi n° 85‑30 du 9 janvier 1985 relative au développement et à la protection de la montagne, et, si des mesures doivent être prises pour assurer la maitrise de l’écoulement des eaux pluviales ou des pollutions apportées au milieu par le rejet des eaux pluviales, la collecte et le stockage de ces eaux ainsi que le traitement de ces pollutions dans les zones délimitées par la communauté́ en application des 3° et 4° de l’article L. 2224‑10 du présent code » ;\n« 7° Eau dans les communes situées en zone de montagne au sens de l’article 3 de la loi n° 85‑30 du 9 janvier 1985 relative au développement et à la protection de la montagne ; ».\n",
+  "avis": {
+   "deepseek-v4-pro": {
+    "concerne": true,
+    "raison": "L'article crée une exception en excluant les communes situées en zone de montagne de l'obligation de transférer les compétences eau et assainissement à la communauté de communes, et leur offre la possibilité de les reprendre."
+   },
+   "gemini-3.8-flash": {
+    "concerne": false,
+    "raison": "La mesure modifie la répartition institutionnelle des compétences entre les communes et les communautés de communes en zone de montagne. Elle ne change directement ni les droits, ni les démarches, ni la fiscalité des habitants."
+   },
+   "mistral-medium-3-5": {
+    "concerne": true,
+    "raison": "Le texte vise explicitement les communes situées en zone de montagne, et modifie les règles de compétences en matière d'eau et d'assainissement pour ces communes. La phrase proposée est fidèle au texte et utilise le conditionnel adapté à l'étape du texte."
+   }
+  }
+ },
+ {
+  "cle": "article|PIONANR5L17B3314#1",
+  "profil": "celibataire",
+  "certitude": "probable",
+  "phrase": "Une femme seule engagée dans une fécondation in vitro pourrait se voir proposer un examen des chromosomes des embryons, dans certaines situations médicales listées par la loi.",
+  "passage": "peut être proposée à la femme ou aux deux membres du couple engagés dans une tentative de fécondation in vitro",
+  "user": "Dossier : Autoriser le diagnostic préimplantatoire des aneuploïdies au bénéfice des couples, et des femmes engagées dans une démarche d’assistance médicale à la procréation\nÉtape du texte : Proposition de loi déposée par des parlementaires, pas encore adoptée\nÉlément : Art. 1er\n\n--- Texte ---\nAprès l’article L. 2131‑4‑2 du code de la santé publique, il est inséré un article L. 2131‑4‑3 ainsi rédigé :\n« Art. L. 2131‑4‑3. – I. – Par dérogation aux deuxième et troisième alinéas de l’article L. 2131‑4, la recherche d’anomalies du nombre et de la structure de chromosomes affectant l’embryon in vitro peut être proposée à la femme ou aux deux membres du couple engagés dans une tentative de fécondation in vitro, aux seules fins d’identifier, en vue de leur transfert prioritaire, les embryons ne présentant pas une telle anomalie.\n« II. – Cet examen ne peut être mis en œuvre que dans l’une au moins des situations suivantes :\n« 1° Un âge maternel supérieur à 35 ans ;\n« 2° La survenue d’échecs répétés d’implantation embryonnaire après transfert ;\n« 3° La survenue d’arrêts naturels de grossesse spontanées à répétition ;\n« 4° La présence d’anomalies génétiques ou acquises masculines ou féminines susceptibles d’augmenter la fréquence des aneuploïdies.\n« III. – L’examen a pour seul objet la détermination du nombre de chromosomes de l’embryon. Il ne peut être utilisé à des fins de choix du sexe de l’enfant à naître ni pour la recherche de toute autre caractéristique génétique.\n« IV. – La réalisation de l’examen est décidée, au cas par cas, par l’équipe clinicobiologique pluridisciplinaire mentionnée à l’article L. 2141‑10, réunie en concertation, au sein d’un centre autorisé pour les activités cliniques et biologiques d’assistance médicale à la procréation en application de l’article L. 2142‑1. L’examen est subordonné au consentement écrit, préalable et libre de la femme ou des deux membres du couple, recueilli après une information portant notamment sur la nature, la portée, les limites et le caractère faillible de l’examen, en particulier le mosaïcisme embryonnaire.\n« V. – Un décret en Conseil d’État, pris après avis de l’Agence de la biomédecine et de la Haute Autorité de santé, précise les conditions d’application du présent article, notamment les seuils et critères caractérisant les situations mentionnées au II ainsi que les modalités de l’information et du recueil du consentement. »\n",
+  "avis": {
+   "deepseek-v4-pro": {
+    "concerne": true,
+    "raison": "Le texte distingue 'la femme' des 'deux membres du couple', ce qui montre que la loi envisage le cas d'une femme célibataire engagée dans un parcours de PMA. Une femme seule a droit à l'AMP en France, elle est donc directement concernée par cette proposition. La phrase capture correctement cette possibilité."
+   },
+   "gemini-3.8-flash": {
+    "concerne": false,
+    "raison": "La situation de couple fait partie des groupes à réponse unique. La mesure bénéficie indifféremment aux femmes non en couple ou aux couples engagés en FIV."
+   },
+   "mistral-medium-3-5": {
+    "concerne": true,
+    "raison": "Le texte inclut explicitement 'la femme' (seule) comme bénéficiaire possible, ce qui couvre les femmes célibataires engagées dans une AMP. La certitude 'probable' est justifiée car le texte ne précise pas explicitement le statut marital, mais l'inclusion de 'la femme' permet de déduire ce cas."
+   }
+  }
+ },
+ {
+  "cle": "article|PIONANR5L17B3224#1",
+  "profil": "imposable",
+  "certitude": "probable",
+  "phrase": "Le foyer qui paie l'impôt sur le revenu compterait une demi-part de plus dans le calcul, ce qui pourrait réduire l'impôt à payer.",
+  "passage": "Le nombre de parts de quotient familial est augmenté d’une demi‑part lorsque le contribuable assume la charge exclusive ou principale d’au moins deux enfants ;",
+  "user": "Dossier : Instaurer une seconde demi part fiscale pour la naissance du deuxième enfant\nÉtape du texte : Proposition de loi déposée par des parlementaires, pas encore adoptée\nÉlément : Art. 1er\n\n--- Texte ---\nAprès le troisième alinéa du I de l’article 194 du code général des impôt, sont insérés des 1° et 2° ainsi rédigés :\n« 1° Le nombre de parts de quotient familial est augmenté d’une demi‑part lorsque le contribuable assume la charge exclusive ou principale d’au moins deux enfants ;\n« 2° Pour les enfants réputés être à la charge égale de leurs parents, la majoration prévue au 1° est répartie par moitié entre ceux‑ci. »\n",
+  "avis": {
+   "deepseek-v4-pro": {
+    "concerne": false,
+    "raison": "Le texte modifie le calcul du quotient familial, ce qui ne concerne que les foyers imposables. La phrase ajoute que l’impôt 'pourrait' diminuer, ce qui est une conséquence directe et fidèle. Cependant, le profil 'imposable' n'est pas directement visé par une mesure qui lui serait propre : seuls les parents concernés sont visés, et parmi eux, seuls ceux qui sont imposables sont effectivement touchés. La consigne dit de ne retenir un profil que si l'article le vise lui-même. Ici, l'article ne vise pas les foyers imposables en tant que groupe, mais modifie une règle dont l'effet ne se produit que pour les foyers imposables. Cela reste un effet indirect selon la consigne qui demande un changement direct. Non retenu."
+   },
+   "gemini-3.8-flash": {
+    "concerne": true,
+    "raison": "L'augmentation du nombre de parts de quotient familial a pour effet direct de réduire le montant de l'impôt sur le revenu des foyers imposables ayant au moins deux enfants."
+   },
+   "mistral-medium-3-5": {
+    "concerne": true,
+    "raison": "La mesure modifie le calcul du quotient familial, impactant directement les foyers imposables. La certitude est 'probable' car le texte ne mentionne pas explicitement l'impôt sur le revenu, mais l'article 194 du CGI concerne bien ce calcul."
+   }
+  }
+ },
+ {
+  "cle": "article|PIONANR5L17B3224#1",
+  "profil": "parent_isole",
+  "certitude": "probable",
+  "phrase": "Un parent qui élève seul au moins deux enfants pourrait bénéficier de la demi-part supplémentaire, si le texte est appliqué à sa situation.",
+  "passage": "lorsque le contribuable assume la charge exclusive ou principale d’au moins deux enfants ;",
+  "user": "Dossier : Instaurer une seconde demi part fiscale pour la naissance du deuxième enfant\nÉtape du texte : Proposition de loi déposée par des parlementaires, pas encore adoptée\nÉlément : Art. 1er\n\n--- Texte ---\nAprès le troisième alinéa du I de l’article 194 du code général des impôt, sont insérés des 1° et 2° ainsi rédigés :\n« 1° Le nombre de parts de quotient familial est augmenté d’une demi‑part lorsque le contribuable assume la charge exclusive ou principale d’au moins deux enfants ;\n« 2° Pour les enfants réputés être à la charge égale de leurs parents, la majoration prévue au 1° est répartie par moitié entre ceux‑ci. »\n",
+  "avis": {
+   "deepseek-v4-pro": {
+    "concerne": false,
+    "raison": "Le passage cité évoque le contribuable qui assume la charge 'exclusive ou principale' des enfants. Cela peut inclure un parent isolé, mais la phrase 'pourrait bénéficier, si le texte est appliqué à sa situation' est trop conditionnelle et prudente. Surtout, la proposition de loi ne mentionne pas le profil 'parent isolé' pour lui accorder un avantage propre, elle s'applique à tout parent ayant la charge exclusive ou principale. Le profil 'parent' couvre déjà cette situation sans nécessiter de profil spécifique. La consigne demande de ne pas créer de double emploi et de ne retenir un profil que si l'article le vise par sa situation propre, ce qui n'est pas le cas ici."
+   },
+   "gemini-3.8-flash": {
+    "concerne": false,
+    "raison": "La mesure vise tous les contribuables ayant au moins deux enfants et ne cible pas spécifiquement les parents isolés. De plus, la phrase enfreint la consigne en utilisant une formule conditionnelle de type « si le texte est appliqué »."
+   },
+   "mistral-medium-3-5": {
+    "concerne": true,
+    "raison": "Le texte mentionne 'charge exclusive ou principale', ce qui inclut les parents isolés. La certitude est 'probable' car le profil n'est pas nommé explicitement, mais la situation est couverte par la formulation."
+   }
+  }
+ },
+ {
+  "cle": "article|PIONANR5L17B3224#1",
+  "profil": "separe_divorce",
+  "certitude": "probable",
+  "phrase": "Pour des enfants à charge égale, la demi-part supplémentaire serait partagée à moitié entre les deux parents séparés ou divorcés.",
+  "passage": "Pour les enfants réputés être à la charge égale de leurs parents, la majoration prévue au 1° est répartie par moitié entre ceux‑ci. »",
+  "user": "Dossier : Instaurer une seconde demi part fiscale pour la naissance du deuxième enfant\nÉtape du texte : Proposition de loi déposée par des parlementaires, pas encore adoptée\nÉlément : Art. 1er\n\n--- Texte ---\nAprès le troisième alinéa du I de l’article 194 du code général des impôt, sont insérés des 1° et 2° ainsi rédigés :\n« 1° Le nombre de parts de quotient familial est augmenté d’une demi‑part lorsque le contribuable assume la charge exclusive ou principale d’au moins deux enfants ;\n« 2° Pour les enfants réputés être à la charge égale de leurs parents, la majoration prévue au 1° est répartie par moitié entre ceux‑ci. »\n",
+  "avis": {
+   "deepseek-v4-pro": {
+    "concerne": true,
+    "raison": "Le 2° vise explicitement le partage de la demi-part pour les enfants à charge égale des deux parents, situation typique des parents séparés ou divorcés. La phrase est fidèle au texte."
+   },
+   "gemini-3.8-flash": {
+    "concerne": false,
+    "raison": "La mesure s'applique à tous les parents quelle que soit leur situation de couple ; le partage de la demi-part en cas de charge égale n'est qu'une modalité technique de répartition, elle ne vise pas spécifiquement le statut marital."
+   },
+   "mistral-medium-3-5": {
+    "concerne": true,
+    "raison": "Le texte prévoit une répartition de la majoration pour les enfants à charge égale, ce qui concerne directement les parents séparés ou divorcés. La certitude est 'probable' car le profil n'est pas nommé, mais la situation est explicitement décrite."
+   }
+  }
+ },
+ {
+  "cle": "article|PIONANR5L17B1226#28",
+  "profil": "secteur_industrie",
+  "certitude": "probable",
+  "phrase": "Les producteurs d'électricité au-delà d'un seuil de puissance devraient mettre toute leur puissance disponible à la hausse et à la baisse à disposition du gestionnaire du réseau de transport.",
+  "passage": "dont la puissance installée est supérieure à un seuil fixé par décret, raccordées au réseau public de transport ou de distribution d’électricité, est mise à la disposition du gestionnaire du réseau public de transport d’électricité par les producteurs",
+  "user": "Dossier : Programmation nationale et simplification normative dans le secteur économique de l’énergie\nÉtape du texte : Proposition de loi déposée par des parlementaires, pas encore adoptée\nÉlément : Art. 28\n\n--- Texte ---\nLe premier alinéa de l’article L. 321‑13 du code de l’énergie est ainsi rédigé :\n« La totalité de la puissance techniquement disponible à la hausse et à la baisse, sur chacune des installations de production, dont la puissance installée est supérieure à un seuil fixé par décret, raccordées au réseau public de transport ou de distribution d’électricité, est mise à la disposition du gestionnaire du réseau public de transport d’électricité par les producteurs dans leurs offres sur le mécanisme d’ajustement. Ce seuil ne peut être inférieur à douze mégawatts de puissance installée. »\n",
+  "avis": {
+   "deepseek-v4-pro": {
+    "concerne": false,
+    "raison": "Le profil 'secteur_industrie' désigne une personne qui travaille dans l'industrie ou la production d'énergie. Les conséquences du texte sur ses conditions de travail ou son emploi sont au mieux indirectes et hypothétiques. L'article s'adresse directement aux producteurs d'électricité (les entreprises propriétaires des installations), pas à leurs salariés. Selon la consigne, pour être concerné, il faut que l'article change quelque chose directement pour une personne de ce profil (argent, droits, obligations, règles du métier), pas pour l'organisation qui l'emploie. Par ailleurs, la phrase proposée est fausse car elle attribue l'obligation aux 'producteurs d'électricité', ce qui correspond à un chef d'entreprise ou dirigeant, pas au salarié du secteur."
+   },
+   "gemini-3.8-flash": {
+    "concerne": true,
+    "raison": "Le profil inclut expressément la production et la fourniture d'énergie, et l'article impose de nouvelles obligations aux producteurs d'électricité sur le mécanisme d'ajustement."
+   },
+   "mistral-medium-3-5": {
+    "concerne": false,
+    "raison": "L'article vise spécifiquement les producteurs d'électricité avec des installations de puissance supérieure à un seuil (12 MW minimum), et non l'ensemble du secteur industriel. Le profil 'secteur_industrie' est trop large et ne correspond pas précisément aux acteurs concernés (producteurs d'électricité). De plus, la phrase proposée ajoute une interprétation ('devraient mettre') qui n'est pas explicitement dans le texte, et omet le conditionnel requis (le texte est une proposition de loi non adoptée)."
+   }
+  }
+ },
+ {
+  "cle": "article|PIONANR5L17B3022#3",
+  "profil": "salarie_prive",
+  "certitude": "certain",
+  "phrase": "Les salariés couverts par une prévoyance ou une complémentaire de leur branche pourraient bénéficier d'un financement facultatif de leur activité physique hors temps de travail.",
+  "passage": "Cette contribution est facultative pour chaque salarié couvert par un contrat souscrit dans le champ de la branche concernée.",
+  "user": "Dossier : Améliorer les politiques de prévention des risques par l’incitation à l’activité physique régulière des salariés via la création du compte individuel active\nÉtape du texte : Proposition de loi déposée par des parlementaires, pas encore adoptée\nÉlément : Art. 3\n\n--- Texte ---\nAprès l’article L. 141‑1 du code du travail, il est inséré un article L. 141‑1‑1 ainsi rédigé :\n« Art. L. 141‑1‑1. – Les entreprises d’assurance proposant des contrats de prévoyance ou de complémentaire santé couvrant des salariés relevant d’une branche professionnelle ayant institué un dispositif conventionnel de financement de l’activité physique à destination des salariés, en dehors du temps de travail, dans un objectif de prévention de l’absentéisme et des maladies liées à la sédentarité, peuvent abonder le fonds conventionnel paritaire dédié au financement de ce dispositif et créé par la branche.\nCette contribution est facultative pour chaque salarié couvert par un contrat souscrit dans le champ de la branche concernée. Son montant est fixé en concertation avec les partenaires sociaux représentatifs de la branche.\n« La contribution des entreprises d’assurance ne peut donner lieu à une répercussion sur les cotisations ou primes versées par les employeurs ou les salariés assurés. Elle ne peut faire l’objet d’une compensation par une réduction des garanties, une hausse des franchises ou toute autre modalité équivalente.\n",
+  "avis": {
+   "deepseek-v4-pro": {
+    "concerne": false,
+    "raison": "L'article ne fait que dire que la contribution de l'assureur est facultative et ne subira pas de répercussion sur les cotisations. Il n'institue pour le salarié aucun droit au financement d'une activité, aucune démarche ni aucun changement dans ses cotisations. L'effet sur le salarié dépend entièrement de l'existence d'un dispositif conventionnel de branche et du choix de l'assureur d'abonder, sans que l'article ne fixe de garantie de prise en charge. C'est donc un effet trop lointain pour concerner directement un salarié lambda. La phrase proposée par l'assistant invente un bénéfice (« pourraient bénéficier d'un financement facultatif de leur activité physique ») qui n'est pas dans le texte."
+   },
+   "gemini-3.8-flash": {
+    "concerne": true,
+    "raison": "L'article concerne directement les salariés du secteur privé relevant d'une branche prévoyant ce dispositif, dont le financement des activités physiques hors temps de travail pourrait être abondé sans surcoût sur leurs cotisations."
+   },
+   "mistral-medium-3-5": {
+    "concerne": false,
+    "raison": "L'article ne concerne pas directement les salariés : il ne modifie ni leurs droits, ni leurs obligations, ni leurs cotisations. La contribution est facultative pour le salarié, mais cela ne change rien pour lui concrètement (pas d'effet sur son argent, ses droits ou ses obligations). La phrase invente un bénéfice ('pourrait bénéficier') qui n'est pas dans le texte."
+   }
+  }
+ },
+ {
+  "cle": "article|LOI2025127#33",
+  "profil": "proprietaire_occupant",
+  "certitude": "probable",
+  "phrase": "Les travaux de rénovation énergétique incluant une chaudière pouvant utiliser des combustibles fossiles sont facturés au taux normal de TVA.",
+  "passage": "III bis.-Par dérogation au I du présent article, le taux prévu à l'article 278 s'applique aux prestations de rénovation énergétique comprenant la fourniture ou l'installation d'une chaudière susceptible d'utiliser des combustibles fossiles.",
+  "user": "Dossier : Projet de loi de finances pour 2025\nÉtape du texte : Loi publiée au Journal officiel\nÉlément : Art. 32\n\n--- Texte ---\nI.-Le code général des impôts est ainsi modifié :\n1° Au deuxième alinéa du 1 de l'article 231, les mots : « aux I et II » sont remplacés par les mots : « au I » ;\n2° Après le mot : « fixées », la fin du III de l'article 278-0 B est ainsi rédigée : « aux mêmes articles 278-0 bis A et 279-0 bis. » ;\n3° Après le mot : « partir », la fin du premier alinéa du B de l'article 278-0 bis est ainsi rédigée : « d'énergie renouvelable au sens de l'article L. 211-2 du code de l'énergie ou d'un processus dont l'objet n'est pas la production de chaleur ; »\n4° Après le III de l'article 278-0 bis A, il est inséré un III bis ainsi rédigé :\n« III bis.-Par dérogation au I du présent article, le taux prévu à l'article 278 s'applique aux prestations de rénovation énergétique comprenant la fourniture ou l'installation d'une chaudière susceptible d'utiliser des combustibles fossiles. » ;\n5° Le 2 bis de l'article 279-0 bis est ainsi rédigé :\n« 2 bis. Par dérogation au 1 du présent article, le taux prévu à l'article 278 s'applique aux travaux suivants :\n« a) Les travaux de nettoyage ;\n« b) Les travaux d'aménagement ou d'entretien des espaces verts ;\n« c) Les travaux comprenant la fourniture ou l'installation d'une chaudière susceptible d'utiliser des combustibles fossiles. » ;\n6° Au 1 de l'article 285 bis, les mots : « mentionnés au 2° du B du II de l'article 293 B » sont remplacés par les mots : « patrimoniaux reconnus par la loi aux auteurs d'œuvres de l'esprit » ;\n7° L'article 293 B est ainsi modifié :\na) Le tableau du second alinéa du I est ainsi rédigé :\n«\n(En euros)\nAnnée d'évaluation\nChiffre d'affaires national total\nAnnée civile précédente\n25 000\nAnnée en cours\n27 500\n» ;\nb) Le II est ainsi rédigé :\n« II.-Lorsque le plafond de chiffre d'affaires prévu pour les opérations de l'année en cours est dépassé, la franchise mentionnée au I cesse de s'appliquer aux opérations intervenant à compter de la date du dépassement. » ;\nc) Le III est abrogé ;\n8° Au premier alinéa du III de l'article 293 B bis, la référence : « III » est remplacée par la référence : « II » ;\n9° Au III de l'article 293 D, les mots : « et au A du II » sont supprimés.\nII.-Le I entre en vigueur le 1er mars 2025, à l'exception du 1° qui entre en vigueur le 1er janvier 2026.\nToutefois, les 4° et 5° du même I ne s'appliquent pas aux opérations ayant fait l'objet d'un devis daté, accepté par les deux parties et ayant donné lieu à un acompte encaissé avant le 1er mars 2025.\nIII.-La perte de recettes pour l'Etat résultant du II est compensée à due concurrence par la création d'une taxe additionnelle à l'accise sur les tabacs prévue au chapitre IV du titre Ier du livre III du code des impositions sur les biens et services.\n",
+  "avis": {
+   "deepseek-v4-pro": {
+    "concerne": true,
+    "raison": "Le propriétaire occupant qui fait effectuer des travaux est le client final. Le changement du taux de TVA (du taux réduit au taux normal) qu'il devra payer sur ces travaux le concerne directement sur le plan de ses finances personnelles et du coût de ses projets."
+   },
+   "gemini-3.8-flash": {
+    "concerne": true,
+    "raison": "Les propriétaires qui font réaliser des travaux de rénovation énergétique incluant une chaudière à énergie fossile voient ces prestations soumises au taux normal de TVA de 20 % au lieu des taux réduits."
+   },
+   "mistral-medium-3-5": {
+    "concerne": false,
+    "raison": "L'article ne vise pas directement les propriétaires occupants, mais les prestataires (secteur BTP) qui réalisent les travaux. Le taux de TVA est une obligation pour le professionnel, pas un changement direct pour le propriétaire occupant. La phrase proposée invente un effet sur la facturation, qui n'est pas mentionné dans le texte."
+   }
+  }
+ },
+ {
+  "cle": "article|LOI20251129#15",
+  "profil": "locataire",
+  "certitude": "certain",
+  "phrase": "Le bail mobilité, d'une durée pouvant aller jusqu'à dix-huit mois en résidence à vocation d'emploi, s'applique aux locataires concernés.",
+  "passage": "Sans préjudice des dispositions propres à la résidence à vocation d'emploi, le bail conclu avec le locataire est un bail mobilité",
+  "user": "Dossier : Simplification du droit de l'urbanisme et du logement\nÉtape du texte : Loi publiée au Journal officiel\nÉlément : Art. 15\n\n--- Texte ---\nI.-Le titre III du livre VI du code de la construction et de l'habitation est ainsi modifié :\n1° Le chapitre I er est complété par une section 6 ainsi rédigée :\n« Section 6\n« Résidence à vocation d'emploi\n« Art. L. 631-16-1.-La résidence à vocation d'emploi est un ensemble d'habitations constitué de logements autonomes meublés, loués pour une durée d'une semaine à dix-huit mois à des locataires justifiant, à la date de prise d'effet du bail, suivre des études supérieures ou être en formation professionnelle, en contrat d'apprentissage, en stage, en engagement volontaire dans le cadre d'un service civique prévu au II de l'article L. 120-1 du code du service national, en cours de mutation professionnelle ou en mission temporaire dans le cadre de leur activité professionnelle.\n« Sans préjudice des dispositions propres à la résidence à vocation d'emploi, le bail conclu avec le locataire est un bail mobilité régi par le titre I er ter de la loi n° 89-462 du 6 juillet 1989 tendant à améliorer les rapports locatifs et portant modification de la loi n° 86-1290 du 23 décembre 1986.\n« La résidence à vocation d'emploi peut constituer la résidence principale du locataire.\n« Elle peut comprendre des services dont le prix et les modalités de facturation sont déterminés par décret.\n« Au moins 80 % des logements composant la résidence à vocation d'emploi sont loués aux conditions suivantes :\n« 1° Les ressources des locataires, appréciées à la date de conclusion du bail mobilité, n'excèdent pas les plafonds de ressources pour l'accès au logement locatif intermédiaire ;\n« 2° Les loyers à la nuitée n'excèdent pas des plafonds, dans la limite des plafonds de loyers des logements locatifs intermédiaires.\n« Les logements de la résidence à vocation d'emploi peuvent être loués à des personnes morales de droit public ou de droit privé en vue de leur sous-location aux conditions fixées au présent article.\n« Un décret détermine les conditions d'application du présent article, notamment les montants maximaux des loyers à la nuitée dans la limite des plafonds de loyers mentionnés au 2° ainsi que le prix et les modalités de facturation des meubles et des services aux locataires. » ;\n2° Le second alinéa de l'article L. 632-3 est complété par les mots : «, ni aux résidences à vocation d'emploi définies à l'article L. 631-16-1 » ;\n3° Avant le dernier alinéa de l'article L. 633-5, il est inséré un alinéa ainsi rédigé :\n«-aux résidences à vocation d'emploi définies à l'article L. 631-16-1. »\nII.-L'article 25-14 de la loi n° 89-462 du 6 juillet 1989 tendant à améliorer les rapports locatifs et portant modification de la loi n° 86-1290 du 23 décembre 1986 est ainsi modifié :\n1° Le deuxième alinéa est remplacé par deux alinéas ainsi rédigés :\n« Par dérogation au premier alinéa, le bail mobilité peut être conclu pour une durée minimale d'une semaine et une durée maximale de dix-huit mois lorsque le logement sur lequel il porte fait partie d'une résidence à vocation d'emploi définie à l'article L. 631-16-1 du code de la construction et de l'habitation.\n« La durée du contrat de location prévue au 4° du I de l'article 25-13 de la présente loi peut être modifiée une fois par avenant sans que la durée totale du contrat dépasse dix mois, ou dix-huit mois si le logement fait partie d'une résidence à vocation d'emploi définie à l'article L. 631-16-1 du code de la construction et de l'habitation. » ;\n2° Le dernier alinéa est complété par les mots : « de la présente loi ».\n",
+  "avis": {
+   "deepseek-v4-pro": {
+    "concerne": false,
+    "raison": "Un article qui institue un type de bail s'applique à toute personne qui signerait ce bail, sans distinction liée à la situation personnelle du lecteur. « locataire » est un statut trop générique pour constituer un profil ciblé au sens de la consigne."
+   },
+   "gemini-3.8-flash": {
+    "concerne": true,
+    "raison": "L'article modifie les règles régissant le bail mobilité (durée portée jusqu'à 18 mois dans ce cadre) et crée un nouveau cadre locatif plafonné pour ces locataires."
+   },
+   "mistral-medium-3-5": {
+    "concerne": true,
+    "raison": "Le texte précise que le bail conclu avec le locataire est un bail mobilité. La phrase est fidèle et au présent."
+   }
+  }
+ },
+ {
+  "cle": "article|LOI20251129#15",
+  "profil": "salarie_prive",
+  "certitude": "probable",
+  "phrase": "Les salariés en mutation professionnelle ou en mission temporaire peuvent louer un meublé dans une résidence à vocation d'emploi.",
+  "passage": "en cours de mutation professionnelle ou en mission temporaire dans le cadre de leur activité professionnelle",
+  "user": "Dossier : Simplification du droit de l'urbanisme et du logement\nÉtape du texte : Loi publiée au Journal officiel\nÉlément : Art. 15\n\n--- Texte ---\nI.-Le titre III du livre VI du code de la construction et de l'habitation est ainsi modifié :\n1° Le chapitre I er est complété par une section 6 ainsi rédigée :\n« Section 6\n« Résidence à vocation d'emploi\n« Art. L. 631-16-1.-La résidence à vocation d'emploi est un ensemble d'habitations constitué de logements autonomes meublés, loués pour une durée d'une semaine à dix-huit mois à des locataires justifiant, à la date de prise d'effet du bail, suivre des études supérieures ou être en formation professionnelle, en contrat d'apprentissage, en stage, en engagement volontaire dans le cadre d'un service civique prévu au II de l'article L. 120-1 du code du service national, en cours de mutation professionnelle ou en mission temporaire dans le cadre de leur activité professionnelle.\n« Sans préjudice des dispositions propres à la résidence à vocation d'emploi, le bail conclu avec le locataire est un bail mobilité régi par le titre I er ter de la loi n° 89-462 du 6 juillet 1989 tendant à améliorer les rapports locatifs et portant modification de la loi n° 86-1290 du 23 décembre 1986.\n« La résidence à vocation d'emploi peut constituer la résidence principale du locataire.\n« Elle peut comprendre des services dont le prix et les modalités de facturation sont déterminés par décret.\n« Au moins 80 % des logements composant la résidence à vocation d'emploi sont loués aux conditions suivantes :\n« 1° Les ressources des locataires, appréciées à la date de conclusion du bail mobilité, n'excèdent pas les plafonds de ressources pour l'accès au logement locatif intermédiaire ;\n« 2° Les loyers à la nuitée n'excèdent pas des plafonds, dans la limite des plafonds de loyers des logements locatifs intermédiaires.\n« Les logements de la résidence à vocation d'emploi peuvent être loués à des personnes morales de droit public ou de droit privé en vue de leur sous-location aux conditions fixées au présent article.\n« Un décret détermine les conditions d'application du présent article, notamment les montants maximaux des loyers à la nuitée dans la limite des plafonds de loyers mentionnés au 2° ainsi que le prix et les modalités de facturation des meubles et des services aux locataires. » ;\n2° Le second alinéa de l'article L. 632-3 est complété par les mots : «, ni aux résidences à vocation d'emploi définies à l'article L. 631-16-1 » ;\n3° Avant le dernier alinéa de l'article L. 633-5, il est inséré un alinéa ainsi rédigé :\n«-aux résidences à vocation d'emploi définies à l'article L. 631-16-1. »\nII.-L'article 25-14 de la loi n° 89-462 du 6 juillet 1989 tendant à améliorer les rapports locatifs et portant modification de la loi n° 86-1290 du 23 décembre 1986 est ainsi modifié :\n1° Le deuxième alinéa est remplacé par deux alinéas ainsi rédigés :\n« Par dérogation au premier alinéa, le bail mobilité peut être conclu pour une durée minimale d'une semaine et une durée maximale de dix-huit mois lorsque le logement sur lequel il porte fait partie d'une résidence à vocation d'emploi définie à l'article L. 631-16-1 du code de la construction et de l'habitation.\n« La durée du contrat de location prévue au 4° du I de l'article 25-13 de la présente loi peut être modifiée une fois par avenant sans que la durée totale du contrat dépasse dix mois, ou dix-huit mois si le logement fait partie d'une résidence à vocation d'emploi définie à l'article L. 631-16-1 du code de la construction et de l'habitation. » ;\n2° Le dernier alinéa est complété par les mots : « de la présente loi ».\n",
+  "avis": {
+   "deepseek-v4-pro": {
+    "concerne": false,
+    "raison": "Le passage cité vise « en cours de mutation professionnelle ou en mission temporaire dans le cadre de leur activité professionnelle », ce qui ne se limite pas aux salariés du privé (les fonctionnaires, indépendants, etc. peuvent être concernés). Le texte ne cible pas le secteur privé, donc ce profil n'est pas directement concerné."
+   },
+   "gemini-3.8-flash": {
+    "concerne": true,
+    "raison": "L'article ouvre l'accès à ces résidences aux actifs en cours de mutation professionnelle ou en mission temporaire dans le cadre de leur activité."
+   },
+   "mistral-medium-3-5": {
+    "concerne": true,
+    "raison": "Le texte mentionne les personnes en mutation professionnelle ou en mission temporaire, ce qui peut concerner des salariés du privé. La phrase est fidèle, mais la certitude est 'probable' car le texte ne précise pas explicitement 'salarie_prive' (pourrait aussi concerner des fonctionnaires)."
+   }
+  }
+ },
+ {
+  "cle": "article|PIONANR5L17B2889#6",
+  "profil": "malade_chronique",
+  "certitude": "probable",
+  "phrase": "Les personnes atteintes d’algie vasculaire de la face pourraient bénéficier de trente jours d’arrêt de travail par an sur certificat médical.",
+  "passage": "Sur présentation d’un certificat médical attestant de symptômes incapacitants liés à leur condition médicale, les salariés atteints d’algie vasculaire de la face bénéficient d’un droit de trente jours d’arrêt de travail par an.",
+  "user": "Dossier : Garantir des droits sociaux et professionnels aux personnes atteintes d’algie vasculaire de la face par l’intégration de la pathologie dans les dispositifs de solidarité et d’handicap\nÉtape du texte : Proposition de loi déposée par des parlementaires, pas encore adoptée\nÉlément : Art. 6\n\n--- Texte ---\nAprès l’article L. 321‑1 du code de la sécurité sociale, il est inséré un article L. 321‑1‑1 ainsi rédigé :\n« Art. L. 321‑1‑1. – Sur présentation d’un certificat médical attestant de symptômes incapacitants liés à leur condition médicale, les salariés atteints d’algie vasculaire de la face bénéficient d’un droit de trente jours d’arrêt de travail par an. Ces jours d’arrêt peuvent être pris sans condition d’ancienneté et sans préavis, sur simple notification à l’employeur.\n« Ils peuvent être utilisés consécutivement ou séparément dans la limite de dix jours par mois. Ce droit peut, au cours de la même année, être renouvelé une fois à titre exceptionnel, si l’état de santé de la personne prise en charge le nécessite.\n« Les symptômes incapacitants liés à l’algie vasculaire de la face sont reconnus par le médecin généraliste de premier recours, par le médecin spécialiste de premier ou de deuxième recours, ou par le médecin du travail.\n« Les modalités d’application du présent article sont fixées par décret en Conseil d’État. »\n",
+  "avis": {
+   "deepseek-v4-pro": {
+    "concerne": true,
+    "raison": "L'algie vasculaire de la face est une maladie chronique. L'article crée un droit spécifique pour les personnes atteintes de cette pathologie, ce qui les concerne directement."
+   },
+   "gemini-3.8-flash": {
+    "concerne": true,
+    "raison": "L'algie vasculaire de la face est une maladie chronique très invalidante expressément ciblée par le dispositif d'arrêts de travail."
+   },
+   "mistral-medium-3-5": {
+    "concerne": false,
+    "raison": "L'article ne mentionne pas explicitement les 'malades chroniques' comme catégorie. Il cible uniquement les salariés atteints d'algie vasculaire de la face. La déduction 'probable' est infondée car le profil 'malade_chronique' n'est pas visé par le texte lui-même."
+   }
+  }
+ },
+ {
+  "cle": "article|PIONANR5L17B2889#6",
+  "profil": "cdd_interim",
+  "certitude": "probable",
+  "phrase": "Les salariés en contrat court pourraient prendre ces jours d’arrêt sans condition d’ancienneté ni préavis.",
+  "passage": "Ces jours d’arrêt peuvent être pris sans condition d’ancienneté et sans préavis, sur simple notification à l’employeur.",
+  "user": "Dossier : Garantir des droits sociaux et professionnels aux personnes atteintes d’algie vasculaire de la face par l’intégration de la pathologie dans les dispositifs de solidarité et d’handicap\nÉtape du texte : Proposition de loi déposée par des parlementaires, pas encore adoptée\nÉlément : Art. 6\n\n--- Texte ---\nAprès l’article L. 321‑1 du code de la sécurité sociale, il est inséré un article L. 321‑1‑1 ainsi rédigé :\n« Art. L. 321‑1‑1. – Sur présentation d’un certificat médical attestant de symptômes incapacitants liés à leur condition médicale, les salariés atteints d’algie vasculaire de la face bénéficient d’un droit de trente jours d’arrêt de travail par an. Ces jours d’arrêt peuvent être pris sans condition d’ancienneté et sans préavis, sur simple notification à l’employeur.\n« Ils peuvent être utilisés consécutivement ou séparément dans la limite de dix jours par mois. Ce droit peut, au cours de la même année, être renouvelé une fois à titre exceptionnel, si l’état de santé de la personne prise en charge le nécessite.\n« Les symptômes incapacitants liés à l’algie vasculaire de la face sont reconnus par le médecin généraliste de premier recours, par le médecin spécialiste de premier ou de deuxième recours, ou par le médecin du travail.\n« Les modalités d’application du présent article sont fixées par décret en Conseil d’État. »\n",
+  "avis": {
+   "deepseek-v4-pro": {
+    "concerne": true,
+    "raison": "La suppression de la condition d'ancienneté lève un obstacle qui excluait souvent les salariés en CDD ou en intérim du bénéfice d'un arrêt de travail. Leur situation est donc directement visée."
+   },
+   "gemini-3.8-flash": {
+    "concerne": false,
+    "raison": "L'absence de condition d'ancienneté bénéficie à l'ensemble des salariés récemment embauchés (y compris en CDI) et ne constitue pas un ciblage spécifique des personnes en contrat court ou intérim."
+   },
+   "mistral-medium-3-5": {
+    "concerne": false,
+    "raison": "L'article s'applique à tous les salariés sans distinction de type de contrat. Le profil 'cdd_interim' n'est pas spécifiquement visé, et l'effet est le même pour tous les salariés. La déduction 'probable' est incorrecte."
+   }
+  }
+ },
+ {
+  "cle": "article|PIONANR5L17B2500#1",
+  "profil": "salarie_particulier",
+  "certitude": "certain",
+  "phrase": "Un assistant maternel devrait détenir un certificat d'honorabilité pour l'enfance pour obtenir et conserver son agrément.",
+  "passage": "L’obtention et le maintien de l’agrément d’assistant maternel sont subordonnés à la détention d’un certificat d’honorabilité pour l’enfance.",
+  "user": "Dossier : Garantir l’honorabilité des personnes intervenant auprès des mineurs\nÉtape du texte : Proposition de loi déposée par des parlementaires, pas encore adoptée\nÉlément : Art. 1er\n\n--- Texte ---\nI. – Le code de l’action sociale et des familles est ainsi modifié :\n1° Après l’article L. 133‑6, il est inséré un article L. 133‑6‑1 ainsi rédigé :\n« Art. L. 133‑6‑1. – Pour l’application du présent article, constitue une activité auprès de mineurs toute activité exercée, à titre professionnel ou non, impliquant une présence physique ou une interaction, directe ou indirecte, y compris par voie numérique ou à distance, régulière ou occasionnelle, avec des mineurs, y compris lorsque ces derniers sont en situation de handicap, dans un cadre éducatif, sportif, culturel, cultuel, social, médical, médico‑social, de garde, d’animation, d’enseignement, d’accompagnement, de soins, de transport, de convoyage ou d’accompagnement à la mobilité.\n« Nul ne peut exercer une activité auprès de mineurs sans être titulaire d’un certificat d’honorabilité pour l’enfance.\n« Ce certificat d’honorabilité pour l’enfance atteste :\n« 1° De l’absence d’inscription incompatible au bulletin n° 2 du casier judiciaire ;\n« 2° De l’absence d’inscription incompatible au fichier judiciaire automatisé des auteurs d’infractions sexuelles ou violentes ;\n« 3° De l’absence d’inscription aux fichiers relatifs aux maltraitances envers mineurs mentionnés par décret, légalement autorisés à cette fin.\n« Le certificat d’honorabilité pour l’enfance fait l’objet d’un contrôle continu. Toute nouvelle inscription incompatible entraîne sa suspension immédiate, notifiée à l’intéressé et, lorsqu’il en existe un, à l’employeur, à l’autorité d’agrément ou à l’organisme d’accueil.\n« Les conditions de délivrance, de validité, de suspension et de retrait du certificat d’honorabilité pour l’enfance sont fixées par décret en Conseil d’État.\n« Les traitements de données personnelles nécessaires à la délivrance, à la suspension et au retrait du certificat d’honorabilité pour l’enfance sont effectués conformément au règlement (UE) 2016/679 du Parlement européen et du Conseil du 27 avril 2016 relatif à la protection des personnes physiques à l’égard du traitement des données à caractère personnel et à la libre circulation de ces données, et abrogeant la directive 95/46/CE et à la loi n° 78‑17 du 6 janvier 1978 relative à l’informatique, aux fichiers et aux libertés. » ;\n2° Après l’article L. 421‑3, il est inséré un article L. 421‑3‑1 ainsi rédigé :\n« Art. L. 421‑3‑1. – L’obtention et le maintien de l’agrément d’assistant maternel sont subordonnés à la détention d’un certificat d’honorabilité pour l’enfance. »\nII. – L’article L. 911‑5 du code de l’éducation est complété par un IV ainsi rédigé :\n« IV. – L’obligation de détenir le certificat d’honorabilité pour l’enfance mentionné à l’article L.133‑6‑1 du code de l’action sociale et des familles s’applique également à toute personne intervenant ponctuellement, bénévolement ou à titre occasionnel auprès des élèves, quels que soient le cadre ou le lieu de l’intervention. »\nIII. – Le chapitre II du titre XIX du livre IV du code de procédure pénale est ainsi modifié :\n1° L’article 706‑53‑7 est complété par un alinéa ainsi rédigé :\n« L’autorité gestionnaire du fichier judiciaire automatisé des auteurs d’infractions sexuelles ou violentes transmet sans délai à l’autorité administrative chargée de la délivrance du certificat d’honorabilité pour l’enfance toute inscription incompatible avec son maintien, entraînant sa suspension immédiate. » ;\n2° Après le même article 706‑53‑7, il est inséré un article 706‑53‑7‑1 ainsi rédigé :\n« Art. 706‑53‑7‑1. – Toute juridiction pénale ayant prononcé une condamnation pour une infraction susceptible d’entraîner une incompatibilité avec l’exercice d’une activité auprès de mineurs informe sans délai l’autorité administrative chargée de la délivrance du certificat d’honorabilité pour l’enfance.\n« Cette information est transmise en complément de l’inscription au fichier judiciaire automatisé des auteurs d’infractions sexuelles ou violentes et ne fait pas obstacle aux autres transmissions prévues par la loi. »\nIV. – Après l’article L. 4113‑13 du code de la santé publique, il est inséré un article L. 4113‑13‑1 ainsi rédigé :\n« Art. L. 4113‑13‑1. – I. – L’exercice, à titre libéral, salarié, bénévole, occasionnel ou en qualité de remplaçant, de toute activité de prévention, de diagnostic, de soins, de suivi thérapeutique ou d’accompagnement sanitaire auprès de mineurs est subordonné à la détention d’un certificat d’honorabilité pour l’enfance mentionné à l’article L. 133‑6‑1 du code de l’action sociale et des familles.\n« II. – Cette obligation s’applique à l’ensemble des professionnels de santé mentionnés dans la quatrième partie du présent code, ainsi qu’à toute personne intervenant, à quelque titre que ce soit, au sein :\n« 1° Des établissements de santé publics ou privés ;\n« 2° Des centres de santé ;\n« 3° Des maisons de santé ;\n« 4° Des structures de prévention ou de protection maternelle et infantile ;\n« 5° Des structures de santé scolaire ou universitaire ;\n« 6° Des structures de psychiatrie ou de pédopsychiatrie.\n« III. – Elle s’applique également aux étudiants, stagiaires, volontaires et bénévoles intervenant auprès de mineurs dans ces structures.\n« Un décret en Conseil d’État précise les modalités d’application du présent article. »\nV. – L’article L. 212‑9 du code du sport est complété par un alinéa ainsi rédigé :\n« La détention du certificat d’honorabilité pour l’enfance est exigée pour tout encadrant d’activité sportive auprès de mineurs, y compris bénévole, saisonnier, prestataire ou intervenant occasionnel. »\nVI. – Après l’article L.1221‑7 du code du travail, il est inséré un article L. 1221‑8, ainsi rédigé :\n« Art. L. 1221‑8. – L’employeur vérifie préalablement à l’embauche ou à l’affectation la détention du certificat d’honorabilité pour l’enfance lorsque des salariés, y compris ceux employés par un particulier employeur ou déclarés au moyen du chèque emploi‑service universel, exercent toute activité mentionnée à l’article L. 133‑6‑1 du code de l’action sociale et des familles. »\n",
+  "avis": {
+   "deepseek-v4-pro": {
+    "concerne": false,
+    "raison": "L'assistant attribue l'obligation de détenir le certificat pour l'agrément à un assistant maternel, salarié d'un particulier. Le texte du 2° (L. 421-3-1) impose bien l'obtention du certificat à l'assistant maternel. Cependant, le catalogue définit 'salarie_particulier' comme : 'Assistant maternel, aide à domicile ou employé de maison, salarié d'un particulier'. L'assistant maternel est bien un salarié d'un particulier. Le problème est que l'assistant maternel est nommé 'assistant maternel' dans le texte, ce qui correspond au profil. Mais la phrase dit 'Un assistant maternel devrait détenir...'. La phrase est correcte en soi. La catégorie 'salarie_particulier' regroupe ces métiers. Donc le profil est bien concerné."
+   },
+   "gemini-3.8-flash": {
+    "concerne": true,
+    "raison": "Les assistants maternels relèvent de ce profil et voient leur agrément conditionné à la détention du certificat d'honorabilité pour l'enfance."
+   },
+   "mistral-medium-3-5": {
+    "concerne": true,
+    "raison": "Le texte subordonne l'agrément d'assistant maternel (salarie_particulier) à la détention du certificat (I.2°)."
+   }
+  }
+ },
+ {
+  "cle": "article|PIONANR5L17B2821#2",
+  "profil": "retraite",
+  "certitude": "probable",
+  "phrase": "Les futurs retraités remplissant les conditions de résidence et de service dans le Pacifique pourraient voir leur pension calculée avec un coefficient de majoration territoriale.",
+  "passage": "le montant de celle‑ci est calculé en multipliant le pourcentage de liquidation tel qu’il résulte de l’application de l’article L. 13 par le traitement ou la solde",
+  "user": "Dossier : Le calcul de la pension civile des fonctionnaires de l’État dans les collectivités du Pacifique\nÉtape du texte : Proposition de loi déposée par des parlementaires, pas encore adoptée\nÉlément : Art. 2\n\n--- Texte ---\nL’article L. 15 du code des pensions civiles et militaires de retraite est complété par des III et IV ainsi rédigés :\n« III. – Aux fins de liquidation de la pension des personnels relevant du présent code et visés à l’article premier du décret n° 67‑600 du 23 juillet 1967, le montant de celle‑ci est calculé en multipliant le pourcentage de liquidation tel qu’il résulte de l’application de l’article L. 13 par le traitement ou la solde, afférents à l’indice correspondant à l’emploi, au grade, à la classe et à l’échelon multiplié par un coefficient de majoration propre à chaque territoire, soumis à retenue, effectivement détenus depuis six mois au moins par le fonctionnaire, magistrat ou militaire au moment de la cessation des services valables pour la retraite ou, à défaut, par le traitement ou la solde, afférents à l’indice correspondant à l’emploi, au grade, à la classe et à l’échelon multiplié par un coefficient de majoration propre à chaque territoire, soumis à retenue, antérieurement occupés d’une manière effective, sauf s’il y a eu rétrogradation par mesure disciplinaire.\n« La condition des six mois n’est pas opposable en cas de décès ou bien lorsque l’agent n’est plus en service par suite, dans l’un et l’autre cas, d’un accident survenu en service ou à l’occasion du service.\n« Le traitement ou la solde des personnels qui accomplissent des services à temps partiel prévus à l’avant‑dernier alinéa de l’article L. 5 sont ceux auxquels les intéressés pourraient prétendre s’ils accomplissaient des services à plein temps.\n« IV. – Le III du présent article est applicable aux personnels qui, à la date d’effet de leur pension, justifient d’une résidence effective en Nouvelle‑Calédonie, à Wallis‑et‑Futuna ou en Polynésie française et qui remplissent les conditions suivantes :\n« 1° a) Justifier de quinze ans de service effectif dans une ou plusieurs collectivités mentionnées au premier alinéa du IV à partir d’un état récapitulatif de ces services établi par l’administration compétente ;\n« b) Ou remplir, au regard de la collectivité dans laquelle l’intéressé justifie de sa résidence effective, les critères d’éligibilité retenus pour l’octroi des congés bonifiés à leur bénéficiaire principal ;\n« 2° a) Soit justifier d’une durée d’assurance validée au titre d’un ou des régimes de retraite de base obligatoires égale au nombre de trimestres nécessaire pour obtenir le pourcentage maximum de la pension civile ou militaire de retraite mentionné à l’article L. 13 du code des pensions civiles et militaires de retraite ;\n« b) Ou bénéficier d’une pension dont le montant n’a pas fait l’objet de l’application du coefficient de minoration prévu à l’article L. 14 du même code.\n« Ces conditions visent à garantir que le bénéfice du présent dispositif est réservé aux personnels ayant exercé et résidé de manière durable et effective dans les collectivités concernées. »\n« La résidence effective s’apprécie au regard de critères objectifs définis par décret en Conseil d’État, tenant notamment à la durée annuelle de présence sur le territoire, au lieu d’habitation principal et au centre des intérêts matériels et moraux de l’intéressé. »\n",
+  "avis": {
+   "deepseek-v4-pro": {
+    "concerne": false,
+    "raison": "Le profil 'retraite' désigne une personne déjà retraitée. Or, l'article modifie le calcul de la pension à liquider (futurs retraités), pas les pensions déjà liquidées. L'effet direct vise les fonctionnaires en activité ou quittant le service, pas les retraités actuels. De plus, la phrase proposée est redondante avec celle du profil 'fonctionnaire' sans apporter d'élément spécifique à un retraité qui ne soit déjà couvert."
+   },
+   "gemini-3.8-flash": {
+    "concerne": false,
+    "raison": "Le dispositif ne concerne que la liquidation des futures pensions (« aux fins de liquidation », « à la date d'effet de leur pension ») des agents actuellement en activité, et non les personnes déjà à la retraite."
+   },
+   "mistral-medium-3-5": {
+    "concerne": true,
+    "raison": "Les futurs retraités (fonctionnaires) sont concernés car l'article modifie le calcul de leur pension. Le passage cité est exact, et le conditionnel est adapté. La certitude est 'probable' car le profil 'retraite' inclut des personnes non fonctionnaires, mais le texte vise spécifiquement les fonctionnaires en retraite."
+   }
+  }
+ },
+ {
+  "cle": "article|PIONANR5L17B0755#2",
+  "profil": "coproprietaire",
+  "certitude": "probable",
+  "phrase": "Les propriétaires d'un lot dans un établissement qui ferme lors d'un transfert d'activité seraient indemnisés par l'exploitant selon des conditions fixées dans l'autorisation.",
+  "passage": "les bailleurs détenteurs d’un lot dans l’établissement dont l’activité cesse sont indemnisés par son bénéficiaire",
+  "user": "Dossier : Encadrer certaines activités financières et immobilières des établissements d'hébergement pour personnes âgées dépendantes\nÉtape du texte : Proposition de loi déposée par des parlementaires, pas encore adoptée\nÉlément : Art. 2\n\n--- Texte ---\nL’article L. 313‑4 du code de l’action sociale et des familles est complété par trois alinéas ainsi rédigés :\n« Lorsqu’elle a pour objet l’ouverture d’un nouvel établissement dans lequel doit être transférée l’activité d’un établissement qui fait déjà l’objet d’une autorisation, l’autorisation prévoit les conditions dans lesquelles les bailleurs détenteurs d’un lot dans l’établissement dont l’activité cesse sont indemnisés par son bénéficiaire.\n« Ces conditions doivent obligatoirement être transmises aux bailleurs.\n« En cas de non‑respect de cette obligation, l’autorisation est retirée. »\n",
+  "avis": {
+   "deepseek-v4-pro": {
+    "concerne": false,
+    "raison": "Le profil 'coproprietaire' du catalogue désigne un propriétaire d'un lot dans un immeuble en copropriété, qu'il l'habite ou le loue. Or, le texte vise les 'bailleurs détenteurs d'un lot' dans un EHPAD. Un 'bailleur' est une personne qui loue son bien. Le copropriétaire qui habite son lot n'est donc pas directement concerné par cette obligation d'indemnisation, qui vise spécifiquement le propriétaire bailleur. La phrase proposée omet cette restriction en parlant de 'propriétaires' en général, ce qui est trop large par rapport au texte."
+   },
+   "gemini-3.8-flash": {
+    "concerne": true,
+    "raison": "Le texte prévoit explicitement l'indemnisation des bailleurs détenant un lot au sein de l'établissement dont l'activité est transférée."
+   },
+   "mistral-medium-3-5": {
+    "concerne": true,
+    "raison": "Le texte mentionne explicitement les 'bailleurs détenteurs d’un lot' (qui peuvent être des copropriétaires) et précise qu'ils seraient indemnisés en cas de transfert d'activité. La phrase proposée est fidèle au texte et utilise correctement le conditionnel."
+   }
+  }
+ },
+ {
+  "cle": "article|PIONANR5L17B2225#2",
+  "profil": "etudiant",
+  "certitude": "probable",
+  "phrase": "Si vous logez dans une résidence étudiante privée, le loyer pourrait être encadré par les mêmes règles que les logements d'habitation principale.",
+  "passage": "Les loyers des logements meublés utilisés à des fins touristiques et ceux des résidences étudiantes privées sont soumis aux mêmes règles d’encadrement des loyers que les logements à usage d’habitation principale",
+  "user": "Dossier : Généraliser et rendre effectif l'encadrement des loyers sur l’ensemble du territoire et réduire les loyers dans les zones tendues\nÉtape du texte : Proposition de loi déposée par des parlementaires, pas encore adoptée\nÉlément : Art. 2\n\n--- Texte ---\nI. – La loi n° 89‑462 du 6 juillet 1989 tendant à améliorer les rapports locatifs et portant modification de la loi n° 86‑1290 du 23 décembre 1986 est ainsi modifiée :\n1° L’article 16 est ainsi rédigé :\n« Art. 16. – Les observatoires locaux des loyers créés par la loi n° 2014‑366 du 24 mars 2014 pour l’accès au logement et un urbanisme rénové sont généralisés à l’ensemble du territoire. Lorsque dans un territoire, dans un délai d’un an suivant la promulgation de la présente loi, aucune collectivité territoriale ou aucun établissement public de coopération intercommunale à fiscalité propre compétent en matière d’habitat n’a manifesté sa volonté de créer un observatoire local des loyers, l’État en prend l’initiative. » ;\n2° L’article 17 est ainsi rédigé :\n« Art. 17. – Le représentant de l’État dans le département fixe chaque année par arrêté, sur la base des données récoltées et publiées par l’observatoire local des loyers et après consultation du maire de la commune, un loyer de référence, un loyer de référence majoré et un loyer de référence minoré, exprimé par un prix au mètre carré de surface habitable, par catégorie de logement et par secteur géographique.\n« Le loyer de base des logements mis en location dans le territoire concerné est fixé librement entre les parties lors de la conclusion du contrat de bail dans la limite du loyer de référence. Une action en diminution de loyer peut être engagée si le loyer de base prévu dans le contrat de bail est supérieur au loyer de référence en vigueur à la date de sa publication par arrêté. La commission départementale de conciliation prévue à l’article 20 est compétente pour l’examen des litiges relatifs à cette action en diminution.\n« Dans les communes où il existe un déséquilibre marqué entre l’offre et la demande de logements, entraînant des difficultés sérieuses d’accès au logement sur l’ensemble du parc résidentiel existant, qui se caractérisent notamment par le niveau élevé des loyers, le niveau élevé des prix d’acquisition des logements anciens ou le nombre élevé de demandes de logement par rapport au nombre d’emménagements annuels dans le parc locatif social, et dont la liste est fixée par décret, le loyer de référence est inférieur ou égal au loyer médian observé par les observatoires locaux de l’habitat et au minimum égal à 90 % de sa valeur pour l’année 2026, inférieur ou égal à 90 % de la valeur du loyer médian observé par les observatoires locaux de l’habitat et au minimum égal à 80 % de sa valeur pour l’année 2027, inférieur ou égal à 80 % de la valeur du loyer médian observé par les observatoires locaux de l’habitat et au minimum égal à 70 % de sa valeur en 2028, inférieur ou égal à 80 % de la valeur du loyer médian observé par les observatoires locaux de l’habitat et au minimum égal à 60 % de sa valeur en 2029.\n« Le loyer de référence majoré est égal à un montant supérieur de 20 % au loyer de référence pour les années 2026, 2027, 2028 et 2029.\n« À partir de l’année 2030 le loyer de référence est égal au loyer médian observé par les observatoires locaux des loyers et le loyer de référence majoré est égal à un montant supérieur de 10 % au loyer de référence.\n« Le loyer de référence minoré est égal au loyer de référence diminué de 30 %.\n« Dans les autres communes, à partir de 2026, le loyer de référence est égal au loyer médian observé par les observatoires locaux de l’habitat. Le loyer de référence majoré est égal à un montant supérieur de 10 % au loyer de référence. Le loyer de référence minoré est égal au loyer de référence diminué de 30 %. Le loyer de base des logements mis en location est fixé librement entre les parties lors de la conclusion du contrat de bail, dans la limite du loyer de référence majoré. »\n« II. – L’article 140 de la loi n° 2018‑1021 du 23 novembre 2018 portant évolution du logement, de l’aménagement et du numérique est ainsi modifié :\n1° Au septième alinéa du I, après le mot : « arrêté », sont insérés les mots : « après consultation du maire de la commune, » ;\n2° Le II es ainsi modifié :\na) L’avant‑dernier alinéa est ainsi modifié :\n– le taux : « 20 % » est remplacé par le taux : « 10 % » ;\n– sont ajoutés les mots : « à compter de l’année 2030 dans les communes où il existe un déséquilibre marqué entre l’offre et la demande de logements, entraînant des difficultés sérieuses d’accès au logement sur l’ensemble du parc résidentiel existant, qui se caractérisent notamment par le niveau élevé des loyers, le niveau élevé des prix d’acquisition des logements anciens ou le nombre élevé de demandes de logement par rapport au nombre d’emménagements annuels dans le parc locatif social, et dont la liste est fixée par décret et à partir de l’année 2026 dans les autres communes » ;\nb) Avant le dernier alinéa, sont insérés deux aliénas ainsi rédigés :\n« Les dispositions du présent article relatives à l’encadrement des loyers sont étendues aux logements meublés touristiques définis à l’article L. 324‑1‑1 du code du tourisme, ainsi qu’aux résidences étudiantes privées, telles que définies à l’article L. 631‑12 du code de la construction et de l’habitation.\n« Les loyers des logements meublés utilisés à des fins touristiques et ceux des résidences étudiantes privées sont soumis aux mêmes règles d’encadrement des loyers que les logements à usage d’habitation principale, dans les zones tendues comme sur le reste du territoire. »\n",
+  "avis": {
+   "deepseek-v4-pro": {
+    "concerne": true,
+    "raison": "Le texte cite les « résidences étudiantes privées ». La déduction est simple : cela concerne les étudiants, même si le texte ne dit pas que tous les étudiants y logent. Le résumé est au conditionnel et ne cite aucun fait inventé. La certitude « probable » est justifiée car l'effet sur un étudiant donné dépend de son lieu d'habitation."
+   },
+   "gemini-3.8-flash": {
+    "concerne": true,
+    "raison": "Le texte soumet expressément les résidences étudiantes privées à l'encadrement des loyers, ce qui concerne directement les étudiants y résidant."
+   },
+   "mistral-medium-3-5": {
+    "concerne": false,
+    "raison": "Le texte mentionne les résidences étudiantes privées, mais le profil 'etudiant' n'est pas directement visé. Ce sont les gestionnaires de résidences étudiantes qui sont concernés, pas les étudiants eux-mêmes. La phrase proposée est donc infidèle car elle suggère un impact direct sur les étudiants, alors que le texte vise les loyers des résidences, pas les étudiants en tant que locataires."
+   }
+  }
+ }
+]

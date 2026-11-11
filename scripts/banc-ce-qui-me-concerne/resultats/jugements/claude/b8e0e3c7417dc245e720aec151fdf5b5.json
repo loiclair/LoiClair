@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etranger_hors_ue",
+    "raison": "Le texte accorde de plein droit une carte de séjour de quatre ans aux jeunes étrangers confiés à l'ASE avant 18 ans, sans que la condition de l'article L. 412-1 leur soit opposable. Il vise donc directement les personnes hors UE vivant en France, par leur statut de séjour.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0006801849999999999,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

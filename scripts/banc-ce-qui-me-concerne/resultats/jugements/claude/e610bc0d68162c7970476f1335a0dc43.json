@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "elu_local",
+    "raison": "L'article change les règles de désignation des adjoints au maire : dans les communes de moins de 1 000 habitants, en cas de vacance, les adjoints sont désignés parmi les conseillers sans considération de sexe, et la parité pour les adjoints s'étend à toutes les communes. Ces règles visent directement les conseillers municipaux et les adjoints, qui sont des élus locaux.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0005572849999999999,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

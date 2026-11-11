@@ -1,0 +1,25 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_btp",
+    "raison": "Le texte modifie la loi de 1975 sur la sous-traitance, sans citer le bâtiment ni les travaux publics. Il parle de « maître de l'ouvrage », mais la loi de 1975 s'applique à tous les secteurs. Le secteur n'est pas nommé : statut prêté.",
+    "concerne": false,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "chef_entreprise",
+    "raison": "L'obligation pèse sur l'entrepreneur principal, c'est-à-dire un employeur, qui doit faire accepter ses sous-traitants au-delà d'un tiers du contrat. Cela touche directement les dirigeants d'entreprise.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "dirigeant_grande_entreprise"
+  ]
+ },
+ "cout_usd": 0.0028556999999999996,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

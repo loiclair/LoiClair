@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "alsace_moselle",
+    "raison": "L'article modifie une loi locale de 1884 propre à la Moselle, au Bas-Rhin et au Haut-Rhin : il précise que les alinéas 1 et 2 n'empêchent pas l'application des règles du code civil sur la prescription acquisitive. Cela change les droits fonciers des habitants de ces départements.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0040377,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

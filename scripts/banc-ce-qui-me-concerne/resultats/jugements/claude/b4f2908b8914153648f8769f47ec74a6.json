@@ -1,0 +1,29 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "forces_ordre",
+    "raison": "L'article 78-2-2-1 donne aux agents de l'article 78-2 (policiers, gendarmes) le pouvoir de prendre empreintes et photographies lors d'un contrôle d'identité en cas de concordance dans le SIS : cela change leurs règles de métier.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "etranger_ue",
+    "raison": "Le texte vise « l'étranger » contrôlé aux frontières ou sur le territoire, sans distinguer l'origine. Un ressortissant de l'UE vivant en France est visé, mais la mesure s'applique d'abord aux ressortissants de pays tiers. Le profil n'est pas ce qui déclenche la mesure : l'article 78-2-2-1 vise toute personne contrôlée.",
+    "concerne": false,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "etranger_hors_ue",
+    "raison": "Le chapitre du CESEDA modifié vise « l'étranger » (retenue L. 813-1, peines L. 821-2) qui refuse le relevé d'empreintes ou la photographie lors de contrôles aux frontières ou de séjour : cela change directement ses obligations et sanctions.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0089397,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

@@ -1,0 +1,26 @@
+{
+ "impacts": [
+  {
+   "profil": "malade_chronique",
+   "phrase_fr": "Pourrait ouvrir l'accès à une aide à mourir aux personnes atteintes d'une affection grave et incurable, en phase avancée ou terminale, si les autres conditions sont remplies.",
+   "phrase_en": "Would open access to medical aid in dying for people with a serious incurable illness, in advanced or terminal stage, if the other conditions are met.",
+   "passage": "Être atteinte d’une affection grave et incurable, qui engage le pronostic vital, en phase avancée ou terminale ;",
+   "certitude": "probable"
+  },
+  {
+   "profil": "etranger_hors_ue",
+   "phrase_fr": "Pourrait permettre aux étrangers hors Union européenne résidant en France de façon stable et régulière d'accéder à l'aide à mourir, sans nationalité française.",
+   "phrase_en": "Would allow non-French foreign residents from outside the EU, with stable and regular residence in France, to access medical aid in dying.",
+   "passage": "Être de nationalité française ou résider de façon stable et régulière en France ;",
+   "certitude": "probable"
+  },
+  {
+   "profil": "etranger_ue",
+   "phrase_fr": "Pourrait permettre aux ressortissants de l'Union européenne résidant en France de façon stable et régulière d'accéder à l'aide à mourir, sans nationalité française.",
+   "phrase_en": "Would allow EU nationals with stable and regular residence in France, without French nationality, to access medical aid in dying.",
+   "passage": "Être de nationalité française ou résider de façon stable et régulière en France ;",
+   "certitude": "probable"
+  }
+ ],
+ "cout_usd": 0.00118981
+}

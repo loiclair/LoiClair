@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_numerique",
+    "raison": "L'article désigne les opérateurs de systèmes d'IA à haut risque intégrés à des équipements radioélectriques (L. 34-9), et les soumet au contrôle de l'ANFR, à des mises en demeure et à des amendes : ce sont des obligations professionnelles directes du secteur numérique et des télécommunications.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0053947,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

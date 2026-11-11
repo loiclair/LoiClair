@@ -1,0 +1,26 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etranger_hors_ue",
+    "concerne": false,
+    "phrase_fidele": false,
+    "raison": "Le dispositif de l'amendement n'est pas publié. L'assistant a résumé l'article 37 sous-jacent au lieu de l'amendement lui-même, ce qui est contraire à la consigne. Aucun contenu n'est disponible pour justifier un impact direct."
+   },
+   {
+    "profil": "parent",
+    "concerne": false,
+    "phrase_fidele": false,
+    "raison": "Le dispositif de l'amendement n'étant pas publié, son objet exact est inconnu. L'assistant a attribué à l'amendement les dispositions de l'article 37."
+   },
+   {
+    "profil": "outre_mer",
+    "concerne": false,
+    "phrase_fidele": false,
+    "raison": "Le dispositif de l'amendement n'étant pas publié, il est impossible de déterminer ce qu'il modifie. Le résumé reprend le texte de l'article initial."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00611325
+}

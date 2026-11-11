@@ -1,0 +1,15 @@
+{
+ "impacts": [
+  {
+   "profil": "secteur_agriculture",
+   "passage": "Lorsque le contribuable devient associé exploitant au sein d’une société exerçant une activité agricole depuis moins de vingt-quatre mois à la date de la cession générant une plus-value",
+   "certitude": "certain"
+  },
+  {
+   "profil": "imposable",
+   "passage": "la fraction des plus-values qui lui revient est appréciée, pour l’application du présent article, en tenant compte de la moyenne des chiffres d’affaires des deux exercices précédents",
+   "certitude": "probable"
+  }
+ ],
+ "resume_fr": "Permettrait aux jeunes agriculteurs entrés depuis moins de deux ans dans une société agricole de voir leurs plus-values calculées sur la moyenne de leurs chiffres d'affaires."
+}

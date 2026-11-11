@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_numerique",
+    "raison": "Non concerné : l'article vise les opérateurs de systèmes d'IA à haut risque composants d'équipements radio, soumis à une obligation de conformité technique du produit. C'est une règle de mise sur le marché d'un produit ciblé, non une modification de la façon d'exercer le métier numérique, donc un effet indirect au sens de la règle 12.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000920485,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_culture",
+    "raison": "Le texte crée une présomption de qualité de publication de presse pour les titres inscrits à la CPPAP et permet à un éditeur ou une agence de presse de saisir l'Arcom pour avis : cela change les règles d'exercice des éditeurs de presse et le bénéfice de leurs droits voisins, donc le secteur presse/édition est visé.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0021687,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

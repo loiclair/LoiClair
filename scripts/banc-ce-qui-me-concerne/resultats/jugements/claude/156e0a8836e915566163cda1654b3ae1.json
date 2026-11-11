@@ -1,0 +1,30 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "veuf",
+    "raison": "Le texte ajoute le titre de reconnaissance de la Nation aux conditions de la demi-part prévue pour les veuves : leur avantage fiscal est directement modifié.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "ancien_combattant",
+    "raison": "Le profil comprend aussi les membres de la famille des anciens combattants ; le dispositif vise les veuves de combattants titulaires du titre de reconnaissance de la Nation.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "imposable",
+    "raison": "La mesure porte sur l’impôt, mais elle vise les veuves répondant aux conditions prévues, pas les personnes imposables en général. La phrase décrit correctement l’extension proposée.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "senior"
+  ]
+ },
+ "cout_usd": 0.000972525,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

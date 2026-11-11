@@ -1,0 +1,42 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "mineur",
+    "raison": "Le seuil de 18 ans exclut les mineurs de l’accès à cette aide nouvelle ; selon la règle 10, cette exclusion ne les rend pas concernés.",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "jeune",
+    "raison": "Le texte fixe explicitement l’âge minimal à 18 ans : les 18–25 ans peuvent donc accéder à l’aide s’ils remplissent les autres conditions.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "etranger_hors_ue",
+    "raison": "Le texte ouvre l’accès aux personnes qui ne sont pas de nationalité française si elles résident en France de façon stable et régulière ; cela vise aussi les étrangers hors UE résidant en France.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "etranger_ue",
+    "raison": "Le texte ouvre l’accès aux personnes qui ne sont pas de nationalité française si elles résident en France de façon stable et régulière ; cela vise aussi les étrangers de l’UE résidant en France.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "malade_chronique",
+    "raison": "Le texte vise une affection grave et incurable engageant le pronostic vital, en phase avancée ou terminale ; le profil malade_chronique ne couvre pas cette condition terminale particulière.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": [
+   "senior"
+  ]
+ },
+ "cout_usd": 0.001828775,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

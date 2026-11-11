@@ -1,0 +1,29 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "fonctionnaire",
+    "raison": "Le III vise directement les personnels relevant du code des pensions civiles et militaires, dont les fonctionnaires : leur pension serait calculée avec un coefficient de majoration propre à chaque territoire.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "forces_ordre",
+    "raison": "Le texte nomme expressément le « militaire » parmi les personnels visés (« fonctionnaire, magistrat ou militaire »), dont la pension serait majorée par le coefficient territorial.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "outre_mer",
+    "raison": "Le IV réserve le dispositif aux personnels qui justifient d'une résidence effective en Nouvelle-Calédonie, à Wallis-et-Futuna ou en Polynésie française : la résidence dans ces collectivités déclenche la majoration.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.001014335,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

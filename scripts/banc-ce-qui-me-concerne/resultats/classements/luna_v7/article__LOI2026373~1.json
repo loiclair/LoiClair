@@ -1,0 +1,19 @@
+{
+ "impacts": [
+  {
+   "profil": "secteur_sante",
+   "phrase_fr": "Les médecins concernés pourraient exercer en France avec certains diplômes britanniques, si leur formation a commencé avant le 31 décembre 2020.",
+   "phrase_en": "Eligible doctors could practise in France with certain UK qualifications if their training began before 31 December 2020.",
+   "passage": "Soit les titres de formation de médecin délivrés par le Royaume-Uni, figurant sur une liste établie par arrêté des ministres chargés de l'enseignement supérieur et de la santé, qui sanctionnent une formation de base et de spécialité de médecin commencée avant le 31 décembre 2020 et qui permettent d'exercer légalement la profession de médecin dans cet Etat.",
+   "certitude": "certain"
+  },
+  {
+   "profil": "etranger_hors_ue",
+   "phrase_fr": "Les médecins britanniques concernés pourraient exercer en France avec certains diplômes du Royaume-Uni, si leur formation a commencé avant le 31 décembre 2020.",
+   "phrase_en": "Eligible British doctors could practise in France with certain UK qualifications if their training began before 31 December 2020.",
+   "passage": "Le présent 3° s'applique aux ressortissants de nationalité française, de citoyenneté andorrane, d'un Etat membre de l'Union européenne ou partie à l'accord sur l'Espace économique européen ou du Royaume-Uni.",
+   "certitude": "certain"
+  }
+ ],
+ "cout_usd": 0.000409975
+}

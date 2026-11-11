@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "benevole",
+    "raison": "L'article vise les associations dissoutes administrativement (art. L. 212-1) pour provocation à des agissements graves : groupe défini par la dissolution, pas par la qualité de bénévole. Les effets (curateur, liquidation, dévolution des biens) passent par l'association et ses membres, pas par un bénévole en tant que tel ; un bénévole ou dirigeant bénévole d'une association ordinaire n'est pas visé.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0036417,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

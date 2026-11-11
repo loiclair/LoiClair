@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "projet_achat",
+    "raison": "La taxe de 0,10 % est due par la personne tenue au paiement des droits lors d’une mutation à titre onéreux d’un immeuble situé dans une commune littorale concernée ; un acheteur de logement est directement visé.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00050365,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "forces_ordre",
+    "raison": "L'article renomme la police municipale en police territoriale et élargit les contraventions que ces agents constatent par procès-verbal (livre VI du code pénal). Cela change leurs règles de métier. Le profil « forces_ordre » inclut les policiers, dont les policiers municipaux.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0028737,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

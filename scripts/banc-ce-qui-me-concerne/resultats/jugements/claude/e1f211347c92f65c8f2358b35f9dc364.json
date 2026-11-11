@@ -1,0 +1,30 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etranger_hors_ue",
+    "raison": "Les modifications portent sur la délivrance de cartes de séjour à des étrangers, notamment pour une durée de quatre ans.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "mineur",
+    "raison": "Le texte vise les étrangers de 16 à 18 ans dont un parent détient une carte de résident, sous réserve des conditions de l’article L. 421-35.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "jeune",
+    "raison": "Le texte prévoit aussi une carte de quatre ans pour l’étranger dont un parent détient une carte de résident, dans l’année suivant son 18e anniversaire.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "marie_pacse"
+  ]
+ },
+ "cout_usd": 0.00094165,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

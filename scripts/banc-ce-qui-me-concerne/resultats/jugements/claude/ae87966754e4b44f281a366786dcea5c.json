@@ -1,0 +1,30 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "cycliste",
+    "raison": "Le texte prévoit de prioriser des travaux d’infrastructures de mobilités actives, mais cette mesure vise les autorités et les travaux ; elle ne change pas directement les droits ou obligations des cyclistes.",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "usager_transports",
+    "raison": "La priorisation concerne les travaux d’infrastructures de transport en commun, pas directement les droits ou obligations des usagers.",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "grande_ville",
+    "raison": "Le texte s’applique aux zones à faibles émissions, sans viser les habitants selon la taille de leur commune. Les effets des restrictions dépendent de la zone et concernent notamment les déplacements en voiture.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "automobiliste"
+  ]
+ },
+ "cout_usd": 0.000684275,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "forces_ordre",
+    "raison": "L’article renomme la police municipale en police territoriale et étend directement les pouvoirs des agents concernés.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0003189,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

@@ -1,0 +1,12 @@
+{
+ "resume_fr": "Avancerait de 2027 à 2026 la date limite des sommes pouvant être débloquées au titre de la participation et de l’intéressement.",
+ "resume_en": "Would move the cutoff date for sums eligible for exceptional release from 2027 to 2026.",
+ "impacts": [
+  {
+   "profil": "salarie_prive",
+   "passage": "« 2027 »\nl’année :\n« 2026 ».",
+   "certitude": "probable"
+  }
+ ],
+ "cout_usd": 0.000436975
+}

@@ -1,0 +1,30 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "futur_parent",
+    "raison": "Le texte vise directement les femmes ou les couples engagés dans une tentative de FIV, une démarche de projet d’enfant.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "concubin",
+    "raison": "Le texte mentionne les membres d’un couple, mais ne fait pas dépendre la mesure du concubinage : elle peut aussi concerner une femme seule ou un couple marié ou pacsé.",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "marie_pacse",
+    "raison": "Le texte mentionne les membres d’un couple, mais ne fait pas dépendre la mesure du mariage ou du PACS : elle peut aussi concerner une femme seule ou un couple non marié.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "senior"
+  ]
+ },
+ "cout_usd": 0.0008789,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

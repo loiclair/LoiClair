@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_transport",
+    "raison": "Le texte crée une déduction fiscale pour les entreprises qui supportent les coûts d’équipements véliques. Il ne change pas directement les droits, obligations ou conditions de travail des personnes du secteur transport.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0011809,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

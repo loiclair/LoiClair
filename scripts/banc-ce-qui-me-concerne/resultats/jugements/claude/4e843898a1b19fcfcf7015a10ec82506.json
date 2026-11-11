@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "fonctionnaire",
+    "raison": "Le texte prévoit la nomination comme fonctionnaires stagiaires des agents non titulaires concernés : leur statut est directement modifié.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "secteur_education",
+    "raison": "Le recrutement par concours et l’affectation départementale visent directement les accompagnants d’élèves en situation de handicap, qui exercent dans le secteur de l’éducation.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.001006025,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

@@ -1,0 +1,30 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "handicap",
+    "raison": "Le texte vise explicitement les personnes handicapées et leur permet de demander une évaluation limitée à leur éligibilité à certaines reconnaissances ou cartes, sans audition ni plan personnalisé de compensation.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "mineur",
+    "raison": "Le texte supprime la mention qui réservait, dans cette disposition, la carte destinée à un mineur aux cas de maladie, de handicap ou d’accident d’une particulière gravité.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "parent",
+    "raison": "La disposition vise la carte destinée au mineur, pas les parents en tant que tels. Un parent peut agir pour son enfant, mais ce statut n’est pas le critère déclenchant la mesure.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "age_dependant"
+  ]
+ },
+ "cout_usd": 0.00130765,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

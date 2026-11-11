@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "syndique",
+    "raison": "Siéger dans un comité ponctuel consacré à une seule entreprise (Vencorex) ne change pas les règles applicables aux syndiqués en général (règle 9).",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "elu_local",
+    "raison": "La place du président d'agglomération et des maires dans un comité consacré à une affaire particulière (Vencorex) ne change pas les règles applicables aux élus locaux en général (règle 9).",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.01137125,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

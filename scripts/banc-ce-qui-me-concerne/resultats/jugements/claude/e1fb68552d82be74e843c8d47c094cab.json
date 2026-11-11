@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "elu_local",
+    "raison": "Le texte modifie directement les règles de désignation des adjoints au maire (suppression de la condition de 1 000 habitants pour l'article L. 2122-7-2), ce qui vise les élus municipaux eux-mêmes.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "rural",
+    "raison": "La dérogation vise les communes de moins de 1 000 habitants, un critère de population et non le statut de commune rurale. Elle régit la désignation des adjoints par le conseil, sans toucher directement les habitants en tant que tels.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000498935,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

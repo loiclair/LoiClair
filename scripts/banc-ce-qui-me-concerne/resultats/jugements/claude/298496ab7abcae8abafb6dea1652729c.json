@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etudiant",
+    "raison": "La modification ajoute les maisons de santé aux lieux de stage prévus pour les étudiants en médecine, qui constituent un sous-groupe des étudiants.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000241525,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

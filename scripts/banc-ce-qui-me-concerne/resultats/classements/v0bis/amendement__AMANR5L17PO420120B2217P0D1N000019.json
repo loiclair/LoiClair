@@ -1,0 +1,17 @@
+{
+ "resume_fr": "Ajouterait à l’obligation d’information de l’employeur celle de signaler les frais, pénalités et coûts de transaction liés au déblocage des sommes épargnées.",
+ "resume_en": "Would add to the employer's duty to inform staff a requirement to disclose any fees, penalties and transaction costs linked to releasing the savings early.",
+ "impacts": [
+  {
+   "profil": "salarie_prive",
+   "passage": "Il informe également les salariés des frais éventuels, des pénalités ou des coûts de transaction applicables lors du déblocage des sommes concernées en application du présent article, tels que prévus par le plan d’épargne salariale et par les organismes gestionnaires.",
+   "certitude": "certain"
+  },
+  {
+   "profil": "epargnant",
+   "passage": "Il informe également les salariés des frais éventuels, des pénalités ou des coûts de transaction applicables lors du déblocage des sommes concernées en application du présent article, tels que prévus par le plan d’épargne salariale et par les organismes gestionnaires.",
+   "certitude": "probable"
+  }
+ ],
+ "cout_usd": 0.00100281
+}

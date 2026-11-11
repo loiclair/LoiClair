@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_agriculture",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "Le dispositif mentionne explicitement une 'activité agricole' et des 'jeunes agriculteurs', ce qui vise directement les personnes travaillant dans ce secteur. La phrase reste fidèle au texte, utilise le conditionnel car le texte n'est pas une loi publiée, et ne crée aucun fait extérieur."
+   }
+  ],
+  "oublis": [
+   "jeune"
+  ]
+ },
+ "cout_usd": 0.0020042
+}

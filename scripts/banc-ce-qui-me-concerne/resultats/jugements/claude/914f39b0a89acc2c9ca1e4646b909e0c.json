@@ -1,0 +1,29 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "salarie_prive",
+    "raison": "Le texte vise les « salariés atteints d'algie vasculaire de la face », avec un droit à trente jours d'arrêt de travail ; les salariés du privé sont directement visés.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "malade_chronique",
+    "raison": "L'algie vasculaire de la face est une maladie de longue durée, et le droit à trente jours d'arrêt est conditionné par cette pathologie ; le profil déclenche la mesure.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "cdd_interim",
+    "raison": "La suppression de la condition d'ancienneté vaut pour tous les salariés atteints, pas spécifiquement pour les contrats courts ; le profil n'est pas ce qui déclenche la mesure.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0033897,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

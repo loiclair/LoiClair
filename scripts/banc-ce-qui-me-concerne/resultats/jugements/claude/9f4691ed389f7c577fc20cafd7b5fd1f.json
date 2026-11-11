@@ -1,0 +1,25 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_education",
+    "raison": "Le texte change le statut et le recrutement des accompagnants d'élèves en situation de handicap, qui travaillent dans les établissements scolaires : concours, titularisation, formation, ce qui touche directement les règles de leur métier dans l'éducation.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "fonctionnaire",
+    "raison": "Le texte crée un corps de catégorie B, nomme les agents non titulaires fonctionnaires stagiaires et prévoit un recrutement par concours : les accompagnants deviendraient fonctionnaires. La phrase omet que certains agents resteraient en CDI, mais ne contient rien de faux.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "handicap"
+  ]
+ },
+ "cout_usd": 0.0035786999999999998,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

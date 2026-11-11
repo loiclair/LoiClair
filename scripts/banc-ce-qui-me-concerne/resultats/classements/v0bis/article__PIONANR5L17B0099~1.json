@@ -1,0 +1,19 @@
+{
+ "impacts": [
+  {
+   "profil": "parent",
+   "phrase_fr": "Les allocations familiales pourraient ne plus être réduites selon les revenus du foyer, dès la mise en vigueur d'un décret, au plus tard un an après la promulgation.",
+   "phrase_en": "Family allowances could no longer be reduced according to household income, once a decree sets the start date, no later than one year after promulgation.",
+   "passage": "Les troisième, cinquième et dernier alinéas de l’article L. 521‑1 sont supprimés ;",
+   "certitude": "probable"
+  },
+  {
+   "profil": "outre_mer",
+   "phrase_fr": "Une disposition propre au code de la sécurité sociale applicable à ces territoires pourrait être supprimée, avec effet à la même date.",
+   "phrase_en": "A provision of the social security code applying to these territories would be repealed, with effect from the same date.",
+   "passage": "Le second alinéa de l’article L. 755‑12 est supprimé.",
+   "certitude": "possible"
+  }
+ ],
+ "cout_usd": 0.00082815
+}

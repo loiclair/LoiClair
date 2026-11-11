@@ -1,0 +1,12 @@
+{
+ "jugement": {
+  "profils": [],
+  "oublis": [
+   "demandeur_emploi"
+  ]
+ },
+ "cout_usd": 0.0033677,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

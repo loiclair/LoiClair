@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_agriculture",
+    "raison": "La pêche professionnelle entre dans ce secteur. L'interdiction vise les pratiques d'attraction (déversements, appâts concentrés, lumières, « engin de pêche ») qui font partie de l'exercice du métier. Elle s'applique donc aux pêcheurs professionnels.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "chasseur_pecheur",
+    "raison": "L'article interdit « à toute personne » ces pratiques de pêche en mer. Le pêcheur de loisir qui amorce ou utilise une lumière pour attirer le poisson est directement visé en tant que pêcheur, et ce n'est pas une mesure générale sans lien avec l'activité.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000821135,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

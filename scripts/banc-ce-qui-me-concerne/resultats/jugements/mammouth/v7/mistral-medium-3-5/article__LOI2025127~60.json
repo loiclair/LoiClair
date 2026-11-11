@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "heritier_donateur",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article modifie explicitement les règles de succession pour inclure les actifs numériques dans les portefeuilles, ce qui impacte directement les héritiers et donateurs. Le passage cité est exact et justifie le profil."
+   },
+   {
+    "profil": "epargnant",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article introduit une majoration d'impôt pour les actifs numériques non déclarés dans un portefeuille, ce qui concerne directement les épargnants détenant de tels actifs. Le passage cité est exact et justifie le profil."
+   }
+  ],
+  "oublis": [
+   "patrimoine_ifi"
+  ]
+ },
+ "cout_usd": 0.0074775
+}

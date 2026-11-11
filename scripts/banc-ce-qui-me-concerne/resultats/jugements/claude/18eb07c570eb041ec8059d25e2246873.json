@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "expat",
+    "raison": "L'article n'oblige que l'État à mettre à jour la liste chaque semaine et à la publier sur les sites des ambassades. Un Français de l'étranger n'a aucune nouvelle obligation, aucun nouveau droit ni aucune nouvelle démarche. Il reçoit seulement une information, par l'intermédiaire de l'administration, et le texte ne le désigne pas directement.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0056757,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

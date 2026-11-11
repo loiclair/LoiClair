@@ -1,0 +1,19 @@
+{
+ "impacts": [
+  {
+   "profil": "secteur_sante",
+   "phrase_fr": "Un professionnel de santé mis en examen en lien avec son métier pourrait être suspendu par arrêté motivé, cette mesure visant tous les soignants.",
+   "phrase_en": "A health professional charged in connection with their work could be suspended by a reasoned order, a measure covering all caregivers.",
+   "passage": "Les professionnels de santé qui interviennent ou exercent une fonction permanente ou occasionnelle dans un établissement de santé, public ou privé, ou dans tout autre lieu où ils réalisent des soins, à quelque titre que ce soit",
+   "certitude": "certain"
+  },
+  {
+   "profil": "etudiant",
+   "phrase_fr": "Les étudiants et élèves des formations aux professions de santé pourraient aussi être suspendus en cas de danger grave ou de mise en examen liée à leur formation.",
+   "phrase_en": "Students and trainees in health professions could also be suspended in cases of serious danger or charges linked to their training.",
+   "passage": "Les élèves et les étudiants des établissements préparant aux professions de santé régies par la quatrième partie du code de la santé publique",
+   "certitude": "certain"
+  }
+ ],
+ "cout_usd": 0.00110531
+}

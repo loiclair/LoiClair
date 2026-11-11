@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etranger_hors_ue",
+    "raison": "L'amendement crée une autorisation provisoire de séjour d'un an, renouvelable et ouvrant droit à une activité professionnelle, pour « l'étranger » victime de certaines violences qui n'a pas porté plainte. Le texte vise directement les ressortissants non européens, car le droit de séjour des étrangers ne concerne pas les ressortissants de l'UE, et leur délivre un titre de séjour, ce qui touche directement leurs droits et leur accès au travail.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00047728500000000004,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

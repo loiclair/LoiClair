@@ -1,0 +1,19 @@
+{
+ "impacts": [
+  {
+   "profil": "secteur_agriculture",
+   "phrase_fr": "Les élevages soumis à enregistrement ou autorisation pourraient devoir respecter des prescriptions générales nationales, et un plan de modernisation de leurs bâtiments pourrait être proposé.",
+   "phrase_en": "Livestock farms requiring registration or authorisation would have to follow national general rules, and a building modernisation plan could be offered.",
+   "passage": "Les installations d’élevage soumises à enregistrement ou à autorisation conformément à l’article L. 511‑2 font l’objet, eu égard à leurs caractéristiques, à leur impact potentiel et à la concentration des activités sur un territoire donné, de prescriptions générales édictées par le ministre chargé des installations classées.",
+   "certitude": "certain"
+  },
+  {
+   "profil": "chef_entreprise",
+   "phrase_fr": "Les éleveurs dirigeants pourraient devoir respecter des prescriptions générales nationales pour leurs installations, avec un plan de modernisation de leurs bâtiments possible.",
+   "phrase_en": "Livestock farm owners would have to follow national general rules for their installations, with a building modernisation plan possible.",
+   "passage": "Les installations d’élevage soumises à enregistrement ou à autorisation conformément à l’article L. 511‑2 font l’objet, eu égard à leurs caractéristiques, à leur impact potentiel et à la concentration des activités sur un territoire donné, de prescriptions générales édictées par le ministre chargé des installations classées.",
+   "certitude": "probable"
+  }
+ ],
+ "cout_usd": 0.00145811
+}

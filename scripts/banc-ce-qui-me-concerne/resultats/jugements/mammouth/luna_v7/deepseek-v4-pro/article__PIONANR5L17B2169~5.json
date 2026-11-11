@@ -1,0 +1,41 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "concubin",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article mentionne explicitement 'le concubin' et 'l'ancien concubin'. La phrase décrit correctement l'effet pour le profil visé par l'article."
+   },
+   {
+    "profil": "marie_pacse",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article mentionne explicitement 'le conjoint' et 'le partenaire lié à la victime par un pacte civil de solidarité'. La phrase décrit correctement l'effet."
+   },
+   {
+    "profil": "separe_divorce",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article mentionne 'l'ancien conjoint', 'l'ancien concubin' et 'l'ancien partenaire lié à la victime par un pacte civil de solidarité'. La phrase décrit correctement l'effet."
+   },
+   {
+    "profil": "parent",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article confie au juge spécialisé la connaissance des 'modalités d'exercice de l'autorité parentale' dans certains cas. La phrase décrit correctement l'effet."
+   },
+   {
+    "profil": "mineur",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article mentionne explicitement le cas où 'un mineur est victime de violences'. La phrase décrit correctement l'effet."
+   }
+  ],
+  "oublis": [
+   "forces_ordre",
+   "fonctionnaire"
+  ]
+ },
+ "cout_usd": 0.0049244
+}

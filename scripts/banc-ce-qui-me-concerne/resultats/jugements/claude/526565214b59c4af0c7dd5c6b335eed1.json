@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "elu_local",
+    "raison": "Le texte vise nommément l'adjoint au maire ou le conseiller municipal chargé de la sécurité civile, un sous-groupe des élus municipaux. Il leur impose une formation lors de leur prise de fonction à partir du 1er janvier 2030. Le texte n'étant pas adopté, la mesure est jugée comme si elle s'appliquait.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00027458500000000004,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

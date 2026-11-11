@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etranger_ue",
+    "raison": "Le texte ne vise pas les ressortissants de l'UE. La condition « nationalité française ou résidence stable et régulière » est un critère d'accès à un droit nouveau (règle 10), et la mesure est déclenchée par l'affection grave, pas par la nationalité.",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "etranger_hors_ue",
+    "raison": "Même analyse : la condition de nationalité ou de résidence est un filtre d'accès à un droit nouveau, pas ce qui déclenche la mesure, qui reste l'affection grave et incurable. Le texte ne désigne pas les personnes hors UE comme catégorie visée.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.001249335,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

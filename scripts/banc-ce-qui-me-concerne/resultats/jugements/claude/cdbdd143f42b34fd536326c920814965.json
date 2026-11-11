@@ -1,0 +1,29 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etudiant",
+    "raison": "L'article vise directement les étudiants : l'aide servie (bourses, logements) serait attribuée par priorité selon la nationalité, ce qui change leur accès aux aides.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "etranger_ue",
+    "raison": "Le texte nomme explicitement les ressortissants de l'UE et de l'EEE parmi les étudiants prioritaires, au même rang que les Français.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "etranger_hors_ue",
+    "raison": "Le texte les place après le premier rang et après les États liés par un accord d'accueil, ce qui touche directement les étudiants non européens.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0008947849999999999,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

@@ -1,0 +1,25 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "automobiliste",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article crée une majoration de la taxe sur les certificats d'immatriculation (cartes grises). Cela concerne directement toute personne qui immatricule un véhicule. Le profil 'automobiliste' est défini comme une personne qui possède ou utilise un véhicule, il est donc visé. La phrase est correcte et le conditionnel n'est pas requis car le texte est une loi publiée."
+   },
+   {
+    "profil": "grande_ville",
+    "concerne": false,
+    "phrase_fidele": false,
+    "raison": "Le texte applique la majoration en région Île-de-France, qui inclut des communes rurales et des centres urbains. Aucune distinction n'est faite entre Paris, sa banlieue, et les zones rurales franciliennes. Le critère retenu est géographique (la région), pas la taille de la commune. Le passage cité ne mentionne que la région, pas les grandes villes ni leur agglomération. La déduction est trop large et incorrecte selon la consigne."
+   }
+  ],
+  "oublis": [
+   "corse",
+   "outre_mer",
+   "expat",
+   "travailleur_frontalier"
+  ]
+ },
+ "cout_usd": 0.0028483
+}

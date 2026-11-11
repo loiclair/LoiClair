@@ -1,0 +1,12 @@
+{
+ "resume_fr": "Ajouterait l’obligation d’informer les salariés des frais, pénalités ou coûts de transaction applicables au déblocage de leur épargne salariale.",
+ "resume_en": "Would require employees to be informed of any fees, penalties or transaction costs applying when they unlock their employee savings.",
+ "impacts": [
+  {
+   "profil": "salarie_prive",
+   "passage": "Il informe également les salariés des frais éventuels, des pénalités ou des coûts de transaction applicables lors du déblocage des sommes concernées en application du présent article, tels que prévus par le plan d’épargne salariale et par les organismes gestionnaires.",
+   "certitude": "certain"
+  }
+ ],
+ "cout_usd": 0.000396975
+}

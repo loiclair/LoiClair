@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "heritier_donateur",
+    "raison": "L'article 755 CGI, qui soumet à droits de succession les avoirs non déclarés d'un défunt, est étendu aux actifs numériques d'un portefeuille. Ce sont les héritiers qui acquittent ces droits, donc le texte les vise directement.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "epargnant",
+    "raison": "La majoration de l'article 1729-0 A s'applique aux personnes détenant des actifs numériques non déclarés dans un portefeuille. Les cryptoactifs sont explicitement listés dans la définition du profil épargnant, et la majoration frappe directement le détenteur.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000760535,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

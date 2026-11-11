@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "salarie_prive",
+    "raison": "Le texte vise directement « le salarié » qui demande le déblocage de sa participation ou de son intéressement, sommes qui relèvent des salariés du secteur privé. L'amendement ramène de 2027 à 2026 la date limite d'affectation, ce qui exclurait du déblocage les sommes affectées en 2026. Le changement touche donc l'argent du salarié, sans passer par un tiers.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000450935,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

@@ -1,0 +1,27 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "imposable",
+    "raison": "La demi-part de quotient familial change directement le calcul de l'impôt sur le revenu des foyers imposables ayant au moins deux enfants à charge ; le texte vise le contribuable.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "parent",
+    "raison": "Le texte vise les contribuables qui assument la charge d'au moins deux enfants, et prévoit le partage de la majoration par moitié entre parents en cas de charge égale ; les parents sont directement visés.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "parent_isole",
+   "famille_nombreuse",
+   "separe_divorce"
+  ]
+ },
+ "cout_usd": 0.0025117,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

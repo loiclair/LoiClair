@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "benevole",
+    "raison": "L'article prévoit un accueil, une information et un accompagnement spécifiques pour les associations déclarées (loi de 1901). Ceux qui les dirigent, souvent bénévoles, en bénéficient directement pour leurs démarches. Le texte vise les associations comme structures et ne nomme pas les bénévoles, mais le profil « bénévole ou dirigeant bénévole d'association » recoupe clairement la catégorie visée. La phrase est au conditionnel et reste fidèle au texte.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0022987,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

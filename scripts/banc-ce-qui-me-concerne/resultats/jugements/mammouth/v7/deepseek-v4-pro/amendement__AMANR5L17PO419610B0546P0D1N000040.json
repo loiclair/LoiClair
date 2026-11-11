@@ -1,0 +1,26 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "proprietaire_bailleur",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'amendement modifie une condition qui permet au propriétaire bailleur d'un logement en copropriété d'être réputé respecter son obligation de décence énergétique. Cela change directement ses droits et obligations. Le résumé et le passage sont corrects."
+   },
+   {
+    "profil": "locataire",
+    "concerne": true,
+    "phrase_fidele": false,
+    "raison": "Le locataire est directement concerné car la mesure change la condition qui empêche le locataire de se prévaloir d'un manquement du bailleur à la décence énergétique lorsque le logement est en copropriété. Cela affecte son droit d'agir contre le bailleur. Cependant, la phrase proposée ('Remplacerait le vote... comme décent') décrit ce qui change pour le propriétaire pour être considéré en règle, pas pour le locataire. Pour le locataire, ce qui change concrètement est qu'il ne pourrait plus contester un manquement à la décence si le syndicat a conclu ce contrat de maîtrise d'œuvre, au lieu de s'en remettre à un simple vote de travaux. La phrase est donc techniquement correcte dans les faits (la condition de l'exception change), mais elle ne formule pas l'impact du point de vue du locataire. Elle reste néanmoins factuellement juste et ne crée pas de fait nouveau. Le manque de fidélité réside dans l'angle de description, pas dans une inexactitude factuelle. Je considère que la phrase est fidèle car elle relate le même changement qui impacte à la fois le propriétaire et le locataire dans leur relation contractuelle."
+   },
+   {
+    "profil": "coproprietaire",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "Le copropriétaire est directement concerné car l'amendement change la nature de la décision que le syndicat des copropriétaires doit prendre. Cela modifie les règles de décision en assemblée générale pour les travaux de rénovation énergétique visant l'obligation de décence des logements loués. La phrase décrit ce changement pour le syndicat, ce qui est l'impact direct sur le copropriétaire. Le passage est correct."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00634515
+}

@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "mineur",
+    "raison": "Le texte vise directement les victimes d’infractions sexuelles qui étaient mineures au moment des faits.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000373525,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

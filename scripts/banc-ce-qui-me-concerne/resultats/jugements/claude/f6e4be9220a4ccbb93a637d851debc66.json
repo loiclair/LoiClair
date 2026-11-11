@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_sante",
+    "raison": "L'article étend la suspension et l'interdiction d'exercer à tout professionnel de santé mis en examen en lien avec sa profession : cela change les règles d'exercice du métier dans le secteur.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "etudiant",
+    "raison": "Le 3° vise expressément les élèves et étudiants des établissements préparant aux professions de santé, qui deviennent suspendables ; ce sont des étudiants de l'enseignement supérieur.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0034417,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

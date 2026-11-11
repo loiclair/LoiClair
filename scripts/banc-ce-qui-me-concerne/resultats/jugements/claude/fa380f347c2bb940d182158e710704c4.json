@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "montagne",
+    "raison": "La disposition vise les opérations relevant des unités touristiques nouvelles locales, pas les habitants des communes de montagne en tant que tels. Le lieu de vie ne déclenche pas directement la mesure.",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "secteur_hotellerie",
+    "raison": "Le texte prévoit une dérogation à une procédure d’urbanisme pour certains projets d’hébergement touristique ; il ne change pas directement les règles du métier des personnes travaillant dans l’hôtellerie ou le tourisme.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0005424,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

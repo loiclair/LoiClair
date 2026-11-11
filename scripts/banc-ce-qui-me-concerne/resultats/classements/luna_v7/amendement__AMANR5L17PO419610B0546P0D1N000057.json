@@ -1,0 +1,12 @@
+{
+ "resume_fr": "Remplacerait l’exigence de raisons « établies ou contrôlées » par celle de raisons « attestées » pour justifier l’impossibilité de réaliser certains travaux énergétiques.",
+ "resume_en": "Would replace the requirement for reasons to be “established or checked” with a requirement for them to be “certified” to justify why certain energy-efficiency works cannot be carried out.",
+ "impacts": [
+  {
+   "profil": "locataire",
+   "passage": "« attestées »",
+   "certitude": "probable"
+  }
+ ],
+ "cout_usd": 0.000319475
+}

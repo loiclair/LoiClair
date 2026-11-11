@@ -1,0 +1,482 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "automobiliste",
+    "concerne": true,
+    "phrase_fidele": false,
+    "raison": "La phrase invente un conditionnel (« pourriez payer ») : le texte est une loi publiée, donc le ton doit être affirmatif, pas conditionnel. Par ailleurs, elle mélange les périodes et les montants de façon trompeuse : pour le reste de 2026, le tarif est fixé à 14€, mais rien dans le texte ne garantit que le tarif de 12€ à partir de 2027 s'écartera d'une délibération contraire. La phrase omet ce qui fait l'essentiel de la mesure : c'est une faculté pour l'établissement public de majorer, et le III fixe des montants par dérogation jusqu'à ce qu'une délibération intervienne."
+   },
+   {
+    "profil": "grande_ville",
+    "concerne": false,
+    "phrase_fidele": true,
+    "raison": "Ce profil n'a pas été proposé par l'assistant."
+   },
+   {
+    "profil": "rural",
+    "concerne": false,
+    "phrase_fidele": true,
+    "raison": "Ce profil n'a pas été proposé par l'assistant."
+   },
+   {
+    "profil": "montagne",
+    "concerne": false,
+    "phrase_fidele": true,
+    "raison": "Ce profil n'a pas été proposé par l'assistant."
+   },
+   {
+    "profil": "littoral",
+    "concerne": false,
+    "phrase_fidele": true,
+    "raison": "Ce profil n'a pas été proposé par l'assistant."
+   },
+   {
+    "profil": "corse",
+    "concerne": false,
+    "phrase_fidele": true,
+    "raison": "Ce profil n'a pas été proposé par l'assistant."
+   },
+   {
+    "profil": "outre_mer",
+    "concerne": false,
+    "phrase_fidele": true,
+    "raison": "Ce profil n'a pas été proposé par l'assistant."
+   },
+   {
+    "profil": "alsace_moselle",
+    "concerne": false,
+    "phrase_fidele": true,
+    "raison": "Ce profil n'a pas été proposé par l'assistant."
+   },
+   {
+    "profil": "expat",
+    "concerne": false,
+    "phrase_fidele": true,
+    "raison": "Ce profil n'a pas été proposé par l'assistant."
+   },
+   {
+    "profil": "celibataire",
+    "concerne": false,
+    "phrase_fidele": true,
+    "raison": "Ce profil n'a pas été proposé par l'assistant."
+   },
+   {
+    "profil": "concubin",
+    "concerne": false,
+    "phrase_fidele": true,
+    "raison": "Ce profil n'a pas été proposé par l'assistant."
+   },
+   {
+    "profil": "marie_pacse",
+    "concerne": false,
+    "phrase_fidele": true,
+    "raison": "Ce profil n'a pas été proposé par l'assistant."
+   },
+   {
+    "profil": "separe_divorce",
+    "concerne": false,
+    "phrase_fidele": true,
+    "raison": "Ce profil n'a pas été proposé par l'assistant."
+   },
+   {
+    "profil": "veuf",
+    "concerne": false,
+    "phrase_fidele": true,
+    "raison": "Ce profil n'a pas été proposé par l'assistant."
+   },
+   {
+    "profil": "secteur_agriculture",
+    "concerne": false,
+    "phrase_fidele": true,
+    "raison": "Ce profil n'a pas été proposé par l'assistant."
+   },
+   {
+    "profil": "secteur_sante",
+    "concerne": false,
+    "phrase_fidele": true,
+    "raison": "Ce profil n'a pas été proposé par l'assistant."
+   },
+   {
+    "profil": "secteur_education",
+    "concerne": false,
+    "phrase_fidele": true,
+    "raison": "Ce profil n'a pas été proposé par l'assistant."
+   },
+   {
+    "profil": "secteur_culture",
+    "concerne": false,
+    "phrase_fidele": true,
+    "raison": "Ce profil n'a pas été proposé par l'assistant."
+   },
+   {
+    "profil": "secteur_btp",
+    "concerne": false,
+    "phrase_fidele": true,
+    "raison": "Ce profil n'a pas été proposé par l'assistant."
+   },
+   {
+    "profil": "secteur_artisanat_commerce",
+    "concerne": false,
+    "phrase_fidele": true,
+    "raison": "Ce profil n'a pas été proposé par l'assistant."
+   },
+   {
+    "profil": "secteur_hotellerie",
+    "concerne": false,
+    "phrase_fidele": true,
+    "raison": "Ce profil n'a pas été proposé par l'assistant."
+   },
+   {
+    "profil": "secteur_transport",
+    "concerne": false,
+    "phrase_fidele": true,
+    "raison": "Ce profil n'a pas été proposé par l'assistant."
+   },
+   {
+    "profil": "secteur_numerique",
+    "concerne": false,
+    "phrase_fidele": true,
+    "raison": "Ce profil n'a pas été proposé par l'assistant."
+   },
+   {
+    "profil": "secteur_industrie",
+    "concerne": false,
+    "phrase_fidele": true,
+    "raison": "Ce profil n'a pas été proposé par l'assistant."
+   },
+   {
+    "profil": "secteur_finance",
+    "concerne": false,
+    "phrase_fidele": true,
+    "raison": "Ce profil n'a pas été proposé par l'assistant."
+   },
+   {
+    "profil": "salarie_prive",
+    "concerne": false,
+    "phrase_fidele": true,
+    "raison": "Ce profil n'a pas été proposé par l'assistant."
+   },
+   {
+    "profil": "fonctionnaire",
+    "concerne": false,
+    "phrase_fidele": true,
+    "raison": "Ce profil n'a pas été proposé par l'assistant."
+   },
+   {
+    "profil": "forces_ordre",
+    "concerne": false,
+    "phrase_fidele": true,
+    "raison": "Ce profil n'a pas été proposé par l'assistant."
+   },
+   {
+    "profil": "independant",
+    "concerne": false,
+    "phrase_fidele": true,
+    "raison": "Ce profil n'a pas été proposé par l'assistant."
+   },
+   {
+    "profil": "auto_entrepreneur",
+    "concerne": false,
+    "phrase_fidele": true,
+    "raison": "Ce profil n'a pas été proposé par l'assistant."
+   },
+   {
+    "profil": "chef_entreprise",
+    "concerne": false,
+    "phrase_fidele": true,
+    "raison": "Ce profil n'a pas été proposé par l'assistant."
+   },
+   {
+    "profil": "dirigeant_grande_entreprise",
+    "concerne": false,
+    "phrase_fidele": true,
+    "raison": "Ce profil n'a pas été proposé par l'assistant."
+   },
+   {
+    "profil": "apprenti_alternant",
+    "concerne": false,
+    "phrase_fidele": true,
+    "raison": "Ce profil n'a pas été proposé par l'assistant."
+   },
+   {
+    "profil": "etudiant",
+    "concerne": false,
+    "phrase_fidele": true,
+    "raison": "Ce profil n'a pas été proposé par l'assistant."
+   },
+   {
+    "profil": "demandeur_emploi",
+    "concerne": false,
+    "phrase_fidele": true,
+    "raison": "Ce profil n'a pas été proposé par l'assistant."
+   },
+   {
+    "profil": "cdd_interim",
+    "concerne": false,
+    "phrase_fidele": true,
+    "raison": "Ce profil n'a pas été proposé par l'assistant."
+   },
+   {
+    "profil": "travailleur_plateforme",
+    "concerne": false,
+    "phrase_fidele": true,
+    "raison": "Ce profil n'a pas été proposé par l'assistant."
+   },
+   {
+    "profil": "salarie_particulier",
+    "concerne": false,
+    "phrase_fidele": true,
+    "raison": "Ce profil n'a pas été proposé par l'assistant."
+   },
+   {
+    "profil": "travailleur_frontalier",
+    "concerne": false,
+    "phrase_fidele": true,
+    "raison": "Ce profil n'a pas été proposé par l'assistant."
+   },
+   {
+    "profil": "retraite",
+    "concerne": false,
+    "phrase_fidele": true,
+    "raison": "Ce profil n'a pas été proposé par l'assistant."
+   },
+   {
+    "profil": "locataire",
+    "concerne": false,
+    "phrase_fidele": true,
+    "raison": "Ce profil n'a pas été proposé par l'assistant."
+   },
+   {
+    "profil": "proprietaire_occupant",
+    "concerne": false,
+    "phrase_fidele": true,
+    "raison": "Ce profil n'a pas été proposé par l'assistant."
+   },
+   {
+    "profil": "proprietaire_bailleur",
+    "concerne": false,
+    "phrase_fidele": true,
+    "raison": "Ce profil n'a pas été proposé par l'assistant."
+   },
+   {
+    "profil": "coproprietaire",
+    "concerne": false,
+    "phrase_fidele": true,
+    "raison": "Ce profil n'a pas été proposé par l'assistant."
+   },
+   {
+    "profil": "meuble_tourisme",
+    "concerne": false,
+    "phrase_fidele": true,
+    "raison": "Ce profil n'a pas été proposé par l'assistant."
+   },
+   {
+    "profil": "residence_secondaire",
+    "concerne": false,
+    "phrase_fidele": true,
+    "raison": "Ce profil n'a pas été proposé par l'assistant."
+   },
+   {
+    "profil": "projet_achat",
+    "concerne": false,
+    "phrase_fidele": true,
+    "raison": "Ce profil n'a pas été proposé par l'assistant."
+   },
+   {
+    "profil": "heberge",
+    "concerne": false,
+    "phrase_fidele": true,
+    "raison": "Ce profil n'a pas été proposé par l'assistant."
+   },
+   {
+    "profil": "parent",
+    "concerne": false,
+    "phrase_fidele": true,
+    "raison": "Ce profil n'a pas été proposé par l'assistant."
+   },
+   {
+    "profil": "parent_isole",
+    "concerne": false,
+    "phrase_fidele": true,
+    "raison": "Ce profil n'a pas été proposé par l'assistant."
+   },
+   {
+    "profil": "famille_nombreuse",
+    "concerne": false,
+    "phrase_fidele": true,
+    "raison": "Ce profil n'a pas été proposé par l'assistant."
+   },
+   {
+    "profil": "futur_parent",
+    "concerne": false,
+    "phrase_fidele": true,
+    "raison": "Ce profil n'a pas été proposé par l'assistant."
+   },
+   {
+    "profil": "mineur",
+    "concerne": false,
+    "phrase_fidele": true,
+    "raison": "Ce profil n'a pas été proposé par l'assistant."
+   },
+   {
+    "profil": "jeune",
+    "concerne": false,
+    "phrase_fidele": true,
+    "raison": "Ce profil n'a pas été proposé par l'assistant."
+   },
+   {
+    "profil": "senior",
+    "concerne": false,
+    "phrase_fidele": true,
+    "raison": "Ce profil n'a pas été proposé par l'assistant."
+   },
+   {
+    "profil": "imposable",
+    "concerne": false,
+    "phrase_fidele": true,
+    "raison": "Ce profil n'a pas été proposé par l'assistant."
+   },
+   {
+    "profil": "epargnant",
+    "concerne": false,
+    "phrase_fidele": true,
+    "raison": "Ce profil n'a pas été proposé par l'assistant."
+   },
+   {
+    "profil": "patrimoine_ifi",
+    "concerne": false,
+    "phrase_fidele": true,
+    "raison": "Ce profil n'a pas été proposé par l'assistant."
+   },
+   {
+    "profil": "emprunteur",
+    "concerne": false,
+    "phrase_fidele": true,
+    "raison": "Ce profil n'a pas été proposé par l'assistant."
+   },
+   {
+    "profil": "allocataire",
+    "concerne": false,
+    "phrase_fidele": true,
+    "raison": "Ce profil n'a pas été proposé par l'assistant."
+   },
+   {
+    "profil": "heritier_donateur",
+    "concerne": false,
+    "phrase_fidele": true,
+    "raison": "Ce profil n'a pas été proposé par l'assistant."
+   },
+   {
+    "profil": "particulier_employeur",
+    "concerne": false,
+    "phrase_fidele": true,
+    "raison": "Ce profil n'a pas été proposé par l'assistant."
+   },
+   {
+    "profil": "handicap",
+    "concerne": false,
+    "phrase_fidele": true,
+    "raison": "Ce profil n'a pas été proposé par l'assistant."
+   },
+   {
+    "profil": "malade_chronique",
+    "concerne": false,
+    "phrase_fidele": true,
+    "raison": "Ce profil n'a pas été proposé par l'assistant."
+   },
+   {
+    "profil": "aidant",
+    "concerne": false,
+    "phrase_fidele": true,
+    "raison": "Ce profil n'a pas été proposé par l'assistant."
+   },
+   {
+    "profil": "age_dependant",
+    "concerne": false,
+    "phrase_fidele": true,
+    "raison": "Ce profil n'a pas été proposé par l'assistant."
+   },
+   {
+    "profil": "cycliste",
+    "concerne": false,
+    "phrase_fidele": true,
+    "raison": "Ce profil n'a pas été proposé par l'assistant."
+   },
+   {
+    "profil": "usager_transports",
+    "concerne": false,
+    "phrase_fidele": true,
+    "raison": "Ce profil n'a pas été proposé par l'assistant."
+   },
+   {
+    "profil": "etranger_ue",
+    "concerne": false,
+    "phrase_fidele": true,
+    "raison": "Ce profil n'a pas été proposé par l'assistant."
+   },
+   {
+    "profil": "etranger_hors_ue",
+    "concerne": false,
+    "phrase_fidele": true,
+    "raison": "Ce profil n'a pas été proposé par l'assistant."
+   },
+   {
+    "profil": "animal",
+    "concerne": false,
+    "phrase_fidele": true,
+    "raison": "Ce profil n'a pas été proposé par l'assistant."
+   },
+   {
+    "profil": "chasseur_pecheur",
+    "concerne": false,
+    "phrase_fidele": true,
+    "raison": "Ce profil n'a pas été proposé par l'assistant."
+   },
+   {
+    "profil": "fumeur",
+    "concerne": false,
+    "phrase_fidele": true,
+    "raison": "Ce profil n'a pas été proposé par l'assistant."
+   },
+   {
+    "profil": "joueur",
+    "concerne": false,
+    "phrase_fidele": true,
+    "raison": "Ce profil n'a pas été proposé par l'assistant."
+   },
+   {
+    "profil": "elu_local",
+    "concerne": false,
+    "phrase_fidele": true,
+    "raison": "Ce profil n'a pas été proposé par l'assistant."
+   },
+   {
+    "profil": "benevole",
+    "concerne": false,
+    "phrase_fidele": true,
+    "raison": "Ce profil n'a pas été proposé par l'assistant."
+   },
+   {
+    "profil": "pompier_volontaire",
+    "concerne": false,
+    "phrase_fidele": true,
+    "raison": "Ce profil n'a pas été proposé par l'assistant."
+   },
+   {
+    "profil": "syndique",
+    "concerne": false,
+    "phrase_fidele": true,
+    "raison": "Ce profil n'a pas été proposé par l'assistant."
+   },
+   {
+    "profil": "ancien_combattant",
+    "concerne": false,
+    "phrase_fidele": true,
+    "raison": "Ce profil n'a pas été proposé par l'assistant."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0130325
+}

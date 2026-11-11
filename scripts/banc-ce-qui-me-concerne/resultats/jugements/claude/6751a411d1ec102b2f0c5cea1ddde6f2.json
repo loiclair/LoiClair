@@ -1,0 +1,31 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "fonctionnaire",
+    "raison": "Les AESH, aujourd'hui agents non titulaires de l'État, seraient nommés fonctionnaires stagiaires puis intégrés dans un corps de catégorie B : le texte les vise directement.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "secteur_education",
+    "raison": "Le texte change le statut, le recrutement par concours et la formation des accompagnants d'élèves en situation de handicap, qui travaillent dans l'école : les règles de leur métier changent.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "cdd_interim",
+    "raison": "Les agents non titulaires visés ne sont pas définis par un CDD ou l'intérim comme tels dans le texte ; le CDI proposé concerne un statut d'agent public, et le profil prête une situation contractuelle que le texte ne mentionne pas. Le profil n'est pas ce qui déclenche la mesure.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "salarie_prive"
+  ]
+ },
+ "cout_usd": 0.0041477,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

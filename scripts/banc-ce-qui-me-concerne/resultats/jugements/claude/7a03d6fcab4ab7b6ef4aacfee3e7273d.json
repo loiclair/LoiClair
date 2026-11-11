@@ -1,0 +1,29 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "salarie_prive",
+    "raison": "Le texte crée un régime de retraite par points et provisionné, assis sur les revenus d'activité des personnes visées aux articles L. 311-2 et L. 311-3 (salariés du régime général). Les cotisations, plafonnées à 2 % de la rémunération, sont partagées à parts égales avec l'employeur, donc prélevées directement sur le salaire du salarié.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "chef_entreprise",
+    "raison": "Les cotisations sont réparties à parts égales entre employeurs et salariés. Chaque employeur doit donc financer directement la moitié de la cotisation, ce qui est une obligation qui vaut pour tout employeur.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "dirigeant_grande_entreprise",
+    "raison": "Même obligation de financer la moitié des cotisations pour tout employeur, sans seuil d'effectif. Le dirigeant d'une entreprise de 250 salariés ou plus est donc aussi visé.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000655935,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

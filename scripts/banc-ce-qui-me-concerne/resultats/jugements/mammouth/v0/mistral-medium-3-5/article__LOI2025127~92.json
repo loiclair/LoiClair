@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etranger_hors_ue",
+    "concerne": true,
+    "phrase_fidele": false,
+    "raison": "L'article 1018 A du CGI concerne les droits d'enregistrement et de timbre, notamment pour les actes administratifs. Les montants doublés incluent ceux applicables aux titres de séjour (ex : 31 € → 62 € pour certains actes). Cependant, la phrase proposée invente un lien explicite avec les titres de séjour, non mentionné dans le texte. Le passage cité est trop générique et ne justifie pas à lui seul le profil."
+   }
+  ],
+  "oublis": [
+   "etranger_ue"
+  ]
+ },
+ "cout_usd": 0.00657
+}

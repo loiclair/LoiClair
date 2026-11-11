@@ -1,0 +1,29 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "cycliste",
+    "raison": "Le texte fixe une vitesse maximale de 20 km/h pour les trottinettes à assistance électrique. Le catalogue range la trottinette parmi les déplacements à vélo, donc ceux qui conduisent une trottinette électrique sont visés directement.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "mineur",
+    "raison": "La condition d'âge minimal de 14 ans pour conduire une trottinette à assistance électrique vise directement les mineurs de moins de 14 ans, sous-groupe des mineurs, qui ne pourraient plus la conduire.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "parent",
+    "raison": "Le texte ne mentionne ni parents ni responsabilité parentale. La condition d'âge frappe l'enfant conducteur et n'impose aucune obligation nouvelle au parent. Le critère qui déclenche la mesure est l'âge, pas la parentalité (règle 7).",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000648485,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

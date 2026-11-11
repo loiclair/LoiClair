@@ -1,0 +1,33 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "epargnant",
+    "concerne": true,
+    "phrase_fidele": false,
+    "raison": "Le passage cite une exclusion mais la phrase de l'assistant invente 'certains crypto-actifs seraient exclus de l'imposition prévue au premier alinéa', alors que l'article ne mentionne que l'application du premier alinéa. Cette assertion d'exclusion fiscale n'est pas fidèle au texte."
+   },
+   {
+    "profil": "chef_entreprise",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "La phrase est fidèle et reflète le conditionnement de l'avantage fiscal à une contribution à la durabilité et à la résilience, tel qu'indiqué dans le passage."
+   }
+  ],
+  "oublis": [
+   "automobiliste",
+   "secteur_industrie",
+   "secteur_agriculture",
+   "secteur_sante",
+   "secteur_education",
+   "secteur_culture",
+   "secteur_btp",
+   "secteur_artisanat_commerce",
+   "secteur_hotellerie",
+   "secteur_transport",
+   "secteur_numerique",
+   "secteur_finance"
+  ]
+ },
+ "cout_usd": 0.0055289
+}

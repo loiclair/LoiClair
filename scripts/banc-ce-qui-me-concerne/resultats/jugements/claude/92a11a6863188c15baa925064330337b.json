@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_agriculture",
+    "raison": "Les prescriptions générales sur les installations d'élevage (effluents, bâtiments, biosécurité, bien-être animal) et la stratégie nationale d'élevage (installation, transmission, plan de modernisation) visent directement le secteur de l'élevage et la façon de l'exercer.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "chef_entreprise",
+    "raison": "Le texte vise les installations d'élevage par leur activité, sans désigner de dirigeant ni d'employeur. Les exploitants relèvent du secteur agricole et du statut d'indépendant, pas du profil chef d'entreprise défini par la taille de l'entreprise.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000978085,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

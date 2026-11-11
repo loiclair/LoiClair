@@ -1,0 +1,29 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "fonctionnaire",
+    "raison": "L'article crée un corps de fonctionnaires de catégorie B pour les accompagnants d'élèves en situation de handicap. Les agents non titulaires en poste au 1er septembre 2026 sont nommés fonctionnaires stagiaires, avec un stage d'un an et une formation. Le texte vise directement leur statut.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "secteur_education",
+    "raison": "Les accompagnants d'élèves en situation de handicap travaillent dans les établissements scolaires. Le texte change leur mode de recrutement (concours académique), leur statut et leur formation, ce qui touche directement les métiers de l'enseignement scolaire.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "cdd_interim",
+    "raison": "Le texte vise les agents non titulaires qui ne remplissent pas les conditions de titularisation, et leur propose un CDI. Il ne mentionne ni CDD, ni intérim, ni contrats courts : la condition déclenchante est le statut de non-titulaire et non la durée du contrat. Le profil est prêté.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.001246885,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

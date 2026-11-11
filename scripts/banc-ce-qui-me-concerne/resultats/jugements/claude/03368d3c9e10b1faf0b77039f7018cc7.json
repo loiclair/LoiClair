@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_education",
+    "raison": "Le texte crée un corps d'accompagnants d'élèves en situation de handicap recrutés par concours, avec un stage et une formation. Ces accompagnants travaillent dans les établissements scolaires, donc la mesure change directement leur façon d'exercer le métier dans l'éducation.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "fonctionnaire",
+    "raison": "Les agents non titulaires exerçant dans ces établissements sont immédiatement nommés fonctionnaires stagiaires, ou se voient proposer un CDI s'ils ne remplissent pas les conditions. Les contractuels de l'État entrent dans le profil fonctionnaire, et le texte change directement leur statut.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000744185,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

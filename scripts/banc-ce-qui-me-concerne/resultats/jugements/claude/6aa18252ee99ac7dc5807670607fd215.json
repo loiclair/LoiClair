@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "demandeur_emploi",
+    "raison": "L'article vise explicitement « des personnes sans emploi rencontrant des difficultés sociales et professionnelles particulières », qui pourraient bénéficier de cet accompagnement vers l'autonomie professionnelle ; cela recoupe clairement les demandeurs d'emploi.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "independant",
+    "raison": "Les personnes accompagnées sont des personnes sans emploi qui débutent une activité indépendante, et non des travailleurs indépendants déjà établis ; le texte ne vise pas les indépendants en difficulté. La mesure crée un dispositif d'insertion, pas des règles pour la profession indépendante.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0034406999999999997,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

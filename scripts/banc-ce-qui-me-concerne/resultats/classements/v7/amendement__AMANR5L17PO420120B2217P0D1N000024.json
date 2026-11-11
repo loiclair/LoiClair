@@ -1,0 +1,12 @@
+{
+ "resume_fr": "Limiterait le déblocage exceptionnel aux sommes placées sur un plan d'épargne salariale avant le 1er janvier 2026, au lieu de 2027.",
+ "resume_en": "Would limit the exceptional release to sums placed in a company savings plan before 1 January 2026, instead of 2027.",
+ "impacts": [
+  {
+   "profil": "salarie_prive",
+   "passage": "I. – À l'alinéa 1, substituer à l'année : « 2027 » l'année : « 2026 ».",
+   "certitude": "probable"
+  }
+ ],
+ "cout_usd": 0.00120227
+}

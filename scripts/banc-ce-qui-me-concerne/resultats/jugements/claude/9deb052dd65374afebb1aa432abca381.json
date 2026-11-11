@@ -1,0 +1,31 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "mineur",
+    "raison": "Le texte vise directement les mineurs de moins de treize ans embauchés dans le cinéma : avis conformes et présence d'un représentant légal conditionnent leur embauche. Sous-groupe du profil mineur.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "parent",
+    "raison": "L'art. L. 7124-3-2 impose la présence d'un représentant légal de l'enfant à l'embauche, pendant le contrat et lors d'évènements liés. Les parents sont directement visés.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "secteur_culture",
+    "raison": "Les règles d'embauche d'enfants dans une entreprise de cinéma changent la façon d'exercer le métier pour les producteurs et professionnels du secteur audiovisuel (comme les règles de tournage avec des enfants).",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": [
+   "chef_entreprise"
+  ]
+ },
+ "cout_usd": 0.0035686999999999997,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "imposable",
+    "raison": "L’article étend à de nouveaux territoires le champ d’un dispositif de réduction d’impôt sur le revenu, pour les personnes qui y réalisent des investissements éligibles.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000827025,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

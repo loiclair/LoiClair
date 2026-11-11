@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "outre_mer",
+    "raison": "Le dispositif vise explicitement les résidents de Wallis-et-Futuna et adapte pour eux les règles d’affiliation et de prise en charge des soins.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0002724,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

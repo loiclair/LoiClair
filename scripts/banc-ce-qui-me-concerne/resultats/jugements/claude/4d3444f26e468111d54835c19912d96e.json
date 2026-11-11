@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "mineur",
+    "raison": "Le texte vise expressément les mineurs victimes et prévoit pour eux le repérage, l’orientation et, le cas échéant, l’accès à un hébergement adapté.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "heberge",
+    "raison": "Le fait d’être déjà hébergé n’est pas le critère visé : l’accès à un hébergement est prévu pour les mineurs victimes de prostitution ou d’exploitation sexuelle, quel que soit leur logement actuel.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000457775,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

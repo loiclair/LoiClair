@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_agriculture",
+    "raison": "Le taux de 80 % visé est celui du crédit d’impôt pour le remplacement en cas de maladie, d’accident du travail ou de formation professionnelle, prévu pour les revenus imposés dans la catégorie des bénéfices agricoles. Le passage à 100 % vise donc directement les personnes qui travaillent dans l’agriculture.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00088315,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

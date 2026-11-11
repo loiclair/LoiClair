@@ -1,0 +1,29 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "rural",
+    "concerne": false,
+    "phrase_fidele": false,
+    "raison": "L'article renomme la police municipale en police territoriale et lui attribue expressément la mission de 'police des campagnes'. Ce terme désigne traditionnellement la police rurale, exercée dans les communes rurales. Un habitant d'une commune rurale est donc directement visé par l'extension du champ d'action de cette police sur son territoire. La déduction est simple et directe."
+   },
+   {
+    "profil": "automobiliste",
+    "concerne": false,
+    "phrase_fidele": false,
+    "raison": "L'article élargit la capacité des agents de police territoriale à constater les contraventions au code de la route. Pour un automobiliste, cela signifie qu'il est plus susceptible d'être verbalisé par ces agents. C'est un changement direct et concret dans l'application des règles qui le concernent."
+   },
+   {
+    "profil": "fonctionnaire",
+    "concerne": false,
+    "phrase_fidele": false,
+    "raison": "L'article ne change rien pour les agents eux-mêmes (leur statut, leur rémunération, leurs obligations). Il ne fait que renommer leur service et étendre les compétences d'une catégorie d'emploi à laquelle ils sont déjà rattachés. Un fonctionnaire d'État, un enseignant ou un agent de l'administration centrale n'est pas plus concerné qu'avant. Le profil 'fonctionnaire' dans le catalogue est générique et ne cible pas spécifiquement la police municipale."
+   }
+  ],
+  "oublis": [
+   "elu_local",
+   "forces_ordre"
+  ]
+ },
+ "cout_usd": 0.0032669
+}

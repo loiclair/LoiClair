@@ -1,0 +1,25 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "animal",
+    "raison": "Le texte vise les livraisons d'équidés, leur pension, location et entraînement, ainsi que les prestations d'équitation : un propriétaire de cheval est directement visé par le taux réduit sur ces achats et services. Le profil animal inclut explicitement le cheval.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "chef_entreprise",
+    "raison": "Les exploitants de centres équestres, pensions et entraîneurs sont des dirigeants de petites entreprises qui appliquent la TVA ; le texte change le taux qu'ils facturent sur leurs livraisons d'équidés et prestations. Règle 11 : règle d'exploitation d'une activité.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "secteur_agriculture"
+  ]
+ },
+ "cout_usd": 0.0028816999999999996,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

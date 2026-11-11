@@ -1,0 +1,17 @@
+{
+ "resume_fr": "Ajouterait aux violences intrafamiliales les infractions économiques comme le non-versement de pension alimentaire, le vol ou l'escroquerie.",
+ "resume_en": "Would add economic offences such as unpaid child maintenance, theft or fraud to the definition of intra-family violence.",
+ "impacts": [
+  {
+   "profil": "parent",
+   "passage": "Constituent également des violences intrafamiliales, lorsqu’elles sont commises par les personnes mentionnées aux 1° à 4°, les infractions prévues aux articles 222‑33‑2‑1, 227‑3 et 227‑4,",
+   "certitude": "probable"
+  },
+  {
+   "profil": "parent_isole",
+   "passage": "Constituent également des violences intrafamiliales, lorsqu’elles sont commises par les personnes mentionnées aux 1° à 4°, les infractions prévues aux articles 222‑33‑2‑1, 227‑3 et 227‑4,",
+   "certitude": "possible"
+  }
+ ],
+ "cout_usd": 0.00128661
+}

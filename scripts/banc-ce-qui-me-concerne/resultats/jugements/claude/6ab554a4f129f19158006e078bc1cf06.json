@@ -1,0 +1,29 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "mineur",
+    "raison": "Le texte vise directement les enfants de moins de treize ans, qui sont des mineurs : leur embauche dans une entreprise de cinéma serait soumise à des avis conformes. Le sous-groupe recoupe le profil mineur.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "parent",
+    "raison": "Le texte impose au représentant légal de l'enfant de moins de treize ans d'être présent à l'embauche, pendant le contrat et, le cas échéant, lors d'événements liés au contrat. Cette obligation vise directement le parent ou responsable légal.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "secteur_culture",
+    "raison": "Le texte régule l'embauche d'enfants dans les entreprises de production cinématographique et audiovisuelle, ce qui change la façon d'exercer le métier sur les tournages (règles de tournage avec des enfants). Le secteur est donc concerné.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0005264349999999999,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

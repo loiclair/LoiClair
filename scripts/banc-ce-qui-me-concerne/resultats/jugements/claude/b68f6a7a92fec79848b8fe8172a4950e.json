@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "chef_entreprise",
+    "raison": "Le crédit d'impôt bénéficie au cessionnaire, c'est-à-dire au repreneur qui doit maintenir l'activité pendant cinq ans. Celui qui reprend et dirige une entreprise est visé directement, même si le texte ne limite pas la taille de l'entreprise.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "heritier_donateur",
+    "raison": "Le texte vise les cessions à titre gratuit, donc les transmissions par donation d'une entreprise. Le donataire, qui reçoit l'entreprise et paie les droits de mutation, en serait le bénéficiaire. Le profil couvre bien celui qui reçoit un patrimoine par donation.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000714585,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

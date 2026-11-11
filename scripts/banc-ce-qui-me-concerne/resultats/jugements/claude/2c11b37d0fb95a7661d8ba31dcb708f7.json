@@ -1,0 +1,28 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etranger_hors_ue",
+    "raison": "Les modifications du CESEDA visent directement la délivrance de cartes de séjour à des étrangers, notamment selon le titre détenu par leur conjoint ou leur parent.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "mineur",
+    "raison": "Le texte prévoit une carte pour l’étranger entre 16 et 18 ans lorsque l’un de ses parents a une carte de résident, sous réserve des conditions de l’article L. 421-35.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "jeune",
+    "raison": "Le texte vise notamment l’étranger dans l’année suivant son 18e anniversaire, donc un sous-groupe de jeunes de 18 à 25 ans.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0008344,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "automobiliste",
+    "raison": "La majoration porte directement sur la taxe due lors de la délivrance d’un certificat d’immatriculation en Île-de-France ; elle vise donc les automobilistes concernés par cette démarche.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000840775,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

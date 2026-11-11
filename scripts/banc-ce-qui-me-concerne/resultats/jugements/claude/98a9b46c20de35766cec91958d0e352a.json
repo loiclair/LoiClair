@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "expat",
+    "raison": "L'article impose seulement la mise à jour hebdomadaire et la publication, sur les sites des ambassades et postes consulaires, d'une liste liée aux mesures sanitaires de circulation. Il ne désigne pas les Français établis hors de France et ne crée ni droit ni obligation pour eux ; l'effet passe par la publication faite par l'État.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000467785,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

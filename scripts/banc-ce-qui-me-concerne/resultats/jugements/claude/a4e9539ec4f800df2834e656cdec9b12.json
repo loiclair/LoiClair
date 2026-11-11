@@ -1,0 +1,19 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "chef_entreprise",
+    "raison": "L'amendement permet à une entreprise exclue des stages et de l'apprentissage de demander l'autorisation de l'inspecteur du travail pour reconclure une convention de stage ou un contrat d'apprentissage. Cela change directement les démarches et droits de l'employeur, donc du dirigeant de PME. Le passage cité est exact.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "dirigeant_grande_entreprise"
+  ]
+ },
+ "cout_usd": 0.0031187,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

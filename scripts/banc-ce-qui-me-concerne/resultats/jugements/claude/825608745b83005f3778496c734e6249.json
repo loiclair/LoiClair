@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "mineur",
+    "raison": "L'article vise directement les mineurs relevant des 2° et 3° de l'article 375-3 du code civil (confiés à un membre de la famille, un tiers digne de confiance ou un service de l'aide sociale à l'enfance) et leur ouvre la protection complémentaire à titre personnel.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "allocataire",
+    "raison": "Le texte vise la protection complémentaire en matière de santé (L. 861-1, complémentaire santé solidaire) et les mineurs qui en bénéficieraient perçoivent donc cette aide. Cependant ce sont des mineurs, pas des adultes allocataires ; le profil est atteint seulement par la voie des mineurs concernés, ce qui est un effet sur un autre profil. De plus, la phrase présente le mineur comme « recevant » la prestation alors que le texte dit « peuvent bénéficier de la protection complémentaire », sans mention nominative de la complémentaire santé solidaire.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0034427,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

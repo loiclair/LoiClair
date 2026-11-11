@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "alsace_moselle",
+    "raison": "L’article modifie une règle de cadastre applicable dans les trois départements d’Alsace-Moselle et précise que les règles civiles de prescription ne sont pas écartées.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0003749,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

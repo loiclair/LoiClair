@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "mineur",
+    "raison": "Le texte vise les victimes qui étaient mineures au moment des faits, critère passé, et non les personnes actuellement âgées de moins de 18 ans. La mesure touche surtout des adultes qui agissent plus tard ; un mineur d'aujourd'hui n'est pas directement visé en tant que mineur.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000722485,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

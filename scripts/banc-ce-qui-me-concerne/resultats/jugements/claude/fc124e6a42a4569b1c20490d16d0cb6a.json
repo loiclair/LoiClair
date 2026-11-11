@@ -1,0 +1,25 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "locataire",
+    "raison": "L'amendement change la condition qui permet au bailleur en copropriété d'être réputé satisfaire à la décence énergétique, donc la possibilité pour le locataire d'invoquer un manquement ou d'obtenir une réduction de loyer. L'effet sur ses droits est direct, car l'article vise le contrat de location et le locataire.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "proprietaire_bailleur",
+    "raison": "L'amendement modifie la condition d'exonération de l'obligation de décence énergétique du bailleur dont le logement est en copropriété : il faut désormais un contrat de maîtrise d'œuvre fondé sur un audit, et plus un simple vote de travaux. Cela touche directement ses obligations.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "coproprietaire"
+  ]
+ },
+ "cout_usd": 0.0040287,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

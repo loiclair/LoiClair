@@ -1,0 +1,25 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "epargnant",
+    "raison": "Le texte exclut certains crypto-actifs du régime fiscal du premier alinéa de l’article 150 VH bis, ce qui vise directement les personnes qui investissent dans ces actifs.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "chef_entreprise",
+    "raison": "Le régime fiscal de l’article 39 decies C pour certains équipements est conditionné à leur contribution à la durabilité et à la résilience.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "secteur_agriculture",
+   "automobiliste"
+  ]
+ },
+ "cout_usd": 0.0015904,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

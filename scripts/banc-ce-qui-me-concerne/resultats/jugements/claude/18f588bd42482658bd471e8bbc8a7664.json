@@ -1,0 +1,24 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "mineur",
+    "raison": "Les règles visent directement l’embauche des moins de treize ans ; ce sous-groupe relève du profil mineur.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "parent",
+    "raison": "Le texte impose la présence d’un représentant légal de l’enfant mineur lors de l’embauche et à certains moments liés au contrat.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": [
+   "secteur_culture"
+  ]
+ },
+ "cout_usd": 0.00059615,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

@@ -1,0 +1,31 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etranger_hors_ue",
+    "raison": "Le texte impose aux étrangers non ressortissants de l'UE une condition de deux ans de séjour régulier pour les prestations familiales et l'APA : ils sont directement visés.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "allocataire",
+    "raison": "Les aides personnelles au logement (APL) sont citées seulement dans une exception pour les étudiants étrangers. La condition de séjour vise les étrangers hors UE et ne cible pas les allocataires en tant que tels. Le profil visé est l'étranger, et le profil allocataire ne déclenche pas la mesure.",
+    "concerne": false,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "age_dependant",
+    "raison": "L'APA est conditionnée à deux ans de séjour régulier pour les étrangers hors UE, ce qui change directement l'accès à l'aide pour les personnes âgées dépendantes étrangères concernées, bénéficiaires potentiels de l'APA.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "parent"
+  ]
+ },
+ "cout_usd": 0.0045896999999999995,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

@@ -1,0 +1,12 @@
+{
+ "impacts": [
+  {
+   "profil": "proprietaire_bailleur",
+   "phrase_fr": "Pourrait donner droit à une indemnisation par le bénéficiaire de l'autorisation si l'établissement où vous louez un lot cesse son activité pour être transférée ailleurs.",
+   "phrase_en": "Would entitle you to compensation from the authorization holder if the establishment where you rent a unit closes its activity to move elsewhere.",
+   "passage": "les bailleurs détenteurs d’un lot dans l’établissement dont l’activité cesse sont indemnisés par son bénéficiaire",
+   "certitude": "probable"
+  }
+ ],
+ "cout_usd": 0.00073371
+}

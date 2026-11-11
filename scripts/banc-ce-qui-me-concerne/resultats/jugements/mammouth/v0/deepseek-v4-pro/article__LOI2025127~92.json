@@ -1,0 +1,14 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etranger_hors_ue",
+    "concerne": false,
+    "phrase_fidele": false,
+    "raison": "L'article 1018 A du CGI ne concerne pas les titres de séjour mais les droits fixes pour les actes judiciaires et extrajudiciaires. L'assistant invente un effet sur les titres administratifs qui n'apparaît pas dans le texte. De plus, même si l'interprétation était correcte, le profil n'est pas explicitement visé : un droit sur un acte judiciaire peut concerner tout le monde (y compris des citoyens français), pas spécifiquement les étrangers hors UE. La seule mention de « titres administratifs » est une invention."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0016939
+}

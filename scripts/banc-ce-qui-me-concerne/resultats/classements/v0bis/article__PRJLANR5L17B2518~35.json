@@ -1,0 +1,19 @@
+{
+ "impacts": [
+  {
+   "profil": "secteur_numerique",
+   "phrase_fr": "Les fabricants et opérateurs d'systèmes d'intelligence artificielle à haut risque intégrés à des équipements radio pourraient être contrôlés par l'Agence nationale des fréquences, qui pourrait leur imposer une mise en conformité et des amendes administratives.",
+   "phrase_en": "Makers and operators of high-risk artificial intelligence systems built into radio equipment would be checked by the national frequency agency, which could order them to comply and impose administrative fines.",
+   "passage": "Lorsqu’elle constate un manquement au I sexies, l’Agence nationale des fréquences peut, après une procédure contradictoire, mettre en demeure, dans un délai qu’elle détermine, l’opérateur",
+   "certitude": "probable"
+  },
+  {
+   "profil": "dirigeant_grande_entreprise",
+   "phrase_fr": "Les grandes entreprises qui ne respectent pas ces règles d'intelligence artificielle pourraient recevoir des amendes pouvant atteindre 7 % de leur chiffre d'affaires, cumulées en cas de plusieurs sanctions.",
+   "phrase_en": "Large companies breaching these artificial intelligence rules would face fines that could reach 7% of their turnover, stacked when several penalties apply.",
+   "passage": "dont le montant maximal excède 35 millions d’euros ou 7 % de son chiffre d’affaires pour une entreprise",
+   "certitude": "possible"
+  }
+ ],
+ "cout_usd": 0.00146595
+}

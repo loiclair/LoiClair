@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_agriculture",
+    "raison": "L’article organise l’indemnisation des dégâts de grand gibier, notamment par un barème fondé sur les denrées et les frais de remise en état, et impose aux réclamants une demande sur portail numérique. Cela vise directement les agriculteurs qui réclament réparation de dégâts à leur activité.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000525025,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

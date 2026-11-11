@@ -1,0 +1,35 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "locataire",
+    "raison": "Le loyer d'un nouveau bail est plafonné au loyer de référence, et une action en diminution peut réduire le loyer d'un bail existant. C'est un effet direct sur le montant payé par le locataire.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "proprietaire_bailleur",
+    "raison": "Le loyer que le bailleur peut fixer pour un logement mis en location est plafonné, et un loyer supérieur peut être ramené au niveau de référence. Le texte ne désigne pas explicitement le locataire comme auteur de l'action en diminution, mais la phrase de l'assistant reste une lecture raisonnable.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "meuble_tourisme",
+    "raison": "Le texte étend expressément l'encadrement des loyers aux logements meublés touristiques, y compris hors zones tendues. Le loyer de ces logements est donc directement visé.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "etudiant",
+    "raison": "Les résidences étudiantes privées sont des logements réservés aux étudiants. Le loyer qu'un étudiant y paie serait donc directement soumis à l'encadrement, sans passer par une réaction du gestionnaire.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0012632350000000001,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

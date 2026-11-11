@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_culture",
+    "raison": "L'article vise les journalistes professionnels et assimilés travaillant pour une agence ou une entreprise de presse, secteur presse rattaché à secteur_culture ; la mesure change leur régime d'affiliation à la sécurité sociale.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0020486999999999997,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

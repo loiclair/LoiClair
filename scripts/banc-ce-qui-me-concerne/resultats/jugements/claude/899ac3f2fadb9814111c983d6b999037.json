@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "salarie_prive",
+    "raison": "Le texte vise les propos ou comportements imposés par une politique d'entreprise, ce qui touche en premier lieu les salariés de l'entreprise, qui en seraient les victimes. Un salarié du privé se dirait à bon droit que cela le vise.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0060457,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

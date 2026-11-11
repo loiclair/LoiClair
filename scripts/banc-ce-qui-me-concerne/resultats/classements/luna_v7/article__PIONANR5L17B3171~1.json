@@ -1,0 +1,19 @@
+{
+ "impacts": [
+  {
+   "profil": "secteur_education",
+   "phrase_fr": "Les accompagnants d’élèves en situation de handicap seraient recrutés par concours et intégreraient un corps de catégorie B.",
+   "phrase_en": "School support workers for pupils with disabilities would be recruited through competitive exams and join a category B civil-service corps.",
+   "passage": "Les accompagnants des élèves en situation de handicap sont recrutés par concours, organisés selon des modalités fixées par voie règlementaire, qui prévoient une affectation des lauréats dans l'un des départements de l'académie au sein duquel le concours a été",
+   "certitude": "certain"
+  },
+  {
+   "profil": "fonctionnaire",
+   "phrase_fr": "Les agents non titulaires concernés seraient nommés fonctionnaires stagiaires, ou se verraient proposer un permanent contract if they do not meet the civil-service eligibility requirements.",
+   "phrase_en": "The non-tenured staff concerned would become trainee civil servants, or be offered a permanent contract if they do not meet civil-service eligibility requirements.",
+   "passage": "Les agents non titulaires exerçant dans des établissements d'enseignement publics ou privés sous contrat d'association au 1er septembre 2026 sont immédiatement nommés fonctionnaires stagiaires dans leur corps d'exercice.",
+   "certitude": "certain"
+  }
+ ],
+ "cout_usd": 0.000470475
+}

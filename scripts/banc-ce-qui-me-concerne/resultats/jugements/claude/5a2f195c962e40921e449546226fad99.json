@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etudiant",
+    "raison": "Le texte vise le co-contractant d'un contrat de formation privée lucrative, qui est l'étudiant inscrit. Il obtient directement l'annulation du contrat et le remboursement du double des sommes versées. Le texte ne nomme pas les étudiants, mais la déduction est directe.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "secteur_education",
+    "raison": "L'amende et l'interdiction visent l'organisme ou son dirigeant comme auteur du manquement. C'est une sanction contre l'organisme lui-même, pas une règle qui change la façon d'enseigner ou les obligations des personnes qui travaillent dans l'éducation (règle 12).",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000950085,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

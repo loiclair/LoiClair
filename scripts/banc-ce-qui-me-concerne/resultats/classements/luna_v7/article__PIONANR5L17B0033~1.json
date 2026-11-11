@@ -1,0 +1,12 @@
+{
+ "impacts": [
+  {
+   "profil": "alsace_moselle",
+   "phrase_fr": "Les règles civiles sur la possession et la prescription acquisitive pourraient s’appliquer malgré les deux premiers alinéas de la loi locale sur le cadastre.",
+   "phrase_en": "Civil rules on possession and acquisitive prescription would apply despite the first two paragraphs of the local cadastral law.",
+   "passage": "Les alinéas 1 et 2 ne font pas obstacle à l’application du titre XXI du livre III du code civil.",
+   "certitude": "certain"
+  }
+ ],
+ "cout_usd": 0.0002821
+}

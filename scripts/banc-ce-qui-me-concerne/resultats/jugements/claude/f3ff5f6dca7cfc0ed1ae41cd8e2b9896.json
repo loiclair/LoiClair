@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "apprenti_alternant",
+    "raison": "Le dispositif ajoute une mission aux centres de formation d’apprentis ; il ne crée pas directement de droit, d’obligation ou de démarche pour les apprentis. L’effet passerait par le centre.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00025065,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

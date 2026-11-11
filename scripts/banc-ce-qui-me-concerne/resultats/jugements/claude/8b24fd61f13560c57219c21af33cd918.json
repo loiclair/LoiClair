@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "mineur",
+    "raison": "Le texte vise les victimes « mineures au moment des faits », mais la prescription court à partir de la révélation, donc pour des personnes devenues majeures. Le profil « mineur » désigne les moins de 18 ans actuels, et seul un mineur victime l'est par ce critère. Ce n'est pas le bon profil pour l'essentiel des personnes visées.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0023006999999999997,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

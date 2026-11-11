@@ -1,0 +1,25 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "salarie_prive",
+    "raison": "L’amendement vise directement les salariés auxquels l’employeur doit communiquer les frais liés au déblocage de leur épargne salariale.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "epargnant",
+    "raison": "Le dispositif porte sur l’épargne salariale et vise les salariés en cette qualité ; la définition du profil « épargnant » exclut l’épargne salariale.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "chef_entreprise",
+   "dirigeant_grande_entreprise"
+  ]
+ },
+ "cout_usd": 0.0008149,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

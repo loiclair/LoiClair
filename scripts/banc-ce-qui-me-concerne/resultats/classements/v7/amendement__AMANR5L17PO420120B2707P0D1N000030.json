@@ -1,0 +1,17 @@
+{
+ "resume_fr": "Permettrait à l'inspecteur du travail de lever, après un délai fixé par décret, l'interdiction faite aux entreprises à forte sinistralité ou ayant manqué à la sécurité d'accueillir stagiaires et apprentis.",
+ "resume_en": "Would allow the labour inspector to lift, after a period set by decree, the ban on companies with high accident rates or safety failings hosting interns and apprentices.",
+ "impacts": [
+  {
+   "profil": "chef_entreprise",
+   "passage": "l’inspecteur de travail peut autoriser une entreprise concernée par le présent alinéa à conclure une convention de stage lorsque celle-ci présente les garanties suffisantes",
+   "certitude": "probable"
+  },
+  {
+   "profil": "dirigeant_grande_entreprise",
+   "passage": "l’inspecteur de travail peut autoriser une entreprise concernée par le présent alinéa à conclure une convention de stage lorsque celle-ci présente les garanties suffisantes",
+   "certitude": "possible"
+  }
+ ],
+ "cout_usd": 0.00119307
+}

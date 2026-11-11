@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "corse",
+    "raison": "Le III vise expressément la Corse : calendrier de mise en place d'un centre hospitalier régional puis universitaire au chef-lieu, après avis de l'Assemblée de Corse. Cela change l'offre de soins et de formation pour ses habitants.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "etudiant",
+    "raison": "L'obligation pèse sur les unités de formation en santé, qui doivent proposer la première année dans chaque département. Les étudiants en santé y gagneraient un accès à proximité, mais l'effet passe par les facultés. Le texte ne vise pas directement les étudiants.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0030326999999999997,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

@@ -1,0 +1,12 @@
+{
+ "impacts": [
+  {
+   "profil": "secteur_education",
+   "phrase_fr": "Les établissements scolaires devraient climatiser toutes leurs salles de classe, de restauration et de sport couvertes, à une température maximale fixée par décret.",
+   "phrase_en": "Schools would have to air-condition all their classrooms, canteens and covered sports halls, to a maximum temperature set by decree.",
+   "passage": "Les établissements d’enseignement du premier et du second degré, publics et privés sous contrat, sont tenus d’équiper l’ensemble de leurs locaux accueillant des élèves d’un système de climatisation active",
+   "certitude": "probable"
+  }
+ ],
+ "cout_usd": 0.00071405
+}

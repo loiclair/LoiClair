@@ -1,0 +1,19 @@
+{
+ "impacts": [
+  {
+   "profil": "heritier_donateur",
+   "phrase_fr": "Les dons d'argent faits à un enfant ou petit-enfant entre janvier et juin 2027 seraient taxés au taux unique de 6 %, dans la limite de 100 000 euros par donataire.",
+   "phrase_en": "Cash gifts made to a child or grandchild between January and June 2027 would be taxed at a flat 6% rate, up to 100,000 euros per recipient.",
+   "passage": "Les dons de sommes d’argent consentis en pleine propriété entre le 1er janvier 2027 et le 30 juin 2027 au profit d’un enfant, d’un petit-enfant, d’un arrière-petit-enfant",
+   "certitude": "certain"
+  },
+  {
+   "profil": "jeune",
+   "phrase_fr": "Les jeunes adultes de 18 ans et plus qui reçoivent un don d'argent de leurs proches seraient concernés par ce régime de donation temporaire, pour les dons reçus avant 50 ans.",
+   "phrase_en": "Young adults aged 18 and over who receive a cash gift from relatives would be covered by this temporary gift tax regime, for gifts received before age 50.",
+   "passage": "âgé de dix-huit ans révolus ou ayant fait l’objet d’une mesure d’émancipation et de moins de cinquante ans au jour de la transmission",
+   "certitude": "probable"
+  }
+ ],
+ "cout_usd": 0.00102445
+}

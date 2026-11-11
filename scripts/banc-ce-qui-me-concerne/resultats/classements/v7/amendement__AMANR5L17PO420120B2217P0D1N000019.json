@@ -1,0 +1,22 @@
+{
+ "resume_fr": "Ajouterait à l'obligation d'information des salariés les frais, pénalités et coûts de transaction applicables au déblocage de leurs sommes.",
+ "resume_en": "Would add to the employer's duty to inform employees the fees, penalties and transaction costs applicable when unblocking their savings.",
+ "impacts": [
+  {
+   "profil": "salarie_prive",
+   "passage": "Il informe également les salariés des frais éventuels, des pénalités ou des coûts de transaction applicables lors du déblocage des sommes concernées en application du présent article",
+   "certitude": "certain"
+  },
+  {
+   "profil": "chef_entreprise",
+   "passage": "Il informe également les salariés des frais éventuels, des pénalités ou des coûts de transaction applicables lors du déblocage des sommes concernées en application du présent article",
+   "certitude": "probable"
+  },
+  {
+   "profil": "dirigeant_grande_entreprise",
+   "passage": "Il informe également les salariés des frais éventuels, des pénalités ou des coûts de transaction applicables lors du déblocage des sommes concernées en application du présent article",
+   "certitude": "probable"
+  }
+ ],
+ "cout_usd": 0.00119397
+}

@@ -1,0 +1,57 @@
+# Vide le cache Cloudflare de loiclair.fr : pages, flux de navigation et réponses d'API.
+#
+# Deux appelants, et chacun est obligatoire :
+# - `sync-data-nightly.yml`, après `/api/revalidate`. Sans cet appel, les lecteurs
+#   voient les données de la veille jusqu'à la fin de la durée de cache.
+# - `/release`, juste après le déploiement. Le HTML gardé pointe vers les fichiers de
+#   `.next/static` de l'ancienne image, absents de la nouvelle.
+#
+# La purge vise le nom d'hôte, pas une liste d'URL : les flux de navigation de Next
+# portent un paramètre `_rsc` qui varie selon la page d'origine, impossible à
+# énumérer. Elle laisse aussi `essai.loiclair.fr` de côté. Les fiches sont donc vidées
+# avec le reste : Cloudflare les redemande au site, qui les reconstruit à la première
+# visite si `/api/revalidate` les a marquées ou si l'image est neuve, et sinon les sert
+# depuis son propre cache (ce workflow part aussi quand cet appel a échoué).
+name: Purge du cache Cloudflare
+
+on:
+  workflow_call:
+    secrets:
+      CLOUDFLARE_ZONE_ID:
+        required: true
+      CLOUDFLARE_PURGE_TOKEN:
+        required: true
+      RESEND_API_KEY:
+        required: true
+  workflow_dispatch:
+
+permissions: {}
+
+jobs:
+  purger:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      # `--fail-with-body` : une erreur de l'API fait échouer le job, avec sa raison
+      # dans le log. Le jeton n'a que le droit de purger cette zone.
+      # `--retry-all-errors` : `--retry` seul ne rejoue pas une connexion coupée, et
+      # une purge se rejoue sans risque.
+      - name: Vider le cache de loiclair.fr
+        env:
+          ZONE: ${{ secrets.CLOUDFLARE_ZONE_ID }}
+          JETON: ${{ secrets.CLOUDFLARE_PURGE_TOKEN }}
+        run: |
+          curl --fail-with-body --silent --show-error --retry 3 --retry-all-errors \
+            -X POST "https://api.cloudflare.com/client/v4/zones/${ZONE}/purge_cache" \
+            -H "Authorization: Bearer ${JETON}" \
+            -H "Content-Type: application/json" \
+            --data '{"hosts":["loiclair.fr"]}'
+
+  alerte:
+    needs: purger
+    if: failure()
+    uses: ./.github/workflows/alerte-echec.yml
+    with:
+      quoi: "Purge du cache Cloudflare"
+    secrets:
+      RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}

@@ -1,0 +1,74 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_sante",
+    "raison": "L’article IV vise explicitement les professionnels de santé qui exercent une activité auprès de mineurs.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "secteur_education",
+    "raison": "L’article II impose le certificat aux personnes intervenant auprès des élèves, même ponctuellement ou bénévolement.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "salarie_prive",
+    "raison": "L’article VI vise les salariés exerçant une activité auprès de mineurs et impose à leur employeur de vérifier le certificat.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "apprenti_alternant",
+    "raison": "L’article IV vise explicitement les stagiaires intervenant auprès de mineurs dans les structures de santé mentionnées ; les stagiaires font partie de ce profil.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "etudiant",
+    "raison": "L’article IV vise explicitement les étudiants intervenant auprès de mineurs dans les structures de santé mentionnées.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "benevole",
+    "raison": "Le texte impose le certificat aux bénévoles intervenant auprès de mineurs, notamment dans les structures de santé et pour l’encadrement sportif.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "salarie_particulier",
+    "raison": "Le texte subordonne explicitement l’agrément des assistants maternels au certificat et vise aussi les salariés employés par un particulier lorsqu’ils exercent l’activité concernée.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "particulier_employeur",
+    "raison": "L’article VI impose à l’employeur, y compris au particulier employeur, de vérifier le certificat pour les salariés concernés.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "chef_entreprise",
+    "raison": "L’article VI impose une vérification à l’employeur, sans exclure les dirigeants de petites ou moyennes entreprises.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "dirigeant_grande_entreprise",
+    "raison": "L’article VI impose une vérification à l’employeur, sans exclure les dirigeants de grandes entreprises.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "secteur_culture",
+   "secteur_hotellerie",
+   "secteur_transport"
+  ]
+ },
+ "cout_usd": 0.0022219,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

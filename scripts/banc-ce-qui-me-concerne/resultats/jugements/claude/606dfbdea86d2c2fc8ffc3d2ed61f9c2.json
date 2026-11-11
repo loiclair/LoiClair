@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_artisanat_commerce",
+    "raison": "L'élément désigne lui-même les commerçants acceptant les titres-restaurant comme destinataires de l'information sur les commissions qu'ils paient. Le texte oblige les émetteurs, mais la mesure vise directement ces commerçants et leurs coûts.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "secteur_hotellerie",
+    "raison": "Le texte ne nomme ni l'hôtellerie, ni la restauration, ni les débits de boissons. Il parle de « commerçants acceptant le paiement par titres-restaurant », ce qui ne suffit pas à viser le secteur hôtelier et restaurateur.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.001022235,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

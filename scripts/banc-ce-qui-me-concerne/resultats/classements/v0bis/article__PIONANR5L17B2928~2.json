@@ -1,0 +1,12 @@
+{
+ "impacts": [
+  {
+   "profil": "secteur_culture",
+   "phrase_fr": "Les publications de presse inscrites à la commission paritaire seraient présumées relever des droits voisins, sauf preuve contraire, et pourraient saisir l'Arcom pour avis.",
+   "phrase_en": "Press publications registered with the paritary commission would be presumed to fall under neighbouring rights unless proven otherwise, and could seek an Arcom opinion.",
+   "passage": "Les publications de presse et les services de presse en ligne inscrits à la commission paritaire des publications et agences de presse sont, sauf preuve contraire, présumés constituer une publication de presse au sens du présent I.",
+   "certitude": "probable"
+  }
+ ],
+ "cout_usd": 0.00058935
+}

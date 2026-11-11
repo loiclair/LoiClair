@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_sante",
+    "raison": "Le texte vise directement les médecins, chirurgiens-dentistes et sages-femmes dans le cadre de leur activité professionnelle.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0003244,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

@@ -1,0 +1,19 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "locataire",
+    "raison": "L'amendement change la preuve exigée du bailleur pour justifier l'impossibilité des travaux : une attestation écrite que le locataire peut réclamer. Cela touche directement ses droits en matière de décence énergétique, donc le locataire est visé.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "proprietaire_bailleur"
+  ]
+ },
+ "cout_usd": 0.0029926999999999996,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

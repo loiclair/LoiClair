@@ -1,0 +1,14 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_agriculture",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'amendement vise directement le crédit d'impôt pour dépenses de remplacement accordé aux exploitants agricoles (article 200 undecies du CGI), en portant son taux de 80 % à 100 % en cas de maladie, accident du travail ou formation."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.010191
+}

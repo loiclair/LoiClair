@@ -1,0 +1,20 @@
+{
+ "impacts": [
+  {
+   "profil": "veuf",
+   "passage": "I. – Au f du 1 de l’article 195 du code général des impôts, après la seconde occurrence du mot : « combattant », sont insérés les mots : « ou du titre de reconnaissance de la Nation ».",
+   "certitude": "certain"
+  },
+  {
+   "profil": "ancien_combattant",
+   "passage": "",
+   "certitude": "probable"
+  },
+  {
+   "profil": "imposable",
+   "passage": "I. – Au f du 1 de l’article 195 du code général des impôts, après la seconde occurrence du mot : « combattant », sont insérés les mots : « ou du titre de reconnaissance de la Nation ».",
+   "certitude": "probable"
+  }
+ ],
+ "resume_fr": "Ouvrirait la demi-part fiscale aux veuves de titulaires du titre de reconnaissance de la Nation, en plus de celles de titulaires de la carte d’ancien combattant."
+}

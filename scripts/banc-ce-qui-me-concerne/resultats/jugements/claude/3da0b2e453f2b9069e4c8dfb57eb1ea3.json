@@ -1,0 +1,37 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "locataire",
+    "raison": "Le texte encadre le loyer de base des logements loués et ouvre une action en diminution de loyer ; cela change directement le loyer payé par les locataires.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "proprietaire_bailleur",
+    "raison": "Les bailleurs voient leur loyer plafonné au loyer de référence (ou majoré) et s'exposent à une action en diminution ; le texte vise directement la fixation du loyer par le bailleur.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "meuble_tourisme",
+    "raison": "Le texte étend expressément l'encadrement des loyers aux logements meublés touristiques de l'article L. 324-1-1 du code du tourisme, ce qui vise ceux qui les louent.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "etudiant",
+    "raison": "Les résidences étudiantes privées sont expressément soumises à l'encadrement des loyers, ce qui change le loyer payé par les étudiants qui y logent ; le texte ne mentionne toutefois pas que ces résidents sont des étudiants au sens strict, mais la catégorie appartient clairement au profil.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "grande_ville"
+  ]
+ },
+ "cout_usd": 0.005869699999999999,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

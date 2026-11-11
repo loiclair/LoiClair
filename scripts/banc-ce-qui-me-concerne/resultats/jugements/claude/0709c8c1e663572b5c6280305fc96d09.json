@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "forces_ordre",
+    "raison": "Le texte encadre les opérations d'infiltration, d'enquête sous pseudonyme et de livraison sous autorisation d'un magistrat ou du procureur, dont les policiers, gendarmes et agents des douanes sont les acteurs. Il change directement leur protection pénale : leurs actes ne sont plus qualifiés d'incitation quand l'infraction était déjà préparée ou débutée.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000551335,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

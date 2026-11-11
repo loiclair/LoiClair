@@ -1,0 +1,14 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "expat",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "Le texte modifie directement le calcul de l'impôt pour un contribuable 'qui n'a pas sa résidence fiscale en France', ce qui correspond exactement à la définition du profil expat (Français établi hors de France). L'effet est direct et concret."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0014859
+}

@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "littoral",
+    "raison": "La taxe vise les mutations à titre onéreux de biens immobiliers situés dans une commune littorale, sous réserve des exclusions et exonérations prévues.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "projet_achat",
+    "raison": "Une personne qui achète un bien immobilier dans une commune visée peut devoir cette taxe, due par la personne redevable des droits d’enregistrement ou de la taxe de publicité foncière.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000490775,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

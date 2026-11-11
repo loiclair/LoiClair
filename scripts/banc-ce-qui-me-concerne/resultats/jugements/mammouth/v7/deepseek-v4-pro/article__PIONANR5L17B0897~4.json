@@ -1,0 +1,26 @@
+{
+ "jugement": {
+  "oublis": [],
+  "profils": [
+   {
+    "concerne": true,
+    "phrase_fidele": true,
+    "profil": "heritier_donateur",
+    "raison": "Modification directe des règles de rappel des donations pour les droits de succession et donation."
+   },
+   {
+    "concerne": true,
+    "phrase_fidele": true,
+    "profil": "epargnant",
+    "raison": "Suppression de l'abattement lié à l'assurance-vie pour les primes versées après 70 ans, ce qui affecte les souscripteurs de ces contrats."
+   },
+   {
+    "concerne": false,
+    "phrase_fidele": false,
+    "profil": "senior",
+    "raison": "La mesure cible les primes versées après 70 ans, ce qui ne correspond pas au seuil du profil senior (55+). Un senior de 60 ans n'est pas concerné."
+   }
+  ]
+ },
+ "cout_usd": 0.0022742322
+}

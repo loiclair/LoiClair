@@ -1,0 +1,13 @@
+{
+ "jugement": {
+  "profils": [],
+  "oublis": [
+   "secteur_agriculture",
+   "chasseur_pecheur"
+  ]
+ },
+ "cout_usd": 0.0015967,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

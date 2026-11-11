@@ -1,0 +1,14 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "heritier_donateur",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article réduit le délai de prescription pour les successions non partagées (de 30 à 15 ans), ce qui impacte directement les héritiers concernés par des successions ouvertes depuis 2007. Le passage cité justifie l'application rétroactive à ces successions."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.006777
+}

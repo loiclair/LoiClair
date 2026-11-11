@@ -1,0 +1,24 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "parent",
+    "raison": "La suppression des alinéas de l’article L. 521-1 supprimerait la modulation des allocations familiales selon les ressources, ce qui modifierait les sommes versées à certains parents.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "famille_nombreuse",
+    "raison": "Les parents d’au moins trois enfants font partie des familles pouvant percevoir les allocations familiales modulées par les ressources ; la mesure leur serait donc directement applicable.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "outre_mer"
+  ]
+ },
+ "cout_usd": 0.00063865,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

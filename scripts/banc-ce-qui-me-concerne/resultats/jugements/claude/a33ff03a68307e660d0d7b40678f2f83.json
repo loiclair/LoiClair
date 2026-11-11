@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "emprunteur",
+    "raison": "Le texte ne vise pas les emprunteurs. Il s'applique à toute obligation contestée parce que la personne n'en est pas l'auteur (usurpation d'identité), que la dette soit un crédit ou non. Une victime d'usurpation d'identité n'est pas « emprunteur » au sens du catalogue.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000388035,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

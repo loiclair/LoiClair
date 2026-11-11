@@ -1,0 +1,25 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_transport",
+    "raison": "L'article crée une déduction fiscale pour les équipements de propulsion vélique des navires de transport de marchandises ou de passagers, ce qui vise directement les entreprises du transport maritime.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "chef_entreprise",
+    "raison": "Le texte majore le taux pour les moyennes entreprises (20 %) et les petites entreprises (30 %) selon l'annexe I du règlement européen, ce qui vise les dirigeants de PME.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "secteur_agriculture"
+  ]
+ },
+ "cout_usd": 0.0031477,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "futur_parent",
+    "raison": "Le texte vise directement les femmes et couples engagés dans une tentative de fécondation in vitro, c'est-à-dire qui ont un projet d'enfant. Il leur ouvre une option concrète (recherche d'anomalies chromosomiques des embryons, avec consentement écrit), ce qui correspond à la définition de futur_parent.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000315185,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

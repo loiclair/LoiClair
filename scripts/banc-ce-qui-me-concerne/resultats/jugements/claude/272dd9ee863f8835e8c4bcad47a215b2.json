@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_agriculture",
+    "raison": "Le dispositif vise explicitement les associés exploitants de sociétés exerçant une activité agricole, sous certaines conditions liées à leur installation.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00030715,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

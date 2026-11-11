@@ -1,0 +1,25 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "patrimoine_ifi",
+    "raison": "La contribution vise les hauts patrimoines (plus de 5 M€), assujettis à l'IFI dans la pratique ; le profil est le plus proche. La phrase est fidèle : taux de 0,5 % à 2 % au conditionnel, seuil de 5 M€.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "parent",
+    "raison": "Le texte inclut les biens des enfants mineurs dont le contribuable a l'administration légale dans l'assiette, ce qui vise des parents, mais seulement ceux déjà assujettis à plus de 5 M€ ; le critère déclencheur est le patrimoine, pas la parentalité.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "epargnant"
+  ]
+ },
+ "cout_usd": 0.0030187,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

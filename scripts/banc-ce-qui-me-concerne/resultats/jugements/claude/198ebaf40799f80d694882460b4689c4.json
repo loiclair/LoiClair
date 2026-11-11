@@ -1,0 +1,12 @@
+{
+ "jugement": {
+  "profils": [],
+  "oublis": [
+   "chef_entreprise"
+  ]
+ },
+ "cout_usd": 0.0054947,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

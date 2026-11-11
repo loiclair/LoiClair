@@ -1,0 +1,19 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "chef_entreprise",
+    "raison": "L'amendement vise l'employeur qui veut employer un mineur de moins de 18 ans dans des travaux réglementés : l'autorisation de l'inspecteur du travail devient obligatoire et le silence pendant deux mois vaudrait refus. C'est une démarche directe de l'employeur, sans passer par un tiers. Le texte ne nomme aucune taille d'entreprise, donc les petites et moyennes entreprises sont visées.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "mineur"
+  ]
+ },
+ "cout_usd": 0.000644335,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

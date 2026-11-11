@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "alsace_moselle",
+    "raison": "L'article modifie une loi cadastrale propre à la Moselle, au Bas-Rhin et au Haut-Rhin : les règles de possession et de prescription du Code civil pourraient s'y appliquer malgré l'inscription au cadastre. Il vise donc les habitants de ces départements en raison de leur lieu de vie.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0046947,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

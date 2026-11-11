@@ -1,0 +1,29 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etranger_hors_ue",
+    "raison": "Le texte impose aux étrangers non ressortissants de l'UE une condition de deux ans de séjour régulier pour les prestations familiales et l'APA : ils sont directement visés.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "age_dependant",
+    "raison": "L'article II vise l'APA et la condition de deux ans de séjour pour les étrangers hors UE, donc les personnes âgées en perte d'autonomie étrangères hors UE sont directement concernées.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "parent",
+    "raison": "Les prestations familiales (allocations familiales) concernent les parents ; la condition de séjour de deux ans change directement leurs droits lorsqu'ils sont étrangers hors UE, et des exceptions sont prévues.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0041437,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "cycliste",
+    "raison": "L'article fixe une vitesse maximale de 20 km/h pour les trottinettes à assistance électrique. Le catalogue range les trottinettes dans le profil cycliste, et la règle change directement la façon dont ces personnes roulent.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "mineur",
+    "raison": "L'article L. 431-3 exige que tout conducteur de trottinette à assistance électrique ait au moins quatorze ans. La règle vise donc directement les moins de 14 ans, qui sont mineurs au sens du catalogue.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000311685,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

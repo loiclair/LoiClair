@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_education",
+    "raison": "L'article vise nommément les personnels de l'éducation (livre IX de la quatrième partie du code de l'éducation) et leur accorde une protection fonctionnelle. L'amendement supprime la possibilité de retirer cette protection en cas de faute personnelle, ce qui change directement leurs droits dans leur métier.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "fonctionnaire",
+    "raison": "Le texte ne mentionne pas le statut de fonctionnaire. Il vise les personnels de l'éducation et, par la référence à l'article L. 134-5 du code général de la fonction publique, des agents publics. Cette protection statutaire s'applique aux fonctionnaires comme aux contractuels de l'État, et le retrait possible de la protection touche directement ces agents.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000753535,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

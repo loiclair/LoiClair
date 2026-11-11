@@ -1,0 +1,25 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etudiant",
+    "raison": "L'article sanctionne le non-respect des règles par le professionnel et prévoit nullité du contrat et remboursement du double au co-contractant, notamment l'étudiant d'un établissement privé ; le dossier vise l'enseignement supérieur privé.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "chef_entreprise",
+    "raison": "L'amende et l'interdiction d'exercer l'activité de dirigeant d'un organisme de formation visent directement les dirigeants de ces organismes, qui sont des employeurs de petite ou moyenne taille.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "secteur_education"
+  ]
+ },
+ "cout_usd": 0.0029617,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

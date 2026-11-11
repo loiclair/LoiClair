@@ -1,0 +1,12 @@
+{
+ "resume_fr": "Permettrait à l’inspecteur du travail d’autoriser une entreprise exclue des stages et de l’apprentissage à en reprendre après un délai fixé par décret, si elle offre des garanties de sécurité.",
+ "resume_en": "Would allow the labour inspector to authorise a company barred from internships and apprenticeships to take them again after a period set by decree, if it offers sufficient safety guarantees.",
+ "impacts": [
+  {
+   "profil": "chef_entreprise",
+   "passage": "l’inspecteur de travail peut autoriser une entreprise concernée par le présent alinéa à conclure une convention de stage lorsque celle-ci présente les garanties suffisantes en matière de sécurité et de protection de la santé des travailleurs pour l’accueil d’un stagiaire.",
+   "certitude": "probable"
+  }
+ ],
+ "cout_usd": 0.00120907
+}

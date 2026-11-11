@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "pompier_volontaire",
+    "raison": "Le texte vise expressément les sapeurs-pompiers volontaires exposés dans le cadre de leurs fonctions.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "fonctionnaire",
+    "raison": "Le texte impose une obligation concernant les sapeurs-pompiers exposés, pas les fonctionnaires en général.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00058015,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

@@ -1,0 +1,14 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "outre_mer",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article modifie spécifiquement les critères d'application de la taxe sur les logements vacants pour les collectivités régies par l'article 73 de la Constitution (DROM), ce qui concerne directement les habitants de ces territoires. La phrase est fidèle au texte et utilise le conditionnel car le texte n'est pas encore adopté définitivement."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.006477
+}

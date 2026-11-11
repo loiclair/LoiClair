@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_agriculture",
+    "raison": "Le texte modifie le taux du crédit d'impôt pour remplacement des exploitants agricoles (art. 200 undecies CGI, dépenses liées aux bénéfices agricoles) : le passage de 80 % à 100 % pour les remplacements en cas de maladie ou d'accident du travail change directement leur argent. L'exposé des motifs vise explicitement les agriculteurs.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000902235,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

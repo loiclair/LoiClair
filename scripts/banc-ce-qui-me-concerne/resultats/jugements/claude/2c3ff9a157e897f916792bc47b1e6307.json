@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_transport",
+    "raison": "L'article autorise les opérateurs de transports guidés urbains à installer des caméras frontales sur leurs matériels roulants, avec des finalités, une durée de conservation et une information du public encadrées. Cela change les règles d'exercice du métier dans ce secteur.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0040336999999999994,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

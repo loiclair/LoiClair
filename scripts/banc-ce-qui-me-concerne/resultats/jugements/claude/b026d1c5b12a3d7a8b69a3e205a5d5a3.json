@@ -1,0 +1,29 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "heritier_donateur",
+    "raison": "L'article 784 (4° a) supprime l'exception des donations de plus de quinze ans : toutes les donations anciennes compteraient dans le rappel fiscal. Les 1° à 3° modifient aussi les barèmes et abattements des transmissions en ligne directe, ce qui touche directement donateurs et héritiers.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "epargnant",
+    "raison": "Le 1° supprime la limite des primes versées après 70 ans à l'article 757 B et abroge ses II et III. Les contrats d'assurance-vie transmis au décès seraient taxés autrement, ce qui vise directement les souscripteurs. La phrase de l'assistant est une lecture raisonnable de l'abrogation du II, mais le passage cité est vide.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "senior",
+    "raison": "La mesure porte sur les primes versées après 70 ans, donc sur les assurés de 70 ans et plus, sous-groupe des personnes de 55 ans ou plus. La phrase de l'assistant reprend fidèlement cet effet, au conditionnel.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.001500885,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

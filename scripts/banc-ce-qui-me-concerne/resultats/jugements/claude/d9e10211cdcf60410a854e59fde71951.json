@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "malade_chronique",
+    "raison": "Le texte vise directement les personnes atteintes d'algie vasculaire de la face, une pathologie récurrente et de longue durée qui demande des soins réguliers, et leur ouvre trente jours d'arrêt par an.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "salarie_prive",
+    "raison": "Le texte vise les salariés atteints de la pathologie et leur donne un droit d'arrêt sans ancienneté ni préavis. La phrase de l'assistant ajoute « du privé », qui ne figure pas dans le texte, et omet que la règle ne vaut que pour les personnes atteintes d'algie vasculaire de la face, ce qui la rend trompeuse.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0007406849999999999,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

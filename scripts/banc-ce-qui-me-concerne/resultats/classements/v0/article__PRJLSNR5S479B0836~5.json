@@ -1,0 +1,19 @@
+{
+ "impacts": [
+  {
+   "profil": "secteur_finance",
+   "passage": "Les personnes déclarées coupables des délits prévus aux articles L. 542-1, L. 542-2 et L. 542-5 encourent la peine complémentaire d’interdiction d’exercer les fonctions d’agent de change ou d’être électeurs ou élus aux chambres de commerce, tribunaux de commerce et conseils de prud’hommes.",
+   "certitude": "probable",
+   "phrase_en": "A person convicted of certain customs offences would be barred from working as a stockbroker (agent de change), for up to five years.",
+   "phrase_fr": "Une personne condamnée pour certains délits douaniers pourrait se voir interdire d’exercer la fonction d’agent de change, pendant cinq ans au plus."
+  },
+  {
+   "profil": "chef_entreprise",
+   "passage": "Les personnes déclarées coupables des délits prévus aux articles L. 542-1, L. 542-2 et L. 542-5 encourent la peine complémentaire d’interdiction d’exercer les fonctions d’agent de change ou d’être électeurs ou élus aux chambres de commerce, tribunaux de commerce et conseils de prud’hommes.",
+   "certitude": "probable",
+   "phrase_en": "A person convicted of certain customs offences would be barred from voting or standing for chambers of commerce, commercial courts or employment tribunals, for up to five years.",
+   "phrase_fr": "Une personne condamnée pour certains délits douaniers pourrait ne plus pouvoir voter ni être élue aux chambres de commerce, tribunaux de commerce ou conseils de prud’hommes, pendant cinq ans au plus."
+  }
+ ],
+ "resume_fr": null
+}

@@ -1,0 +1,35 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "outre_mer",
+    "raison": "Le texte vise les personnels justifiant d'une résidence effective en Nouvelle-Calédonie, à Wallis-et-Futuna ou en Polynésie française : des habitants d'outre-mer, dont la pension serait majorée.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "fonctionnaire",
+    "raison": "Le texte modifie le calcul de la pension civile des fonctionnaires relevant du code des pensions, avec un coefficient de majoration propre à chaque territoire.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "forces_ordre",
+    "raison": "Le texte mentionne expressément les militaires (« fonctionnaire, magistrat ou militaire ») et la solde, et le code des pensions civiles et militaires s'applique à eux : le calcul majoré les vise.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "retraite",
+    "raison": "La mesure porte sur la liquidation de la pension au moment du départ des actifs, pas sur des personnes déjà retraitées ; la condition de non-minoration est un critère d'accès pour les futurs pensionnés.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0049317,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

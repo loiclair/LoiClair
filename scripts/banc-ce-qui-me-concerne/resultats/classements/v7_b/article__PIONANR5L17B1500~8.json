@@ -1,0 +1,12 @@
+{
+ "impacts": [
+  {
+   "profil": "secteur_agriculture",
+   "phrase_fr": "Les agriculteurs qui demandent une indemnité pour des dégâts de grand gibier devraient déposer leur demande sur un portail numérique, avec une indemnité calculée selon un barème national.",
+   "phrase_en": "Farmers who claim compensation for wild game damage would file their claims on a digital portal, with compensation calculated under a national scale.",
+   "passage": "La demande est formée sur un portail numérique permettant une gestion uniforme des dossiers.",
+   "certitude": "probable"
+  }
+ ],
+ "cout_usd": 0.00076301
+}

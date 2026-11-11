@@ -1,0 +1,12 @@
+{
+ "impacts": [
+  {
+   "profil": "secteur_culture",
+   "phrase_fr": "Les journalistes professionnels et assimilés qui fournissent des contenus à certaines agences ou entreprises de presse seraient rattachés au régime général de la Sécurité sociale, quel que soit leur lien juridique avec elles.",
+   "phrase_en": "Professional and assimilated journalists who provide content to certain news agencies or press companies would be covered by the general social security system, regardless of their legal relationship with them.",
+   "passage": "Les journalistes professionnels et assimilés, au sens des articles L. 7111‑3 et L. 7111‑4 du code du travail, fournissant des articles, des informations, des reportages, des dessins ou des photographies à une agence de presse ou à une entreprise de presse quotidienne ou périodique",
+   "certitude": "certain"
+  }
+ ],
+ "cout_usd": 0.000260725
+}

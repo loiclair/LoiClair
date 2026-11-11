@@ -1,0 +1,28 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "mineur",
+    "raison": "Le texte vise expressément l’embauche des mineurs de moins de treize ans et lui impose des avis conformes.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "parent",
+    "raison": "La présence d’un représentant légal est exigée pendant l’embauche et l’emploi du mineur. Toutefois, le texte exige un représentant légal, pas nécessairement n’importe quel parent, et cette règle n’est pas limitée au cinéma.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "secteur_culture",
+    "raison": "Le texte encadre directement les conditions d’embauche et de tournage dans les entreprises de cinéma, ce qui touche les règles professionnelles du secteur culturel.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.001297175,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

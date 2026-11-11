@@ -1,0 +1,26 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "mineur",
+    "raison": "La demande d'autorisation est faite par l'employeur ; le mineur n'a aucune démarche à accomplir. Le silence de l'administration vaut rejet de la demande de l'entreprise, donc l'effet sur le mineur passe par l'employeur : effet indirect.",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "chef_entreprise",
+    "raison": "Le dispositif vise l'employeur qui demande à employer des moins de 18 ans à des travaux réglementés : son silence-vaut-rejet change sa démarche, car sans réponse sous deux mois il n'a pas l'autorisation. Cela vaut pour tout employeur, PME comprise.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "dirigeant_grande_entreprise",
+   "apprenti_alternant"
+  ]
+ },
+ "cout_usd": 0.0031856999999999996,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

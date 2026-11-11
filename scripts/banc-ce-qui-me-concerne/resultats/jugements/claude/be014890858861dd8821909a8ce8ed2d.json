@@ -1,0 +1,12 @@
+{
+ "jugement": {
+  "profils": [],
+  "oublis": [
+   "fumeur",
+   "secteur_industrie"
+  ]
+ },
+ "cout_usd": 0.00066215,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

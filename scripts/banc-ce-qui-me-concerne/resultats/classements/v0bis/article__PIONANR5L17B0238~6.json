@@ -1,0 +1,19 @@
+{
+ "impacts": [
+  {
+   "profil": "secteur_sante",
+   "phrase_fr": "Les professionnels de santé qui collectent ces données ne pourraient plus opposer le secret médical.",
+   "phrase_en": "Health professionals who collect this data would no longer be able to invoke medical confidentiality.",
+   "passage": "Lorsque ces données sont collectées par l’intermédiaire d’un professionnel de santé, le secret médical n’est pas opposable.",
+   "certitude": "certain"
+  },
+  {
+   "profil": "etranger_hors_ue",
+   "phrase_fr": "Votre nationalité et les pathologies soignées au titre de l’aide médicale de l’État seraient enregistrées dans un fichier national de suivi.",
+   "phrase_en": "Your nationality and the conditions treated under state medical aid would be recorded in a national monitoring file.",
+   "passage": "La nationalité des demandeurs et des bénéficiaires de l’aide médicale de l’État et les pathologies prises en charge au titre de ce dispositif figurent parmi les données recueillies.",
+   "certitude": "probable"
+  }
+ ],
+ "cout_usd": 0.00096965
+}

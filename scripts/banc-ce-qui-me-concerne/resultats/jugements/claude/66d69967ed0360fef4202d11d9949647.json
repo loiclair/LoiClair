@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "fonctionnaire",
+    "raison": "Le texte accorde la protection aux proches de l’agent public, pas à l’agent du seul fait qu’il est fonctionnaire.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000350775,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "elu_local",
+    "raison": "Le texte désigne directement « le maire de la commune d'implantation » et lui donne un droit nouveau d'être informé à l'avance de tout projet de fermeture d'une succursale bancaire de sa commune, avec les moyens prévus pour maintenir l'accès aux services.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000366335,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

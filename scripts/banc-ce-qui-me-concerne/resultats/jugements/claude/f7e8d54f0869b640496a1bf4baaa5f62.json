@@ -1,0 +1,35 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etudiant",
+    "raison": "Le texte désigne nommément les locataires justifiant d'études supérieures comme bénéficiaires de la résidence à vocation d'emploi, avec un bail mobilité d'une semaine à dix-huit mois. Une étudiante ou un étudiant est donc directement visé.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "apprenti_alternant",
+    "raison": "Le texte cite nommément le contrat d'apprentissage et le stage parmi les situations ouvrant droit à la location. Les alternants relèvent de la « formation professionnelle » visée par le texte.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "benevole",
+    "raison": "Le texte vise nommément l'engagement volontaire en service civique, que le catalogue range dans le profil benevole.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "locataire",
+    "raison": "Le texte organise le bail des locataires de ces résidences : il s'agit d'un bail mobilité, avec des loyers à la nuitée plafonnés. C'est un sous-groupe des locataires, visé par son statut de locataire.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0009859349999999998,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

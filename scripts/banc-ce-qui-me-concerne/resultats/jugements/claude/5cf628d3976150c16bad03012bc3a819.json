@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "proprietaire_bailleur",
+    "raison": "Le texte vise les bailleurs détenteurs d'un lot dans un EHPAD dont l'activité est transférée, pas des logements loués à l'année à des particuliers. Le profil désigne le propriétaire qui loue un ou plusieurs logements, et un lot d'établissement médico-social n'en est pas un. Le texte n'atteint donc pas le lecteur par ce profil.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000560335,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

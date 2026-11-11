@@ -1,0 +1,26 @@
+{
+ "impacts": [
+  {
+   "profil": "veuf",
+   "passage": "Le conjoint survivant qui occupait un logement de fonction, attribué au titre des fonctions du fonctionnaire civil décédé, bénéficie d’une majoration forfaitaire destinée à compenser la perte de ce logement.",
+   "certitude": "certain",
+   "phrase_en": "The surviving spouse of an agent living in a service apartment would receive a flat-rate allowance to offset the loss of that home, and could stay there for one year after the death.",
+   "phrase_fr": "Le conjoint survivant d'un agent occupant un logement de fonction recevrait une majoration forfaitaire pour compenser la perte de ce logement, et pourrait y rester un an après le décès."
+  },
+  {
+   "profil": "forces_ordre",
+   "passage": "du militaire décédé mentionné aux articles L. 6 et L. 7 du même code qui occupait un logement de fonction attribué au titre des fonctions de ce fonctionnaire civil ou de ce militaire",
+   "certitude": "probable",
+   "phrase_en": "The surviving spouse of a military member living in a service apartment would be able to stay in that home for one year after the death.",
+   "phrase_fr": "Le conjoint survivant d'un militaire occupant un logement de fonction pourrait rester dans ce logement un an après le décès."
+  },
+  {
+   "profil": "fonctionnaire",
+   "passage": "Le conjoint survivant du fonctionnaire civil mentionné à l’article L. 4 du code des pensions civiles et militaires de retraite",
+   "certitude": "possible",
+   "phrase_en": "The surviving spouse of a civil servant living in a service apartment would be able to stay in that home for one year after the death.",
+   "phrase_fr": "Le conjoint survivant d'un fonctionnaire civil occupant un logement de fonction pourrait rester dans ce logement un an après le décès."
+  }
+ ],
+ "resume_fr": null
+}

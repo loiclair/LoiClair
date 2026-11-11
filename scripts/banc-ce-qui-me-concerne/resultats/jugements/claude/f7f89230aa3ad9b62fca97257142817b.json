@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "proprietaire_bailleur",
+    "raison": "L'article modifie le régime de la déduction d'amortissement des revenus fonciers, qui ne profite qu'aux bailleurs. La condition de location nue à titre de résidence principale vise directement les propriétaires qui louent.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "imposable",
+    "raison": "La déduction réduit le revenu foncier imposable, donc l'impôt, mais le texte vise les contribuables qui acquièrent et mettent en location, pas les foyers imposables en tant que tels. Le statut d'imposable n'est pas le critère qui déclenche la mesure.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0008010350000000001,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

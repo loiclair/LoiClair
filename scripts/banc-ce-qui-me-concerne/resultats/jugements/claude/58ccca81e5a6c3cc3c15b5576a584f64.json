@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "parent",
+    "raison": "Le texte oblige les établissements scolaires à climatiser leurs locaux, sans donner de droit ni d'obligation aux parents. L'effet passe par l'école, qui doit réagir, donc il est indirect.",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "mineur",
+    "raison": "Le texte vise les locaux accueillant des élèves du premier et du second degré, c'est-à-dire des enfants et adolescents, et fixe la température des salles où ils travaillent. La mesure change directement leur environnement scolaire.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000571385,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

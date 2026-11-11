@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "independant",
+    "raison": "Le texte ne nomme aucune profession ni mode d'exercice, il modifie seulement le décompte des heures de formation. Rien n'indique que les personnes visées exercent en indépendant, donc le statut est prêté.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0045577,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

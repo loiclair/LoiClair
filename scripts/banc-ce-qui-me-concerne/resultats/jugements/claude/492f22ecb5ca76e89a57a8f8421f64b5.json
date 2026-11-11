@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "mineur",
+    "raison": "Le texte vise directement les mineurs victimes de prostitution ou d'exploitation sexuelle : repérage, orientation et accès garanti à un hébergement adapté.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "heberge",
+    "raison": "Le texte garantit un hébergement adapté aux mineurs victimes, mais il ne parle pas de personnes déjà hébergées en foyer. Le profil « hébergé » ne vise que des personnes qui le sont déjà, et le droit à un hébergement ne les concerne pas en tant que telles.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0026157,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

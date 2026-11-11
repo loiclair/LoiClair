@@ -1,0 +1,36 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "futur_parent",
+    "raison": "Le texte vise les femmes ou les couples engagés dans une tentative de FIV, dans le cadre d’un projet d’enfant.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "marie_pacse",
+    "raison": "Le texte vise les couples en FIV sans distinguer leur statut marital : être marié ou pacsé ne déclenche pas la mesure.",
+    "concerne": false,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "concubin",
+    "raison": "Le texte vise les couples en FIV sans distinguer leur statut marital : le concubinage ne déclenche pas la mesure.",
+    "concerne": false,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "celibataire",
+    "raison": "Le texte prévoit qu’un examen peut être proposé à la femme en FIV, mais ne vise pas les femmes parce qu’elles sont célibataires.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": [
+   "secteur_sante"
+  ]
+ },
+ "cout_usd": 0.000679025,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

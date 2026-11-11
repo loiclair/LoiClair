@@ -1,0 +1,29 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "rural",
+    "raison": "Le texte ajoute « police des campagnes » aux missions, mais ne vise pas les habitants des communes rurales comme catégorie ; c'est une mission des agents, qui ne change rien de direct et de concret pour l'habitant rural en tant que tel.",
+    "concerne": false,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "automobiliste",
+    "raison": "Le texte confère aux agents le pouvoir de constater les contraventions au code de la route, ce qui touche tous les conducteurs de la même façon. Aucune catégorie d'automobilistes n'est visée, et le pouvoir de verbaliser existait déjà en grande partie.",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "fonctionnaire",
+    "raison": "Le texte renomme les agents de police municipale en police territoriale, élargit leurs missions (code de la route, contraventions du livre VI du code pénal) et précise leur ressort territorial. Cela change directement les règles de leur métier. Ils sont fonctionnaires territoriaux, hors forces de l'ordre au sens du catalogue (policiers nationaux, gendarmes, militaires).",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0045487,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

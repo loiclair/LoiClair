@@ -1,0 +1,12 @@
+{
+ "impacts": [
+  {
+   "profil": "secteur_sante",
+   "phrase_fr": "Le secret médical ne serait plus opposable lorsque des données de l’aide médicale de l’État sont collectées par l’intermédiaire d’un professionnel de santé.",
+   "phrase_en": "Medical confidentiality would no longer be binding when data on state medical aid is collected through a healthcare professional.",
+   "passage": "Lorsque ces données sont collectées par l’intermédiaire d’un professionnel de santé, le secret médical n’est pas opposable.",
+   "certitude": "probable"
+  }
+ ],
+ "cout_usd": 0.00089131
+}

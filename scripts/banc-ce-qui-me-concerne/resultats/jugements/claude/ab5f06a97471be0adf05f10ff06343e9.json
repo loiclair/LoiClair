@@ -1,0 +1,20 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_culture",
+    "raison": "Le 6° remplace une référence qui deviendrait invalide (le 2° du B du II de l'article 293 B, réécrit par le 7°) par une formulation qui désigne les mêmes droits. C'est une coordination de références : le traitement fiscal des auteurs ne change pas, et le texte ne modifie aucune règle qui s'appliquerait à la culture.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": [
+   "auto_entrepreneur",
+   "chef_entreprise"
+  ]
+ },
+ "cout_usd": 0.0006853849999999999,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

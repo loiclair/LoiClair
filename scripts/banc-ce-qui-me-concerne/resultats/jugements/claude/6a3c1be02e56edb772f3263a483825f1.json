@@ -1,0 +1,35 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "salarie_prive",
+    "raison": "L'amendement oblige l'employeur à informer les salariés des frais, pénalités et coûts liés au déblocage de leur participation et intéressement : le salarié du privé est le destinataire direct de cette information.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "epargnant",
+    "raison": "Le texte porte sur l'épargne salariale (participation, intéressement), que la définition du profil exclut ; l'épargnant du catalogue n'est pas visé.",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "chef_entreprise",
+    "raison": "L'amendement renforce l'obligation d'information de l'employeur envers ses salariés, ce qui vise tout employeur, dont les dirigeants de PME.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "dirigeant_grande_entreprise",
+    "raison": "L'obligation d'information renforcée pèse sur tout employeur, donc aussi sur les dirigeants d'entreprises de 250 salariés ou plus.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0059387,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

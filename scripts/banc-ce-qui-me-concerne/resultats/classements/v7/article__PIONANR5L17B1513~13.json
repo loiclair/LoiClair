@@ -1,0 +1,19 @@
+{
+ "impacts": [
+  {
+   "profil": "residence_secondaire",
+   "phrase_fr": "Les communes en forte tension de logement pourraient augmenter de 5 % à 60 % la taxe d'habitation que vous payez sur votre résidence secondaire.",
+   "phrase_en": "Owners of a second home could face a council surcharge of 5% to 60% on its housing tax in towns with a severe housing shortage.",
+   "passage": "majorer d’un pourcentage compris entre 5 % et 60 % la part lui revenant de la cotisation de taxe d’habitation sur les résidences secondaires prévue aux articles 1407 et 1407 bis.",
+   "certitude": "certain"
+  },
+  {
+   "profil": "meuble_tourisme",
+   "phrase_fr": "Un logement meublé loué moins de 90 jours par an pourrait être considéré comme vacant et soumis à la taxe sur les logements vacants.",
+   "phrase_en": "A furnished home rented fewer than 90 days a year would be treated as vacant and could be subject to the vacant housing tax.",
+   "passage": "est considéré comme vacant un logement dont la durée d’occupation est inférieure à quatre‑vingt‑dix jours au cours de la période de référence définie au présent alinéa.",
+   "certitude": "probable"
+  }
+ ],
+ "cout_usd": 0.00099751
+}

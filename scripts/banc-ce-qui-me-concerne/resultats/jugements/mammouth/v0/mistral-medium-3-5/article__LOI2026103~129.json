@@ -1,0 +1,34 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etranger_hors_ue",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article modifie directement les taxes pour la délivrance et le renouvellement des titres de séjour, ce qui concerne les étrangers hors UE résidant en France. La phrase est fidèle au texte et au conditionnel (loi publiée, donc pas de conditionnel nécessaire)."
+   },
+   {
+    "profil": "automobiliste",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article introduit des tarifs spécifiques pour le remplacement ou l'échange d'un permis de conduire, ce qui concerne directement les automobilistes. La phrase est fidèle au texte."
+   },
+   {
+    "profil": "salarie_prive",
+    "concerne": false,
+    "phrase_fidele": false,
+    "raison": "La contribution pour l'aide juridique concerne toute partie qui introduit une instance en matière civile ou prud'homale, pas spécifiquement les salariés du privé. La phrase invente une restriction non présente dans le texte (\"coûte désormais\" sous-entend une obligation exclusive aux salariés, ce qui est faux)."
+   },
+   {
+    "profil": "independant",
+    "concerne": false,
+    "phrase_fidele": false,
+    "raison": "Le produit de la contribution est affecté au paiement des avocats, mais cela ne change rien directement pour les indépendants. La phrase décrit un effet institutionnel (affectation des fonds) et non un impact direct sur les indépendants."
+   }
+  ],
+  "oublis": [
+   "etranger_ue"
+  ]
+ },
+ "cout_usd": 0.0118935
+}

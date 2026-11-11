@@ -1,0 +1,26 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etranger_hors_ue",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article conditionne le versement des prestations familiales et de l'allocation personnalisée d'autonomie (APA) à une durée minimale de deux ans de séjour régulier pour les ressortissants hors UE."
+   },
+   {
+    "profil": "parent",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article modifie les critères d'attribution des prestations familiales (code de la sécurité sociale), ciblant ainsi les parents ou responsables légaux d'enfants."
+   },
+   {
+    "profil": "age_dependant",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "Le II modifie l'article L. 232-1 du code de l'action sociale et des familles, qui régit l'allocation personnalisée d'autonomie (APA) accordée aux personnes âgées dépendantes."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00764175
+}

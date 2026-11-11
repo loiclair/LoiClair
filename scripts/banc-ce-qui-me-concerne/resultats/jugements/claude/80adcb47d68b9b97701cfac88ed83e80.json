@@ -1,0 +1,28 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "residence_secondaire",
+    "raison": "La taxe d’habitation sur les résidences secondaires peut être majorée par la commune, dans les communes éligibles. Cela vise directement les propriétaires d’une résidence secondaire.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "meuble_tourisme",
+    "raison": "La durée d’occupation inférieure à 90 jours peut faire considérer le logement comme vacant pour l’application de la taxe, ce qui peut concerner un meublé de tourisme loué moins de 90 jours pendant la période de référence. La vacance indépendante de la volonté du contribuable reste toutefois exonérée.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "grande_ville",
+    "raison": "Le texte vise les communes présentant un déséquilibre marqué entre l’offre et la demande de logements, pas les grandes villes en tant que telles. Une commune concernée peut ne pas être une grande ville, et inversement.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.001879525,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

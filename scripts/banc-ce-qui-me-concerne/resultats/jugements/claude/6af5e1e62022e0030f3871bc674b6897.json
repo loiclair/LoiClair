@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "malade_chronique",
+    "raison": "Le texte vise les salariés atteints d'algie vasculaire de la face, maladie de longue durée nécessitant des soins réguliers, et leur donne un droit à 30 jours d'arrêt par an : ça les concerne directement.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "salarie_prive",
+    "raison": "L'article vise « les salariés » atteints de la maladie, qui sont dans le code de la sécurité sociale et ont un employeur ; le droit s'applique à eux directement. Mais le texte ne précise pas « du privé » : la phrase restreint à tort aux salariés du privé, ce qui est un ajout, même si les salariés du privé sont visés.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0030386999999999996,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

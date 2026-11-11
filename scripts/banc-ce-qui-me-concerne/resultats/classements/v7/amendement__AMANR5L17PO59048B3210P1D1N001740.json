@@ -1,0 +1,12 @@
+{
+ "resume_fr": "Étendrait à toute l'année 2027, au lieu du premier semestre, l'allègement fiscal des dons d'argent aux moins de 50 ans.",
+ "resume_en": "Would extend the tax relief on cash gifts to under-50s to the whole of 2027, instead of only the first half.",
+ "impacts": [
+  {
+   "profil": "heritier_donateur",
+   "passage": "I. – Aux alinéas 1 et 6, substituer à la date : « 30 juin », la date : « 31 décembre ».",
+   "certitude": "probable"
+  }
+ ],
+ "cout_usd": 0.00098987
+}

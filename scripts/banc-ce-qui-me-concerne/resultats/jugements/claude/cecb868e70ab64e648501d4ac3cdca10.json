@@ -1,0 +1,79 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_sante",
+    "raison": "L’article L.4113-13-1 impose le certificat à tout professionnel de santé et à toute personne intervenant dans les structures de santé auprès de mineurs.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "independant",
+    "raison": "Le texte vise l’exercice « à titre libéral » de soins auprès de mineurs, donc les professions libérales de santé.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "salarie_prive",
+    "raison": "Le certificat est exigé de toute personne travaillant auprès de mineurs, dont les salariés ; l’employeur doit le vérifier avant embauche.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "salarie_particulier",
+    "raison": "L’article L.421-3-1 subordonne l’obtention et le maintien de l’agrément d’assistant maternel au certificat.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "particulier_employeur",
+    "raison": "L’article L.1221-8 vise expressément les salariés employés par un particulier employeur ; celui-ci doit vérifier le certificat avant l’embauche.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "chef_entreprise",
+    "raison": "L’obligation de vérifier le certificat avant embauche ou affectation pèse sur tout employeur, donc sur les petites entreprises.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "benevole",
+    "raison": "L’article L.212-9 du code du sport exige le certificat de tout encadrant sportif « y compris bénévole ».",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "etudiant",
+    "raison": "L’article L.4113-13-1 III vise les étudiants intervenant auprès de mineurs dans les structures de santé.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "apprenti_alternant",
+    "raison": "Le même article L.4113-13-1 III vise les stagiaires intervenant auprès de mineurs dans les structures de santé, et le profil inclut les stagiaires.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "secteur_education",
+    "raison": "Le certificat est exigé de toute personne intervenant auprès des élèves, même ponctuellement, ce qui touche les obligations de ceux qui travaillent dans les écoles.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "secteur_transport",
+    "raison": "Le transport, le convoyage et l’accompagnement à la mobilité de mineurs entrent dans le champ de l’activité visée, donc dans les obligations de ceux qui transportent des enfants.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "dirigeant_grande_entreprise"
+  ]
+ },
+ "cout_usd": 0.002091085,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

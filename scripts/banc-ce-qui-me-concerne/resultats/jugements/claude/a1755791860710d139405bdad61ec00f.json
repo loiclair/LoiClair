@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etranger_hors_ue",
+    "raison": "Les articles L. 142-6, L. 142-7 et L. 813-1 du CESEDA visent les étrangers contrôlés : relevé d'empreintes et photographies, et retenue « en cas de refus par l'étranger ». La partie CPP (art. 78-2-2-1) vaut pour toute personne contrôlée et ne vise pas les étrangers en tant que tels.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.001121385,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

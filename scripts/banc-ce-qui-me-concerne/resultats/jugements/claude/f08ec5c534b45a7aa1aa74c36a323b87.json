@@ -1,0 +1,29 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "malade_chronique",
+    "raison": "Le texte vise une affection grave et incurable, engageant le pronostic vital, en phase avancée ou terminale. La définition de malade_chronique couvre une maladie de longue durée qui demande des soins réguliers, et la règle 8 exclut expressément la maladie incurable en phase terminale. Le profil n'est pas visé.",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "etranger_hors_ue",
+    "raison": "La condition « de nationalité française ou résider de façon stable et régulière en France » distingue directement les non-Français. Un ressortissant hors UE vivant en France avec un titre de séjour est visé par ce critère et gagne l'accès à l'aide à mourir. La mesure ne passe par aucun tiers.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "etranger_ue",
+    "raison": "La même condition de résidence stable et régulière s'applique aux ressortissants de l'UE qui ne sont pas de nationalité française. Le texte désigne donc directement cette catégorie par sa nationalité et son statut de résidence, ce qui change son accès au droit.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0011527850000000001,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

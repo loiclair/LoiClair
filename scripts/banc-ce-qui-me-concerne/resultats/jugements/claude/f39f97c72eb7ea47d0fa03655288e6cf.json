@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_sante",
+    "raison": "Le texte vise directement les médecins, chirurgiens-dentistes et sages-femmes, professionnels du soin. Il change les conditions dans lesquelles ils peuvent s'absenter pour remplacement afin d'exercer dans des territoires sous-dotés, donc leurs obligations professionnelles.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000584135,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

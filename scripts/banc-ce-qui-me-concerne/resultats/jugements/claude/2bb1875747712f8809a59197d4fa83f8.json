@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "elu_local",
+    "raison": "Le texte modifie directement la désignation du suppléant d’un conseiller communautaire et prévoit sa participation aux réunions délibérantes : il vise des élus locaux.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00081805,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

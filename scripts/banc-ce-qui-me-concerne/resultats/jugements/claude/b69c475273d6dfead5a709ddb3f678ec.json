@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "elu_local",
+    "raison": "Le texte permet aux communes de montagne de reprendre par délibération les compétences eau et assainissement après avis de la communauté de communes, et redéfinit les compétences des communautés de communes. Les conseillers municipaux et communautaires en zone de montagne sont directement visés dans leurs obligations de décision et leurs démarches.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0027037,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

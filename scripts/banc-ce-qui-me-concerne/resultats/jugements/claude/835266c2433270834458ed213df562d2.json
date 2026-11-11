@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "usager_transports",
+    "raison": "L'article vise des caméras frontales qui filment la voie publique devant le véhicule, pas les voyageurs. La signalétique informe le public sans atteindre les usagers dans leurs déplacements. La phrase de l'assistant affirme à tort que les voyageurs pourront être filmés.",
+    "concerne": false,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "secteur_transport",
+    "raison": "L'article autorise les opérateurs de transports guidés urbains (tramways, métros) à installer des caméras sur leurs matériels roulants. Les enregistrements servent à former le personnel de conduite et à engager des procédures disciplinaires, ce qui touche directement le travail des conducteurs. La phrase de l'assistant dit toutefois que les conducteurs seront filmés, alors que le texte vise la voie publique et ne désigne pas les conducteurs comme objet de la captation.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.001063085,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

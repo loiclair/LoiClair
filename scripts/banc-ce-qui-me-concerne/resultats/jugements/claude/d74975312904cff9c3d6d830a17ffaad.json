@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "locataire",
+    "raison": "Le texte vise explicitement le locataire et lui accorde directement le bénéfice des obligations imposées au bailleur.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "proprietaire_bailleur",
+    "raison": "Le texte impose directement au bailleur de garantir le confort thermique et, sur demande du locataire, d’installer les équipements prévus ou leurs solutions de remplacement.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0002634,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

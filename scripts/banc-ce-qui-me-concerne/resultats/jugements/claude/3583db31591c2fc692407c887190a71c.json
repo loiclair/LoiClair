@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_sante",
+    "raison": "Le texte encadre directement l’autorisation de remplacement des médecins, chirurgiens-dentistes et sages-femmes qui contribuent à l’accès aux soins dans des territoires sous-dotés ; ces professions relèvent du secteur de la santé.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000333525,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

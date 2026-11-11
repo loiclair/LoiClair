@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_education",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'amendement supprime l'alinéa 3 qui permet le retrait de la protection fonctionnelle pour les personnels de l'Éducation nationale. Le passage visé dans l'article initial mentionne explicitement 'un personnel de l’éducation mentionné au livre IX de la quatrième partie', ce qui cible directement ce secteur."
+   },
+   {
+    "profil": "fonctionnaire",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "Les personnels de l'Éducation nationale sont des fonctionnaires ou contractuels de l'État. L'amendement modifie directement leurs droits en matière de protection fonctionnelle, visés par l'article L. 134-5 du code général de la fonction publique."
+   }
+  ],
+  "oublis": [
+   "secteur_culture"
+  ]
+ },
+ "cout_usd": 0.007536
+}

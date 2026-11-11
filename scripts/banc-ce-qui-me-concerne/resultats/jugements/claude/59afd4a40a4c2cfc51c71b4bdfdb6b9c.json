@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "epargnant",
+    "raison": "Le texte crée un livret d’épargne et en prévoit l’ouverture par les personnes physiques ayant leur domicile fiscal en France ; il concerne directement les personnes qui épargnent.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "marie_pacse",
+    "raison": "Le texte prévoit expressément qu’en cas d’imposition commune, chacun des époux ou partenaires pacsés peut avoir son livret.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000337775,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

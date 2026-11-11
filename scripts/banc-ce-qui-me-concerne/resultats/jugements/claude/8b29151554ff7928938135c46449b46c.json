@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "montagne",
+    "raison": "Le texte désigne bien les communes situées en zone de montagne, mais il règle la répartition des compétences entre la commune et la communauté de communes. Un habitant n'est touché que si sa commune ou sa communauté décide de reprendre ou de garder la compétence, donc l'effet passe par une collectivité.",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "elu_local",
+    "raison": "Le texte donne aux conseils municipaux des communes de montagne le pouvoir de délibérer pour retrouver l'eau et l'assainissement, après avis de la communauté. Les élus municipaux sont directement visés par cette nouvelle décision qu'ils devront prendre.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000943335,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

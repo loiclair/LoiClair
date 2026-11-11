@@ -1,0 +1,61 @@
+{
+ "impacts": [
+  {
+   "profil": "imposable",
+   "passage": "Il est institué à la charge des contribuables une taxe dénommée : “contribution progressive au financement de l’audiovisuel public”.",
+   "certitude": "probable",
+   "phrase_en": "Households would pay an audiovisual contribution whose amount depends on their reference tax income, from 10 € to 350 €.",
+   "phrase_fr": "Les foyers paieraient une contribution audiovisuelle dont le montant dépendrait de leur revenu fiscal de référence, de 10 € à 350 €."
+  },
+  {
+   "profil": "outre_mer",
+   "passage": "Pour la Martinique, la Guadeloupe et la Réunion, les montants des revenus mentionnés au premier alinéa du présent 2° sont fixés à 13 343 €",
+   "certitude": "certain",
+   "phrase_en": "Income thresholds for the rebate would be set at amounts specific to Martinique, Guadeloupe, Réunion, French Guiana and Mayotte.",
+   "phrase_fr": "Les seuils de revenus donnant droit au dégrèvement seraient fixés à des montants propres à la Martinique, la Guadeloupe, la Réunion, la Guyane et Mayotte."
+  },
+  {
+   "profil": "handicap",
+   "passage": "Les titulaires de l’allocation aux adultes handicapés mentionnée à l’article L. 821-1 du code de la sécurité sociale, lorsque le montant de leurs revenus de l’année précédente n’excède pas 11 276 €",
+   "certitude": "certain",
+   "phrase_en": "Recipients of the adult disability allowance would be exempt from the contribution, subject to an income limit.",
+   "phrase_fr": "Les bénéficiaires de l’allocation aux adultes handicapés seraient dégrevés de la contribution, sous condition de revenus."
+  },
+  {
+   "profil": "retraite",
+   "passage": "Les titulaires de l’allocation de solidarité aux personnes âgées mentionnée à l’article L. 815-1 du code de la sécurité sociale",
+   "certitude": "probable",
+   "phrase_en": "Recipients of the solidarity allowance for elderly people would be exempt from the audiovisual contribution.",
+   "phrase_fr": "Les bénéficiaires de l’allocation de solidarité aux personnes âgées seraient dégrevés de la contribution audiovisuelle."
+  },
+  {
+   "profil": "senior",
+   "passage": "Les contribuables âgés de plus de 60 ans, les veuves et veufs dont le montant des revenus de l’année précédente n’excède pas la limite prévue au 2° du présent II",
+   "certitude": "certain",
+   "phrase_en": "Taxpayers over 60, subject to income limits and not paying the real estate wealth tax, would be exempt from the contribution.",
+   "phrase_fr": "Les contribuables de plus de 60 ans, sous conditions de revenus et s’ils ne paient pas l’impôt sur la fortune immobilière, seraient dégrevés de la contribution."
+  },
+  {
+   "profil": "veuf",
+   "passage": "les veuves et veufs dont le montant des revenus de l’année précédente n’excède pas la limite prévue au 2° du présent II",
+   "certitude": "certain",
+   "phrase_en": "Widows and widowers with modest incomes would be exempt from the audiovisual contribution.",
+   "phrase_fr": "Les veuves et veufs ayant des revenus modestes seraient dégrevés de la contribution audiovisuelle."
+  },
+  {
+   "profil": "age_dependant",
+   "passage": "Les personnes qui conservent la jouissance exclusive de l’habitation qui constituait leur résidence principale avant qu’elles soient hébergées durablement dans un établissement",
+   "certitude": "possible",
+   "phrase_en": "People permanently housed in a long-term care facility who keep their home could be exempt under income conditions.",
+   "phrase_fr": "Les personnes hébergées durablement dans un établissement de soins de longue durée, qui gardent leur logement, pourraient être dégrevées sous conditions de revenus."
+  },
+  {
+   "profil": "demandeur_emploi",
+   "passage": "Les contribuables mentionnés au 4° du présent II lorsqu’ils occupent leur habitation principale avec leurs enfants majeurs et que ceux-ci sont inscrits comme demandeurs d’emploi",
+   "certitude": "possible",
+   "phrase_en": "Parents over 60 living with an adult child registered as a jobseeker could benefit from a rebate.",
+   "phrase_fr": "Les parents de plus de 60 ans vivant avec un enfant majeur inscrit comme demandeur d’emploi pourraient bénéficier d’un dégrèvement."
+  }
+ ],
+ "resume_fr": null
+}

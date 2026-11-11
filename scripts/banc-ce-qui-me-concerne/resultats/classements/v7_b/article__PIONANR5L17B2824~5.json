@@ -1,0 +1,26 @@
+{
+ "impacts": [
+  {
+   "profil": "mineur",
+   "phrase_fr": "Les moins de treize ans ne pourraient être embauchés dans une entreprise de cinéma qu'avec l'avis favorable de médecins, d'un psychologue et d'un comité.",
+   "phrase_en": "Children under thirteen could only be hired by a film company with approval from doctors, a psychologist and a committee.",
+   "passage": "l’embauche d’un mineur de moins de treize ans dans une entreprise de cinéma est soumise à l’avis conforme d’un médecin de l’organisme Thalie Santé, d’un psychologue agréé par ce même organisme et du comité compétent en matière de santé, de sécurité et de conditions de travail dans le secteur de la production cinématographique et audiovisuelle.",
+   "certitude": "certain"
+  },
+  {
+   "profil": "parent",
+   "phrase_fr": "Vous devriez être présent, en tant que représentant légal, lors de l'embauche de votre enfant de moins de treize ans et pendant son contrat de travail.",
+   "phrase_en": "You would have to be present, as legal representative, when your child under thirteen is hired and throughout their work contract.",
+   "passage": "L’emploi d’un mineur de moins de treize ans est subordonné à la présence de l’un de ses représentants légaux lors de son embauche, durant l’exécution de son contrat de travail",
+   "certitude": "certain"
+  },
+  {
+   "profil": "secteur_culture",
+   "phrase_fr": "L'embauche d'enfants de moins de treize ans dans le cinéma seraient encadrée par des avis médicaux et psychologiques obligatoires.",
+   "phrase_en": "Hiring children under thirteen in film production would require mandatory medical and psychological approvals.",
+   "passage": "l’embauche d’un mineur de moins de treize ans dans une entreprise de cinéma est soumise à l’avis conforme",
+   "certitude": "probable"
+  }
+ ],
+ "cout_usd": 0.00221297
+}

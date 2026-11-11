@@ -1,0 +1,19 @@
+{
+ "impacts": [
+  {
+   "profil": "residence_secondaire",
+   "phrase_fr": "La commune pourrait augmenter de 5 % à 60 % la taxe d'habitation due sur votre résidence secondaire.",
+   "phrase_en": "Your commune could raise the housing tax on your second home by 5% to 60%.",
+   "passage": "Le conseil municipal peut, par une délibération prise dans les conditions prévues à l’article 1639 A bis, majorer d’un pourcentage compris entre 5 % et 60 % la part lui revenant de la cotisation de taxe d’habitation sur les résidences secondaires",
+   "certitude": "certain"
+  },
+  {
+   "profil": "meuble_tourisme",
+   "phrase_fr": "Un logement loué en courte durée pourrait être considéré comme vacant s'il est occupé moins de 90 jours par an, et donc soumis à la taxe.",
+   "phrase_en": "A short-term rental would could be treated as vacant if occupied under 90 days a year, and so subject to the tax.",
+   "passage": "Pour l’application de la taxe, est considéré comme vacant un logement dont la durée d’occupation est inférieure à quatre‑vingt‑dix jours au cours de la période de référence définie au présent alinéa.",
+   "certitude": "probable"
+  }
+ ],
+ "cout_usd": 0.00121351
+}

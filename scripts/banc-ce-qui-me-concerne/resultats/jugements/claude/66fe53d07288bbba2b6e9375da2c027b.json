@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "elu_local",
+    "raison": "Le texte impose aux établissements d’informer au préalable le maire de la commune concernée ; le maire est un élu local.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0001929,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

@@ -1,0 +1,12 @@
+{
+ "impacts": [
+  {
+   "profil": "secteur_agriculture",
+   "phrase_fr": "Les élevages seraient soumis à des prescriptions générales nationales, pouvant inclure un plan de modernisation de leurs bâtiments.",
+   "phrase_en": "Livestock farms would be subject to national general rules, which could include a plan to modernise their buildings.",
+   "passage": "Les prescriptions générales peuvent comprendre un plan de modernisation des bâtiments d'élevage, visant notamment à : « 1° Optimiser la gestion des effluents afin de limiter les émissions polluantes ;",
+   "certitude": "probable"
+  }
+ ],
+ "cout_usd": 0.00130211
+}

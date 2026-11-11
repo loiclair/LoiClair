@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_education",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'amendement supprime une disposition qui concernait spécifiquement les personnels de l'Éducation nationale (protection fonctionnelle conditionnelle). Le profil 'secteur_education' est donc directement concerné, car l'article vise explicitement ces personnels. La phrase est fidèle au texte : elle décrit bien l'effet concret de la suppression (retrait de la condition de faute personnelle pour la protection)."
+   },
+   {
+    "profil": "fonctionnaire",
+    "concerne": true,
+    "phrase_fidele": false,
+    "raison": "Le passage visé ('personnels de l’éducation') inclut les fonctionnaires de l'Éducation nationale (enseignants, etc.), qui sont explicitement ciblés par la mesure. Cependant, la phrase proposée par l'assistant ne mentionne pas ce profil, alors qu'il est concerné. La phrase pour ce profil devrait être : 'Supprimerait la possibilité de retirer, en cas de faute personnelle, la protection accordée aux fonctionnaires de l’Éducation nationale victimes de violences.' / 'Would remove the possibility of withdrawing, in case of personal fault, the protection granted to civil servants in the national education system who are victims of violence.'"
+   }
+  ],
+  "oublis": [
+   "fonctionnaire"
+  ]
+ },
+ "cout_usd": 0.008205
+}

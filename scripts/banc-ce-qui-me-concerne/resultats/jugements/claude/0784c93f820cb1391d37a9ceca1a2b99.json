@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_education",
+    "raison": "Le texte vise directement les accompagnants d’élèves en situation de handicap et modifie leur recrutement, leur statut et leur formation, ce qui touche leur métier dans l’éducation.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "fonctionnaire",
+    "raison": "Le texte prévoit la création d’un corps de fonctionnaires et vise notamment les agents non titulaires qui exercent dans les établissements concernés à la date prévue ; les contractuels de la fonction publique entrent dans ce profil.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000882525,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "imposable",
+    "raison": "L'article modifie l'article 199 undecies B du CGI, qui régit la réduction d'impôt sur le revenu pour investissements outre-mer. Il touche donc directement les foyers imposables qui investissent. Le texte ne précise toutefois pas quel avantage change.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0064277,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

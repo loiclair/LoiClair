@@ -1,0 +1,14 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "epargnant",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article modifie le champ d'application du régime d'imposition des plus-values sur actifs numériques (article 150 VH bis du code général des impôts) en en excluant certains crypto-actifs, ce qui concerne directement les personnes investissant dans les cryptoactifs."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.01045875
+}

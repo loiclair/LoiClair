@@ -1,0 +1,20 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "proprietaire_occupant",
+    "raison": "Le texte vise les propriétaires de constructions touchées par le retrait-gonflement des argiles (« le propriétaire ait souscrit une assurance multirisque habitation »). Le propriétaire occupant d'une maison endommagée peut obtenir l'aide du fonds, donc il est directement visé. La phrase de l'assistant reste fidèle : conditionnel respecté, zone et condition d'assurance correctes.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "proprietaire_bailleur",
+   "coproprietaire"
+  ]
+ },
+ "cout_usd": 0.0046876999999999995,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

@@ -1,0 +1,38 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "handicap",
+    "raison": "Le texte cite expressément le handicap parmi les critères de discrimination.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "malade_chronique",
+    "raison": "Le texte cite expressément l’état de santé comme critère de discrimination.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "celibataire",
+   "concubin",
+   "marie_pacse",
+   "separe_divorce",
+   "veuf",
+   "syndique",
+   "parent",
+   "parent_isole",
+   "famille_nombreuse",
+   "mineur",
+   "jeune",
+   "senior",
+   "age_dependant",
+   "etranger_ue",
+   "etranger_hors_ue"
+  ]
+ },
+ "cout_usd": 0.000980275,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

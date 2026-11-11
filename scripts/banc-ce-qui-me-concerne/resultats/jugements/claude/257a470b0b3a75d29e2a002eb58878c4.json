@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "veuf",
+    "raison": "Le texte vise explicitement le conjoint survivant d’un fonctionnaire civil ou d’un militaire décédé, sous condition qu’il occupait le logement de fonction concerné : le veuf ou la veuve est directement visé.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000306775,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

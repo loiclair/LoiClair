@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "elu_local",
+    "raison": "Le texte oblige les établissements bancaires à informer au préalable le maire de la commune d'implantation de tout projet de fermeture d'agence : le maire (élu municipal) est directement visé et acquiert un droit à l'information.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0018967,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

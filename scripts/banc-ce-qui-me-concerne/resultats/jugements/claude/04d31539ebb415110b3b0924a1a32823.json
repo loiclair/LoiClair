@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "apprenti_alternant",
+    "raison": "L'amendement vise les entreprises frappées d'interdiction d'accueillir stagiaires et apprentis (sinistralité, manquement à l'obligation de sécurité, responsabilité pénale). Il ouvre à l'inspecteur du travail la possibilité de les autoriser après un délai réglementaire. Un apprenti ou stagiaire n'y gagne ni ne perd directement : l'effet passe par l'entreprise et la décision de l'inspecteur, donc indirect.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0005860850000000001,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

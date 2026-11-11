@@ -1,0 +1,18 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "proprietaire_bailleur",
+    "raison": "Le dispositif impose que les raisons techniques rendant les travaux impossibles soient « attestées », ce qui touche directement le bailleur dont l’obligation de décence énergétique est en cause.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "locataire"
+  ]
+ },
+ "cout_usd": 0.0004734,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

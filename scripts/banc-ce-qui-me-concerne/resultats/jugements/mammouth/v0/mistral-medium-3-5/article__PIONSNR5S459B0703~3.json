@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "age_dependant",
+    "concerne": false,
+    "phrase_fidele": false,
+    "raison": "L'article modifie la liste des critères de discrimination interdits en ajoutant 'la perte d’autonomie', mais il ne vise pas spécifiquement les personnes âgées en perte d'autonomie. Il s'agit d'une mesure générale qui protège toute personne en situation de perte d'autonomie, quel que soit son âge. Le profil 'age_dependant' n'est donc pas directement concerné car la mesure ne cible pas spécifiquement ce groupe."
+   }
+  ],
+  "oublis": [
+   "handicap",
+   "malade_chronique"
+  ]
+ },
+ "cout_usd": 0.0066705
+}

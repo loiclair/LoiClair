@@ -1,0 +1,12 @@
+{
+ "impacts": [
+  {
+   "profil": "elu_local",
+   "phrase_fr": "Les règles de scrutin et de désignation des adjoints dans les communes changent, notamment en cas de vacance dans une commune de moins de 1 000 habitants.",
+   "phrase_en": "Voting and deputy appointment rules in municipalities change, including when a vacancy occurs in a municipality with fewer than 1,000 inhabitants.",
+   "passage": "Par dérogation à l'avant-dernier alinéa du présent article, en cas de vacance dans les communes de moins de 1 000 habitants, le ou les adjoints sont désignés parmi les conseillers, sans tenir compte du sexe de ces derniers.",
+   "certitude": "certain"
+  }
+ ],
+ "cout_usd": 0.0002371
+}

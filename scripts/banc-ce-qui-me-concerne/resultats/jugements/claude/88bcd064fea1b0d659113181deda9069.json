@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_agriculture",
+    "raison": "L'article vise les installations d'élevage soumises à enregistrement ou autorisation : prescriptions générales, plan de modernisation des bâtiments, effluents, biosécurité. Il change les règles d'exercice du métier d'éleveur, et une stratégie nationale vise aussi ce métier.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "chef_entreprise",
+    "raison": "Les prescriptions visent les exploitants d'installations d'élevage classées. Par la règle 11, une règle d'exploitation concerne ceux qui exploitent. Ces éleveurs sont en pratique dirigeants d'exploitations de moins de 250 salariés, donc chef d'une PME.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0044117,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

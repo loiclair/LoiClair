@@ -1,0 +1,37 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etranger_hors_ue",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "Le profil est bien concerné : le texte modifie les taxes sur les titres de séjour pour les étrangers, ce qui affecte directement leur argent. La phrase résume correctement les nouveaux tarifs (300€ première délivrance, 200€ renouvellement, tarifs réduits). Toutefois, la phrase omet de mentionner que certains titres sont exonérés (I, 1° et 2°), ce qui n'est pas une invention mais une omission. Le passage cité justifie bien le profil et le tarif de 300€. Aucun conditionnel requis car loi publiée."
+   },
+   {
+    "profil": "automobiliste",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "Le profil est bien concerné : l'article crée de nouvelles taxes pour le remplacement ou l'échange d'un permis de conduire, ce qui affecte directement les automobilistes. La phrase résume correctement les nouveaux tarifs (25€ pour remplacement, 40€ pour échange) et les cas visés. Les passages cités (un seul est fourni) justifient le profil."
+   },
+   {
+    "profil": "salarie_prive",
+    "concerne": false,
+    "phrase_fidele": true,
+    "raison": "Le profil 'salarie_prive' n'est pas directement concerné. L'article crée une contribution de 50€ pour toute instance introduite en matière civile ou prud'homale. Cela concerne toute personne qui introduit une instance aux prud'hommes, quel que soit son secteur d'activité (salarié du privé, fonctionnaire, salarié d'association, etc.). La mesure ne vise pas spécifiquement le salarié du privé en tant que tel. Selon la consigne, 'Une mesure qui s'applique à tous, quels que soient (...) le secteur (...) ne vise aucune réponse de ces groupes'. La phrase est factuellement correcte sur l'existence de la contribution, mais elle attribue à tort ce profil comme spécifiquement concerné."
+   },
+   {
+    "profil": "independant",
+    "concerne": false,
+    "phrase_fidele": false,
+    "raison": "Le profil 'independant' (travailleur indépendant ou profession libérale) n'est pas directement concerné. Le texte affecte le produit de la contribution aux barreaux pour payer les avocats effectuant des missions d'aide juridictionnelle. Cela affecte le financement de la profession d'avocat (qui peut être indépendante), mais pas un travailleur indépendant en général (la définition inclut 'avocat, architecte, consultant...'). Surtout, l'effet est institutionnel et indirect : le texte change une règle de financement du système judiciaire, pas les droits ou obligations d'un avocat. La phrase est infidèle car elle déduit un effet direct sur les 'indépendants' du simple fait que l'argent transite par des caisses d'avocats, ce qui est un effet lointain et non un changement direct pour eux. Un avocat ne voit pas ses droits, ses obligations ou son argent directement modifiés par cette règle d'affectation."
+   }
+  ],
+  "oublis": [
+   "fumeur",
+   "joueur",
+   "travailleur_frontalier",
+   "etranger_ue"
+  ]
+ },
+ "cout_usd": 0.0067782
+}

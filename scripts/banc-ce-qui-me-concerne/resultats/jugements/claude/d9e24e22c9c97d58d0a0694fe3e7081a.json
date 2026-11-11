@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "salarie_prive",
+    "raison": "Le texte ne nomme pas les salariés : il érige en harcèlement moral les propos ou comportements imposés par une politique d'entreprise, sans dire qui en est victime. Il vise la conduite de l'entreprise et s'applique à quiconque la subit, pas à une catégorie définie par le statut de salarié. Le profil n'est donc pas concerné.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000704835,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

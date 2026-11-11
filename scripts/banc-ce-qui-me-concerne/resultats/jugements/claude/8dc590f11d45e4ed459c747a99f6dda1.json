@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "expat",
+    "raison": "L'article modifie une procédure relative aux listes électorales consulaires et aux élections des Français établis hors de France, donc les expatriés sont visés. Mais la modification est technique : elle porte sur un avis des conseils consulaires, sans effet direct et concret sur les droits ou démarches de l'électeur.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0019317,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

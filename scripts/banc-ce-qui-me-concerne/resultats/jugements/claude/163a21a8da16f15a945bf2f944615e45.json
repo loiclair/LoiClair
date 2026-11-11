@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_culture",
+    "raison": "L'article 13 modifie des délais de prescription de poursuites pour délits de presse, soit une règle de procédure judiciaire qui ne change ni la façon d'exercer le métier de la presse ou de l'édition, ni leurs obligations professionnelles (règle 12).",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000682635,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

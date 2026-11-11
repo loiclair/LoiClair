@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "heritier_donateur",
+    "raison": "L'amendement prolonge jusqu'au 31 décembre la période de taux réduit sur les dons d'argent aux descendants de moins de 50 ans (« substituer à la date « 30 juin » la date « 31 décembre » »). Il vise directement ceux qui donnent ou reçoivent ces dons.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0031046999999999997,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

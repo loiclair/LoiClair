@@ -1,0 +1,29 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etranger_hors_ue",
+    "raison": "Le texte restreint les prestations familiales des étrangers hors UE titulaires d'un document de séjour, avec une condition d'un an de résidence en France. La nationalité hors UE est le critère qui déclenche la mesure.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "parent",
+    "raison": "La condition de résidence et la restriction visent la nationalité hors UE et le document de séjour, pas la parentalité. Un parent français ou ressortissant de l'UE n'est pas touché.",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "outre_mer",
+    "raison": "Le II allonge de deux à trois ans un délai de l'ordonnance du 22 juillet 2026 applicable à Mayotte. Cette mesure propre à un lieu vise directement les habitants de Mayotte.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.001611185,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

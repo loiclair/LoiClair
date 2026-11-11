@@ -1,0 +1,19 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_agriculture",
+    "raison": "L'article vise directement les installations d'élevage (prescriptions générales, plan de modernisation, obligations environnementales) et la stratégie nationale pour l'élevage, ainsi que le métier d'éleveur : le secteur agricole est concerné.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "chef_entreprise"
+  ]
+ },
+ "cout_usd": 0.0035437,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

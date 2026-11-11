@@ -1,0 +1,34 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "salarie_prive",
+    "raison": "Le code du travail ajoute l’allaitement aux motifs de discrimination interdits : cela modifie directement les protections des salariés du privé.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "fonctionnaire",
+    "raison": "Le dispositif ajoute l’allaitement aux motifs de discrimination interdits dans le code général de la fonction publique.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "parent",
+    "raison": "La mesure vise les personnes qui allaitent, pas les parents en tant que tels ; le profil parent ne suffit pas à déclencher la protection.",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "outre_mer",
+    "raison": "La disposition ultramarine citée concerne le statut de certains fonctionnaires communaux en Polynésie française, pas les habitants d’outre-mer du seul fait de leur lieu de résidence.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000739525,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

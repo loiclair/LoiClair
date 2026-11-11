@@ -1,0 +1,20 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_finance",
+    "concerne": false,
+    "phrase_fidele": true,
+    "raison": "Il s'agit d'une peine complémentaire pénale encourue uniquement en cas de commission et de condamnation pour des délits douaniers. L'effet est hypothétique et ne modifie pas les règles normales de la profession."
+   },
+   {
+    "profil": "chef_entreprise",
+    "concerne": false,
+    "phrase_fidele": true,
+    "raison": "L'interdiction de vote ou d'éligibilité est une sanction pénale complémentaire qui ne s'applique qu'en cas de condamnation pour des délits douaniers, ce qui relève d'un effet hypothétique."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00858375
+}

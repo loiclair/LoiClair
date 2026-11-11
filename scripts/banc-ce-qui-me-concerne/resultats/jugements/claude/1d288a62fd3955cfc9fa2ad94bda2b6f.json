@@ -1,0 +1,19 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etranger_hors_ue",
+    "raison": "Les dispositions sur les contrôles de séjour visent expressément l’étranger : elles permettent des relevés biométriques et prévoient une retenue en cas de refus. Les étrangers hors UE résidant en France peuvent donc être concernés.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "etranger_ue",
+   "forces_ordre"
+  ]
+ },
+ "cout_usd": 0.0015059,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

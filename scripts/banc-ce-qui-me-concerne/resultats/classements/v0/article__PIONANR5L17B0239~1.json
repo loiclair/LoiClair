@@ -1,0 +1,33 @@
+{
+ "impacts": [
+  {
+   "profil": "salarie_prive",
+   "passage": "Les cotisations, dont le taux global, fixé par décret en Conseil d’État, ne peut dépasser 2 % de la rémunération, sont réparties à parts égales entre les employeurs et les salariés.",
+   "certitude": "certain",
+   "phrase_en": "Your retirement contributions would rise by up to 2% of your salary, split equally with your employer, into a new points-based scheme.",
+   "phrase_fr": "Vos cotisations retraite augmenteraient d'un maximum de 2 % de votre salaire, réparties à parts égales avec votre employeur, versées à un nouveau régime par points."
+  },
+  {
+   "profil": "chef_entreprise",
+   "passage": "Les cotisations, dont le taux global, fixé par décret en Conseil d’État, ne peut dépasser 2 % de la rémunération, sont réparties à parts égales entre les employeurs et les salariés.",
+   "certitude": "probable",
+   "phrase_en": "You would pay half of the contributions to a new retirement scheme for your employees, up to 2% of their pay.",
+   "phrase_fr": "Vous paieriez la moitié des cotisations d'un nouveau régime de retraite pour vos salariés, dans la limite de 2 % de leur rémunération."
+  },
+  {
+   "profil": "dirigeant_grande_entreprise",
+   "passage": "Les cotisations, dont le taux global, fixé par décret en Conseil d’État, ne peut dépasser 2 % de la rémunération, sont réparties à parts égales entre les employeurs et les salariés.",
+   "certitude": "probable",
+   "phrase_en": "Your company would pay half of the contributions to a new retirement scheme for its employees, up to 2% of their pay.",
+   "phrase_fr": "Votre entreprise paierait la moitié des cotisations d'un nouveau régime de retraite pour ses salariés, dans la limite de 2 % de leur rémunération."
+  },
+  {
+   "profil": "retraite",
+   "passage": "Par dérogation aux I et II de l’article L. 136‑8, cette retraite est assujettie à la contribution sociale au taux de 6,6 % prévue au III bis du même article L. 136‑8.",
+   "certitude": "possible",
+   "phrase_en": "Pensions paid by this new scheme would be subject to a 6.6% social contribution, for future retirees who receive them.",
+   "phrase_fr": "Les retraites versées par ce nouveau régime seraient soumises à une contribution sociale de 6,6 %, pour les futurs retraités qui en bénéficieraient."
+  }
+ ],
+ "resume_fr": null
+}

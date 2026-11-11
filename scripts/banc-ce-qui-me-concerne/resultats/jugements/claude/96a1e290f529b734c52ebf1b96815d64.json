@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "parent",
+    "raison": "Le texte inclut dans l’assiette les biens des enfants mineurs lorsque la personne contribuable en a l’administration légale : cela vise directement les parents concernés.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00041165,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

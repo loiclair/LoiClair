@@ -1,0 +1,19 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "salarie_prive",
+    "concerne": false,
+    "phrase_fidele": false,
+    "raison": "Le profil 'salarie_prive' est trop restrictif. L'article modifie le code de la sécurité sociale et s'applique à toute personne bénéficiant d'indemnités journalières, ce qui inclut tous les salariés du privé et du public, les indépendants, etc. De plus, l'assistant n'a pas respecté la consigne sur le conditionnel. La phrase fournie est au conditionnel ('subirait'), ce qui est correct puisque la proposition de loi n'est pas adoptée, mais le résumé ne doit pas se limiter à une phrase par profil mais doit présenter un résumé global pour l'amendement, ce qui n'a pas été fait. Surtout, l'assistant a inventé le fait que cela concernait une 'salariée' : le texte parle de 'l'incapacité de travail', sans mention de salariat, et il a inventé la notion de 'salariée'."
+   }
+  ],
+  "oublis": [
+   "fonctionnaire",
+   "independant",
+   "cdd_interim",
+   "demandeur_emploi"
+  ]
+ },
+ "cout_usd": 0.0018317
+}

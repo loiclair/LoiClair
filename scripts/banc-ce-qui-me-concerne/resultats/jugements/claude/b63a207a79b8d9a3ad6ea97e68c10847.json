@@ -1,0 +1,29 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "apprenti_alternant",
+    "raison": "L'amendement autorise l'inspecteur à permettre à une entreprise exclue de conclure un contrat d'apprentissage. L'apprenti n'est visé ni par la condition ni par la sanction : l'effet passe par l'entreprise et l'inspecteur, donc il est indirect.",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "etudiant",
+    "raison": "Le texte vise la convention de stage conclue par l'entreprise, pas l'étudiant. L'étudiant n'est atteint que si l'entreprise obtient l'autorisation et lui propose un stage : effet indirect par un tiers.",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "chef_entreprise",
+    "raison": "Le texte pose une interdiction de conclure des conventions de stage et des contrats d'apprentissage, qui pèse sur l'employeur, et prévoit une dérogation accordée par l'inspecteur. Le dirigeant d'une petite ou moyenne entreprise exclue est directement visé. La phrase résume correctement le motif d'exclusion, en le réduisant à l'insuffisance de sécurité.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000947235,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

@@ -1,0 +1,41 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "concubin",
+    "raison": "Le texte confie au juge spécialisé les violences sexistes ou sexuelles commises au sein du couple, y compris sans cohabitation, et celles d'un ancien concubin. Une personne en union libre victime ou auteure de telles violences est directement visée par la compétence du nouveau juge et du tribunal correctionnel spécialisé.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "marie_pacse",
+    "raison": "Le texte vise les violences sexistes ou sexuelles commises par le conjoint ou le partenaire de PACS, y compris sans cohabitation. Une personne mariée ou pacsée dans ce cas voit son affaire portée devant la juridiction spécialisée.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "separe_divorce",
+    "raison": "Le texte vise les violences sexistes ou sexuelles commises par un ancien conjoint, un ancien partenaire de PACS ou un ancien concubin. Une personne séparée ou divorcée dans ce cas relève de la juridiction spécialisée.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "parent",
+    "raison": "Le juge spécialisé exerce à la place du juge aux affaires familiales les litiges sur l'exercice de l'autorité parentale lorsqu'il existe des violences au sein du couple ou qu'un mineur est victime de violences d'un ascendant. Un parent engagé dans un tel litige est directement touché par ce changement de juge.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "mineur",
+    "raison": "Le texte prévoit que, lorsqu'un mineur est victime de violences de la part d'un ascendant, le juge spécialisé connaît des modalités d'exercice de l'autorité parentale à la place du juge aux affaires familiales. Le mineur concerné est directement visé.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.001854285,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

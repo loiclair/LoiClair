@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "parent",
+    "raison": "Le texte vise le contribuable qui assume la charge exclusive ou principale d'au moins deux enfants, ce qui correspond à un parent ou responsable légal d'enfants à charge, et la demi-part change son impôt.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0036787,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

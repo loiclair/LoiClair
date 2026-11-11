@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_agriculture",
+    "raison": "Oui. Le dispositif vise explicitement les associés exploitants de sociétés exerçant une activité agricole qui bénéficient des aides à l’installation des jeunes agriculteurs, et modifie le calcul applicable à leurs plus-values.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "imposable",
+    "raison": "Non. Le changement concerne les jeunes agriculteurs répondant aux conditions précises du dispositif ; le fait de payer l’impôt sur le revenu ne déclenche pas la mesure.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0006784,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

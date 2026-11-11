@@ -1,0 +1,14 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "outre_mer",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'amendement impose explicitement à l'État d'élaborer un plan territorial dans les collectivités d'outre-mer (articles 73 et 74) et en Nouvelle-Calédonie, ce qui concerne directement les habitants de ces territoires."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0063165
+}

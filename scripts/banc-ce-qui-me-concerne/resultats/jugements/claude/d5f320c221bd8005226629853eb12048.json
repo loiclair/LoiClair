@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "corse",
+    "raison": "Le III vise expressément la Corse : mise en place progressive d'un centre hospitalier régional puis universitaire dans son chef-lieu, après avis de l'Assemblée de Corse. Les habitants de l'île sont directement visés.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "etudiant",
+    "raison": "L'obligation pèse sur les unités de formation et de recherche en santé, qui doivent proposer la première année dans chaque département. Les étudiants en santé en bénéficieraient, mais par l'intermédiaire de ces établissements. L'effet est indirect et le texte ne vise pas les étudiants eux-mêmes.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0030656999999999998,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

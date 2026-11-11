@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "heritier_donateur",
+    "raison": "Le texte réduit à quinze ans le délai après lequel un bien de succession non partagée peut être acquis par la commune, et l'applique aux successions ouvertes depuis 2007 non partagées. Les héritiers qui n'ont pas partagé une succession sont donc directement visés.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "elu_local",
+    "raison": "L'article donne au maire ou au président de l'intercommunalité le droit de demander à l'administration fiscale les informations utiles à la procédure d'acquisition des biens sans maître. Cela change leurs démarches de maire.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0033096999999999996,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

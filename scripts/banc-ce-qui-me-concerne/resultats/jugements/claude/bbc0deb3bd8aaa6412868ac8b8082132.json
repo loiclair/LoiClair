@@ -1,0 +1,29 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "mineur",
+    "raison": "L'article encadre l'embauche d'un enfant de moins de treize ans dans une entreprise de cinéma, qui doit recevoir l'avis conforme d'un médecin, d'un psychologue et d'un comité. La mesure vise directement les enfants de cette tranche d'âge, qui sont des mineurs.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "parent",
+    "raison": "L'article L. 7124-3-2 impose la présence du représentant légal de l'enfant de moins de treize ans lors de l'embauche, pendant le contrat et lors de certains événements liés à celui-ci. L'obligation vise directement le représentant légal, c'est-à-dire le parent, d'un enfant mineur employé dans le cinéma.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "secteur_culture",
+    "raison": "Le texte change directement les règles de tournage avec des enfants dans les entreprises de cinéma, donc la façon d'exercer le métier dans l'audiovisuel. Les personnes qui travaillent dans ce secteur sont donc visées.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.001000285,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

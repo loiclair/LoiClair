@@ -1,0 +1,47 @@
+{
+ "impacts": [
+  {
+   "profil": "outre_mer",
+   "phrase_fr": "Les droits et prestations sociales des personnes résidant à Mayotte sont maintenus jusqu'au 30 juin 2025, même sans renouvellement de dossier.",
+   "phrase_en": "Social rights and benefits for people living in Mayotte are kept until 30 June 2025, even without renewing their file.",
+   "passage": "le bénéfice des droits et des prestations sociales versés aux assurés résidant à Mayotte et à leurs ayants droit est maintenu jusqu'au 30 juin 2025",
+   "certitude": "certain"
+  },
+  {
+   "profil": "handicap",
+   "phrase_fr": "Les droits liés au handicap, comme la PCH ou la carte mobilité inclusion, sont prolongés jusqu'à douze mois, sauf refus de la commission.",
+   "phrase_en": "Disability rights, such as the PCH or the mobility inclusion card, are extended by up to twelve months, unless the commission refuses.",
+   "passage": "bénéficient d'une prolongation de douze mois au maximum de la durée de cet accord à compter de la date de son expiration",
+   "certitude": "certain"
+  },
+  {
+   "profil": "age_dependant",
+   "phrase_fr": "Les personnes âgées en perte d'autonomie gardent l'allocation personnalisée d'autonomie jusqu'à douze mois après l'expiration de leur accord.",
+   "phrase_en": "Elderly people losing autonomy keep the personalised autonomy allowance for up to twelve months after their approval expires.",
+   "passage": "a) L'allocation personnalisée d'autonomie prévue à l'article L. 232-1 du code de l'action sociale et des familles ;",
+   "certitude": "certain"
+  },
+  {
+   "profil": "allocataire",
+   "phrase_fr": "Les aides personnelles au logement peuvent être accordées ou maintenues à Mayotte même si le logement est partiellement sous-loué.",
+   "phrase_en": "Housing benefits in Mayotte can be granted or kept even if part of the home is sublet.",
+   "passage": "le bénéfice des aides personnelles au logement versées par la caisse de sécurité sociale de Mayotte peut être accordé ou maintenu même si le local est loué ou sous-loué en partie à des tiers",
+   "certitude": "certain"
+  },
+  {
+   "profil": "parent",
+   "phrase_fr": "Les parents d'un enfant handicapé gardent l'allocation d'éducation de l'enfant handicapé pendant la période de prolongation.",
+   "phrase_en": "Parents of a disabled child keep the disabled child education allowance during the extension period.",
+   "passage": "e) L'allocation d'éducation de l'enfant handicapé et ses compléments prévus à l'article 10-1 de l'ordonnance n° 2002-149 du 7 février 2002",
+   "certitude": "probable"
+  },
+  {
+   "profil": "locataire",
+   "phrase_fr": "Un locataire qui sous-loue une partie de son logement à Mayotte peut continuer à recevoir l'aide au logement.",
+   "phrase_en": "A tenant who sublets part of their home in Mayotte may keep receiving the housing benefit.",
+   "passage": "le bénéfice des aides personnelles au logement versées par la caisse de sécurité sociale de Mayotte peut être accordé ou maintenu même si le local est loué ou sous-loué en partie à des tiers",
+   "certitude": "possible"
+  }
+ ],
+ "cout_usd": 0.00185401
+}

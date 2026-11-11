@@ -1,0 +1,18 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "futur_parent",
+    "raison": "Le texte vise directement les femmes ou les couples engagés dans une tentative de FIV, qui relèvent d’un projet d’enfant.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "secteur_sante"
+  ]
+ },
+ "cout_usd": 0.00058365,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

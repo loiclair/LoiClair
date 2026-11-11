@@ -1,0 +1,20 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_artisanat_commerce",
+    "raison": "Le texte vise explicitement les commerçants acceptant les titres-restaurant, destinataires de l'information sur les commissions des émetteurs ; cela touche directement leurs conditions d'exercice (information sur les coûts d'acceptation). Phrase fidèle, au conditionnel.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "chef_entreprise",
+   "secteur_hotellerie"
+  ]
+ },
+ "cout_usd": 0.0020467000000000003,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

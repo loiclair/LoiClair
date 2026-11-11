@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "salarie_prive",
+    "raison": "L'article ne crée aucun droit ni obligation directe pour le salarié. Il permet aux assureurs d'abonder, à leur choix, un fonds créé par une branche qui doit déjà avoir institué le dispositif. Le bénéfice éventuel passe donc par l'assureur puis par la branche, ce qui est un effet indirect (règle 1).",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000437985,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

@@ -1,0 +1,29 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "salarie_prive",
+    "raison": "L'article crée un régime pour les personnes des articles L. 311-2 et L. 311-3, c'est-à-dire les salariés. Les cotisations, plafonnées à 2 % de la rémunération et partagées à parts égales, toucheraient directement le salarié.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "chef_entreprise",
+    "raison": "Le texte répartit les cotisations à parts égales entre employeurs et salariés, sans distinction de taille. Le dirigeant d'une très petite, petite ou moyenne entreprise paierait donc directement sa moitié. La phrase est fausse : le plafond de 2 % vaut pour le taux global, et la part de l'employeur est au maximum de 1 % de la rémunération, pas 2 %.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "dirigeant_grande_entreprise",
+    "raison": "L'obligation de cotiser à parts égales vaut pour tout employeur, y compris celui d'une entreprise de 250 salariés ou plus. La phrase est fausse pour la même raison : le plafond de 2 % est le taux global, et la part de l'employeur est au maximum de 1 %.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000766335,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

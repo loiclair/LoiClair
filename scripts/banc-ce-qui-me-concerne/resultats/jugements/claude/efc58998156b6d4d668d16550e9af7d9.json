@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "automobiliste",
+    "raison": "Les restrictions de circulation des voitures dans les ZFE-mobilité dépendent de l'évaluation des temps de trajet. Le texte vise directement les automobilistes, puisqu'il compare le temps en mode alternatif à celui de la « voiture individuelle ». La phrase de l'assistant inverse toutefois la logique : le texte prévoit que les prescriptions s'appliquent dans les zones continues et pertinentes, et que les restrictions ne s'appliquent pas dans les autres.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "grande_ville",
+    "raison": "Le texte modifie les règles des zones à faibles émissions mobilité, qui existent dans les agglomérations et grandes villes. Le catalogue rattache explicitement les ZFE à ce profil, et la mesure vise donc directement les habitants de ces zones. La phrase de l'assistant reste proche du mécanisme du texte, même si « redessinées » va un peu au-delà de ce qui est écrit.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.001062135,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

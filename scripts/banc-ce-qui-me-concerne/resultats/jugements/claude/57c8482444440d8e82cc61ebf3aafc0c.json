@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "demandeur_emploi",
+    "raison": "L'article vise nommément des personnes sans emploi rencontrant des difficultés sociales et professionnelles particulières, et leur ouvre un accompagnement socioprofessionnel et un appui à une activité indépendante ou à un emploi salarié. Le profil est concerné, mais seulement pour les demandeurs d'emploi en difficultés particulières, et le texte ne crée pas de droit à l'inscription ni d'obligation pour eux.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000734235,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

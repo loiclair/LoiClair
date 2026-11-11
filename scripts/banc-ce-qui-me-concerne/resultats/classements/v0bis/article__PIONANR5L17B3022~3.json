@@ -1,0 +1,12 @@
+{
+ "impacts": [
+  {
+   "profil": "salarie_prive",
+   "phrase_fr": "Pourrait financer, via sa branche, des activités physiques du salarié hors temps de travail, grâce à une contribution facultative de son assureur.",
+   "phrase_en": "Would help fund physical activities outside working hours for employees whose sector creates this scheme, through an optional contribution from their insurer.",
+   "passage": "Cette contribution est facultative pour chaque salarié couvert par un contrat souscrit dans le champ de la branche concernée.",
+   "certitude": "probable"
+  }
+ ],
+ "cout_usd": 0.00072865
+}

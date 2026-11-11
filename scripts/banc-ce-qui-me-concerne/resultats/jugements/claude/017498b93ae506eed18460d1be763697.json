@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "futur_parent",
+    "raison": "Le texte vise la femme ou le couple engagés dans une fécondation in vitro, donc des personnes ayant un projet d'enfant, que couvre la définition de futur_parent. Ils obtiennent un nouveau droit (l'examen des embryons).",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0026376999999999998,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

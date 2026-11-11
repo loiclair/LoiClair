@@ -1,0 +1,19 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "salarie_prive",
+    "raison": "L'article 1er supprime le délai de carence des indemnités journalières pour l'arrêt de travail consécutif à une IVG ; il s'adresse aux assurées du régime général, dont les salariées du privé, qui perçoivent ces indemnités. Le texte ne précise pas le statut, mais le salarié du privé est le cas central.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "futur_parent"
+  ]
+ },
+ "cout_usd": 0.0020637,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

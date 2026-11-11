@@ -1,0 +1,28 @@
+# Analyse statique de sécurité du code TypeScript, une fois par semaine.
+#
+# Le déclencheur `push` a été retiré : sur un dépôt privé à un seul contributeur, il
+# lançait une analyse complète de quatre minutes et demie à chaque commit : 97 runs
+# en deux semaines, soit 864 minutes par mois, 43 % du quota, pour analyser le même
+# code que le cron du lundi. Ce qui se perd est le délai de détection, qui passe
+# de « à chaque push » à « au plus sept jours ». Relancer à la demande avant une
+# release se fait par « Run workflow ».
+name: CodeQL Security Scan
+on:
+  schedule:
+    - cron: '0 6 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  security-events: write
+
+jobs:
+  analyze:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: github/codeql-action/init@v4
+        with:
+          languages: javascript-typescript
+      - uses: github/codeql-action/autobuild@v4
+      - uses: github/codeql-action/analyze@v4

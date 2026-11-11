@@ -1,0 +1,20 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "handicap",
+    "concerne": false,
+    "phrase_fidele": false,
+    "raison": "L'article réécrit la liste générale des discriminations pénales pour y insérer l'expression de genre ; le handicap est déjà protégé par le code pénal en vigueur. L'article n'apporte aucun changement direct pour ce profil, et une disposition anti-discrimination générale qui couvre tous les aspects de la vie ne vise pas un profil en particulier."
+   },
+   {
+    "profil": "malade_chronique",
+    "concerne": false,
+    "phrase_fidele": false,
+    "raison": "La discrimination fondée sur l'état de santé est déjà prohibée et réprimée par le code pénal en vigueur. La réécriture de cet alinéa vise à introduire l'expression de genre et ne change rien aux droits ou obligations des personnes malades chroniques."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.011502
+}

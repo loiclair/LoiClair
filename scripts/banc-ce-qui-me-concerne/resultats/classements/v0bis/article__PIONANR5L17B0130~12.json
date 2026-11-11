@@ -1,0 +1,12 @@
+{
+ "impacts": [
+  {
+   "profil": "benevole",
+   "phrase_fr": "Dans une association dissoute, un curateur serait chargé de convoquer une assemblée générale pour décider du sort des biens de l'association.",
+   "phrase_en": "In a dissolved association, a curator would be tasked with convening a general meeting to decide what happens to the association's assets.",
+   "passage": "Le curateur a pour mission de procéder à la liquidation des biens de l’association et de convoquer, dans un délai déterminé par le tribunal, la réunion d’une assemblée générale à seule fin d’adopter une délibération sur la dévolution des biens",
+   "certitude": "probable"
+  }
+ ],
+ "cout_usd": 0.00087885
+}

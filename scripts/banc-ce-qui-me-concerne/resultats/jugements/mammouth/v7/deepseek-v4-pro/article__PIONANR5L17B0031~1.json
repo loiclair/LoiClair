@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "oublis": [
+   "fonctionnaire",
+   "elu_local"
+  ],
+  "profils": [
+   {
+    "concerne": false,
+    "phrase_fidele": false,
+    "profil": "forces_ordre",
+    "raison": "Le profil forces_ordre est défini comme « Policier, gendarme ou militaire ». Les agents de police municipale, renommés police territoriale, ne sont pas des policiers nationaux, gendarmes ou militaires. L'article ne concerne donc pas ce profil mais celui des fonctionnaires territoriaux (fonctionnaire). La phrase proposée décrit un effet pour les agents de police municipale, mais ces agents ne relèvent pas du profil forces_ordre."
+   }
+  ]
+ },
+ "cout_usd": 0.0013221042
+}

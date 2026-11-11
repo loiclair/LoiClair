@@ -1,0 +1,26 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_agriculture",
+    "raison": "Le texte vise les jeunes agriculteurs associés exploitants d'une société agricole, bénéficiaires des aides à l'installation : leur exonération des plus-values professionnelles change directement.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "imposable",
+    "raison": "Le texte vise les jeunes agriculteurs, pas les foyers payant l'impôt sur le revenu en général ; le profil imposable n'est pas ce qui déclenche la mesure, qui porte sur l'exonération de plus-values professionnelles d'une catégorie précise.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": [
+   "chef_entreprise",
+   "jeune"
+  ]
+ },
+ "cout_usd": 0.0037776999999999997,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

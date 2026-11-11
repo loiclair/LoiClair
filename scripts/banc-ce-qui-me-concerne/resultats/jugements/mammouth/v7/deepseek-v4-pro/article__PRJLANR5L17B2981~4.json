@@ -1,0 +1,20 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "proprietaire_bailleur",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article modifie directement les conditions de la déduction fiscale pour les contribuables qui louent un logement. Il précise que cette déduction est subordonnée à la location du logement 'nu à titre de résidence principale', ce qui change concrètement les droits et obligations du propriétaire bailleur."
+   },
+   {
+    "profil": "imposable",
+    "concerne": false,
+    "phrase_fidele": false,
+    "raison": "Selon la consigne, un article qui pourrait concerner 'tout le monde' de la même façon ne justifie pas de retenir un profil général comme 'imposable'. La déduction d'amortissement est un avantage fiscal générique pour tout contribuable bailleur, et non une mesure visant spécifiquement un foyer selon son imposition ou non. La phrase proposée est un résumé général de l'article et non un effet concret et spécifique directement rattaché au profil 'imposable'."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0032578
+}

@@ -1,0 +1,29 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_education",
+    "raison": "L'article encadre la discipline des enseignants-chercheurs et enseignants de l'enseignement supérieur agricole (sections disciplinaires, récusation, suspension ministérielle) : règles de leur métier.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "fonctionnaire",
+    "raison": "Le personnel de l'enseignement supérieur agricole public (agents publics) peut être suspendu par le ministre et voit sa procédure disciplinaire modifiée ; c'est un effet direct sur leurs droits et obligations.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "etudiant",
+    "raison": "Les mots « enseignants et usagers » sont remplacés par « et des enseignants » : les usagers (étudiants) ne siègent plus dans la section disciplinaire, mais le texte cité ne dit pas que les étudiants y siégeaient ni qu'ils jugent les affaires disciplinaires de leur établissement ; la section juge des enseignants. L'effet sur l'étudiant est une perte de représentation, et la phrase ajoute un fait non établi (les affaires disciplinaires de leur établissement en général).",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0055337,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

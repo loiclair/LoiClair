@@ -1,0 +1,30 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "apprenti_alternant",
+    "raison": "L’amendement autorise l’entreprise à conclure un contrat d’apprentissage, mais ne modifie pas directement les droits ou obligations de l’apprenti : son éventuelle embauche dépend ensuite de la décision de l’entreprise.",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "etudiant",
+    "raison": "Le texte porte sur les conventions de stage, mais règle l’autorisation accordée à l’entreprise. L’accès d’un étudiant à un stage ne change que si l’entreprise décide ensuite d’en proposer un.",
+    "concerne": false,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "chef_entreprise",
+    "raison": "Le dispositif change directement les conditions auxquelles une entreprise concernée peut conclure des conventions de stage ou des contrats d’apprentissage, ce qui touche son dirigeant ou employeur.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "dirigeant_grande_entreprise"
+  ]
+ },
+ "cout_usd": 0.0011514,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

@@ -1,0 +1,49 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "salarie_prive",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article supprime le délai de carence pour les arrêts maladie liés à une IVG, ce qui concerne directement les salariés du privé (et autres statuts) en arrêt maladie après une IVG. Le conditionnel est respecté car le texte n'est pas adopté."
+   },
+   {
+    "profil": "fonctionnaire",
+    "concerne": true,
+    "phrase_fidele": false,
+    "raison": "Les fonctionnaires sont aussi concernés par les règles d'indemnisation des arrêts maladie (via le régime spécial de la fonction publique). La phrase de l'assistant omet ce profil, mais il est concerné par le même mécanisme. La phrase proposée pour 'salarie_prive' n'est pas fausse, mais elle n'est pas complète pour ce profil."
+   },
+   {
+    "profil": "futur_parent",
+    "concerne": false,
+    "phrase_fidele": false,
+    "raison": "L'IVG ne concerne pas spécifiquement les 'futurs parents' (qui attendent un enfant). Le profil 'futur_parent' est donc hors sujet."
+   },
+   {
+    "profil": "parent",
+    "concerne": false,
+    "phrase_fidele": false,
+    "raison": "L'IVG ne concerne pas les parents (déjà parents d'un enfant). Le profil est donc non pertinent."
+   },
+   {
+    "profil": "fumeur",
+    "concerne": false,
+    "phrase_fidele": false,
+    "raison": "Aucun lien avec le tabac ou la cigarette électronique."
+   }
+  ],
+  "oublis": [
+   "fonctionnaire",
+   "auto_entrepreneur",
+   "independant",
+   "chef_entreprise",
+   "dirigeant_grande_entreprise",
+   "apprenti_alternant",
+   "cdd_interim",
+   "travailleur_plateforme",
+   "salarie_particulier",
+   "travailleur_frontalier"
+  ]
+ },
+ "cout_usd": 0.008598
+}

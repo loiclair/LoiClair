@@ -1,0 +1,26 @@
+{
+ "impacts": [
+  {
+   "profil": "fonctionnaire",
+   "passage": "Le ministre chargé de l'agriculture peut prononcer la suspension d'un membre du personnel de l'enseignement supérieur agricole public pour une durée qui n'excède pas un an, sans privation de traitement.",
+   "certitude": "certain",
+   "phrase_en": "Staff of public agricultural higher education can be suspended for up to one year by the agriculture minister, without loss of pay.",
+   "phrase_fr": "Le personnel de l'enseignement supérieur agricole public peut être suspendu jusqu'à un an par le ministre de l'agriculture, sans perte de salaire."
+  },
+  {
+   "profil": "secteur_education",
+   "passage": "ne comprend que des enseignants-chercheurs et des enseignants d'un rang égal ou supérieur à celui de la personne faisant l'objet d'une procédure disciplinaire",
+   "certitude": "certain",
+   "phrase_en": "Agricultural higher education disciplinary bodies now include only teachers and researchers, of equal or higher rank than the person prosecuted.",
+   "phrase_fr": "Les instances disciplinaires de l'enseignement supérieur agricole ne comprennent plus que des enseignants et enseignants-chercheurs, de rang égal ou supérieur à la personne poursuivie."
+  },
+  {
+   "profil": "etudiant",
+   "passage": "Au premier alinéa, les mots : «, enseignants et usagers » sont remplacés par les mots : « et des enseignants »",
+   "certitude": "possible",
+   "phrase_en": "Students no longer sit on the disciplinary section of the agricultural institution that judges proceedings against students.",
+   "phrase_fr": "Les usagers ne siègent plus dans la section disciplinaire de l'établissement agricole qui juge les poursuites contre les élèves et étudiants."
+  }
+ ],
+ "resume_fr": null
+}

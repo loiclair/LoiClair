@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "aidant",
+    "raison": "Le profil inclut les personnes qui exercent une mesure de tutelle ou de curatelle. L’article permet de désigner un remplaçant et prévoit des obligations pour le tuteur ou curateur qui reprend la mesure.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000586775,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

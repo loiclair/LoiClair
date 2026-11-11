@@ -1,0 +1,26 @@
+{
+ "impacts": [
+  {
+   "profil": "etranger_hors_ue",
+   "phrase_fr": "Une carte de séjour pour vie privée et familiale durerait quatre ans au lieu d’un an, sous conditions liées au conjoint ou aux parents titulaires d’une carte.",
+   "phrase_en": "A family-based residence permit would last four years instead of one, under conditions tied to a spouse or parents holding a card.",
+   "passage": "une carte de séjour pluriannuelle portant la mention “vie privée et familiale” d’une durée de quatre ans.",
+   "certitude": "certain"
+  },
+  {
+   "profil": "mineur",
+   "phrase_fr": "Un enfant étranger dont un parent est titulaire d’une carte de résident recevrait une carte de séjour de quatre ans entre ses 16 et 18 ans.",
+   "phrase_en": "A foreign child with a parent holding a resident card would receive a four-year residence permit between ages 16 and 18.",
+   "passage": "Si l’un des parents au moins est titulaire d’une carte de résident, l’étranger se voit délivrer, dans l’année suivant son dix-huitième anniversaire ou entre ses seize et dix-huit ans",
+   "certitude": "certain"
+  },
+  {
+   "profil": "jeune",
+   "phrase_fr": "Un jeune étranger dont un parent est titulaire d’une carte de résident recevrait une carte de séjour de quatre ans dans l’année suivant ses 18 ans.",
+   "phrase_en": "A young foreign person with a parent holding a resident card would receive a four-year residence permit within a year after turning 18.",
+   "passage": "Si l’un des parents au moins est titulaire d’une carte de résident, l’étranger se voit délivrer, dans l’année suivant son dix-huitième anniversaire",
+   "certitude": "probable"
+  }
+ ],
+ "cout_usd": 0.00134871
+}

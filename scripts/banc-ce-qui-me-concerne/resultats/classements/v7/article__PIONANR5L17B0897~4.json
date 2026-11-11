@@ -1,0 +1,26 @@
+{
+ "impacts": [
+  {
+   "profil": "heritier_donateur",
+   "phrase_fr": "Les donations anciennes de plus de quinze ans seraient prises en compte pour calculer les droits de succession et de donation.",
+   "phrase_en": "Gifts made more than fifteen years earlier would also count when calculating inheritance and gift taxes.",
+   "passage": "L'article 784 est ainsi modifié : a) Au deuxième alinéa, les mots : « à l'exception de celles passées depuis plus de quinze ans » sont remplacés par les mots : « quel que soit le donateur ou le défunt »",
+   "certitude": "certain"
+  },
+  {
+   "profil": "epargnant",
+   "phrase_fr": "Les primes d'assurance-vie versées après 70 ans ne bénéficieraient plus d'un abattement fiscal pour les bénéficiaires.",
+   "phrase_en": "Life insurance premiums paid after age 70 would no longer get a tax allowance for beneficiaries.",
+   "passage": "",
+   "certitude": "probable"
+  },
+  {
+   "profil": "senior",
+   "phrase_fr": "Les primes versées après 70 ans ne bénéficieraient plus de l'abattement fiscal sur l'assurance-vie.",
+   "phrase_en": "Premiums paid after age 70 would no longer get the life insurance tax allowance.",
+   "passage": "",
+   "certitude": "probable"
+  }
+ ],
+ "cout_usd": 0.00192891
+}

@@ -1,0 +1,51 @@
+name: Sélection mensuelle des scrutins du quiz affinité
+
+on:
+  # Automatique : le 1er de chaque mois à 3h UTC
+  schedule:
+    - cron: '0 3 1 * *'
+  # Manuel : pour tester, via l'interface GitHub (clic sur "Run workflow")
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  select-scrutins:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout du code
+        uses: actions/checkout@v7
+
+      - name: Installer Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+
+      - name: Installer les dépendances
+        run: |
+          cd pipeline
+          pip install -r requirements.txt
+
+      - name: Tunnel vers la base du VPS
+        uses: ./.github/actions/tunnel-base
+        with:
+          host: ${{ secrets.VPS_HOST }}
+          key: ${{ secrets.VPS_TUNNEL_KEY }}
+          known_hosts: ${{ secrets.VPS_KNOWN_HOSTS }}
+
+      - name: Sélectionner les scrutins du quiz affinité
+        env:
+          # Connexion Postgres de `_db.connexion` (P1, D-325), variables libpq standard :
+          # la base du VPS, au bout du tunnel (D-327). Sans TLS : le tunnel chiffre déjà.
+          PGHOST: 127.0.0.1
+          PGPORT: '5432'
+          PGSSLMODE: disable
+          PGDATABASE: ${{ secrets.VPS_PGDATABASE }}
+          PGUSER: ${{ secrets.VPS_PGUSER }}
+          PGPASSWORD: ${{ secrets.VPS_PGPASSWORD }}
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+        run: |
+          cd pipeline
+          python select_quiz_scrutins.py

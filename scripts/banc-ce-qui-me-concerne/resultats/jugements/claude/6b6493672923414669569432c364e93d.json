@@ -1,0 +1,29 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etranger_hors_ue",
+    "raison": "L'article modifie les cartes de séjour « vie privée et familiale » délivrées aux étrangers (conjoint, enfant de titulaire de carte de résident), portées à quatre ans : cela vise directement les personnes de pays hors UE titulaires d'un titre de séjour.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "mineur",
+    "raison": "Le texte prévoit une carte pluriannuelle de quatre ans pour l'étranger « entre ses seize et dix-huit ans » dont un parent est titulaire d'une carte de résident, s'il remplit les conditions de l'article L. 421-35 : les mineurs de 16 à 18 ans sont visés.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "jeune",
+    "raison": "Le texte vise l'étranger dont un parent détient une carte de résident, « dans l'année suivant son dix-huitième anniversaire » : les jeunes de 18 ans sont directement visés.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0041007,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

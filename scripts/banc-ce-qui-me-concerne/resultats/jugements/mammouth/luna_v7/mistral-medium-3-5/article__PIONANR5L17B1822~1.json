@@ -1,0 +1,14 @@
+{
+ "jugement": {
+  "profils": [],
+  "oublis": [
+   "malade_chronique",
+   "parent",
+   "futur_parent",
+   "salarie_prive",
+   "fonctionnaire",
+   "travailleur_frontalier"
+  ]
+ },
+ "cout_usd": 0.0055035
+}

@@ -1,0 +1,34 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "locataire",
+    "raison": "Concerné : le texte encadre directement le loyer des logements mis en location. Mais hors des communes en déséquilibre marqué, le plafond est le loyer de référence majoré, et non le loyer de référence.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "proprietaire_bailleur",
+    "raison": "Concerné : le bailleur est directement touché par la possibilité d’une action en diminution lorsque le loyer de base dépasse le loyer de référence. Le texte prévoit cette action, sans préciser que le loyer sera nécessairement ramené exactement à ce niveau.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "meuble_tourisme",
+    "raison": "Concerné : le texte étend explicitement l’encadrement aux logements meublés touristiques, dans les zones tendues comme ailleurs.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "etudiant",
+    "raison": "Pas concerné en tant qu’étudiant : la mesure vise les loyers des résidences étudiantes privées, pas les personnes selon leur statut étudiant.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00094715,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

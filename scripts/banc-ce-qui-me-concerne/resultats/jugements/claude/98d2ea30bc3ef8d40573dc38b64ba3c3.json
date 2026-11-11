@@ -1,0 +1,29 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etudiant",
+    "raison": "L'article change les règles d'attribution des aides aux étudiants (bourses, logements), par nationalité et par ressources : le profil est visé. Mais le texte met les Français, les ressortissants de l'UE et ceux de l'EEE dans le même rang de priorité. La phrase les place à tort dans deux rangs successifs.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "etranger_ue",
+    "raison": "Le texte cite les étudiants d'un État membre de l'UE ou de l'EEE parmi les bénéficiaires prioritaires de l'aide, ce qui les vise directement. Mais ils sont au même rang que les Français, et non servis après eux comme l'écrit la phrase.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "etranger_hors_ue",
+    "raison": "Les étudiants d'un État hors UE et hors EEE sont visés : ils ne passent qu'ensuite, et seulement si leur État a un accord d'accueil d'étudiants avec la France. Mais le texte organise une priorité, pas une exclusion. La condition « seulement si » est donc ajoutée par la phrase.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0064507,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

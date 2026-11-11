@@ -1,0 +1,28 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "outre_mer",
+    "raison": "Le dispositif vise expressément les personnels qui résident effectivement en Nouvelle-Calédonie, à Wallis-et-Futuna ou en Polynésie française à la date d’effet de leur pension, sous conditions.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "fonctionnaire",
+    "raison": "Le texte modifie le calcul de la pension des personnels relevant du code des pensions civiles et militaires, dont les fonctionnaires visés, sous conditions de services et de résidence.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "forces_ordre",
+    "raison": "Les militaires sont expressément mentionnés parmi les personnels dont la pension peut être calculée selon le dispositif, sous conditions de services et de résidence.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00068665,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

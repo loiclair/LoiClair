@@ -1,0 +1,26 @@
+{
+ "impacts": [
+  {
+   "profil": "salarie_prive",
+   "phrase_fr": "Vos cotisations ou primes d’assurance ne pourraient pas augmenter pour financer cette contribution, et vos garanties ne pourraient pas être réduites en contrepartie.",
+   "phrase_en": "Your insurance contributions or premiums could not rise to fund this contribution, and your coverage could not be reduced in return.",
+   "passage": "La contribution des entreprises d’assurance ne peut donner lieu à une répercussion sur les cotisations ou primes versées par les employeurs ou les salariés assurés.",
+   "certitude": "certain"
+  },
+  {
+   "profil": "chef_entreprise",
+   "phrase_fr": "Les cotisations ou primes d’assurance versées par votre entreprise ne pourraient pas augmenter pour financer cette contribution.",
+   "phrase_en": "The insurance contributions or premiums paid by your company could not rise to fund this contribution.",
+   "passage": "La contribution des entreprises d’assurance ne peut donner lieu à une répercussion sur les cotisations ou primes versées par les employeurs ou les salariés assurés.",
+   "certitude": "certain"
+  },
+  {
+   "profil": "dirigeant_grande_entreprise",
+   "phrase_fr": "Les cotisations ou primes d’assurance versées par votre entreprise ne pourraient pas augmenter pour financer cette contribution.",
+   "phrase_en": "The insurance contributions or premiums paid by your company could not rise to fund this contribution.",
+   "passage": "La contribution des entreprises d’assurance ne peut donner lieu à une répercussion sur les cotisations ou primes versées par les employeurs ou les salariés assurés.",
+   "certitude": "certain"
+  }
+ ],
+ "cout_usd": 0.00043435
+}

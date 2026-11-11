@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "fonctionnaire",
+    "raison": "L'article vise directement les agents non titulaires exerçant dans les établissements scolaires (contractuels de l'État) : ils seraient nommés fonctionnaires stagiaires d'un corps de catégorie B, avec un stage d'un an et une formation, et ceux qui ne remplissent pas les conditions se verraient proposer un CDI. Le changement de statut les concerne directement.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "secteur_education",
+    "raison": "Le texte règle directement le recrutement par concours et l'affectation des accompagnants d'élèves en situation de handicap, qui exercent dans les écoles. Il modifie les conditions d'entrée et d'exercice de ce métier de l'enseignement, donc concerne le secteur.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000831885,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

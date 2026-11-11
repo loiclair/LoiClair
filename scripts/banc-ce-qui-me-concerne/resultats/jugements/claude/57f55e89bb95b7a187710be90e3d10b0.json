@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "joueur",
+    "raison": "L'article étend les pouvoirs de l'autorité de régulation des jeux en ligne aux pratiques commerciales en ligne, mais il vise les opérateurs et ne change rien directement pour le joueur, qui ne voit ni ses gains, ni ses mises, ni ses droits modifiés. L'effet passe par le régulateur puis par les opérateurs : indirect.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000332685,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

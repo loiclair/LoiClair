@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "aidant",
+    "raison": "Le profil aidant inclut la personne qui exerce une mesure de protection juridique (tutelle, curatelle) pour un proche. L'article permet au juge de désigner à l'avance un tuteur ou curateur de remplacement et impose au remplaçant d'informer et d'accomplir des formalités : cela change directement les règles et obligations de ces personnes.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0027356999999999998,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

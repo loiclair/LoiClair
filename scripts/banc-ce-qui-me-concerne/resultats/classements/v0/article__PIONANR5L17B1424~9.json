@@ -1,0 +1,19 @@
+{
+ "impacts": [
+  {
+   "profil": "secteur_sante",
+   "passage": "Lorsque le médecin qui sollicite le remplacement s’absente pour concourir à l’amélioration de l’accès aux soins dans des territoires caractérisés par une offre de soins insuffisante",
+   "certitude": "certain",
+   "phrase_en": "Doctors, dentists and midwives seeking a replacement to work in underserved areas could no longer be refused, except for an overriding reason of care quality or safety.",
+   "phrase_fr": "Les médecins, chirurgiens-dentistes et sages-femmes qui demandent un remplacement pour exercer dans un territoire sous-doté ne pourraient plus se le voir refuser, sauf motif impérieux lié à la qualité ou à la sécurité des soins."
+  },
+  {
+   "profil": "independant",
+   "passage": "l’autorisation ne peut être refusée que pour un motif impérieux tenant à la qualité et à la sécurité des soins",
+   "certitude": "probable",
+   "phrase_en": "A self-employed doctor leaving to serve an underserved area would only have their replacement refused for an overriding safety-of-care reason.",
+   "phrase_fr": "Un médecin libéral qui s'absente pour aider un territoire sous-doté ne pourrait se voir refuser son remplacement que pour un motif impérieux de sécurité des soins."
+  }
+ ],
+ "resume_fr": null
+}

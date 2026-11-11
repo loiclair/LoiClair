@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "outre_mer",
+    "raison": "Le passage vise expressément les résidents de Wallis-et-Futuna, collectivité d'outre-mer, et définit pour eux qui délivre le moyen d'identification électronique et qui prend en charge les soins (l'agence du territoire à la place de l'institution d'affiliation). Le lecteur de ce territoire est directement visé par ce changement.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000643735,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

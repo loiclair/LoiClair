@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "littoral",
+    "raison": "La taxe de 0,10 % frappe les achats immobiliers situés dans une commune littorale, le critère même du profil. Un habitant de commune littorale qui achète sur place est directement visé, même si le texte ne le désigne pas comme habitant.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "projet_achat",
+    "raison": "La taxe s'applique aux mutations à titre onéreux d'immeubles situés dans une commune littorale, donc à tout acquéreur de tels biens. La personne qui cherche à acheter dans ces communes paie directement 0,10 % de plus.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000636885,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

@@ -1,0 +1,25 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "handicap",
+    "raison": "L'article ouvre à la personne handicapée le droit de demander une évaluation limitée à son éligibilité à la RQTH et à la carte mobilité inclusion, sans plan personnalisé de compensation. La mesure la vise directement par son statut.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "parent",
+    "raison": "Le texte ne mentionne pas les parents. Il supprime, pour la carte mobilité inclusion des mineurs, la condition d'être atteint d'une maladie ou d'un handicap. La condition qui déclenche la mesure porte sur l'enfant, le parent n'agissant que comme représentant.",
+    "concerne": false,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": [
+   "mineur"
+  ]
+ },
+ "cout_usd": 0.001224385,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

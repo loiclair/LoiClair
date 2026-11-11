@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "montagne",
+    "raison": "Le texte vise directement les communes situées en zone de montagne, donc leurs habitants : la commune peut reprendre l'eau et l'assainissement, ce qui change le service et potentiellement la gestion de ces services pour eux.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "elu_local",
+    "raison": "Le texte donne le pouvoir de délibérer aux communes, c'est-à-dire à la collectivité elle-même. Le conseil municipal n'acquiert pas de droit ni d'obligation propre : l'effet passe par la commune, qui est le tiers, et la mesure ne désigne pas les élus comme catégorie.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000718085,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

@@ -1,0 +1,26 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "veuf",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'amendement modifie directement l'article 195 du CGI pour étendre la demi-part fiscale aux veuves de titulaires du titre de reconnaissance de la Nation, ce qui concerne spécifiquement les veuves (profil 'veuf'). Le passage cité est exact et justifie le profil."
+   },
+   {
+    "profil": "ancien_combattant",
+    "concerne": false,
+    "phrase_fidele": false,
+    "raison": "L'amendement ne concerne pas directement les anciens combattants eux-mêmes, mais leurs veuves. Le profil 'ancien_combattant' n'est donc pas concerné. De plus, le passage cité est vide, ce qui est incorrect."
+   },
+   {
+    "profil": "imposable",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "La demi-part fiscale est une mesure liée à l'impôt sur le revenu, donc le profil 'imposable' est concerné. Le passage cité est correct et justifie le profil."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0080925
+}

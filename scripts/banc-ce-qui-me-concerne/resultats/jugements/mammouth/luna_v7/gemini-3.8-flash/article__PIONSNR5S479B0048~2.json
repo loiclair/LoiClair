@@ -1,0 +1,28 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "etranger_hors_ue",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article vise directement les ressortissants étrangers hors UE en conditionnant le bénéfice des prestations familiales et de l'APA à une durée minimale de deux ans de séjour régulier, sous réserve de certaines exceptions."
+   },
+   {
+    "profil": "allocataire",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article encadre l'accès aux aides personnelles au logement pour les ressortissants étrangers soumis aux conditions de séjour régulier de l'article L. 512-2 du code de la sécurité sociale."
+   },
+   {
+    "profil": "age_dependant",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article modifie directement les conditions d'octroi de l'allocation personnalisée d'autonomie (APA) pour les personnes âgées étrangères hors Union européenne."
+   }
+  ],
+  "oublis": [
+   "parent"
+  ]
+ },
+ "cout_usd": 0.014775
+}

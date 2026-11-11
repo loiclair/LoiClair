@@ -1,0 +1,14 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "epargnant",
+    "concerne": false,
+    "phrase_fidele": false,
+    "raison": "L'article modifie des références réglementaires et des critères techniques pour des dispositifs fiscaux, mais ne change pas directement les règles applicables aux épargnants. La mention des crypto-actifs dans l'article 150 VH bis concerne une exclusion de l'application du premier alinéa, mais cela ne modifie pas directement les obligations ou droits des épargnants. De plus, la phrase proposée par l'assistant invente un effet ('pourraient être exclus') qui n'est pas explicitement décrit dans le texte : l'article ne dit pas que les crypto-actifs sont exclus d'une règle fiscale, mais que le premier alinéa de l'article 150 VH bis ne leur est pas applicable. La formulation est donc infidèle."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.010788
+}

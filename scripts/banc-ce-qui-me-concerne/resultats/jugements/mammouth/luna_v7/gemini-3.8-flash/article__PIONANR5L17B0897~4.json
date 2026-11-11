@@ -1,0 +1,14 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "heritier_donateur",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "L'article modifie directement le barème d'imposition et les abattements applicables aux donations et successions, ce qui affecte directement les héritiers, donateurs et donataires."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.00618525
+}

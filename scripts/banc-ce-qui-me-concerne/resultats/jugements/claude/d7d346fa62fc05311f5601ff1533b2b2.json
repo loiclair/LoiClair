@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_education",
+    "raison": "L'obligation pèse sur les établissements (équipement technique des locaux), pas sur la façon d'exercer le métier des enseignants ni sur leurs obligations professionnelles. Elle relève d'une obligation technique de l'organisme, comparable à l'exclusion de la règle 12.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000462035,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

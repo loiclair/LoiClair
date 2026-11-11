@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "animal",
+    "raison": "Le texte vise directement les équidés vivants : leur livraison, leur pension, leur entraînement et leur location passent au taux réduit de TVA. Un propriétaire de cheval paie ces prestations.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "chef_entreprise",
+    "raison": "Le 2° applique le taux réduit aux prestations d'équitation (cours, pratique de l'équitation) vendues par les centres équestres et les entraîneurs. Le dirigeant de ces structures voit directement changer le taux de TVA de ses propres prestations.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000854335,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

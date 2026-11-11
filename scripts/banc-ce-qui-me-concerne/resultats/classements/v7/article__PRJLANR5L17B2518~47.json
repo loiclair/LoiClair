@@ -1,0 +1,12 @@
+{
+ "impacts": [
+  {
+   "profil": "etranger_hors_ue",
+   "phrase_fr": "Un étranger hors Union européenne qui refuserait de donner ses empreintes ou une photo lors d’un contrôle aux frontières pourrait être retenu et puni.",
+   "phrase_en": "A non-EU foreigner who refused to give fingerprints or a photo at a border check would be held and could be punished.",
+   "passage": "En cas de refus par l’étranger de se soumettre au relevé des empreintes digitales ou à la prise de photographies",
+   "certitude": "probable"
+  }
+ ],
+ "cout_usd": 0.00119841
+}

@@ -1,0 +1,40 @@
+{
+ "impacts": [
+  {
+   "profil": "mineur",
+   "passage": "Être âgée d’au moins dix‑huit ans ;",
+   "certitude": "certain",
+   "phrase_en": "People under 18 would not be able to access assisted dying.",
+   "phrase_fr": "Les personnes de moins de 18 ans ne pourraient pas accéder à l'aide à mourir."
+  },
+  {
+   "profil": "jeune",
+   "passage": "Être âgée d’au moins dix‑huit ans ;",
+   "certitude": "probable",
+   "phrase_en": "People aged 18 to 25 would be able to access assisted dying, if they meet all the other conditions.",
+   "phrase_fr": "Les personnes de 18 à 25 ans pourraient accéder à l'aide à mourir, si elles remplissent toutes les autres conditions."
+  },
+  {
+   "profil": "etranger_hors_ue",
+   "passage": "Être de nationalité française ou résider de façon stable et régulière en France",
+   "certitude": "probable",
+   "phrase_en": "Non-EU foreigners living in France in a stable and legal way would be able to access assisted dying.",
+   "phrase_fr": "Les étrangers hors Union européenne résidant en France de façon stable et régulière pourraient accéder à l'aide à mourir."
+  },
+  {
+   "profil": "etranger_ue",
+   "passage": "Être de nationalité française ou résider de façon stable et régulière en France",
+   "certitude": "probable",
+   "phrase_en": "EU foreigners living in France in a stable and legal way would be able to access assisted dying.",
+   "phrase_fr": "Les étrangers de l'Union européenne résidant en France de façon stable et régulière pourraient accéder à l'aide à mourir."
+  },
+  {
+   "profil": "malade_chronique",
+   "passage": "Être atteinte d’une affection grave et incurable, qui engage le pronostic vital, en phase avancée ou terminale",
+   "certitude": "probable",
+   "phrase_en": "People with a serious incurable illness, in an advanced or terminal stage, would be able to access assisted dying.",
+   "phrase_fr": "Les personnes atteintes d'une affection grave et incurable, en phase avancée ou terminale, pourraient accéder à l'aide à mourir."
+  }
+ ],
+ "resume_fr": null
+}

@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "proprietaire_bailleur",
+    "raison": "L'article crée une déduction d'amortissement pour le contribuable qui acquiert et loue un logement, avec l'obligation de le louer nu à titre de résidence principale : il vise directement les bailleurs.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "imposable",
+    "raison": "La déduction porte sur les revenus fonciers, mais elle vise le propriétaire qui acquiert et loue un bien, donc le profil bailleur. Le fait de payer l'impôt sur le revenu n'est pas ce qui déclenche la mesure.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0039756999999999995,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "salarie_prive",
+    "raison": "Le texte vise les salariés d'une branche professionnelle dotée d'un dispositif conventionnel de financement de l'activité physique, abondé par les assureurs, et prévoit que les salariés ne subissent aucune hausse de cotisations. Un salarié du privé est donc visé.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0022047,
+ "modele": "claude-sonnet-5-5",
+ "effort": "high",
+ "lot": true
+}

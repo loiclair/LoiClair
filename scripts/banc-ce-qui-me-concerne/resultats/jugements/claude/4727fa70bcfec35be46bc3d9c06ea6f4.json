@@ -1,0 +1,29 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "outre_mer",
+    "raison": "Le III ouvre une majoration de pension uniquement pour les personnels ayant une résidence effective en Nouvelle-Calédonie, à Wallis-et-Futuna ou en Polynésie française. Le texte nomme ces collectivités d'outre-mer, et la mesure touche directement la pension de ceux qui y vivent, sous conditions de services et de résidence.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "fonctionnaire",
+    "raison": "Le III vise les personnels relevant du code des pensions civiles et militaires, dont les fonctionnaires civils de l'État, et change le calcul de leur pension. Le texte ne l'étend pas aux seuls militaires. Le profil est donc visé par son statut, sous conditions de résidence et de services.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "forces_ordre",
+    "raison": "Le III cite explicitement les militaires parmi les personnels dont la pension sera calculée avec le coefficient de majoration territorial. Le militaire relève du profil forces_ordre, et la mesure le vise directement, sous les mêmes conditions de résidence et de services.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0010647850000000002,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

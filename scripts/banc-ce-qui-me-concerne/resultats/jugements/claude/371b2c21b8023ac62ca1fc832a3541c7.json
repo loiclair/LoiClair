@@ -1,0 +1,16 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "proprietaire_bailleur",
+    "raison": "Le texte prévoit, pour le contribuable qui acquiert un logement répondant aux conditions, une déduction d’amortissement subordonnée à la location nue à titre de résidence principale : il vise directement le bailleur concerné.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000573525,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

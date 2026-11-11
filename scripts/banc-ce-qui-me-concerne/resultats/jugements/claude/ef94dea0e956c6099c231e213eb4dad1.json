@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "jeune",
+    "raison": "L'article prolonge l'accompagnement des jeunes sortant de l'aide sociale à l'enfance de 21 à 25 ans. Il vise directement des personnes de 18 à 25 ans.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.000243285,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

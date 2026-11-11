@@ -1,0 +1,22 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "chasseur_pecheur",
+    "raison": "Concerné : l’interdiction des procédés d’attraction s’applique à toute personne, donc aussi aux pêcheurs de loisir qui les utilisent dans les zones visées par l’article.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "secteur_agriculture",
+    "raison": "Concerné : le catalogue inclut la pêche et le secteur maritime, et l’article encadre directement les pratiques de pêche professionnelle dans les zones visées.",
+    "concerne": true,
+    "phrase_fidele": false
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0004354,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

@@ -1,0 +1,19 @@
+{
+ "impacts": [
+  {
+   "profil": "secteur_industrie",
+   "passage": "dont la puissance installée est supérieure à un seuil fixé par décret, raccordées au réseau public de transport ou de distribution d’électricité, est mise à la disposition du gestionnaire du réseau public de transport d’électricité par les producteurs",
+   "certitude": "probable",
+   "phrase_en": "Electricity producers above a power threshold would have to make all their available capacity, up and down, available to the transmission grid operator.",
+   "phrase_fr": "Les producteurs d'électricité au-delà d'un seuil de puissance devraient mettre toute leur puissance disponible à la hausse et à la baisse à disposition du gestionnaire du réseau de transport."
+  },
+  {
+   "profil": "chef_entreprise",
+   "passage": "par les producteurs dans leurs offres sur le mécanisme d’ajustement",
+   "certitude": "possible",
+   "phrase_en": "Heads of electricity producers above a power threshold would have to offer all their available capacity on the adjustment mechanism.",
+   "phrase_fr": "Les dirigeants de producteurs d'électricité au-delà d'un seuil de puissance devraient proposer toute leur puissance disponible sur le mécanisme d'ajustement."
+  }
+ ],
+ "resume_fr": null
+}

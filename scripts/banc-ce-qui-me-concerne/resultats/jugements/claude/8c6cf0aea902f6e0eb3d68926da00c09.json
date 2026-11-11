@@ -1,0 +1,23 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "animal",
+    "raison": "Le texte réduit le taux de TVA sur la livraison d'équidés vivants et sur leur pension, leur location et leur préparation : le propriétaire d'un cheval paie directement moins pour l'entretenir et l'acheter. La phrase de l'assistant cite bien ces prestations.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "chef_entreprise",
+    "raison": "Le taux réduit s'applique aux prestations fournies par les exploitants de centres équestres et d'entraînement, qui facturent eux-mêmes la TVA : c'est une règle d'exploitation de leur activité qui change leurs prix et leur tarif de TVA. La phrase reste au conditionnel, comme le texte non adopté l'impose.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.001055585,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

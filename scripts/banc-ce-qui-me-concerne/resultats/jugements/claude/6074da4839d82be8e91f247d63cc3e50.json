@@ -1,0 +1,74 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "benevole",
+    "raison": "Le texte exige le certificat des encadrants sportifs auprès de mineurs, y compris bénévoles.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "particulier_employeur",
+    "raison": "Le texte vise expressément les salariés employés par un particulier employeur, lorsqu’ils exercent une activité auprès de mineurs.",
+    "concerne": true,
+    "phrase_fidele": false
+   },
+   {
+    "profil": "salarie_particulier",
+    "raison": "Le texte subordonne l’obtention et le maintien de l’agrément d’assistant maternel au certificat.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "secteur_sante",
+    "raison": "Le texte impose le certificat aux professionnels de santé exerçant une activité auprès de mineurs.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "independant",
+    "raison": "Le texte prévoit expressément l’obligation pour l’exercice à titre libéral d’une activité de santé auprès de mineurs.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "etudiant",
+    "raison": "Les étudiants intervenant auprès de mineurs dans les structures de santé visées doivent détenir le certificat.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "apprenti_alternant",
+    "raison": "Le texte inclut les stagiaires intervenant auprès de mineurs dans les structures de santé, catégorie comprise dans ce profil.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "secteur_education",
+    "raison": "Le texte impose le certificat aux personnes intervenant auprès des élèves et vise les activités éducatives auprès de mineurs.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "chef_entreprise",
+    "raison": "Le texte impose à l’employeur de vérifier le certificat lorsque ses salariés exercent une activité auprès de mineurs.",
+    "concerne": true,
+    "phrase_fidele": true
+   },
+   {
+    "profil": "secteur_transport",
+    "raison": "Le texte inclut expressément le transport et le convoyage de mineurs parmi les activités soumises au certificat.",
+    "concerne": true,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": [
+   "salarie_prive",
+   "dirigeant_grande_entreprise",
+   "secteur_culture"
+  ]
+ },
+ "cout_usd": 0.0022994,
+ "modele": "gpt-6-luna",
+ "effort": "medium"
+}

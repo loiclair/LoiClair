@@ -1,0 +1,17 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "secteur_numerique",
+    "raison": "Le texte soumet à l'ANFR les opérateurs (fournisseurs, importateurs, distributeurs) de systèmes d'IA à haut risque qui sont des composants de sécurité d'équipements radioélectriques. Les obligations de conformité et les amendes visent l'entreprise et son produit, pas la manière d'exercer le métier de professionnel du numérique. L'effet passe par l'organisme lui-même, ce qui relève du ricochet sectoriel exclu par la règle 12.",
+    "concerne": false,
+    "phrase_fidele": true
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0006063350000000001,
+ "modele": "claude-haiku-5-5",
+ "effort": "high",
+ "lot": true
+}

@@ -1,0 +1,26 @@
+{
+ "jugement": {
+  "profils": [
+   {
+    "profil": "proprietaire_bailleur",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "Le profil est directement visé par l'amendement. En tant que bailleur d'un logement en copropriété, la condition lui permettant de satisfaire à son obligation de décence énergétique change. La phrase résume fidèlement le changement apporté par l'amendement au texte (substitution du vote des travaux par la conclusion d'un contrat de maîtrise d'œuvre)."
+   },
+   {
+    "profil": "coproprietaire",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "Le profil est directement concerné car l'amendement modifie la condition déclenchant l'exception à l'obligation de décence pour les logements en copropriété. Le changement (de 'vote des travaux' à 'contrat de maîtrise d'œuvre conclu') impacte directement le processus de décision et d'engagement de la copropriété dont il est membre. La phrase est fidèle au texte."
+   },
+   {
+    "profil": "locataire",
+    "concerne": true,
+    "phrase_fidele": true,
+    "raison": "Le profil est indirectement mais concrètement concerné. La modification de cette condition détermine dans quel cas un propriétaire bailleur en copropriété est réputé satisfaire à son obligation de décence, ce qui affecte directement les droits et recours du locataire de ce logement. La phrase décrit correctement la modification qui impacterait la situation du locataire."
+   }
+  ],
+  "oublis": []
+ },
+ "cout_usd": 0.0033592
+}
