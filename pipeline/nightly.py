@@ -60,6 +60,9 @@ RACINE = Path(__file__).resolve().parent
 # - `decouper-textes` lit les dossiers, les textes et la loi Légifrance écrits par
 #   `dossiers`, `textes`, `legifrance` et `application-lois` (statut « Appliquée ») ;
 #   `classer-impacts` classe ses articles et les amendements écrits par `amendements`.
+# - `exposes` lit le premier texte déposé de chaque dossier dans les textes écrits par
+#   `textes` et `senat` (adresse et page accessible), pour les dossiers écrits par
+#   `dossiers`. Un dépôt du jour a son exposé la nuit même, s'il est déjà en ligne.
 # - `elections` rattache à leur élection les parlementaires que `acteurs` et `senat`
 #   viennent d'écrire : un suppléant ou un suivant de liste entré dans la journée a sa
 #   ligne la nuit même.
@@ -90,6 +93,9 @@ ETAPES: list[tuple[str, list[str]]] = [
     # 40 pages au plus (environ 2 minutes, l'Assemblée exigeant 2,5 s entre deux) : une
     # nuit ordinaire en lit moins de dix, le reste attend la nuit suivante.
     ("decouper-textes", ["decouper_textes.py", "--limite", "40"]),
+    # Exposé des motifs du premier texte déposé. 40 pages au plus, comme ci-dessus : une
+    # nuit ordinaire n'a que les dépôts du jour, et la passe initiale s'est faite à la main.
+    ("exposes", ["importer_exposes.py", "--limite", "40"]),
     # Récupère les lots rendus depuis la veille, puis envoie les éléments nouveaux : un
     # texte déposé apparaît sur « Ce qui me concerne » une à deux nuits après.
     ("classer-impacts", ["classer_articles.py", "--lots", "--plafond", "2000"]),
