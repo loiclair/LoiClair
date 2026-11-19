@@ -21,8 +21,9 @@
 // texte ne peut pas se retrouver sur la ligne d'une autre version de la séance.
 //
 // Route dynamique qui déclare 24 h de cache au CDN (`s-maxage`), comme
-// `/api/dossiers/[uid]/elus-actifs`. Sans effet au 2026-11-05 : Cloudflare n'a pas encore
-// de règle de cache (BACKLOG, `[INFRA]`), donc chaque ouverture du tiroir lit la base.
+// `/api/dossiers/[uid]/elus-actifs`. Cloudflare suit cet en-tête depuis sa règle de cache
+// (D-342) : chaque adresse (élu, dossiers, `depuis`) est gardée jusqu'à 24 h, ou jusqu'à la
+// purge qui suit l'import de nuit et chaque release, et seule sa première ouverture lit la base.
 
 import { NextResponse } from 'next/server';
 import { sql } from '@/lib/db';

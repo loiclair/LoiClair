@@ -427,7 +427,7 @@ const handler = createMcpHandler(
  * outils sont fixes : l'écoute n'a rien à attendre, et le client se reconnecte
  * à chaque coupure. La fermeture reste abrupte, le SDK n'envoyant pas de trame
  * finale quand le signal s'interrompt. Les 50 s datent du délai de 60 s de l'ancien
- * hébergeur : rien sur le VPS n'impose cette valeur (voir le backlog).
+ * hébergeur : rien sur le VPS n'impose cette valeur (ticket LOI-40 du backlog Ration).
  */
 const DUREE_ECOUTE_MS = 50_000;
 

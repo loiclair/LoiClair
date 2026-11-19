@@ -9,8 +9,9 @@
 // seuls les lecteurs qui ouvrent le panneau la lisent.
 //
 // Route dynamique qui déclare 24 h de cache au CDN (`s-maxage`), comme
-// `/api/ce-qui-me-concerne/element`. Sans effet au 2026-11-05 : Cloudflare n'a pas encore
-// de règle de cache (BACKLOG, `[INFRA]`), donc chaque appel lit la base. La fiche ne se
+// `/api/ce-qui-me-concerne/element`. Cloudflare suit cet en-tête depuis sa règle de cache
+// (D-342) : la réponse est gardée jusqu'à 24 h, ou jusqu'à la purge qui suit l'import de
+// nuit et chaque release, et seul le premier appel après la purge lit la base. La fiche ne se
 // régénère qu'au bout de 24 h : la carte peut donc retarder sur le panneau d'autant.
 
 import { NextResponse } from 'next/server';

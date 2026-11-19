@@ -11,8 +11,9 @@
 // connaît déjà, sans que la route ait à relire tous les textes du dossier.
 //
 // Route dynamique qui déclare 24 h de cache au CDN (`s-maxage`), comme
-// `/api/dossiers/[uid]/amendements`. Sans effet au 2026-11-05 : Cloudflare n'a pas encore
-// de règle de cache (BACKLOG, `[INFRA]`), donc chaque appel lit la base.
+// `/api/dossiers/[uid]/amendements`. Cloudflare suit cet en-tête depuis sa règle de cache
+// (D-342) : la réponse est gardée jusqu'à 24 h, ou jusqu'à la purge qui suit l'import de
+// nuit et chaque release, et seul le premier appel après la purge lit la base.
 
 import { NextResponse } from 'next/server';
 import { elusActifs } from '@/app/[locale]/(app)/dossiers-legislatifs/[uid]/resume-ia/elus-actifs';
