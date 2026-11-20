@@ -133,6 +133,43 @@ def _amendements_de_seance(chambre: str) -> list[dict]:
         )
 
 
+def _dossiers_des_votes(uids: list[str]) -> dict[str, str]:
+    """`scrutins.dossier_uid` des votes donnés qui en ont un, posé par `import_amendements.py`
+    (`RattachementVotes`). Un vote importé ce soir n'en a pas encore : il l'aura après
+    l'étape `amendements`, qui retire alors un lien contradictoire
+    (`retirer_liens_contradictoires`)."""
+    with connexion(autocommit=True) as conn:
+        lignes = lire(
+            conn,
+            "SELECT uid, dossier_uid FROM scrutins WHERE uid = ANY(%s) AND dossier_uid IS NOT NULL ORDER BY uid",
+            (uids,),
+        )
+    return {l["uid"]: l["dossier_uid"] for l in lignes}
+
+
+def retirer_liens_contradictoires(conn) -> int:
+    """Vide `amendement_uids` des votes de l'Assemblée reliés à un amendement d'un autre
+    texte que leur `scrutins.dossier_uid`, et rend le nombre de votes vidés.
+
+    Appelé par `import_amendements.py` juste après avoir posé `dossier_uid` : `relier_votes`
+    a tourné plus tôt dans la nuit, avant que le texte d'un vote du jour soit connu. Mieux
+    vaut pas de vote qu'un faux vote ; la nuit suivante, `relier_votes` refait le lien avec
+    le texte en main. 2 votes ainsi au 2026-11-20, sur 1 800 reliés dont le texte est
+    connu (VTANR5L17V945, relié à l'amendement n° 3 du texte sur l'Ukraine)."""
+    with conn.transaction(), conn.cursor() as cur:
+        cur.execute(
+            """
+            UPDATE votes_amendements v SET amendement_uids = '{}'
+              FROM scrutins s
+             WHERE s.uid = v.uid AND v.chambre = 'AN' AND s.dossier_uid IS NOT NULL
+               AND cardinality(v.amendement_uids) > 0
+               AND EXISTS (SELECT 1 FROM amendements a
+                            WHERE a.uid = ANY(v.amendement_uids) AND a.dossier_uid <> s.dossier_uid)
+            """
+        )
+        return cur.rowcount
+
+
 def relier_votes(votes: list[dict], chambre: str) -> tuple[list[dict], dict[str, int]]:
     """Ajoute `amendement_uids` à chaque vote et rend `(lignes à écrire, compteurs)`.
 
@@ -146,6 +183,9 @@ def relier_votes(votes: list[dict], chambre: str) -> tuple[list[dict], dict[str,
     tard le lendemain du vote (`date_amendement` y est la date de dépôt, sauf pour une
     seconde délibération, déposée le jour même et datée du lendemain). Dans les deux cas
     l'article de l'intitulé doit concorder, et ce qui reste ambigu n'est pas relié.
+    À l'Assemblée, quand `scrutins.dossier_uid` donne le texte du vote, seul un amendement
+    de ce texte peut être retenu : sans ce filtre, le même numéro adopté le même jour sur
+    un autre texte prenait le vote (VTANR5L17V945, LOI-84).
 
     Les « amendements identiques suivants » de l'Assemblée ne sont pas nommés : ce sont
     les adoptés du même dossier, du même jour, sur le même article, au même dispositif.
@@ -163,11 +203,14 @@ def relier_votes(votes: list[dict], chambre: str) -> tuple[list[dict], dict[str,
         else:
             index[(a["dossier_uid"], a["numero"])].append(a)
 
+    dossier_du_vote = _dossiers_des_votes([v["uid"] for v in votes]) if chambre == "AN" else {}
+
     compteurs = {"votes": len(votes), "relies": 0, "non_relies": 0, "ambigus": 0}
     lignes = []
     for vote in votes:
         ligne = dict(vote)
         dossier_uid = ligne.pop("dossier_uid", None)
+        texte_du_vote = dossier_du_vote.get(ligne["uid"])
         date_vote = (ligne["date_scrutin"] or "")[:10]
         # Un vote sans date ne se relie à rien, mais ne doit pas arrêter l'écriture des
         # autres : `date.fromisoformat("")` lève.
@@ -181,11 +224,14 @@ def relier_votes(votes: list[dict], chambre: str) -> tuple[list[dict], dict[str,
         ambigu = False
         for numero in numeros_du_titre(titre):
             if chambre == "AN":
-                retenus = _du_meme_article(index.get((sans_prefixe(numero), date_vote), []), article,
-                                           avec_position=True)
+                def du_texte(cands: list[dict]) -> list[dict]:
+                    return [a for a in cands if not texte_du_vote or a["dossier_uid"] == texte_du_vote]
+
+                retenus = du_texte(_du_meme_article(index.get((sans_prefixe(numero), date_vote), []), article,
+                                                    avec_position=True))
                 if not retenus:
-                    retenus = _du_meme_article(index.get((sans_prefixe(numero), lendemain), []), article,
-                                               avec_position=True)
+                    retenus = du_texte(_du_meme_article(index.get((sans_prefixe(numero), lendemain), []), article,
+                                                        avec_position=True))
             else:
                 retenus = _du_meme_article([
                     a for a in index.get((dossier_uid, numero), [])

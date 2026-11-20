@@ -48,7 +48,11 @@ from _positions_groupe import (  # noqa: E402
     GROUPES_AMELI_VERS_ORGANE,
 )
 from _telechargement import telecharger  # noqa: E402
-from _votes_amendements import RattachementVotes, est_vote_sur_amendement  # noqa: E402
+from _votes_amendements import (  # noqa: E402
+    RattachementVotes,
+    est_vote_sur_amendement,
+    retirer_liens_contradictoires,
+)
 
 # ===================================================================
 # Configuration
@@ -1531,8 +1535,11 @@ def ecrire_dossiers_des_votes(seance_an: list[dict]) -> int:
         for i in range(0, len(lignes), TAILLE_LOT_DOSSIERS_VOTES):
             lot = lignes[i:i + TAILLE_LOT_DOSSIERS_VOTES]
             ecrites += mettre_a_jour(conn, "scrutins", "uid", {"dossier_uid": "text"}, lot)
+        # Un vote relié plus tôt dans la nuit à un amendement d'un autre texte perd ce lien.
+        vides = retirer_liens_contradictoires(conn)
     print(f"   {len(lignes)} vote(s) rattaché(s), {ecrites} écrit(s) ; "
-          f"{sans_dossier} vote(s) sur amendement restent sans dossier")
+          f"{sans_dossier} vote(s) sur amendement restent sans dossier ; "
+          f"{vides} vote(s) détaché(s) d'un amendement d'un autre texte")
     return ecrites
 
 
