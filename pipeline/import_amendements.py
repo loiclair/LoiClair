@@ -10,7 +10,10 @@
 # de l'amendement et son exposé des motifs en texte brut : tous deux servent au
 # classement par profil de lecteur. Remplit enfin `dossier_amendements_elus` (amendements déposés
 # par chaque élu sur chaque dossier, auteur principal seul), lue par la section « Les
-# plus actifs dans ce dossier » de la fiche dossier.
+# plus actifs dans ce dossier » de la fiche dossier. Rattache aussi à leur dossier les
+# scrutins sur amendement de l'Assemblée (`scrutins.dossier_uid`, lu par l'index de
+# recherche des amendements de la page Textes), avec le dump des amendements qu'il a
+# déjà en main (`ecrire_dossiers_des_votes`).
 #
 # Sources :
 #   - AN : Amendements.json.zip (~312 Mo, ~135K fichiers JSON, législature 17)
@@ -45,6 +48,7 @@ from _positions_groupe import (  # noqa: E402
     GROUPES_AMELI_VERS_ORGANE,
 )
 from _telechargement import telecharger  # noqa: E402
+from _votes_amendements import RattachementVotes, est_vote_sur_amendement  # noqa: E402
 
 # ===================================================================
 # Configuration
@@ -463,14 +467,29 @@ def _sort_an(cycle: dict) -> str:
     return "autre"
 
 
+def _amendement_de_seance_an(amd: dict, dossier_uid: str) -> dict:
+    """Ce que `RattachementVotes` lit d'un amendement de séance : dossier, numéro cité,
+    article visé et date du sort (AAAA-MM-JJ, None tant qu'il n'est pas voté)."""
+    ident = amd.get("identification") or {}
+    division = ((amd.get("pointeurFragmentTexte") or {}).get("division") or {})
+    date_sort = (amd.get("cycleDeVie") or {}).get("dateSort")
+    return {
+        "dossier_uid": dossier_uid,
+        "numero": _sans_rectification(ident.get("numeroLong") or ""),
+        "article": _article_court(division.get("articleDesignationCourte")),
+        "sort": date_sort[:10] if isinstance(date_sort, str) and date_sort else None,
+    }
+
+
 def process_an(known_dossier_uids: set, elu_counts: dict, dossier_counts: dict, adoptes: list,
-               senateurs_actuels: set, par_elu: dict):
+               senateurs_actuels: set, par_elu: dict, seance_an: list):
     """Traite les amendements de l'Assemblée nationale.
 
     En plus des compteurs, ajoute à `adoptes` une ligne de la table `amendements` par
     amendement adopté d'un dossier connu : exactement ceux que compte
     `dossier_counts[…].adoptes`. Compte dans `par_elu` les amendements de chaque
-    auteur principal par dossier, Gouvernement exclu.
+    auteur principal par dossier, Gouvernement exclu. Ajoute à `seance_an` chaque
+    amendement de séance, adopté ou non et de tout dossier, pour `ecrire_dossiers_des_votes`.
 
     `senateurs_actuels` : uid des sénateurs en exercice, que cette passe ne crédite pas.
     Un député élu sénateur garde son uid, et ses amendements de député s'ajoutaient à
@@ -515,6 +534,14 @@ def process_an(known_dossier_uids: set, elu_counts: dict, dossier_counts: dict, 
             if part.startswith("DLR5L17"):
                 dossier_uid = part
                 break
+
+        # Avant le filtre des dossiers connus : un amendement d'un dossier absent de la
+        # base aide encore à écarter un faux rattachement (`RattachementVotes`). Le
+        # dossier peut dater d'une législature antérieure (`DLR5L16N…`, 7 889 amendements
+        # de séance au 2026-11-20) : sans lui, le vote se rattachait à un homonyme.
+        dossier_du_chemin = next((p for p in parts if p.startswith("DLR5L")), None)
+        if dossier_du_chemin and ((amd.get("identification") or {}).get("prefixeOrganeExamen") or "AN") == "AN":
+            seance_an.append(_amendement_de_seance_an(amd, dossier_du_chemin))
 
         if not dossier_uid or dossier_uid not in known_dossier_uids:
             skipped_dossier += 1
@@ -1456,6 +1483,59 @@ def ecrire_amendements_elus(par_elu: dict) -> None:
 # ===================================================================
 
 
+TAILLE_LOT_DOSSIERS_VOTES = 2000
+
+
+def ecrire_dossiers_des_votes(seance_an: list[dict]) -> int:
+    """Écrit `scrutins.dossier_uid` des votes sur amendement de l'Assemblée qui n'en ont
+    pas encore, et rend le nombre de lignes écrites.
+
+    `seance_an` : les amendements de séance du dump de la nuit (`process_an`). Ne lit que
+    les scrutins sans dossier : un lien posé ne s'efface ni ne change, car le dump perd
+    les amendements des textes anciens et la règle ne retrouverait plus ce qu'elle a
+    trouvé. Seul un dossier présent en base est écrit : la page Textes ne saurait où
+    ranger les autres. Un dossier importé plus tard relie ses votes la nuit suivante.
+
+    Après `import_scrutins_cloud.py` dans `nightly.py` : un vote du jour a son dossier
+    la nuit même.
+    """
+    print("\n" + "=" * 60)
+    print("🔗 DOSSIER DES SCRUTINS SUR AMENDEMENT (AN)")
+    print("=" * 60)
+    with connexion(autocommit=True) as conn:
+        scrutins = lire(
+            conn,
+            """
+            SELECT uid, titre, date_scrutin FROM scrutins
+             WHERE chambre = 'Assemblée Nationale' AND dossier_uid IS NULL
+             ORDER BY uid
+            """,
+        )
+        dossiers = lire(conn, "SELECT uid, titre, date_depot FROM dossiers_legislatifs ORDER BY uid")
+    connus = {d["uid"] for d in dossiers}
+    rattachement = RattachementVotes(seance_an, dossiers)
+
+    lignes = []
+    sans_dossier = 0
+    for s in scrutins:
+        if not est_vote_sur_amendement(s["titre"]):
+            continue
+        dossier_uid = rattachement.dossier_du_vote(s["titre"], s["date_scrutin"])
+        if dossier_uid in connus:
+            lignes.append({"uid": s["uid"], "dossier_uid": dossier_uid})
+        else:
+            sans_dossier += 1
+
+    ecrites = 0
+    with connexion() as conn:
+        for i in range(0, len(lignes), TAILLE_LOT_DOSSIERS_VOTES):
+            lot = lignes[i:i + TAILLE_LOT_DOSSIERS_VOTES]
+            ecrites += mettre_a_jour(conn, "scrutins", "uid", {"dossier_uid": "text"}, lot)
+    print(f"   {len(lignes)} vote(s) rattaché(s), {ecrites} écrit(s) ; "
+          f"{sans_dossier} vote(s) sur amendement restent sans dossier")
+    return ecrites
+
+
 def main():
     print("=" * 60)
     print("IMPORT DES AMENDEMENTS (AN + SÉNAT)")
@@ -1477,6 +1557,7 @@ def main():
     dossier_counts: dict[str, DossierCounts] = {}
     adoptes: list[dict] = []
     par_elu: dict[tuple[str, str, str], int] = defaultdict(int)
+    seance_an: list[dict] = []
 
     # Les deux passes doivent réussir avant d'écrire quoi que ce soit. Une panne au
     # milieu du parcours AN laissait `elu_counts` partiel, et `upsert_results` l'écrivait
@@ -1487,7 +1568,8 @@ def main():
     echecs: list[str] = []
 
     try:
-        process_an(known_dossier_uids, elu_counts, dossier_counts, adoptes, senateurs_actuels, par_elu)
+        process_an(known_dossier_uids, elu_counts, dossier_counts, adoptes, senateurs_actuels, par_elu,
+                   seance_an)
     except Exception as e:
         print(f"❌ Erreur AN : {e}")
         import traceback
@@ -1510,6 +1592,7 @@ def main():
     upsert_results(elu_counts, dossier_counts)
     ecrire_amendements(adoptes)
     ecrire_amendements_elus(par_elu)
+    ecrire_dossiers_des_votes(seance_an)
 
     # Résumé
     total_auteur = sum(ec.auteur for ec in elu_counts.values())

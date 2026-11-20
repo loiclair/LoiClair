@@ -60,6 +60,8 @@ RACINE = Path(__file__).resolve().parent
 # - `decouper-textes` lit les dossiers, les textes et la loi Légifrance écrits par
 #   `dossiers`, `textes`, `legifrance` et `application-lois` (statut « Appliquée ») ;
 #   `classer-impacts` classe ses articles et les amendements écrits par `amendements`.
+# - `amendements` rattache à leur dossier les scrutins que `scrutins` vient d'écrire
+#   (`scrutins.dossier_uid`) : un vote importé ce soir est rattaché la nuit même.
 # - `exposes` lit le premier texte déposé de chaque dossier dans les textes écrits par
 #   `textes` et `senat` (adresse et page accessible), pour les dossiers écrits par
 #   `dossiers`. Un dépôt du jour a son exposé la nuit même, s'il est déjà en ligne.
