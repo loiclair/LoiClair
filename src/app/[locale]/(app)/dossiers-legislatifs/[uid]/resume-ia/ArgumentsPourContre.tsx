@@ -238,11 +238,17 @@ export default function ArgumentsPourContre({
           <div className="flex items-start gap-3 text-sm">
             <span className="flex items-start gap-1.5" style={{ color: '#B91C1C' }}>
               <AlertCircle className="h-3.5 w-3.5 mt-0.5 shrink-0" />
-              <span>{errorKind === 'quota' ? t('generationQuotaExceeded') : t('generationFailed')}</span>
+              <span>{errorKind === 'quota'
+                ? t('generationQuotaExceeded')
+                : errorKind === 'challenge' ? t('generationChallenge') : t('generationFailed')}</span>
             </span>
             {errorKind !== 'quota' && (
-              <button type="button" onClick={handleRetry} className="text-xs leading-5 text-primary hover:underline shrink-0">
-                {t('retry')}
+              <button
+                type="button"
+                onClick={errorKind === 'challenge' ? () => window.location.reload() : handleRetry}
+                className="text-xs leading-5 text-primary hover:underline shrink-0"
+              >
+                {errorKind === 'challenge' ? t('reloadPage') : t('retry')}
               </button>
             )}
           </div>

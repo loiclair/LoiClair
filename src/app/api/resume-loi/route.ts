@@ -13,6 +13,7 @@ import { SCHEMA_RESUME_LOI, type ResumeLoiIa } from '@/lib/ai-schemas';
 import { auPlusUneLigne, sql } from '@/lib/db';
 import { attendreOuPrendreVerrouIa, consommerPlafondIa, enforceAiRateLimit, plafondIaAtteint, PREFIXE_IA, redis, rendreVerrouIa, type VerrouIa } from '@/lib/rate-limit';
 import { cachedTextResponse } from '@/lib/resume-ai-stream';
+import { reponseCacheAbsent } from '@/lib/resume-ia-delai';
 import { avecReprises, DELAIS_REPRISE_WEB, delaiLimiteDebit, estQuotaEpuise, REPRISES_SDK_DESACTIVEES, texteNonTronque } from '@/lib/ai-retry';
 
 // La synthèse finale ne streame plus : elle arrive d'un coup, une fois l'objet
@@ -282,6 +283,12 @@ export async function POST(request: NextRequest) {
     if (!lien && !contenu_legifrance) {
       return NextResponse.json({ error: 'texteUnavailable' }, { status: 400 });
     }
+
+    // Première demande de la carte : sans cache, 204, et la carte ne redemande
+    // qu'après son délai (voir lib/resume-ia-delai). Après le refus d'un texte sans
+    // contenu, qui doit arriver tout de suite, et avant le verrou.
+    const cacheAbsent = reponseCacheAbsent(request);
+    if (cacheAbsent) return cacheAbsent;
 
     // Une génération à la fois par texte et par langue. Le lecteur qui trouve le
     // verrou attend le résumé du premier, sans passer par la limite horaire ; c'est

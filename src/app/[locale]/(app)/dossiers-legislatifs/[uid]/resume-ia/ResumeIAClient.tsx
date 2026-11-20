@@ -672,15 +672,16 @@ export default function ResumeIAClient({ uid, initialTextes, statutFinal, datePr
                     <AlertCircle className="h-3.5 w-3.5 mt-0.5 shrink-0" />
                     <span>{errorKind === 'quota'
                       ? t('generationQuotaExceeded')
+                      : errorKind === 'challenge' ? t('generationChallenge')
                       : errorKind === 'unavailable' ? t('generationUnavailable') : t('generationFailed')}</span>
                   </span>
                   {errorKind !== 'quota' && errorKind !== 'unavailable' && (
                     <button
                       type="button"
-                      onClick={relancerResume}
+                      onClick={errorKind === 'challenge' ? () => window.location.reload() : relancerResume}
                       className="text-xs leading-5 text-primary hover:underline shrink-0"
                     >
-                      {t('retry')}
+                      {errorKind === 'challenge' ? t('reloadPage') : t('retry')}
                     </button>
                   )}
                 </div>

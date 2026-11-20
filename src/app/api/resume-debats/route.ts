@@ -52,6 +52,7 @@ import { lecteurDeGroupes, type GroupeOrgane } from '@/lib/groupe-au-jour';
 import { attendreOuPrendreVerrouIa, consommerPlafondIa, enforceAiRateLimit, plafondIaAtteint, PREFIXE_IA, prendreVerrouIa, rendreVerrouIa, type VerrouIa } from '@/lib/rate-limit';
 import { SCHEMA_RESUME_DEBATS, type ResumeDebatsIa } from '@/lib/ai-schemas';
 import { cachedTextResponse } from '@/lib/resume-ai-stream';
+import { reponseCacheAbsent } from '@/lib/resume-ia-delai';
 import { avecReprises, DELAIS_REPRISE_WEB, delaiLimiteDebit, estQuotaEpuise, REPRISES_SDK_DESACTIVEES, texteNonTronque } from '@/lib/ai-retry';
 
 // La synthèse ne streame plus : rien ne tient la connexion ouverte pendant la
@@ -474,6 +475,12 @@ export async function POST(request: NextRequest) {
       }
       precedente = cached;
     }
+
+    // Première demande de la carte : sans synthèse à jour, 204, et la carte ne
+    // redemande qu'après son délai (voir lib/resume-ia-delai). La précédente n'est
+    // pas servie ici : la seconde demande la sert ou la remplace, comme avant.
+    const cacheAbsent = reponseCacheAbsent(request);
+    if (cacheAbsent) return cacheAbsent;
 
     // Une synthèse à la fois par dossier et par langue. Avec une synthèse
     // précédente, le lecteur qui trouve le verrou la reçoit tout de suite ; sans

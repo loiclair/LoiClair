@@ -1917,7 +1917,9 @@
     "debatsSeanceTitre": "Sitting {n}",
     "sansDetail493": "Adopted without a vote: the Government used Article 49.3 of the Constitution.",
     "sansDetail1517": "Became final without a vote in the chamber, after its adoption in committee (Rule 151-7 of the National Assembly's Standing Orders).",
-    "sansDetailInconnu": "The breakdown of votes is not available for this decision."
+    "sansDetailInconnu": "The breakdown of votes is not available for this decision.",
+    "generationChallenge": "The security check has expired. Reload the page to see the summary.",
+    "reloadPage": "Reload the page"
   },
   "errors": {
     "notFoundBadge": "404 · Element not found",

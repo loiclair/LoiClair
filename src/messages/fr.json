@@ -1922,7 +1922,9 @@
     "debatsSeanceTitre": "Séance {n}",
     "sansDetail493": "Adopté sans vote : le Gouvernement a engagé sa responsabilité (article 49.3 de la Constitution).",
     "sansDetail1517": "Devenue définitive sans vote en séance, après son adoption en commission (article 151-7 du Règlement de l'Assemblée).",
-    "sansDetailInconnu": "Le détail des voix n'est pas disponible pour cette décision."
+    "sansDetailInconnu": "Le détail des voix n'est pas disponible pour cette décision.",
+    "generationChallenge": "La vérification de sécurité a expiré. Rechargez la page pour afficher le résumé.",
+    "reloadPage": "Recharger la page"
   },
   "errors": {
     "notFoundBadge": "404 · Élément introuvable",
