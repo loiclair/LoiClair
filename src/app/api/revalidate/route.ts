@@ -94,6 +94,8 @@ const ROUTES_NOCTURNES = [
   '/api/search-index/dossiers',
   '/api/search-index/dossiers/resumes',
   '/api/search-index/dossiers/impacts',
+  '/api/search-index/amendements',
+  '/api/search-index/amendements/textes',
   '/sitemap.xml',
 ]
 

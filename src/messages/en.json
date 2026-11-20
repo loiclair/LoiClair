@@ -647,7 +647,19 @@
     "quickGovBills": "Government bills",
     "titresTraduitsInfobulle": "Titles are translated by artificial intelligence from the official French titles, shown on each dossier's page. They may contain errors. The badge links to the AI's instructions and settings.",
     "statutRejeteAssemblee": "Rejected by the National Assembly",
-    "statutRejeteSenat": "Rejected by the Senate"
+    "statutRejeteSenat": "Rejected by the Senate",
+    "amendementTitre": "Amendment no. {numero}",
+    "amendementGouvernement": "Government",
+    "amendementAssemblee": "National Assembly",
+    "amendementSenat": "Senate",
+    "amendementSeance": "In plenary",
+    "amendementCommission": "In committee",
+    "amendementAdopte": "Adopted",
+    "amendementRejete": "Rejected",
+    "voteScrutinPublic": "Recorded vote",
+    "amendementsTrouves": "Matching amendments and votes",
+    "amendementsVoirAutres": "{count, plural, one {Show 1 more} other {Show # more}}",
+    "amendementsVoirSuivants": "Show the next {lot} of {count}"
   },
   "elus": {
     "pageTitle": "Elected officials",

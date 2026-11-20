@@ -652,7 +652,19 @@
     "quickGovBills": "Projets du gouvernement",
     "titresTraduitsInfobulle": "Les titres sont traduits par une intelligence artificielle à partir des titres officiels, en français, que chaque fiche affiche. Ils peuvent contenir des erreurs. Le badge mène aux instructions et aux paramètres de l'IA.",
     "statutRejeteAssemblee": "Rejeté par l'Assemblée nationale",
-    "statutRejeteSenat": "Rejeté par le Sénat"
+    "statutRejeteSenat": "Rejeté par le Sénat",
+    "amendementTitre": "Amendement n° {numero}",
+    "amendementGouvernement": "Gouvernement",
+    "amendementAssemblee": "Assemblée nationale",
+    "amendementSenat": "Sénat",
+    "amendementSeance": "En séance",
+    "amendementCommission": "En commission",
+    "amendementAdopte": "Adopté",
+    "amendementRejete": "Rejeté",
+    "voteScrutinPublic": "Scrutin public",
+    "amendementsTrouves": "Amendements et votes correspondants",
+    "amendementsVoirAutres": "{count, plural, one {Voir l’autre} other {Voir les # autres}}",
+    "amendementsVoirSuivants": "Voir les {lot} suivants sur {count}"
   },
   "elus": {
     "pageTitle": "Les élus",

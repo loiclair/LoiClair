@@ -4,12 +4,19 @@
 // lignes. Tout se calcule dans le navigateur à partir de l'index des dossiers,
 // les filtres et la requête étant lus dans le hash. `page.tsx` ne fournit que
 // les valeurs possibles de chaque filtre (`filterLabels`).
+//
+// Une recherche lit aussi l'index des amendements (LOI-83), chargé à la première
+// requête : un texte remonte par ses amendements adoptés et ses votes sur amendement,
+// rangés sous sa ligne (`AmendementsTrouves`). La liste reste celle des textes, et les
+// filtres comme les tris ne portent que sur eux.
 
 import { useEffect, useState, useRef, useCallback, useMemo, Fragment } from 'react';
 import { useTranslations, useLocale } from 'next-intl';
 import { Loader2 } from 'lucide-react';
 import { chargerIndexDossiers, filterDossiers, relancerIndexDossiers, type DossierIndex, type DossierMeta } from '@/lib/search/dossier-index';
-import { searchDossiers } from '@/lib/search/search-dossiers';
+import { chargerIndexAmendements, type AmendementIndex, type AmendementsDuDossier } from '@/lib/search/amendement-index';
+import { rechercherTextes } from '@/lib/search/search-dossiers';
+import AmendementsTrouves from '@/components/AmendementsTrouves';
 import { useHashQuery } from '@/lib/search/use-hash-query';
 import { lireListe, useHashFilter, useHashParams, readHashParams, writeHashParam } from '@/lib/search/use-hash-filter';
 import { acteLabelKey } from '@/lib/legislative-steps';
@@ -119,7 +126,40 @@ export default function DossiersResultsClient({ filterLabels }: Props) {
   const [indexError, setIndexError] = useState(false);
 
   const [searchResults, setSearchResults] = useState<DossierMeta[] | null>(null);
+  // Les amendements trouvés par la recherche en cours, par dossier, avec l'index qui les
+  // a trouvés : la ligne en lit les métadonnées. `null` sans recherche ou sans index.
+  const [amendementsTrouves, setAmendementsTrouves] = useState<{ parDossier: Map<string, AmendementsDuDossier>; index: AmendementIndex } | null>(null);
   const [searching, setSearching] = useState(false);
+
+  // Vrai dès la première requête, et le reste : l'index des amendements ne se charge
+  // qu'à ce moment. Lu dans le hash au premier rendu du navigateur, pour qu'une requête
+  // présente à l'arrivée l'abonne avant l'index des dossiers (effet suivant).
+  const [veutAmendements, setVeutAmendements] = useState(() => typeof window !== 'undefined' && !!readHashParams().get('q'));
+  if (hashQuery && !veutAmendements) setVeutAmendements(true);
+  const amendementsRef = useRef<AmendementIndex | null>(null);
+  // Incrémenté à chaque index d'amendements publié, comme `revisionIndex`.
+  const [revisionAmendements, setRevisionAmendements] = useState(0);
+  // Déclaré avant l'abonnement aux dossiers, donc joué avant lui : un index déjà
+  // construit dans la visite (retour d'une fiche) arrive aussitôt, et la recherche
+  // initiale le lit. Sinon, il enrichit la liste à son arrivée, sans qu'elle l'attende :
+  // indexer le dispositif prend plusieurs secondes sur téléphone.
+  useEffect(() => {
+    if (!veutAmendements) return;
+    return chargerIndexAmendements((idx) => {
+      amendementsRef.current = idx;
+      setRevisionAmendements((n) => n + 1);
+    });
+  }, [veutAmendements]);
+
+  /** Publie le résultat d'une recherche, avec l'index des amendements qui l'a produit. */
+  const publierRecherche = useCallback((r: Awaited<ReturnType<typeof rechercherTextes>> | null, index: AmendementIndex | null) => {
+    setSearchResults(r?.dossiers ?? null);
+    setAmendementsTrouves(r && index ? { parDossier: r.amendements, index } : null);
+  }, []);
+  // Faux tant que la liste attend l'index final (requête à l'arrivée, voir plus bas) :
+  // une recherche lancée par un index d'amendements publiée avant changerait la liste
+  // sous la restauration du défilement.
+  const pretRef = useRef(false);
 
   const filtersKey = `${hashQuery}|${statutFilter}|${ageFilter}|${typeFilter}|${groupeFilter}|${themeFilter}`;
   const { count, loadMore } = useLoadMoreWithRestore('dossiers-list-state', filtersKey);
@@ -137,12 +177,12 @@ export default function DossiersResultsClient({ filterLabels }: Props) {
     // sont publiés avec l'index, dans le même rendu, sinon la liste complète
     // s'afficherait sous le mot-clé.
     const attendreFinal = !!readHashParams().get('q');
-    let publie = false;
+    pretRef.current = false;
     const desabonner = chargerIndexDossiers(async (idx) => {
       const precedent = indexRef.current;
       indexRef.current = idx;
-      if (!attendreFinal || publie) {
-        publie = true;
+      if (!attendreFinal || pretRef.current) {
+        pretRef.current = true;
         // La republication finale porte le même index : rien de neuf à chercher.
         if (idx.minisearch === precedent?.minisearch) return;
         setAllDossiers(idx.all);
@@ -150,20 +190,22 @@ export default function DossiersResultsClient({ filterLabels }: Props) {
         return;
       }
       if (!idx.final) return;
-      publie = true;
+      pretRef.current = true;
       // Le hash relu maintenant : il a pu changer pendant le chargement.
       const params = readHashParams();
       const q = params.get('q');
       const exact = lireTri(params.get('tri'), q) !== 'pertinence';
+      const amendements = amendementsRef.current;
       const initiaux = q
-        ? await searchDossiers(idx, q, limiteRecherche(exact), { exact }).catch(() => [])
+        ? await rechercherTextes(idx, amendements, q, limiteRecherche(exact), { exact })
+          .catch(() => ({ dossiers: [], amendements: new Map() }))
         : null;
       if (cancelled) return;
-      if (initiaux) setSearchResults(initiaux);
+      if (initiaux) publierRecherche(initiaux, amendements);
       setAllDossiers(idx.all);
     }, () => { if (!cancelled) setIndexError(true); });
     return () => { cancelled = true; desabonner(); };
-  }, []);
+  }, [publierRecherche]);
 
   // Migrate legacy URL params (e.g. ?statut=promulguee) to hash params on first load
   useEffect(() => {
@@ -180,26 +222,31 @@ export default function DossiersResultsClient({ filterLabels }: Props) {
   }, []);
 
   const runSearch = useCallback(async (query: string, exact: boolean) => {
-    if (!indexRef.current || !query) { setSearchResults(null); return; }
+    if (!indexRef.current || !query) { publierRecherche(null, null); return; }
     setSearching(true);
+    const amendements = amendementsRef.current;
     try {
-      const results = await searchDossiers(indexRef.current, query, limiteRecherche(exact), { exact });
-      setSearchResults(results);
+      publierRecherche(await rechercherTextes(indexRef.current, amendements, query, limiteRecherche(exact), { exact }), amendements);
     } catch {
-      setSearchResults([]);
+      publierRecherche({ dossiers: [], amendements: new Map() }, null);
     } finally {
       setSearching(false);
     }
-  }, []);
+  }, [publierRecherche]);
 
   // Rejoué aussi au passage de la pertinence à un tri par date (et retour) : les
   // deux ne cherchent pas la même chose, voir `rechercheExacte`.
-  // Et à chaque nouvel index (`revisionIndex`), qui peut trouver davantage.
+  // Et à chaque nouvel index (`revisionIndex`, `revisionAmendements`), qui peut trouver
+  // davantage. La première requête tapée lance le chargement des amendements.
+  // `pretRef` : rien tant que la liste attend l'index final, qui joue lui-même la
+  // recherche initiale.
   useEffect(() => {
-    if (hashQuery) runSearch(hashQuery, rechercheExacte);
+    if (hashQuery) {
+      if (pretRef.current) runSearch(hashQuery, rechercheExacte);
+    }
     // eslint-disable-next-line react-hooks/set-state-in-effect -- nettoie les résultats quand la requête est vidée (#q effacé)
-    else setSearchResults(null);
-  }, [hashQuery, rechercheExacte, runSearch, revisionIndex]);
+    else publierRecherche(null, null);
+  }, [hashQuery, rechercheExacte, runSearch, revisionIndex, revisionAmendements, publierRecherche]);
 
   const pool = useMemo(() => searchResults ?? allDossiers ?? [], [searchResults, allDossiers]);
   // Valeurs cochées de chaque menu (`#statut=promulguee,appliquee`). Une valeur
@@ -619,6 +666,15 @@ export default function DossiersResultsClient({ filterLabels }: Props) {
                       )}
                     </div>
                   </DossierCard>
+                  {/* Hors de la carte, qui est un lien : chaque ligne mène à sa propre page.
+                      La clé porte la requête, pour qu'une nouvelle recherche replie la liste. */}
+                  {amendementsTrouves && amendementsTrouves.parDossier.has(dossier.uid) && (
+                    <AmendementsTrouves
+                      key={`${dossier.uid}|${hashQuery}`}
+                      uids={amendementsTrouves.parDossier.get(dossier.uid)!.uids}
+                      index={amendementsTrouves.index}
+                    />
+                  )}
                 </li>
               </Fragment>
             );
