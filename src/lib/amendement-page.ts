@@ -128,6 +128,8 @@ export type DetailAmendement = {
   etat_texte: { statut: string; libelle: string; date: string | null } | null;
   chambre: 'AN' | 'SN';
   lieu: 'seance' | 'commission';
+  /** Date de l'amendement, déjà écrite dans la langue (ligne du vote de l'en-tête). */
+  date: string | null;
   numero: string;
   article: string | null;
   url: string;
@@ -192,6 +194,7 @@ export async function chargerDetailAmendement(a: AmendementLigne, locale: string
     etat_texte: a.statut_final && statutTexte ? { statut: a.statut_final, libelle: statutTexte, date: datePublication } : null,
     chambre: a.chambre,
     lieu: a.lieu,
+    date: a.date_amendement ? dateDuVote(locale, a.date_amendement) : null,
     numero: a.numero,
     article: a.article,
     url: a.url,

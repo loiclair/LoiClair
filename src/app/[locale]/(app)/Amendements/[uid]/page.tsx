@@ -10,11 +10,10 @@
 
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
-import { CalendarDays } from 'lucide-react';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
-import PageHero, { type PageHeroMetaRow } from '@/components/PageHero';
+import PageHero from '@/components/PageHero';
 import ContacterMesElusBanner from '@/components/ContacterMesElusBanner';
-import { LienTexte, LignesEntete, articleEnEntier, ligneReponse } from '@/components/EnteteElement';
+import { EnteteAmendement, articleEnEntier } from '@/components/EnteteElement';
 import { chargerDetailAmendement, lireAmendement } from '@/lib/amendement-page';
 import { chargerAuteur, droiteBandeau } from '@/lib/auteur-dossier';
 import { buildAlternates, buildOpenGraph, ogImageAmendementUrl } from '@/lib/og-metadata';
@@ -23,7 +22,6 @@ import { buildShareUrl } from '@/lib/share-url';
 import { titreDossier } from '@/lib/titre-dossier';
 import { estUidAmendement } from '@/lib/uid-fiches';
 import { dateDuVote } from '@/lib/vote-page';
-import { seanceVersSlug } from '../../dossiers-legislatifs/[uid]/debats/seance-slug';
 import SectionsAmendement from './SectionsAmendement';
 
 // Même régime que la page d'un vote : générée à la première visite, gardée 24 h, et marquée
@@ -87,19 +85,6 @@ export default async function AmendementPage({ params }: { params: Promise<{ loc
   const dossierHref = `/dossiers-legislatifs/${a.dossier_uid}/resume-ia`;
   const titreTexte = titreDossier({ titre: a.dossier_titre, titre_en: a.dossier_titre_en }, locale);
   const nom = t('nom', { numero: a.numero });
-  const date = a.date_amendement ? dateDuVote(locale, a.date_amendement) : null;
-  const { debats } = detail;
-  const seanceCiblee = debats.length === 1 ? `/debats/${seanceVersSlug(debats[0].seance_uid)}` : '/debats';
-
-  const meta: PageHeroMetaRow[] = [{
-    icon: <CalendarDays className="h-3 w-3" />,
-    label: t(a.sort === 'rejete' ? 'metaLabelRejet' : 'metaLabel'),
-    pills: [
-      ...(date ? [{ children: date }] : []),
-      ...(debats.length > 0 ? [{ children: t('lireDebats'), href: `/dossiers-legislatifs/${a.dossier_uid}${seanceCiblee}`, internal: true }] : []),
-      { children: a.chambre === 'SN' ? t('sourceSenat') : t('sourceAN'), href: a.url },
-    ],
-  }];
 
   // Le bandeau cherche la position de chaque élu dans cette liste, au format de
   // `scrutins.votes_nominatifs` ; sans vote, il propose simplement de retrouver ses élus.
@@ -115,29 +100,7 @@ export default async function AmendementPage({ params }: { params: Promise<{ loc
           { label: t('fil') },
         ]}
         title={a.article ? `${nom} · ${articleEnEntier(a.article)}` : nom}
-        lede={
-          <LignesEntete
-            etiquetteTexte={t('enteteTexte')}
-            texte={titreTexte ? <LienTexte texte={{ uid: a.dossier_uid, titre: titreTexte, traduit: detail.titre_traduit }} /> : null}
-            etats={[
-              // En tête : est-il dans le texte aujourd'hui ? (retour d'Alex, 2026-11-21).
-              ...(detail.reponse ? [ligneReponse(detail.reponse, t as unknown as Parameters<typeof ligneReponse>[1])] : []),
-              ...(detail.etat_texte ? [{
-                etiquette: t('enteteEtatTexte'),
-                statut: detail.etat_texte.statut,
-                libelle: detail.etat_texte.libelle,
-                complement: detail.etat_texte.date && t('statutLe', { date: detail.etat_texte.date }),
-              }] : []),
-              {
-                etiquette: t('enteteEtatAmendement'),
-                statut: a.sort === 'rejete' ? 'Rejeté' : 'Adopté',
-                libelle: tResume(a.sort === 'rejete' ? 'rejected' : 'adopted'),
-                complement: t(a.lieu === 'seance' ? 'complementSeance' : 'complementCommission', { chambre: tResume(a.chambre === 'AN' ? 'assemblee' : 'senat') }),
-              },
-            ]}
-          />
-        }
-        meta={meta}
+        lede={<EnteteAmendement connu={a} detail={detail} />}
         footer={titreTexte ? (
           <ContacterMesElusBanner
             dossier={{ uid: a.dossier_uid, titre: a.dossier_titre, statut: null }}

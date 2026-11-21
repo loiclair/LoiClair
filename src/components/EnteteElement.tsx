@@ -6,13 +6,16 @@
 // Pas de `'use client'` : `articleEnEntier` et `LignesEntete` servent aussi à la page d'un
 // amendement, rendue côté serveur.
 
-import { Fragment, type ReactNode } from 'react';
+import { Fragment, type CSSProperties, type ReactNode } from 'react';
+import { Check, Clock, X } from 'lucide-react';
 import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/navigation';
 import { SheetHeader, SheetTitle } from '@/components/ui/sheet';
 import { AIBadgeTitre } from '@/app/[locale]/(app)/dossiers-legislatifs/[uid]/resume-ia/AICardElements';
 import { BadgeStatut } from '@/app/[locale]/(app)/Scrutins/[uid]/ResultatVote';
-import type { ReponseAmendement } from '@/lib/amendement-page';
+import type { DetailAmendement, ReponseAmendement } from '@/lib/amendement-page';
+import { SCRUTIN_COLORS } from '@/lib/scrutin-affichage';
+import { seanceVersSlug } from '@/app/[locale]/(app)/dossiers-legislatifs/[uid]/debats/seance-slug';
 
 export type TexteEntete = { uid: string; titre: string; traduit: boolean };
 /** Un statut : `statut`, la valeur française brute qui choisit la couleur de la pastille
@@ -76,11 +79,15 @@ export function LignesEntete({ etiquetteTexte, texte, etats }: {
 /** L'en-tête d'un tiroir. Le vide flottant dégage « Partager » et la croix, posés en absolu
  *  à la hauteur de la première ligne, sans retirer de largeur aux lignes suivantes d'un
  *  titre long (celui d'un vote tient souvent sur quatre lignes à 390 px). */
-export function EnteteTiroir({ nom, texte, etats, onFermer }: {
+export function EnteteTiroir({ nom, texte, etats, lignes, onFermer }: {
   nom: ReactNode;
+  /** Remplace les lignes étiquetées (`texte`, `etats`) : l'amendement a son propre en-tête,
+   *  `EnteteAmendement`. */
+  lignes?: ReactNode;
   /** Absent tant que le détail charge, quand le texte n'est pas déjà connu. */
   texte?: TexteEntete | null;
-  etats: EtatEntete[];
+  /** Ignoré quand `lignes` est donné. */
+  etats?: EtatEntete[];
   onFermer: () => void;
 }) {
   const t = useTranslations('amendementPage');
@@ -90,52 +97,141 @@ export function EnteteTiroir({ nom, texte, etats, onFermer }: {
         <span aria-hidden style={{ float: 'right', width: 110, height: '1em' }} />
         {nom}
       </SheetTitle>
-      <LignesEntete
-        etiquetteTexte={t('enteteTexte')}
-        texte={texte?.titre ? <LienTexte texte={texte} onFermer={onFermer} /> : null}
-        etats={etats}
-      />
+      {lignes ?? (
+        <LignesEntete
+          etiquetteTexte={t('enteteTexte')}
+          texte={texte?.titre ? <LienTexte texte={texte} onFermer={onFermer} /> : null}
+          etats={etats ?? []}
+        />
+      )}
     </SheetHeader>
   );
 }
 
-/** Traduction du namespace `amendementPage`, côté serveur (`getTranslations`) comme client
- *  (`useTranslations`) : seule la forme d'appel compte ici. */
-type TraduireAmendement = (cle: string, valeurs?: Record<string, string>) => string;
+type Ton = 'oui' | 'non' | 'neutre';
+const COULEUR_TON: Record<Ton, string> = { oui: SCRUTIN_COLORS.pour, non: SCRUTIN_COLORS.contre, neutre: 'var(--muted-foreground)' };
+const ICONE_TON = { oui: Check, non: X, neutre: Clock };
+const BLOC: CSSProperties = { display: 'block' };
 
-/** La ligne « Dans le texte aujourd'hui » de la page d'un amendement et de son tiroir : une
- *  pastille (Non en rouge, Oui en vert, Pas encore et Non tranché en gris) et la phrase qui
- *  dit ce qu'on sait, avec le lien vers la loi publiée quand le texte l'est devenu. Rangée en
- *  tête des états : c'est la question que se pose le lecteur d'un amendement partagé. */
-export function ligneReponse(r: ReponseAmendement, t: TraduireAmendement): EtatEntete {
-  const chambre = r.chambre;
-  const non = r.cas === 'rejete_scrutin' || r.cas === 'texte_rejete';
-  const oui = r.cas === 'oui' || r.cas === 'oui_navette' || r.cas === 'oui_loi';
-  const phrase = {
-    rejete_scrutin: () => t('reponseRejeteScrutin', { date: r.date ?? '' }),
-    texte_rejete: () => t('reponseTexteRejete', { chambre, date: r.date ?? '' }),
-    pas_encore: () => t('reponsePasEncore'),
-    sans_vote: () => t('reponseSansVote', { chambre }),
-    oui: () => t('reponseOui', { chambre, date: r.date ?? '', commission: r.commission ? 'oui' : 'non' }),
-    oui_navette: () => `${t('reponseOui', { chambre, date: r.date ?? '', commission: r.commission ? 'oui' : 'non' })} ${t('reponseSuiteNavette')}`,
-    oui_loi: () => `${t('reponseOui', { chambre, date: r.date ?? '', commission: r.commission ? 'oui' : 'non' })} ${t('reponseSuiteLoi', { date: r.date_loi ?? '' })}`,
-  }[r.cas]();
-  return {
-    etiquette: t('reponseEtiquette'),
-    statut: non ? 'Rejeté' : oui ? 'Adopté' : null,
-    libelle: t('reponsePastille', { cas: r.cas }),
-    complement: (
-      <span style={{ color: 'var(--foreground)' }}>
-        {phrase}
-        {r.cas === 'oui_loi' && r.url_loi && (
-          <>
-            {' '}
-            <a href={r.url_loi} target="_blank" rel="noopener noreferrer" style={{ color: 'var(--primary)', whiteSpace: 'nowrap' }}>
-              {t('reponseLireLoi')} →
-            </a>
-          </>
+/** Une réponse : icône ronde teintée, titre en gras, détail en gris dessous. Des `span` : la
+ *  page pose l'en-tête dans la phrase de `PageHero`, un paragraphe. */
+function Reponse({ ton, titre, detail }: { ton: Ton; titre: ReactNode; detail?: ReactNode }) {
+  const Icone = ICONE_TON[ton];
+  const couleur = COULEUR_TON[ton];
+  return (
+    <span style={{ display: 'grid', gridTemplateColumns: '22px minmax(0, 1fr)', columnGap: '10px' }}>
+      <span aria-hidden style={{ width: 22, height: 22, borderRadius: '50%', display: 'grid', placeItems: 'center', marginTop: 1, color: couleur, backgroundColor: `color-mix(in oklab, ${couleur} 14%, transparent)` }}>
+        <Icone size={14} strokeWidth={2.5} />
+      </span>
+      <span style={{ ...BLOC, minWidth: 0 }}>
+        <span style={{ ...BLOC, fontSize: '1rem', fontWeight: 600, lineHeight: 1.4, color: 'var(--foreground)' }}>{titre}</span>
+        {detail && <span style={{ ...BLOC, fontSize: '0.875rem', lineHeight: 1.5, marginTop: 1 }}>{detail}</span>}
+      </span>
+    </span>
+  );
+}
+
+/** Ce que l'en-tête sait d'un amendement avant le chargement de son détail (tiroir). */
+export type AmendementConnu = Pick<DetailAmendement, 'chambre' | 'lieu'> & { sort?: DetailAmendement['sort'] };
+
+/** L'en-tête d'un amendement, sur sa page et dans son tiroir (prototype
+ *  `mockups/entete-amendement`, v1 adoptée par Alex le 2026-11-21) : d'abord les deux
+ *  réponses que cherche le lecteur, le vote sur l'amendement (date, décompte d'un scrutin
+ *  public) puis s'il est dans le texte aujourd'hui (`reponseAmendement`) ; après un filet,
+ *  le texte, son statut, la source et les débats, en gris. Une seule famille de styles, sans
+ *  pastille. `detail` absent : le tiroir charge, la seconde réponse garde sa place. */
+export function EnteteAmendement({ connu, detail, texte, onFermer }: {
+  connu: AmendementConnu;
+  detail: DetailAmendement | null;
+  /** Le texte quand il est déjà connu, pour le nommer avant la fin du chargement. */
+  texte?: TexteEntete | null;
+  onFermer?: () => void;
+}) {
+  const t = useTranslations('amendementPage');
+  const sort = detail?.sort ?? connu.sort ?? 'adopte';
+  const chambre = connu.chambre;
+  const v = detail?.vote;
+  const titreVote = t(sort === 'rejete' ? 'voteRejete' : connu.lieu === 'commission' ? 'voteAdopteCommission' : 'voteAdopteSeance', { chambre });
+  const detailVote = [
+    detail?.date,
+    v && t('voteDecompte', { pour: v.pour, contre: v.contre, abstentions: v.abstentions }),
+  ].filter(Boolean).join(' · ');
+  const r = detail?.reponse;
+  const tonReponse: Ton = !r ? 'neutre' : r.cas === 'texte_rejete' || r.cas === 'rejete_scrutin' ? 'non' : r.cas.startsWith('oui') ? 'oui' : 'neutre';
+  const leTexte = detail ? { uid: detail.dossier_uid, titre: detail.titre_texte, traduit: detail.titre_traduit } : texte;
+  const seance = detail?.debats.length === 1 ? `/debats/${seanceVersSlug(detail.debats[0].seance_uid)}` : '/debats';
+  const lien: CSSProperties = { color: 'inherit', textDecoration: 'none' };
+  const etatTexte = detail?.etat_texte && [detail.etat_texte.libelle, detail.etat_texte.date && t('statutLe', { date: detail.etat_texte.date })].filter(Boolean).join(' ');
+  return (
+    <span style={{ ...BLOC, maxWidth: '46rem', marginTop: '6px', color: 'var(--muted-foreground)' }}>
+      <span style={{ display: 'flex', flexDirection: 'column', gap: '14px' }}>
+        <Reponse ton={sort === 'rejete' ? 'non' : 'oui'} titre={titreVote} detail={detailVote || null} />
+        {detail ? r && (
+          <Reponse
+            ton={tonReponse}
+            titre={t('reponseTitre', { cas: r.cas })}
+            detail={
+              <>
+                {phraseReponse(r, t)}
+                {r.cas === 'oui_loi' && r.url_loi && (
+                  <>
+                    {' '}
+                    <a href={r.url_loi} target="_blank" rel="noopener noreferrer" className="hover:underline" style={{ color: 'var(--primary)', fontWeight: 500, whiteSpace: 'nowrap' }}>
+                      {t('reponseLireLoi')} →
+                    </a>
+                  </>
+                )}
+              </>
+            }
+          />
+        ) : (
+          // Même hauteur que la réponse qui la remplacera.
+          <span aria-hidden className="animate-pulse rounded-md bg-accent" style={{ display: 'block', height: '2.75rem', marginLeft: 32, maxWidth: '22rem' }} />
         )}
       </span>
-    ),
-  };
+      {leTexte?.titre && (
+        <span style={{ ...BLOC, marginTop: '16px', paddingTop: '12px', borderTop: '1px solid var(--border)', fontSize: '0.875rem', lineHeight: 1.5 }}>
+          <span className="inline-flex flex-wrap items-center" style={{ gap: '6px' }}>
+            <Link href={`/dossiers-legislatifs/${leTexte.uid}/resume-ia`} prefetch={false} onClick={onFermer} className="hover:underline" style={{ color: 'var(--foreground)', fontWeight: 500 }}>
+              {leTexte.titre} →
+            </Link>
+            {leTexte.traduit && <AIBadgeTitre />}
+          </span>
+          {detail && (
+            <span style={{ ...BLOC, marginTop: 2 }}>
+              {etatTexte && <>{etatTexte} · </>}
+              <a href={detail.url} target="_blank" rel="noopener noreferrer" className="hover:underline" style={lien}>
+                {t(chambre === 'SN' ? 'sourceSenat' : 'sourceAN')} ↗
+              </a>
+              {detail.debats.length > 0 && (
+                <>
+                  {' · '}
+                  <Link href={`/dossiers-legislatifs/${detail.dossier_uid}${seance}`} prefetch={false} onClick={onFermer} className="hover:underline" style={lien}>
+                    {t('lireDebats')}
+                  </Link>
+                </>
+              )}
+            </span>
+          )}
+        </span>
+      )}
+    </span>
+  );
+}
+
+/** La phrase de la réponse, celle de la ligne de recherche (`AmendementsTrouves`) complétée de
+ *  ce qui a pu se passer ensuite. */
+function phraseReponse(r: ReponseAmendement, t: ReturnType<typeof useTranslations<'amendementPage'>>): string {
+  const { chambre } = r;
+  const date = r.date ?? '';
+  const oui = () => t('reponseOui', { chambre, date, commission: r.commission ? 'oui' : 'non' });
+  switch (r.cas) {
+    case 'rejete_scrutin': return t('reponseRejeteScrutin', { date });
+    case 'texte_rejete': return t('reponseTexteRejete', { chambre, date });
+    case 'pas_encore': return t('reponsePasEncore');
+    case 'sans_vote': return t('reponseSansVote', { chambre });
+    case 'oui': return oui();
+    case 'oui_navette': return `${oui()} ${t('reponseSuiteNavette')}`;
+    case 'oui_loi': return `${oui()} ${t('reponseSuiteLoi', { date: r.date_loi ?? '' })}`;
+  }
 }

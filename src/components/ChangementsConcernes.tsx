@@ -32,7 +32,7 @@ import { Link } from '@/i18n/navigation';
 import { Sheet, SheetContent } from '@/components/ui/sheet';
 import PhotoEluVignette from '@/components/PhotoEluVignette';
 import { BoutonsPageSource } from '@/components/LiensSource';
-import { EnteteTiroir, articleEnEntier, ligneReponse } from '@/components/EnteteElement';
+import { EnteteAmendement, EnteteTiroir, articleEnEntier } from '@/components/EnteteElement';
 import TexteOfficiel from '@/components/TexteOfficiel';
 import SectionRepliable from '@/components/SectionRepliable';
 import ShareButton from '@/components/ShareButton';
@@ -660,11 +660,9 @@ export function CorpsTiroirAmendement({ amendement, detail, status, texte, onFer
   onFermer: () => void;
 }) {
   const t = useTranslations('amendementPage');
-  const tResume = useTranslations('resumeIA');
   const locale = useLocale();
   const nom = t('nom', { numero: amendement.numero });
   const chemin = `/Amendements/${amendement.uid}`;
-  const leTexte = detail ? { uid: detail.dossier_uid, titre: detail.titre_texte, traduit: detail.titre_traduit } : texte;
   // Le titre officiel français : le courriel aux élus ne cite jamais une traduction.
   const courriel: ContexteCourriel | null = detail && {
     dossier: { uid: detail.dossier_uid, titre: detail.dossier_titre ?? '', statut: detail.statut_final },
@@ -685,24 +683,7 @@ export function CorpsTiroirAmendement({ amendement, detail, status, texte, onFer
       </span>
       <EnteteTiroir
         nom={amendement.article ? `${nom} · ${articleEnEntier(amendement.article)}` : nom}
-        texte={leTexte}
-        etats={[
-          // En tête, est-il dans le texte aujourd'hui ? (même ligne que la page).
-          ...(detail?.reponse ? [ligneReponse(detail.reponse, t as unknown as Parameters<typeof ligneReponse>[1])] : []),
-          // Tant que le détail charge, la ligne garde sa place (voir `EtatEntete`).
-          ...(detail?.etat_texte ? [{
-            etiquette: t('enteteEtatTexte'),
-            statut: detail.etat_texte.statut,
-            libelle: detail.etat_texte.libelle,
-            complement: detail.etat_texte.date && t('statutLe', { date: detail.etat_texte.date }),
-          }] : !detail && status === 'loading' ? [{ etiquette: t('enteteEtatTexte'), statut: null, libelle: null, enChargement: true }] : []),
-          {
-            etiquette: t('enteteEtatAmendement'),
-            statut: 'Adopté',
-            libelle: tResume('adopted'),
-            complement: t(amendement.lieu === 'seance' ? 'complementSeance' : 'complementCommission', { chambre: tResume(amendement.chambre === 'AN' ? 'assemblee' : 'senat') }),
-          },
-        ]}
+        lignes={<EnteteAmendement connu={amendement} detail={detail} texte={texte} onFermer={onFermer} />}
         onFermer={onFermer}
       />
       <div>
