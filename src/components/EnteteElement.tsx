@@ -163,7 +163,8 @@ export function EnteteAmendement({ connu, detail, texte, onFermer }: {
   const lien: CSSProperties = { color: 'inherit', textDecoration: 'none' };
   const etatTexte = detail?.etat_texte && [detail.etat_texte.libelle, detail.etat_texte.date && t('statutLe', { date: detail.etat_texte.date })].filter(Boolean).join(' ');
   return (
-    <span style={{ ...BLOC, maxWidth: '46rem', marginTop: '6px', color: 'var(--muted-foreground)' }}>
+    // 18 px sous le titre, page comme tiroir (retour d'Alex, 2026-11-21 : trop serré à 6).
+    <span style={{ ...BLOC, maxWidth: '46rem', marginTop: '18px', color: 'var(--muted-foreground)' }}>
       <span style={{ display: 'flex', flexDirection: 'column', gap: '14px' }}>
         <Reponse ton={sort === 'rejete' ? 'non' : 'oui'} titre={titreVote} detail={detailVote || null} />
         {detail ? r && (
