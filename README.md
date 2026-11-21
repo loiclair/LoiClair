@@ -60,7 +60,7 @@ src/
 │       │   │       ├── resume-ia/  # Résumé IA du dossier
 │       │   │       └── debats/     # Compte rendu et synthèse IA des débats
 │       │   ├── Scrutins/[uid]/ # Page d'un vote : groupes et élus, à partager
-│       │   ├── Amendements/[uid]/ # Page d'un amendement adopté, ou rejeté par scrutin public : texte, auteur, vote, débats
+│       │   ├── Amendements/[uid]/ # Page d'un amendement adopté, ou rejeté par scrutin public : s'il est dans le texte aujourd'hui, texte, auteur, vote, débats
 │       │   ├── Facts/          # Articles de données chiffrées
 │       │   ├── Month/          # Fil d'actualité
 │       │   ├── ce-qui-me-concerne/ # Articles et amendements classés par situation de lecteur

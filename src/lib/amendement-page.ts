@@ -15,6 +15,7 @@ import { sansGuillemetsExterieurs } from '@/lib/passage-cite';
 import { translateStatut } from '@/lib/statut';
 import { titreDossier, titreTraduit } from '@/lib/titre-dossier';
 import { dateDuVote } from '@/lib/vote-page';
+import { COLONNE_ENSEMBLE, JOINTURES_ETAT, type EtatEnsemble } from '@/lib/etat-amendement';
 
 export type AmendementLigne = {
   uid: string;
@@ -40,6 +41,13 @@ export type AmendementLigne = {
   /** 'rejete' pour un amendement rejeté par scrutin public (LOI-85), qui n'a de page
    *  que par son vote ; 'adopte' pour tous les autres. */
   sort: 'adopte' | 'rejete';
+  /** Où en est le texte qui l'a reçu, à sa lecture (`lib/etat-amendement.ts`). */
+  ensemble: EtatEnsemble;
+  ensemble_date: string | null;
+  /** Un dépôt a suivi sa lecture : la navette a continué. */
+  lecture_suivie: boolean;
+  /** Adresse de la loi publiée, quand le texte est devenu loi. */
+  url_legifrance: string | null;
 };
 
 /** La ligne de l'amendement et de son dossier, ou `null` s'il n'existe pas. Une panne lève
@@ -49,10 +57,12 @@ export const lireAmendement = cache(async (uid: string): Promise<AmendementLigne
   auPlusUneLigne(sql<AmendementLigne[]>`
     select a.uid, a.dossier_uid, a.chambre, a.lieu, a.numero, a.article, a.auteur_type, a.auteur_uid,
       a.auteur_libelle, a.date_amendement, a.url, a.dispositif, a.expose, a.sort,
+      ${COLONNE_ENSEMBLE}, e.d as ensemble_date, (n.fin is not null) as lecture_suivie, d.url_legifrance,
       d.titre as dossier_titre, d.titre_en as dossier_titre_en, d.statut_final, d.date_promulgation, d.procedure_libelle,
       (select min(l.date_publication) from textes l where l.dossier_ref = d.uid and l.uid like 'LOI%' and not (l.is_version_consolidee is true)) as date_jo
     from amendements a
     join dossiers_legislatifs d on d.uid = a.dossier_uid
+    ${JOINTURES_ETAT}
     where a.uid = ${uid}`, 'amendements (page de l\'amendement)'));
 
 /** Ce que veut dire le sort de cet amendement, en clé de traduction. Adopté n'est pas
@@ -72,6 +82,35 @@ export function porteeAdoption(a: Pick<AmendementLigne, 'lieu' | 'statut_final' 
   }
   if (rejete) return 'porteeRejete' as const;
   return loi ? 'porteePromulgue' as const : 'porteeAutre' as const;
+}
+
+/** La réponse à « est-il dans le texte aujourd'hui ? » (retour d'Alex, 2026-11-21) : nette
+ *  quand elle est certaine (rejeté, texte rejeté, pas encore voté), sinon ce qui est sûr (il
+ *  était dans le texte adopté à telle date) et ce qui a pu se passer ensuite (étapes
+ *  suivantes, loi promulguée). Jamais « il est dans la loi » : aucune source ne dit si un
+ *  amendement a survécu à la navette. Dates déjà écrites dans la langue. */
+export type ReponseAmendement = {
+  cas: 'rejete_scrutin' | 'texte_rejete' | 'pas_encore' | 'sans_vote' | 'oui' | 'oui_navette' | 'oui_loi';
+  chambre: 'AN' | 'SN';
+  commission: boolean;
+  date: string | null;
+  date_loi: string | null;
+  url_loi: string | null;
+};
+
+export function reponseAmendement(a: AmendementLigne, locale: string): ReponseAmendement | null {
+  const base = { chambre: a.chambre, commission: a.lieu === 'commission', date_loi: null, url_loi: null };
+  const jour = (d: string | null) => (d ? dateDuVote(locale, d) : null);
+  if (a.sort === 'rejete') return { ...base, cas: 'rejete_scrutin', date: jour(a.date_amendement) };
+  if (a.ensemble === 'rejete') return { ...base, cas: 'texte_rejete', date: jour(a.ensemble_date) };
+  if (a.ensemble === 'en_attente') return { ...base, cas: 'pas_encore', date: null };
+  if (a.ensemble === 'sans_vote') return { ...base, cas: 'sans_vote', date: null };
+  if (a.ensemble !== 'adopte') return null;
+  const loi = !!a.date_promulgation || a.statut_final === 'Promulguée' || a.statut_final === 'Appliquée';
+  if (loi) {
+    return { ...base, cas: 'oui_loi', date: jour(a.ensemble_date), date_loi: jour(a.date_jo ?? a.date_promulgation), url_loi: a.url_legifrance };
+  }
+  return { ...base, cas: a.lecture_suivie ? 'oui_navette' : 'oui', date: jour(a.ensemble_date) };
 }
 
 /** Ce que partagent la page et les tiroirs (`SectionsAmendement`). Sérialisable. */
@@ -96,6 +135,9 @@ export type DetailAmendement = {
   expose: string | null;
   portee: ReturnType<typeof porteeAdoption>;
   sort: AmendementLigne['sort'];
+  /** La réponse à « est-il dans le texte aujourd'hui ? », en tête de la page et du tiroir ;
+   *  `null` quand la source ne permet pas de la donner. */
+  reponse: ReponseAmendement | null;
   /** Résumé de l'IA dans la langue demandée, pour les quelque 10 % classés. */
   resume: string | null;
   auteur: AuteurElement;
@@ -157,6 +199,7 @@ export async function chargerDetailAmendement(a: AmendementLigne, locale: string
     expose: a.expose,
     portee: porteeAdoption(a),
     sort: a.sort,
+    reponse: reponseAmendement(a, locale),
     resume: resumes.get(a.uid) ?? null,
     auteur,
     vote,

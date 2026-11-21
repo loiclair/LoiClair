@@ -670,7 +670,8 @@
     "etatCommission": "Intégré au texte de la commission · texte {resultat, select, rejete {rejeté} other {adopté}} en séance le {date}",
     "etatSeanceAdopte": "Dans le texte adopté par {chambre, select, SN {le Sénat} other {l’Assemblée}} le {date}",
     "etatSeanceRejete": "Texte ensuite rejeté par {chambre, select, SN {le Sénat} other {l’Assemblée}} le {date}",
-    "voteScrutinOfficiel": "Scrutin public, sur le site de l’Assemblée"
+    "voteScrutinOfficiel": "Scrutin public, sur le site de l’Assemblée",
+    "amendementsReduire": "Réduire"
   },
   "elus": {
     "pageTitle": "Les élus",
@@ -5269,6 +5270,16 @@
     "sectionAuteurTexte": "Qui a déposé le texte",
     "metaLabelRejet": "Rejet",
     "metaDescriptionRejete": "{nom} sur « {texte} », rejeté en séance {chambre, select, sen {au Sénat} other {à l'Assemblée nationale}} par scrutin public : son texte, son auteur et le vote nom par nom.",
-    "porteeRejeteScrutin": "Rejeté en séance par scrutin public : cet amendement ne figure pas dans le texte."
+    "porteeRejeteScrutin": "Rejeté en séance par scrutin public : cet amendement ne figure pas dans le texte.",
+    "reponseEtiquette": "Dans le texte aujourd’hui",
+    "reponsePastille": "{cas, select, rejete_scrutin {Non} texte_rejete {Non} pas_encore {Pas encore} sans_vote {Non tranché} oui {Oui} other {Oui, à cette étape}}",
+    "reponseRejeteScrutin": "Rejeté par scrutin public le {date} : il ne figure dans aucun texte.",
+    "reponseTexteRejete": "{chambre, select, SN {Le Sénat} other {L’Assemblée}} a rejeté le texte le {date} : l’amendement est tombé avec lui.",
+    "reponsePasEncore": "Le texte n’a pas encore été voté dans son ensemble.",
+    "reponseSansVote": "La lecture s’est close sans vote {chambre, select, SN {du Sénat} other {de l’Assemblée}} sur l’ensemble du texte.",
+    "reponseOui": "{commission, select, oui {Intégré au texte de la commission ; texte adopté en séance par {chambre, select, SN {le Sénat} other {l’Assemblée}} le {date}.} other {Dans le texte adopté par {chambre, select, SN {le Sénat} other {l’Assemblée}} le {date}.}}",
+    "reponseSuiteNavette": "Les étapes suivantes ont pu le modifier.",
+    "reponseSuiteLoi": "Loi promulguée le {date} : il a pu être modifié entre-temps.",
+    "reponseLireLoi": "Lire la loi"
   }
 }

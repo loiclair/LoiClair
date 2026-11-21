@@ -12,13 +12,14 @@ import { Link } from '@/i18n/navigation';
 import { SheetHeader, SheetTitle } from '@/components/ui/sheet';
 import { AIBadgeTitre } from '@/app/[locale]/(app)/dossiers-legislatifs/[uid]/resume-ia/AICardElements';
 import { BadgeStatut } from '@/app/[locale]/(app)/Scrutins/[uid]/ResultatVote';
+import type { ReponseAmendement } from '@/lib/amendement-page';
 
 export type TexteEntete = { uid: string; titre: string; traduit: boolean };
 /** Un statut : `statut`, la valeur française brute qui choisit la couleur de la pastille
  *  (comme pour un vote) ; `libelle`, sa traduction ; `complement`, ce qui le précise hors de
  *  la pastille (date, lieu d'adoption, étape du parcours). `enChargement` : une pastille
  *  d'attente de même hauteur tient la place, pour que l'en-tête ne bouge pas à l'arrivée. */
-export type EtatEntete = { etiquette: string; statut: string | null; libelle: string | null; complement?: string | null; enChargement?: boolean };
+export type EtatEntete = { etiquette: string; statut: string | null; libelle: string | null; complement?: ReactNode; enChargement?: boolean };
 
 const STYLE_ETIQUETTE = { fontSize: '0.75rem', color: 'var(--muted-foreground)' } as const;
 
@@ -96,4 +97,45 @@ export function EnteteTiroir({ nom, texte, etats, onFermer }: {
       />
     </SheetHeader>
   );
+}
+
+/** Traduction du namespace `amendementPage`, côté serveur (`getTranslations`) comme client
+ *  (`useTranslations`) : seule la forme d'appel compte ici. */
+type TraduireAmendement = (cle: string, valeurs?: Record<string, string>) => string;
+
+/** La ligne « Dans le texte aujourd'hui » de la page d'un amendement et de son tiroir : une
+ *  pastille (Non en rouge, Oui en vert, Pas encore et Non tranché en gris) et la phrase qui
+ *  dit ce qu'on sait, avec le lien vers la loi publiée quand le texte l'est devenu. Rangée en
+ *  tête des états : c'est la question que se pose le lecteur d'un amendement partagé. */
+export function ligneReponse(r: ReponseAmendement, t: TraduireAmendement): EtatEntete {
+  const chambre = r.chambre;
+  const non = r.cas === 'rejete_scrutin' || r.cas === 'texte_rejete';
+  const oui = r.cas === 'oui' || r.cas === 'oui_navette' || r.cas === 'oui_loi';
+  const phrase = {
+    rejete_scrutin: () => t('reponseRejeteScrutin', { date: r.date ?? '' }),
+    texte_rejete: () => t('reponseTexteRejete', { chambre, date: r.date ?? '' }),
+    pas_encore: () => t('reponsePasEncore'),
+    sans_vote: () => t('reponseSansVote', { chambre }),
+    oui: () => t('reponseOui', { chambre, date: r.date ?? '', commission: r.commission ? 'oui' : 'non' }),
+    oui_navette: () => `${t('reponseOui', { chambre, date: r.date ?? '', commission: r.commission ? 'oui' : 'non' })} ${t('reponseSuiteNavette')}`,
+    oui_loi: () => `${t('reponseOui', { chambre, date: r.date ?? '', commission: r.commission ? 'oui' : 'non' })} ${t('reponseSuiteLoi', { date: r.date_loi ?? '' })}`,
+  }[r.cas]();
+  return {
+    etiquette: t('reponseEtiquette'),
+    statut: non ? 'Rejeté' : oui ? 'Adopté' : null,
+    libelle: t('reponsePastille', { cas: r.cas }),
+    complement: (
+      <span style={{ color: 'var(--foreground)' }}>
+        {phrase}
+        {r.cas === 'oui_loi' && r.url_loi && (
+          <>
+            {' '}
+            <a href={r.url_loi} target="_blank" rel="noopener noreferrer" style={{ color: 'var(--primary)', whiteSpace: 'nowrap' }}>
+              {t('reponseLireLoi')} →
+            </a>
+          </>
+        )}
+      </span>
+    ),
+  };
 }

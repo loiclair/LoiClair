@@ -665,7 +665,8 @@
     "etatCommission": "Included in the committee text · bill {resultat, select, rejete {rejected} other {passed}} on the floor on {date}",
     "etatSeanceAdopte": "In the text passed by {chambre, select, SN {the Senate} other {the National Assembly}} on {date}",
     "etatSeanceRejete": "Bill then rejected by {chambre, select, SN {the Senate} other {the National Assembly}} on {date}",
-    "voteScrutinOfficiel": "Recorded vote, on the National Assembly website"
+    "voteScrutinOfficiel": "Recorded vote, on the National Assembly website",
+    "amendementsReduire": "Show less"
   },
   "elus": {
     "pageTitle": "Elected officials",
@@ -5264,6 +5265,16 @@
     "sectionAuteurTexte": "Who tabled the text",
     "metaLabelRejet": "Rejection",
     "metaDescriptionRejete": "{nom} on “{texte}”, rejected on the floor {chambre, select, sen {in the Senate} other {in the National Assembly}} by recorded vote: its text, its author and the vote by name.",
-    "porteeRejeteScrutin": "Rejected on the floor by recorded vote: this amendment is not in the text."
+    "porteeRejeteScrutin": "Rejected on the floor by recorded vote: this amendment is not in the text.",
+    "reponseEtiquette": "In the text today",
+    "reponsePastille": "{cas, select, rejete_scrutin {No} texte_rejete {No} pas_encore {Not yet} sans_vote {Not settled} oui {Yes} other {Yes, at that stage}}",
+    "reponseRejeteScrutin": "Rejected by recorded vote on {date}: it is in no version of the text.",
+    "reponseTexteRejete": "{chambre, select, SN {The Senate} other {The National Assembly}} rejected the bill on {date}: the amendment fell with it.",
+    "reponsePasEncore": "The bill has not yet been voted on as a whole.",
+    "reponseSansVote": "The reading closed without a vote by {chambre, select, SN {the Senate} other {the National Assembly}} on the whole bill.",
+    "reponseOui": "{commission, select, oui {Included in the committee text; bill passed on the floor by {chambre, select, SN {the Senate} other {the National Assembly}} on {date}.} other {In the text passed by {chambre, select, SN {the Senate} other {the National Assembly}} on {date}.}}",
+    "reponseSuiteNavette": "Later stages may have changed it.",
+    "reponseSuiteLoi": "Law enacted on {date}: it may have been changed in between.",
+    "reponseLireLoi": "Read the law"
   }
 }

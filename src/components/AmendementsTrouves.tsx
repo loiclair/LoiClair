@@ -20,7 +20,7 @@
 // Survol par état React et coupe à deux lignes en style en ligne, plutôt qu'en classes
 // Tailwind : voir ARCHITECTURE.md §Pièges Tailwind v4 sur Safari.
 
-import { useState, type CSSProperties } from 'react';
+import { useRef, useState, type CSSProperties } from 'react';
 import { useLocale, useTranslations } from 'next-intl';
 import { Link } from '@/i18n/navigation';
 import { AIBadge } from '@/app/[locale]/(app)/dossiers-legislatifs/[uid]/resume-ia/AICardElements';
@@ -112,6 +112,7 @@ export default function AmendementsTrouves({ uids, index }: { uids: string[]; in
   const t = useTranslations('dossiers');
   const locale = useLocale();
   const [nombre, setNombre] = useState(PREMIERES);
+  const bloc = useRef<HTMLDivElement>(null);
 
   /** Où en est l'amendement, en une phrase ; `null` quand la source ne permet pas de le dire. */
   const etat = (a: AmendementMeta): string | null => {
@@ -177,8 +178,9 @@ export default function AmendementsTrouves({ uids, index }: { uids: string[]; in
   };
 
   const reste = uids.length - nombre;
+  const bouton: CSSProperties = { border: 'none', background: 'none', padding: 0, color: 'var(--primary)', fontSize: '0.8125rem', fontWeight: 500, cursor: 'pointer' };
   return (
-    <div style={{ padding: '0 4px' }}>
+    <div ref={bloc} style={{ padding: '0 4px' }}>
       <ul aria-label={t('amendementsTrouves')} className="m-0 p-0" style={{ listStyle: 'none' }}>
         {uids.slice(0, nombre).map((uid) => {
           const el = index.elements.get(uid);
@@ -186,14 +188,28 @@ export default function AmendementsTrouves({ uids, index }: { uids: string[]; in
           return el.genre === 'amendement' ? ligneAmendement(el.meta) : ligneVote(el.meta);
         })}
       </ul>
-      {reste > 0 && (
-        <button
-          type="button"
-          onClick={() => setNombre((n) => n + LOT)}
-          style={{ border: 'none', background: 'none', padding: '4px 12px 0 28px', color: 'var(--primary)', fontSize: '0.8125rem', fontWeight: 500, cursor: 'pointer' }}
-        >
-          {reste <= LOT ? t('amendementsVoirAutres', { count: reste }) : t('amendementsVoirSuivants', { lot: LOT, count: reste })}
-        </button>
+      {(reste > 0 || nombre > PREMIERES) && (
+        <div className="flex flex-wrap" style={{ gap: '4px 16px', padding: '4px 12px 0 28px' }}>
+          {reste > 0 && (
+            <button type="button" onClick={() => setNombre((n) => n + LOT)} style={bouton}>
+              {reste <= LOT ? t('amendementsVoirAutres', { count: reste }) : t('amendementsVoirSuivants', { lot: LOT, count: reste })}
+            </button>
+          )}
+          {/* Replie aux deux premières lignes (retour d'Alex, 2026-11-21). Le bloc revient
+              à l'écran : replier une longue liste laissait le lecteur loin sous le texte. */}
+          {nombre > PREMIERES && (
+            <button
+              type="button"
+              onClick={() => {
+                setNombre(PREMIERES);
+                requestAnimationFrame(() => bloc.current?.scrollIntoView({ block: 'nearest' }));
+              }}
+              style={bouton}
+            >
+              {t('amendementsReduire')}
+            </button>
+          )}
+        </div>
       )}
     </div>
   );

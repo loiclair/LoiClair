@@ -14,7 +14,7 @@ import { CalendarDays } from 'lucide-react';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import PageHero, { type PageHeroMetaRow } from '@/components/PageHero';
 import ContacterMesElusBanner from '@/components/ContacterMesElusBanner';
-import { LienTexte, LignesEntete, articleEnEntier } from '@/components/EnteteElement';
+import { LienTexte, LignesEntete, articleEnEntier, ligneReponse } from '@/components/EnteteElement';
 import { chargerDetailAmendement, lireAmendement } from '@/lib/amendement-page';
 import { chargerAuteur, droiteBandeau } from '@/lib/auteur-dossier';
 import { buildAlternates, buildOpenGraph, ogImageAmendementUrl } from '@/lib/og-metadata';
@@ -120,6 +120,8 @@ export default async function AmendementPage({ params }: { params: Promise<{ loc
             etiquetteTexte={t('enteteTexte')}
             texte={titreTexte ? <LienTexte texte={{ uid: a.dossier_uid, titre: titreTexte, traduit: detail.titre_traduit }} /> : null}
             etats={[
+              // En tête : est-il dans le texte aujourd'hui ? (retour d'Alex, 2026-11-21).
+              ...(detail.reponse ? [ligneReponse(detail.reponse, t as unknown as Parameters<typeof ligneReponse>[1])] : []),
               ...(detail.etat_texte ? [{
                 etiquette: t('enteteEtatTexte'),
                 statut: detail.etat_texte.statut,
