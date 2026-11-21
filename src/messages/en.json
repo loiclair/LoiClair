@@ -1937,7 +1937,13 @@
     "sansDetail1517": "Became final without a vote in the chamber, after its adoption in committee (Rule 151-7 of the National Assembly's Standing Orders).",
     "sansDetailInconnu": "The breakdown of votes is not available for this decision.",
     "generationChallenge": "The security check has expired. Reload the page to see the summary.",
-    "reloadPage": "Reload the page"
+    "reloadPage": "Reload the page",
+    "typeVote": {
+      "ordinaire": "Ordinary public vote",
+      "public": "Public vote",
+      "solennel": "Formal public vote",
+      "motionCensure": "No-confidence motion"
+    }
   },
   "errors": {
     "notFoundBadge": "404 · Element not found",

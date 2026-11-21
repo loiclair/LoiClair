@@ -1942,7 +1942,13 @@
     "sansDetail1517": "Devenue définitive sans vote en séance, après son adoption en commission (article 151-7 du Règlement de l'Assemblée).",
     "sansDetailInconnu": "Le détail des voix n'est pas disponible pour cette décision.",
     "generationChallenge": "La vérification de sécurité a expiré. Rechargez la page pour afficher le résumé.",
-    "reloadPage": "Recharger la page"
+    "reloadPage": "Recharger la page",
+    "typeVote": {
+      "ordinaire": "Scrutin public ordinaire",
+      "public": "Scrutin public",
+      "solennel": "Scrutin public solennel",
+      "motionCensure": "Motion de censure"
+    }
   },
   "errors": {
     "notFoundBadge": "404 · Élément introuvable",

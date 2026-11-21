@@ -20,6 +20,7 @@ import { affichageScrutin } from '@/lib/scrutin-affichage';
 import { getStatusBadgeClass } from '@/lib/status-mapping';
 import { LEGAL_AN, LEGAL_SN } from '@/lib/parliament-constants';
 import { ScrutinBar, SCRUTIN_COLORS } from '../../dossiers-legislatifs/[uid]/resume-ia/ScrutinScore';
+import { TYPE_VOTE_CLE } from '../../Month/monthLibelles';
 import type { ScrutinData } from '../../dossiers-legislatifs/[uid]/resume-ia/ResumeIAClient';
 
 /** Chiffres du scrutin pour `affichageScrutin`. La colonne `chambre` prime, `chambreKey`
@@ -150,8 +151,13 @@ function Participation({ scrutin, chambreKey, compact }: { scrutin: ScrutinData;
   const tR = useTranslations('resumeIA');
   const { total, participationPct, estMotionCensure } = affichage(scrutin, chambreKey);
 
-  // Le type de scrutin garde la casse de la source, sauf la première lettre.
-  const type = scrutin.type ? scrutin.type.charAt(0).toUpperCase() + scrutin.type.slice(1) : null;
+  // Le type de scrutin, traduit d'après la même table que le fil `/Month` : la source
+  // l'écrit en français (« scrutin public ordinaire »), et il restait tel quel sur /en.
+  // Une valeur inconnue sort brute, majuscule initiale : mieux qu'un libellé deviné.
+  const cleType = scrutin.type ? TYPE_VOTE_CLE[scrutin.type.toLowerCase()] : undefined;
+  const type = cleType
+    ? tR(`typeVote.${cleType}` as Parameters<typeof tR>[0])
+    : scrutin.type ? scrutin.type.charAt(0).toUpperCase() + scrutin.type.slice(1) : null;
   const lignes: string[][] = estMotionCensure
     ? [[type, tR('motionCensureNote')].filter((x): x is string => !!x)]
     : [
