@@ -658,7 +658,7 @@
     "amendementRejete": "Rejected",
     "amendementsTrouves": "Matching amendments and votes",
     "amendementsVoirAutres": "{count, plural, one {Show 1 more} other {Show # more}}",
-    "amendementsVoirSuivants": "Show the next {lot} of {count}",
+    "amendementsVoirSuivants": "Show the next {lot} ({count, number} left)",
     "etatRejeteScrutin": "Rejected by recorded vote on {date}: it is in no version of the text",
     "etatPasEncoreVote": "The bill has not yet been voted on as a whole",
     "etatLectureSansVote": "Reading closed without a {chambre, select, SN {Senate} other {National Assembly}} vote on the whole bill",

@@ -663,7 +663,7 @@
     "amendementRejete": "Rejeté",
     "amendementsTrouves": "Amendements et votes correspondants",
     "amendementsVoirAutres": "{count, plural, one {Voir l’autre} other {Voir les # autres}}",
-    "amendementsVoirSuivants": "Voir les {lot} suivants sur {count}",
+    "amendementsVoirSuivants": "Voir les {lot} suivants ({count, number} restants)",
     "etatRejeteScrutin": "Rejeté par scrutin public le {date} : il ne figure dans aucun texte",
     "etatPasEncoreVote": "Le texte n’a pas encore été voté dans son ensemble",
     "etatLectureSansVote": "Lecture close sans vote {chambre, select, SN {du Sénat} other {de l’Assemblée}} sur l’ensemble du texte",
