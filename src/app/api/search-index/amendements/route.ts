@@ -46,10 +46,19 @@ export async function GET() {
           e.d as ensemble_date,
           case
             when l.debut is null then null
+            -- Un vote antérieur de plus d'un jour à l'amendement dit une lecture mal bornée
+            -- (dépôts absents de la source) : 151 amendements du PLFSS 2025, adoptés en
+            -- commission le 29 janvier 2025, se seraient dits dans le texte voté le 4 décembre.
+            when e.d is not null and e.d < a.date_amendement - 1 then null
             when e.d is not null and e.s ilike 'rejet%' then 'rejete'
             when e.d is not null and coalesce(e.s, '') <> '' then 'adopte'
             when e.d is not null then null
             when n.fin is not null then 'sans_vote'
+            -- Texte fini ou retiré sans vote retrouvé : « pas encore voté » serait faux, ou
+            -- laisserait croire qu'il le sera (le vote manque parfois à la source : conclusions
+            -- de CMP au Sénat ; « Protéger l'eau potable », retiré).
+            when d.statut_final in ('Promulguée', 'Appliquée', 'Adopté par le Parlement', 'Retiré')
+              or d.statut_final like 'Rejeté%' then null
             else 'en_attente'
           end as ensemble
         from amendements a
