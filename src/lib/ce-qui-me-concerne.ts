@@ -238,7 +238,7 @@ export async function assemblerDossiers(uids: string[], locale: string): Promise
     sql<LigneAmendement[]>`
       select uid, dossier_uid, numero, article, lieu, chambre, url, date_amendement
       from amendements
-      where dossier_uid = any(${uids})
+      where dossier_uid = any(${uids}) and sort = 'adopte'
       order by uid`,
     sql<LigneDossier[]>`
       select uid, titre, titre_en, statut_final, date_promulgation, procedure_libelle

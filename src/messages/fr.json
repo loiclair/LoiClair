@@ -661,10 +661,16 @@
     "amendementCommission": "En commission",
     "amendementAdopte": "Adopté",
     "amendementRejete": "Rejeté",
-    "voteScrutinPublic": "Scrutin public",
     "amendementsTrouves": "Amendements et votes correspondants",
     "amendementsVoirAutres": "{count, plural, one {Voir l’autre} other {Voir les # autres}}",
-    "amendementsVoirSuivants": "Voir les {lot} suivants sur {count}"
+    "amendementsVoirSuivants": "Voir les {lot} suivants sur {count}",
+    "etatRejeteScrutin": "Rejeté par scrutin public le {date} : il ne figure dans aucun texte",
+    "etatPasEncoreVote": "Le texte n’a pas encore été voté dans son ensemble",
+    "etatLectureSansVote": "Lecture close sans vote {chambre, select, SN {du Sénat} other {de l’Assemblée}} sur l’ensemble du texte",
+    "etatCommission": "Intégré au texte de la commission · texte {resultat, select, rejete {rejeté} other {adopté}} en séance le {date}",
+    "etatSeanceAdopte": "Dans le texte adopté par {chambre, select, SN {le Sénat} other {l’Assemblée}} le {date}",
+    "etatSeanceRejete": "Texte ensuite rejeté par {chambre, select, SN {le Sénat} other {l’Assemblée}} le {date}",
+    "voteScrutinOfficiel": "Scrutin public, sur le site de l’Assemblée"
   },
   "elus": {
     "pageTitle": "Les élus",
@@ -5254,6 +5260,9 @@
     "porteeCommissionLoi": "Adopté en commission. Le texte est devenu loi, mais cet amendement a pu être modifié ou retiré en séance ou lors des lectures suivantes : seul le texte promulgué fait foi.",
     "porteeCommissionRejete": "Adopté en commission, mais le texte a ensuite été rejeté : un amendement n'a d'effet que dans le texte qu'il modifie.",
     "porteeCommissionBudget": "Adopté en commission. Pour un budget, la séance repart du texte du Gouvernement : cet amendement ne compte que s'il y est voté à nouveau.",
-    "sectionAuteurTexte": "Qui a déposé le texte"
+    "sectionAuteurTexte": "Qui a déposé le texte",
+    "metaLabelRejet": "Rejet",
+    "metaDescriptionRejete": "{nom} sur « {texte} », rejeté en séance {chambre, select, sen {au Sénat} other {à l'Assemblée nationale}} par scrutin public : son texte, son auteur et le vote nom par nom.",
+    "porteeRejeteScrutin": "Rejeté en séance par scrutin public : cet amendement ne figure pas dans le texte."
   }
 }

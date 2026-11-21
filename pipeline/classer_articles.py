@@ -321,7 +321,7 @@ def charger_elements(cur) -> list[dict]:
                md5(coalesce(dispositif, '')), md5(coalesce(expose, '')),
                CASE WHEN btrim(coalesce(dispositif, '')) <> ''
                     THEN md5(regexp_replace(lower(dispositif), '[^[:alnum:]]', '', 'g')) END
-        FROM amendements WHERE dossier_uid = ANY(%s)
+        FROM amendements WHERE dossier_uid = ANY(%s) AND sort = 'adopte'
         ORDER BY dossier_uid, (lieu = 'seance') DESC, uid
         """,
         (en_cours,),

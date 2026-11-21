@@ -31,6 +31,13 @@ export type AmendementMeta = {
   auteur_type: 'parlementaire' | 'rapporteur' | 'commission' | 'gouvernement';
   /** Prénom et nom de l'élu, ou libellé de la source ; `null` pour le Gouvernement. */
   auteur: string | null;
+  /** Faux pour un amendement rejeté par scrutin public (LOI-85). */
+  adopte: boolean;
+  /** Adopté seulement : où en est le texte qui l'a reçu, à sa lecture (règle dans la route
+   *  d'index) ; `null` quand la source ne permet pas de le dire. */
+  ensemble: 'adopte' | 'rejete' | 'sans_vote' | 'en_attente' | null;
+  /** Date du vote de la chambre sur l'ensemble, pour 'adopte' et 'rejete'. */
+  ensemble_date: string | null;
 };
 
 /** Un scrutin public sur un amendement, rattaché à son dossier (`scrutins.dossier_uid`). */
@@ -164,7 +171,7 @@ const DEBUT_DISPOSITIF = 320;
 // budgets (Chrome, processeur ×4, 2026-11-20), au-delà des 50 ms où le navigateur
 // compte une tâche comme bloquante.
 const BUDGET_MS = 12;
-const LOT_DOCUMENTS = 5000;
+const LOT_DOCUMENTS = 1000;
 
 // Rattache tout document à la requête « amendement » : sans ce champ, « amendement
 // CL123 » ne trouverait que les scrutins, dont l'intitulé porte le mot.
@@ -331,7 +338,9 @@ async function charger() {
   const fraiche = await listeFraiche;
   if (fraiche && (fraiche.version !== liste?.version || fraiche.textesVersion !== liste?.textesVersion)) {
     liste = fraiche;
-    void idbSet('amendement-index', 'liste', fraiche);
+    // Dans sa propre tâche : la copie de 36 000 lignes par IndexedDB, ajoutée au début de
+    // l'indexation, faisait une tâche de 56 ms (Chrome, processeur ×4, 2026-11-20).
+    void ceder().then(() => idbSet('amendement-index', 'liste', fraiche));
   }
   if (!liste) return;
 

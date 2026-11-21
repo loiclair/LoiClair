@@ -27,17 +27,60 @@ export async function GET() {
       // l'un ni l'autre : son nom se traduit à l'affichage, d'après `auteur_type`.
       // `hors_liste` : mêmes dossiers que la liste des textes, sans quoi un amendement
       // trouvé n'aurait pas de texte sous lequel se ranger.
+      // Adoptés et rejetés par scrutin public (`sort`, LOI-85). Pour un adopté, où en est
+      // le texte qui l'a reçu (`ensemble`, `ensemble_date`), par la lecture de l'amendement :
+      //   - début : dernier dépôt de sa chambre (ou de CMP) au plus tard le jour de
+      //     l'amendement ; fin : premier dépôt du texte, toutes chambres, après ce début ;
+      //   - entre les deux, le vote de la chambre sur l'ensemble (`…-DEBATS-DEC`) donne
+      //     'adopte' ou 'rejete' ; sans lui, 'sans_vote' si la lecture est close (un dépôt a
+      //     suivi), sinon 'en_attente' ; NULL quand la lecture ou l'issue ne se lit pas.
+      // Bornée par la lecture et non par la date de l'amendement : une séance qui déborde
+      // après minuit date l'amendement du lendemain du vote (fauteuils roulants, vote du
+      // 3 décembre 2024, amendement n° 25 daté du 4). `CMP-DEBATS-DEC` compte pour
+      // l'Assemblée : la source y range parfois sa nouvelle lecture (loi PLM, 7 juillet
+      // 2025). Dix cas témoins vérifiés le 2026-11-20 contre leur parcours.
       sql<AmendementMeta[]>`
         select a.uid, a.dossier_uid, a.numero, a.article, a.chambre, a.lieu, a.date_amendement as date,
-          a.auteur_type,
-          coalesce(nullif(trim(concat_ws(' ', ac.prenom, ac.nom)), ''), a.auteur_libelle) as auteur
+          a.auteur_type, a.sort = 'adopte' as adopte,
+          coalesce(nullif(trim(concat_ws(' ', ac.prenom, ac.nom)), ''), a.auteur_libelle) as auteur,
+          e.d as ensemble_date,
+          case
+            when l.debut is null then null
+            when e.d is not null and e.s ilike 'rejet%' then 'rejete'
+            when e.d is not null and coalesce(e.s, '') <> '' then 'adopte'
+            when e.d is not null then null
+            when n.fin is not null then 'sans_vote'
+            else 'en_attente'
+          end as ensemble
         from amendements a
         join dossiers_legislatifs d on d.uid = a.dossier_uid and d.hors_liste = false
         left join acteurs ac on ac.uid = a.auteur_uid
+        left join lateral (
+          select max(x.date_acte::date) as debut from actes_legislatifs x
+          where a.sort = 'adopte' and x.dossier_uid = a.dossier_uid and x.date_acte::date <= a.date_amendement
+            and (x.code_acte = 'CMP-DEPOT'
+              or x.code_acte ~ (case when a.chambre = 'AN' then '^AN[A-Z0-9]*-DEPOT$' else '^SN[A-Z0-9]*-DEPOT$' end))
+        ) l on true
+        left join lateral (
+          select min(x.date_acte::date) as fin from actes_legislatifs x
+          where l.debut is not null and x.dossier_uid = a.dossier_uid and x.code_acte like '%-DEPOT'
+            and x.date_acte::date > l.debut
+        ) n on true
+        left join lateral (
+          select x.date_acte::date as d, x.statut_conclusion as s from actes_legislatifs x
+          where l.debut is not null and x.dossier_uid = a.dossier_uid and x.date_acte is not null
+            and x.date_acte::date >= l.debut and (n.fin is null or x.date_acte::date <= n.fin)
+            and (case when a.chambre = 'AN'
+                      then x.code_acte ~ '^AN[A-Z0-9]*-DEBATS-DEC$' or x.code_acte in ('CMP-DEBATS-AN-DEC', 'CMP-DEBATS-DEC')
+                      else x.code_acte ~ '^SN[A-Z0-9]*-DEBATS-DEC$' or x.code_acte = 'CMP-DEBATS-SN-DEC' end)
+          order by x.date_acte, x.uid
+          limit 1
+        ) e on true
         order by a.uid`,
       // `dossier_uid` est posé par `import_amendements.py` (`RattachementVotes`). Un vote
-      // déjà relié à un amendement adopté présent dans la table (`votes_amendements`)
-      // n'entre pas : sa ligne serait le double de celle de l'amendement.
+      // déjà relié à un amendement présent dans la table (`votes_amendements`), adopté ou
+      // rejeté, n'entre pas : sa ligne serait le double de celle de l'amendement. Ceux qui
+      // restent n'ont pas de page sur LoiClair : leur ligne mène à la page officielle.
       sql<VoteAmendementMeta[]>`
         select s.uid, s.dossier_uid, s.titre, s.titre_en, s.date_scrutin::date as date,
           s.sort_code = 'adopté' as adopte

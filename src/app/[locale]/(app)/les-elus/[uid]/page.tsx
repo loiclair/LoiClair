@@ -777,7 +777,7 @@ export default async function EluProfilePage({ params }: { params: Promise<{ loc
     sql<LigneAmendement[]>`
       select uid, chambre, lieu, numero, article, date_amendement, url, dossier_uid
       from amendements
-      where auteur_uid = ${uid}
+      where auteur_uid = ${uid} and sort = 'adopte'
         and (chambre = 'AN' or date_amendement >= ${DEBUT_DECOMPTE.SN})
       order by date_amendement desc nulls last, uid`,
     // Ses trois sujets de prédilection, déjà classés par la vue

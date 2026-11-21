@@ -52,7 +52,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const date = a.date_amendement ? dateDuVote(locale, a.date_amendement) : '';
   const nom = t('nom', { numero: a.numero });
   const title = t('metaTitre', { nom, texte, date, avecDate: date ? 'oui' : 'non' });
-  const description = t('metaDescription', {
+  const description = t(a.sort === 'rejete' ? 'metaDescriptionRejete' : 'metaDescription', {
     nom,
     texte,
     lieu: a.lieu,
@@ -93,7 +93,7 @@ export default async function AmendementPage({ params }: { params: Promise<{ loc
 
   const meta: PageHeroMetaRow[] = [{
     icon: <CalendarDays className="h-3 w-3" />,
-    label: t('metaLabel'),
+    label: t(a.sort === 'rejete' ? 'metaLabelRejet' : 'metaLabel'),
     pills: [
       ...(date ? [{ children: date }] : []),
       ...(debats.length > 0 ? [{ children: t('lireDebats'), href: `/dossiers-legislatifs/${a.dossier_uid}${seanceCiblee}`, internal: true }] : []),
@@ -128,8 +128,8 @@ export default async function AmendementPage({ params }: { params: Promise<{ loc
               }] : []),
               {
                 etiquette: t('enteteEtatAmendement'),
-                statut: 'Adopté',
-                libelle: tResume('adopted'),
+                statut: a.sort === 'rejete' ? 'Rejeté' : 'Adopté',
+                libelle: tResume(a.sort === 'rejete' ? 'rejected' : 'adopted'),
                 complement: t(a.lieu === 'seance' ? 'complementSeance' : 'complementCommission', { chambre: tResume(a.chambre === 'AN' ? 'assemblee' : 'senat') }),
               },
             ]}
@@ -142,7 +142,7 @@ export default async function AmendementPage({ params }: { params: Promise<{ loc
             scrutins={detail.vote ? [{
               uid: detail.vote.uid,
               date_scrutin: detail.vote.date_scrutin,
-              sort_code: 'adopté',
+              sort_code: a.sort === 'rejete' ? 'rejeté' : 'adopté',
               chambre: detail.vote.chambre === 'SN' ? 'Sénat' : 'Assemblée Nationale',
               type_vote_code: null,
               titre: detail.vote.titre,

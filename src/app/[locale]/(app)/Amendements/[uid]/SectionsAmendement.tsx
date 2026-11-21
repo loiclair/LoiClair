@@ -33,10 +33,10 @@ import { BadgeStatut } from '../../Scrutins/[uid]/ResultatVote';
 import SectionsVote, { IconeSection } from '../../Scrutins/[uid]/SectionsVote';
 
 /** Le vote au format que lit `SectionsVote`. */
-function scrutinDuVote(v: NonNullable<DetailAmendement['vote']>): ScrutinData {
+function scrutinDuVote(v: NonNullable<DetailAmendement['vote']>, rejete: boolean): ScrutinData {
   return {
     uid: v.uid,
-    sortLibelle: 'adopté',
+    sortLibelle: rejete ? 'rejeté' : 'adopté',
     type: 'scrutin public',
     typeVoteCode: null,
     pour: v.pour,
@@ -225,10 +225,10 @@ export default function SectionsAmendement({ detail, status, cleStockage, compac
 
       {vote ? (
         <SectionsVote
-          scrutin={scrutinDuVote(vote)}
+          scrutin={scrutinDuVote(vote, detail.sort === 'rejete')}
           chambreKey={vote.chambre === 'SN' ? 'SEN' : 'AN'}
-          statut="Adopté"
-          statutLabel={tResume('adopted')}
+          statut={detail.sort === 'rejete' ? 'Rejeté' : 'Adopté'}
+          statutLabel={tResume(detail.sort === 'rejete' ? 'rejected' : 'adopted')}
           votes={vote.votes}
           status="idle"
           sens={t(detail.portee)}
@@ -239,7 +239,8 @@ export default function SectionsAmendement({ detail, status, cleStockage, compac
         <>
           <SectionRepliable cle="resultat" cleStockage={cleStockage} icone={<IconeSection de={Vote} />} titre={tVote('sectionResultat')} carte>
             <div className="flex flex-col items-start" style={{ gap: '10px' }}>
-              <BadgeStatut statut="Adopté" statutLabel={tResume('adopted')} />
+              {/* Un rejeté n'arrive ici que si son vote a été détaché (`retirer_liens_contradictoires`). */}
+              <BadgeStatut statut={detail.sort === 'rejete' ? 'Rejeté' : 'Adopté'} statutLabel={tResume(detail.sort === 'rejete' ? 'rejected' : 'adopted')} />
               <p className="text-sm m-0" style={{ lineHeight: 1.5 }}>{t(detail.portee)}</p>
               <p className="text-sm text-muted-foreground m-0" style={{ lineHeight: 1.5 }}>
                 {t(detail.lieu === 'commission' ? 'voteCommission' : 'voteSeance')}

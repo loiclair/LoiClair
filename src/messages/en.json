@@ -656,10 +656,16 @@
     "amendementCommission": "In committee",
     "amendementAdopte": "Adopted",
     "amendementRejete": "Rejected",
-    "voteScrutinPublic": "Recorded vote",
     "amendementsTrouves": "Matching amendments and votes",
     "amendementsVoirAutres": "{count, plural, one {Show 1 more} other {Show # more}}",
-    "amendementsVoirSuivants": "Show the next {lot} of {count}"
+    "amendementsVoirSuivants": "Show the next {lot} of {count}",
+    "etatRejeteScrutin": "Rejected by recorded vote on {date}: it is in no version of the text",
+    "etatPasEncoreVote": "The bill has not yet been voted on as a whole",
+    "etatLectureSansVote": "Reading closed without a {chambre, select, SN {Senate} other {National Assembly}} vote on the whole bill",
+    "etatCommission": "Included in the committee text · bill {resultat, select, rejete {rejected} other {passed}} on the floor on {date}",
+    "etatSeanceAdopte": "In the text passed by {chambre, select, SN {the Senate} other {the National Assembly}} on {date}",
+    "etatSeanceRejete": "Bill then rejected by {chambre, select, SN {the Senate} other {the National Assembly}} on {date}",
+    "voteScrutinOfficiel": "Recorded vote, on the National Assembly website"
   },
   "elus": {
     "pageTitle": "Elected officials",
@@ -5249,6 +5255,9 @@
     "porteeCommissionLoi": "Adopted in committee. The bill became law, but this amendment may have been changed or removed in plenary or at later readings: only the enacted text counts.",
     "porteeCommissionRejete": "Adopted in committee, but the bill was then rejected: an amendment only has effect within the text it changes.",
     "porteeCommissionBudget": "Adopted in committee. For a budget bill, the plenary debate starts again from the Government's text: this amendment only counts if it is voted again there.",
-    "sectionAuteurTexte": "Who tabled the text"
+    "sectionAuteurTexte": "Who tabled the text",
+    "metaLabelRejet": "Rejection",
+    "metaDescriptionRejete": "{nom} on “{texte}”, rejected on the floor {chambre, select, sen {in the Senate} other {in the National Assembly}} by recorded vote: its text, its author and the vote by name.",
+    "porteeRejeteScrutin": "Rejected on the floor by recorded vote: this amendment is not in the text."
   }
 }

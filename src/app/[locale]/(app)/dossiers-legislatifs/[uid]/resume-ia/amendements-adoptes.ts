@@ -147,7 +147,8 @@ export async function amendementsAdoptes(uid: string, complet = false): Promise<
   const lignes = await sql<LigneAmendement[]>`
     select uid, chambre, lieu, numero, article, auteur_type, auteur_uid, auteur_libelle, url
     from amendements
-    where dossier_uid = ${uid}
+    -- Adoptés seuls : la table porte aussi les rejetés par scrutin public (LOI-85).
+    where dossier_uid = ${uid} and sort = 'adopte'
     order by date_amendement asc nulls last, uid`;
   if (lignes.length === 0) return [];
 

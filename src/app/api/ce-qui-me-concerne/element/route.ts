@@ -202,7 +202,7 @@ async function amendementsDe(dossier: string, numero: string, texte: string, en:
       from textes t where t.uid = ${texte}
     )
     select a.uid, a.numero, a.lieu, a.chambre, a.url from amendements a, v
-    where a.dossier_uid = ${dossier} and a.article = ${numero} and a.chambre = v.chambre
+    where a.dossier_uid = ${dossier} and a.article = ${numero} and a.chambre = v.chambre and a.sort = 'adopte'
       and (a.date_amendement is null or a.date_amendement >= v.depuis)
     order by a.uid`;
   if (!amdts.length) return [];

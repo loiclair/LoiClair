@@ -42,13 +42,14 @@ export async function GET(request: NextRequest) {
     getTranslations({ locale, namespace: 'resumeIA' }),
   ]);
 
-  // La page n'existe que pour un amendement adopté : le statut est toujours « Adopté ».
+  // Adopté, ou rejeté par scrutin public (LOI-85) : le sort de la ligne, comme la page.
+  const rejete = a.sort === 'rejete';
   return imageVote({
     locale,
     surtitre: t('nom', { numero: a.numero }),
     date: v.date_scrutin ? dateDuVote(locale, v.date_scrutin) : null,
-    statut: tResume('adopted'),
-    couleurStatut: SCRUTIN_COLORS.pour,
+    statut: tResume(rejete ? 'rejected' : 'adopted'),
+    couleurStatut: rejete ? SCRUTIN_COLORS.contre : SCRUTIN_COLORS.pour,
     chiffres: {
       typeVoteCode: null,
       pour: v.pour,

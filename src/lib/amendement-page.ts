@@ -37,6 +37,9 @@ export type AmendementLigne = {
   procedure_libelle: string | null;
   /** Parution au Journal officiel, la date que montre aussi le tiroir d'un article. */
   date_jo: string | null;
+  /** 'rejete' pour un amendement rejeté par scrutin public (LOI-85), qui n'a de page
+   *  que par son vote ; 'adopte' pour tous les autres. */
+  sort: 'adopte' | 'rejete';
 };
 
 /** La ligne de l'amendement et de son dossier, ou `null` s'il n'existe pas. Une panne lève
@@ -45,18 +48,20 @@ export type AmendementLigne = {
 export const lireAmendement = cache(async (uid: string): Promise<AmendementLigne | null> =>
   auPlusUneLigne(sql<AmendementLigne[]>`
     select a.uid, a.dossier_uid, a.chambre, a.lieu, a.numero, a.article, a.auteur_type, a.auteur_uid,
-      a.auteur_libelle, a.date_amendement, a.url, a.dispositif, a.expose,
+      a.auteur_libelle, a.date_amendement, a.url, a.dispositif, a.expose, a.sort,
       d.titre as dossier_titre, d.titre_en as dossier_titre_en, d.statut_final, d.date_promulgation, d.procedure_libelle,
       (select min(l.date_publication) from textes l where l.dossier_ref = d.uid and l.uid like 'LOI%' and not (l.is_version_consolidee is true)) as date_jo
     from amendements a
     join dossiers_legislatifs d on d.uid = a.dossier_uid
     where a.uid = ${uid}`, 'amendements (page de l\'amendement)'));
 
-/** Ce que veut dire « adopté » pour cet amendement, en clé de traduction. Adopté n'est pas
+/** Ce que veut dire le sort de cet amendement, en clé de traduction. Adopté n'est pas
  *  « dans la loi » : une commission est suivie de la séance, une lecture des suivantes, et
  *  aucune table ne dit si l'amendement a survécu jusqu'au texte final. D'où des phrases
- *  qui décrivent la situation sans jamais affirmer qu'il figure dans la loi. */
-export function porteeAdoption(a: Pick<AmendementLigne, 'lieu' | 'statut_final' | 'date_promulgation' | 'procedure_libelle'>) {
+ *  qui décrivent la situation sans jamais affirmer qu'il figure dans la loi. Un rejeté
+ *  (toujours en séance, par scrutin public) n'est dans aucun texte. */
+export function porteeAdoption(a: Pick<AmendementLigne, 'lieu' | 'statut_final' | 'date_promulgation' | 'procedure_libelle' | 'sort'>) {
+  if (a.sort === 'rejete') return 'porteeRejeteScrutin' as const;
   const rejete = (a.statut_final ?? '').startsWith('Rejeté');
   const loi = !!a.date_promulgation || a.statut_final === 'Promulguée' || a.statut_final === 'Appliquée';
   if (a.lieu === 'commission') {
@@ -90,6 +95,7 @@ export type DetailAmendement = {
   dispositif: string | null;
   expose: string | null;
   portee: ReturnType<typeof porteeAdoption>;
+  sort: AmendementLigne['sort'];
   /** Résumé de l'IA dans la langue demandée, pour les quelque 10 % classés. */
   resume: string | null;
   auteur: AuteurElement;
@@ -150,6 +156,7 @@ export async function chargerDetailAmendement(a: AmendementLigne, locale: string
     dispositif: a.dispositif,
     expose: a.expose,
     portee: porteeAdoption(a),
+    sort: a.sort,
     resume: resumes.get(a.uid) ?? null,
     auteur,
     vote,
@@ -179,6 +186,7 @@ export async function lireAutresAmendements(a: AmendementLigne, limite = AUTRES_
     select uid, numero, lieu, chambre, count(*) over ()::int as total
     from amendements
     where dossier_uid = ${a.dossier_uid} and article = ${a.article} and chambre = ${a.chambre} and uid <> ${a.uid}
+      and sort = 'adopte'
     order by lieu desc, date_amendement desc nulls last, uid
     limit ${limite}`;
   return {

@@ -7,10 +7,14 @@
 // Une ligne par élément, sur le modèle des « Autres votes sur ce texte » de la page d'un
 // vote (`Scrutins/[uid]/AutresVotes.tsx`) : point vert adopté, rouge rejeté, intitulé en
 // couleur au survol.
-//   - un amendement adopté : numéro et article, auteur, chambre et séance ou commission,
-//     puis le résumé de l'IA (badge IA) ou le début du dispositif ; mène à sa page ;
-//   - un vote sur un amendement : l'intitulé du scrutin, sa date et son sort ; mène à la
-//     page du vote.
+//   - un amendement, adopté ou rejeté par scrutin public : numéro et article, auteur,
+//     chambre et séance ou commission, sort, puis le résumé de l'IA (badge IA) ou le début
+//     du dispositif ; il mène à sa page. Sous l'en-tête, où en est l'amendement : dans quel texte voté il se trouve, ou que le
+//     vote sur l'ensemble du texte n'a pas encore eu lieu (`etat`). Rejeté par scrutin
+//     public, il ne figure dans aucun texte, et la ligne le dit ;
+//   - un vote sur un amendement que la base n'a pas (texte de la 16e législature, ou
+//     amendement non retrouvé) : l'intitulé du scrutin, sa date et son sort ; il mène à
+//     la page officielle du scrutin, sur le site de l'Assemblée, faute de page ici.
 // Toute la ligne est cliquable par un lien étiré (`span` en `inset: 0` dans le lien) : le
 // badge IA est lui-même un lien, qui ne peut pas entrer dans un autre, et passe au-dessus.
 // Survol par état React et coupe à deux lignes en style en ligne, plutôt qu'en classes
@@ -22,6 +26,7 @@ import { Link } from '@/i18n/navigation';
 import { AIBadge } from '@/app/[locale]/(app)/dossiers-legislatifs/[uid]/resume-ia/AICardElements';
 import { SCRUTIN_COLORS } from '@/app/[locale]/(app)/dossiers-legislatifs/[uid]/resume-ia/ScrutinScore';
 import { titreDossier } from '@/lib/titre-dossier';
+import { urlScrutinOfficiel } from '@/lib/scrutin-affichage';
 import type { AmendementIndex, AmendementMeta, VoteAmendementMeta } from '@/lib/search/amendement-index';
 
 /** Lignes montrées sous un texte avant le premier clic. */
@@ -37,9 +42,13 @@ const DEUX_LIGNES: CSSProperties = {
 };
 
 /** Le squelette commun aux deux sortes de ligne : point, intitulé lien, puis ce qui suit. */
-function Ligne({ href, adopte, intitule, children }: { href: string; adopte: boolean; intitule: string; children: React.ReactNode }) {
+function Ligne({ href, adopte, intitule, externe = false, children }: {
+  href: string; adopte: boolean; intitule: string; externe?: boolean; children: React.ReactNode;
+}) {
   const [survol, setSurvol] = useState(false);
   const couleur = adopte ? SCRUTIN_COLORS.pour : SCRUTIN_COLORS.contre;
+  const style: CSSProperties = { ...DEUX_LIGNES, color: survol ? 'var(--primary)' : 'var(--foreground)', transition: 'color 0.15s ease', WebkitTransition: 'color 0.15s ease', textDecoration: 'none' };
+  const etire = <span aria-hidden style={{ position: 'absolute', inset: 0 }} />;
   return (
     <li
       className="flex items-start"
@@ -57,15 +66,17 @@ function Ligne({ href, adopte, intitule, children }: { href: string; adopte: boo
     >
       <span aria-hidden className="shrink-0" style={{ width: '6px', height: '6px', borderRadius: '50%', backgroundColor: couleur, marginTop: '7px' }} />
       <div className="min-w-0 flex-1">
-        <Link
-          href={href}
-          prefetch={false}
-          className="text-sm font-medium"
-          style={{ ...DEUX_LIGNES, color: survol ? 'var(--primary)' : 'var(--foreground)', transition: 'color 0.15s ease', WebkitTransition: 'color 0.15s ease', textDecoration: 'none' }}
-        >
-          {intitule}
-          <span aria-hidden style={{ position: 'absolute', inset: 0 }} />
-        </Link>
+        {externe ? (
+          <a href={href} target="_blank" rel="noopener noreferrer" className="text-sm font-medium" style={style}>
+            {intitule}
+            {etire}
+          </a>
+        ) : (
+          <Link href={href} prefetch={false} className="text-sm font-medium" style={style}>
+            {intitule}
+            {etire}
+          </Link>
+        )}
         {children}
       </div>
     </li>
@@ -102,6 +113,17 @@ export default function AmendementsTrouves({ uids, index }: { uids: string[]; in
   const locale = useLocale();
   const [nombre, setNombre] = useState(PREMIERES);
 
+  /** Où en est l'amendement, en une phrase ; `null` quand la source ne permet pas de le dire. */
+  const etat = (a: AmendementMeta): string | null => {
+    if (!a.adopte) return a.date ? t('etatRejeteScrutin', { date: dateLongue(locale, a.date) }) : null;
+    if (a.ensemble === 'en_attente') return t('etatPasEncoreVote');
+    if (a.ensemble === 'sans_vote') return t('etatLectureSansVote', { chambre: a.chambre });
+    if (!a.ensemble || !a.ensemble_date) return null;
+    const date = dateLongue(locale, a.ensemble_date);
+    if (a.lieu === 'commission') return t('etatCommission', { date, resultat: a.ensemble });
+    return t(a.ensemble === 'rejete' ? 'etatSeanceRejete' : 'etatSeanceAdopte', { date, chambre: a.chambre });
+  };
+
   const ligneAmendement = (a: AmendementMeta) => {
     const extrait = index.extraits.get(a.uid);
     const resume = (locale === 'en' ? extrait?.resume_en : extrait?.resume_fr) || null;
@@ -115,10 +137,13 @@ export default function AmendementsTrouves({ uids, index }: { uids: string[]; in
       <Ligne
         key={a.uid}
         href={`/Amendements/${a.uid}`}
-        adopte
+        adopte={a.adopte}
         intitule={[t('amendementTitre', { numero: a.numero }), a.article].filter(Boolean).join(' · ')}
       >
-        <Meta morceaux={morceaux} sort={t('amendementAdopte')} adopte />
+        <Meta morceaux={morceaux} sort={t(a.adopte ? 'amendementAdopte' : 'amendementRejete')} adopte={a.adopte} />
+        {etat(a) && (
+          <p className="text-xs m-0" style={{ marginTop: '2px', lineHeight: 1.5, color: 'var(--foreground)' }}>{etat(a)}</p>
+        )}
         {(resume || extrait?.dispositif) && (
           <p className="text-xs text-muted-foreground m-0" style={{ ...DEUX_LIGNES, marginTop: '4px', lineHeight: 1.5 }}>
             {resume && (
@@ -138,10 +163,12 @@ export default function AmendementsTrouves({ uids, index }: { uids: string[]; in
     // Comme l'intitulé de la page du vote : la phrase de la chambre, majuscule initiale.
     const titre = titreDossier(v, locale);
     const date = v.date ? dateLongue(locale, v.date) : null;
+    const url = urlScrutinOfficiel(v.uid);
+    if (!url) return null;
     return (
-      <Ligne key={v.uid} href={`/Scrutins/${v.uid}`} adopte={v.adopte} intitule={titre.charAt(0).toUpperCase() + titre.slice(1)}>
+      <Ligne key={v.uid} href={url} externe adopte={v.adopte} intitule={titre.charAt(0).toUpperCase() + titre.slice(1)}>
         <Meta
-          morceaux={[t('voteScrutinPublic'), date].filter((m): m is string => !!m)}
+          morceaux={[t('voteScrutinOfficiel'), date].filter((m): m is string => !!m)}
           sort={t(v.adopte ? 'amendementAdopte' : 'amendementRejete')}
           adopte={v.adopte}
         />
