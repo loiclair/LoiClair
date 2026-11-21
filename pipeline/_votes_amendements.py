@@ -1,5 +1,6 @@
-"""Relie un vote par scrutin public aux amendements adoptés qu'il a tranchés, et un vote
-sur amendement de l'Assemblée au dossier législatif qu'il amende.
+"""Relie un vote par scrutin public aux amendements qu'il a tranchés (adoptés, et à
+l'Assemblée rejetés), et un vote sur amendement de l'Assemblée au dossier législatif
+qu'il amende.
 
 `relier_votes` est appelé par `import_scrutins_cloud.py` (Assemblée) et `sync_senat.py`
 (Sénat), qui construisent chacun leurs votes puis écrivent dans `votes_amendements` son
@@ -116,13 +117,14 @@ def _lendemain(jour: str) -> str:
 
 
 def _amendements_de_seance(chambre: str) -> list[dict]:
-    """Les adoptés de séance d'une chambre. Le dispositif arrive réduit à une empreinte :
-    il ne sert qu'à comparer, et ses lignes pèsent des dizaines de Mo à elles toutes."""
+    """Les amendements de séance d'une chambre, adoptés et rejetés (`sort`). Le dispositif
+    arrive réduit à une empreinte : il ne sert qu'à comparer, et ses lignes pèsent des
+    dizaines de Mo à elles toutes."""
     with connexion(autocommit=True) as conn:
         return lire(
             conn,
             """
-            SELECT uid, dossier_uid, numero, article, date_amendement,
+            SELECT uid, dossier_uid, numero, article, date_amendement, sort,
                    CASE WHEN dispositif IS NULL OR dispositif = '' THEN NULL
                         ELSE md5(lower(regexp_replace(dispositif, '\\s+', ' ', 'g'))) END AS empreinte
               FROM amendements
@@ -188,19 +190,24 @@ def relier_votes(votes: list[dict], chambre: str) -> tuple[list[dict], dict[str,
     un autre texte prenait le vote (VTANR5L17V945, LOI-84).
 
     Les « amendements identiques suivants » de l'Assemblée ne sont pas nommés : ce sont
-    les adoptés du même dossier, du même jour, sur le même article, au même dispositif.
-    Le Sénat, lui, cite chaque numéro.
+    ceux du même dossier, du même jour, sur le même article, au même dispositif et de même
+    sort. Le Sénat, lui, cite chaque numéro.
+
+    À l'Assemblée, un vote ne se relie qu'à un amendement de son sort (`adopte` du vote,
+    `amendements.sort`) : un vote de rejet n'apparaît jamais sur la page d'un amendement
+    adopté (LOI-85). Les votes du Sénat, relevés pour les seuls adoptés, n'ont pas la clé.
     """
     amendements = _amendements_de_seance(chambre)
     index: dict[tuple, list[dict]] = defaultdict(list)
     identiques: dict[tuple, list[dict]] = defaultdict(list)
     for a in amendements:
+        adopte = a["sort"] == "adopte"
         if chambre == "AN":
-            index[(sans_prefixe(a["numero"]), str(a["date_amendement"]))].append(a)
+            index[(adopte, sans_prefixe(a["numero"]), str(a["date_amendement"]))].append(a)
             if a["empreinte"]:
-                cle = (a["dossier_uid"], str(a["date_amendement"]), a["article"], a["empreinte"])
+                cle = (adopte, a["dossier_uid"], str(a["date_amendement"]), a["article"], a["empreinte"])
                 identiques[cle].append(a)
-        else:
+        elif adopte:
             index[(a["dossier_uid"], a["numero"])].append(a)
 
     dossier_du_vote = _dossiers_des_votes([v["uid"] for v in votes]) if chambre == "AN" else {}
@@ -211,6 +218,7 @@ def relier_votes(votes: list[dict], chambre: str) -> tuple[list[dict], dict[str,
         ligne = dict(vote)
         dossier_uid = ligne.pop("dossier_uid", None)
         texte_du_vote = dossier_du_vote.get(ligne["uid"])
+        vote_adopte = ligne.get("adopte", True)
         date_vote = (ligne["date_scrutin"] or "")[:10]
         # Un vote sans date ne se relie à rien, mais ne doit pas arrêter l'écriture des
         # autres : `date.fromisoformat("")` lève.
@@ -224,14 +232,22 @@ def relier_votes(votes: list[dict], chambre: str) -> tuple[list[dict], dict[str,
         ambigu = False
         for numero in numeros_du_titre(titre):
             if chambre == "AN":
+                # Un vote de rejet sans texte connu ne se relie pas : les petits numéros
+                # rejetés le même jour sur plusieurs textes sont la règle, et les 13 liens
+                # qu'aurait faits le seul numéro le 2026-11-20 étaient tous faux
+                # (VTANR5L17V2246, « collectes de sang », relié au texte sur le vote des
+                # détenus).
+                if not vote_adopte and not texte_du_vote:
+                    break
+
                 def du_texte(cands: list[dict]) -> list[dict]:
                     return [a for a in cands if not texte_du_vote or a["dossier_uid"] == texte_du_vote]
 
-                retenus = du_texte(_du_meme_article(index.get((sans_prefixe(numero), date_vote), []), article,
-                                                    avec_position=True))
+                retenus = du_texte(_du_meme_article(index.get((vote_adopte, sans_prefixe(numero), date_vote), []),
+                                                    article, avec_position=True))
                 if not retenus:
-                    retenus = du_texte(_du_meme_article(index.get((sans_prefixe(numero), lendemain), []), article,
-                                                        avec_position=True))
+                    retenus = du_texte(_du_meme_article(index.get((vote_adopte, sans_prefixe(numero), lendemain), []),
+                                                        article, avec_position=True))
             else:
                 retenus = _du_meme_article([
                     a for a in index.get((dossier_uid, numero), [])
@@ -246,7 +262,7 @@ def relier_votes(votes: list[dict], chambre: str) -> tuple[list[dict], dict[str,
             uids.add(principal["uid"])
             if chambre == "AN" and _IDENTIQUES.search(titre) and principal["empreinte"]:
                 # La date du principal, pas celle du vote : ses identiques ont le même sort.
-                cle = (principal["dossier_uid"], str(principal["date_amendement"]),
+                cle = (vote_adopte, principal["dossier_uid"], str(principal["date_amendement"]),
                        principal["article"], principal["empreinte"])
                 uids.update(a["uid"] for a in identiques.get(cle, []))
 

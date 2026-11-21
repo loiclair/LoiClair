@@ -618,8 +618,9 @@ def importer_scrutins_from_zip(zip_ref: zipfile.ZipFile) -> int:
     # les positions ont toutes été recalculées, et les clés qui en ont une.
     scrutins_positions_recalculees: set[str] = set()
     positions_valides: set[str] = set()
-    # Votes adoptés sur un amendement, écrits à part dans `votes_amendements` : ils
-    # n'entrent ni dans `scrutins.votes_nominatifs` ni dans aucun taux de participation.
+    # Votes sur un amendement, adoptés ou rejetés, écrits à part dans `votes_amendements` :
+    # ils n'entrent ni dans `scrutins.votes_nominatifs` ni dans aucun taux de participation.
+    # Les rejetés y sont depuis LOI-85, pour la page de l'amendement rejeté.
     votes_amendement: list[dict] = []
     success = 0            # total de scrutins parsés avec succès
     success_importants = 0 # parmi eux : scrutins « importants » (MOC + SPS)
@@ -663,14 +664,12 @@ def importer_scrutins_from_zip(zip_ref: zipfile.ZipFile) -> int:
             compte_participation_finale = is_vote_final and not is_motion_censure
             compte_participation_solennelle = is_scrutin_important and not is_motion_censure
 
-            est_amendement_adopte = (
-                payload_scrutin.get("sort_code") == "adopté"
-                and est_vote_sur_amendement(payload_scrutin.get("objet_libelle") or payload_scrutin.get("titre"))
-            )
+            est_vote_amendement = est_vote_sur_amendement(
+                payload_scrutin.get("objet_libelle") or payload_scrutin.get("titre"))
 
             # Votes nominatifs individuels — persistés uniquement pour les scrutins ciblés,
-            # dans `scrutins` ou, pour un amendement adopté, dans `votes_amendements`.
-            if is_scrutin_important or is_vote_final or est_amendement_adopte:
+            # dans `scrutins` ou, pour un vote sur amendement, dans `votes_amendements`.
+            if is_scrutin_important or is_vote_final or est_vote_amendement:
                 date_scrutin = payload_scrutin.get("date_scrutin")
                 vn: dict[str, list[str]] = {
                     "pour": [], "contre": [], "abstentions": [],
@@ -719,7 +718,7 @@ def importer_scrutins_from_zip(zip_ref: zipfile.ZipFile) -> int:
                     payload_scrutin["votes_nominatifs"] = listes_triees
                     payload_scrutin["groupes_votants"] = groupes_tries
 
-                if est_amendement_adopte:
+                if est_vote_amendement:
                     # Mêmes exclusions que les positions de `scrutins_groupes_positions` :
                     # pas de ligne sans position ni pour les non-inscrits (D-313).
                     positions_groupes = sorted(
@@ -752,6 +751,7 @@ def importer_scrutins_from_zip(zip_ref: zipfile.ZipFile) -> int:
                         "votes_nominatifs": listes_triees,
                         "groupes_votants": groupes_tries,
                         "positions_groupes": positions_groupes,
+                        "adopte": payload_scrutin.get("sort_code") == "adopté",
                     })
 
             # Tous les scrutins partent chaque nuit : la base écarte ceux qui n'ont pas
@@ -1165,7 +1165,7 @@ def importer_scrutins_from_zip(zip_ref: zipfile.ZipFile) -> int:
     # ===================================================================
     # En dernier : une panne ici laisse intactes toutes les écritures ci-dessus, et le
     # script sort en échec, donc la nuit suivante retente.
-    print(f"\nRapprochement de {len(votes_amendement)} votes d'amendements adoptés...")
+    print(f"\nRapprochement de {len(votes_amendement)} votes sur amendement...")
     lignes_votes, compteurs_votes = relier_votes(votes_amendement, "AN")
     upsert_batch("votes_amendements", lignes_votes, "uid")
     print(f"  → {compteurs_votes}, {lignes_ecrites.get('votes_amendements', 0)} ligne(s) écrite(s).")

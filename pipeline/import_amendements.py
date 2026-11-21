@@ -33,6 +33,7 @@ import re
 import sqlite3
 import unicodedata
 import zipfile
+from datetime import date
 from collections import defaultdict
 from pathlib import Path
 
@@ -49,9 +50,14 @@ from _positions_groupe import (  # noqa: E402
 )
 from _telechargement import telecharger  # noqa: E402
 from _votes_amendements import (  # noqa: E402
+    _APOSTROPHES,
     RattachementVotes,
+    _du_meme_article,
+    cle_article,
     est_vote_sur_amendement,
+    numeros_du_titre,
     retirer_liens_contradictoires,
+    sans_prefixe,
 )
 
 # ===================================================================
@@ -377,8 +383,9 @@ class DossierCounts:
 # ===================================================================
 
 
-def _ligne_amendement_an(amd: dict, dossier_uid: str) -> dict:
-    """Ligne de la table `amendements` pour un amendement adopté de l'Assemblée.
+def _ligne_amendement_an(amd: dict, dossier_uid: str, sort: str = "adopte") -> dict:
+    """Ligne de la table `amendements` pour un amendement de l'Assemblée, adopté ou, pour
+    `amendements_rejetes`, rejeté par scrutin public (`sort`).
 
     L'URL est celle que l'Assemblée sert pour l'uid seul, `/dyn/17/amendements/{uid}`.
     Le motif lisible `/{n° du texte}/{organe}/{numéro}` ne distingue pas une seconde
@@ -427,6 +434,7 @@ def _ligne_amendement_an(amd: dict, dossier_uid: str) -> dict:
         "url": url,
         "dispositif": dispositif,
         "expose": _texte_brut(contenu.get("exposeSommaire")),
+        "sort": sort,
     }
 
 
@@ -471,9 +479,11 @@ def _sort_an(cycle: dict) -> str:
     return "autre"
 
 
-def _amendement_de_seance_an(amd: dict, dossier_uid: str) -> dict:
-    """Ce que `RattachementVotes` lit d'un amendement de séance : dossier, numéro cité,
-    article visé et date du sort (AAAA-MM-JJ, None tant qu'il n'est pas voté)."""
+def _amendement_de_seance_an(amd: dict, dossier_uid: str, chemin: str) -> dict:
+    """Ce que `RattachementVotes` et `amendements_rejetes` lisent d'un amendement de
+    séance : dossier, numéro cité, article visé, date du sort (AAAA-MM-JJ, None tant
+    qu'il n'est pas voté), sort (« Rejeté »…) et chemin dans le ZIP, pour relire le
+    fichier entier des seuls amendements retenus."""
     ident = amd.get("identification") or {}
     division = ((amd.get("pointeurFragmentTexte") or {}).get("division") or {})
     date_sort = (amd.get("cycleDeVie") or {}).get("dateSort")
@@ -482,6 +492,8 @@ def _amendement_de_seance_an(amd: dict, dossier_uid: str) -> dict:
         "numero": _sans_rectification(ident.get("numeroLong") or ""),
         "article": _article_court(division.get("articleDesignationCourte")),
         "sort": date_sort[:10] if isinstance(date_sort, str) and date_sort else None,
+        "statut": (amd.get("cycleDeVie") or {}).get("sort") if isinstance((amd.get("cycleDeVie") or {}).get("sort"), str) else None,
+        "chemin": chemin,
     }
 
 
@@ -545,7 +557,7 @@ def process_an(known_dossier_uids: set, elu_counts: dict, dossier_counts: dict, 
         # de séance au 2026-11-20) : sans lui, le vote se rattachait à un homonyme.
         dossier_du_chemin = next((p for p in parts if p.startswith("DLR5L")), None)
         if dossier_du_chemin and ((amd.get("identification") or {}).get("prefixeOrganeExamen") or "AN") == "AN":
-            seance_an.append(_amendement_de_seance_an(amd, dossier_du_chemin))
+            seance_an.append(_amendement_de_seance_an(amd, dossier_du_chemin, name))
 
         if not dossier_uid or dossier_uid not in known_dossier_uids:
             skipped_dossier += 1
@@ -610,6 +622,8 @@ def process_an(known_dossier_uids: set, elu_counts: dict, dossier_counts: dict, 
     print(f"   🏛️  {skipped_gouv} amendements gouvernementaux (comptés pour le dossier, pas pour les élus)")
     print(f"   👤 {counted} amendements parlementaires comptabilisés pour les élus")
     print(f"   ✅ {len(adoptes)} amendements adoptés retenus pour la table amendements")
+    # Gardé ouvert pour `amendements_rejetes`, qui relit les fichiers des rejetés retenus.
+    return zf
 
 
 # ===================================================================
@@ -823,6 +837,7 @@ def _lignes_amendements_senat(cur, txtid_to_dossier: dict, adopte_sort_codes: se
             # `dis` est le dispositif, `obj` l'exposé des motifs (« objet » au Sénat).
             "dispositif": _texte_brut(_copy_dechappe(r["dis"])),
             "expose": _texte_brut(_copy_dechappe(r["obj"])),
+            "sort": "adopte",
         }
 
     print(f"   ✅ {len(lignes)} amendements adoptés retenus pour la table amendements"
@@ -1244,7 +1259,7 @@ ESSAIS_ECRITURE_AMENDEMENTS = 3
 COLONNES_AMENDEMENTS = {
     "dossier_uid": "text", "chambre": "text", "lieu": "text", "numero": "text",
     "article": "text", "auteur_type": "text", "auteur_uid": "text",
-    "auteur_libelle": "text", "date_amendement": "date", "url": "text",
+    "auteur_libelle": "text", "date_amendement": "date", "url": "text", "sort": "text",
 }
 
 # 500 lignes font environ 1 Mo de texte (50 Mo pour environ 26 000 adoptés ; dispositif de
@@ -1376,7 +1391,9 @@ def _reconcilier_amendements(lignes: list[dict]) -> tuple[int, int, int]:
     definition = ", ".join(["uid text"] + [f"{c} {t}" for c, t in COLONNES_AMENDEMENTS.items()])
 
     with connexion() as conn, conn.transaction(), conn.cursor() as cur:
-        cur.execute("SELECT chambre, count(*) FROM amendements GROUP BY chambre")
+        # Adoptés seuls : les rejetés (LOI-85) ne sont ni comptés ni supprimés ici, ils
+        # s'écrivent à part (`ecrire_amendements_rejetes`) et ne s'effacent jamais.
+        cur.execute("SELECT chambre, count(*) FROM amendements WHERE sort = 'adopte' GROUP BY chambre")
         for chambre, en_base in cur.fetchall():
             dans_lot = sum(1 for l in lignes if l["chambre"] == chambre)
             if dans_lot < en_base / 2:
@@ -1385,7 +1402,8 @@ def _reconcilier_amendements(lignes: list[dict]) -> tuple[int, int, int]:
                     "la moitié, dump probablement vide ou tronqué. Table amendements laissée en l'état."
                 )
 
-        cur.execute("DELETE FROM amendements WHERE NOT (uid = ANY(%s))", ([l["uid"] for l in lignes],))
+        cur.execute("DELETE FROM amendements WHERE sort = 'adopte' AND NOT (uid = ANY(%s))",
+                    ([l["uid"] for l in lignes],))
         supprimes = cur.rowcount
 
         cur.execute(
@@ -1543,6 +1561,118 @@ def ecrire_dossiers_des_votes(seance_an: list[dict]) -> int:
     return ecrites
 
 
+def amendements_rejetes(seance_an: list[dict], zf: zipfile.ZipFile) -> tuple[list[dict], list[dict]]:
+    """Les amendements de l'Assemblée rejetés par scrutin public, et le lien de chaque vote.
+
+    Rend `(lignes de la table amendements, liens {vote, amendement})`. Un vote de rejet
+    rattaché à son texte (`scrutins.dossier_uid`) retrouve son amendement dans le dump :
+    même texte, premier numéro de l'intitulé, sort « Rejeté » le jour du vote ou le
+    lendemain (séance après minuit), article concordant. Un seul candidat, ou rien. Banc
+    du 2026-11-20 : 6 474 votes sur 6 575 votes de rejet rattachés à un texte listé.
+
+    `seance_an` : les amendements de séance du dump (`process_an`) ; `zf` : le ZIP, relu
+    pour les seuls amendements retenus. LOI-85 : un rejeté n'a de page que par son vote.
+    """
+    with connexion(autocommit=True) as conn:
+        votes = lire(
+            conn,
+            """
+            SELECT uid, titre, date_scrutin, dossier_uid FROM scrutins
+             WHERE chambre = 'Assemblée Nationale' AND dossier_uid IS NOT NULL AND sort_code = 'rejeté'
+             ORDER BY uid
+            """,
+        )
+    index: dict[tuple[str, str], list[dict]] = defaultdict(list)
+    for a in seance_an:
+        if a["statut"] == "Rejeté":
+            index[(a["dossier_uid"], sans_prefixe(a["numero"]))].append(a)
+
+    retenus: dict[str, tuple[dict, str]] = {}
+    liens = []
+    for v in votes:
+        if not est_vote_sur_amendement(v["titre"]):
+            continue
+        titre = (v["titre"] or "").translate(_APOSTROPHES)
+        numeros = numeros_du_titre(titre)
+        if not numeros:
+            continue
+        jour = date.fromisoformat(str(v["date_scrutin"])[:10])
+        candidats = [
+            a for a in _du_meme_article(index.get((v["dossier_uid"], sans_prefixe(numeros[0])), []),
+                                        cle_article(titre), avec_position=True)
+            if a["sort"] and 0 <= (date.fromisoformat(a["sort"]) - jour).days <= 1
+        ]
+        if len(candidats) != 1:
+            continue
+        a = candidats[0]
+        uid = Path(a["chemin"]).stem
+        retenus.setdefault(uid, (a, v["dossier_uid"]))
+        liens.append({"vote": v["uid"], "amendement": uid})
+
+    lignes = []
+    for uid, (a, dossier_uid) in retenus.items():
+        with zf.open(a["chemin"]) as f:
+            data = json.load(f)
+        lignes.append(_ligne_amendement_an(data.get("amendement", data), dossier_uid, sort="rejete"))
+    return lignes, liens
+
+
+TAILLE_LOT_REJETES = 1000
+
+
+def ecrire_amendements_rejetes(lignes: list[dict], liens: list[dict]) -> None:
+    """Écrit les rejetés dans `amendements` (`sort = 'rejete'`) et relie leurs votes.
+
+    Insertion et mise à jour par lots, jamais de suppression : le dump perd les
+    amendements des textes anciens, et une page publiée ne doit pas disparaître. Une
+    ligne adoptée du même uid n'est jamais touchée (`WHERE amendements.sort = 'rejete'`).
+    Le dispositif et l'exposé passent par `_ecrire_textes`, comme pour les adoptés.
+
+    Le lien d'un vote (`votes_amendements.amendement_uids`) n'est posé que s'il est vide :
+    `relier_votes` fait le même lien les nuits suivantes, l'amendement étant alors en base.
+    """
+    print("\n" + "=" * 60)
+    print("📤 AMENDEMENTS REJETÉS PAR SCRUTIN PUBLIC")
+    print("=" * 60)
+    colonnes = list(COLONNES_AMENDEMENTS)
+    definition = ", ".join(["uid text"] + [f"{c} {t}" for c, t in COLONNES_AMENDEMENTS.items()])
+    inseres = modifies = 0
+    for i in range(0, len(lignes), TAILLE_LOT_REJETES):
+        lot = lignes[i:i + TAILLE_LOT_REJETES]
+        with connexion() as conn, conn.transaction(), conn.cursor() as cur:
+            cur.execute(
+                f"""
+                INSERT INTO amendements (uid, {", ".join(colonnes)})
+                SELECT uid, {", ".join(colonnes)}
+                FROM jsonb_to_recordset(%s::jsonb) AS v({definition})
+                ON CONFLICT (uid) DO UPDATE SET
+                  {", ".join(f"{c} = excluded.{c}" for c in colonnes)}
+                WHERE amendements.sort = 'rejete'
+                  AND ROW({", ".join(f"amendements.{c}" for c in colonnes)})
+                      IS DISTINCT FROM ROW({", ".join(f"excluded.{c}" for c in colonnes)})
+                RETURNING (xmax = 0) AS insere
+                """,
+                (json.dumps([{c: l[c] for c in ["uid", *colonnes]} for l in lot], ensure_ascii=False),),
+            )
+            retours = [r[0] for r in cur.fetchall()]
+            inseres += sum(1 for r in retours if r)
+            modifies += sum(1 for r in retours if not r)
+    a_ecrire, ecrits = _ecrire_textes(lignes)
+
+    with connexion() as conn, conn.transaction(), conn.cursor() as cur:
+        cur.execute(
+            """
+            UPDATE votes_amendements v SET amendement_uids = ARRAY[x.amendement]
+              FROM jsonb_to_recordset(%s::jsonb) AS x(vote text, amendement text)
+             WHERE v.uid = x.vote AND NOT v.adopte AND cardinality(v.amendement_uids) = 0
+            """,
+            (json.dumps(liens),),
+        )
+        relies = cur.rowcount
+    print(f"   {len(lignes)} rejetés : {inseres} insérés, {modifies} modifiés ; texte : {ecrits} écrit(s) "
+          f"sur {a_ecrire} ; {relies} vote(s) relié(s) sur {len(liens)}")
+
+
 def main():
     print("=" * 60)
     print("IMPORT DES AMENDEMENTS (AN + SÉNAT)")
@@ -1565,6 +1695,7 @@ def main():
     adoptes: list[dict] = []
     par_elu: dict[tuple[str, str, str], int] = defaultdict(int)
     seance_an: list[dict] = []
+    zf_an: zipfile.ZipFile | None = None
 
     # Les deux passes doivent réussir avant d'écrire quoi que ce soit. Une panne au
     # milieu du parcours AN laissait `elu_counts` partiel, et `upsert_results` l'écrivait
@@ -1575,8 +1706,8 @@ def main():
     echecs: list[str] = []
 
     try:
-        process_an(known_dossier_uids, elu_counts, dossier_counts, adoptes, senateurs_actuels, par_elu,
-                   seance_an)
+        zf_an = process_an(known_dossier_uids, elu_counts, dossier_counts, adoptes, senateurs_actuels, par_elu,
+                           seance_an)
     except Exception as e:
         print(f"❌ Erreur AN : {e}")
         import traceback
@@ -1600,6 +1731,9 @@ def main():
     ecrire_amendements(adoptes)
     ecrire_amendements_elus(par_elu)
     ecrire_dossiers_des_votes(seance_an)
+    # Après les dossiers des votes, que l'appariement lit (LOI-85).
+    rejetes, liens = amendements_rejetes(seance_an, zf_an)
+    ecrire_amendements_rejetes(rejetes, liens)
 
     # Résumé
     total_auteur = sum(ec.auteur for ec in elu_counts.values())
