@@ -53,6 +53,12 @@ export async function GET() {
             when e.d is not null and e.s ilike 'rejet%' then 'rejete'
             when e.d is not null and coalesce(e.s, '') <> '' then 'adopte'
             when e.d is not null then null
+            -- Au Sénat, l'absence de vote ne prouve rien : la source (dump de l'Assemblée)
+            -- n'a pas les votes des textes restés au Sénat. « Écosystèmes marins », rejeté
+            -- par le Sénat le 12 juin 2025, s'arrête au rapport de commission ; un texte
+            -- retiré en séance par son auteur n'y laisse aucune trace (vérifié le 2026-11-21
+            -- sur senat.fr). Seuls 'adopte' et 'rejete', lus dans un acte, s'y affichent.
+            when a.chambre = 'SN' then null
             when n.fin is not null then 'sans_vote'
             -- Texte fini ou retiré sans vote retrouvé : « pas encore voté » serait faux, ou
             -- laisserait croire qu'il le sera (le vote manque parfois à la source : conclusions
