@@ -481,13 +481,16 @@ def _sort_an(cycle: dict) -> str:
 
 def _amendement_de_seance_an(amd: dict, dossier_uid: str, chemin: str) -> dict:
     """Ce que `RattachementVotes` et `amendements_rejetes` lisent d'un amendement de
-    séance : dossier, numéro cité, article visé, date du sort (AAAA-MM-JJ, None tant
+    séance : uid, dossier, numéro cité, article visé, date du sort (AAAA-MM-JJ, None tant
     qu'il n'est pas voté), sort (« Rejeté »…) et chemin dans le ZIP, pour relire le
     fichier entier des seuls amendements retenus."""
     ident = amd.get("identification") or {}
     division = ((amd.get("pointeurFragmentTexte") or {}).get("division") or {})
     date_sort = (amd.get("cycleDeVie") or {}).get("dateSort")
     return {
+        # L'uid du JSON, celui qu'écrit `_ligne_amendement_an` : le lien du vote doit viser
+        # la même ligne. Le nom du fichier n'est qu'un repli.
+        "uid": amd.get("uid") or Path(chemin).stem,
         "dossier_uid": dossier_uid,
         "numero": _sans_rectification(ident.get("numeroLong") or ""),
         "article": _article_court(division.get("articleDesignationCourte")),
@@ -1605,7 +1608,7 @@ def amendements_rejetes(seance_an: list[dict], zf: zipfile.ZipFile) -> tuple[lis
         if len(candidats) != 1:
             continue
         a = candidats[0]
-        uid = Path(a["chemin"]).stem
+        uid = a["uid"]
         retenus.setdefault(uid, (a, v["dossier_uid"]))
         liens.append({"vote": v["uid"], "amendement": uid})
 

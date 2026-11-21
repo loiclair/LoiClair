@@ -150,7 +150,9 @@ export function nomEtape(milestone: string | null, chambre: string | null, tStep
   ].filter(Boolean).join(' · ');
 }
 
-/** Date longue d'un vote, à l'heure de Paris. */
+/** Date longue d'un vote, à l'heure de Paris. En français, le premier du mois s'écrit
+ *  « 1er avril 2026 » : `Intl` rend « 1 avril 2026 ». */
 export function dateDuVote(locale: string, d: string): string {
-  return formateurDate(locale === 'en' ? 'en-GB' : 'fr-FR', { dateStyle: 'long', timeZone: 'Europe/Paris' }).format(new Date(d));
+  const texte = formateurDate(locale === 'en' ? 'en-GB' : 'fr-FR', { dateStyle: 'long', timeZone: 'Europe/Paris' }).format(new Date(d));
+  return locale === 'en' ? texte : texte.replace(/^1 /, '1er ');
 }

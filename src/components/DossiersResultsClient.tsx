@@ -146,7 +146,11 @@ export default function DossiersResultsClient({ filterLabels }: Props) {
   useEffect(() => {
     if (!veutAmendements) return;
     return chargerIndexAmendements((idx) => {
+      const precedent = amendementsRef.current;
       amendementsRef.current = idx;
+      // La republication finale porte le même index : rien de neuf à chercher, comme
+      // pour les dossiers (sinon la liste repassait par « … » pour le même résultat).
+      if (idx.minisearch === precedent?.minisearch) return;
       setRevisionAmendements((n) => n + 1);
     });
   }, [veutAmendements]);

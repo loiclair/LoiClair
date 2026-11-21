@@ -243,7 +243,8 @@ export default function SectionsAmendement({ detail, status, cleStockage, compac
               <BadgeStatut statut={detail.sort === 'rejete' ? 'Rejeté' : 'Adopté'} statutLabel={tResume(detail.sort === 'rejete' ? 'rejected' : 'adopted')} />
               <p className="text-sm m-0" style={{ lineHeight: 1.5 }}>{t(detail.portee)}</p>
               <p className="text-sm text-muted-foreground m-0" style={{ lineHeight: 1.5 }}>
-                {t(detail.lieu === 'commission' ? 'voteCommission' : 'voteSeance')}
+                {/* « adopté à main levée » serait faux pour un rejeté sans vote relié. */}
+                {t(detail.lieu === 'commission' ? 'voteCommission' : detail.sort === 'rejete' ? 'voteSeanceRejete' : 'voteSeance')}
               </p>
             </div>
           </SectionRepliable>

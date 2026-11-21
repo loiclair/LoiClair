@@ -9,9 +9,10 @@
 // couleur au survol.
 //   - un amendement, adopté ou rejeté par scrutin public : numéro et article, auteur,
 //     chambre et séance ou commission, sort, puis le résumé de l'IA (badge IA) ou le début
-//     du dispositif ; il mène à sa page. Sous l'en-tête, où en est l'amendement : dans quel texte voté il se trouve, ou que le
-//     vote sur l'ensemble du texte n'a pas encore eu lieu (`etat`). Rejeté par scrutin
-//     public, il ne figure dans aucun texte, et la ligne le dit ;
+//     du dispositif ; il mène à sa page. Sous l'en-tête, où en est l'amendement : dans quel
+//     texte voté il se trouve, ou que le vote sur l'ensemble du texte n'a pas encore eu lieu
+//     (`etat`, même règle que la page : `lib/etat-amendement.ts`). Rejeté par scrutin public,
+//     il ne figure dans aucun texte, et la ligne le dit. « Réduire » replie la liste dépliée ;
 //   - un vote sur un amendement que la base n'a pas (texte de la 16e législature, ou
 //     amendement non retrouvé) : l'intitulé du scrutin, sa date et son sort ; il mène à
 //     la page officielle du scrutin, sur le site de l'Assemblée, faute de page ici.

@@ -6,9 +6,9 @@
 // Appelé par la liste des textes (`DossiersResultsClient`) à la première requête tapée,
 // jamais avant : un visiteur qui ne cherche rien ne télécharge rien.
 //
-// Un document par amendement adopté (page `/Amendements/[uid]`) et par scrutin public
-// sur un amendement que l'index n'a pas déjà (page `/Scrutins/[uid]`, la plupart
-// rejetés). La recherche rend, par dossier, les documents trouvés : la liste les range
+// Un document par amendement adopté, ou rejeté par scrutin public (page
+// `/Amendements/[uid]`), et par scrutin public sur un amendement que l'index n'a pas
+// déjà (sans page ici : sa ligne mène à la page officielle du scrutin). La recherche rend, par dossier, les documents trouvés : la liste les range
 // sous leur texte (`chercherAmendements`).
 
 import MiniSearch from 'minisearch';

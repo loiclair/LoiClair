@@ -1,8 +1,8 @@
 -- 2026-11-20 : dossier législatif d'un scrutin sur amendement (LOI-83)
 --
--- POURQUOI. La page Textes trouve un texte par ses amendements, et les rejetés n'y
--- existent que par leur scrutin public : pas de ligne dans `amendements`, mais une
--- page `/Scrutins/[uid]`. Le dump des scrutins de l'Assemblée ne dit pas de quel
+-- POURQUOI. La page Textes trouve un texte par ses amendements, et un scrutin sur un
+-- amendement absent de `amendements` (16e législature, amendement non retrouvé) n'y
+-- existe que par ce vote, qui mène à la page officielle. Le dump des scrutins de l'Assemblée ne dit pas de quel
 -- dossier relève un vote sur amendement ; `import_amendements.py` le déduit du dump
 -- des amendements (`_votes_amendements.dossier_du_vote`) et l'écrit ici.
 --

@@ -1,5 +1,6 @@
 // src/lib/search/amendement-textes.ts
-// Serveur uniquement : lit la base. Le texte cherchable des amendements adoptés, leur
+// Serveur uniquement : lit la base. Le texte cherchable des amendements de la table
+// (adoptés, et rejetés par scrutin public depuis LOI-85), leur
 // dispositif et le résumé de l'IA en français et en anglais, servi à part des
 // métadonnées par `/api/search-index/amendements/textes` (15,8 Mo bruts de dispositif
 // au 2026-11-20, contre quelques centaines de Ko de métadonnées). La route des

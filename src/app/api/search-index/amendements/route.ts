@@ -1,8 +1,8 @@
 // src/app/api/search-index/amendements/route.ts
 // Endpoint statique de l'index des amendements de la page Textes (LOI-83) : les
-// métadonnées de chaque amendement adopté (page `/Amendements/[uid]`) et de chaque
-// scrutin public sur un amendement rattaché à son dossier (page `/Scrutins/[uid]`), la
-// plupart rejetés. Chargé par `lib/search/amendement-index.ts` à la première requête
+// métadonnées de chaque amendement adopté ou rejeté par scrutin public (page
+// `/Amendements/[uid]`) et de chaque scrutin public sur un amendement rattaché à son
+// dossier que la table n'a pas (ligne vers la page officielle du scrutin). Chargé par `lib/search/amendement-index.ts` à la première requête
 // tapée, jamais avant. Le dispositif et les résumés partent par
 // `/api/search-index/amendements/textes` ; seule leur version est ici.
 // Mêmes durées de cache que l'index des dossiers (D-263), et invalidée avec lui par

@@ -1,10 +1,11 @@
-// L'en-tête commun aux tiroirs d'un article, d'un amendement et d'un vote, et à la page d'un
-// amendement : le nom de l'élément, puis des lignes étiquetées. Sans étiquette, on ne
-// comprenait pas à quoi correspondait chaque ligne. Un amendement porte deux états : il peut
-// être adopté alors que le texte qu'il modifie a ensuite été rejeté.
+// L'en-tête des tiroirs d'un article et d'un vote : le nom de l'élément, puis des lignes
+// étiquetées (`LignesEntete`). Sans étiquette, on ne comprenait pas à quoi correspondait
+// chaque ligne. Un amendement a le sien, `EnteteAmendement`, sur sa page et dans son tiroir :
+// son vote et s'il est dans le texte aujourd'hui d'abord, puis le texte (il peut être adopté
+// alors que le texte qu'il modifie a ensuite été rejeté).
 //
-// Pas de `'use client'` : `articleEnEntier` et `LignesEntete` servent aussi à la page d'un
-// amendement, rendue côté serveur.
+// Pas de `'use client'` : `articleEnEntier` et `EnteteAmendement` servent aussi à la page
+// d'un amendement, rendue côté serveur.
 
 import { Fragment, type CSSProperties, type ReactNode } from 'react';
 import { Check, Clock, X } from 'lucide-react';

@@ -1,5 +1,5 @@
 // src/app/api/search-index/amendements/textes/route.ts
-// Endpoint statique du texte cherchable des amendements adoptés : dispositif et résumés
+// Endpoint statique du texte cherchable des amendements, adoptés ou rejetés par scrutin : dispositif et résumés
 // de l'IA, au format texte de `lib/search/amendement-format.ts` (lu par
 // `lib/search/amendement-textes.ts`). Chargé par le client après les métadonnées
 // (`/api/search-index/amendements`), et seulement si sa copie IndexedDB n'a pas la

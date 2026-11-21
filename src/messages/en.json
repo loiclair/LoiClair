@@ -5273,6 +5273,7 @@
     "voteAdopteCommission": "Adopted in committee, {chambre, select, SN {Senate} other {National Assembly}}",
     "voteRejete": "Rejected by {chambre, select, SN {the Senate} other {the National Assembly}}",
     "voteDecompte": "{pour, number} for, {contre, number} against{abstentions, plural, =0 {} one {, # abstention} other {, # abstentions}}",
-    "reponseTitre": "{cas, select, texte_rejete {No longer in the text} rejete_scrutin {In no text} pas_encore {Not yet in a passed text} sans_vote {Not settled} oui {In the passed text} oui_navette {In the text passed at that stage} other {In the passed text, before the law}}"
+    "reponseTitre": "{cas, select, texte_rejete {No longer in the text} rejete_scrutin {In no text} pas_encore {Not yet in a passed text} sans_vote {Not settled} oui {In the passed text} oui_navette {In the text passed at that stage} other {In the passed text, before the law}}",
+    "voteSeanceRejete": "No public ballot linked: the vote that rejected it could not be matched."
   }
 }
