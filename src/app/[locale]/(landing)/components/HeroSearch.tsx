@@ -188,11 +188,11 @@ export function HeroSearch({ sujets }: { sujets: SujetHero[] }) {
             transition: "border-color 150ms",
           }}
         />
-        {/* Champ vide et sans focus : l'invitation « Chercher un texte de loi… » puis un
-          exemple qui s'écrit seul. L'invitation dit ce que fait la barre ; sans elle,
-          l'exemple se lirait comme un texte déjà saisi. Elle est masquée sous `sm`, où
-          elle ne laisserait presque plus de place à l'exemple. Alignement à gauche
-          explicite : centré, le texte se recentrerait à chaque caractère. */}
+        {/* Champ vide et sans focus : un exemple qui s'écrit seul, rien d'autre. Alex a
+          retiré l'invitation « Chercher un texte de loi… » qui le précédait (retour sur
+          l'essai du 2026-11-22) ; la loupe et le bouton disent ce que fait la barre, et
+          son libellé reste lu par les lecteurs d'écran (`aria-label`). Alignement à
+          gauche explicite : centré, le texte se recentrerait à chaque caractère. */}
         {!valeur && !focus && (
           <span
             aria-hidden
@@ -207,7 +207,6 @@ export function HeroSearch({ sujets }: { sujets: SujetHero[] }) {
               overflow: "hidden",
             }}
           >
-            <span className="max-sm:hidden text-muted-foreground">{t("searchLabel")}… </span>
             <span className="font-medium text-foreground">{displayed}</span>
             <span
               className="inline-block w-[2px] h-[1em] bg-primary align-text-bottom ml-px"

@@ -9,7 +9,7 @@ import { Link } from "@/i18n/navigation"
  * la carte blanche posée dessus, la ligne grise qui figure du texte, le badge IA, et la
  * mise en page des six sections numérotées (sur-titre, texte d'un côté, maquette de
  * l'autre). Utilisées par `PourVousSection`, `LoiEnClair`, `SectionsBenefices`,
- * `Confiance`, `ActualiteLois`, `FaqAccueil` et `SectionsBand`.
+ * `LettreSection`, `ActualiteLois` et `FaqAccueil`.
  *
  * Les maquettes ne montrent jamais de texte ou de chiffre inventé qui se lirait comme
  * un fait : du texte, elles ne gardent que des lignes grises, et les seuls nombres
@@ -78,8 +78,24 @@ export function Ligne({
 }
 
 /**
+ * Bande pleine largeur derrière une section de l'accueil, pour que les sections se
+ * démarquent par leur fond, en alternance (choix d'Alex du 2026-11-22, sur le modèle de
+ * munderdiffl.in) : `beige`, ou `sombre`, qui pose la classe `dark` pour que tout ce
+ * qu'elle contient, maquettes comprises, prenne les couleurs du thème sombre. Sans bande,
+ * une section reste sur le fond crème texturé de `.landing-page`. Couleurs dans
+ * `globals.css` (`.landing-bande-*`).
+ */
+export function Bande({ ton, children }: { ton: "beige" | "sombre"; children: ReactNode }) {
+  return <div className={ton === "sombre" ? "landing-bande-sombre dark" : "landing-bande-beige"}>{children}</div>
+}
+
+/** Marge haute et basse d'une section de l'accueil : beaucoup d'air entre deux bandes. */
+export const MARGE_SECTION = "clamp(5rem, 10vw, 9.5rem)"
+
+/**
  * Sur-titre d'une section : son numéro en gris, puis son nom en petites capitales de la
- * couleur primaire (« 01 Pour vous »). Lu par `SectionIllustree` et par `Confiance`.
+ * couleur primaire (« 01 Pour vous »). Lu par `SectionIllustree`, `LettreSection` et
+ * `FaqAccueil`.
  */
 export function SurTitre({ numero, libelle }: { numero: number; libelle: string }) {
   return (
@@ -115,7 +131,7 @@ export function SectionIllustree({
   inverse?: boolean
 }) {
   return (
-    <section className="max-w-[90rem] mx-auto px-10 lg:px-20" style={{ paddingBlock: "clamp(3rem, 6vw, 5rem)" }}>
+    <section className="max-w-[90rem] mx-auto px-10 lg:px-20" style={{ paddingBlock: MARGE_SECTION }}>
       <div
         className="grid grid-cols-1 lg:grid-cols-2 lg:items-center"
         style={{ gap: "2.5rem clamp(2.5rem, 5vw, 5rem)" }}

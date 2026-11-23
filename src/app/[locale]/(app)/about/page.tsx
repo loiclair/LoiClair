@@ -9,7 +9,6 @@ import { Link } from "@/i18n/navigation"
 import Image from "next/image"
 import NewsletterForm from "@/components/NewsletterForm"
 import { ShareIconLinkedIn } from "@/components/ShareIcons"
-import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
 import type { Metadata } from "next"
 import { buildAlternates, buildOpenGraph } from "@/lib/og-metadata"
 import { FONDATEURS } from "@/lib/association"
@@ -120,12 +119,6 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
       </div>
     )
   }
-
-  const stack = ["Next.js", "PostgreSQL", "Coolify", "Python", "GitHub Actions", "GPT-6 Luna (OpenAI, via Mammouth)", "Claude Haiku 5.5 (Anthropic)", "Claude Code"]
-
-  // `q8` (ce qui quitte l'appareil) suit `q6` (les cookies) : les questions sur les
-  // données du lecteur se lisent d'affilée.
-  const faqKeys = ["how", "built", "q2", "q3", "q4", "q5", "q6", "q8", "q7"] as const
 
   return (
     <div style={{ width: "100vw", marginLeft: "calc(50% - 50vw)", marginBottom: "-8rem" }}>
@@ -285,98 +278,9 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
         </div>
       </section>
 
-      {/* 5. FAQ */}
-      <section className="bg-cream py-20 md:py-24">
-        <div className="container mx-auto max-w-[1120px] px-6">
-          <h2 className="text-[28px] md:text-4xl font-bold tracking-tight leading-[1.15] mb-4">
-            {t("faq.heading")}
-          </h2>
-          <p className="text-muted-foreground text-lg max-w-[60ch] mb-10">
-            {t("faq.sub")}
-          </p>
-          {/* Questions repliées par défaut. Sans `forceMount`, Radix ne monte pas
-              le contenu d'une question fermée, et les réponses manquaient au HTML
-              que lisent les moteurs de recherche (constaté au `curl`). Montées de
-              force, Radix ne les masque pas : la classe `[[data-state=closed]>&]:hidden`
-              cache le contenu tant que son parent `AccordionContent` est fermé. */}
-          <Accordion type="multiple" className="max-w-[780px]">
-            {faqKeys.map((k) => (
-              <AccordionItem key={k} value={k} className="border-t border-b-0 last:border-b border-foreground/15">
-                <AccordionTrigger className="py-6 text-[19px] font-bold hover:no-underline">
-                  {t(`faq.${k}.q`)}
-                </AccordionTrigger>
-                <AccordionContent forceMount className="pb-7 [[data-state=closed]>&]:hidden">
-                  <p className="text-base text-muted-foreground">
-                    {k === "q7"
-                      ? t.rich("faq.q7.a", {
-                          prompts: (chunks) => (
-                            <Link href="/documentation/choix-modele-ia" className="underline hover:text-foreground">
-                              {chunks}
-                            </Link>
-                          ),
-                        })
-                      : t(`faq.${k}.a`)}
-                  </p>
-                  {/* Deux listes plutôt qu'un paragraphe : le lecteur cherche d'un coup
-                    d'œil si une donnée précise part ou reste. Chaque ligne décrit le
-                    code tel qu'il est ; un envoi ajouté au site doit s'y ajouter. */}
-                  {k === "q8" ? (
-                    <div className="mt-4 space-y-4 text-base text-muted-foreground">
-                      {(["reste", "part"] as const).map((liste) => (
-                        <div key={liste}>
-                          <p className="font-semibold text-foreground">{t(`faq.q8.${liste}Titre`)}</p>
-                          <ul className="mt-2 list-disc space-y-1.5 pl-5">
-                            {(t.raw(`faq.q8.${liste}`) as string[]).map((ligne) => (
-                              <li key={ligne}>{ligne}</li>
-                            ))}
-                          </ul>
-                        </div>
-                      ))}
-                      <p>
-                        {t.rich("faq.q8.fin", {
-                          confidentialite: (chunks) => (
-                            <Link href="/confidentialite" className="underline hover:text-foreground">
-                              {chunks}
-                            </Link>
-                          ),
-                        })}
-                      </p>
-                    </div>
-                  ) : null}
-                  {k === "how" ? (
-                    <ol className="mt-5 space-y-4">
-                      {(t.raw("faq.how.steps") as { title: string; desc: string }[]).map((step, idx) => (
-                        <li key={idx} className="flex gap-3.5">
-                          <span className="shrink-0 mt-0.5 w-6 h-6 rounded-full bg-primary text-primary-foreground text-[13px] font-bold flex items-center justify-center">
-                            {idx + 1}
-                          </span>
-                          <p className="text-base text-muted-foreground">
-                            <span className="font-semibold text-foreground">{step.title}</span> — {step.desc}
-                          </p>
-                        </li>
-                      ))}
-                    </ol>
-                  ) : null}
-                  {k === "built" ? (
-                    <div className="flex flex-wrap gap-2 mt-4">
-                      {stack.map((chip) => (
-                        <span
-                          key={chip}
-                          className="text-xs px-2.5 py-1 rounded-full bg-background border border-border text-muted-foreground"
-                        >
-                          {chip}
-                        </span>
-                      ))}
-                    </div>
-                  ) : null}
-                </AccordionContent>
-              </AccordionItem>
-            ))}
-          </Accordion>
-        </div>
-      </section>
-
-      {/* 6. NEWSLETTER CTA */}
+      {/* La FAQ de cette page est passée sur l'accueil (`(landing)/components/FaqAccueil.tsx`),
+        seule FAQ du site depuis LOI-91. */}
+      {/* 5. NEWSLETTER CTA */}
       <section className="bg-cream-deep py-20 md:py-24">
         <div className="container mx-auto max-w-[1120px] px-6">
           <div className="grid grid-cols-1 md:grid-cols-[1.1fr_1fr] gap-8 md:gap-14 items-center">
@@ -395,7 +299,7 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
         </div>
       </section>
 
-      {/* 7. CLOSING — image + card */}
+      {/* 6. CLOSING — image + card */}
       <section className="relative min-h-[640px] flex items-center justify-center py-20 px-6">
         <Image
           src="https://images.unsplash.com/photo-1604595818635-a840f9028d56?w=2000&q=80"

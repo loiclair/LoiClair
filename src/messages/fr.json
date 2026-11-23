@@ -194,90 +194,6 @@
       "heading": "La politique française est complexe. Nos analyses n'ont pas à l'être.",
       "desc": "Abonnez-vous à la newsletter hebdo pour recevoir les lois de la semaine, résumées en clair."
     },
-    "faq": {
-      "heading": "Les questions qu'on nous pose",
-      "sub": "Comment ça marche, qui finance, vos données — réponses directes.",
-      "how": {
-        "q": "Comment ça marche ?",
-        "a": "De la donnée brute à une information claire et vérifiable, en sept étapes :",
-        "steps": [
-          {
-            "title": "On part des données officielles",
-            "desc": "Ce que publient l'Assemblée, le Sénat, le Gouvernement et Légifrance."
-          },
-          {
-            "title": "On recoupe les sources",
-            "desc": "On les rapproche pour reconstituer le contexte complet d'un texte et de l'activité des parlementaires, contre la fragmentation qui rend tout illisible."
-          },
-          {
-            "title": "On pousse l'analyse",
-            "desc": "Chiffres et tendances de fond : qui vote quoi, où en est une loi, ce qui s'applique vraiment."
-          },
-          {
-            "title": "On construit notre base",
-            "desc": "Tout est consolidé dans le socle de données de LoiClair."
-          },
-          {
-            "title": "On publie les faits, sans parti pris",
-            "desc": "Des réponses aux grandes questions citoyennes, jamais de commentaire éditorial, toujours avec les liens directs vers les textes officiels pour tout vérifier."
-          },
-          {
-            "title": "On ajoute une couche d'IA, à la demande",
-            "desc": "Pour traduire textes et débats en langage courant ; les sources d'origine restent toujours liées."
-          },
-          {
-            "title": "Transparence totale sur l'IA",
-            "desc": "Réglages de génération publiés, contenu IA toujours signalé."
-          }
-        ]
-      },
-      "built": {
-        "q": "Qui fait LoiClair, et avec quels moyens ?",
-        "a": "Une association loi 1901 fondée par quatre citoyens bénévoles : pas de salarié, pas d'entreprise, pas de sponsor ni de subvention publique. Ses frais sont aujourd'hui couverts par les dons de ses fondateurs. Côté technique, le site repose sur des briques modernes et éprouvées, choisies pour rester rapides, fiables et économiques à faire tourner :"
-      },
-      "q2": {
-        "q": "Est-ce que LoiClair défend un camp politique ?",
-        "a": "Non. Les chiffres et les résumés sont produits à partir des données officielles des institutions, sans interprétation partisane. L'unique parti pris est que ces données doivent être accessibles à tout le monde."
-      },
-      "q3": {
-        "q": "Est-ce que LoiClair est gratuit ?",
-        "a": "Oui, et le restera. Aucune donnée n'est vendue, aucun contenu n'est verrouillé derrière un paywall."
-      },
-      "q4": {
-        "q": "Y a-t-il de la publicité sur le site ?",
-        "a": "Aucune. Pas de bannières, pas de retargeting, pas de cookies publicitaires."
-      },
-      "q5": {
-        "q": "Que deviennent mes données si je m'inscris à la newsletter ?",
-        "a": "Votre adresse e-mail est conservée dans notre base de données, hébergée par OVHcloud aux États-Unis, en attendant un serveur en Europe, et chez Resend, le service qui envoie la lettre, lui aussi aux États-Unis. Elle ne sert qu'à vous envoyer la newsletter. Vous pouvez vous désinscrire à tout moment, ou demander sa suppression à contact@loiclair.fr."
-      },
-      "q6": {
-        "q": "Est-ce que LoiClair utilise des cookies de tracking ?",
-        "a": "Non. Les seuls cookies, sans aucun suivi, retiennent votre choix de langue et servent à la vérification anti-robots des fiches. La fréquentation est mesurée sans cookie (pages consultées, pays, type d'appareil) pour savoir ce qui est lu : aucun profil n'est constitué, aucun suivi n'est fait d'un site à l'autre, et rien n'est recoupé avec votre e-mail si vous êtes abonné. Vos recherches, elles, restent locales à votre appareil."
-      },
-      "q7": {
-        "q": "Pourquoi GPT-6 Luna et Claude Haiku 5.5, et pas d'autres modèles d'IA ?",
-        "a": "Nous choisissons le modèle tâche par tâche, par des tests menés nous-mêmes sur de vrais textes, notés à l'aveugle par d'autres IA. Pour le résumé des lois, nous avons comparé huit modèles sur l'exactitude, la neutralité, la complétude, la clarté et la qualité des exemples : GPT-6 Luna (OpenAI, via Mammouth) écrit des résumés presque aussi fiables que les meilleurs, pour un prix au moins 20 fois plus bas. Il écrit aussi les résumés de débats et de décisions du Conseil constitutionnel, et la newsletter. Pour la fiche courte des dossiers et le classement de « Ce qui me concerne », un test propre à chaque tâche a retenu Claude Haiku 5.5, d'Anthropic, qui traduit aussi les titres des dossiers en anglais. LoiClair ne dépend d'aucun de ces modèles : ils peuvent être remplacés à tout moment. Méthode et résultats complets sur la page <prompts>Choix du modèle IA</prompts>."
-      },
-      "q8": {
-        "q": "Qu'est-ce qui quitte mon appareil ?",
-        "a": "Ce qui vous décrit reste dans votre navigateur. LoiClair envoie à tout le monde les mêmes données, et c'est votre appareil qui fait le tri.",
-        "resteTitre": "Reste sur votre appareil, LoiClair ne le reçoit jamais :",
-        "reste": [
-          "votre situation dans « Ce qui me concerne » ;",
-          "vos élus, et le code postal ou le pays qui a servi à les trouver ;",
-          "ce que vous tapez dans les recherches ;",
-          "vos réponses et vos scores aux quiz."
-        ],
-        "partTitre": "Quitte votre appareil :",
-        "part": [
-          "comme sur tout site, votre adresse IP et la page consultée, que voient nos hébergeurs ; la fréquentation est mesurée sans cookie ;",
-          "ce que vous nous envoyez vous-même : votre e-mail pour la newsletter, un signalement, une demande d'adhésion, votre avis sur le site ;",
-          "votre adresse IP, vue par les sites d'où viennent certaines images : votre navigateur télécharge les photos des élus directement chez l'Assemblée nationale et le Sénat, et les petits logos des journaux cités chez Google."
-        ],
-        "fin": "Le détail, prestataire par prestataire, est sur la page <confidentialite>Confidentialité</confidentialite>."
-      }
-    },
     "sources": {
       "heading": "Nos sources",
       "sub": "Les données de LoiClair viennent de ces institutions, pour la plupart mises à jour automatiquement. Quelques compléments viennent de sources tierces, listées plus bas.",
@@ -507,20 +423,12 @@
     "regles": {
       "calculTitre": "Aucun chiffre n'est généré par une IA.",
       "calculTexte": "Une formule publiée les recalcule chaque jour, depuis les données officielles.",
-      "sourceTitre": "Chaque chiffre montre sa source et sa méthode.",
-      "sourceTexte": "Périmètre, calcul et limites, sur la page qui le publie.",
-      "correctionsTitre": "Chaque erreur corrigée est publiée.",
-      "correctionsTexte": "Dans le journal des corrections, avec sa date et ce qui a changé.",
       "iaTitre": "Tout texte généré par une IA est signalé.",
       "iaTexte": "Et accompagné du texte officiel qu'il résume."
     },
     "nEstPas": {
-      "titre": "Ce que LoiClair n'est pas.",
-      "opinionTitre": "Un média d'opinion.",
       "opinionTexte": "On traduit sans éditorialiser : aucun commentaire de l'actualité, aucune consigne de vote.",
-      "officielTitre": "Un site officiel.",
       "officielTexte": "Pour toute portée juridique, les textes publiés par les institutions font foi.",
-      "jugementTitre": "Un jugement sur les personnes.",
       "jugementTexte": "Nos indicateurs décrivent une activité publique, pas la valeur d'un élu."
     },
     "s5SourcesDetail": "Le détail de chaque source",
@@ -536,28 +444,12 @@
       "methode": "Méthode",
       "limites": "Limites",
       "texteOfficiel": "Texte officiel",
-      "surLoiClair": "LoiClair",
       "article1": "Article 1er",
-      "page": "Page {n} / {total}",
-      "articleN": "Article {n}",
       "resultat": "Le résultat",
       "dissidents": "Ont voté contre leur groupe",
       "votreDepute": "Votre député",
       "derniersVotes": "Ses derniers votes",
       "ecrireDepute": "Écrire à mon député"
-    },
-    "aussi": {
-      "titre": "Aussi sur LoiClair",
-      "sousTitre": "Le reste du site, pour suivre le Parlement au-delà d'une seule loi.",
-      "actualite": "Les textes déposés, votés, promulgués et appliqués, jour après jour, dans un fil que l'on peut filtrer.",
-      "quiz": "Situez vos idées face aux votes des groupes, ou testez ce que vous savez du parcours d'une loi.",
-      "processus": "Comment un texte devient une loi, de son dépôt à son application, expliqué étape par étape.",
-      "iaTitre": "Avec votre IA",
-      "ia": "Sous chaque résumé, posez votre question sur le texte à l'IA de votre choix, déjà écrite. Ou branchez votre assistant sur LoiClair.",
-      "langueTitre": "En français et en anglais",
-      "langue": "Tout le site se lit aussi en anglais : les lois françaises et le travail du Parlement s'ouvrent à un public du monde entier. Quelques contenus officiels restent en français, tels que publiés.",
-      "newsletter": "Chaque lundi, l'essentiel de la semaine parlementaire par e-mail : clair, gratuit et non partisan.",
-      "newsletterTitre": "Newsletter hebdomadaire"
     },
     "pourVous": {
       "titre": "Ce que les lois changent pour vous",
@@ -572,10 +464,6 @@
     "actualiteLois": {
       "titre": "Les lois dans l'actualité",
       "sousTitre": "Les textes qui ont franchi le plus d'étapes au Parlement ces {jours} derniers jours : dépôt, vote, promulgation…",
-      "lien": "Tous les textes",
-      "articles": "{n, plural, one {# article de presse} other {# articles de presse}}",
-      "pourquoi": "Pourquoi ici : {n, plural, one {# étape} other {# étapes}} en {jours} jours",
-      "autresEtapes": "{n, plural, one {et # autre} other {et # autres}}",
       "etapeDepot": "Dépôt · {lecture}",
       "etapeVote": "Vote · {lecture}",
       "etapeCC": "Décision du Conseil constitutionnel",
@@ -584,7 +472,11 @@
       "chambreAN": "Assemblée",
       "chambreSenat": "Sénat",
       "precedent": "Textes précédents",
-      "suivant": "Textes suivants"
+      "suivant": "Textes suivants",
+      "dernierEvenement": "Dernier événement",
+      "point": "Afficher à partir du texte {n}",
+      "arreter": "Arrêter le défilement",
+      "reprendre": "Reprendre le défilement"
     },
     "debats": {
       "surTitre": "Les débats",
@@ -600,7 +492,7 @@
     },
     "chiffres": {
       "surTitre": "Les chiffres",
-      "titre": "Les chiffres du Parlement, expliqués",
+      "titre": "L'activité du Parlement, expliquée en chiffres",
       "texte": "Un tableau de bord simple : onze mesures de la législature, recalculées chaque jour. Et pour aller plus loin, les faits en détail : qui écrit les lois qui passent, combien d'amendements sont adoptés, nos élus votent-ils… Chaque analyse dit sa source, sa méthode et ses limites. Aucun chiffre n'est calculé par une IA.",
       "lien": "Voir l'état des lieux",
       "lien2": "Explorer les faits"
@@ -612,12 +504,6 @@
       "garde": "Vos élus restent sur votre appareil, comme votre situation.",
       "lien": "Trouver mes élus"
     },
-    "confiance": {
-      "surTitre": "Confiance",
-      "titre": "Pourquoi nous faire confiance",
-      "sousTitre": "Des règles que LoiClair s'impose sur chaque résumé et chaque chiffre. Chacune se vérifie sur le site.",
-      "lien": "Notre méthode"
-    },
     "faq": {
       "titre": "Questions fréquentes",
       "sousTitre": "Une autre question ? Écrivez-nous à <mail>contact@loiclair.fr</mail>.",
@@ -626,12 +512,6 @@
       "catMethode": "La méthode",
       "catNeutralite": "Neutralité",
       "catDonnees": "Vos données",
-      "gratuitQ": "LoiClair est-il gratuit ?",
-      "gratuitA": "Oui, et il le restera. Tout se lit sans compte ; aucune donnée n'est vendue, aucun contenu n'est payant.",
-      "quiQ": "Qui fait LoiClair, et avec quels moyens ?",
-      "quiA": "Une association loi 1901 fondée par quatre citoyens bénévoles : pas de salarié, pas d'entreprise, pas de sponsor ni de subvention publique. Ses frais sont couverts par les dons de ses fondateurs.",
-      "pubQ": "Y a-t-il de la publicité ?",
-      "pubA": "Aucune : pas de bannière, pas de cookie publicitaire, pas de reciblage.",
       "soutenirQ": "Comment soutenir LoiClair ?",
       "soutenirA": "En devenant membre de l'association, gratuitement, ou en parlant du site autour de vous. La page <lien>Soutenir LoiClair</lien> dit aussi les financements que nous refusons.",
       "sourcesQ": "D'où viennent les informations ?",
@@ -640,26 +520,106 @@
       "iaErreurQ": "L'IA peut-elle se tromper ?",
       "iaErreurA": "Oui. C'est pourquoi chaque résumé est signalé comme écrit par une IA et indique le texte officiel qu'il résume, qui seul fait foi. Chaque erreur corrigée est publiée, avec sa date.",
       "chiffresQ": "Comment LoiClair arrive-t-il à ses chiffres ?",
-      "modelesQ": "Pourquoi ces modèles d'IA, et pas d'autres ?",
-      "modelesA": "Nous choisissons le modèle tâche par tâche, par des tests menés sur de vrais textes et notés à l'aveugle. Le résultat est <lien>publié</lien>.",
-      "campQ": "LoiClair défend-il un camp politique ?",
-      "campA": "Non. Les résumés et les chiffres sont produits à partir des données officielles, sans interprétation partisane. Aucun commentaire de l'actualité, aucune consigne de vote.",
       "officielQ": "LoiClair est-il un site officiel ?",
       "jugementQ": "LoiClair juge-t-il les élus ?",
       "erreurQ": "J'ai trouvé une erreur : comment la signaler ?",
       "erreurA": "Par le lien « Une idée ? Un problème ? », en bas de chaque page, ou à contact@loiclair.fr. Chaque correction entre au <lien>journal des corrections</lien>, avec sa date et ce qui a changé.",
-      "situationQ": "Que devient ce que je coche dans « Ma situation » ?",
-      "situationA": "Il reste dans votre navigateur. LoiClair envoie à tout le monde les mêmes données, et c'est votre appareil qui fait le tri.",
       "ecrireQ": "Quand j'écris à un élu, LoiClair voit-il mon message ?",
       "ecrireA": "Non. Le bouton ouvre votre propre messagerie, adresse de l'élu remplie : le message part de chez vous.",
-      "cookiesQ": "LoiClair me suit-il avec des cookies ?",
-      "cookiesA": "Non. Les seuls cookies retiennent votre langue et servent à la vérification anti-robots. La fréquentation est mesurée sans cookie, sans profil ni suivi d'un site à l'autre.",
-      "emailQ": "Que devient mon e-mail si je m'abonne à la lettre ?",
-      "emailA": "Il ne sert qu'à vous l'envoyer. Vous pouvez vous désabonner à tout moment, ou demander sa suppression à contact@loiclair.fr."
+      "oui": "Oui.",
+      "methodeLien": "Notre méthode",
+      "iaSignaleeQ": "Les textes écrits par une IA sont-ils signalés ?",
+      "calculQ": "Les chiffres sont-ils calculés par une IA ?",
+      "surTitre": "Vos questions",
+      "fonctionnement": {
+        "q": "Comment ça marche ?",
+        "a": "De la donnée brute à une information claire et vérifiable, en sept étapes :",
+        "steps": [
+          {
+            "title": "On part des données officielles",
+            "desc": "Ce que publient l'Assemblée, le Sénat, le Gouvernement et Légifrance."
+          },
+          {
+            "title": "On recoupe les sources",
+            "desc": "On les rapproche pour reconstituer le contexte complet d'un texte et de l'activité des parlementaires, contre la fragmentation qui rend tout illisible."
+          },
+          {
+            "title": "On pousse l'analyse",
+            "desc": "Chiffres et tendances de fond : qui vote quoi, où en est une loi, ce qui s'applique vraiment."
+          },
+          {
+            "title": "On construit notre base",
+            "desc": "Tout est consolidé dans le socle de données de LoiClair."
+          },
+          {
+            "title": "On publie les faits, sans parti pris",
+            "desc": "Des réponses aux grandes questions citoyennes, jamais de commentaire éditorial, toujours avec les liens directs vers les textes officiels pour tout vérifier."
+          },
+          {
+            "title": "On ajoute une couche d'IA, à la demande",
+            "desc": "Pour traduire textes et débats en langage courant ; les sources d'origine restent toujours liées."
+          },
+          {
+            "title": "Transparence totale sur l'IA",
+            "desc": "Réglages de génération publiés, contenu IA toujours signalé."
+          }
+        ]
+      },
+      "equipe": {
+        "q": "Qui fait LoiClair, et avec quels moyens ?",
+        "a": "Une association loi 1901 fondée par quatre citoyens bénévoles : pas de salarié, pas d'entreprise, pas de sponsor ni de subvention publique. Ses frais sont aujourd'hui couverts par les dons de ses fondateurs. Côté technique, le site repose sur des briques modernes et éprouvées, choisies pour rester rapides, fiables et économiques à faire tourner :"
+      },
+      "campPolitique": {
+        "q": "Est-ce que LoiClair défend un camp politique ?",
+        "a": "Non. Les chiffres et les résumés sont produits à partir des données officielles des institutions, sans interprétation partisane. L'unique parti pris est que ces données doivent être accessibles à tout le monde."
+      },
+      "gratuite": {
+        "q": "Est-ce que LoiClair est gratuit ?",
+        "a": "Oui, et le restera. Aucune donnée n'est vendue, aucun contenu n'est verrouillé derrière un paywall."
+      },
+      "publicite": {
+        "q": "Y a-t-il de la publicité sur le site ?",
+        "a": "Aucune. Pas de bannières, pas de retargeting, pas de cookies publicitaires."
+      },
+      "newsletter": {
+        "q": "Que deviennent mes données si je m'inscris à la newsletter ?",
+        "a": "Votre adresse e-mail est conservée dans notre base de données, hébergée par OVHcloud aux États-Unis, en attendant un serveur en Europe, et chez Resend, le service qui envoie la lettre, lui aussi aux États-Unis. Elle ne sert qu'à vous envoyer la newsletter. Vous pouvez vous désinscrire à tout moment, ou demander sa suppression à contact@loiclair.fr."
+      },
+      "cookies": {
+        "q": "Est-ce que LoiClair utilise des cookies de tracking ?",
+        "a": "Non. Les seuls cookies, sans aucun suivi, retiennent votre choix de langue et servent à la vérification anti-robots des fiches. La fréquentation est mesurée sans cookie (pages consultées, pays, type d'appareil) pour savoir ce qui est lu : aucun profil n'est constitué, aucun suivi n'est fait d'un site à l'autre, et rien n'est recoupé avec votre e-mail si vous êtes abonné. Vos recherches, elles, restent locales à votre appareil."
+      },
+      "modelesIa": {
+        "q": "Pourquoi GPT-6 Luna et Claude Haiku 5.5, et pas d'autres modèles d'IA ?",
+        "a": "Nous choisissons le modèle tâche par tâche, par des tests menés nous-mêmes sur de vrais textes, notés à l'aveugle par d'autres IA. Pour le résumé des lois, nous avons comparé huit modèles sur l'exactitude, la neutralité, la complétude, la clarté et la qualité des exemples : GPT-6 Luna (OpenAI, via Mammouth) écrit des résumés presque aussi fiables que les meilleurs, pour un prix au moins 20 fois plus bas. Il écrit aussi les résumés de débats et de décisions du Conseil constitutionnel, et la newsletter. Pour la fiche courte des dossiers et le classement de « Ce qui me concerne », un test propre à chaque tâche a retenu Claude Haiku 5.5, d'Anthropic, qui traduit aussi les titres des dossiers en anglais. LoiClair ne dépend d'aucun de ces modèles : ils peuvent être remplacés à tout moment. Méthode et résultats complets sur la page <prompts>Choix du modèle IA</prompts>."
+      },
+      "appareil": {
+        "q": "Qu'est-ce qui quitte mon appareil ?",
+        "a": "Ce qui vous décrit reste dans votre navigateur. LoiClair envoie à tout le monde les mêmes données, et c'est votre appareil qui fait le tri.",
+        "resteTitre": "Reste sur votre appareil, LoiClair ne le reçoit jamais :",
+        "reste": [
+          "votre situation dans « Ce qui me concerne » ;",
+          "vos élus, et le code postal ou le pays qui a servi à les trouver ;",
+          "ce que vous tapez dans les recherches ;",
+          "vos réponses et vos scores aux quiz."
+        ],
+        "partTitre": "Quitte votre appareil :",
+        "part": [
+          "comme sur tout site, votre adresse IP et la page consultée, que voient nos hébergeurs ; la fréquentation est mesurée sans cookie ;",
+          "ce que vous nous envoyez vous-même : votre e-mail pour la newsletter, un signalement, une demande d'adhésion, votre avis sur le site ;",
+          "votre adresse IP, vue par les sites d'où viennent certaines images : votre navigateur télécharge les photos des élus directement chez l'Assemblée nationale et le Sénat, et les petits logos des journaux cités chez Google."
+        ],
+        "fin": "Le détail, prestataire par prestataire, est sur la page <confidentialite>Confidentialité</confidentialite>."
+      }
     },
     "bandeFinale": {
       "titre": "Une loi vous intrigue ? Lisez-la en deux minutes.",
       "sousTitre": "Gratuit, sans compte, depuis les sources officielles."
+    },
+    "lettre": {
+      "surTitre": "La lettre du lundi",
+      "titre": "La semaine au Parlement, dans votre boîte chaque lundi",
+      "texte": "L'essentiel de la semaine parlementaire par e-mail : clair, gratuit et non partisan."
     }
   },
   "dossiers": {

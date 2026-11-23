@@ -1,8 +1,8 @@
 // Le tableau des éléments de LoiClair : chaque grande rubrique du site devient un
 // « élément », avec son numéro, son symbole et sa couleur, comme dans un tableau
-// périodique dont le logo est l'élément Lc. Lu par la section « Aussi sur LoiClair »
-// de l'accueil, l'en-tête des rubriques (`usePageHero`, qui porte aussi celui de la
-// newsletter) et le panneau du menu mobile ; dessiné par `components/ui/Element`.
+// périodique dont le logo est l'élément Lc. Lu par l'en-tête des rubriques
+// (`usePageHero`, qui porte aussi celui de la newsletter) et le panneau du menu
+// mobile ; dessiné par `components/ui/Element`.
 //
 // Les noms ne sont pas ici : ils vivent dans le namespace `elements` des messages
 // (`noms.<cle>`), envoyé au navigateur sur toutes les pages (`NAMESPACES_SOCLE`).

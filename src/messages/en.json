@@ -194,90 +194,6 @@
       "heading": "French politics is complex. Our analyses don't have to be.",
       "desc": "Subscribe to the weekly newsletter, in French, to get this week's laws, summarised clearly."
     },
-    "faq": {
-      "heading": "The questions we get asked",
-      "sub": "How it works, who funds it, your data — direct answers.",
-      "how": {
-        "q": "How does it actually work?",
-        "a": "From raw data to clear, verifiable information, in seven steps:",
-        "steps": [
-          {
-            "title": "We start from official data",
-            "desc": "What the Assemblée, the Senate, the Government and Légifrance publish."
-          },
-          {
-            "title": "We cross-check the sources",
-            "desc": "We bring them together to reconstruct the full context of a text and of the activity of MPs and senators, against the fragmentation that makes everything unreadable."
-          },
-          {
-            "title": "We dig into the analysis",
-            "desc": "Deeper figures and trends: who votes for what, where a law stands, what actually applies."
-          },
-          {
-            "title": "We build our database",
-            "desc": "Everything is consolidated into the data foundation of LoiClair."
-          },
-          {
-            "title": "We publish the facts, no spin",
-            "desc": "Answers to the big citizen questions, never editorial commentary, always with direct links to the official texts so you can check."
-          },
-          {
-            "title": "We add a layer of AI, on demand",
-            "desc": "To translate texts and debates into plain language; the original sources always stay linked."
-          },
-          {
-            "title": "Full transparency on AI",
-            "desc": "Generation settings published, AI content always flagged."
-          }
-        ]
-      },
-      "built": {
-        "q": "Who makes LoiClair, and with what means?",
-        "a": "A non-profit association under the French law of 1901, founded by four volunteer citizens: no employees, no company, no sponsor or public subsidy. Its costs are currently covered by donations from its founders. On the technical side, the site runs on modern, proven building blocks, chosen to stay fast, reliable and cheap to run:"
-      },
-      "q2": {
-        "q": "Does LoiClair back a political side?",
-        "a": "No. Figures and summaries are produced from official institutional data, without partisan interpretation. The only bias is that this data should be accessible to everyone."
-      },
-      "q3": {
-        "q": "Is LoiClair free?",
-        "a": "Yes, and it will stay that way. No data is sold, no content is locked behind a paywall."
-      },
-      "q4": {
-        "q": "Is there advertising on the site?",
-        "a": "None. No banners, no retargeting, no advertising cookies."
-      },
-      "q5": {
-        "q": "What happens to my data if I subscribe to the newsletter?",
-        "a": "Your email address is kept in our database, hosted by OVHcloud in the United States until a server in Europe becomes available, and by Resend, the service that sends the newsletter, also in the United States. It is used only to send you the newsletter. You can unsubscribe at any time, or ask for it to be deleted at contact@loiclair.fr."
-      },
-      "q6": {
-        "q": "Does LoiClair use tracking cookies?",
-        "a": "No. The only cookies, none used for tracking, remember your language choice and serve the anti-bot check on the detail pages. Traffic is measured without cookies (pages viewed, country, device type) so we know what gets read: no profiles are built, there is no tracking across sites, and nothing is matched against your email if you are a subscriber. Your searches stay local to your device."
-      },
-      "q7": {
-        "q": "Why GPT-6 Luna and Claude Haiku 5.5, and not other AI models?",
-        "a": "We choose the model task by task, through tests we run ourselves on real texts, graded blind by other AIs. For law summaries, we compared eight models on accuracy, neutrality, completeness, clarity and quality of examples: GPT-6 Luna (OpenAI, through Mammouth) writes summaries almost as reliable as the best ones, for a price at least 20 times lower. It also writes the summaries of debates and Constitutional Council decisions, and the newsletter. For the short dossier card and the sorting behind “What affects me”, a test specific to each task chose Anthropic's Claude Haiku 5.5, which also translates dossier titles into English. LoiClair does not depend on any of these models: they can be replaced at any time. Full method and results on the <prompts>AI model choice</prompts> page."
-      },
-      "q8": {
-        "q": "What leaves my device?",
-        "a": "What describes you stays in your browser. LoiClair sends everyone the same data, and your device does the sorting.",
-        "resteTitre": "Stays on your device, LoiClair never receives it:",
-        "reste": [
-          "your situation in “What affects me”;",
-          "your elected officials, and the postcode or country used to find them;",
-          "what you type in searches;",
-          "your quiz answers and scores."
-        ],
-        "partTitre": "Leaves your device:",
-        "part": [
-          "as on any website, your IP address and the page you view, seen by our hosting providers; traffic is measured without cookies;",
-          "what you send us yourself: your email for the newsletter, a report, a membership request, your opinion of the site;",
-          "your IP address, seen by the sites some images come from: your browser downloads officials' photos directly from the National Assembly and the Senate, and the small logos of cited news outlets from Google."
-        ],
-        "fin": "The details, provider by provider, are on the <confidentialite>Privacy</confidentialite> page."
-      }
-    },
     "sources": {
       "heading": "Our sources",
       "sub": "LoiClair's data comes from these institutions, most of it updated automatically. A few additions come from third-party sources, listed below.",
@@ -502,20 +418,12 @@
     "regles": {
       "calculTitre": "No figure is generated by an AI.",
       "calculTexte": "A published formula recalculates them every day, from official data.",
-      "sourceTitre": "Every figure shows its source and method.",
-      "sourceTexte": "Scope, calculation and limits, on the page that publishes it.",
-      "correctionsTitre": "Every corrected error is published.",
-      "correctionsTexte": "In the corrections log, with its date and what changed.",
       "iaTitre": "Any text generated by an AI is flagged.",
       "iaTexte": "And shown with the official text it summarises."
     },
     "nEstPas": {
-      "titre": "What LoiClair is not.",
-      "opinionTitre": "An opinion outlet.",
       "opinionTexte": "We translate without editorializing: no commentary on the news, no voting advice.",
-      "officielTitre": "An official site.",
       "officielTexte": "For any legal purpose, the texts published by the institutions are authoritative.",
-      "jugementTitre": "A judgment of individuals.",
       "jugementTexte": "Our indicators describe public activity, not the worth of a representative."
     },
     "s5SourcesDetail": "Details of each source",
@@ -531,28 +439,12 @@
       "methode": "Method",
       "limites": "Limits",
       "texteOfficiel": "Official text",
-      "surLoiClair": "LoiClair",
       "article1": "Article 1",
-      "page": "Page {n} / {total}",
-      "articleN": "Article {n}",
       "resultat": "The result",
       "dissidents": "Voted against their group",
       "votreDepute": "Your deputy",
       "derniersVotes": "Latest votes",
       "ecrireDepute": "Write to my deputy"
-    },
-    "aussi": {
-      "titre": "Also on LoiClair",
-      "sousTitre": "The rest of the site, to follow Parliament beyond a single law.",
-      "actualite": "Bills introduced, voted, enacted and applied, day after day, in a feed you can filter.",
-      "quiz": "See where your views stand against the groups' votes, or test what you know about how a law is made.",
-      "processus": "How a text becomes a law, from introduction to application, explained step by step.",
-      "iaTitre": "With your AI",
-      "ia": "Under each summary, ask the AI of your choice about the bill, with the question already written. Or connect your assistant to LoiClair.",
-      "langueTitre": "In French and English",
-      "langue": "The whole site reads in English, opening French laws and the work of Parliament to readers around the world. Some official content stays in French, as published.",
-      "newsletter": "Every Monday, the essentials of the parliamentary week by email, in French: clear, free and nonpartisan.",
-      "newsletterTitre": "Weekly newsletter"
     },
     "pourVous": {
       "titre": "What laws change for you",
@@ -567,10 +459,6 @@
     "actualiteLois": {
       "titre": "Laws in the news",
       "sousTitre": "The bills that cleared the most stages in Parliament over the past {jours} days: tabling, vote, enactment…",
-      "lien": "All bills",
-      "articles": "{n, plural, one {# press article} other {# press articles}}",
-      "pourquoi": "Why it's here: {n, plural, one {# stage} other {# stages}} in {jours} days",
-      "autresEtapes": "{n, plural, one {and # more} other {and # more}}",
       "etapeDepot": "Tabled · {lecture}",
       "etapeVote": "Vote · {lecture}",
       "etapeCC": "Constitutional Council ruling",
@@ -579,7 +467,11 @@
       "chambreAN": "Assembly",
       "chambreSenat": "Senate",
       "precedent": "Previous bills",
-      "suivant": "Next bills"
+      "suivant": "Next bills",
+      "dernierEvenement": "Latest event",
+      "point": "Show from bill {n}",
+      "arreter": "Stop scrolling",
+      "reprendre": "Resume scrolling"
     },
     "debats": {
       "surTitre": "The debates",
@@ -595,7 +487,7 @@
     },
     "chiffres": {
       "surTitre": "The figures",
-      "titre": "Parliament's figures, explained",
+      "titre": "Parliament's activity, explained in figures",
       "texte": "A simple dashboard: eleven measures of the current Parliament, recalculated every day. And to go further, the facts in detail: who writes the laws that pass, how many amendments are adopted, do our representatives vote… Each analysis states its source, its method and its limits. No figure is calculated by an AI.",
       "lien": "See where things stand",
       "lien2": "Explore the facts"
@@ -607,12 +499,6 @@
       "garde": "Your representatives stay on your device, like your situation.",
       "lien": "Find my representatives"
     },
-    "confiance": {
-      "surTitre": "Trust",
-      "titre": "Why trust us",
-      "sousTitre": "Rules LoiClair holds itself to on every summary and every figure. Each one can be checked on the site.",
-      "lien": "Our method"
-    },
     "faq": {
       "titre": "Frequently asked questions",
       "sousTitre": "Another question? Write to us at <mail>contact@loiclair.fr</mail>.",
@@ -621,12 +507,6 @@
       "catMethode": "The method",
       "catNeutralite": "Neutrality",
       "catDonnees": "Your data",
-      "gratuitQ": "Is LoiClair free?",
-      "gratuitA": "Yes, and it will stay that way. Everything can be read without an account; no data is sold, no content is paid.",
-      "quiQ": "Who makes LoiClair, and with what means?",
-      "quiA": "A non-profit association founded by four volunteer citizens: no employees, no company, no sponsor and no public subsidy. Its costs are covered by donations from its founders.",
-      "pubQ": "Is there any advertising?",
-      "pubA": "None: no banners, no advertising cookies, no retargeting.",
       "soutenirQ": "How can I support LoiClair?",
       "soutenirA": "By becoming a member of the association, free of charge, or by telling people about the site. The <lien>Support LoiClair</lien> page also lists the funding we turn down.",
       "sourcesQ": "Where does the information come from?",
@@ -635,26 +515,106 @@
       "iaErreurQ": "Can the AI get it wrong?",
       "iaErreurA": "Yes. That is why every summary is marked as written by an AI and names the official text it summarises, which alone is authoritative. Every corrected error is published, with its date.",
       "chiffresQ": "How does LoiClair arrive at its figures?",
-      "modelesQ": "Why these AI models, and not others?",
-      "modelesA": "We choose the model task by task, through tests run on real texts and scored blind. The result is <lien>published</lien>.",
-      "campQ": "Does LoiClair take a political side?",
-      "campA": "No. Summaries and figures are produced from official data, without partisan interpretation. No commentary on the news, no voting advice.",
       "officielQ": "Is LoiClair an official website?",
       "jugementQ": "Does LoiClair judge representatives?",
       "erreurQ": "I found an error: how do I report it?",
       "erreurA": "Through the “An idea? A problem?” link at the bottom of every page, or at contact@loiclair.fr. Every correction goes into the <lien>corrections log</lien>, with its date and what changed.",
-      "situationQ": "What happens to what I tick in “My situation”?",
-      "situationA": "It stays in your browser. LoiClair sends everyone the same data, and your device does the sorting.",
       "ecrireQ": "When I write to a representative, does LoiClair see my message?",
       "ecrireA": "No. The button opens your own email app with the representative's address filled in: the message leaves from your side.",
-      "cookiesQ": "Does LoiClair track me with cookies?",
-      "cookiesA": "No. The only cookies remember your language and serve the anti-bot check. Traffic is measured without cookies, without profiles and without tracking from one site to another.",
-      "emailQ": "What happens to my email if I subscribe to the newsletter?",
-      "emailA": "It is only used to send it to you. You can unsubscribe at any time, or ask for it to be deleted at contact@loiclair.fr."
+      "oui": "Yes.",
+      "methodeLien": "Our method",
+      "iaSignaleeQ": "Are texts written by AI flagged?",
+      "calculQ": "Are the figures calculated by AI?",
+      "surTitre": "Your questions",
+      "fonctionnement": {
+        "q": "How does it actually work?",
+        "a": "From raw data to clear, verifiable information, in seven steps:",
+        "steps": [
+          {
+            "title": "We start from official data",
+            "desc": "What the Assemblée, the Senate, the Government and Légifrance publish."
+          },
+          {
+            "title": "We cross-check the sources",
+            "desc": "We bring them together to reconstruct the full context of a text and of the activity of MPs and senators, against the fragmentation that makes everything unreadable."
+          },
+          {
+            "title": "We dig into the analysis",
+            "desc": "Deeper figures and trends: who votes for what, where a law stands, what actually applies."
+          },
+          {
+            "title": "We build our database",
+            "desc": "Everything is consolidated into the data foundation of LoiClair."
+          },
+          {
+            "title": "We publish the facts, no spin",
+            "desc": "Answers to the big citizen questions, never editorial commentary, always with direct links to the official texts so you can check."
+          },
+          {
+            "title": "We add a layer of AI, on demand",
+            "desc": "To translate texts and debates into plain language; the original sources always stay linked."
+          },
+          {
+            "title": "Full transparency on AI",
+            "desc": "Generation settings published, AI content always flagged."
+          }
+        ]
+      },
+      "equipe": {
+        "q": "Who makes LoiClair, and with what means?",
+        "a": "A non-profit association under the French law of 1901, founded by four volunteer citizens: no employees, no company, no sponsor or public subsidy. Its costs are currently covered by donations from its founders. On the technical side, the site runs on modern, proven building blocks, chosen to stay fast, reliable and cheap to run:"
+      },
+      "campPolitique": {
+        "q": "Does LoiClair back a political side?",
+        "a": "No. Figures and summaries are produced from official institutional data, without partisan interpretation. The only bias is that this data should be accessible to everyone."
+      },
+      "gratuite": {
+        "q": "Is LoiClair free?",
+        "a": "Yes, and it will stay that way. No data is sold, no content is locked behind a paywall."
+      },
+      "publicite": {
+        "q": "Is there advertising on the site?",
+        "a": "None. No banners, no retargeting, no advertising cookies."
+      },
+      "newsletter": {
+        "q": "What happens to my data if I subscribe to the newsletter?",
+        "a": "Your email address is kept in our database, hosted by OVHcloud in the United States until a server in Europe becomes available, and by Resend, the service that sends the newsletter, also in the United States. It is used only to send you the newsletter. You can unsubscribe at any time, or ask for it to be deleted at contact@loiclair.fr."
+      },
+      "cookies": {
+        "q": "Does LoiClair use tracking cookies?",
+        "a": "No. The only cookies, none used for tracking, remember your language choice and serve the anti-bot check on the detail pages. Traffic is measured without cookies (pages viewed, country, device type) so we know what gets read: no profiles are built, there is no tracking across sites, and nothing is matched against your email if you are a subscriber. Your searches stay local to your device."
+      },
+      "modelesIa": {
+        "q": "Why GPT-6 Luna and Claude Haiku 5.5, and not other AI models?",
+        "a": "We choose the model task by task, through tests we run ourselves on real texts, graded blind by other AIs. For law summaries, we compared eight models on accuracy, neutrality, completeness, clarity and quality of examples: GPT-6 Luna (OpenAI, through Mammouth) writes summaries almost as reliable as the best ones, for a price at least 20 times lower. It also writes the summaries of debates and Constitutional Council decisions, and the newsletter. For the short dossier card and the sorting behind “What affects me”, a test specific to each task chose Anthropic's Claude Haiku 5.5, which also translates dossier titles into English. LoiClair does not depend on any of these models: they can be replaced at any time. Full method and results on the <prompts>AI model choice</prompts> page."
+      },
+      "appareil": {
+        "q": "What leaves my device?",
+        "a": "What describes you stays in your browser. LoiClair sends everyone the same data, and your device does the sorting.",
+        "resteTitre": "Stays on your device, LoiClair never receives it:",
+        "reste": [
+          "your situation in “What affects me”;",
+          "your elected officials, and the postcode or country used to find them;",
+          "what you type in searches;",
+          "your quiz answers and scores."
+        ],
+        "partTitre": "Leaves your device:",
+        "part": [
+          "as on any website, your IP address and the page you view, seen by our hosting providers; traffic is measured without cookies;",
+          "what you send us yourself: your email for the newsletter, a report, a membership request, your opinion of the site;",
+          "your IP address, seen by the sites some images come from: your browser downloads officials' photos directly from the National Assembly and the Senate, and the small logos of cited news outlets from Google."
+        ],
+        "fin": "The details, provider by provider, are on the <confidentialite>Privacy</confidentialite> page."
+      }
     },
     "bandeFinale": {
       "titre": "Curious about a law? Read it in two minutes.",
       "sousTitre": "Free, no account, from official sources."
+    },
+    "lettre": {
+      "surTitre": "The Monday letter",
+      "titre": "The week in Parliament, in your inbox every Monday",
+      "texte": "The essentials of the parliamentary week by email: clear, free and non-partisan."
     }
   },
   "dossiers": {

@@ -8,7 +8,8 @@ import { getMessages } from "next-intl/server"
 
 // Mise en page de la seule page d'accueil, qui n'utilise pas AppShell (ni
 // en-tête de page, ni pages sœurs) : elle monte donc elle-même TopNav. La page
-// reçoit en plus du socle les traductions `landing` (TRADUCTIONS_PAR_ROUTE).
+// reçoit en plus du socle les traductions `landing` et `newsletter`, celle-ci pour le
+// formulaire de la section de la lettre (TRADUCTIONS_PAR_ROUTE).
 export default async function LandingLayout({ children, params }: { children: React.ReactNode; params: Promise<{ locale: string }> }) {
   const { locale } = await params
   return (

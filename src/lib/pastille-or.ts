@@ -4,8 +4,7 @@
  * la fiche élu. Partagée pour que les deux bandes, qui vivent sur des pages
  * sœurs, ne divergent pas au premier ajustement. Reprise par « Décrire ma
  * situation » de la section « Ce qui change pour vous », geste du même ordre.
- * La landing en reprend l'or pour figurer ces gestes (`PourVousSection`,
- * `SectionsBand`).
+ * La landing en reprend l'or pour figurer ces gestes (`PourVousSection`).
  *
  * L'or est celui du badge IA et du cadre `AI_FRAME_STYLE` (`rgba(212,165,74,*)`).
  * Les variantes propres à une bande (contour pointillé, remplissage plein)

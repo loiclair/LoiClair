@@ -731,19 +731,42 @@
    cartes `--card`, puisque `--muted` y est plus clair que les cartes. Le crème est
    à mi-chemin entre `--muted` (#F7F5F2), jugé trop soutenu par Alex, et le blanc :
    assez teinté pour que les cartes blanches s'en détachent encore. */
+/* Fond crème de l'accueil, couvert d'un motif d'icônes du travail parlementaire au trait
+   très pâle (`public/images/landing/motif-accueil-*.svg`, icônes Lucide), sur le modèle
+   de texture retenu par Alex (2026-11-22). Les bandes beige et sombre le recouvrent.
+   Sur l'accueil, le texte secondaire fonce (#6B635C, environ 6:1 sur le crème, contre
+   2,5:1 pour le #A8A29E du site) : sur ce motif, le gris clair se confondait avec le
+   trait des icônes (retour d'Alex). Le thème sombre garde le sien, déjà lisible. */
 .landing-page {
   background-color: #FBFAF8;
+  background-image: url("/images/landing/motif-accueil-clair.svg");
+  background-size: 480px 360px;
 }
+/* En thème clair seulement : posée sans condition, elle remplacerait aussi celle du thème
+   sombre, qu'il aurait fallu recopier ici. */
+:root:not(.dark) .landing-page { --muted-foreground: #6B635C; }
 .dark .landing-page {
   background-color: var(--background);
+  background-image: url("/images/landing/motif-accueil-sombre.svg");
 }
+
+/* Bandes pleine largeur des sections (`Bande`, `Maquettes.tsx`). Sur la bande beige, la
+   surface d'une maquette passe au crème pour s'en détacher. La bande sombre porte la classe
+   `dark` : ses variables sont celles du thème sombre, d'où un fond plus foncé encore quand
+   toute la page est en sombre. */
+.landing-bande-beige { background-color: #F1EDE6; }
+.dark .landing-bande-beige { background-color: var(--muted); }
+.landing-bande-beige .landing-surface { background-color: #FBFAF8; }
+.dark .landing-bande-beige .landing-surface { background-color: var(--background); }
+.landing-bande-sombre { background-color: var(--background); color: var(--foreground); }
+.dark .landing-bande-sombre { background-color: oklch(0.13 0.005 60); }
 
 /* Maquettes des sections illustrées (`components/Maquettes.tsx`). La surface qui
    les porte est un cran plus soutenue que le fond de la page, comme les cartes grises
    de Reachable sur fond blanc ; les cartes de la maquette restent en `--card`. En
    sombre, `--muted` est plus clair que `--card` : la surface le prend, et les cartes
    blanches deviennent les plus sombres. `.landing-ligne` figure une ligne de texte,
-   `.landing-carte-maquette` une forme pleine (portrait, tuile, date). */
+   `.landing-carte-maquette` une forme pleine (portrait). */
 .landing-surface { background-color: #F1EDE6; }
 .dark .landing-surface { background-color: var(--muted); }
 .landing-ligne { background-color: #E6E1D9; }
@@ -761,89 +784,11 @@
 }
 .dark .landing-badge-ia { color: #E0B866; background-color: rgba(212, 165, 74, 0.14); }
 
-/* Carte « avant / après » (`LoiEnClair.tsx`) : un cycle de 11 s. Le texte officiel,
-   dense, s'affiche d'abord (`.landing-avant`). Puis un trait doré (`.landing-balayage`)
-   descend du haut au bas de la carte : le texte officiel se découpe au-dessus de lui
-   (`clip-path`), et le résumé (`.landing-apres`) apparaît dans la même découpe. Les
-   trois animations ont les mêmes étapes et la même courbe, donc le trait tombe
-   toujours pile sur la frontière entre les deux. Le résumé reste affiché, puis le
-   texte officiel revient en fondu. Les deux calques ont la hauteur de la case de
-   grille qu'ils partagent, ce qui aligne leurs découpes sur la position du trait.
-   Les animations vivent ici et non en style inline pour que
-   prefers-reduced-motion les coupe : seul le résumé s'affiche alors. */
-.landing-avant, .landing-apres, .landing-balayage {
-  animation-duration: 11s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
-}
-.landing-avant { animation-name: landing-avant; }
-.landing-apres { animation-name: landing-apres; }
-/* Chaque remise à zéro d'une découpe se fait pendant que le calque est invisible
-   (opacité 0 aux deux étapes qui l'encadrent) : interpolée pendant qu'il est visible,
-   elle faisait réapparaître une moitié du calque le temps d'un éclair, le « saut » au
-   retour du cycle. */
-@keyframes landing-avant {
-  0%, 30% { clip-path: inset(0 0 0 0); opacity: 1; }
-  50% { clip-path: inset(100% 0 0 0); opacity: 1; }
-  51%, 88% { clip-path: inset(100% 0 0 0); opacity: 0; }
-  88.5% { clip-path: inset(0 0 0 0); opacity: 0; }
-  96%, 100% { clip-path: inset(0 0 0 0); opacity: 1; }
-}
-@keyframes landing-apres {
-  0%, 30% { clip-path: inset(0 0 100% 0); opacity: 1; }
-  50%, 88% { clip-path: inset(0 0 0 0); opacity: 1; }
-  96% { clip-path: inset(0 0 0 0); opacity: 0; }
-  96.5% { clip-path: inset(0 0 100% 0); opacity: 0; }
-  100% { clip-path: inset(0 0 100% 0); opacity: 1; }
-}
-/* Le calque du trait couvre toute la hauteur de la carte, le trait posé sur son bord
-   haut : un `translateY(100%)` du calque le mène en bas. Une transformation, et non `top`,
-   pour que le navigateur ne recalcule pas la mise en page à chaque image. */
-.landing-balayage {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: -12px;
-  right: -12px;
-  pointer-events: none;
-  animation-name: landing-balayage;
-}
-.landing-balayage::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 2px;
-  border-radius: 999px;
-  background: linear-gradient(90deg, transparent, #D4A54A 15%, #D4A54A 85%, transparent);
-  box-shadow: 0 0 18px 4px rgba(212, 165, 74, 0.45);
-}
-@keyframes landing-balayage {
-  0%, 29% { transform: none; opacity: 0; }
-  30% { transform: none; opacity: 1; }
-  50% { transform: translateY(100%); opacity: 1; }
-  53%, 100% { transform: translateY(100%); opacity: 0; }
-}
-.landing-pastille-avant { animation: landing-pastille-avant 11s ease-in-out infinite; }
-.landing-pastille-apres { animation: landing-pastille-apres 11s ease-in-out infinite; }
-@keyframes landing-pastille-avant {
-  0%, 36% { background-color: var(--foreground); color: var(--background); }
-  42%, 90% { background-color: transparent; color: var(--muted-foreground); }
-  96%, 100% { background-color: var(--foreground); color: var(--background); }
-}
-@keyframes landing-pastille-apres {
-  0%, 36% { background-color: transparent; color: var(--muted-foreground); }
-  42%, 90% { background-color: var(--foreground); color: var(--background); }
-  96%, 100% { background-color: transparent; color: var(--muted-foreground); }
-}
-
-/* Mini-maquettes de « Aussi sur LoiClair » (`SectionsBand.tsx`), et blocs des maquettes
-   de `PourVousSection.tsx` et `SectionsBenefices.tsx` : un cycle de 7 s,
-   chaque forme entrant à son tour (`--ordre` fois 0,15 s), puis restant affichée avant
-   de repartir. `.landing-mini-entree` fait glisser et apparaître, `.landing-mini-x`
-   pousse une barre depuis la gauche, `.landing-mini-y` depuis le bas. */
-.landing-mini-entree, .landing-mini-x, .landing-mini-y {
+/* Blocs animés des maquettes (`PourVousSection.tsx`, `SectionsBenefices.tsx`) : un
+   cycle de 7 s, chaque forme entrant à son tour (`--ordre` fois 0,15 s), puis restant
+   affichée avant de repartir. `.landing-mini-entree` fait
+   glisser et apparaître, `.landing-mini-y` pousse une barre depuis le bas. */
+.landing-mini-entree, .landing-mini-y {
   animation-duration: 7s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-out;
@@ -851,65 +796,20 @@
   animation-delay: calc(var(--ordre, 0) * 0.15s);
 }
 .landing-mini-entree { animation-name: landing-mini-entree; }
-.landing-mini-x { animation-name: landing-mini-x; transform-origin: left center; }
 .landing-mini-y { animation-name: landing-mini-y; transform-origin: center bottom; }
 @keyframes landing-mini-entree {
   0% { opacity: 0; transform: translateX(-8px); }
   12%, 88% { opacity: 1; transform: none; }
   96%, 100% { opacity: 0; transform: translateX(-8px); }
 }
-@keyframes landing-mini-x {
-  0% { transform: scaleX(0); }
-  16%, 88% { transform: scaleX(1); }
-  96%, 100% { transform: scaleX(0); }
-}
 @keyframes landing-mini-y {
   0% { transform: scaleY(0); }
   16%, 88% { transform: scaleY(1); }
   96%, 100% { transform: scaleY(0); }
 }
-/* La réponse choisie du quiz : elle grossit d'un coup, puis garde l'anneau et la teinte
-   de sa couleur (`--choix`, posée en ligne). */
-.landing-mini-choix { animation: landing-mini-choix 7s ease-out infinite both; }
-@keyframes landing-mini-choix {
-  0%, 40% { transform: none; box-shadow: inset 0 0 0 1px var(--border); background-color: transparent; }
-  46% { transform: scale(1.08); }
-  52%, 88% { transform: none; box-shadow: inset 0 0 0 2px var(--choix); background-color: color-mix(in srgb, var(--choix) 14%, transparent); }
-  96%, 100% { transform: none; box-shadow: inset 0 0 0 1px var(--border); background-color: transparent; }
-}
-/* La navette du processus : le texte va au Sénat, s'y arrête, revient, puis le sceau de
-   la promulgation apparaît. Le texte repart de l'Assemblée, donc la boucle ne saute pas.
-   Le rail est déplacé par `transform` (voir `SectionsBand.tsx`), jamais par `left`. */
-.landing-mini-navette { animation: landing-mini-navette 7s ease-in-out infinite both; }
-@keyframes landing-mini-navette {
-  0%, 8% { transform: none; }
-  30%, 42% { transform: translateX(100%); }
-  64%, 100% { transform: none; }
-}
-/* Le numéro de la semaine arrive dans la boîte de réception de la carte Newsletter :
-   il descend d'au-dessus de la liste et apparaît, comme un nouveau message. */
-.landing-mini-arrivee { animation: landing-mini-arrivee 7s ease-out infinite both; }
-@keyframes landing-mini-arrivee {
-  0%, 6% { opacity: 0; transform: translateY(-10px); }
-  18%, 88% { opacity: 1; transform: none; }
-  96%, 100% { opacity: 0; transform: translateY(-10px); }
-}
-.landing-mini-tampon { animation: landing-mini-tampon 7s ease-out infinite both; }
-@keyframes landing-mini-tampon {
-  0%, 66% { opacity: 0; transform: scale(0.6); }
-  74%, 90% { opacity: 1; transform: none; }
-  97%, 100% { opacity: 0; transform: scale(0.6); }
-}
 
 @media (prefers-reduced-motion: reduce) {
-  .landing-avant { animation: none; opacity: 0; }
-  .landing-apres { animation: none; }
-  .landing-balayage { animation: none; opacity: 0; }
-  .landing-pastille-avant { animation: none; color: var(--muted-foreground); }
-  .landing-pastille-apres { animation: none; background-color: var(--foreground); color: var(--background); }
-  .landing-mini-entree, .landing-mini-x, .landing-mini-y { animation: none; }
-  .landing-mini-choix { animation: none; box-shadow: inset 0 0 0 2px var(--choix); }
-  .landing-mini-navette, .landing-mini-tampon, .landing-mini-arrivee { animation: none; }
+  .landing-mini-entree, .landing-mini-y { animation: none; }
 }
 
 /* Rangée de filtres de /dossiers-legislatifs et /les-elus (`ui/FilterBar.tsx`).

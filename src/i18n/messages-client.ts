@@ -59,7 +59,8 @@ export const SOUS_ARBRES_SOCLE = [
  *  `layout.tsx` a déjà posées. Chaque dossier listé a un `layout.tsx` qui appelle
  *  `messagesRoute` avec ce même nom. */
 export const TRADUCTIONS_PAR_ROUTE: Record<string, string[]> = {
-  '(landing)': ['landing'],
+  // `newsletter` : le formulaire d'inscription de la section « La lettre du lundi ».
+  '(landing)': ['landing', 'newsletter'],
   '(app)/about': ['newsletter'],
   '(app)/Activite': ['answerActivite.mesures', 'answerActivite.mesureLabels'],
   '(app)/ce-qui-me-concerne': ['ceQuiMeConcerne', 'scrutinVotes', 'amendementPage'],

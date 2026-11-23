@@ -8,9 +8,9 @@ import { Link } from "@/i18n/navigation"
  * minutes. », puis un bouton vers la liste des textes. Rendue par `(landing)/page.tsx`
  * entre la FAQ et « Nos sources ».
  *
- * Sur une surface beige (`.landing-surface`) et non sur un dégradé teal : l'accueil n'a
- * aucune bande colorée (D-206), et la maquette v8 qui en proposait un s'est vue ramenée
- * à cette règle.
+ * Sur une surface beige aux coins arrondis (`.landing-surface`), et non sur un dégradé
+ * teal comme dans la maquette v8 : les bandes pleine largeur de l'accueil sont celles
+ * des sections, crème, beige ou brun profond (D-375).
  */
 export async function BandeFinale({ locale }: { locale: string }) {
   const [t, tLoi] = await Promise.all([

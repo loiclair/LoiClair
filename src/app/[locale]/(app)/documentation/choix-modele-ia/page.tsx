@@ -128,7 +128,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
  * Les chiffres du tableau, du nuage et de la réponse viennent de `EVALUATION_MODELES` ;
  * le bloc « Qui écrit quoi » et la carte des modèles, des constantes de production.
  * Quelques-uns sont en revanche écrits en dur dans les traductions et ne suivent pas
- * un nouveau banc : `about.faq.q7` (huit modèles, 20 fois moins cher, les deux
+ * un nouveau banc : `landing.faq.modelesIa` (huit modèles, 20 fois moins cher, les deux
  * modèles nommés et leurs tâches), `choixModeleIA.intro` (OpenAI pour le modèle
  * servi par Mammouth, Anthropic pour celui de la fiche courte), `promptsIA.cardModele*` (les deux modèles
  * nommés), `evalLimitesCourt` (0,2 point, 500 000 caractères, GPT-6 Luna en

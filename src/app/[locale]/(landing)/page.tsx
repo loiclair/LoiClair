@@ -2,13 +2,14 @@
 // le hero (titre, recherche, sujets, preuves), « Les lois dans l'actualité », six
 // sections numérotées et illustrées (01 Pour vous, 02 Les lois, 03 Les débats, 04 Les
 // votes, 05 Les chiffres, 06 Vos élus), dont la maquette change de côté d'une section à
-// la suivante, puis 07 « Pourquoi nous faire confiance », « Aussi sur LoiClair », la
-// FAQ, la bande finale et les sources, juste avant le pied de page. La méthode, qui
-// occupait l'ancien accueil, vit dans la section Confiance et dans la FAQ.
-// Lisent la base : `ActualiteLois`, `VotesSection` (le dernier vote) et `ChiffresSection`
-// (le vrai taux de promulgation). Statique, recalculée chaque nuit. Porte aussi la fiche
-// schema.org de l'association éditrice. `.landing-page` (globals.css) pose le fond crème
-// de toute la page.
+// la suivante, puis 07 « La lettre du lundi » (l'inscription à la newsletter), 08 la FAQ
+// (seule FAQ du site), la bande finale et les sources, juste avant le pied de page. La
+// méthode, qui occupait l'ancien accueil, et les règles de confiance vivent dans la FAQ.
+// Les sections alternent leur fond, crème texturé, beige ou brun profond (`Bande`).
+// Lisent la base : `ActualiteLois` (dont les votes et les parcours de ses cartes),
+// `VotesSection` (le dernier vote) et `ChiffresSection` (le vrai taux de promulgation).
+// Statique, recalculée chaque nuit. Porte aussi la fiche schema.org de l'association
+// éditrice. `.landing-page` (globals.css) pose le fond crème texturé de toute la page.
 import type { Metadata } from "next"
 import { notFound } from "next/navigation"
 import { hasLocale } from "next-intl"
@@ -19,11 +20,11 @@ import { ActualiteLois } from "./components/ActualiteLois"
 import { PourVousSection } from "./components/PourVousSection"
 import { LoiEnClair } from "./components/LoiEnClair"
 import { ChiffresSection, DebatsSection, ElusSection, VotesSection } from "./components/SectionsBenefices"
-import { Confiance } from "./components/Confiance"
-import { SectionsBand } from "./components/SectionsBand"
+import { LettreSection } from "./components/LettreSection"
 import { FaqAccueil } from "./components/FaqAccueil"
 import { BandeFinale } from "./components/BandeFinale"
 import { NosSources } from "./components/NosSources"
+import { Bande } from "./components/Maquettes"
 import { ASSOCIATION, FONDATEURS } from "@/lib/association"
 import { buildAlternates, buildOpenGraph } from "@/lib/og-metadata"
 
@@ -88,14 +89,24 @@ export default async function LandingPage({ params }: { params: Promise<{ locale
       />
       <Hero locale={locale} />
       <ActualiteLois locale={locale} />
-      <PourVousSection locale={locale} />
+      {/* Les sections alternent leur fond : crème texturé, beige, brun profond (`Bande`). */}
+      <Bande ton="beige">
+        <PourVousSection locale={locale} />
+      </Bande>
       <LoiEnClair locale={locale} />
-      <DebatsSection locale={locale} />
-      <VotesSection locale={locale} />
+      <Bande ton="beige">
+        <DebatsSection locale={locale} />
+      </Bande>
+      <Bande ton="sombre">
+        <VotesSection locale={locale} />
+      </Bande>
       <ChiffresSection locale={locale} />
-      <ElusSection locale={locale} />
-      <Confiance locale={locale} />
-      <SectionsBand />
+      <Bande ton="beige">
+        <ElusSection locale={locale} />
+      </Bande>
+      <Bande ton="sombre">
+        <LettreSection locale={locale} />
+      </Bande>
       <FaqAccueil locale={locale} />
       <BandeFinale locale={locale} />
       <NosSources locale={locale} />
