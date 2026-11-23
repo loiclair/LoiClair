@@ -1,24 +1,28 @@
-// Landing `/fr`, `/en`, en sections illustrées : hero (présentation et recherche),
-// la carte avant / après (`LoiEnClair`, animée), « Comment on résume les lois »,
-// « Ce que les lois changent pour vous, selon votre situation » (`PourVousSection`),
-// « Comment on arrive à nos chiffres », les règles, « Ce que LoiClair n'est pas »,
-// « Aussi sur LoiClair », puis les sources, juste avant le pied de page. Les sections
-// illustrées changent de côté de maquette d'une section à la suivante. Seule
-// `MethodeChiffres` lit la base, pour le vrai taux de promulgation de sa maquette.
-// Statique. Porte aussi la fiche schema.org de l'association éditrice.
-// `.landing-page` (globals.css) pose le fond crème de toute la page.
+// Landing `/fr`, `/en`, organisée autour de ce que le site apporte au lecteur (LOI-91) :
+// le hero (titre, recherche, sujets, preuves), « Les lois dans l'actualité », six
+// sections numérotées et illustrées (01 Pour vous, 02 Les lois, 03 Les débats, 04 Les
+// votes, 05 Les chiffres, 06 Vos élus), dont la maquette change de côté d'une section à
+// la suivante, puis 07 « Pourquoi nous faire confiance », « Aussi sur LoiClair », la
+// FAQ, la bande finale et les sources, juste avant le pied de page. La méthode, qui
+// occupait l'ancien accueil, vit dans la section Confiance et dans la FAQ.
+// Lisent la base : `ActualiteLois`, `VotesSection` (le dernier vote) et `ChiffresSection`
+// (le vrai taux de promulgation). Statique, recalculée chaque nuit. Porte aussi la fiche
+// schema.org de l'association éditrice. `.landing-page` (globals.css) pose le fond crème
+// de toute la page.
 import type { Metadata } from "next"
 import { notFound } from "next/navigation"
 import { hasLocale } from "next-intl"
 import { getTranslations, setRequestLocale } from "next-intl/server"
 import { routing } from "@/i18n/routing"
 import { Hero } from "./components/Hero"
-import { LoiEnClair } from "./components/LoiEnClair"
+import { ActualiteLois } from "./components/ActualiteLois"
 import { PourVousSection } from "./components/PourVousSection"
-import { MethodeChiffres, MethodeResumes } from "./components/MethodeCard"
-import { ReglesBand } from "./components/ReglesBand"
-import { NEstPas } from "./components/NEstPas"
+import { LoiEnClair } from "./components/LoiEnClair"
+import { ChiffresSection, DebatsSection, ElusSection, VotesSection } from "./components/SectionsBenefices"
+import { Confiance } from "./components/Confiance"
 import { SectionsBand } from "./components/SectionsBand"
+import { FaqAccueil } from "./components/FaqAccueil"
+import { BandeFinale } from "./components/BandeFinale"
 import { NosSources } from "./components/NosSources"
 import { ASSOCIATION, FONDATEURS } from "@/lib/association"
 import { buildAlternates, buildOpenGraph } from "@/lib/og-metadata"
@@ -70,7 +74,7 @@ export default async function LandingPage({ params }: { params: Promise<{ locale
   const { locale } = await params
   // Une adresse d'un seul segment avec un point (`/wp-login.php`) échappe au proxy
   // et arrive ici comme langue. Le `notFound()` du layout ne suffit pas : la page se
-  // rend en même temps que lui, et `toLocaleString()` de `MethodeChiffres` levait une
+  // rend en même temps que lui, et `toLocaleString()` de `ChiffresSection` levait une
   // RangeError, d'où une 500 au lieu de la 404.
   if (!hasLocale(routing.locales, locale)) notFound()
   setRequestLocale(locale)
@@ -82,14 +86,18 @@ export default async function LandingPage({ params }: { params: Promise<{ locale
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(FICHE_ASSOCIATION).replace(/</g, "\\u003c") }}
       />
-      <Hero />
-      <LoiEnClair locale={locale} />
-      <MethodeResumes locale={locale} />
+      <Hero locale={locale} />
+      <ActualiteLois locale={locale} />
       <PourVousSection locale={locale} />
-      <MethodeChiffres locale={locale} />
-      <ReglesBand locale={locale} />
-      <NEstPas locale={locale} />
+      <LoiEnClair locale={locale} />
+      <DebatsSection locale={locale} />
+      <VotesSection locale={locale} />
+      <ChiffresSection locale={locale} />
+      <ElusSection locale={locale} />
+      <Confiance locale={locale} />
       <SectionsBand />
+      <FaqAccueil locale={locale} />
+      <BandeFinale locale={locale} />
       <NosSources locale={locale} />
     </div>
   )

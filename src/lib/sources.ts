@@ -1,6 +1,6 @@
 // Liste unique des sources de données de LoiClair, lue par `/about` (section « Nos
 // sources », une ligne par source), par l'accueil (`NosSources.tsx`, chaque nom court une
-// fois, et la carte « Sources officielles » de `MethodeCard.tsx`) et par les mentions
+// fois) et par les mentions
 // légales (« Nature des données », les noms courts en deux listes). Le libellé et
 // la description de chaque entrée vivent dans les messages, sous
 // `about.sources.<key>Label` et `about.sources.<key>Desc` ; son nom court, sous
@@ -14,9 +14,7 @@
 //
 // L'ordre est celui de l'accueil, les sources d'un même nom court à la suite : `/about`
 // le suit aussi. Une source ajoutée ici apparaît sur `/about` ; elle n'ajoute un nom à
-// l'accueil que si son nom court est nouveau, et une source officielle au nom nouveau
-// entre aussi dans la carte de `MethodeCard`, qui doit tenir sur deux lignes au bureau
-// (`HORS_CARTE_SOURCES`). Le chapô de `/documentation/mcp` ne lit pas encore cette
+// l'accueil que si son nom court est nouveau. Le chapô de `/documentation/mcp` ne lit pas encore cette
 // liste et se met à jour à la main.
 //
 // `lienSource` sert aussi les pastilles de sources des articles des faits

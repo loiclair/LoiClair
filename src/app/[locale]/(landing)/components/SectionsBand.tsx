@@ -4,20 +4,19 @@ import { useState, type CSSProperties, type ReactNode } from "react"
 import { Link } from "@/i18n/navigation"
 import { memoriserLangue } from "@/i18n/choix-langue"
 import { useLocale, useTranslations } from "next-intl"
-import { ArrowRight, BadgeCheck, FileText, Mail, MapPin, Minus, Search, ThumbsDown, ThumbsUp } from "lucide-react"
+import { ArrowRight, BadgeCheck, FileText, Mail, Minus, ThumbsDown, ThumbsUp } from "lucide-react"
 import { RiSparkling2Fill } from "react-icons/ri"
-import { ACTIVE_BASE } from "@/lib/pastille-or"
 import { couleurElement, element, type CleElement } from "@/lib/elements"
 import { Element } from "@/components/ui/Element"
 import { Ligne, STYLE_TITRE_SECTION } from "./Maquettes"
 
-// Section « Aussi sur LoiClair », en fin de landing : treize cartes à mini-maquette
-// animée, à la manière de « Également inclus » chez Reachable. Neuf mènent aux
-// sections du site et prennent le titre du menu (`nav`). Quatre montrent ce qui n'a
-// pas d'entrée au menu : trouver et contacter ses élus, interroger son IA sur un
-// texte, la newsletter, lire le site dans l'autre langue. Leur titre vient de
-// `landing.aussi` (`titre`), comme toutes les descriptions : le namespace
-// `newsletter` n'est pas envoyé au navigateur sur l'accueil.
+// Section « Aussi sur LoiClair », après la section Confiance de la landing : six cartes
+// à mini-maquette animée, les usages que les sections numérotées ne présentent pas. Trois
+// mènent aux sections du site et prennent le titre du menu (`nav`) : le fil
+// d'actualité, le parcours d'une loi, les quiz. Trois montrent ce qui n'a pas d'entrée
+// au menu : interroger son IA sur un texte, la newsletter, lire le site dans l'autre
+// langue. Leur titre vient de `landing.aussi` (`titre`), comme toutes les descriptions :
+// le namespace `newsletter` n'est pas envoyé au navigateur sur l'accueil.
 //
 // La grille se lit comme un petit tableau périodique : chaque carte porte la case de
 // son élément (`lib/elements.ts`) devant son titre, et les cartes suivent l'ordre
@@ -28,43 +27,21 @@ import { Ligne, STYLE_TITRE_SECTION } from "./Maquettes"
 // animations vivent dans `globals.css` (`.landing-mini-*`), pour que
 // prefers-reduced-motion les coupe.
 
-type Cle =
-  | "etatDesLieux"
-  | "actualite"
-  | "lois"
-  | "elus"
-  | "contact"
-  | "pourMoi"
-  | "activite"
-  | "chiffres"
-  | "quiz"
-  | "processus"
-  | "ia"
-  | "newsletter"
-  | "langue"
+type Cle = "actualite" | "quiz" | "processus" | "ia" | "newsletter" | "langue"
 
 // `autreLangue` envoie le lien dans l'autre locale au lieu de la courante. Le lien
 // est la page de l'élément (`route` dans `lib/elements.ts`) : une seule adresse à
 // tenir par rubrique.
 type Carte = { key: Cle; element: CleElement; autreLangue?: true } & (
   | { nav: string }
-  | { titre: "contactTitre" | "iaTitre" | "newsletterTitre" | "langueTitre" }
+  | { titre: "iaTitre" | "newsletterTitre" | "langueTitre" }
 )
 
-// Dans l'ordre des numéros d'élément. Les quatorze premiers sont les rubriques ;
-// le Glossaire n'a pas de carte ici, ni les pages de pied de page (15 et au-delà).
+// Dans l'ordre des numéros d'élément. Les textes, les élus, l'état des lieux, les faits
+// et « Pour moi » ont chacun leur section numérotée plus haut (01 à 06), et n'ont donc
+// plus de carte ici (LOI-91).
 const SECTIONS: Carte[] = [
   { key: "actualite", element: "fil", nav: "newsFeedShort" },
-  { key: "lois", element: "textes", nav: "textes" },
-  { key: "activite", element: "activite", nav: "activite" },
-  { key: "etatDesLieux", element: "etatDesLieux", nav: "etatDesLieux" },
-  { key: "elus", element: "elus", nav: "elus" },
-  // La pastille « Identifier mes élus » de la liste ouvre la recherche par code postal ;
-  // on écrit ensuite depuis la fiche d'un élu, ou depuis la bande « Écrire à mes élus
-  // sur ce texte » de chaque fiche de texte.
-  { key: "contact", element: "contact", titre: "contactTitre" },
-  { key: "pourMoi", element: "pourMoi", nav: "pourMoi" },
-  { key: "chiffres", element: "chiffres", nav: "dashboard" },
   { key: "processus", element: "processus", nav: "legislativeProcess" },
   { key: "quiz", element: "quiz", nav: "quiz" },
   // Les liens vers les IA sont sous chaque résumé ; la page MCP dit comment brancher
@@ -79,8 +56,6 @@ const SECTIONS: Carte[] = [
 
 const PRIMAIRE = "var(--primary)"
 const VERT = "#27AE60"
-const ORANGE = "#F39C12"
-const BLEU = "#3498DB"
 const ROUGE = "#E74C3C"
 
 /** Teinte légère d'une couleur sur le fond de carte, valable en thème clair et sombre. */
@@ -100,15 +75,6 @@ function Pastille({ couleur, taille = 10 }: { couleur: string; taille?: number }
   return <span style={{ display: "block", width: taille, height: taille, borderRadius: 999, flex: "none", backgroundColor: couleur }} />
 }
 
-/** Petite tuile de tableau de bord, pour la maquette de l'état des lieux. */
-function Tuile({ children }: { children: ReactNode }) {
-  return (
-    <div style={{ height: 50, minWidth: 0, padding: 7, borderRadius: 8, border: "1px solid var(--border)", overflow: "hidden" }}>
-      {children}
-    </div>
-  )
-}
-
 /**
  * Demi-cercle de sièges, pour figurer une chambre : deux arcs pointillés épais, chaque
  * tiret un siège. Gris, sans couleur de groupe, qui se lirait comme une composition.
@@ -124,76 +90,6 @@ function Hemicycle() {
 
 /** La mini-maquette de chaque section : une forme qui évoque sa page, sans donnée. */
 const MAQUETTES: Record<Cle, ReactNode> = {
-  // Quatre tuiles de graphiques, comme le tableau de bord : un anneau qui se remplit,
-  // des barres qui montent, une courbe qui se trace, une barre répartie en trois parts.
-  etatDesLieux: (
-    <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 8 }}>
-      <Tuile>
-        <div className="flex items-center" style={{ gap: 8, height: "100%" }}>
-          <svg viewBox="0 0 36 36" style={{ width: 34, height: 34, flex: "none", transform: "rotate(-90deg)" }}>
-            <circle cx="18" cy="18" r="14" fill="none" stroke="var(--border)" strokeWidth="6" />
-            <circle
-              className="landing-mini-jauge"
-              cx="18"
-              cy="18"
-              r="14"
-              fill="none"
-              stroke={PRIMAIRE}
-              strokeWidth="6"
-              strokeLinecap="round"
-              pathLength={100}
-              strokeDasharray="100"
-              strokeDashoffset="38"
-            />
-          </svg>
-          <div style={{ flex: 1, display: "grid", gap: 5 }}>
-            <Ligne largeur={90} hauteur={5} />
-            <Ligne largeur={60} hauteur={5} />
-          </div>
-        </div>
-      </Tuile>
-      <Tuile>
-        <div className="flex items-end" style={{ gap: 4, height: "100%" }}>
-          {[45, 70, 55, 90, 65].map((h, i) => (
-            <Anime key={i} classe="landing-mini-y" ordre={i} style={{ flex: 1, height: `${h}%`, borderRadius: 2, backgroundColor: PRIMAIRE, opacity: i === 3 ? 1 : 0.4 }} />
-          ))}
-        </div>
-      </Tuile>
-      <Tuile>
-        <svg viewBox="0 0 100 36" preserveAspectRatio="none" style={{ display: "block", width: "100%", height: "100%" }}>
-          <polyline
-            className="landing-mini-trace"
-            points="0,30 16,24 30,27 46,15 62,19 78,8 100,4"
-            fill="none"
-            stroke={BLEU}
-            strokeWidth="2"
-            strokeLinejoin="round"
-            strokeLinecap="round"
-            pathLength={100}
-            strokeDasharray="100"
-          />
-        </svg>
-      </Tuile>
-      <Tuile>
-        <div className="flex" style={{ height: 10, gap: 2, borderRadius: 999, overflow: "hidden" }}>
-          {(
-            [
-              [VERT, 46],
-              [ORANGE, 30],
-              [BLEU, 24],
-            ] as const
-          ).map(([c, l], i) => (
-            <span key={i} style={{ width: `${l}%` }}>
-              <Anime classe="landing-mini-x" ordre={i * 2} style={{ height: "100%", backgroundColor: c }} />
-            </span>
-          ))}
-        </div>
-        <div style={{ display: "grid", gap: 5, marginTop: 9 }}>
-          <Ligne largeur={80} hauteur={5} />
-        </div>
-      </Tuile>
-    </div>
-  ),
   // Trois événements datés qui arrivent l'un après l'autre, comme le fil.
   actualite: (
     <div style={{ display: "grid", gap: 12 }}>
@@ -205,110 +101,6 @@ const MAQUETTES: Record<Cle, ReactNode> = {
           </span>
         </Anime>
       ))}
-    </div>
-  ),
-  // La liste des textes : la recherche qui se tape, les filtres dont l'un est actif,
-  // puis deux textes qui arrivent avec leur étiquette de statut.
-  lois: (
-    <div>
-      <div className="flex items-center" style={{ gap: 8, height: 26, padding: "0 10px", borderRadius: 999, border: "1px solid var(--border)" }}>
-        <Search style={{ width: 12, height: 12, flex: "none", color: "var(--muted-foreground)" }} />
-        <span style={{ flex: 1 }}>
-          <Anime classe="landing-mini-x" ordre={0} style={{ width: "46%", height: 6, borderRadius: 999, backgroundColor: "var(--muted-foreground)", opacity: 0.35 }} />
-        </span>
-      </div>
-      <div className="flex" style={{ gap: 6, marginTop: 9 }}>
-        {[44, 56, 38].map((l, i) => (
-          <span
-            key={i}
-            style={{
-              width: l,
-              height: 14,
-              borderRadius: 999,
-              border: `1px solid ${i === 0 ? teinte(PRIMAIRE, 60) : "var(--border)"}`,
-              backgroundColor: i === 0 ? teinte(PRIMAIRE, 16) : undefined,
-            }}
-          />
-        ))}
-      </div>
-      <div style={{ display: "grid", gap: 9, marginTop: 11 }}>
-        {(
-          [
-            [VERT, 88, 54],
-            [ORANGE, 76, 62],
-          ] as const
-        ).map(([c, l1, l2], i) => (
-          <Anime key={i} classe="landing-mini-entree" ordre={3 + i * 2}>
-            <span className="flex items-center" style={{ gap: 10 }}>
-              <span style={{ flex: 1, display: "grid", gap: 4 }}>
-                <Ligne largeur={l1} hauteur={6} />
-                <Ligne largeur={l2} hauteur={5} />
-              </span>
-              <span
-                className="flex items-center justify-center"
-                style={{ width: 34, height: 14, flex: "none", borderRadius: 999, backgroundColor: teinte(c, 18) }}
-              >
-                <Pastille couleur={c} taille={6} />
-              </span>
-            </span>
-          </Anime>
-        ))}
-      </div>
-    </div>
-  ),
-  // Des portraits qui se posent en rang, comme l'annuaire des élus.
-  elus: (
-    <div>
-      <div className="flex">
-        {[0, 1, 2, 3, 4].map((i) => (
-          <Anime
-            key={i}
-            classe="landing-mini-entree landing-carte-maquette"
-            ordre={i}
-            style={{ width: 40, height: 40, borderRadius: 999, marginLeft: i === 0 ? 0 : -8, border: "3px solid var(--card)" }}
-          />
-        ))}
-      </div>
-      <div style={{ display: "grid", gap: 7, marginTop: 14 }}>
-        <Ligne largeur={70} />
-        <Ligne largeur={48} />
-      </div>
-    </div>
-  ),
-  // Trouver puis contacter : cinq chiffres de code postal se tapent, les élus trouvés
-  // arrivent en portraits, l'anneau de chacun à la couleur de son vote sur un texte
-  // (sans le mot), puis la pastille or qui ouvre la messagerie.
-  contact: (
-    <div>
-      <div className="flex items-center" style={{ gap: 8, height: 24, padding: "0 10px", borderRadius: 999, border: "1px solid var(--border)" }}>
-        <MapPin style={{ width: 12, height: 12, flex: "none", color: "var(--muted-foreground)" }} />
-        <span className="flex" style={{ gap: 5 }}>
-          {[0, 1, 2, 3, 4].map((i) => (
-            <Anime
-              key={i}
-              classe="landing-mini-entree"
-              ordre={i}
-              style={{ width: 6, height: 6, borderRadius: 999, backgroundColor: "var(--muted-foreground)", opacity: 0.5 }}
-            />
-          ))}
-        </span>
-      </div>
-      <div className="flex items-center" style={{ gap: 12, marginTop: 12 }}>
-        {[VERT, ROUGE, "var(--muted-foreground)"].map((c, i) => (
-          <Anime key={i} classe="landing-mini-entree" ordre={6 + i} style={{ width: 30, height: 30, flex: "none" }}>
-            <span
-              className="landing-carte-maquette"
-              style={{ display: "block", width: "100%", height: "100%", borderRadius: 999, boxShadow: `0 0 0 2px var(--card), 0 0 0 4px ${teinte(c, 70)}` }}
-            />
-          </Anime>
-        ))}
-        <Anime classe="landing-mini-entree" ordre={10} style={{ marginLeft: 4 }}>
-          <span className="inline-flex items-center" style={{ ...ACTIVE_BASE, gap: 6, height: 22, padding: "0 12px", borderRadius: 999 }}>
-            <Mail style={{ width: 12, height: 12, flex: "none" }} />
-            <span style={{ width: 28, height: 5, borderRadius: 999, backgroundColor: "currentColor", opacity: 0.45 }} />
-          </span>
-        </Anime>
-      </div>
     </div>
   ),
   // Une conversation avec une IA : la question du lecteur à droite, puis la réponse à
@@ -331,67 +123,6 @@ const MAQUETTES: Record<Cle, ReactNode> = {
           </span>
         </span>
       </Anime>
-    </div>
-  ),
-  // Les pastilles de profils de « Ce qui me concerne » : deux se remplissent d'or, la
-  // couleur de `pastille-or.ts`, puis la synthèse arrive en deux lignes.
-  pourMoi: (
-    <div>
-      <div className="flex flex-wrap" style={{ gap: 6 }}>
-        {[52, 40, 60, 46, 36, 50].map((l, i) => (
-          <span
-            key={i}
-            style={{ position: "relative", width: l, height: 16, borderRadius: 999, border: "1px solid var(--border)" }}
-          >
-            {/* L'or recouvre le contour gris (`inset: -1`) et pousse depuis la gauche. */}
-            {(i === 1 || i === 3) && (
-              <Anime classe="landing-mini-x" ordre={i - 1} style={{ ...ACTIVE_BASE, position: "absolute", inset: -1, borderRadius: 999 }} />
-            )}
-          </span>
-        ))}
-      </div>
-      <div style={{ display: "grid", gap: 7, marginTop: 16 }}>
-        {[80, 56].map((l, i) => (
-          <Anime key={i} classe="landing-mini-entree" ordre={5 + i * 2}>
-            <Ligne largeur={l} />
-          </Anime>
-        ))}
-      </div>
-    </div>
-  ),
-  // Un podium à portraits, comme « La réponse » de la page (D-160) : le 2ᵉ à gauche,
-  // le 1ᵉʳ au centre, le 3ᵉ à droite. Les marches montent, puis les portraits s'y posent.
-  activite: (
-    <div className="flex items-end justify-center" style={{ gap: 6, height: 104 }}>
-      {(
-        [
-          [62, 0.55, 1],
-          [86, 1, 0],
-          [44, 0.35, 2],
-        ] as const
-      ).map(([h, o, ordre], i) => (
-        <span key={i} className="flex flex-col items-center" style={{ width: 58, height: "100%", justifyContent: "flex-end" }}>
-          <Anime
-            classe="landing-mini-entree landing-carte-maquette"
-            ordre={4 + ordre}
-            style={{ width: 26, height: 26, borderRadius: 999, marginBottom: 6, border: "2px solid var(--card)", boxShadow: `0 0 0 1.5px ${teinte(PRIMAIRE, o * 100)}` }}
-          />
-          <Anime classe="landing-mini-y" ordre={ordre} style={{ width: "100%", height: `${h - 32}%`, borderRadius: "6px 6px 0 0", backgroundColor: PRIMAIRE, opacity: o }} />
-        </span>
-      ))}
-    </div>
-  ),
-  // Un petit histogramme dont les barres montent, comme les graphiques des articles.
-  chiffres: (
-    <div className="flex items-end" style={{ gap: 10, height: 72 }}>
-      {[38, 62, 48, 80, 56, 70].map((h, i) => (
-        <Anime
-          key={i}
-          classe="landing-mini-y"
-          ordre={i}
-          style={{ flex: 1, height: `${h}%`, borderRadius: 4, backgroundColor: PRIMAIRE, opacity: i === 3 ? 1 : 0.35 }}
-        />
-      ))}
     </div>
   ),
   // Une partie en cours : la progression du quiz, une question, puis trois réponses
@@ -554,9 +285,7 @@ export function SectionsBand() {
         {t("sousTitre")}
       </p>
       {/* Deux cartes par rangée à partir de `sm`, trois à partir de `lg` (six colonnes,
-        deux par carte). Avec treize cartes, la dernière rangée n'en porte qu'une, calée
-        à gauche, dans les deux cas : choix d'Alex du 2026-10-29, plutôt que de retirer
-        une carte. */}
+        deux par carte) : six cartes remplissent toutes les rangées. */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-6" style={{ gap: 16, marginTop: "1.75rem" }}>
         {SECTIONS.map((s) => {
           const on = hovered === s.key

@@ -838,75 +838,8 @@
   96%, 100% { background-color: transparent; color: var(--muted-foreground); }
 }
 
-/* Chemin d'un résumé (`MethodeCard.tsx`) : un cycle de 9 s. Les quatre étapes restent
-   affichées, atténuées, et une mise en valeur passe de l'une à l'autre : l'étape active
-   devient nette, se soulève et prend un liseré (`--anneau`, posé par l'étape : cyan, ou
-   doré là où l'IA intervient), et la flèche vers l'étape suivante s'allume au passage.
-   Chaque rang a ses propres étapes de keyframes sur une horloge commune
-   (`.landing-actif-N`, `.landing-fleche-N`) : un `animation-delay` décalerait aussi la fin
-   du cycle de chacun, et les étapes se désynchroniseraient d'un tour à l'autre. Les
-   lignes du modèle IA scintillent pendant tout le cycle (`.landing-reflet`). */
-.landing-actif-0, .landing-actif-1, .landing-actif-2, .landing-actif-3,
-.landing-fleche-0, .landing-fleche-1, .landing-fleche-2 {
-  animation-duration: 9s;
-  animation-timing-function: ease-in-out;
-  animation-iteration-count: infinite;
-}
-.landing-actif-0 { animation-name: landing-actif-0; }
-@keyframes landing-actif-0 {
-  0%, 21% { opacity: 1; transform: translateY(-2px); box-shadow: 0 16px 32px -24px rgba(28, 25, 23, 0.25), 0 0 0 2px var(--anneau); }
-  27%, 94% { opacity: 0.45; transform: none; box-shadow: 0 16px 32px -24px rgba(28, 25, 23, 0.25), 0 0 0 0 transparent; }
-  100% { opacity: 1; transform: translateY(-2px); box-shadow: 0 16px 32px -24px rgba(28, 25, 23, 0.25), 0 0 0 2px var(--anneau); }
-}
-.landing-actif-1 { animation-name: landing-actif-1; }
-@keyframes landing-actif-1 {
-  0%, 21% { opacity: 0.45; transform: none; box-shadow: 0 16px 32px -24px rgba(28, 25, 23, 0.25), 0 0 0 0 transparent; }
-  27%, 46% { opacity: 1; transform: translateY(-2px); box-shadow: 0 16px 32px -24px rgba(28, 25, 23, 0.25), 0 0 0 2px var(--anneau); }
-  52%, 100% { opacity: 0.45; transform: none; box-shadow: 0 16px 32px -24px rgba(28, 25, 23, 0.25), 0 0 0 0 transparent; }
-}
-.landing-actif-2 { animation-name: landing-actif-2; }
-@keyframes landing-actif-2 {
-  0%, 46% { opacity: 0.45; transform: none; box-shadow: 0 16px 32px -24px rgba(28, 25, 23, 0.25), 0 0 0 0 transparent; }
-  52%, 71% { opacity: 1; transform: translateY(-2px); box-shadow: 0 16px 32px -24px rgba(28, 25, 23, 0.25), 0 0 0 2px var(--anneau); }
-  77%, 100% { opacity: 0.45; transform: none; box-shadow: 0 16px 32px -24px rgba(28, 25, 23, 0.25), 0 0 0 0 transparent; }
-}
-.landing-actif-3 { animation-name: landing-actif-3; }
-@keyframes landing-actif-3 {
-  0%, 71% { opacity: 0.45; transform: none; box-shadow: 0 16px 32px -24px rgba(28, 25, 23, 0.25), 0 0 0 0 transparent; }
-  77%, 94% { opacity: 1; transform: translateY(-2px); box-shadow: 0 16px 32px -24px rgba(28, 25, 23, 0.25), 0 0 0 2px var(--anneau); }
-  100% { opacity: 0.45; transform: none; box-shadow: 0 16px 32px -24px rgba(28, 25, 23, 0.25), 0 0 0 0 transparent; }
-}
-.landing-fleche-0 { animation-name: landing-fleche-0; }
-@keyframes landing-fleche-0 {
-  0%, 19% { color: var(--muted-foreground); transform: none; }
-  23% { color: var(--primary); transform: translateY(3px); }
-  28%, 100% { color: var(--muted-foreground); transform: none; }
-}
-.landing-fleche-1 { animation-name: landing-fleche-1; }
-@keyframes landing-fleche-1 {
-  0%, 44% { color: var(--muted-foreground); transform: none; }
-  48% { color: var(--primary); transform: translateY(3px); }
-  53%, 100% { color: var(--muted-foreground); transform: none; }
-}
-.landing-fleche-2 { animation-name: landing-fleche-2; }
-@keyframes landing-fleche-2 {
-  0%, 69% { color: var(--muted-foreground); transform: none; }
-  73% { color: var(--primary); transform: translateY(3px); }
-  78%, 100% { color: var(--muted-foreground); transform: none; }
-}
-.landing-reflet {
-  background-image: linear-gradient(90deg, transparent 0%, rgba(212, 165, 74, 0.45) 50%, transparent 100%);
-  background-size: 200% 100%;
-  background-repeat: no-repeat;
-  animation: landing-reflet 1.8s linear infinite;
-}
-@keyframes landing-reflet {
-  0% { background-position: 150% 0; }
-  100% { background-position: -50% 0; }
-}
-
-/* Mini-maquettes de « Aussi sur LoiClair » (`SectionsBand.tsx`), et blocs de la maquette
-   de `PourVousSection.tsx` pour `.landing-mini-entree` : un cycle de 7 s,
+/* Mini-maquettes de « Aussi sur LoiClair » (`SectionsBand.tsx`), et blocs des maquettes
+   de `PourVousSection.tsx` et `SectionsBenefices.tsx` : un cycle de 7 s,
    chaque forme entrant à son tour (`--ordre` fois 0,15 s), puis restant affichée avant
    de repartir. `.landing-mini-entree` fait glisser et apparaître, `.landing-mini-x`
    pousse une barre depuis la gauche, `.landing-mini-y` depuis le bas. */
@@ -934,21 +867,6 @@
   0% { transform: scaleY(0); }
   16%, 88% { transform: scaleY(1); }
   96%, 100% { transform: scaleY(0); }
-}
-/* L'anneau de la jauge se remplit : le cercle SVG porte `pathLength="100"`, et son
-   tracé passe de vide à 62 % rempli. */
-.landing-mini-jauge { animation: landing-mini-jauge 7s ease-out infinite both; }
-@keyframes landing-mini-jauge {
-  0% { stroke-dashoffset: 100; }
-  20%, 88% { stroke-dashoffset: 38; }
-  96%, 100% { stroke-dashoffset: 100; }
-}
-/* La courbe de l'état des lieux se trace de gauche à droite (`pathLength="100"`). */
-.landing-mini-trace { animation: landing-mini-trace 7s ease-out infinite both; }
-@keyframes landing-mini-trace {
-  0% { stroke-dashoffset: 100; }
-  24%, 88% { stroke-dashoffset: 0; }
-  96%, 100% { stroke-dashoffset: 100; }
 }
 /* La réponse choisie du quiz : elle grossit d'un coup, puis garde l'anneau et la teinte
    de sa couleur (`--choix`, posée en ligne). */
@@ -987,13 +905,9 @@
   .landing-avant { animation: none; opacity: 0; }
   .landing-apres { animation: none; }
   .landing-balayage { animation: none; opacity: 0; }
-  .landing-actif-0, .landing-actif-1, .landing-actif-2, .landing-actif-3,
-  .landing-fleche-0, .landing-fleche-1, .landing-fleche-2, .landing-reflet { animation: none; }
   .landing-pastille-avant { animation: none; color: var(--muted-foreground); }
   .landing-pastille-apres { animation: none; background-color: var(--foreground); color: var(--background); }
   .landing-mini-entree, .landing-mini-x, .landing-mini-y { animation: none; }
-  .landing-mini-jauge { animation: none; stroke-dashoffset: 38; }
-  .landing-mini-trace { animation: none; stroke-dashoffset: 0; }
   .landing-mini-choix { animation: none; box-shadow: inset 0 0 0 2px var(--choix); }
   .landing-mini-navette, .landing-mini-tampon, .landing-mini-arrivee { animation: none; }
 }

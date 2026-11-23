@@ -1,15 +1,15 @@
 import type { CSSProperties } from "react"
 import Image from "next/image"
-import { ArrowRight, Bookmark, Lightbulb, Target, UserRound, Zap, type LucideIcon } from "lucide-react"
+import { Bookmark, Lightbulb, Target, UserRound, Zap, type LucideIcon } from "lucide-react"
 import { getTranslations } from "next-intl/server"
 
-import { Link } from "@/i18n/navigation"
 import { ASK_AI_SEP_WIDTH, ASK_AI_TARGETS } from "@/lib/ask-ai-targets"
-import { BadgeIA, Ligne, Surface } from "./Maquettes"
+import { BadgeIA, Ligne, SectionIllustree, Surface, TexteSection } from "./Maquettes"
 
 /**
- * Carte « avant / après » sous le hero de la landing, centrée, puis le lien vers la
- * liste des textes. Rendue par `(landing)/page.tsx`.
+ * Section 02 « Les lois » de la landing : « Comprendre une loi en deux minutes », avec
+ * pour maquette la carte « avant / après » (D-256), à gauche. Rendue par
+ * `(landing)/page.tsx`, après `PourVousSection`.
  *
  * La carte est posée dans une fenêtre de navigateur, et les deux pastilles « Texte
  * officiel » et « LoiClair » au-dessus d'elle, hors de la page figurée. L'avant est un
@@ -33,13 +33,13 @@ import { BadgeIA, Ligne, Surface } from "./Maquettes"
 function BlocResume({ icone: Icone, libelle, lignes }: { icone: LucideIcon; libelle: string; lignes: number[] }) {
   return (
     <div>
-      <p className="flex items-center" style={{ gap: 10, fontSize: 16, fontWeight: 600 }}>
-        <Icone aria-hidden style={{ width: 18, height: 18, color: "#06B6D4" }} />
+      <p className="flex items-center" style={{ gap: 8, fontSize: 14, fontWeight: 600 }}>
+        <Icone aria-hidden style={{ width: 16, height: 16, color: "#06B6D4" }} />
         {libelle}
       </p>
-      <div style={{ display: "grid", gap: 9, marginTop: 12 }}>
+      <div style={{ display: "grid", gap: 6, marginTop: 8 }}>
         {lignes.map((l, i) => (
-          <Ligne key={i} largeur={l} hauteur={10} />
+          <Ligne key={i} largeur={l} hauteur={7} />
         ))}
       </div>
     </div>
@@ -111,7 +111,7 @@ function PageOfficielle({ institution, numero, blocs }: { institution: string; n
       <div className="flex items-center" style={{ flex: "none", gap: 8, paddingBottom: 8, marginBottom: 10, borderBottom: "1px solid var(--border)" }}>
         <Image src="/images/institutions/assemblee-nationale-logo.svg" alt="" width={838} height={741} style={{ width: "auto", height: 18 }} />
         <span style={{ fontSize: 9.5, fontWeight: 700, letterSpacing: "0.06em", textTransform: "uppercase" }}>{institution}</span>
-        <span className="text-muted-foreground" style={{ marginLeft: "auto", fontSize: 9.5, fontWeight: 600 }}>
+        <span className="text-muted-foreground" style={{ marginLeft: "auto", fontSize: 9.5, fontWeight: 600, whiteSpace: "nowrap" }}>
           {numero}
         </span>
       </div>
@@ -213,12 +213,12 @@ export async function LoiEnClair({ locale }: { locale: string }) {
   const totalPages = 48
 
   return (
-    // Plus d'air en haut qu'en bas : l'illustration se détache de la recherche du hero.
-    <section
-      className="max-w-[90rem] mx-auto px-10 lg:px-20"
-      style={{ paddingTop: "clamp(4rem, 8vw, 6.5rem)", paddingBottom: "clamp(2.5rem, 5vw, 4rem)", textAlign: "center" }}
-    >
-      <div style={{ maxWidth: 960, marginInline: "auto", textAlign: "left" }}>
+    <SectionIllustree
+      numero={2}
+      surTitre={t("surTitre")}
+      inverse
+      texte={<TexteSection titre={t("titre")} texte={t("texte")} liens={[{ libelle: t("lien"), href: "/dossiers-legislatifs" }]} />}
+      visuel={
         <Surface>
           {/* Les deux états, comme un interrupteur, au-dessus de la fenêtre et non dans la
             page figurée : la pastille active suit l'animation. */}
@@ -316,7 +316,9 @@ export async function LoiEnClair({ locale }: { locale: string }) {
                     overflow: "hidden",
                   }}
                 >
-                  <div style={{ display: "grid", gap: 26, padding: "20px clamp(16px, 3vw, 28px) 24px" }}>
+                  {/* Resserrée depuis que la carte tient dans une demi-colonne (LOI-91) : à
+                    l'ancienne taille, elle doublait la hauteur des autres sections. */}
+                  <div style={{ display: "grid", gap: 16, padding: "16px clamp(14px, 2.5vw, 22px) 18px" }}>
                     <div>
                       <BadgeIA libelle={tResume("aiBadge")} />
                     </div>
@@ -335,12 +337,12 @@ export async function LoiEnClair({ locale }: { locale: string }) {
                   <div
                     style={{
                       marginTop: "auto",
-                      padding: "14px clamp(16px, 3vw, 24px)",
+                      padding: "12px clamp(14px, 2.5vw, 22px)",
                       borderTop: "1px solid rgba(212, 165, 74, 0.3)",
                       backgroundColor: "rgba(212, 165, 74, 0.07)",
                     }}
                   >
-                    <p style={{ fontSize: 14, marginBottom: 6 }}>
+                    <p style={{ fontSize: 13, marginBottom: 6 }}>
                       <span style={{ fontWeight: 600 }}>{tResume("discussWithAITeaser")}</span>{" "}
                       <span style={{ fontWeight: 500, color: "#D4A54A" }}>{tResume("askAILabel")}</span>
                     </p>
@@ -365,16 +367,7 @@ export async function LoiEnClair({ locale }: { locale: string }) {
             </div>
           </figure>
         </Surface>
-      </div>
-
-      <Link
-        href="/dossiers-legislatifs"
-        className="inline-flex items-center hover:underline"
-        style={{ marginTop: "1.75rem", gap: 6, fontSize: "0.9375rem", fontWeight: 600, color: "var(--primary)" }}
-      >
-        {t("lien")}
-        <ArrowRight aria-hidden style={{ width: 16, height: 16 }} />
-      </Link>
-    </section>
+      }
+    />
   )
 }

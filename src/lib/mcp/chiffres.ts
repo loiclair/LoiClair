@@ -19,6 +19,7 @@ import {
 } from '@/lib/facts-queries';
 import { median } from '@/lib/stats';
 import { aujourdhuiAParis } from '@/lib/jour-paris';
+import { ACTES_MARQUANTS } from '@/lib/actes-marquants';
 import { TOTAUX as BUDGET_AN, SIEGES as SIEGES_AN } from '@/lib/budget-assemblee';
 import { TOTAUX as BUDGET_SN, SIEGES as SIEGES_SN } from '@/lib/budget-senat';
 import { lireOuCalculer, cleCache, TTL_COURT, TTL_LONG } from '@/lib/mcp/cache';
@@ -242,34 +243,6 @@ export async function chiffresCles(
 // ---------------------------------------------------------------------------
 
 const ARTICLES_ACTUALITE = ['/Facts/taux-promulgation'];
-
-/**
- * Les actes qui méritent d'être rapportés comme une étape franchie.
- *
- * Les dépôts et les décisions reprennent les familles que `/Facts/delais` suit
- * déjà sur cette table, lectures uniques et navettes comprises : la liste tenue
- * à la main ratait la lecture unique, qui pèse 112 actes sur 2026, davantage que
- * les dépôts du Sénat sur la même période.
- *
- * `PROM-PUB` et non `PROM` : les 148 lignes `PROM` n'ont aucune date, quand son
- * jumeau les porte toutes. Comme les bornes filtrent sur `date_acte`, aucune
- * promulgation ne pouvait sortir d'un outil qui les annonce. `Month/monthQueries.ts`
- * et `api/newsletter/_context.ts` utilisent déjà la forme datée.
- *
- * `DECAPP-PUB` complète la fin du parcours, 114 actes sur 2026 : la promulgation
- * n'est pas le dernier mot d'une loi qui attend ses décrets.
- */
-const ACTES_MARQUANTS = [
-  'AN1-DEPOT', 'AN2-DEPOT', 'ANLDEF-DEPOT', 'ANLUNI-DEPOT', 'ANNLEC-DEPOT',
-  'AN1-DEBATS-DEC', 'AN2-DEBATS-DEC', 'ANLDEF-DEBATS-DEC', 'ANLUNI-DEBATS-DEC', 'ANNLEC-DEBATS-DEC',
-  'CMP-DEBATS-AN-DEC',
-  'SN1-DEPOT', 'SN2-DEPOT', 'SNNLEC-DEPOT',
-  'SN1-DEBATS-DEC', 'SN2-DEBATS-DEC', 'SNNLEC-DEBATS-DEC',
-  'CMP-DEBATS-SN-DEC',
-  'CC-CONCLUSION',
-  'PROM-PUB',
-  'DECAPP-PUB',
-];
 
 export type EvenementParlementaire = {
   dossier_uid: string;

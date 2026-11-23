@@ -98,8 +98,8 @@ export type TauxPromulgationResult = {
  * ligne à ligne.
  *
  * Appelé par /Facts/taux-promulgation, `getEtatDesLieux` (entonnoir, textes déposés
- * par mois) et la maquette « Comment on arrive à nos chiffres » de la landing
- * (`(landing)/components/MethodeCard.tsx`). Les mesures qui portent sur des lois lisent `getLoisPromulguees`.
+ * par mois) et la maquette de la section « Les chiffres » de la landing
+ * (`ChiffresSection`, `(landing)/components/SectionsBenefices.tsx`). Les mesures qui portent sur des lois lisent `getLoisPromulguees`.
  */
 export async function getTauxPromulgation(): Promise<TauxPromulgationResult> {
   // Deux vues agrégées et non les 3 312 dossiers un à un : 103 Ko au lieu des 902 Ko

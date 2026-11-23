@@ -3,13 +3,26 @@
 import { Link, useRouter } from "@/i18n/navigation"
 import { useEffect, useState, type FormEvent } from "react"
 import { useTranslations } from "next-intl"
-import { Search, CornerDownLeft, Landmark, RefreshCw, Code } from "lucide-react"
+import {
+  ArrowRight,
+  Baby,
+  BriefcaseBusiness,
+  CircleCheck,
+  Code,
+  Euro,
+  HeartPulse,
+  House,
+  Landmark,
+  Search,
+  ShieldCheck,
+  type LucideIcon,
+} from "lucide-react"
 
 /**
- * Haut du hero de la landing, sur deux colonnes à partir de `lg` : à gauche le titre,
- * le paragraphe de présentation et trois preuves courtes ; à droite une barre de
- * recherche et trois raccourcis qui ouvrent `/dossiers-legislatifs`. Rendu par
- * `Hero.tsx`.
+ * Contenu du hero de la landing, sur une colonne centrée : le titre, le paragraphe de
+ * présentation, une grande barre de recherche, cinq sujets du quotidien qui ouvrent la
+ * liste des textes filtrée par thème, puis quatre preuves courtes. Rendu par `Hero.tsx`,
+ * qui lui passe les sujets avec leur libellé (`sujets`).
  *
  * La recherche ne cherche rien ici : elle ouvre `/dossiers-legislatifs#q=…`, dont
  * `DossiersResultsClient` joue la requête au montage. La requête reste dans le hash,
@@ -53,37 +66,38 @@ function useTypewriter(words: string[], enPause: boolean): string {
   return displayed
 }
 
+/** Un sujet du hero : son slug de filtre (`#theme=`), son pictogramme et son libellé traduit. */
+export type SujetHero = { slug: string; icone: "logement" | "travail" | "sante" | "argent" | "famille"; libelle: string }
+
+const ICONES_SUJETS: Record<SujetHero["icone"], LucideIcon> = {
+  logement: House,
+  travail: BriefcaseBusiness,
+  sante: HeartPulse,
+  argent: Euro,
+  famille: Baby,
+}
+
+/** Les quatre preuves, chacune une clé de `landing.preuves`. */
 const PREUVES = [
+  { key: "gratuit", icon: CircleCheck },
   { key: "sources", icon: Landmark },
-  { key: "nuit", icon: RefreshCw },
+  { key: "nonPartisan", icon: ShieldCheck },
   { key: "openSource", icon: Code },
 ] as const
 
-/**
- * Trois entrées vers la liste des textes, chacune pour une question de citoyen : ce qui
- * bouge, ce qui va probablement devenir loi, ce qui l'est devenu. Tout passe par le hash,
- * que `useHashFilter` lit au montage : rien à ajouter côté `/dossiers-legislatifs`.
- * « En ce moment » ouvre la liste sans hash, triée par défaut sur la dernière activité.
- * Les textes du gouvernement, à la différence des propositions des parlementaires,
- * deviennent presque tous des lois : une liste courte où chaque ligne compte, là où
- * les dépôts récents mêlaient des centaines de textes sans suite. Le filtre porte sur
- * l'auteur et non sur le type : budget et Sécurité sociale ont chacun leur propre type
- * de procédure, qu'un filtre sur « Projet de loi ordinaire » laissait de côté.
- * Chaque libellé est un `dossiers.quick*` ; la page des textes, elle, montre dans sa
- * rangée de filtres la valeur posée (« Gouvernement », « Statut · 2 »). « Textes promulgués »
- * coche Promulguée et Appliquée : une loi appliquée a d'abord été promulguée, et le statut
- * Promulguée seul ne garde que celles dont un décret d'application manque encore.
- */
-const RACCOURCIS = [
-  { key: "quickNow", hash: "" },
-  { key: "quickGovBills", hash: "#groupe=gouvernement" },
-  { key: "quickPromulgated", hash: "#statut=promulguee,appliquee" },
-] as const
+// Hauteur de la barre et taille du bouton, du téléphone au bureau : 60 px et 48 px
+// jusqu'à 560 px de large, 70 px et 56 px à partir de 960 px. En `clamp` dans le style
+// et non en classes responsives, que Safari lit mal (ARCHITECTURE.md §Pièges Tailwind v4
+// sur Safari). La police, 16 px au moins : en dessous, Safari sur iPhone zoome toute la
+// page dès qu'on touche le champ ; 18 px au bureau.
+const HAUTEUR_BARRE = "clamp(60px, 2.5vw + 46px, 70px)"
+const TAILLE_BOUTON = "clamp(48px, 2vw + 37px, 56px)"
+const POLICE_BARRE = "clamp(16px, 0.5vw + 13.2px, 18px)"
+const MARGE_DROITE = `calc(${TAILLE_BOUTON} + 16px)`
 
-export function HeroSearch() {
+export function HeroSearch({ sujets }: { sujets: SujetHero[] }) {
   const t = useTranslations("landing.hero")
   const tLanding = useTranslations("landing")
-  const tDossiers = useTranslations("dossiers")
   const words = [
     t("typewriter1"),
     t("typewriter2"),
@@ -104,165 +118,143 @@ export function HeroSearch() {
   }
 
   return (
-    // Deux colonnes à partir de `lg` : le texte à gauche, la recherche en face à droite,
-    // centrée sur la hauteur du bloc de gauche. En dessous, une seule colonne, et tout
-    // reste aligné à gauche : un paragraphe de plusieurs lignes centré se lit mal.
-    <div
-      className="grid grid-cols-1 lg:grid-cols-2 lg:items-center"
-      style={{ textAlign: "left", gap: "2.5rem 2rem" }}
-    >
-      <div>
-        {/* La largeur est en `em`, donc en nombre de caractères par ligne : elle suit la
-          taille du titre et coupe le français en trois lignes (« Ce qui se passe » / « au
-          Parlement, traduit » / « en langage courant. ») à toutes les tailles d'écran.
-          Pas de `<br>` dans le message : forcé, il déborderait sur un mobile étroit. */}
-        <h1
-          className="font-bold text-balance"
+    <div style={{ maxWidth: "56rem", marginInline: "auto", textAlign: "center" }}>
+      {/* La largeur est en `em`, donc en nombre de caractères par ligne : elle suit la
+        taille du titre. Pas de `<br>` dans le message : forcé, il déborderait sur un
+        mobile étroit. */}
+      <h1
+        className="font-bold text-balance"
+        style={{
+          fontSize: "clamp(2.1rem, 4.6vw, 3.9rem)",
+          lineHeight: 1.05,
+          letterSpacing: "-0.035em",
+          maxWidth: "15em",
+          marginInline: "auto",
+        }}
+      >
+        {tLanding("heroTitle")}
+      </h1>
+      {/* La signature de fin est la seule partie appuyée, d'où le `rich` sur la balise `b`. */}
+      <p
+        className="text-muted-foreground"
+        style={{
+          marginTop: "1.25rem",
+          maxWidth: "40rem",
+          marginInline: "auto",
+          fontSize: "clamp(1rem, 0.35vw + 0.9rem, 1.125rem)",
+          lineHeight: 1.6,
+        }}
+      >
+        {tLanding.rich("heroPunchline", {
+          // `display: block` plutôt qu'un `<br>` dans le message : la signature garde
+          // sa propre ligne et son espace au-dessus dans les deux langues.
+          b: (c) => (
+            <strong className="font-semibold text-foreground" style={{ display: "block", marginTop: "0.75rem" }}>
+              {c}
+            </strong>
+          ),
+        })}
+      </p>
+      <form
+        role="search"
+        onSubmit={chercher}
+        className="relative w-full"
+        style={{ marginTop: "2rem", marginInline: "auto", maxWidth: "44rem", textAlign: "left" }}
+      >
+        <Search
+          aria-hidden
+          className="absolute top-1/2 -translate-y-1/2 text-muted-foreground"
+          style={{ left: 22, width: 22, height: 22, pointerEvents: "none" }}
+        />
+        {/* La bordure suit le focus par un état, `focus-within` en classe Tailwind étant
+          de ceux qui déraillent sur Safari. */}
+        <input
+          type="text"
+          value={valeur}
+          onChange={(e) => setValeur(e.target.value)}
+          onFocus={() => setFocus(true)}
+          onBlur={() => setFocus(false)}
+          aria-label={t("searchLabel")}
+          enterKeyHint="search"
+          autoComplete="off"
+          className="w-full rounded-full border bg-card shadow-sm outline-none"
           style={{
-            fontSize: "clamp(1.9rem, 3.8vw, 3.25rem)",
-            lineHeight: 1.08,
-            letterSpacing: "-0.03em",
-            maxWidth: "11.5em",
+            height: HAUTEUR_BARRE,
+            paddingLeft: 58,
+            paddingRight: MARGE_DROITE,
+            fontSize: POLICE_BARRE,
+            fontWeight: 500,
+            borderColor: focus ? "var(--primary)" : undefined,
+            transition: "border-color 150ms",
           }}
-        >
-          {tLanding("heroTitle")}
-        </h1>
-        {/* Le paragraphe dit ce que contient le site ; les trois preuves qui le suivent
-          disent d'où viennent les données, à quel rythme elles changent et que le code
-          est ouvert, et ne se répètent donc pas ici. La signature
-          de fin est la seule partie appuyée, d'où le `rich` sur la balise `b`. */}
-        <p
-          className="text-muted-foreground"
-          style={{
-            marginTop: "1.25rem",
-            maxWidth: "34rem",
-            fontSize: "clamp(0.875rem, 0.25vw + 0.79rem, 0.9375rem)",
-            lineHeight: 1.6,
-          }}
-        >
-          {tLanding.rich("heroPunchline", {
-            // `display: block` plutôt qu'un `<br>` dans le message : la signature garde
-            // sa propre ligne et son espace au-dessus dans les deux langues.
-            b: (c) => (
-              <strong
-                className="font-medium text-foreground"
-                style={{ display: "block", marginTop: "0.25rem" }}
-              >
-                {c}
-              </strong>
-            ),
-          })}
-        </p>
-        {/* Les trois preuves décrivent LoiClair entier, pas la recherche : posées sous la
-          barre, elles se lisaient comme ses conditions, et « Mis à jour chaque jour » n'a
-          rien à voir avec le fait de chercher un texte. Elles suivent donc le paragraphe
-          qu'elles appuient. */}
-        <ul
-          className="flex flex-wrap"
-          style={{
-            marginTop: "1.5rem",
-            maxWidth: "34rem",
-            gap: "0.4rem 1.25rem",
-            fontSize: "0.875rem",
-            color: "var(--card-foreground)",
-          }}
-        >
-          {PREUVES.map(({ key, icon: Icon }) => (
-            <li key={key} className="inline-flex items-center" style={{ gap: "0.4rem" }}>
-              <Icon
-                aria-hidden
-                strokeWidth={1.5}
-                style={{
-                  width: 15,
-                  height: 15,
-                  color: "var(--muted-foreground)",
-                }}
-              />
-              {tLanding(`preuves.${key}`)}
-            </li>
-          ))}
-        </ul>
-      </div>
-      <div>
-        {/* Dit ce que fait la barre : sans lui, le seul indice était le mot en train de
-          s'écrire, qui se lit comme un texte déjà saisi. */}
-        <p className="text-muted-foreground" style={{ fontSize: "0.8125rem" }}>
-          {t("searchLabel")}
-        </p>
-        <form
-          role="search"
-          onSubmit={chercher}
-          className="relative w-full"
-          style={{ marginTop: "0.5rem", maxWidth: "34rem" }}
-        >
-          <Search
+        />
+        {/* Champ vide et sans focus : l'invitation « Chercher un texte de loi… » puis un
+          exemple qui s'écrit seul. L'invitation dit ce que fait la barre ; sans elle,
+          l'exemple se lirait comme un texte déjà saisi. Elle est masquée sous `sm`, où
+          elle ne laisserait presque plus de place à l'exemple. Alignement à gauche
+          explicite : centré, le texte se recentrerait à chaque caractère. */}
+        {!valeur && !focus && (
+          <span
             aria-hidden
-            className="absolute top-1/2 -translate-y-1/2 text-muted-foreground"
-            style={{ left: 20, width: 20, height: 20, pointerEvents: "none" }}
-          />
-          {/* 16 px au moins : en dessous, Safari sur iPhone zoome toute la page dès qu'on
-            touche le champ. La bordure suit le focus par un état, `focus-within` en classe
-            Tailwind étant de ceux qui déraillent sur Safari. */}
-          <input
-            type="text"
-            value={valeur}
-            onChange={(e) => setValeur(e.target.value)}
-            onFocus={() => setFocus(true)}
-            onBlur={() => setFocus(false)}
-            aria-label={t("searchLabel")}
-            enterKeyHint="search"
-            autoComplete="off"
-            className="w-full rounded-full border bg-card shadow-sm outline-none"
+            className="absolute top-1/2 -translate-y-1/2"
             style={{
-              height: 58,
-              paddingLeft: 52,
-              paddingRight: 60,
-              fontSize: 16,
-              fontWeight: 500,
-              borderColor: focus ? "var(--primary)" : undefined,
-              transition: "border-color 150ms",
+              left: 58,
+              right: MARGE_DROITE,
+              textAlign: "left",
+              fontSize: POLICE_BARRE,
+              pointerEvents: "none",
+              whiteSpace: "nowrap",
+              overflow: "hidden",
             }}
-          />
-          {/* Les exemples qui s'écrivent seuls n'occupent que le champ vide et sans focus :
-            ils se liraient sinon comme un texte déjà saisi, qu'on chercherait à effacer.
-            Alignement à gauche explicite : centré, le texte se recentrerait à chaque
-            caractère tapé puis effacé. */}
-          {!valeur && !focus && (
-            <span
-              aria-hidden
-              className="absolute top-1/2 -translate-y-1/2 font-medium text-foreground"
-              style={{ left: 52, right: 60, textAlign: "left", fontSize: 16, pointerEvents: "none", whiteSpace: "nowrap", overflow: "hidden" }}
-            >
-              {displayed}
-              <span
-                className="inline-block w-[2px] h-[1em] bg-primary align-text-bottom ml-px"
-                style={{ animation: "blink-cursor 1s steps(1) infinite" }}
-              />
-            </span>
-          )}
-          <button
-            type="submit"
-            aria-label={t("searchLabel")}
-            className="absolute top-1/2 -translate-y-1/2 rounded-full bg-primary text-primary-foreground flex items-center justify-center"
-            style={{ right: 8, width: 40, height: 40 }}
           >
-            <CornerDownLeft aria-hidden style={{ width: 16, height: 16 }} />
-          </button>
-        </form>
-        <ul className="flex flex-wrap" style={{ marginTop: "1rem", gap: "0.5rem", maxWidth: "34rem" }}>
-          {RACCOURCIS.map(({ key, hash }) => (
-            <li key={key}>
+            <span className="max-sm:hidden text-muted-foreground">{t("searchLabel")}… </span>
+            <span className="font-medium text-foreground">{displayed}</span>
+            <span
+              className="inline-block w-[2px] h-[1em] bg-primary align-text-bottom ml-px"
+              style={{ animation: "blink-cursor 1s steps(1) infinite" }}
+            />
+          </span>
+        )}
+        <button
+          type="submit"
+          aria-label={t("searchLabel")}
+          className="absolute top-1/2 -translate-y-1/2 rounded-full bg-primary text-primary-foreground flex items-center justify-center"
+          style={{ right: 7, width: TAILLE_BOUTON, height: TAILLE_BOUTON }}
+        >
+          <ArrowRight aria-hidden style={{ width: 21, height: 21 }} />
+        </button>
+      </form>
+      {/* Cinq sujets du quotidien : chacun ouvre la liste des textes avec son thème coché,
+        par le hash que `DossiersResultsClient` lit au montage. */}
+      <ul className="flex flex-wrap justify-center" style={{ marginTop: "1.25rem", gap: "0.5rem" }}>
+        {sujets.map(({ slug, icone, libelle }) => {
+          const Icone = ICONES_SUJETS[icone]
+          return (
+            <li key={slug}>
               <Link
-                href={`/dossiers-legislatifs${hash}`}
+                href={`/dossiers-legislatifs#theme=${slug}`}
                 className="inline-flex items-center rounded-full border bg-card transition-colors hover:border-primary hover:text-primary"
-                style={{ padding: "0.4rem 0.9rem", fontSize: "0.8125rem", fontWeight: 500 }}
+                style={{ gap: "0.4rem", padding: "0.45rem 0.85rem", fontSize: "0.875rem", fontWeight: 500 }}
               >
-                {tDossiers(key)}
+                <Icone aria-hidden strokeWidth={1.5} style={{ width: 15, height: 15, flex: "none", color: "var(--muted-foreground)" }} />
+                {libelle}
               </Link>
             </li>
-          ))}
-        </ul>
-      </div>
+          )
+        })}
+      </ul>
+      {/* Les quatre preuves décrivent LoiClair entier, pas la recherche. */}
+      <ul
+        className="flex flex-wrap justify-center"
+        style={{ marginTop: "1.5rem", gap: "0.45rem 1.25rem", fontSize: "0.875rem", color: "var(--card-foreground)" }}
+      >
+        {PREUVES.map(({ key, icon: Icon }) => (
+          <li key={key} className="inline-flex items-center" style={{ gap: "0.4rem" }}>
+            <Icon aria-hidden strokeWidth={1.5} style={{ width: 15, height: 15, color: "var(--primary)" }} />
+            {tLanding(`preuves.${key}`)}
+          </li>
+        ))}
+      </ul>
     </div>
   )
 }
