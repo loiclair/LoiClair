@@ -16,6 +16,11 @@ import { ChevronLeft, ChevronRight, Pause, Play } from "lucide-react"
  * gauche des flèches, l'arrête ou le relance : la règle d'accessibilité WCAG 2.2.2 demande
  * un moyen explicite de figer un contenu qui bouge seul plus de 5 s.
  *
+ * Sous 768 px, ni bouton ni flèches (`.carrousel-controles`, masqués en CSS pour que le
+ * rendu serveur soit déjà juste) et donc pas de défilement seul, faute de bouton pour
+ * l'arrêter : le doigt fait glisser les cartes, les points disent où l'on en est (choix
+ * d'Alex du 2026-11-23).
+ *
  * Un point par position possible : avec dix cartes et trois visibles, huit positions, la
  * dernière montrant les trois dernières cartes. Le point actif s'allonge ; un clic y
  * mène. Les cartes sont rendues au serveur et passées en `children`, les libellés en
@@ -30,10 +35,15 @@ const LARGEUR_CARTE = "clamp(16.5rem, calc((100% - 2rem) / 3), 100%)"
 const GOUTTIERE = 16
 const INTERVALLE = 5000
 const MOINS_ANIMATIONS = "(prefers-reduced-motion: reduce)"
+// Même seuil que `.carrousel-controles` dans `globals.css` : sous lui, pas de bouton,
+// donc pas de défilement seul.
+const ECRAN_ETROIT = "(max-width: 767px)"
+// L'une ou l'autre condition fige la rangée.
+const RANGEE_FIGEE = `${MOINS_ANIMATIONS}, ${ECRAN_ETROIT}`
 
-/** Suit la préférence « moins d'animations » du système, et ses changements. */
-function abonnerMoinsAnimations(rappel: () => void) {
-  const requete = window.matchMedia(MOINS_ANIMATIONS)
+/** Suit les deux conditions qui figent la rangée (moins d'animations, écran étroit). */
+function abonnerRangeeFigee(rappel: () => void) {
+  const requete = window.matchMedia(RANGEE_FIGEE)
   requete.addEventListener("change", rappel)
   return () => requete.removeEventListener("change", rappel)
 }
@@ -65,11 +75,12 @@ export function CarrouselActualite({
   const pause = useRef({ survol: false, toucher: false, focus: false })
   // L'arrêt demandé par le lecteur, lui, redessine : il change l'icône du bouton.
   const [arrete, setArrete] = useState(false)
-  // Faux pour qui demande moins d'animations : rien ne défile, le bouton s'éteint. Vrai au
-  // rendu serveur, qui ne connaît pas la préférence.
+  // Faux pour qui demande moins d'animations ou sur un écran étroit : rien ne défile, le
+  // bouton s'éteint (ou n'est pas montré). Vrai au rendu serveur, qui ne connaît ni la
+  // préférence ni la largeur ; la minuterie ne part de toute façon que dans le navigateur.
   const mouvement = !useSyncExternalStore(
-    abonnerMoinsAnimations,
-    () => window.matchMedia(MOINS_ANIMATIONS).matches,
+    abonnerRangeeFigee,
+    () => window.matchMedia(RANGEE_FIGEE).matches,
     () => false,
   )
 
@@ -158,9 +169,12 @@ export function CarrouselActualite({
       {/* Le titre à gauche, les flèches à droite. Les flèches sont toujours rendues, même
         quand tout tient à l'écran (elles sont alors éteintes) : masquées après la mesure,
         elles faisaient remonter les cartes d'une rangée au chargement. */}
-      <div className="flex items-center justify-between" style={{ gap: "0.75rem 1.5rem" }}>
-        <div style={{ minWidth: 0 }}>{entete}</div>
-        <div className="flex" style={{ gap: 8, flex: "none" }}>
+      {/* Le texte prend toute la largeur libre ; sous 768 px, les boutons sont masqués
+        (`.carrousel-controles`). Entre 768 px et une largeur où tout tient sur une ligne,
+        ils passent sous le texte, calés à droite, plutôt que de le serrer en colonne. */}
+      <div className="flex flex-wrap items-center justify-between" style={{ gap: "0.75rem 1.5rem" }}>
+        <div style={{ minWidth: 0, flex: "1 1 20rem" }}>{entete}</div>
+        <div className="carrousel-controles flex" style={{ gap: 8, flex: "none", marginLeft: "auto" }}>
           <button
             type="button"
             onClick={() => setArrete((a) => !a)}

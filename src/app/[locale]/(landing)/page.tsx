@@ -1,5 +1,5 @@
 // Landing `/fr`, `/en`, organisée autour de ce que le site apporte au lecteur (LOI-91) :
-// le hero (titre, recherche, sujets, preuves), « Les lois dans l'actualité », six
+// le hero (titre, recherche, sujets), « Les lois dans l'actualité », six
 // sections numérotées et illustrées (01 Pour vous, 02 Les lois, 03 Les débats, 04 Les
 // votes, 05 Les chiffres, 06 Vos élus), dont la maquette change de côté d'une section à
 // la suivante, puis 07 « La lettre du lundi » (l'inscription à la newsletter), 08 la FAQ

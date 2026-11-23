@@ -403,7 +403,13 @@
       "typewriter3": "finance bill",
       "typewriter4": "renewable energy",
       "typewriter5": "drug trafficking",
-      "searchLabel": "Search for a bill"
+      "searchLabel": "Search for a bill",
+      "tousLesThemes": "All themes",
+      "sujetLogement": "Housing",
+      "sujetTravail": "Work",
+      "sujetSante": "Health",
+      "sujetArgent": "Money and taxes",
+      "sujetFamille": "Family"
     },
     "preuves": {
       "sources": "Official sources",
@@ -608,8 +614,7 @@
       }
     },
     "bandeFinale": {
-      "titre": "Curious about a law? Read it in two minutes.",
-      "sousTitre": "Free, no account, from official sources."
+      "titre": "Curious about a law? Read it in two minutes."
     },
     "lettre": {
       "surTitre": "The Monday letter",

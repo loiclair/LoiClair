@@ -2,27 +2,27 @@
 
 import { Link, useRouter } from "@/i18n/navigation"
 import { useEffect, useState, type FormEvent } from "react"
-import { useTranslations } from "next-intl"
+import { useLocale, useTranslations } from "next-intl"
 import {
   ArrowRight,
   Baby,
   BriefcaseBusiness,
-  CircleCheck,
-  Code,
+  Ellipsis,
   Euro,
   HeartPulse,
   House,
-  Landmark,
   Search,
-  ShieldCheck,
   type LucideIcon,
 } from "lucide-react"
 
 /**
  * Contenu du hero de la landing, sur une colonne centrée : le titre, le paragraphe de
- * présentation, une grande barre de recherche, cinq sujets du quotidien qui ouvrent la
- * liste des textes filtrée par thème, puis quatre preuves courtes. Rendu par `Hero.tsx`,
- * qui lui passe les sujets avec leur libellé (`sujets`).
+ * présentation, une grande barre de recherche, puis cinq sujets du quotidien qui ouvrent
+ * la liste des textes filtrée par thème, suivis de « Tous les thèmes » et de leur nombre
+ * (`nbThemes`, `null` sans base), qui ouvre la liste menu Thème déplié. Les quatre
+ * preuves courtes (gratuit, sources, non partisan, open source) sont dans la carte de
+ * fin, `BandeFinale.tsx`. Rendu par `Hero.tsx`, qui lui passe les sujets (`sujets`) et
+ * le nombre de thèmes (`nbThemes`).
  *
  * La recherche ne cherche rien ici : elle ouvre `/dossiers-legislatifs#q=…`, dont
  * `DossiersResultsClient` joue la requête au montage. La requête reste dans le hash,
@@ -66,8 +66,16 @@ function useTypewriter(words: string[], enPause: boolean): string {
   return displayed
 }
 
-/** Un sujet du hero : son slug de filtre (`#theme=`), son pictogramme et son libellé traduit. */
-export type SujetHero = { slug: string; icone: "logement" | "travail" | "sante" | "argent" | "famille"; libelle: string }
+/**
+ * Un sujet du hero : son slug de filtre (`#theme=`), son pictogramme, son libellé court
+ * traduit et le nom complet du thème, montré en infobulle.
+ */
+export type SujetHero = {
+  slug: string
+  icone: "logement" | "travail" | "sante" | "argent" | "famille"
+  libelle: string
+  nomComplet: string
+}
 
 const ICONES_SUJETS: Record<SujetHero["icone"], LucideIcon> = {
   logement: House,
@@ -77,13 +85,16 @@ const ICONES_SUJETS: Record<SujetHero["icone"], LucideIcon> = {
   famille: Baby,
 }
 
-/** Les quatre preuves, chacune une clé de `landing.preuves`. */
-const PREUVES = [
-  { key: "gratuit", icon: CircleCheck },
-  { key: "sources", icon: Landmark },
-  { key: "nonPartisan", icon: ShieldCheck },
-  { key: "openSource", icon: Code },
-] as const
+// Taille commune des pastilles de sujet et de « Tous les thèmes » : 14 px et marges
+// serrées sur téléphone, pour en tenir deux par ligne dans les 310 px utiles d'un écran
+// de 390 px ; 15 px au bureau. En `clamp`, pour la même raison que la barre ci-dessous.
+const STYLE_PASTILLE = {
+  gap: "0.4rem",
+  padding: "0.5rem clamp(0.75rem, 1.2vw, 0.95rem)",
+  fontSize: "clamp(0.875rem, 0.25vw + 0.8rem, 0.9375rem)",
+  fontWeight: 500,
+  lineHeight: 1.2,
+} as const
 
 // Hauteur de la barre et taille du bouton, du téléphone au bureau : 60 px et 48 px
 // jusqu'à 560 px de large, 70 px et 56 px à partir de 960 px. En `clamp` dans le style
@@ -95,8 +106,9 @@ const TAILLE_BOUTON = "clamp(48px, 2vw + 37px, 56px)"
 const POLICE_BARRE = "clamp(16px, 0.5vw + 13.2px, 18px)"
 const MARGE_DROITE = `calc(${TAILLE_BOUTON} + 16px)`
 
-export function HeroSearch({ sujets }: { sujets: SujetHero[] }) {
+export function HeroSearch({ sujets, nbThemes }: { sujets: SujetHero[]; nbThemes: number | null }) {
   const t = useTranslations("landing.hero")
+  const locale = useLocale()
   const tLanding = useTranslations("landing")
   const words = [
     t("typewriter1"),
@@ -225,34 +237,44 @@ export function HeroSearch({ sujets }: { sujets: SujetHero[] }) {
       </form>
       {/* Cinq sujets du quotidien : chacun ouvre la liste des textes avec son thème coché,
         par le hash que `DossiersResultsClient` lit au montage. */}
-      <ul className="flex flex-wrap justify-center" style={{ marginTop: "1.25rem", gap: "0.5rem" }}>
-        {sujets.map(({ slug, icone, libelle }) => {
+      <ul className="flex flex-wrap justify-center" style={{ marginTop: "1.25rem", gap: "0.45rem" }}>
+        {sujets.map(({ slug, icone, libelle, nomComplet }) => {
           const Icone = ICONES_SUJETS[icone]
           return (
             <li key={slug}>
+              {/* Teinte et survol dans `.landing-sujet` (`globals.css`) ; la flèche dit
+                qu'on part vers une liste, comme sur les autres liens de l'accueil. */}
               <Link
                 href={`/dossiers-legislatifs#theme=${slug}`}
-                className="inline-flex items-center rounded-full border bg-card transition-colors hover:border-primary hover:text-primary"
-                style={{ gap: "0.4rem", padding: "0.45rem 0.85rem", fontSize: "0.875rem", fontWeight: 500 }}
+                title={nomComplet !== libelle ? nomComplet : undefined}
+                className="landing-sujet inline-flex items-center rounded-full"
+                style={{ ...STYLE_PASTILLE, paddingRight: "clamp(0.6rem, 1vw, 0.8rem)" }}
               >
-                <Icone aria-hidden strokeWidth={1.5} style={{ width: 15, height: 15, flex: "none", color: "var(--muted-foreground)" }} />
+                <Icone aria-hidden strokeWidth={1.75} style={{ width: 16, height: 16, flex: "none", color: "var(--primary)" }} />
                 {libelle}
+                <ArrowRight aria-hidden strokeWidth={2} style={{ width: 14, height: 14, flex: "none", color: "var(--primary)" }} />
               </Link>
             </li>
           )
         })}
-      </ul>
-      {/* Les quatre preuves décrivent LoiClair entier, pas la recherche. */}
-      <ul
-        className="flex flex-wrap justify-center"
-        style={{ marginTop: "1.5rem", gap: "0.45rem 1.25rem", fontSize: "0.875rem", color: "var(--card-foreground)" }}
-      >
-        {PREUVES.map(({ key, icon: Icon }) => (
-          <li key={key} className="inline-flex items-center" style={{ gap: "0.4rem" }}>
-            <Icon aria-hidden strokeWidth={1.5} style={{ width: 15, height: 15, color: "var(--primary)" }} />
-            {tLanding(`preuves.${key}`)}
-          </li>
-        ))}
+        {/* Les autres thèmes : la liste des textes, menu Thème déplié par `#ouvrir=`
+          (lu par `FilterBar`). Fond de carte et contour pointillé (`.landing-sujet-tous`)
+          pour qu'on ne la prenne pas pour un sixième thème. */}
+        <li>
+          <Link
+            href="/dossiers-legislatifs#ouvrir=theme"
+            className="landing-sujet-tous inline-flex items-center rounded-full"
+            style={STYLE_PASTILLE}
+          >
+            <Ellipsis aria-hidden strokeWidth={2} style={{ width: 16, height: 16, flex: "none", color: "var(--primary)" }} />
+            {t("tousLesThemes")}
+            {nbThemes !== null && (
+              <span className="text-muted-foreground" style={{ fontVariantNumeric: "tabular-nums" }}>
+                {nbThemes.toLocaleString(locale)}
+              </span>
+            )}
+          </Link>
+        </li>
       </ul>
     </div>
   )

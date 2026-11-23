@@ -9,7 +9,8 @@
 // Un filtre est par défaut une clé du hash, ses valeurs séparées par une virgule
 // (`#statut=promulguee,appliquee&age=moins_6m`, voir `lireListe` de
 // `use-hash-filter`, D-021). Un filtre propre au navigateur passe par `value` et
-// `onChange`, une pastille qui n'est qu'un geste par `onPress`.
+// `onChange`, une pastille qui n'est qu'un geste par `onPress`. `#ouvrir=<clé>`
+// ouvre un menu à l'arrivée (lien « Tous les thèmes » de l'accueil).
 // Les libellés arrivent en props, comme pour tout composant de `ui/` ; seul le
 // format des nombres et de la ponctuation suit `useLocale`.
 
@@ -19,7 +20,7 @@ import { Check, ChevronDown, X } from 'lucide-react';
 import { Popover, PopoverContent, PopoverTrigger } from '@/components/ui/popover';
 import { Sheet, SheetContent, SheetTitle } from '@/components/ui/sheet';
 import { normalizeFr } from '@/lib/search/normalize';
-import { ecrireListe, lireListe, useHashParams, writeHashParam, writeHashParams } from '@/lib/search/use-hash-filter';
+import { ecrireListe, lireListe, readHashParams, useHashParams, writeHashParam, writeHashParams } from '@/lib/search/use-hash-filter';
 
 export type FilterBarOption = {
   slug: string;
@@ -143,6 +144,28 @@ export default function FilterBar({ facets, clearAllLabel, removeLabel, filterPl
   const [decalage, setDecalage] = useState(0);
   const [isMobile, setIsMobile] = useState(false);
 
+  // `#ouvrir=<clé>` à l'arrivée ouvre le menu de ce filtre, puis s'efface du hash :
+  // c'est un geste, pas un filtre, et un lien partagé ensuite ne doit pas le rejouer.
+  // La pastille « Tous les thèmes » de l'accueil arrive ainsi sur le menu Thème
+  // déplié. Lu une seule fois, au premier passage dans le navigateur.
+  const ouvertureLue = useRef(false);
+  useEffect(() => {
+    if (ouvertureLue.current) return;
+    ouvertureLue.current = true;
+    const cle = readHashParams().get('ouvrir');
+    if (cle === null) return;
+    writeHashParam('ouvrir', '');
+    const facet = facets.find((f) => f.key === cle && !f.onPress);
+    if (!facet) return;
+    const declencheur = document.querySelector<HTMLElement>(`[data-filtre="${CSS.escape(cle)}"] button`);
+    if (declencheur && !window.matchMedia(REQUETE_MOBILE).matches) {
+      fairePlace(declencheur);
+      // eslint-disable-next-line react-hooks/set-state-in-effect -- ouverture demandée par l'adresse, lue une fois au montage
+      setDecalage(decalageMenu(declencheur, largeurMenu(facet)));
+    }
+    setOpenKey(cle);
+  }, [facets]);
+
   useEffect(() => {
     const mql = window.matchMedia(REQUETE_MOBILE);
     // eslint-disable-next-line react-hooks/set-state-in-effect -- sync de l'état mobile avec la media query (système externe)
@@ -242,6 +265,7 @@ export default function FilterBar({ facets, clearAllLabel, removeLabel, filterPl
           <span
             key={facet.key}
             className="filter-bar-pill"
+            data-filtre={facet.key}
             data-actif={actif || undefined}
             style={{
               display: 'inline-flex',

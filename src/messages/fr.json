@@ -408,7 +408,13 @@
       "typewriter3": "loi de finances",
       "typewriter4": "énergies renouvelables",
       "typewriter5": "narcotrafic",
-      "searchLabel": "Chercher un texte de loi"
+      "searchLabel": "Chercher un texte de loi",
+      "tousLesThemes": "Tous les thèmes",
+      "sujetLogement": "Logement",
+      "sujetTravail": "Travail",
+      "sujetSante": "Santé",
+      "sujetArgent": "Argent et impôts",
+      "sujetFamille": "Famille"
     },
     "preuves": {
       "sources": "Sources officielles",
@@ -613,8 +619,7 @@
       }
     },
     "bandeFinale": {
-      "titre": "Une loi vous intrigue ? Lisez-la en deux minutes.",
-      "sousTitre": "Gratuit, sans compte, depuis les sources officielles."
+      "titre": "Une loi vous intrigue ? Lisez-la en deux minutes."
     },
     "lettre": {
       "surTitre": "La lettre du lundi",

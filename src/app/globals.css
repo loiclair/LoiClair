@@ -761,6 +761,39 @@
 .landing-bande-sombre { background-color: var(--background); color: var(--foreground); }
 .dark .landing-bande-sombre { background-color: oklch(0.13 0.005 60); }
 
+/* Pastilles de thème du hero (`HeroSearch.tsx`) : fond et contour teintés de teal pour
+   qu'elles se lisent comme des boutons, texte en couleur de texte (le teal sur fond pâle
+   n'est pas assez contrasté pour un libellé), fond plus soutenu au survol. Le mélange
+   part de `--primary`, qui a sa valeur sombre : une seule règle pour les deux thèmes. */
+.landing-sujet {
+  background-color: color-mix(in srgb, var(--primary) 9%, var(--card));
+  border: 1px solid color-mix(in srgb, var(--primary) 38%, transparent);
+  color: var(--foreground);
+  transition: background-color 150ms, border-color 150ms;
+}
+.landing-sujet:hover {
+  background-color: color-mix(in srgb, var(--primary) 18%, var(--card));
+  border-color: var(--primary);
+}
+/* Boutons du carrousel « Les lois dans l'actualité » (`CarrouselActualite.tsx`) :
+   absents sur téléphone, où l'on fait glisser les cartes au doigt et où la rangée ne
+   défile pas seule. En CSS et non après mesure, pour que le HTML du serveur soit juste. */
+@media (max-width: 767px) {
+  .carrousel-controles { display: none !important; }
+}
+/* La pastille « Tous les thèmes » qui les suit : fond de carte et contour pointillé,
+   pour se lire comme « la suite » et non comme un sixième thème. */
+.landing-sujet-tous {
+  background-color: var(--card);
+  border: 1px dashed color-mix(in srgb, var(--primary) 60%, transparent);
+  color: var(--foreground);
+  transition: background-color 150ms, border-color 150ms;
+}
+.landing-sujet-tous:hover {
+  background-color: color-mix(in srgb, var(--primary) 9%, var(--card));
+  border-color: var(--primary);
+}
+
 /* Maquettes des sections illustrées (`components/Maquettes.tsx`). La surface qui
    les porte est un cran plus soutenue que le fond de la page, comme les cartes grises
    de Reachable sur fond blanc ; les cartes de la maquette restent en `--card`. En
