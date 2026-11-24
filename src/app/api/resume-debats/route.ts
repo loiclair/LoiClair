@@ -47,6 +47,7 @@ import {
   MAX_CHARS_PER_CHUNK_DEBATS,
 } from '@/lib/prompts';
 import { auPlusUneLigne, sql } from '@/lib/db';
+import { baseEnLectureSeule } from '@/lib/base-lecture-seule';
 import { lecteurDeTextes } from '@/lib/debats-texte';
 import { lecteurDeGroupes, type GroupeOrgane } from '@/lib/groupe-au-jour';
 import { attendreOuPrendreVerrouIa, consommerPlafondIa, enforceAiRateLimit, plafondIaAtteint, PREFIXE_IA, prendreVerrouIa, rendreVerrouIa, type VerrouIa } from '@/lib/rate-limit';
@@ -70,6 +71,22 @@ import { avecReprises, DELAIS_REPRISE_WEB, delaiLimiteDebit, estQuotaEpuise, REP
 // synthèse précédente ne peut lui être servie.
 
 const SCHEMA = jsonSchema<ResumeDebatsIa>(SCHEMA_RESUME_DEBATS);
+
+/**
+ * Dit si une synthèse en cache, d'une version de prompt quelconque, est un objet
+ * que la carte sait lire (`lireSynthese` côté client). Une synthèse illisible
+ * servie à la place d'une génération afficherait « n'a pas pu être générée » et
+ * un Réessayer qui reçoit à chaque fois le même corps. Appelant : la branche
+ * « base en lecture seule » de POST.
+ */
+function syntheseLisible(texte: string): boolean {
+  try {
+    const objet = JSON.parse(texte) as Partial<ResumeDebatsIa> | null;
+    return Array.isArray(objet?.pour) && Array.isArray(objet?.contre);
+  } catch {
+    return false;
+  }
+}
 
 /** Plafond d'appels IA simultanés dans la phase map. Le plus gros dossier compte
  *  52 séances : toutes lancées d'un coup, elles déclenchent des 429 et perdent le
@@ -474,6 +491,17 @@ export async function POST(request: NextRequest) {
         return cachedTextResponse(cached);
       }
       precedente = cached;
+    }
+
+    // Base en lecture seule (app d'essai) : aucune synthèse ne se génère, elle ne
+    // pourrait pas être rangée et chaque visite la repaierait
+    // (lib/base-lecture-seule). Celle d'une ancienne version ou d'un débat plus
+    // court vaut mieux que rien. Avant la réponse « cache absent » : la première
+    // demande de la carte reçoit déjà l'une ou l'autre.
+    if (await baseEnLectureSeule()) {
+      return cached && syntheseLisible(cached)
+        ? cachedTextResponse(cached)
+        : NextResponse.json({ error: 'aiDisabledHere' }, { status: 403 });
     }
 
     // Première demande de la carte : sans synthèse à jour, 204, et la carte ne

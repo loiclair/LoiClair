@@ -18,7 +18,9 @@ import { DELAI_AVANT_GENERATION_MS, ENTETE_CACHE_SEUL } from '@/lib/resume-ia-de
 const RATE_LIMIT_RESET_HEADER = 'x-ratelimit-reset';
 const RETRY_AFTER_HEADER = 'retry-after';
 
-export type AiErrorKind = 'rate-limit' | 'busy' | 'timeout' | 'generic' | 'quota' | 'unavailable' | 'challenge' | null;
+/** `disabled` : la génération est coupée sur ce serveur, dont la base est en
+ *  lecture seule (l'app d'essai, `aiDisabledHere`, LOI-92). */
+export type AiErrorKind = 'rate-limit' | 'busy' | 'timeout' | 'generic' | 'quota' | 'unavailable' | 'challenge' | 'disabled' | null;
 
 /**
  * En-têtes de la demande, sans le `user-agent` que pose le SDK IA.
@@ -158,7 +160,12 @@ export function useAiErrorStatus() {
       // retombe sur l'erreur générique, qui offre Réessayer. Le corps est lu sur
       // une copie : `useCompletion` relit l'original pour lever son erreur.
       const corps = await res.clone().json().catch(() => null) as { error?: unknown } | null;
-      setErrorKind(corps?.error === 'aiQuotaExhausted' ? 'quota' : 'generic');
+      // `aiDisabledHere` : base en lecture seule (app d'essai), aucune génération.
+      setErrorKind(
+        corps?.error === 'aiQuotaExhausted' ? 'quota'
+        : corps?.error === 'aiDisabledHere' ? 'disabled'
+        : 'generic',
+      );
     } else if (res.status === 400 || res.status === 404) {
       // Refus définitif. Les deux routes ne rendent 400 et 404 que pour une
       // demande qui échouera pareil à chaque essai : texte sans contenu, dossier

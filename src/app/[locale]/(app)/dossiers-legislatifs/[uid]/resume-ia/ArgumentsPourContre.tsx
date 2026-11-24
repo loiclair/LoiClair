@@ -240,9 +240,10 @@ export default function ArgumentsPourContre({
               <AlertCircle className="h-3.5 w-3.5 mt-0.5 shrink-0" />
               <span>{errorKind === 'quota'
                 ? t('generationQuotaExceeded')
+                : errorKind === 'disabled' ? t('generationDisabledHere')
                 : errorKind === 'challenge' ? t('generationChallenge') : t('generationFailed')}</span>
             </span>
-            {errorKind !== 'quota' && (
+            {errorKind !== 'quota' && errorKind !== 'disabled' && (
               <button
                 type="button"
                 onClick={errorKind === 'challenge' ? () => window.location.reload() : handleRetry}

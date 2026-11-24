@@ -1983,7 +1983,8 @@
       "public": "Public vote",
       "solennel": "Formal public vote",
       "motionCensure": "No-confidence motion"
-    }
+    },
+    "generationDisabledHere": "AI summaries are not generated on the test version of the site. Find them on loiclair.fr."
   },
   "errors": {
     "notFoundBadge": "404 · Element not found",

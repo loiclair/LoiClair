@@ -1988,7 +1988,8 @@
       "public": "Scrutin public",
       "solennel": "Scrutin public solennel",
       "motionCensure": "Motion de censure"
-    }
+    },
+    "generationDisabledHere": "Les résumés IA ne sont pas générés sur la version d'essai du site. Retrouvez-les sur loiclair.fr."
   },
   "errors": {
     "notFoundBadge": "404 · Élément introuvable",

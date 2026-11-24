@@ -672,10 +672,11 @@ export default function ResumeIAClient({ uid, initialTextes, statutFinal, datePr
                     <AlertCircle className="h-3.5 w-3.5 mt-0.5 shrink-0" />
                     <span>{errorKind === 'quota'
                       ? t('generationQuotaExceeded')
+                      : errorKind === 'disabled' ? t('generationDisabledHere')
                       : errorKind === 'challenge' ? t('generationChallenge')
                       : errorKind === 'unavailable' ? t('generationUnavailable') : t('generationFailed')}</span>
                   </span>
-                  {errorKind !== 'quota' && errorKind !== 'unavailable' && (
+                  {errorKind !== 'quota' && errorKind !== 'unavailable' && errorKind !== 'disabled' && (
                     <button
                       type="button"
                       onClick={errorKind === 'challenge' ? () => window.location.reload() : relancerResume}

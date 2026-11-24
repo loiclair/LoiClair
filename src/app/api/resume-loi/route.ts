@@ -11,6 +11,7 @@ import { extractText, getDocumentProxy } from 'unpdf';
 import { getSystemPrompt, getUserPromptTemplate, getUserPromptTemplateResumeLoiReduce, getPromptVersion, getSystemPromptResumeLoiMap, getUserPromptTemplateResumeLoiMap, PARAMS_RESUME_LOI, PARAMS_RESUME_LOI_MAP, MODEL_RESUME_LOI, MAX_CHARS_PER_CHUNK_RESUME_LOI, remplirGabarit, decrireEtapeResumeLoi } from '@/lib/prompts';
 import { SCHEMA_RESUME_LOI, type ResumeLoiIa } from '@/lib/ai-schemas';
 import { auPlusUneLigne, sql } from '@/lib/db';
+import { baseEnLectureSeule } from '@/lib/base-lecture-seule';
 import { attendreOuPrendreVerrouIa, consommerPlafondIa, enforceAiRateLimit, plafondIaAtteint, PREFIXE_IA, redis, rendreVerrouIa, type VerrouIa } from '@/lib/rate-limit';
 import { cachedTextResponse } from '@/lib/resume-ai-stream';
 import { reponseCacheAbsent } from '@/lib/resume-ia-delai';
@@ -27,6 +28,22 @@ import { avecReprises, DELAIS_REPRISE_WEB, delaiLimiteDebit, estQuotaEpuise, REP
 // d'une seule génération au lieu de N.
 
 const SCHEMA = jsonSchema<ResumeLoiIa>(SCHEMA_RESUME_LOI);
+
+/**
+ * Dit si un résumé en cache, d'une version de prompt quelconque, est un objet
+ * que la carte sait lire (`lireResume` côté client). Une ligne écrite avant la
+ * migration vers le schéma est restée en markdown : servie telle quelle, la
+ * carte la lit comme « pas encore de contenu » et garde son squelette sans fin.
+ * Appelant : la branche « base en lecture seule » de POST.
+ */
+function resumeLisible(texte: string): boolean {
+  try {
+    const objet = JSON.parse(texte) as Partial<ResumeLoiIa> | null;
+    return Array.isArray(objet?.mesures) && Array.isArray(objet?.exemples);
+  } catch {
+    return false;
+  }
+}
 
 /** Durée pendant laquelle un PDF sans texte est refusé sans être retéléchargé. */
 const DUREE_REFUS_PDF_S = 7 * 24 * 3600;
@@ -282,6 +299,18 @@ export async function POST(request: NextRequest) {
 
     if (!lien && !contenu_legifrance) {
       return NextResponse.json({ error: 'texteUnavailable' }, { status: 400 });
+    }
+
+    // Base en lecture seule (app d'essai) : aucune génération, elle ne pourrait
+    // pas être rangée et chaque visite la repaierait (lib/base-lecture-seule).
+    // Le résumé d'une ancienne version du prompt vaut mieux que rien. Avant la
+    // réponse « cache absent » : la première demande de la carte reçoit déjà
+    // l'un ou l'autre.
+    // Un résumé resté en markdown ne se sert pas : voir resumeLisible.
+    if (await baseEnLectureSeule()) {
+      return cached && resumeLisible(cached)
+        ? cachedTextResponse(cached)
+        : NextResponse.json({ error: 'aiDisabledHere' }, { status: 403 });
     }
 
     // Première demande de la carte : sans cache, 204, et la carte ne redemande
